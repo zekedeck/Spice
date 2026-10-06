@@ -1,5 +1,6 @@
 import logging
 import datetime
+import os
 import time
 
 from atproto import CAR, Client, FirehoseSubscribeReposClient, parse_subscribe_repos_message
@@ -12,23 +13,71 @@ logger = logging.getLogger(__name__)
 _PROFILE_CACHE = {}
 _PROFILE_CACHE_MAX = 10000
 
+_NYC_KEYWORDS = frozenset({
+    "nyc",
+    "new york city",
+    "new york",
+    "manhattan",
+    "brooklyn",
+    "queens",
+    "bronx",
+    "staten island",
+    "williamsburg",
+    "dumbo",
+    "astoria",
+    "chelsea",
+    "midtown",
+    "soho",
+    "tribeca",
+    "harlem",
+    "bed-stuy",
+    "bushwick",
+    "greenwich village",
+    "east village",
+    "lower east side",
+    "financial district",
+    "prospect park",
+    "central park",
+    "times square",
+    "flushing",
+    "coney island",
+    "park slope",
+    "long island city",
+    "flatiron",
+    "hell's kitchen",
+    "upper east side",
+    "upper west side",
+    "washington heights",
+})
+
+
+def _mentions_nyc(text: str) -> bool:
+    lowered = text.lower()
+    return any(keyword in lowered for keyword in _NYC_KEYWORDS)
+
 
 def build_post_url(handle: str, uri: str) -> str:
     rkey = uri.split("/")[-1]
     return f"https://bsky.app/profile/{handle}/post/{rkey}"
 
 
-def run_collector() -> None:
+def run_collector(duration_seconds: int = 180) -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    duration_seconds = int(os.getenv("COLLECTOR_DURATION_SECONDS", duration_seconds))
     conn = init_db(DB_PATH)
 
     client = Client()
     client.login(BSKY_HANDLE, BSKY_APP_PASSWORD)
 
     post_count = 0
+    deadline = time.monotonic() + duration_seconds
 
     def on_message_handler(message) -> None:
         nonlocal post_count
+
+        if time.monotonic() >= deadline:
+            firehose.stop()
+            return
 
         commit = parse_subscribe_repos_message(message)
         if not hasattr(commit, "ops"):
@@ -52,6 +101,9 @@ def run_collector() -> None:
                 did = commit.repo
                 text = record.get("text", "")
                 if not text:
+                    continue
+
+                if not _mentions_nyc(text):
                     continue
 
                 text = text[:4096]
@@ -95,8 +147,15 @@ def run_collector() -> None:
             firehose = FirehoseSubscribeReposClient()
             firehose.start(on_message_handler)
         except Exception as e:
+            if time.monotonic() >= deadline:
+                logger.info("Collector duration elapsed; stopping.")
+                break
             logger.warning("Firehose disconnected: %s. Reconnecting in 5 seconds...", e)
             time.sleep(5)
+            continue
+
+        if time.monotonic() >= deadline:
+            break
 
 
 if __name__ == "__main__":

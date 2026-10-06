@@ -15,5 +15,11 @@ DEFAULT_RADIUS_MILES = 25.0
 # GitHub output
 GEOJSON_OUTPUT = "data/output.geojson"
 
+# MVP data retention — rolling live window + daily archive files
+LIVE_WINDOW_HOURS = 48
+ARCHIVE_RETENTION_DAYS = 30
+LIVE_OUTPUT_PATH = "data/live.geojson"
+ARCHIVE_DIR = "data/archive"
+
 # SQLite database — use absolute path via env var so Fly.io volume persists across deploys
 DB_PATH = os.getenv("DB_PATH", "/data/raw/posts.db")

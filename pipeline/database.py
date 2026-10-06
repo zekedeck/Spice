@@ -29,6 +29,7 @@ def init_db(db_path: str) -> sqlite3.Connection:
     conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_created_at ON posts (created_at)")
 
     init_geocode_cache_table(conn)
+    init_pins_table(conn)
 
     conn.commit()
     return conn
@@ -47,6 +48,31 @@ def init_geocode_cache_table(conn) -> None:
             ttl_days INTEGER DEFAULT 30
         )
     """)
+
+
+def init_pins_table(conn) -> None:
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS pins (
+            pin_id TEXT PRIMARY KEY,
+            post_uri TEXT,
+            post_url TEXT,
+            handle TEXT,
+            text TEXT,
+            post_created_at TEXT,
+            lat REAL,
+            lng REAL,
+            location_text TEXT,
+            mapped_location TEXT,
+            precision TEXT,
+            confidence REAL,
+            candidate_index INTEGER,
+            candidate_total INTEGER,
+            other_locations TEXT,
+            inserted_at TEXT
+        )
+    """)
+
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_pins_post_created_at ON pins (post_created_at)")
 
 
 def insert_post(conn, did, handle, post_uri, post_url, text, created_at) -> bool:
@@ -99,6 +125,48 @@ def prune_old_posts(conn, days: int = 30) -> int:
 def delete_post(conn, post_uri: str) -> None:
     conn.execute("DELETE FROM posts WHERE post_uri = ?", (post_uri,))
     conn.commit()
+
+
+def insert_pin(conn, pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng, location_text, mapped_location, precision, confidence, candidate_index, candidate_total, other_locations=None) -> None:
+    inserted_at = datetime.datetime.utcnow().isoformat()
+    conn.execute(
+        """
+        INSERT OR REPLACE INTO pins
+            (pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng,
+             location_text, mapped_location, precision, confidence, candidate_index,
+             candidate_total, other_locations, inserted_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng,
+         location_text, mapped_location, precision, confidence, candidate_index,
+         candidate_total, other_locations, inserted_at),
+    )
+    conn.commit()
+
+
+def get_pins_since(conn, since_iso: str) -> list:
+    cursor = conn.execute(
+        "SELECT * FROM pins WHERE post_created_at >= ?",
+        (since_iso,),
+    )
+    return [dict(row) for row in cursor.fetchall()]
+
+
+def get_pins_for_range(conn, start_iso: str, end_iso: str) -> list:
+    cursor = conn.execute(
+        "SELECT * FROM pins WHERE post_created_at >= ? AND post_created_at < ?",
+        (start_iso, end_iso),
+    )
+    return [dict(row) for row in cursor.fetchall()]
+
+
+def prune_old_pins(conn, days: int = 30) -> int:
+    cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).isoformat()
+    cursor = conn.execute("DELETE FROM pins WHERE post_created_at < ?", (cutoff,))
+    conn.commit()
+    count = cursor.rowcount
+    logger.info("Pruned %d pins older than %d days", count, days)
+    return count
 
 
 def get_cached_geocode(conn, query_key: str) -> dict | None:

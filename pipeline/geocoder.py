@@ -23,6 +23,9 @@ _STATE_TYPES = {
     "state", "region", "province", "administrative", "county",
 }
 
+NYC_MIN_LAT, NYC_MAX_LAT = 40.50, 40.92
+NYC_MIN_LNG, NYC_MAX_LNG = -74.26, -73.70
+
 
 def init_geocoder(user_agent="Spice/1.0 (NYC Bluesky geolocation map; contact: zeke.deck@gmail.com)"):
     return Nominatim(user_agent=user_agent, timeout=10)
@@ -31,11 +34,16 @@ def init_geocoder(user_agent="Spice/1.0 (NYC Bluesky geolocation map; contact: z
 def geocode_query(query: str, geocoder, conn) -> dict | None:
     cached = get_cached_geocode(conn, query)
     if cached is not None:
-        return cached
+        cached_lat = float(cached["lat"])
+        cached_lng = float(cached["lng"])
+        if NYC_MIN_LAT <= cached_lat <= NYC_MAX_LAT and NYC_MIN_LNG <= cached_lng <= NYC_MAX_LNG:
+            return cached
     try:
         results = geocoder.geocode(
             query, addressdetails=True, language="en",
             exactly_one=False, limit=5,
+            viewbox=[(NYC_MAX_LAT, NYC_MIN_LNG), (NYC_MIN_LAT, NYC_MAX_LNG)],
+            bounded=True,
         )
         if not results:
             return None
@@ -61,6 +69,10 @@ def geocode_query(query: str, geocoder, conn) -> dict | None:
         # Basic range sanity
         if not (-90 <= lat <= 90 and -180 <= lng <= 180):
             logger.warning("Out-of-range coordinates rejected for query %r: %s, %s", query, lat, lng)
+            return None
+
+        if not (NYC_MIN_LAT <= lat <= NYC_MAX_LAT and NYC_MIN_LNG <= lng <= NYC_MAX_LNG):
+            logger.warning("Outside NYC bbox rejected for query %r: %s, %s", query, lat, lng)
             return None
 
         # Importance floor

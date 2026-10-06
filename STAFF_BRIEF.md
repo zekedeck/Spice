@@ -196,7 +196,7 @@ When in doubt, do less. A minimal correct fix beats an elegant over-engineered o
 ## What's NOT Your Job (Phase 2 — don't touch yet)
 
 - GLiNER integration
-- LLM geotagging layer (`pipeline/llm_geotagging.py`)
+- ~~LLM geotagging layer (`pipeline/llm_geotagging.py`)~~ — **built 2026-10-06**, see FRAMEWORK.md's Build Gameplan
 - FastAPI server (`api/`)
 - Photon geocoder swap
 - 4-pillar confidence scorer

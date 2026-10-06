@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GEO2.0 — Live NYC Map</title>
+<meta name="description" content="Live map of geolocated Bluesky posts in New York City." />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.12.0/dist/maplibre-gl.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <h1 class="brand">GEO2.0 <span class="brand-sub">NYC</span></h1>
+
+  <form class="search-form" id="search-form" role="search">
+    <label for="search-input" class="visually-hidden">Search post text</label>
+    <input
+      type="search"
+      id="search-input"
+      name="search"
+      placeholder='Search text — e.g. subway AND NOT "closed"'
+      autocomplete="off"
+    />
+    <button type="submit">Search</button>
+  </form>
+
+  <details class="lookback" id="lookback-details">
+    <summary>Lookback <span id="lookback-summary-text">Live (last 48h)</span></summary>
+    <div class="lookback-panel">
+      <fieldset>
+        <legend>Date range (Eastern Time)</legend>
+        <div class="lookback-row">
+          <label for="lookback-from">From</label>
+          <input type="datetime-local" id="lookback-from" name="lookback-from" />
+        </div>
+        <div class="lookback-row">
+          <label for="lookback-to">To</label>
+          <input type="datetime-local" id="lookback-to" name="lookback-to" />
+        </div>
+        <p class="lookback-hint">Range must fall within the last 30 days. All times are Eastern (ET).</p>
+        <p class="lookback-error" id="lookback-error" role="alert" hidden></p>
+        <div class="lookback-actions">
+          <button type="button" id="lookback-apply">Apply range</button>
+          <button type="button" id="lookback-reset">Back to live</button>
+        </div>
+      </fieldset>
+    </div>
+  </details>
+</header>
+
+<main>
+  <div id="map"></div>
+
+  <div class="legend" aria-hidden="true">
+    <span class="legend-item"><span class="legend-dot" style="background:#f2b84b"></span>Address</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#4fd1c5"></span>City / neighborhood</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#8b8fe0"></span>State / other</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#d9824a"></span>Low confidence</span>
+  </div>
+
+  <aside id="detail-panel" aria-hidden="true" aria-labelledby="detail-panel-title">
+    <button type="button" id="detail-close" aria-label="Close panel">&times;</button>
+    <div id="detail-content">
+      <h2 id="detail-panel-title" class="visually-hidden">Post detail</h2>
+    </div>
+  </aside>
+</main>
+
+<p id="status-line" class="status-line" role="status" aria-live="polite"></p>
+
+<script src="https://unpkg.com/maplibre-gl@6.12.0/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

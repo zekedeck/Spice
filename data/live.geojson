@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-06T03:50:29.688976Z",
-    "total_pins": 4
+    "generated_at": "2026-10-06T10:51:13.202516Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -86,6 +86,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awsufdd5ts7xnfssn2bkre2z/app.bsky.feed.post/3mx7aywcrec2z",
+        "handle": "thevaleriehalla.bsky.social",
+        "text": "Just realized I have to transfer at Times Square to get to/from my hotel for the entire work trip 😩",
+        "created_at": "2026-10-06T10:48:39.068Z",
+        "source": "https://bsky.app/profile/thevaleriehalla.bsky.social/post/3mx7aywcrec2z",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4y6u3rjyibwgx6v7blvjwhcq/app.bsky.feed.post/3mx7b5ahigk2u",
+        "handle": "wmbfnews.com",
+        "text": "71-year-old man thrown from bike, killed after hitting dog in Central Park  #usnews",
+        "created_at": "2026-10-06T10:51:03.878Z",
+        "source": "https://bsky.app/profile/wmbfnews.com/post/3mx7b5ahigk2u",
+        "mapped_location": "Central Park, New York County, New York, 11025, United States",
+        "precision_level": "address",
+        "location_text": "Central Park",
         "confidence": 0.95
       }
     }

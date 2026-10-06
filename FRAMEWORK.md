@@ -57,8 +57,8 @@ Status: architecture decided, repo live (private) at github.com/zekedeck/Spice, 
 |---|---|---|
 | 0 | Architecture, logins, repo, UI design | **Done** |
 | 1 | P0 bug fixes — 5 independent fixes across 5 files (STAFF_BRIEF.md Workers A–E), dispatched to parallel subagent workers, no interdependencies | **Done** (2026-10-06) |
-| 2 | Collector batch-mode rework — convert from persistent firehose-stream listener to "connect for a short window, grab posts, exit" so it fits a GitHub Actions job; add the NYC bounding-box filter before DB write | Not started |
-| 3 | Geocoder NYC-bbox wiring — confirm public Nominatim calls (not Photon, see correction above) use the NYC bbox bias + hard rejects from Worker D's fixes | Not started |
+| 2 | Collector batch-mode rework — convert from persistent firehose-stream listener to "connect for a short window, grab posts, exit" so it fits a GitHub Actions job; add the NYC keyword filter before DB write | **Done** (2026-10-06) — `run_collector(duration_seconds=180)`, stops via the real `.stop()` API; NYC keyword pre-filter added |
+| 3 | Geocoder NYC-bbox wiring — Nominatim query biased + hard-bounded to the NYC bbox, including on cache hits | **Done** (2026-10-06) |
 | 4 | Boolean keyword search backend — parse AND / OR / NOT / quoted-phrase expressions against post text; new requirement driven by the finalized UI | Not started |
 | 5 | GitHub Actions workflow (`.github/workflows/`) — 10-min cron, runs collect→filter→NLP→Groq→geocode→write, commits `data/live.geojson` + `data/archive/YYYY-MM-DD.geojson`, prunes archive past 30 days | Not started |
 | 6 | Frontend build — real MapLibre GL JS + OpenFreeMap tiles (dark style), matching the approved mockup's interaction design exactly | Not started |

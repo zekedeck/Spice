@@ -28,7 +28,7 @@ A live map showing geolocated Bluesky posts, updated in real time, hosted entire
 | Server | Fly.io, always-on, supervisord | **None.** GitHub Actions scheduled workflow runs for a few minutes per cycle, then exits |
 | Backend API | FastAPI + WebSocket | **None.** Frontend fetches a static GeoJSON file straight off GitHub Pages |
 | Update model | Live WebSocket push | **Polling refresh, every 10 minutes** (GitHub Actions cron floor is 5 min; 10 min gives safety margin against scheduling jitter and keeps the LLM queue drained between runs — 6 min is viable later if a tighter cadence is wanted, just leaner on margin) |
-| Geocoder | Self-hosted Photon (US-wide, ~2.5GB index) | Self-hosted Photon, **NYC-only extract** (much smaller/faster to build) |
+| Geocoder | Self-hosted Photon (US-wide, ~2.5GB index) | **Public Nominatim, NYC-bbox biased.** Correction (2026-10-05): self-hosted Photon needs a persistent server to answer queries, which the no-server MVP doesn't have — an ephemeral Actions job can't host it. Public Nominatim needs zero account/API key, and the bbox bias + hard-reject validation (Null Island, importance floor < 0.02, range check) already planned below fixes the original wrong-country problem without Photon. Rate-limited to ~1 req/sec, which is fine at NYC MVP volume. |
 | LLM | Groq → Groq 70b → Gemini Flash fallback chain | **Groq only** (llama-3.1-8b). Considered dropping the LLM entirely for pure rule-based NYC-bbox geocoding, and considered Hugging Face as an alternative — rejected: self-hosting an HF model on GitHub Actions' CPU-only ephemeral runners is too slow (model load time alone eats the 10-min run budget), and HF's hosted inference API would add a login rather than remove one. Groq kept as-is: free, fast, built for exactly this "ephemeral job calls an API" shape. |
 | Hosting accounts needed | 8: Fly.io, Oracle ARM, Cloudflare R2, Groq, Gemini, OpenCage, GitHub, Bluesky | **3: GitHub, Groq, Bluesky** |
 | Data retention | N/A (live DB, no retention policy defined) | See "MVP Data Retention" below |
@@ -45,7 +45,7 @@ A live map showing geolocated Bluesky posts, updated in real time, hosted entire
 2. **Groq** — free LLM API; user to create account at console.groq.com and generate a key (key goes into GitHub Actions repo secrets, never into chat or committed code)
 3. **Bluesky** — app password already present locally in `.env` (`BSKY_HANDLE`, `BSKY_APP_PASSWORD`)
 
-**Dropped for MVP** (not needed at NYC-only volume; all were backup/overflow capacity for global scale): Fly.io, Oracle Always Free ARM, Cloudflare R2 + Litestream, OpenCage, Gemini Flash overflow.
+**Dropped for MVP** (not needed at NYC-only volume; all were backup/overflow capacity for global scale, or — for Photon — incompatible with having no persistent server): Fly.io, Oracle Always Free ARM, Cloudflare R2 + Litestream, OpenCage, Gemini Flash overflow, self-hosted Photon.
 
 ---
 

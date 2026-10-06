@@ -9,11 +9,12 @@
   "use strict";
 
   var ET_ZONE = "America/New_York";
-  var LIVE_REFRESH_MS = 10 * 60 * 1000; // matches the pipeline's 10-min cadence
+  var LIVE_REFRESH_MS = 6 * 60 * 1000; // matches the pipeline's 6-min cadence
 
   var map = null;
   var mode = "live"; // "live" | "archive"
-  var allFeatures = []; // currently loaded feature set (post-lookback, pre-search)
+  var allFeatures = []; // currently loaded map-pin feature set (post-lookback, pre-search)
+  var allStateMentions = []; // currently loaded state/country-precision features (post-lookback, pre-search)
   var selectedUri = null;
   var liveRefreshTimer = null;
 
@@ -30,6 +31,9 @@
   var lookbackError = document.getElementById("lookback-error");
   var lookbackSummaryText = document.getElementById("lookback-summary-text");
   var lookbackDetails = document.getElementById("lookback-details");
+  var statePanelList = document.getElementById("state-panel-list");
+  var statePanelCount = document.getElementById("state-panel-count");
+  var statePanelEmpty = document.getElementById("state-panel-empty");
 
   function setStatus(msg) {
     statusLine.textContent = msg || "";
@@ -292,6 +296,27 @@
     return features;
   }
 
+  // Low-specificity mentions (state/country precision) are misleading as map
+  // pins since they all collapse onto the same generic centroid. Split them
+  // out so they never reach the "pins" source and instead render as a list.
+  function isStateMention(feature) {
+    var level = ((feature.properties && feature.properties.precision_level) || "").toLowerCase();
+    return level === "state" || level === "country";
+  }
+
+  function splitFeatures(features) {
+    var pins = [];
+    var stateMentions = [];
+    for (var i = 0; i < features.length; i++) {
+      if (isStateMention(features[i])) {
+        stateMentions.push(features[i]);
+      } else {
+        pins.push(features[i]);
+      }
+    }
+    return { pins: pins, stateMentions: stateMentions };
+  }
+
   function currentAst() {
     var raw = searchInput.value.trim();
     if (!raw) return null;
@@ -300,13 +325,15 @@
 
   function applyFilters() {
     var ast = currentAst();
-    var filtered = ast ? allFeatures.filter(function (f) { return matchesSearch(f, ast); }) : allFeatures.slice();
+    var filteredPins = ast ? allFeatures.filter(function (f) { return matchesSearch(f, ast); }) : allFeatures.slice();
+    var filteredStateMentions = ast ? allStateMentions.filter(function (f) { return matchesSearch(f, ast); }) : allStateMentions.slice();
     clearSelection();
     var source = map.getSource("pins");
     if (source) {
-      source.setData({ type: "FeatureCollection", features: filtered });
+      source.setData({ type: "FeatureCollection", features: filteredPins });
     }
-    setStatus(filtered.length + " pin" + (filtered.length === 1 ? "" : "s") + " shown");
+    renderStateMentions(filteredStateMentions);
+    setStatus(filteredPins.length + " pin" + (filteredPins.length === 1 ? "" : "s") + " shown");
   }
 
   // ---------------------------------------------------------------------
@@ -322,7 +349,10 @@
         return res.json();
       })
       .then(function (geojson) {
-        allFeatures = annotate((geojson && geojson.features) || []);
+        var annotated = annotate((geojson && geojson.features) || []);
+        var split = splitFeatures(annotated);
+        allFeatures = split.pins;
+        allStateMentions = split.stateMentions;
         applyFilters();
       })
       .catch(function (err) {
@@ -360,7 +390,10 @@
         var created = new Date(f.properties.created_at).getTime();
         return created >= fromMs && created <= toMs;
       });
-      allFeatures = annotate(inRange);
+      var annotated = annotate(inRange);
+      var split = splitFeatures(annotated);
+      allFeatures = split.pins;
+      allStateMentions = split.stateMentions;
       applyFilters();
       lookbackSummaryText.textContent = formatEt(fromUtc) + " → " + formatEt(toUtc);
     });
@@ -495,6 +528,34 @@
     detailPanel.setAttribute("aria-hidden", "false");
   }
 
+  function truncateSnippet(text, maxLen) {
+    var t = text || "";
+    return t.length > maxLen ? t.slice(0, maxLen).trim() + "…" : t;
+  }
+
+  // Renders the left-side "State mentions" sidebar list. Clicking an entry
+  // opens the same right-side detail panel used for map pins.
+  function renderStateMentions(features) {
+    statePanelCount.textContent = "(" + features.length + ")";
+    statePanelEmpty.hidden = features.length !== 0;
+    statePanelList.innerHTML = "";
+    for (var i = 0; i < features.length; i++) {
+      var feature = features[i];
+      var p = feature.properties;
+      var item = document.createElement("button");
+      item.type = "button";
+      item.className = "state-mention-item";
+      item.innerHTML =
+        '<span class="state-mention-handle">' + escapeHtml(p.handle || "unknown") + "</span>" +
+        '<span class="state-mention-snippet">' + escapeHtml(truncateSnippet(p.text, 80)) + "</span>" +
+        '<span class="state-mention-time">' + escapeHtml(timeAgo(p.created_at)) + "</span>";
+      item.addEventListener("click", (function (f) {
+        return function () { openPanel(f); };
+      })(feature));
+      statePanelList.appendChild(item);
+    }
+  }
+
   function clearSelection() {
     selectedUri = null;
     detailPanel.setAttribute("aria-hidden", "true");
@@ -621,7 +682,11 @@
       });
 
       map.on("click", "unclustered-point", function (e) {
-        if (e.features && e.features[0]) openPanel(e.features[0]);
+        if (e.features && e.features[0]) {
+          var feature = e.features[0];
+          map.easeTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
+          openPanel(feature);
+        }
       });
 
       map.on("click", "clusters", function (e) {

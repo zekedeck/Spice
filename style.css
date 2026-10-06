@@ -322,6 +322,83 @@ main {
   font-weight: 600;
 }
 
+/* ===== State mentions panel (left side) ===== */
+
+#state-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  max-width: 85vw;
+  background: var(--panel-bg);
+  border-right: 1px solid var(--panel-border);
+  box-shadow: 8px 0 24px rgba(0, 0, 0, 0.4);
+  padding: 1rem 1.1rem;
+  overflow-y: auto;
+  z-index: 6;
+}
+
+#state-panel-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.8rem 0;
+}
+
+.state-panel-count {
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.state-panel-empty {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.state-panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.state-mention-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.2rem;
+  text-align: left;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.state-mention-item:hover {
+  border-color: var(--accent);
+}
+
+.state-mention-handle {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.state-mention-snippet {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.3;
+}
+
+.state-mention-time {
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+}
+
 /* ===== Legend ===== */
 
 .legend {
@@ -412,9 +489,25 @@ main {
     transform: translateY(0);
   }
 
+  /* Stacks above the detail panel's bottom sheet: state mentions get the
+     top 35vh band, the detail panel (when open) owns the bottom 65vh, so
+     the two never overlap. */
+  #state-panel {
+    top: 0;
+    left: 0;
+    width: 78vw;
+    max-width: 78vw;
+    height: auto;
+    max-height: 35vh;
+    border-right: 1px solid var(--panel-border);
+    border-bottom: 1px solid var(--panel-border);
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.4);
+  }
+
   .legend {
     bottom: auto;
     top: 0.6rem;
-    left: 0.6rem;
+    left: auto;
+    right: 0.6rem;
   }
 }

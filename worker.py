@@ -18,6 +18,7 @@ from pipeline.database import (
 from pipeline.nlp import load_nlp_model, extract_locations, extract_emoji_locations
 from pipeline.semantic_filter import filter_venue_locations
 from pipeline.geocoder import init_geocoder, resolve_post_locations
+from pipeline.llm_geotagging import init_llm_client
 from pipeline.scorer import apply_confidence_threshold
 from pipeline.writer import post_to_features, write_geojson
 from models import GeoPost
@@ -66,6 +67,7 @@ def run_worker() -> None:
     log = logging.getLogger(__name__)
 
     geocoder = init_geocoder()
+    llm_client = init_llm_client()
     nlp = load_nlp_model()
     conn = init_db(DB_PATH)
     posts = get_unprocessed_posts(conn, since=None, reprocess=False)
@@ -108,7 +110,7 @@ def run_worker() -> None:
             mark_processed(conn, post["post_uri"])
             continue
 
-        candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs)
+        candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs, llm_client=llm_client)
 
         if not candidates:
             skipped_no_geocode += 1

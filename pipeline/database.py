@@ -30,6 +30,7 @@ def init_db(db_path: str) -> sqlite3.Connection:
 
     init_geocode_cache_table(conn)
     init_pins_table(conn)
+    init_llm_cache_table(conn)
 
     conn.commit()
     return conn
@@ -44,6 +45,21 @@ def init_geocode_cache_table(conn) -> None:
             display_name TEXT,
             address_type TEXT,
             importance REAL,
+            cached_at TEXT,
+            ttl_days INTEGER DEFAULT 30
+        )
+    """)
+
+
+def init_llm_cache_table(conn) -> None:
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS llm_entity_cache (
+            cache_key TEXT PRIMARY KEY,
+            action TEXT,
+            lat REAL,
+            lng REAL,
+            query TEXT,
+            confidence REAL,
             cached_at TEXT,
             ttl_days INTEGER DEFAULT 30
         )
@@ -203,5 +219,43 @@ def set_cached_geocode(conn, query_key: str, lat: float, lng: float, display_nam
         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (query_key, lat, lng, display_name, address_type, importance, cached_at, ttl_days),
+    )
+    conn.commit()
+
+
+def get_cached_llm_result(conn, cache_key: str) -> dict | None:
+    cursor = conn.execute(
+        "SELECT action, lat, lng, query, confidence, cached_at, ttl_days "
+        "FROM llm_entity_cache WHERE cache_key = ?",
+        (cache_key,),
+    )
+    row = cursor.fetchone()
+    if row is None:
+        return None
+
+    row = dict(row)
+    cached_at = datetime.datetime.fromisoformat(row["cached_at"])
+    ttl_days = row["ttl_days"]
+    if datetime.datetime.utcnow() > cached_at + datetime.timedelta(days=ttl_days):
+        return None
+
+    return {
+        "action": row["action"],
+        "lat": row["lat"],
+        "lng": row["lng"],
+        "query": row["query"],
+        "confidence": row["confidence"],
+    }
+
+
+def set_cached_llm_result(conn, cache_key: str, action: str, lat: float, lng: float, query: str, confidence: float, ttl_days: int = 30) -> None:
+    cached_at = datetime.datetime.utcnow().isoformat()
+    conn.execute(
+        """
+        INSERT OR REPLACE INTO llm_entity_cache
+            (cache_key, action, lat, lng, query, confidence, cached_at, ttl_days)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (cache_key, action, lat, lng, query, confidence, cached_at, ttl_days),
     )
     conn.commit()

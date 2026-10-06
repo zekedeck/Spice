@@ -6,6 +6,7 @@ import logging
 from models import LocationCandidate
 from pipeline.nlp import build_geocoding_query
 from pipeline.database import get_cached_geocode, set_cached_geocode
+from pipeline.llm_geotagging import resolve_entity_with_llm
 
 logger = logging.getLogger(__name__)
 
@@ -107,7 +108,7 @@ def assign_precision(address_type: str, was_clarified: bool) -> str:
     return "city"
 
 
-def resolve_post_locations(text: str, entity_pairs: list, geocoder, conn, all_entity_pairs: list = None) -> list:
+def resolve_post_locations(text: str, entity_pairs: list, geocoder, conn, all_entity_pairs: list = None, llm_client=None) -> list:
     if not entity_pairs:
         return []
 
@@ -116,7 +117,43 @@ def resolve_post_locations(text: str, entity_pairs: list, geocoder, conn, all_en
 
     candidates = []
     for entity_text, label in entity_pairs:
-        query, was_clarified = build_geocoding_query(entity_text, label, post_text=text, all_entity_pairs=all_entity_pairs)
+        llm_result = None
+        if llm_client is not None:
+            llm_result = resolve_entity_with_llm(llm_client, entity_text, label, text, conn)
+
+        if llm_result is not None and llm_result.get("action") == "null":
+            time.sleep(1)
+            continue
+
+        if llm_result is not None and llm_result.get("action") == "resolve":
+            lat = llm_result["lat"]
+            lng = llm_result["lng"]
+            if NYC_MIN_LAT <= lat <= NYC_MAX_LAT and NYC_MIN_LNG <= lng <= NYC_MAX_LNG:
+                candidate = LocationCandidate(
+                    text=entity_text,
+                    query_sent=entity_text,
+                    lat=lat,
+                    lng=lng,
+                    precision="address",
+                    display_name=entity_text,
+                    source_label=label,
+                    importance=1.0,
+                )
+                candidates.append(candidate)
+            else:
+                logger.warning("LLM-resolved coordinates outside NYC bbox rejected for entity %r: %s, %s", entity_text, lat, lng)
+            time.sleep(1)
+            continue
+
+        if llm_result is not None and llm_result.get("action") == "query":
+            query = llm_result["query"]
+            was_clarified = True
+        elif llm_result is not None and llm_result.get("action") == "accept":
+            query = entity_text
+            was_clarified = False
+        else:
+            query, was_clarified = build_geocoding_query(entity_text, label, post_text=text, all_entity_pairs=all_entity_pairs)
+
         result = geocode_query(query, geocoder, conn)
         if result:
             precision = assign_precision(result["address_type"], was_clarified)

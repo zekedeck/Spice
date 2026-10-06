@@ -23,3 +23,7 @@ ARCHIVE_DIR = "data/archive"
 
 # SQLite database — use absolute path via env var so Fly.io volume persists across deploys
 DB_PATH = os.getenv("DB_PATH", "/data/raw/posts.db")
+
+# LLM geotagging kill switch — set to "false" to disable the Groq layer and
+# fall back entirely to the rule-based pipeline
+LLM_ENABLED = os.getenv("LLM_ENABLED", "true").lower() == "true"

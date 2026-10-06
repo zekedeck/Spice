@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-06T03:09:05.537659Z",
+    "total_pins": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mx6gum7ix42r",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌘 on Monday, October 5, 2026 at 23:00 in New York City.\n\nCurrent conditions (via NOAA):\n🌃 Fair/clear\nTemperature: 14.4°\nRelative Humidity: 37.31%",
+        "created_at": "2026-10-06T03:00:56.683Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mx6gum7ix42r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054261,
+          40.7135482
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lt7eqlk3l7u5pncvfgmcfjem/app.bsky.feed.post/3mx6gw6rvts2e",
+        "handle": "taliajane.bsky.social",
+        "text": "Far-right instigator Ross Glick (Betar) attempted to harass people waiting in line for a fundraiser in lower Manhattan tonight.\n\nDuring his attempt, Glick tried to fight attendee/Jewish pro-Palestine activist Jacob Berger, and lost.\n\nGlick’s friend (in background) didn’t help him, just filmed.",
+        "created_at": "2026-10-06T03:01:50.004Z",
+        "source": "https://bsky.app/profile/taliajane.bsky.social/post/3mx6gw6rvts2e",
+        "mapped_location": "Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "city",
+        "location_text": "lower Manhattan",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n4kdwcs2c3ytgmjngmrld7lp/app.bsky.feed.post/3mx6gwy4id22i",
+        "handle": "raygina.bsky.social",
+        "text": "We're watching George Carlin: Jammin' in New York. It starts with the bit usually entitled \"War is a prick waving dick fight\" and I can imagine Kegsbreath being so mad at George.",
+        "created_at": "2026-10-06T03:02:16.563Z",
+        "source": "https://bsky.app/profile/raygina.bsky.social/post/3mx6gwy4id22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j42szcgosamyogflviylmn6i/app.bsky.feed.post/3mx6hba7zoc2r",
+        "handle": "baseballmad.bsky.social",
+        "text": "no shit. love the official scorers being in New York.",
+        "created_at": "2026-10-06T03:08:00.612Z",
+        "source": "https://bsky.app/profile/baseballmad.bsky.social/post/3mx6hba7zoc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    }
+  ]
+}

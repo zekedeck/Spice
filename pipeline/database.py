@@ -27,8 +27,26 @@ def init_db(db_path: str) -> sqlite3.Connection:
 
     conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_processed ON posts (processed)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_created_at ON posts (created_at)")
+
+    init_geocode_cache_table(conn)
+
     conn.commit()
     return conn
+
+
+def init_geocode_cache_table(conn) -> None:
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS geocode_cache (
+            query_key TEXT PRIMARY KEY,
+            lat REAL,
+            lng REAL,
+            display_name TEXT,
+            address_type TEXT,
+            importance REAL,
+            cached_at TEXT,
+            ttl_days INTEGER DEFAULT 30
+        )
+    """)
 
 
 def insert_post(conn, did, handle, post_uri, post_url, text, created_at) -> bool:
@@ -80,4 +98,42 @@ def prune_old_posts(conn, days: int = 30) -> int:
 
 def delete_post(conn, post_uri: str) -> None:
     conn.execute("DELETE FROM posts WHERE post_uri = ?", (post_uri,))
+    conn.commit()
+
+
+def get_cached_geocode(conn, query_key: str) -> dict | None:
+    cursor = conn.execute(
+        "SELECT lat, lng, display_name, address_type, importance, cached_at, ttl_days "
+        "FROM geocode_cache WHERE query_key = ?",
+        (query_key,),
+    )
+    row = cursor.fetchone()
+    if row is None:
+        return None
+
+    row = dict(row)
+    cached_at = datetime.datetime.fromisoformat(row["cached_at"])
+    ttl_days = row["ttl_days"]
+    if datetime.datetime.utcnow() > cached_at + datetime.timedelta(days=ttl_days):
+        return None
+
+    return {
+        "lat": row["lat"],
+        "lng": row["lng"],
+        "display_name": row["display_name"],
+        "address_type": row["address_type"],
+        "importance": row["importance"],
+    }
+
+
+def set_cached_geocode(conn, query_key: str, lat: float, lng: float, display_name: str, address_type: str, importance: float, ttl_days: int = 30) -> None:
+    cached_at = datetime.datetime.utcnow().isoformat()
+    conn.execute(
+        """
+        INSERT OR REPLACE INTO geocode_cache
+            (query_key, lat, lng, display_name, address_type, importance, cached_at, ttl_days)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (query_key, lat, lng, display_name, address_type, importance, cached_at, ttl_days),
+    )
     conn.commit()

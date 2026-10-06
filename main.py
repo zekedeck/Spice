@@ -121,7 +121,7 @@ def run_pipeline() -> None:
             mark_processed(conn, post["post_uri"])
             continue
 
-        candidates = resolve_post_locations(text, venue_pairs, geocoder, all_entity_pairs=all_pairs)
+        candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs)
 
         if not candidates:
             skipped_no_geocode += 1

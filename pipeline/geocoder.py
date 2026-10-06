@@ -5,6 +5,7 @@ import logging
 
 from models import LocationCandidate
 from pipeline.nlp import build_geocoding_query
+from pipeline.database import get_cached_geocode, set_cached_geocode
 
 logger = logging.getLogger(__name__)
 
@@ -23,11 +24,14 @@ _STATE_TYPES = {
 }
 
 
-def init_geocoder(user_agent="geo-tagger-2/1.0"):
+def init_geocoder(user_agent="Spice/1.0 (NYC Bluesky geolocation map; contact: zeke.deck@gmail.com)"):
     return Nominatim(user_agent=user_agent, timeout=10)
 
 
-def geocode_query(query: str, geocoder) -> dict | None:
+def geocode_query(query: str, geocoder, conn) -> dict | None:
+    cached = get_cached_geocode(conn, query)
+    if cached is not None:
+        return cached
     try:
         results = geocoder.geocode(
             query, addressdetails=True, language="en",
@@ -64,6 +68,8 @@ def geocode_query(query: str, geocoder) -> dict | None:
             logger.warning("Importance below floor rejected for query %r", query)
             return None
 
+        set_cached_geocode(conn, query, lat, lng, best.address, best.raw.get("type", best.raw.get("addresstype", "")), float(best.raw.get("importance", 0.0)))
+
         return {
             "lat": float(best.latitude),
             "lng": float(best.longitude),
@@ -89,7 +95,7 @@ def assign_precision(address_type: str, was_clarified: bool) -> str:
     return "city"
 
 
-def resolve_post_locations(text: str, entity_pairs: list, geocoder, all_entity_pairs: list = None) -> list:
+def resolve_post_locations(text: str, entity_pairs: list, geocoder, conn, all_entity_pairs: list = None) -> list:
     if not entity_pairs:
         return []
 
@@ -99,7 +105,7 @@ def resolve_post_locations(text: str, entity_pairs: list, geocoder, all_entity_p
     candidates = []
     for entity_text, label in entity_pairs:
         query, was_clarified = build_geocoding_query(entity_text, label, post_text=text, all_entity_pairs=all_entity_pairs)
-        result = geocode_query(query, geocoder)
+        result = geocode_query(query, geocoder, conn)
         if result:
             precision = assign_precision(result["address_type"], was_clarified)
             candidate = LocationCandidate(

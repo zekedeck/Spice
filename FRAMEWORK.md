@@ -491,7 +491,7 @@ Ordered by severity:
 
 | Severity | File | Issue | Fix |
 |---|---|---|---|
-| CRITICAL | `config.py` | `DB_PATH = "data/raw/posts.db"` (relative → erased on deploy) | `os.getenv("DB_PATH", "/data/raw/posts.db")` — **not yet fixed, not part of Workers A-E scope** |
+| CRITICAL | `config.py` | `DB_PATH = "data/raw/posts.db"` (relative → erased on deploy) | **Already fixed in the codebase** (verified 2026-10-06) — `config.py:19` already reads `os.getenv("DB_PATH", "/data/raw/posts.db")`, and both callers (`main.py`, `collector.py`) import `DB_PATH` from `config` rather than hardcoding a path. This FRAMEWORK.md entry was stale. |
 | CRITICAL | `collector.py` | No tombstone handler — deleted posts stay on map forever | **Fixed 2026-10-06** (Worker B) |
 | CRITICAL | `geocoder.py` | No coordinate validation — Null Island / wrong country accepted | **Fixed 2026-10-06** (Worker D) |
 | HIGH | `semantic_filter.py` line 68 | `entity_label == "EMOJI"` → immediate `return True`, bypasses all context checks | **Fixed 2026-10-06** (Worker C) |

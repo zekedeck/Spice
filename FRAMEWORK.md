@@ -56,7 +56,7 @@ Status: architecture decided, repo live (private) at github.com/zekedeck/Spice, 
 | Phase | What | Status |
 |---|---|---|
 | 0 | Architecture, logins, repo, UI design | **Done** |
-| 1 | P0 bug fixes — 5 independent fixes across 5 files (STAFF_BRIEF.md Workers A–E), dispatched to parallel subagent workers, no interdependencies | **In progress** |
+| 1 | P0 bug fixes — 5 independent fixes across 5 files (STAFF_BRIEF.md Workers A–E), dispatched to parallel subagent workers, no interdependencies | **Done** (2026-10-06) |
 | 2 | Collector batch-mode rework — convert from persistent firehose-stream listener to "connect for a short window, grab posts, exit" so it fits a GitHub Actions job; add the NYC bounding-box filter before DB write | Not started |
 | 3 | Geocoder NYC-bbox wiring — confirm public Nominatim calls (not Photon, see correction above) use the NYC bbox bias + hard rejects from Worker D's fixes | Not started |
 | 4 | Boolean keyword search backend — parse AND / OR / NOT / quoted-phrase expressions against post text; new requirement driven by the finalized UI | Not started |
@@ -491,14 +491,14 @@ Ordered by severity:
 
 | Severity | File | Issue | Fix |
 |---|---|---|---|
-| CRITICAL | `config.py` | `DB_PATH = "data/raw/posts.db"` (relative → erased on deploy) | `os.getenv("DB_PATH", "/data/raw/posts.db")` |
-| CRITICAL | `collector.py` | No tombstone handler — deleted posts stay on map forever | Add `op.action == "delete"` handler |
-| CRITICAL | `geocoder.py` | No coordinate validation — Null Island / wrong country accepted | Add hard rejects (Section 1.2 above) |
-| HIGH | `semantic_filter.py` line 68 | `entity_label == "EMOJI"` → immediate `return True`, bypasses all context checks | Run music/media checks before the early return |
-| HIGH | `collector.py` | `get_profile(did)` called per post → Bluesky rate limit hit | Add LRU cache (`maxsize=10_000`) |
-| HIGH | `database.py` | No WAL mode | Add `PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000;` to `init_db()` |
-| HIGH | `writer.py` | `did` and full-precision coordinates in public GeoJSON output | Remove `did`; fuzz coords to 3 decimal places |
-| MEDIUM | `geocoder.py` | 2-tuple ranking picks wrong-country results | Replace with multi-factor float scorer |
+| CRITICAL | `config.py` | `DB_PATH = "data/raw/posts.db"` (relative → erased on deploy) | `os.getenv("DB_PATH", "/data/raw/posts.db")` — **not yet fixed, not part of Workers A-E scope** |
+| CRITICAL | `collector.py` | No tombstone handler — deleted posts stay on map forever | **Fixed 2026-10-06** (Worker B) |
+| CRITICAL | `geocoder.py` | No coordinate validation — Null Island / wrong country accepted | **Fixed 2026-10-06** (Worker D) |
+| HIGH | `semantic_filter.py` line 68 | `entity_label == "EMOJI"` → immediate `return True`, bypasses all context checks | **Fixed 2026-10-06** (Worker C) |
+| HIGH | `collector.py` | `get_profile(did)` called per post → Bluesky rate limit hit | **Fixed 2026-10-06** (Worker B) |
+| HIGH | `database.py` | No WAL mode | **Fixed 2026-10-06** (Worker A) |
+| HIGH | `writer.py` | `did` and full-precision coordinates in public GeoJSON output | **Fixed 2026-10-06** (Worker E) |
+| MEDIUM | `geocoder.py` | 2-tuple ranking picks wrong-country results | **Fixed 2026-10-06** (Worker D, added US-bonus ranking) |
 | MEDIUM | `collector.py` | `time.sleep(5)` in reconnect loop — delays clean shutdown | Replace with `stop_event.wait(timeout=5)` |
 | MEDIUM | `main.py` | `time.sleep(1)` geocoding sleep blocks pipeline thread | Acceptable for now; replace with token-bucket rate limiter when parallelizing |
 | MEDIUM | `nlp.py` | Co-entity GPE enrichment uses motion-from entities (e.g., "Flying from Boston to Portland" adds Boston as context for Portland query) | Filter to static-at and motion-to entities only |

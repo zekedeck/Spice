@@ -49,6 +49,26 @@ A live map showing geolocated Bluesky posts, updated in real time, hosted entire
 
 ---
 
+## Build Gameplan (as of 2026-10-06)
+
+Status: architecture decided, repo live (private) at github.com/zekedeck/Spice, all 3 accounts wired up (GitHub + Groq secret + Bluesky `.env`), UI design approved (dark NYC map, pin-click side panel, boolean keyword search, date+time range lookback, ET timezone — see "Finalized interaction design" under Phase 4 below). No pipeline code changed yet. Sequence from here to launch:
+
+| Phase | What | Status |
+|---|---|---|
+| 0 | Architecture, logins, repo, UI design | **Done** |
+| 1 | P0 bug fixes — 5 independent fixes across 5 files (STAFF_BRIEF.md Workers A–E), dispatched to parallel subagent workers, no interdependencies | **In progress** |
+| 2 | Collector batch-mode rework — convert from persistent firehose-stream listener to "connect for a short window, grab posts, exit" so it fits a GitHub Actions job; add the NYC bounding-box filter before DB write | Not started |
+| 3 | Geocoder NYC-bbox wiring — confirm public Nominatim calls (not Photon, see correction above) use the NYC bbox bias + hard rejects from Worker D's fixes | Not started |
+| 4 | Boolean keyword search backend — parse AND / OR / NOT / quoted-phrase expressions against post text; new requirement driven by the finalized UI | Not started |
+| 5 | GitHub Actions workflow (`.github/workflows/`) — 10-min cron, runs collect→filter→NLP→Groq→geocode→write, commits `data/live.geojson` + `data/archive/YYYY-MM-DD.geojson`, prunes archive past 30 days | Not started |
+| 6 | Frontend build — real MapLibre GL JS + OpenFreeMap tiles (dark style), matching the approved mockup's interaction design exactly | Not started |
+| 7 | End-to-end test — manually trigger the Actions workflow a few times on the still-private repo, verify output before anything runs unattended | Not started |
+| 8 | Flip repo to public, confirm the schedule fires on its own, monitor first live runs | Not started |
+
+Phase 1 is unblocked and dispatched now. Phases 2–4 are independent of each other and could run in parallel once Phase 1 clears the files they touch (collector.py, geocoder.py). Phase 5 depends on 1–4 being done since the workflow calls into that code. Phase 6 can start anytime in parallel with 1–5 (no shared files). Phase 7–8 are launch gating and must come last.
+
+---
+
 ## Pipeline Architecture
 
 ```

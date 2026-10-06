@@ -1,0 +1,67 @@
+name: Pipeline
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Restore DB from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/raw
+          key: posts-db-${{ github.run_id }}
+          restore-keys: |
+            posts-db-
+
+      - name: Ensure data directories exist
+        run: mkdir -p data/raw data/archive
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        run: python -m pipeline.collector
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          DB_PATH: data/raw/posts.db
+          COLLECTOR_DURATION_SECONDS: "180"
+
+      - name: Run worker
+        run: python worker.py
+        env:
+          DB_PATH: data/raw/posts.db
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Save DB to cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/raw
+          key: posts-db-${{ github.run_id }}
+
+      - name: Commit and push map data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.geojson data/archive/
+          git diff --cached --quiet || git commit -m "Update map data"
+          git push

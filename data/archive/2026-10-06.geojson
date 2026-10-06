@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-06T13:30:52.602439Z",
-    "total_pins": 5
+    "generated_at": "2026-10-06T17:01:23.213844Z",
+    "total_pins": 13
   },
   "features": [
     {
@@ -108,6 +108,174 @@
         "precision_level": "state",
         "location_text": "New York City",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9823155,
+          40.690517
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cpusbfdsvazbbjansz4zak4j/app.bsky.feed.post/3mx7vobx3xb2s",
+        "handle": "ogeltdm.bsky.social",
+        "text": "Arbitrator Ordered $47M Award Against Michael Stern, JDS\nhttps://therealdeal....\n... finding that the developer diverted insurance proceeds from its Brooklyn Tower project and failed to account for millions in loan advances.",
+        "created_at": "2026-10-06T16:58:30Z",
+        "source": "https://bsky.app/profile/ogeltdm.bsky.social/post/3mx7vobx3xb2s",
+        "mapped_location": "The Brooklyn Tower, Fleet Street, Downtown Brooklyn, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "city",
+        "location_text": "Brooklyn Tower",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6wx2gg5yqgvmlu35r6y3bk6d/app.bsky.feed.post/3mx7vone6i22m",
+        "handle": "hunterfelt.bsky.social",
+        "text": "Zappa In New York for me is THE moment.",
+        "created_at": "2026-10-06T16:58:42.710Z",
+        "source": "https://bsky.app/profile/hunterfelt.bsky.social/post/3mx7vone6i22m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kfcmkjdb4gz5h5vtkf7khlj4/app.bsky.feed.post/3mx7vpaxt2v2b",
+        "handle": "wlky.bsky.social",
+        "text": "Video shows moment hayride crashes in New York, injuring nearly a dozen people",
+        "created_at": "2026-10-06T16:59:03.257Z",
+        "source": "https://bsky.app/profile/wlky.bsky.social/post/3mx7vpaxt2v2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7m2l7giygph5ruwfnlglajyu/app.bsky.feed.post/3mx7vpe3w7m2d",
+        "handle": "local-news-pgh.bsky.social",
+        "text": "Video shows moment hayride crashes in New York, injuring nearly a dozen people\n\nhttps://www.wtae.com/article/wellsburg-new-york-hayride-crash-video/74049093",
+        "created_at": "2026-10-06T16:59:06.347079+00:00",
+        "source": "https://bsky.app/profile/local-news-pgh.bsky.social/post/3mx7vpe3w7m2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mx7vpumtei2b",
+        "handle": "porcellato.bsky.social",
+        "text": "Jun 23, 2026; New York, NY, USA; NBA commissioner Adam Silver speaks during the 2026 NBA Draft at Barclays Center. Mandatory Credit: Brad Penner-Imagn Images https://ift.tt/ofYHLVa",
+        "created_at": "2026-10-06T16:59:23+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mx7vpumtei2b",
+        "mapped_location": "Barclays Center, 620, Atlantic Avenue, Fort Greene, Brooklyn, Kings County, New York, 11217, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Barclays Center",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mx7vrzmiie2b",
+        "handle": "timesofisrael.com",
+        "text": "Israel’s consulate in New York invites New York City Mayor Zohran Mamdani to watch footage of the October 2023 Hamas invasion tomorrow, the anniversary of the attack.\n\nRead more: www.timesofisrael.com/liveblog_ent...",
+        "created_at": "2026-10-06T17:00:36.213Z",
+        "source": "https://bsky.app/profile/timesofisrael.com/post/3mx7vrzmiie2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9484995,
+          40.7455316
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uanjz2fsrry4qrqzcv76yl6i/app.bsky.feed.post/3mx7vsftzqb2g",
+        "handle": "phoblographer.bsky.social",
+        "text": "Mark Your Calendar: The 5 Boro Foto Fest Is Coming to Queens on October 25th\n\nThe 5 Boro Foto Fest now has a firm date, time, and location: Sunday, October 25th, from 11am to 6pm, at Culture Lab LIC in Long Island City, Queens. Admission is free, with registration available on site, and it's…",
+        "created_at": "2026-10-06T17:00:48Z",
+        "source": "https://bsky.app/profile/phoblographer.bsky.social/post/3mx7vsftzqb2g",
+        "mapped_location": "Long Island City, Queens, Queens County, New York, 11109, United States",
+        "precision_level": "city",
+        "location_text": "Long Island City",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mx7vsrmzhf2n",
+        "handle": "porcellato.bsky.social",
+        "text": "Jun 23, 2026; New York, NY, USA; NBA commissioner Adam Silver speaks during the 2026 NBA Draft at Barclays Center. Mandatory Credit: Brad Penner-Imagn Images https://ift.tt/zPZkUfj",
+        "created_at": "2026-10-06T17:01:01+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mx7vsrmzhf2n",
+        "mapped_location": "Barclays Center, 620, Atlantic Avenue, Fort Greene, Brooklyn, Kings County, New York, 11217, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Barclays Center",
+        "confidence": 1.0
       }
     }
   ]

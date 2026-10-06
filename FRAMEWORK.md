@@ -65,6 +65,18 @@ Status: architecture decided, repo live (private) at github.com/zekedeck/Spice, 
 | 7 | End-to-end test — manually trigger the Actions workflow a few times on the still-private repo, verify output before anything runs unattended | Not started |
 | 8 | Flip repo to public, confirm the schedule fires on its own, monitor first live runs | Not started |
 
+## Terms of Service / Compliance Review (2026-10-06)
+
+Reviewed the actual policies of every external service this pipeline depends on, against what the code does. Nothing found is a launch blocker. One real gap found and fixed; rest is already compliant or deferred to a later phase.
+
+| Service | Finding | Status |
+|---|---|---|
+| **Nominatim** (geocoder) | Must cache results, never re-query identical queries, max 1 req/sec, needs a real identifying User-Agent, requires "Data from OpenStreetMap" attribution on the map | **Throttling already compliant** (`time.sleep(1)` in `resolve_post_locations()`). **User-Agent already non-default** but generic (`geo-tagger-2/1.0`) — updated to identify the actual project with contact info. **Caching was missing entirely** — `geocode_query()` hit Nominatim on every call with no cache layer, a direct policy violation independent of rate. Fixed (see below). **Attribution** — deferred to Phase 6 (frontend doesn't exist yet); MapLibre's default attribution control must stay enabled when built, don't strip it. |
+| **Bluesky / AT Protocol** | No restriction found on storing/displaying public post content externally; Bluesky itself doesn't guarantee deletions propagate everywhere | **Compliant** — tombstone handling (Phase 1, Worker B) already exceeds what's required |
+| **GitHub Actions** | Vague "no excessive automated bulk activity" clause, no explicit ban on small scheduled workflows | **Low risk** — keep each run lean; revisit cadence only if GitHub ever flags it |
+| **Groq** | AUP bars illegal/harmful content and requires accuracy review for consequential public use; exact free-tier rate limit for the specific model couldn't be confirmed from docs | **Action for user**: verify the actual current rate limit for `llama-3.1-8b-instant` in the Groq console before relying on the "6k req/day" figure assumed elsewhere in this doc |
+| **OpenFreeMap** (tiles) | MIT-licensed, no rate limit, no key; requires "OpenFreeMap © OpenMapTiles Data from OpenStreetMap" attribution | **Compliant by default** — just don't disable MapLibre's attribution control when Phase 6 builds the frontend |
+
 Phase 1 is unblocked and dispatched now. Phases 2–4 are independent of each other and could run in parallel once Phase 1 clears the files they touch (collector.py, geocoder.py). Phase 5 depends on 1–4 being done since the workflow calls into that code. Phase 6 can start anytime in parallel with 1–5 (no shared files). Phase 7–8 are launch gating and must come last.
 
 ---

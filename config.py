@@ -1,0 +1,19 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BSKY_HANDLE = os.getenv("BSKY_HANDLE")
+BSKY_APP_PASSWORD = os.getenv("BSKY_APP_PASSWORD")
+
+# Rolling window — how many days of posts to keep in the database
+ROLLING_WINDOW_DAYS = 30
+
+# Pipeline run settings
+DEFAULT_RADIUS_MILES = 25.0
+
+# GitHub output
+GEOJSON_OUTPUT = "data/output.geojson"
+
+# SQLite database — use absolute path via env var so Fly.io volume persists across deploys
+DB_PATH = os.getenv("DB_PATH", "/data/raw/posts.db")

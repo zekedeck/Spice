@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-06T17:01:23.213844Z",
-    "total_pins": 13
+    "generated_at": "2026-10-06T21:37:43.452626Z",
+    "total_pins": 16
   },
   "features": [
     {
@@ -276,6 +276,71 @@
         "precision_level": "address (clarified)",
         "location_text": "Barclays Center",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988,
+          40.75
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x3gcmt3es5xrpu2kiq7ptgb2/app.bsky.feed.post/3mxaf42xozk2k",
+        "handle": "billeo.bsky.social",
+        "text": "Owl, Herald Square, NYC",
+        "created_at": "2026-10-06T21:34:39.309Z",
+        "source": "https://bsky.app/profile/billeo.bsky.social/post/3mxaf42xozk2k",
+        "mapped_location": "Herald Square, Manhattan Community Board 5, Manhattan, New York County, New York, United States",
+        "precision_level": "address",
+        "location_text": "Herald Square",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9076756,
+          40.7028171
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3mxaf64bx6426",
+        "handle": "travelingadvisor.bsky.social",
+        "text": "Did you know? Seneca Falls is a town in Seneca County, New York, United States.",
+        "created_at": "2026-10-06T21:35:47.694099+00:00",
+        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3mxaf64bx6426",
+        "mapped_location": "Seneca Avenue, Palmetto Street, Ridgewood, Queens, Queens County, New York, 11385, United States",
+        "precision_level": "city",
+        "location_text": "Seneca County",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3mxaf64bx6426",
+        "handle": "travelingadvisor.bsky.social",
+        "text": "Did you know? Seneca Falls is a town in Seneca County, New York, United States.",
+        "created_at": "2026-10-06T21:35:47.694099+00:00",
+        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3mxaf64bx6426",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Seneca County"
       }
     }
   ]

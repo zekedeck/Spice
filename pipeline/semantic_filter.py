@@ -65,9 +65,6 @@ def is_venue_mention(entity_text: str, post_text: str, entity_label: str, doc=No
         logger.debug("Music-bot signal suppressed: %r", entity_text)
         return False
 
-    if entity_label == "EMOJI":
-        return True
-
     # Build window around entity (±150 chars)
     match = re.search(re.escape(entity_text), post_text, re.IGNORECASE)
     if match:
@@ -101,6 +98,9 @@ def is_venue_mention(entity_text: str, post_text: str, entity_label: str, doc=No
         # Fallback: check window without sentence boundary
         if any(sig in window for sig in SUBJECT_SIGNALS):
             return False
+
+    if entity_label == "EMOJI":
+        return True
 
     if entity_label == "GPE":
         # Accept GPE if a spatial preposition appears directly before the entity

@@ -4,10 +4,13 @@ import time
 
 from atproto import CAR, Client, FirehoseSubscribeReposClient, parse_subscribe_repos_message
 
-from pipeline.database import init_db, insert_post, prune_old_posts
+from pipeline.database import init_db, insert_post, prune_old_posts, delete_post
 from config import DB_PATH, BSKY_HANDLE, BSKY_APP_PASSWORD, ROLLING_WINDOW_DAYS
 
 logger = logging.getLogger(__name__)
+
+_PROFILE_CACHE = {}
+_PROFILE_CACHE_MAX = 10000
 
 
 def build_post_url(handle: str, uri: str) -> str:
@@ -32,6 +35,11 @@ def run_collector() -> None:
             return
 
         for op in commit.ops:
+            if op.action == "delete" and op.path.startswith("app.bsky.feed.post/"):
+                uri = f"at://{commit.repo}/{op.path}"
+                delete_post(conn, uri)
+                continue
+
             if op.action == "create" and op.path.startswith("app.bsky.feed.post/"):
                 if not commit.blocks:
                     continue
@@ -46,14 +54,23 @@ def run_collector() -> None:
                 if not text:
                     continue
 
+                text = text[:4096]
+
                 created_at = record.get("createdAt", datetime.datetime.utcnow().isoformat())
                 uri = f"at://{did}/{op.path}"
 
-                try:
-                    profile = client.get_profile(did)
-                    handle = profile.handle
-                except Exception:
-                    handle = did
+                if did in _PROFILE_CACHE:
+                    handle = _PROFILE_CACHE[did]
+                else:
+                    try:
+                        profile = client.get_profile(did)
+                        handle = profile.handle
+                        _PROFILE_CACHE[did] = handle
+                        if len(_PROFILE_CACHE) > _PROFILE_CACHE_MAX:
+                            for key in list(_PROFILE_CACHE.keys())[:_PROFILE_CACHE_MAX // 2]:
+                                del _PROFILE_CACHE[key]
+                    except Exception:
+                        handle = did
 
                 post_url = build_post_url(handle, uri)
 

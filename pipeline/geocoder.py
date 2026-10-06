@@ -39,8 +39,31 @@ def geocode_query(query: str, geocoder) -> dict | None:
         def _rank(r):
             atype = r.raw.get("type", r.raw.get("addresstype", ""))
             type_bonus = 1 if atype in _ADDRESS_TYPES else 0
-            return (type_bonus, float(r.raw.get("importance", 0.0)))
+            address = r.raw.get("address", {})
+            country_code = address.get("country_code", "").lower()
+            us_bonus = 1 if country_code == "us" else 0
+            importance = float(r.raw.get("importance", 0.0))
+            return (type_bonus + us_bonus, importance)
         best = max(results, key=_rank)
+
+        lat = float(best.latitude)
+        lng = float(best.longitude)
+
+        # Null Island
+        if lat == 0.0 and lng == 0.0:
+            logger.warning("Null Island result rejected for query %r", query)
+            return None
+
+        # Basic range sanity
+        if not (-90 <= lat <= 90 and -180 <= lng <= 180):
+            logger.warning("Out-of-range coordinates rejected for query %r: %s, %s", query, lat, lng)
+            return None
+
+        # Importance floor
+        if float(best.raw.get("importance", 0.0)) < 0.02:
+            logger.warning("Importance below floor rejected for query %r", query)
+            return None
+
         return {
             "lat": float(best.latitude),
             "lng": float(best.longitude),

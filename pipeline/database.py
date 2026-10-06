@@ -7,6 +7,8 @@ logger = logging.getLogger(__name__)
 
 def init_db(db_path: str) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
+    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA busy_timeout=5000")
     conn.row_factory = sqlite3.Row
 
     conn.execute("""
@@ -74,3 +76,8 @@ def prune_old_posts(conn, days: int = 30) -> int:
     count = cursor.rowcount
     logger.info("Pruned %d posts older than %d days", count, days)
     return count
+
+
+def delete_post(conn, post_uri: str) -> None:
+    conn.execute("DELETE FROM posts WHERE post_uri = ?", (post_uri,))
+    conn.commit()

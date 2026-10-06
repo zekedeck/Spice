@@ -19,7 +19,6 @@ def post_to_features(post) -> list:
             "post_uri": post.post_uri,
             "post_label": post_label,
             "handle": post.handle,
-            "did": post.did,
             "text": post.text,
             "created_at": post.created_at,
             "source": post.post_url,
@@ -32,11 +31,18 @@ def post_to_features(post) -> list:
         if other_locations:
             properties["other_locations"] = other_locations
 
+        if candidate.precision.startswith("address"):
+            out_lat = round(candidate.lat, 3)
+            out_lng = round(candidate.lng, 3)
+        else:
+            out_lat = candidate.lat
+            out_lng = candidate.lng
+
         features.append({
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [candidate.lng, candidate.lat],
+                "coordinates": [out_lng, out_lat],
             },
             "properties": properties,
         })

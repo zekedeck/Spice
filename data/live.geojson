@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-06T10:51:13.202516Z",
-    "total_pins": 6
+    "generated_at": "2026-10-06T13:30:52.601150Z",
+    "total_pins": 9
   },
   "features": [
     {
@@ -128,6 +128,69 @@
         "mapped_location": "Central Park, New York County, New York, 11025, United States",
         "precision_level": "address",
         "location_text": "Central Park",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3xe2iqlcmlpivu7hzddsgsl4/app.bsky.feed.post/3mx7jykeuas2x",
+        "handle": "swydan.bsky.social",
+        "text": "well they don't play any games in new jersey anymore, so i guess that took care of it. and traveling in to brooklyn from new jersey for nets games seems like a punishment on *multiple* levels!",
+        "created_at": "2026-10-06T13:29:30.231Z",
+        "source": "https://bsky.app/profile/swydan.bsky.social/post/3mx7jykeuas2x",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "new jersey",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2tyjvuovngdtelbgjpxrspnx/app.bsky.feed.post/3mx7jzjcecs2b",
+        "handle": "ruhl.nyc",
+        "text": "R U H L small-batch scented candles are crafted with our own uniquely formulated blend of soy, beeswax, and premium fragrances - hand-poured into reusable amber apothecary jars. Designed and made in New York City.  \n\n#ScentedCandles #NewYorkCity #RUHLNYC \n\nruhl.nyc",
+        "created_at": "2026-10-06T13:30:02.644Z",
+        "source": "https://bsky.app/profile/ruhl.nyc/post/3mx7jzjcecs2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7wdxks65iwwotm4torhkqocs/app.bsky.feed.post/3mx7jzqf3722l",
+        "handle": "hughsviewsandnews.com",
+        "text": "One night in New York City and the world's your...\n\n#Alphabetchallenge #WeekNForNeon  #photography",
+        "created_at": "2026-10-06T13:30:10.084Z",
+        "source": "https://bsky.app/profile/hughsviewsandnews.com/post/3mx7jzqf3722l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
         "confidence": 0.95
       }
     }

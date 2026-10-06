@@ -413,6 +413,14 @@ Source: Citizen (crime/safety alert app) — strong reference for "live feed of 
 - **Bottom card list** under the map, not just hover popups — one card per pin: handle, text (truncated), time-ago, precision badge, confidence, Bluesky link. Maps directly onto the existing public API pin schema (see "Data Contracts Summary" above) — no new fields needed.
 - **Top search bar + time-range toggle** ("Last 24 Hours") — natural fit for toggling between `data/live.geojson` (rolling 24-48h) and the 30-day `data/archive/` files from the MVP data retention design.
 
+**Finalized interaction design (approved 2026-10-06, mocked up as a design-canvas artifact):**
+
+- **No card feed.** Map is full-width by default showing no post data — just pins. Clicking a pin opens a **right-side detail panel** for that single post (handle, text, neighborhood, precision, confidence). An X closes it back to map-only. Replaces the earlier "bottom card list" idea.
+- **Search bar is boolean keyword search**, not a neighborhood-name lookup — supports AND / OR / NOT and quoted exact phrases (e.g. `"subway" AND NOT "closed"`). Affects the backend query layer too: whatever serves the frontend needs to parse boolean keyword expressions against post text, not just substring match.
+- **Lookback is a date+time range picker**, not a single date or a vague "30 days" bucket — a calendar with separate **From** and **To** selections (each with its own date and time), since the archive is literally one file per day and users should be able to bound a query to an arbitrary window within the last 30 days, not just jump to one day.
+- **All times displayed in ET** (America/New_York) — correct since this is an NYC-only app; backend should store/convert accordingly rather than showing raw UTC.
+- Pin colors stay category-coded (venue / neighborhood mention / org / flagged-low-confidence) with a soft glow halo, stronger when selected — carried over from the original Citizen-reference notes above.
+
 ---
 
 ## Monitoring & Drift Detection

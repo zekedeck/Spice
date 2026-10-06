@@ -1,4 +1,4 @@
-/* GEO2.0 — frontend app
+/* Spice — frontend app
  * Static site, no build step. Loads data/live.geojson by default, or a
  * merged range of data/archive/YYYY-MM-DD.geojson files when a lookback
  * range is applied. Boolean keyword search filters whatever is currently

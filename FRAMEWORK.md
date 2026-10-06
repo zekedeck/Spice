@@ -1,8 +1,8 @@
-# GEO2.0 — Master Engineering Framework
+# Spice — Master Engineering Framework
 
 **Version:** 1.1 (MVP Pivot 2026-10-05) | **Original Date:** 2026-09-10 | **Authors:** 4 Data Scientists + 5 Senior Engineers | **Pivot decided by:** Engineering Lead
 
-This document is the authoritative framework for building GEO2.0 into a live, public, free-hosted geolocation map of Bluesky posts. It synthesizes architectural decisions, data contracts, security controls, and implementation priorities across all nine specialist domains. Read this first. Follow links to domain specs for deep implementation detail.
+This document is the authoritative framework for building Spice into a live, public, free-hosted geolocation map of Bluesky posts. It synthesizes architectural decisions, data contracts, security controls, and implementation priorities across all nine specialist domains. Read this first. Follow links to domain specs for deep implementation detail.
 
 ---
 
@@ -298,7 +298,7 @@ The frontend consumes only these fields per pin feature. Nothing else crosses th
 ### WebSocket Protocol
 
 ```
-wss://api.geo2.example.com/api/v1/ws/pins
+wss://api.spice.example.com/api/v1/ws/pins
 
 Server → Client message types:
   welcome       (on connect: session_id, heartbeat_interval_s)
@@ -438,7 +438,7 @@ geocode_cache (query_key TEXT PRIMARY KEY, lat, lng, display_name,
 
 **MVP Design Reference — Citizen app (screenshots in `Design_brief/`):**
 
-Source: Citizen (crime/safety alert app) — strong reference for "live feed of geolocated events on a dark map," the same core UI problem GEO2.0 has.
+Source: Citizen (crime/safety alert app) — strong reference for "live feed of geolocated events on a dark map," the same core UI problem Spice has.
 
 - **Dark map theme** — navy/black base, muted street lines, neighborhood labels on by default. Needs a dark MapLibre/OpenFreeMap style, not the default light one.
 - **Category icon pins** instead of generic dots — color/icon-coded by entity source label (EMOJI / FAC / GPE / ORG) rather than one uniform marker style.

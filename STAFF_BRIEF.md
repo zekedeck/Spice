@@ -1,4 +1,4 @@
-# GEO2.0 — Staff Brief
+# Spice — Staff Brief
 **From:** Engineering Lead
 **Date:** 2026-09-10
 **Purpose:** Working standards and task assignments for all implementation workers on this project.

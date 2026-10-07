@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-06T21:37:43.451236Z",
-    "total_pins": 20
+    "generated_at": "2026-10-07T01:04:13.872423Z",
+    "total_pins": 21
   },
   "features": [
     {
@@ -425,6 +425,27 @@
         "location_text": "New York",
         "confidence": 1.0,
         "other_locations": "Seneca County"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u6u7n3swplvmomxc2pcijf5o/app.bsky.feed.post/3mxaqoaibl22o",
+        "handle": "drjanicekirsch.bsky.social",
+        "text": "Attorneys general in New York, Arizona, and Vermont have already sued.\n\nIn other states, ask your state representative or senator to write a formal letter of inquiry to the AG asking why the state has not joined the multi-state coalition protecting the childhood vaccine schedule.",
+        "created_at": "2026-10-07T01:01:40.244Z",
+        "source": "https://bsky.app/profile/drjanicekirsch.bsky.social/post/3mxaqoaibl22o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T03:04:29.700092Z",
-    "total_pins": 37
+    "generated_at": "2026-10-07T03:10:19.213491Z",
+    "total_pins": 38
   },
   "features": [
     {
@@ -782,6 +782,27 @@
         "text": "Jaguar launches 5.2‑metre Type 01 electric car in New York, priced at £130,000, targeting affluent US buyers – its size exceeds UK parking limits.",
         "created_at": "2026-10-07T03:04:14.946271+00:00",
         "source": "https://bsky.app/profile/datafire.social.pcpulse.us/post/3mxaxjgkdw22b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o3qpenufu2nso55okagrks57/app.bsky.feed.post/3mxaxpm2qts2b",
+        "handle": "minimagicmenagerie.bsky.social",
+        "text": "Yes. Please. This is in New York, East Harlem. Who is that perpetrator? \n\nwww.instagram.com/reel/DeKyS47...",
+        "created_at": "2026-10-07T03:07:42.130Z",
+        "source": "https://bsky.app/profile/minimagicmenagerie.bsky.social/post/3mxaxpm2qts2b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

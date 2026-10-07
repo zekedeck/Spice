@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:05:39.518247Z",
-    "total_pins": 8
+    "generated_at": "2026-10-07T14:11:30.148765Z",
+    "total_pins": 12
   },
   "features": [
     {
@@ -167,6 +167,90 @@
         "text": "Jeffrey Burandt Crashes Sean Von Gorman’s Table at New York Comic Con 2026!\n\nThanks to my talented and generous friend, Sean Von Gorman, I'll be at Table A-19 in Artist's Alley all weekend at New York Comic Con 2026, Oct 8th-11th!! Sean will be there with his new Z2 book Lawrence Brothers Detective…",
         "created_at": "2026-10-07T14:02:46Z",
         "source": "https://bsky.app/profile/jburandt.bsky.social/post/3mxc4cy435w26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wm3dxw744dz3re5mrl4suve7/app.bsky.feed.post/3mxc4mtrm322q",
+        "handle": "detroitrudyowens.bsky.social",
+        "text": "Gov. Kathy Hochul (D) has declared an emergency in New York to addressing a growing measles epidemic. This highly contagious disease is 100 percent preventable with the safe, proven, affordable MMR vaccine that Tr*mp and his HHS head RFK are falsely saying is unsafe\nwww.nbcnews.com/health/healt...",
+        "created_at": "2026-10-07T14:08:18.005Z",
+        "source": "https://bsky.app/profile/detroitrudyowens.bsky.social/post/3mxc4mtrm322q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kg4ymyj6p3hplau2pld2adqb/app.bsky.feed.post/3mxc4nihmnr2y",
+        "handle": "sciencecouncil.bsky.social",
+        "text": "The ISC joined the UN Secretary-General’s Scientific Advisory Board (SAB) retreat in New York on 1–2 October, bringing scientific expertise and perspectives from across disciplines and regions to the conversation.",
+        "created_at": "2026-10-07T14:08:39.552788420Z",
+        "source": "https://bsky.app/profile/sciencecouncil.bsky.social/post/3mxc4nihmnr2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pcvba6iigczagcbvwllkebru/app.bsky.feed.post/3mxc4onihok2e",
+        "handle": "hcoc-euproject.bsky.social",
+        "text": "📢 Register to our upcoming side-event in the margins of #UNGA81 's #FirstCommittee organised by @frstrategie.bsky.social and @euatun.bsky.social on the #HCoC:\n \n\"Missile Proliferation, New Trends and Role for Arms Control\"\n\n📅14 Oct., 13:15 EDT\n📍#UNHQ, New York\n\n🔗https://shorturl.at/YM3k4",
+        "created_at": "2026-10-07T14:09:18.520Z",
+        "source": "https://bsky.app/profile/hcoc-euproject.bsky.social/post/3mxc4onihok2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:comslhdirvpvfciwztmxtqvu/app.bsky.feed.post/3mxc4oxq7xk2f",
+        "handle": "waltervonoer.bsky.social",
+        "text": "It's really amazing what's being accomplished in New York right now.\nBut here in Europe, we hear that 80 people are murdered every day in the U.S., even though there are more inmates in its prisons than in any other country in the world.\nSpot the problem (?)",
+        "created_at": "2026-10-07T14:09:29.262Z",
+        "source": "https://bsky.app/profile/waltervonoer.bsky.social/post/3mxc4oxq7xk2f",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

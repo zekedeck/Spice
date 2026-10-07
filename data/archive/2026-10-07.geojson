@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T13:29:44.386612Z",
-    "total_pins": 3
+    "generated_at": "2026-10-07T13:59:45.440910Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -66,6 +66,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9835045,
+          40.7616856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ituyfq7lklxce2do3trp7owl/app.bsky.feed.post/3mxc3yi3i222g",
+        "handle": "langurlover.bsky.social",
+        "text": "1982: Musical \"Cats\" opens at Winter Garden Theatre on Broadway, New York City, and runs for nearly 18 years, winning seven Tony Awards and a Grammy",
+        "created_at": "2026-10-07T13:56:54.657Z",
+        "source": "https://bsky.app/profile/langurlover.bsky.social/post/3mxc3yi3i222g",
+        "mapped_location": "Winter Garden Theatre, 1634, Broadway, Theater District, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+        "precision_level": "city",
+        "location_text": "Winter Garden Theatre",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9841707,
+          40.6856262
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y52hu7mf3jodfkwjsp56s2bg/app.bsky.feed.post/3mxc43bmxe22j",
+        "handle": "carceralabolition.bsky.social",
+        "text": "An NYPD officer driving an unmarked car ran a red light and hit a cyclist on Monday afternoon in Boerum Hill, sending her to the hospital, witnesses said.\nnyc.streetsblog.org/2026/10/06/s... #LEO",
+        "created_at": "2026-10-07T13:58:28.552Z",
+        "source": "https://bsky.app/profile/carceralabolition.bsky.social/post/3mxc43bmxe22j",
+        "mapped_location": "Boerum Hill, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Boerum Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9835045,
+          40.7616856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gxgxa4yhn5bxmitx7evospbb/app.bsky.feed.post/3mxc44r67zc24",
+        "handle": "cuebald.bsky.social",
+        "text": " ''Cats'' the Musical  opened at Winter Garden Theater on Broadway in  NYC today in 1982.  It ran for 18 years, winning seven Tonys and a Grammy.",
+        "created_at": "2026-10-07T13:59:18.401Z",
+        "source": "https://bsky.app/profile/cuebald.bsky.social/post/3mxc44r67zc24",
+        "mapped_location": "Winter Garden Theatre, 1634, Broadway, Theater District, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+        "precision_level": "city",
+        "location_text": "Winter Garden Theater",
+        "confidence": 0.9
       }
     }
   ]

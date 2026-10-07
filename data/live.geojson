@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:11:28.291482Z",
-    "total_pins": 105
+    "generated_at": "2026-10-07T17:17:35.008242Z",
+    "total_pins": 108
   },
   "features": [
     {
@@ -2215,6 +2215,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zgsooke323njkmkrinf65z5p/app.bsky.feed.post/3mxch2x675a2i",
+        "handle": "echolead.bsky.social",
+        "text": "435 live shows in New York this week — indie rooms to big stages. See them all:\nhttps://echolead.live/new-york/new-york?utm_source=bluesky&utm_medium=social&utm_campaign=weekly_digest\n#LiveMusic #NewYork",
+        "created_at": "2026-10-07T17:15:08.575Z",
+        "source": "https://bsky.app/profile/echolead.bsky.social/post/3mxch2x675a2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vyqweols2vaifbezbahqmcxl/app.bsky.feed.post/3mxch3fgngu2k",
+        "handle": "bloodhorse.com",
+        "text": "Arkansas Derby (G1) winner Sandman has been retired from racing. He will stand the 2027 season at Rockridge Stud in New York for $10,000.",
+        "created_at": "2026-10-07T17:15:23.632Z",
+        "source": "https://bsky.app/profile/bloodhorse.com/post/3mxch3fgngu2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8912474,
+          40.6770477
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dxu25p5fmfrngmjr5iawpr4d/app.bsky.feed.post/3mxch5tgmw22m",
+        "handle": "bradlander.bsky.social",
+        "text": "No Kings/Democracy March Field Call, Friday at 1pm: www.mobilize.us/handsoffnyc/... \n\nKnow Your Rights Business Canvassing in Cypress Hills, Saturday at 11am: www.mobilize.us/handsoffnyc/...",
+        "created_at": "2026-10-07T17:16:41.306Z",
+        "source": "https://bsky.app/profile/bradlander.bsky.social/post/3mxch5tgmw22m",
+        "mapped_location": "Cypress Hills, Brooklyn, Kings County, New York, 11207, United States",
+        "precision_level": "city",
+        "location_text": "Cypress Hills",
+        "confidence": 0.8
       }
     }
   ]

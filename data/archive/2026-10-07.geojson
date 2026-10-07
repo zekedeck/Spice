@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T19:22:19.843481Z",
-    "total_pins": 87
+    "generated_at": "2026-10-07T19:47:42.646920Z",
+    "total_pins": 89
   },
   "features": [
     {
@@ -1828,6 +1828,48 @@
         "text": "\"Lecturer of Biological Sciences, Computational Biology at Barnard College, New York, NY, USA\"\n\nRead more here\n\n#PlantSciJobs",
         "created_at": "2026-10-07T19:21:37.385Z",
         "source": "https://bsky.app/profile/tairnews.bsky.social/post/3mxco54isge23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iwbebt5r65c67xl5vy5iviwj/app.bsky.feed.post/3mxcpfzx7od2q",
+        "handle": "atomicanalyst.bsky.social",
+        "text": "According to the Times, five months ago he was offering the logbook for $950,000 at an international antiquarian book fair in New York. That's a huge jump from what it last sold for at auction—$543,000 in 2022, and evidently too much for interested collectors.\n\nI still think it belongs in a museum.",
+        "created_at": "2026-10-07T19:44:30.671Z",
+        "source": "https://bsky.app/profile/atomicanalyst.bsky.social/post/3mxcpfzx7od2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:legeln6p2zarp2anpvvfu5cw/app.bsky.feed.post/3mxcphtbre62r",
+        "handle": "mariajackson27.bsky.social",
+        "text": "Remembering Mighty Sparrow\n\nThe Caribbean has lost one of its most distinctive voices. Mighty Sparrow, born Slinger Francisco in Grenada in 1935, died on September 27, 2026, in New York at the age of 91. Raised in Trinidad and Tobago, he went on to become one of the greatest and most influential…",
+        "created_at": "2026-10-07T19:45:30Z",
+        "source": "https://bsky.app/profile/mariajackson27.bsky.social/post/3mxcphtbre62r",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T21:44:43.667569Z",
-    "total_pins": 151
+    "generated_at": "2026-10-07T22:48:04.178405Z",
+    "total_pins": 154
   },
   "features": [
     {
@@ -3182,6 +3182,69 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wasv4oyzcs32cjjxpbk65md2/app.bsky.feed.post/3mxczj4qkjk2e",
+        "handle": "kobaltfox.bsky.social",
+        "text": "I have been seeing more Harry Potter ads in new york than usual. And I don't know what's worse the Harry Potter ads or the AI ads",
+        "created_at": "2026-10-07T22:45:11.703Z",
+        "source": "https://bsky.app/profile/kobaltfox.bsky.social/post/3mxczj4qkjk2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tdtimcnvktlldjazzcccmtky/app.bsky.feed.post/3mxczknxqrk27",
+        "handle": "headynj.bsky.social",
+        "text": "The Cannabis Place (TCP) dispensary, which is based in New York, is suing the United Food and Commercial Workers (UFCW) labor union and the NJ Cannabis Regulatory Commission (NJCRC).\n\nheadynj.com/politics/the...",
+        "created_at": "2026-10-07T22:46:03.316Z",
+        "source": "https://bsky.app/profile/headynj.bsky.social/post/3mxczknxqrk27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cdnhjrw5y723gdpxc5oopimq/app.bsky.feed.post/3mxcznclzss2v",
+        "handle": "cravi75.bsky.social",
+        "text": "Prosecutors in New York are expected to bring new charges against former Venezuelan President Nicolás Maduro and his wife Cilia Flores over the alleged torture of Americans held in Venezuelan government custody in recent years, with an announcement possible as soon as Thursday \nCNN.",
+        "created_at": "2026-10-07T22:47:32.062Z",
+        "source": "https://bsky.app/profile/cravi75.bsky.social/post/3mxcznclzss2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
         "confidence": 0.95
       }
     }

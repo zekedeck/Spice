@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T20:11:41.806558Z",
-    "total_pins": 90
+    "generated_at": "2026-10-07T20:50:18.445171Z",
+    "total_pins": 92
   },
   "features": [
     {
@@ -1894,6 +1894,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.722,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6vclg75je5soq3cxipnlqn2n/app.bsky.feed.post/3mxcswalahc2w",
+        "handle": "itsinqueens.bsky.social",
+        "text": "Learn how to turn squash into an 18th century staple at Queens County Farm Museum on Oct. 10. More: tinyurl.com/f4wzttnj",
+        "created_at": "2026-10-07T20:47:15.736Z",
+        "source": "https://bsky.app/profile/itsinqueens.bsky.social/post/3mxcswalahc2w",
+        "mapped_location": "Queens County Farm Museum, Queens, Queens County, New York, United States",
+        "precision_level": "address",
+        "location_text": "Queens County Farm Museum",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wt4lr5gjv3zn4wsxt7tbsx7q/app.bsky.feed.post/3mxcsxanq4c2a",
+        "handle": "gooeatsyoo.bsky.social",
+        "text": "Absolutely wild that while the world is burning down around us, Mamdani is somehow just fixing everything in new york on a daily basis\n\nI love this man",
+        "created_at": "2026-10-07T20:47:49.374Z",
+        "source": "https://bsky.app/profile/gooeatsyoo.bsky.social/post/3mxcsxanq4c2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
         "confidence": 0.95
       }
     }

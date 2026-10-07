@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:23:45.521882Z",
-    "total_pins": 108
+    "generated_at": "2026-10-07T17:29:38.304977Z",
+    "total_pins": 109
   },
   "features": [
     {
@@ -2278,6 +2278,27 @@
         "precision_level": "city",
         "location_text": "Cypress Hills",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkvzqvq45j3grirlbyztxy3l/app.bsky.feed.post/3mxchrhx2tp23",
+        "handle": "mofollp.bsky.social",
+        "text": "Join MoFo on October 13 in New York for an interactive discussion focused on practical strategies for harnessing AI’s benefits while putting the right legal and technical guardrails in place. For more details: bit.ly/4hnqFVC",
+        "created_at": "2026-10-07T17:27:44.417Z",
+        "source": "https://bsky.app/profile/mofollp.bsky.social/post/3mxchrhx2tp23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

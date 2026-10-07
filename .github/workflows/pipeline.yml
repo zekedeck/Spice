@@ -45,6 +45,11 @@ jobs:
           DB_PATH: data/raw/posts.db
           COLLECTOR_DURATION_SECONDS: "180"
 
+      - name: One-time backfill merge
+        run: python scripts/import_backfill_pins.py
+        env:
+          DB_PATH: data/raw/posts.db
+
       - name: Run worker
         run: python worker.py
         env:

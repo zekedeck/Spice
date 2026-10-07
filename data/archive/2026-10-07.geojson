@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:17:41.703991Z",
-    "total_pins": 40
+    "generated_at": "2026-10-07T16:23:29.649409Z",
+    "total_pins": 41
   },
   "features": [
     {
@@ -843,6 +843,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9794142,
+          40.757976
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zrdz6tftzmzajqzg5lsn6u2z/app.bsky.feed.post/3mxce2el7lh2a",
+        "handle": "nintendoamerica.xmirror.bot",
+        "text": "Refueling before the next race.\n\nAvailable at:\n📍Nintendo NEW YORK\n📍Nintendo SAN FRANCISCO\n💻https://ninten.do/6015aW2T9",
+        "created_at": "2026-10-07T16:21:07.940Z",
+        "source": "https://bsky.app/profile/nintendoamerica.xmirror.bot/post/3mxce2el7lh2a",
+        "mapped_location": "Nintendo NEW YORK, 10, Rockefeller Plaza, Midtown, Manhattan Community Board 5, Manhattan, New York County, New York, 10020, United States",
+        "precision_level": "city",
+        "location_text": "Nintendo NEW YORK",
+        "confidence": 0.8
       }
     }
   ]

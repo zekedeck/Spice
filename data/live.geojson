@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T01:59:02.379534Z",
-    "total_pins": 26
+    "generated_at": "2026-10-07T02:02:51.311407Z",
+    "total_pins": 30
   },
   "features": [
     {
@@ -553,6 +553,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mxatwqmic426",
+        "handle": "allforgardening.bsky.social",
+        "text": "Madison Square Garden expands event food offerings\n\nhttps://www.allforgardening.com/1943759/madison-square-garden-expands-event-food-offerings/\n\nNEW YORK CITY (WABC) — Madison Square Garden is expanding its food options for fans attending Knicks and Rangers games, as well as other live events …",
+        "created_at": "2026-10-07T02:00:03+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mxatwqmic426",
+        "mapped_location": "Madison Square Garden, 4, Pennsylvania Plaza, Chelsea District, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cqlecccbzftvfapzpbb6ixzg/app.bsky.feed.post/3mxatwnfkye2z",
+        "handle": "dillonfuhrmankyma.bsky.social",
+        "text": "CCTV footage shared by St Joseph's Church in Greenwich Village shows the mammal scurry past churchgoers, and a priest inside the parish investigating the unexpected visitor.",
+        "created_at": "2026-10-07T02:00:03.377Z",
+        "source": "https://bsky.app/profile/dillonfuhrmankyma.bsky.social/post/3mxatwnfkye2z",
+        "mapped_location": "Greenwich Village, 7th Avenue South, West Village, Manhattan, New York County, New York, 10014, United States",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ojs3pdc6vbk6rxaohacrbkx4/app.bsky.feed.post/3mxatwo5szx2a",
+        "handle": "kyma-tv.bsky.social",
+        "text": "CCTV footage shared by St Joseph's Church in Greenwich Village shows the mammal scurry past churchgoers, and a priest inside the parish investigating the unexpected visitor.",
+        "created_at": "2026-10-07T02:00:04.016Z",
+        "source": "https://bsky.app/profile/kyma-tv.bsky.social/post/3mxatwo5szx2a",
+        "mapped_location": "Greenwich Village, 7th Avenue South, West Village, Manhattan, New York County, New York, 10014, United States",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iqm3dhztz5x575rufe4osak5/app.bsky.feed.post/3mxatyqhakw2k",
+        "handle": "kirotestdaily.bsky.social",
+        "text": "Jaguar unveiled its 1,000-horsepower Type 01 electric GT in New York, priced from £130,000. Reinvention tests whether you trust change over familiarity—do you?",
+        "created_at": "2026-10-07T02:01:12.000Z",
+        "source": "https://bsky.app/profile/kirotestdaily.bsky.social/post/3mxatyqhakw2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

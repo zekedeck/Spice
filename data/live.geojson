@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:11:39.155827Z",
-    "total_pins": 88
+    "generated_at": "2026-10-07T16:17:41.700601Z",
+    "total_pins": 92
   },
   "features": [
     {
@@ -1858,6 +1858,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d7xvvzv6ot65qyvla35bk64d/app.bsky.feed.post/3mxcdoml7f22m",
+        "handle": "justinlawguy.bsky.social",
+        "text": "If the problem is just \"Gen X sucks\" then yes, Republicans have a demographic problem in New York, although they have the same demographic problem almost everywhere with snow. If the problem is \"people of a certain age suck\" then that problem isn't demographically going away.",
+        "created_at": "2026-10-07T16:14:33.757Z",
+        "source": "https://bsky.app/profile/justinlawguy.bsky.social/post/3mxcdoml7f22m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3p3kun3xuc7q63f3kftmgria/app.bsky.feed.post/3mxcdpiung62j",
+        "handle": "chollomeeples-es.bsky.social",
+        "text": "🎲 MARVEL: Skirmish! In New York\n💶 17,99 € · 30% ↓ vs media · Outlet-PC\n🔥 Mínimo histórico\nhttps://www.chollomeeples.com/es/out/marvel-escaramuza-en-new-york-4/v2.AAA_TwAKAdc.80SDIDvX?utm_source=bluesky&utm_medium=social&utm_campaign=es\n#juegosdemesa",
+        "created_at": "2026-10-07T16:15:03.187957+00:00",
+        "source": "https://bsky.app/profile/chollomeeples-es.bsky.social/post/3mxcdpiung62j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3cxlzoauzucbtkray2wqrhvw/app.bsky.feed.post/3mxcdptvuq22p",
+        "handle": "itsjakechandler.bsky.social",
+        "text": "In New York for Comic-Con!",
+        "created_at": "2026-10-07T16:15:14.999Z",
+        "source": "https://bsky.app/profile/itsjakechandler.bsky.social/post/3mxcdptvuq22p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:by2kjyqdqrjwkmozzulnlfhj/app.bsky.feed.post/3mxcdpucdgd2p",
+        "handle": "broker-wise.bsky.social",
+        "text": "Why Data Integrity Is Becoming Critical for Brokerages in New York\n\nIn New York's dynamic real estate market, brokerages are grappling with a critical challenge: maintaining data integrity in the face of increasingly sophisticated AI-generated documents and synthetic records. This issue extends…",
+        "created_at": "2026-10-07T16:15:15Z",
+        "source": "https://bsky.app/profile/broker-wise.bsky.social/post/3mxcdpucdgd2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

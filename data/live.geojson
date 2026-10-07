@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T01:53:42.873207Z",
-    "total_pins": 23
+    "generated_at": "2026-10-07T01:59:02.379534Z",
+    "total_pins": 26
   },
   "features": [
     {
@@ -490,6 +490,69 @@
         "location_text": "New York",
         "confidence": 1.0,
         "other_locations": "New Jersey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9873613,
+          40.7292688
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3d66gipjllrtwcfkjekogm77/app.bsky.feed.post/3mxatppezjk24",
+        "handle": "lavenderscrabble.bsky.social",
+        "text": "B&H in East Village - should probably check to see if it has vegan options or just vegetarian. But I still crave their vegetable soup and perogies.",
+        "created_at": "2026-10-07T01:56:10.637Z",
+        "source": "https://bsky.app/profile/lavenderscrabble.bsky.social/post/3mxatppezjk24",
+        "mapped_location": "East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "city",
+        "location_text": "East Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wpkxkxnhvguruvdntidqrra5/app.bsky.feed.post/3mxatrg4eik2x",
+        "handle": "opmerchandise.bsky.social",
+        "text": "Here’s a look at the One Piece x Bear Walker Kaido Collection dropping this Thursday at New York Comic Con!\n\nThere will be limited quantities of blind boxes and apparel available each day at the event at Booth #2461 and online.\n\nMore info below.\n\n#OnePiece\n#NYCC2026",
+        "created_at": "2026-10-07T01:57:08.031Z",
+        "source": "https://bsky.app/profile/opmerchandise.bsky.social/post/3mxatrg4eik2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fedn7qfnkhpr6pnihdosetrq/app.bsky.feed.post/3mxattvalqk2h",
+        "handle": "mike-in-the-box.bsky.social",
+        "text": "Tomorrow in New York, the mayor's organization, DSA, is holding a rally to celebrate Vivian Silver's being burned alive.",
+        "created_at": "2026-10-07T01:58:31.011Z",
+        "source": "https://bsky.app/profile/mike-in-the-box.bsky.social/post/3mxattvalqk2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

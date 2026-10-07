@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:41:50.203516Z",
-    "total_pins": 112
+    "generated_at": "2026-10-07T17:47:36.167333Z",
+    "total_pins": 113
   },
   "features": [
     {
@@ -2362,6 +2362,27 @@
         "precision_level": "address",
         "location_text": "DEL VALLE",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0044742,
+          40.7485502
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uxeydciaalwy43jkzvxelkgb/app.bsky.feed.post/3mxcip3lnc22o",
+        "handle": "dmandl.bsky.social",
+        "text": "Hiroshi Sugimoto at Lisson Gallery (NYC): breathtaking large-format nature tableaus, some mounted on Japanese-style screens. (Many of these are in the collection of the Museum of Natural History.) You must see this show.",
+        "created_at": "2026-10-07T17:44:18.192Z",
+        "source": "https://bsky.app/profile/dmandl.bsky.social/post/3mxcip3lnc22o",
+        "mapped_location": "Lisson Gallery, 508, West 24th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+        "precision_level": "city",
+        "location_text": "Lisson Gallery",
+        "confidence": 0.9
       }
     }
   ]

@@ -581,20 +581,6 @@
   // Map setup
   // ---------------------------------------------------------------------
 
-  var CATEGORY_COLOR_EXPR = [
-    "match", ["get", "category"],
-    "address", "#f2b84b",
-    "city", "#4fd1c5",
-    "flagged", "#d9824a",
-    "#8b8fe0" // region / default
-  ];
-
-  var CATEGORY_STROKE_WIDTH_EXPR = [
-    "match", ["get", "category"],
-    "flagged", 5,
-    3
-  ];
-
   // Recency gradient: warm white (just posted) -> yellow -> orange -> red
   // (12h+), clamped at the red stop for anything older.
   var AGE_COLOR_EXPR = [
@@ -685,8 +671,8 @@
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 6,
-          "circle-stroke-width": CATEGORY_STROKE_WIDTH_EXPR,
-          "circle-stroke-color": CATEGORY_COLOR_EXPR
+          "circle-stroke-width": 1.5,
+          "circle-stroke-color": "#0b0e14"
         }
       });
 

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:11:30.146812Z",
-    "total_pins": 65
+    "generated_at": "2026-10-07T14:17:35.928893Z",
+    "total_pins": 67
   },
   "features": [
     {
@@ -1376,6 +1376,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9710785,
+          40.7500059
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cdmuzmomymq2ktk7xeqc3ezp/app.bsky.feed.post/3mxc4zx4g6g2a",
+        "handle": "civictechguide.bsky.social",
+        "text": "There's a new job open: Associate Director, Responsible AI Solutions at Ford Foundation.\nDetails: $181,000 - $202,000\nHybrid (New York, NY)\nMore info + apply: https://ctfg.softr.app/job?recordId=recqMbnPliDTwwe7v",
+        "created_at": "2026-10-07T14:15:37.650Z",
+        "source": "https://bsky.app/profile/civictechguide.bsky.social/post/3mxc4zx4g6g2a",
+        "mapped_location": "Ford Foundation, East 43rd Street, Tudor City, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+        "precision_level": "city",
+        "location_text": "Ford Foundation",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9814769,
+          40.7165303
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxc53pfsds24",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A man stole a cellphone in East Williamsburg and used the linked credit card for multiple purchases hours later.\n",
+        "created_at": "2026-10-07T14:16:36.524Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxc53pfsds24",
+        "mapped_location": "Williamsburg Bridge, Lower East Side, Manhattan Community Board 3, Manhattan, New York County, New York, 10002, United States",
+        "precision_level": "city",
+        "location_text": "East Williamsburg",
+        "confidence": 0.8
       }
     }
   ]

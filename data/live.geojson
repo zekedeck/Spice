@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:53:34.989080Z",
-    "total_pins": 116
+    "generated_at": "2026-10-07T17:59:30.171579Z",
+    "total_pins": 118
   },
   "features": [
     {
@@ -2446,6 +2446,48 @@
         "precision_level": "city",
         "location_text": "the United States",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ey7dvq7ahdcdamrzfftjkjde/app.bsky.feed.post/3mxcjfafywr24",
+        "handle": "mashedhq.bsky.social",
+        "text": "The hands-down best Italian sub you can find in New York is The Bomb at Sal, Kris & Charlie's Deli in Astoria, Queens, and it's piled with quality cold cuts.",
+        "created_at": "2026-10-07T17:56:39.107Z",
+        "source": "https://bsky.app/profile/mashedhq.bsky.social/post/3mxcjfafywr24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:unkqxy3fxjckrxrqstopn3qb/app.bsky.feed.post/3mxcjhope4s2a",
+        "handle": "robdenbleyker.com",
+        "text": "C&H boner plushies available for the first time, at New York Comic Con this weekend.",
+        "created_at": "2026-10-07T17:58:03.544Z",
+        "source": "https://bsky.app/profile/robdenbleyker.com/post/3mxcjhope4s2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T13:59:45.438321Z",
-    "total_pins": 59
+    "generated_at": "2026-10-07T14:05:39.515661Z",
+    "total_pins": 61
   },
   "features": [
     {
@@ -1250,6 +1250,48 @@
         "precision_level": "city",
         "location_text": "Winter Garden Theater",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958,
+          40.779
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:76ju6akpdkmatqsabzs2y2f4/app.bsky.feed.post/3mxc4c6rfnc2v",
+        "handle": "thepark1010.bsky.social",
+        "text": "🍁 Celebrate 216 years of Park Avenue Christian Church! Join us for worship Oct. 11, then help pack and deliver fresh food kits to NYC families Oct. 12–13. 🧡",
+        "created_at": "2026-10-07T14:02:20.431Z",
+        "source": "https://bsky.app/profile/thepark1010.bsky.social/post/3mxc4c6rfnc2v",
+        "mapped_location": "Park Avenue Christian Church, 1010, Park Avenue, Carnegie Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+        "precision_level": "address",
+        "location_text": "Park Avenue Christian Church",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qn56nlzruheohv252ytuzcz3/app.bsky.feed.post/3mxc4cy435w26",
+        "handle": "jburandt.bsky.social",
+        "text": "Jeffrey Burandt Crashes Sean Von Gorman’s Table at New York Comic Con 2026!\n\nThanks to my talented and generous friend, Sean Von Gorman, I'll be at Table A-19 in Artist's Alley all weekend at New York Comic Con 2026, Oct 8th-11th!! Sean will be there with his new Z2 book Lawrence Brothers Detective…",
+        "created_at": "2026-10-07T14:02:46Z",
+        "source": "https://bsky.app/profile/jburandt.bsky.social/post/3mxc4cy435w26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

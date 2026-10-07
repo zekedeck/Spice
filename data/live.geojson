@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T03:16:44.425570Z",
-    "total_pins": 44
+    "generated_at": "2026-10-07T03:21:16.258519Z",
+    "total_pins": 53
   },
   "features": [
     {
@@ -670,6 +670,90 @@
         ]
       },
       "properties": {
+        "post_uri": "at://did:plc:ajb5ifur4nhvcpd5tdppnpe6/app.bsky.feed.post/3mxauvhxbp226",
+        "handle": "seanphillips.bsky.social",
+        "text": "In New York for NYCC. Hope to see you there!",
+        "created_at": "2026-10-07T02:17:17.923Z",
+        "source": "https://bsky.app/profile/seanphillips.bsky.social/post/3mxauvhxbp226",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:63tykxeel2fnec6pq4bndeuq/app.bsky.feed.post/3mxavbu4rfu26",
+        "handle": "usanewspulse.bsky.social",
+        "text": "Jaguar unveils new electric car – two years after rebrand withdrawn | UK news\n\nJaguar has unveiled its new electric car - two years after the company's controversial rebrand, and 12 months after a major cyber attack halted production. The new Type 01 model, revealed at an event in New York on…",
+        "created_at": "2026-10-07T02:24:13Z",
+        "source": "https://bsky.app/profile/usanewspulse.bsky.social/post/3mxavbu4rfu26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dgeaio6k5oz6biissbvvcswe/app.bsky.feed.post/3mxavbvps662m",
+        "handle": "usdailybrie.bsky.social",
+        "text": "Jaguar unveils new electric car – two years after rebrand withdrawn | UK news\n\nJaguar has unveiled its new electric car - two years after the company's controversial rebrand, and 12 months after a major cyber attack halted production. The new Type 01 model, revealed at an event in New York on…",
+        "created_at": "2026-10-07T02:24:14Z",
+        "source": "https://bsky.app/profile/usdailybrie.bsky.social/post/3mxavbvps662m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qqwajpoajpdtfl7wlkklv2ig/app.bsky.feed.post/3mxavbxh6u62t",
+        "handle": "americannewsdesk.bsky.social",
+        "text": "Jaguar unveils new electric car – two years after rebrand withdrawn | UK news\n\nJaguar has unveiled its new electric car - two years after the company's controversial rebrand, and 12 months after a major cyber attack halted production. The new Type 01 model, revealed at an event in New York on…",
+        "created_at": "2026-10-07T02:24:16Z",
+        "source": "https://bsky.app/profile/americannewsdesk.bsky.social/post/3mxavbxh6u62t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
         "post_uri": "at://did:plc:hb5dup6slomgs7gficut6cmc/app.bsky.feed.post/3mxawgrjqtl26",
         "handle": "tmastreet.bsky.social",
         "text": "Utilities Lead S&P 500 to Record Highs as Small Caps Dip – American equity markets displayed a marked structural bifurcation on Tuesday, October 6, 2026, as the S&P 500 climbed 0.72% to reach 7,830.08 by mid-day trading in New York, maintaining a strong trajectory towards a fresh record close. Howev",
@@ -699,6 +783,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxawkhm7ro2x",
+        "handle": "some-news.bsky.social",
+        "text": "Latest model is launching in New York to target rich US buyers – and is more than 5.2 metres long and 2 metres wide",
+        "created_at": "2026-10-07T02:46:55.858069+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxawkhm7ro2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843694,
+          40.7430536
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fs6e4nxd3n6biykcz6itlpxy/app.bsky.feed.post/3mxawmv7j4s2p",
+        "handle": "ctphil.bsky.social",
+        "text": "D'Agostino's 34th st. in NYC. Little old Park Avenue South ladies would open the fucking 1lb boxes because they didn't need a pound.",
+        "created_at": "2026-10-07T02:48:17.319Z",
+        "source": "https://bsky.app/profile/ctphil.bsky.social/post/3mxawmv7j4s2p",
+        "mapped_location": "Park Avenue South, Rose Hill, Manhattan Community Board 5, Manhattan, New York County, New York, 10010, United States",
+        "precision_level": "city",
+        "location_text": "Park Avenue South",
         "confidence": 0.95
       }
     },
@@ -754,6 +880,27 @@
         ]
       },
       "properties": {
+        "post_uri": "at://did:plc:3pcnghkif2l2bf3g3hx5spsu/app.bsky.feed.post/3mxawwyxueu2r",
+        "handle": "babyshoes4cash.com",
+        "text": "As for Tom, the fct that hye \"had some woman in New york\": was really less surprising than that he had been depressed by a book. Something was making him nubble at the edge of stale ideas as if his studyr phsycial egotism not longer nouished his peremptyory heart",
+        "created_at": "2026-10-07T02:53:56.419Z",
+        "source": "https://bsky.app/profile/babyshoes4cash.com/post/3mxawwyxueu2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
         "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxax67nm722p",
         "handle": "audubonballroom.bsky.social",
         "text": "2008, the National Museum of the American Indian opened a two-venue retrospective of Scholder's work titled Indian/Not Indian: one in Washington, DC and the other in New York. On October 4, 2015, the Denver Art Museum opened a major traveling exhibition of Scholder's \"Indian\" series titled,\n\n(4/7)",
@@ -762,6 +909,27 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v4c4uuueipj63vdxmlhhezz6/app.bsky.feed.post/3mxaxbuenok2d",
+        "handle": "damop.bsky.social",
+        "text": "A Democratic Socialist in New York City is reminding America that government can still be about caring for people, strengthening communities, & building cities where everyone has a chance to thrive. When we put people before profit, we can create a future worth believing in.\nyoutu.be/6gZ3w7zRv0w?...",
+        "created_at": "2026-10-07T03:00:01.083Z",
+        "source": "https://bsky.app/profile/damop.bsky.social/post/3mxaxbuenok2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
         "confidence": 1.0
       }
     },
@@ -870,6 +1038,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r67bhj2dczcsvgp3gmx3d4gc/app.bsky.feed.post/3mxaxlleml22h",
+        "handle": "taebenthekeaben.bsky.social",
+        "text": "I live in New York.😀 Sadly, he's not real.😔 All I could do is draw.😌",
+        "created_at": "2026-10-07T03:05:27.162Z",
+        "source": "https://bsky.app/profile/taebenthekeaben.bsky.social/post/3mxaxlleml22h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     },
     {

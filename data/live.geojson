@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:35:45.162125Z",
-    "total_pins": 130
+    "generated_at": "2026-10-07T18:41:30.415763Z",
+    "total_pins": 132
   },
   "features": [
     {
@@ -2738,6 +2738,48 @@
         "text": "In 2027 bells will be tolling to mark 400 years since the arrival of enslaved people in New York and the 200th year since slavery's abolition in the state. Is your community participating? #history",
         "created_at": "2026-10-07T18:34:46.876Z",
         "source": "https://bsky.app/profile/newyorkalmanack.bsky.social/post/3mxcljdx7vs2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y3wqs5iwpfpmm5ya3xfz57bq/app.bsky.feed.post/3mxclt6v2uh2w",
+        "handle": "nexa-news.bsky.social",
+        "text": "Jaguar Unveils £130,000 Type 01 Electric Grand Tourer in New York",
+        "created_at": "2026-10-07T18:40:17.048147+00:00",
+        "source": "https://bsky.app/profile/nexa-news.bsky.social/post/3mxclt6v2uh2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hucg6kj6ufxqly5ytx52daw6/app.bsky.feed.post/3mxclv427zk2y",
+        "handle": "portablerockart.bsky.social",
+        "text": "\"Only in New York ... \" 💯",
+        "created_at": "2026-10-07T18:41:21.239Z",
+        "source": "https://bsky.app/profile/portablerockart.bsky.social/post/3mxclv427zk2y",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

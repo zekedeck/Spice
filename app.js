@@ -24,8 +24,10 @@
   var detailClose = document.getElementById("detail-close");
   var searchForm = document.getElementById("search-form");
   var searchInput = document.getElementById("search-input");
-  var lookbackFrom = document.getElementById("lookback-from");
-  var lookbackTo = document.getElementById("lookback-to");
+  var lookbackFromDate = document.getElementById("lookback-from-date");
+  var lookbackFromTime = document.getElementById("lookback-from-time");
+  var lookbackToDate = document.getElementById("lookback-to-date");
+  var lookbackToTime = document.getElementById("lookback-to-time");
   var lookbackApply = document.getElementById("lookback-apply");
   var lookbackReset = document.getElementById("lookback-reset");
   var lookbackError = document.getElementById("lookback-error");
@@ -86,16 +88,20 @@
     return new Date(guessUtcMs - offsetMs);
   }
 
-  // Parses a datetime-local input value "YYYY-MM-DDTHH:mm" into components.
-  function parseLocalInputValue(value) {
-    var m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(value);
-    if (!m) return null;
+  // Combines a <input type="date"> value ("YYYY-MM-DD") and a
+  // <input type="time"> value ("HH:MM" or "HH:MM:SS") into a
+  // { year, month, day, hour, minute } object.
+  // An empty/missing time defaults to midnight.
+  function combineDateAndTimeValue(dateValue, timeValue) {
+    var dm = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateValue || "");
+    if (!dm) return null;
+    var tm = /^(\d{2}):(\d{2})/.exec(timeValue || "");
     return {
-      year: parseInt(m[1], 10),
-      month: parseInt(m[2], 10),
-      day: parseInt(m[3], 10),
-      hour: parseInt(m[4], 10),
-      minute: parseInt(m[5], 10)
+      year: parseInt(dm[1], 10),
+      month: parseInt(dm[2], 10),
+      day: parseInt(dm[3], 10),
+      hour: tm ? parseInt(tm[1], 10) : 0,
+      minute: tm ? parseInt(tm[2], 10) : 0
     };
   }
 
@@ -416,27 +422,24 @@
   function initLookbackBounds() {
     var now = new Date();
     var thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
-    // datetime-local min/max expect "YYYY-MM-DDTHH:mm" in the field's own
-    // (unzoned) terms; we treat those terms as ET throughout the app.
-    function toLocalInputValue(date) {
+    // date input min/max expect "YYYY-MM-DD" in the field's own (unzoned)
+    // terms; we treat those terms as ET throughout the app.
+    function toLocalDateValue(date) {
       var dtf = new Intl.DateTimeFormat("en-US", {
         timeZone: ET_ZONE,
         year: "numeric",
         month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        hourCycle: "h23"
+        day: "2-digit"
       });
       var obj = partsToObject(dtf.formatToParts(date));
-      return obj.year + "-" + obj.month + "-" + obj.day + "T" + obj.hour + ":" + obj.minute;
+      return obj.year + "-" + obj.month + "-" + obj.day;
     }
-    var minVal = toLocalInputValue(thirtyDaysAgo);
-    var maxVal = toLocalInputValue(now);
-    lookbackFrom.min = minVal;
-    lookbackFrom.max = maxVal;
-    lookbackTo.min = minVal;
-    lookbackTo.max = maxVal;
+    var minVal = toLocalDateValue(thirtyDaysAgo);
+    var maxVal = toLocalDateValue(now);
+    lookbackFromDate.min = minVal;
+    lookbackFromDate.max = maxVal;
+    lookbackToDate.min = minVal;
+    lookbackToDate.max = maxVal;
   }
 
   function showLookbackError(msg) {
@@ -445,8 +448,8 @@
   }
 
   function handleLookbackApply() {
-    var fromParts = parseLocalInputValue(lookbackFrom.value);
-    var toParts = parseLocalInputValue(lookbackTo.value);
+    var fromParts = combineDateAndTimeValue(lookbackFromDate.value, lookbackFromTime.value);
+    var toParts = combineDateAndTimeValue(lookbackToDate.value, lookbackToTime.value);
     if (!fromParts || !toParts) {
       showLookbackError("Pick both a From and a To date/time.");
       return;
@@ -469,8 +472,10 @@
   }
 
   function handleLookbackReset() {
-    lookbackFrom.value = "";
-    lookbackTo.value = "";
+    lookbackFromDate.value = "";
+    lookbackFromTime.value = "";
+    lookbackToDate.value = "";
+    lookbackToTime.value = "";
     showLookbackError("");
     loadLive();
     startLiveRefresh();

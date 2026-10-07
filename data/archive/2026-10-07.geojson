@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:59:56.505008Z",
-    "total_pins": 22
+    "generated_at": "2026-10-07T15:05:29.929832Z",
+    "total_pins": 23
   },
   "features": [
     {
@@ -461,6 +461,27 @@
         "text": "for example: the Teacher-Principal Trust metric. if it's really low, that's a biiiig red flag for a school. reporters and experts know that. educators know that. but how would the average, busy parents in New York know that? it's hard\n\nwww.thecityreporter.nyc/2026/10/07/b...",
         "created_at": "2026-10-07T14:48:58.660Z",
         "source": "https://bsky.app/profile/rachelholliday.bsky.social/post/3mxc6vlel5k2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:phpkua3gmiduqtazzzw6tyem/app.bsky.feed.post/3mxc7pylj422k",
+        "handle": "loonerlinuxnerd.bsky.social",
+        "text": "Insert old joke about the tourist in New York asking for directions *here*",
+        "created_at": "2026-10-07T15:03:44.936Z",
+        "source": "https://bsky.app/profile/loonerlinuxnerd.bsky.social/post/3mxc7pylj422k",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

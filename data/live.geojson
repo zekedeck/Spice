@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T02:58:20.555145Z",
-    "total_pins": 36
+    "generated_at": "2026-10-07T03:04:29.697817Z",
+    "total_pins": 41
   },
   "features": [
     {
@@ -759,6 +759,113 @@
         "text": "2008, the National Museum of the American Indian opened a two-venue retrospective of Scholder's work titled Indian/Not Indian: one in Washington, DC and the other in New York. On October 4, 2015, the Denver Art Museum opened a major traveling exhibition of Scholder's \"Indian\" series titled,\n\n(4/7)",
         "created_at": "2026-10-07T02:57:58.693Z",
         "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxax67nm722p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxaxgpms5k2p",
+        "handle": "audubonballroom.bsky.social",
+        "text": "a survey at the National Museum of the American Indian George Gustav Heye Center in New York.\n\nIn June 2022, Scholder's triptych \"Possession on the Beach,\" previously shown during \"Indian/Not Indian\" exhibition (2008–09) at the Smithsonian's National Museum of the American Indian,\n\n(6/7)",
+        "created_at": "2026-10-07T03:02:43.879Z",
+        "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxaxgpms5k2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:obfncprwvwczytprkmdfjtdq/app.bsky.feed.post/3mxaxhfxyuk2y",
+        "handle": "carynrose.bsky.social",
+        "text": "when I tried to get him to see what he was doing, saying 'yeah, i just walked into a bar randomly on a tuesday night\" & then he changed to \"I bet you were there in 1984 too\" then I had to explain I did not live here...but I was seeing them in New York City. WHY DO I HAVE TO PROVE MY BONA FIDES",
+        "created_at": "2026-10-07T03:03:07.093Z",
+        "source": "https://bsky.app/profile/carynrose.bsky.social/post/3mxaxhfxyuk2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9633825,
+          40.7794396
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxaxhg6ppk2p",
+        "handle": "audubonballroom.bsky.social",
+        "text": "is exhibited in the American Wing at The Metropolitan Museum of Art in New York City.\n\nSource: en.wikipedia.org/wiki/Fritz_S...\n\n(7/7)",
+        "created_at": "2026-10-07T03:03:07.534Z",
+        "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxaxhg6ppk2p",
+        "mapped_location": "The Metropolitan Museum of Art, 1000, 5th Avenue, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10075, United States",
+        "precision_level": "city",
+        "location_text": "The Metropolitan Museum of Art",
+        "confidence": 1.0,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxaxhg6ppk2p",
+        "handle": "audubonballroom.bsky.social",
+        "text": "is exhibited in the American Wing at The Metropolitan Museum of Art in New York City.\n\nSource: en.wikipedia.org/wiki/Fritz_S...\n\n(7/7)",
+        "created_at": "2026-10-07T03:03:07.534Z",
+        "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxaxhg6ppk2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 1.0,
+        "other_locations": "The Metropolitan Museum of Art"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:saw7552avddb7fp6gutuztqu/app.bsky.feed.post/3mxaxjgkdw22b",
+        "handle": "datafire.social.pcpulse.us",
+        "text": "Jaguar launches 5.2‑metre Type 01 electric car in New York, priced at £130,000, targeting affluent US buyers – its size exceeds UK parking limits.",
+        "created_at": "2026-10-07T03:04:14.946271+00:00",
+        "source": "https://bsky.app/profile/datafire.social.pcpulse.us/post/3mxaxjgkdw22b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

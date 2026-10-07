@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T15:29:29.306417Z",
-    "total_pins": 25
+    "generated_at": "2026-10-07T15:35:49.628500Z",
+    "total_pins": 28
   },
   "features": [
     {
@@ -528,6 +528,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:77smyr75j6ekipevjgq4c7tp/app.bsky.feed.post/3mxcbdkmiws2z",
+        "handle": "superbloom.design",
+        "text": "📣 We’re hiring a bilingual Spanish/English Design Researcher based in New York. \n\nYou’ll work with community organizations to design and facilitate bilingual workshops exploring AI transparency and turn community insights into practical approaches. \n\nApply here 👇\nsuperbloom.design/community/op...",
+        "created_at": "2026-10-07T15:32:35.119Z",
+        "source": "https://bsky.app/profile/superbloom.design/post/3mxcbdkmiws2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lrr632kvugzfk2vsghjytvgl/app.bsky.feed.post/3mxcbfwyzkc2i",
+        "handle": "nyclu.org",
+        "text": "📚 In the 2025-2026 school year, officials banned a record 7,370 unique titles in U.S. public schools, according to @penamerica.bsky.social.\n\nIn New York, extremists have mounted hundreds of challenges in recent years from Long Island to the Hudson Valley to the Rochester area.",
+        "created_at": "2026-10-07T15:33:55.220Z",
+        "source": "https://bsky.app/profile/nyclu.org/post/3mxcbfwyzkc2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pelo6xumerrhguahjjvtxqi5/app.bsky.feed.post/3mxcbgdofqv2h",
+        "handle": "ladailynews.bsky.social",
+        "text": "Yankees manager Aaron Boone expects his team to bounce back and will send former Harvard-Westlake standout Max Fried to the mound against Tampa Bay’s Nick Martinez in Game 3 on Wednesday in New York.",
+        "created_at": "2026-10-07T15:34:07.306Z",
+        "source": "https://bsky.app/profile/ladailynews.bsky.social/post/3mxcbgdofqv2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

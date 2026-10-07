@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T21:21:52.745006Z",
-    "total_pins": 97
+    "generated_at": "2026-10-07T21:44:43.672507Z",
+    "total_pins": 99
   },
   "features": [
     {
@@ -2042,6 +2042,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gci4ou65j5vccivxq2dwcjcu/app.bsky.feed.post/3mxcvycpzcc2m",
+        "handle": "cheslye2027.bsky.social",
+        "text": "Council Member Zohran Kwame Mamdani is a good representative and the most beloved in New York. If you don't like him...",
+        "created_at": "2026-10-07T21:42:06.326Z",
+        "source": "https://bsky.app/profile/cheslye2027.bsky.social/post/3mxcvycpzcc2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:il53voi2alexleyeuwyutvqa/app.bsky.feed.post/3mxcw3xcefc2s",
+        "handle": "alexremington.bsky.social",
+        "text": "the truth of it is, it's possible to play in new york and fly relatively under the radar: the media attention can truly crush absolutely everybody, but it does *not* elevate everybody equally.",
+        "created_at": "2026-10-07T21:44:08.562Z",
+        "source": "https://bsky.app/profile/alexremington.bsky.social/post/3mxcw3xcefc2s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T19:47:42.619521Z",
-    "total_pins": 141
+    "generated_at": "2026-10-07T19:53:54.400035Z",
+    "total_pins": 142
   },
   "features": [
     {
@@ -2973,6 +2973,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5jb2734ccyccx6a3hjjuzhrr/app.bsky.feed.post/3mxcpv664lk2k",
+        "handle": "kleinman.bsky.social",
+        "text": "Especially in New York, where D turnout was truly atrocious",
+        "created_at": "2026-10-07T19:52:58.431Z",
+        "source": "https://bsky.app/profile/kleinman.bsky.social/post/3mxcpv664lk2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

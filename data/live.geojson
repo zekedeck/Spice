@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:11:56.074112Z",
-    "total_pins": 124
+    "generated_at": "2026-10-07T18:17:35.715226Z",
+    "total_pins": 125
   },
   "features": [
     {
@@ -2616,6 +2616,27 @@
         "location_text": "Union Square Park",
         "confidence": 1.0,
         "other_locations": "Madison Square Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:unkqxy3fxjckrxrqstopn3qb/app.bsky.feed.post/3mxckiac2pk2t",
+        "handle": "robdenbleyker.com",
+        "text": "come see me at NEW YORK COMIC CON October 8-11 with the C&H crew! we're doing 2 panels and custom sketches all weekend",
+        "created_at": "2026-10-07T18:16:15.574416821Z",
+        "source": "https://bsky.app/profile/robdenbleyker.com/post/3mxckiac2pk2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.95
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T21:04:28.795281Z",
-    "total_pins": 95
+    "generated_at": "2026-10-07T21:21:52.745006Z",
+    "total_pins": 97
   },
   "features": [
     {
@@ -1996,6 +1996,48 @@
         "text": "U.S. Prosecutors Prepare New Charges Against Maduro And His Wife — U.S. prosecutors in New York are preparing new charges against former Venezuelan President Nicolás Maduro and his wife, Cilia Flores. The report did not specify the charges, adding a new development to the couple’s legal…",
         "created_at": "2026-10-07T21:02:31.228Z",
         "source": "https://bsky.app/profile/biztoc.com/post/3mxctrjqcit2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rzzmrqfmfe7w4k7u7dmfsx3s/app.bsky.feed.post/3mxcuphawpk2w",
+        "handle": "wpdatateam.bsky.social",
+        "text": "At New York colleges, over 25,800 reports of sexual assault, domestic violence, dating violence or stalking were made from 2018 to 2024.\n\nOnly 1.2 percent resulted in expulsions or dismissals.\n\nAt Cornell, the figure was half that -- 0.6 percent.\n\nwww.washingtonpost.com/education/20...",
+        "created_at": "2026-10-07T21:19:15.342Z",
+        "source": "https://bsky.app/profile/wpdatateam.bsky.social/post/3mxcuphawpk2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rqa6fz2sshrlilxf26oxtvw/app.bsky.feed.post/3mxcusfobdc2d",
+        "handle": "ogmnews.bsky.social",
+        "text": "Huckabee Asks: What If It Were 9/11?\n\nMike Huckabee has taken aim at New York Mayor Zohran Mamdani over his October 7 anniversary statement, arguing that criticizing Israel’s response while commemorating the Hamas attack would be comparable to condemning \n\n#october7 #mamdani\n\nF. M. P at OGM News",
+        "created_at": "2026-10-07T21:20:54.342Z",
+        "source": "https://bsky.app/profile/ogmnews.bsky.social/post/3mxcusfobdc2d",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

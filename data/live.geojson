@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:23:51.407128Z",
-    "total_pins": 127
+    "generated_at": "2026-10-07T18:29:30.867294Z",
+    "total_pins": 128
   },
   "features": [
     {
@@ -2679,6 +2679,27 @@
         "precision_level": "address",
         "location_text": "Times Square",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o4ro452d4q3ejzr75btaqlhj/app.bsky.feed.post/3mxcl4dac5222",
+        "handle": "librarycongress.bsky.social",
+        "text": "On this day in 1923, the first section of the Appalachian Trail opened in New York. In \"The Printed Walk,\" artist Lindsay Schmittle transforms her 2,180-mile journey along the trail into a striking artist’s book. Explore it with Library Rare Book curator Ashley Young.\nwww.youtube.com/watch?v=1gBj...",
+        "created_at": "2026-10-07T18:27:29.916Z",
+        "source": "https://bsky.app/profile/librarycongress.bsky.social/post/3mxcl4dac5222",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

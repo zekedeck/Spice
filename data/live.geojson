@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T15:35:49.625352Z",
-    "total_pins": 80
+    "generated_at": "2026-10-07T15:41:39.073138Z",
+    "total_pins": 81
   },
   "features": [
     {
@@ -1690,6 +1690,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9915987,
+          40.7020375
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3mxcbqeslzi2b",
+        "handle": "travelingadvisor.bsky.social",
+        "text": "Fun fact: Opened on May 24, 1883, the Brooklyn Bridge was the first fixed crossing of the East River.",
+        "created_at": "2026-10-07T15:39:44.424346+00:00",
+        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3mxcbqeslzi2b",
+        "mapped_location": "Brooklyn Bridge, Dumbo, Brooklyn, Kings County, New York, 11242, United States",
+        "precision_level": "city",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.8
       }
     }
   ]

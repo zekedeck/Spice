@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T15:53:26.484002Z",
-    "total_pins": 30
+    "generated_at": "2026-10-07T15:59:27.185268Z",
+    "total_pins": 31
   },
   "features": [
     {
@@ -632,6 +632,27 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6v3itqjwcev4fwtba7ld2t7a/app.bsky.feed.post/3mxcct2nues2l",
+        "handle": "panicopress.bsky.social",
+        "text": "PANICO SPOTLIGHT: GUNBREED BOOK 5\n\nRETURN TO BAJO TIERRA.\n\nGUNBREED BOOK 5: BLOOD ON THE HILLS brings together multiple creators for another trip into the dark and twisted world of GUNBREED.\n\nPick up GUNBREED BOOK 5 from PANICO PRESS at NEW YORK COMIC CON this weekend, booth 1855!",
+        "created_at": "2026-10-07T15:59:08.977Z",
+        "source": "https://bsky.app/profile/panicopress.bsky.social/post/3mxcct2nues2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
         "confidence": 0.95
       }
     }

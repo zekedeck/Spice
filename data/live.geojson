@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:41:30.415763Z",
-    "total_pins": 132
+    "generated_at": "2026-10-07T18:47:42.314274Z",
+    "total_pins": 136
   },
   "features": [
     {
@@ -2784,6 +2784,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gy4jjyh7gtyvxorc5i4aemp2/app.bsky.feed.post/3mxclzzwppk2i",
+        "handle": "brianpshea.bsky.social",
+        "text": "A central location where you can exchange local currency for various goods? Only in New York, baby!",
+        "created_at": "2026-10-07T18:44:06.790Z",
+        "source": "https://bsky.app/profile/brianpshea.bsky.social/post/3mxclzzwppk2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5fqihdzpeyhlk4ehyvueye4r/app.bsky.feed.post/3mxcm6bp56k2r",
+        "handle": "comicsbeat.bsky.social",
+        "text": "NYCC ‘26: Heroes & Villains launches AVENGERS: DOOMSDAY merch at NYCC\n\nHeroes & Villains launches a Latvarian Marketplace with a new line of Avengers: Doomsday themed merchandise available at New York Comic Con.",
+        "created_at": "2026-10-07T18:46:28Z",
+        "source": "https://bsky.app/profile/comicsbeat.bsky.social/post/3mxcm6bp56k2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9440833,
+          40.5779176
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fj67u4nr5llcmjswy37rs7jl/app.bsky.feed.post/3mxcm74x54h23",
+        "handle": "fakecelebspotter.bsky.social",
+        "text": "Ted Ketchum has been SPOTTED pretending to be a statue with his leaf blower at Polliwog Park in Manhattan Beach!",
+        "created_at": "2026-10-07T18:46:52.30100100Z",
+        "source": "https://bsky.app/profile/fakecelebspotter.bsky.social/post/3mxcm74x54h23",
+        "mapped_location": "Manhattan Beach, Brooklyn, Kings County, New York, 11235, United States",
+        "precision_level": "city",
+        "location_text": "Manhattan Beach",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gyeyixjkykqyfmsxl7fnltij/app.bsky.feed.post/3mxcm7fxovc2r",
+        "handle": "loribaby5.bsky.social",
+        "text": "American television host Ed Sullivan presenting the Redwood Magazine Award trophy to actress Ann Blyth on his TV show in New York, January 29th 1956. Blyth, representing Metro-Goldwyn-Mayer (MGM) studios, accepted the award on behalf of MGM head Dore Schary. ❤️",
+        "created_at": "2026-10-07T18:47:07.184Z",
+        "source": "https://bsky.app/profile/loribaby5.bsky.social/post/3mxcm7fxovc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

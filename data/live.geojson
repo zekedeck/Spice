@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:47:34.282543Z",
-    "total_pins": 100
+    "generated_at": "2026-10-07T17:05:38.920395Z",
+    "total_pins": 104
   },
   "features": [
     {
@@ -2110,6 +2110,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9624901,
+          40.8077507
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:osilyvnmxedefzjtgignpm6l/app.bsky.feed.post/3mxcfoqputs2f",
+        "handle": "ffcws.bsky.social",
+        "text": "📢 The Future of Families Summer Data Workshop is back! Join us and the Columbia Population Research Center the week of June 14, 2027, at Columbia University in NYC to get hands-on with FFCWS data. Stay tuned for updates about how to apply tinyurl.com/5n9at3tv",
+        "created_at": "2026-10-07T16:50:25.587Z",
+        "source": "https://bsky.app/profile/ffcws.bsky.social/post/3mxcfoqputs2f",
+        "mapped_location": "Columbia University, Amsterdam Avenue, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10027, United States",
+        "precision_level": "city",
+        "location_text": "Columbia University",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7480633,
+          40.7300413
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:37opzvoqfsda6pceairjyxzy/app.bsky.feed.post/3mxcfrt2txs2w",
+        "handle": "billmorrison.bsky.social",
+        "text": "Sawyer Avenue, Sunday Afternoon (18’, 2026) \n\nFREE PUBLIC SCREENING & DISCUSSION \n\nThe Cooper Union\nThe Great Hall \n7 East 7th Street NYC\nThursday 10/22 @ 6:15p\n\nDiscussion with Gwynne Hogan of City Reporter, Jamie Kalven of Invisible Institute, Daveshish Basnet of New York Civil Liberties Union.",
+        "created_at": "2026-10-07T16:52:08.707Z",
+        "source": "https://bsky.app/profile/billmorrison.bsky.social/post/3mxcfrt2txs2w",
+        "mapped_location": "Sawyer Avenue, Queens Village, Queens, Queens County, New York, 11427, United States",
+        "precision_level": "city",
+        "location_text": "Sawyer Avenue",
+        "confidence": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ufg4t6h2mr2lncg2qwvecwu/app.bsky.feed.post/3mxcgf7yduy2a",
+        "handle": "projectcrimsonsky.bsky.social",
+        "text": "Today I met with the President of the Society of Adventurers, Sir Simon Higgins in New York at the society’s headquarters. \n\nClick the link below or visit the link in the bio to read:\nlumostation.wixsite.com/sofa/the-con...",
+        "created_at": "2026-10-07T17:02:59.769Z",
+        "source": "https://bsky.app/profile/projectcrimsonsky.bsky.social/post/3mxcgf7yduy2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uv5g5pipfjit224l5567y35t/app.bsky.feed.post/3mxcgfjodvx2e",
+        "handle": "viewingnyc.bsky.social",
+        "text": "ICYMI: [VIDEO] What It Was Like Living in a House in New York in 1900",
+        "created_at": "2026-10-07T17:03:09Z",
+        "source": "https://bsky.app/profile/viewingnyc.bsky.social/post/3mxcgfjodvx2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

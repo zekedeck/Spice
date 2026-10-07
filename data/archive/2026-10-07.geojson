@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:17:35.724306Z",
-    "total_pins": 73
+    "generated_at": "2026-10-07T18:23:51.411547Z",
+    "total_pins": 75
   },
   "features": [
     {
@@ -1537,6 +1537,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9950148,
+          40.7292053
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nezbxh276evtayakwcvoq3n4/app.bsky.feed.post/3mxcksp3a4m2u",
+        "handle": "uncited.org",
+        "text": "Kuang et al. in the Tomanik Lab at New York University demonstrate a novel palladium-catalyzed C–C bond formation through an alkyl-to-alkyl palladium migration mechanism, enabling the synthesis of tricyclic heterocycles from simple precursors.",
+        "created_at": "2026-10-07T18:22:06.752Z",
+        "source": "https://bsky.app/profile/uncited.org/post/3mxcksp3a4m2u",
+        "mapped_location": "New York University, Greene Street, University Village, Manhattan, New York County, New York, 10012, United States",
+        "precision_level": "city",
+        "location_text": "New York University",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lv4am6gqhak3h2ucot7nelon/app.bsky.feed.post/3mxcktbhfpk2j",
+        "handle": "bullcity.bsky.social",
+        "text": "He's out there buying loosies in Times Square.",
+        "created_at": "2026-10-07T18:22:26.059Z",
+        "source": "https://bsky.app/profile/bullcity.bsky.social/post/3mxcktbhfpk2j",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
         "confidence": 0.95
       }
     }

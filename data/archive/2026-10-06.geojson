@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T02:40:29.308105Z",
-    "total_pins": 27
+    "generated_at": "2026-10-07T02:46:18.839118Z",
+    "total_pins": 29
   },
   "features": [
     {
@@ -573,6 +573,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hb5dup6slomgs7gficut6cmc/app.bsky.feed.post/3mxawgrjqtl26",
+        "handle": "tmastreet.bsky.social",
+        "text": "Utilities Lead S&P 500 to Record Highs as Small Caps Dip – American equity markets displayed a marked structural bifurcation on Tuesday, October 6, 2026, as the S&P 500 climbed 0.72% to reach 7,830.08 by mid-day trading in New York, maintaining a strong trajectory towards a fresh record close. Howev",
+        "created_at": "2026-10-07T02:44:50Z",
+        "source": "https://bsky.app/profile/tmastreet.bsky.social/post/3mxawgrjqtl26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgt62gzl3y5ke7b45xi5vkvu/app.bsky.feed.post/3mxawhojagf2n",
+        "handle": "bsfavourite.bsky.social",
+        "text": "GP: Socialist Running for Congress in New York Wants Democrats to Pass a ‘Trans Bill of Rights’ if They Win Midterms (VIDEO) #Socialism",
+        "created_at": "2026-10-07T02:45:22Z",
+        "source": "https://bsky.app/profile/bsfavourite.bsky.social/post/3mxawhojagf2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
         "confidence": 0.95
       }
     }

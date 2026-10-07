@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:23:29.649409Z",
-    "total_pins": 41
+    "generated_at": "2026-10-07T16:29:33.850189Z",
+    "total_pins": 42
   },
   "features": [
     {
@@ -864,6 +864,27 @@
         "precision_level": "city",
         "location_text": "Nintendo NEW YORK",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3xsuszszej25hvctcui4wie/app.bsky.feed.post/3mxcegtw4pn23",
+        "handle": "viewlinemedia.com",
+        "text": "📰 Rebranded Jaguar unveils its first electric sportscar: The Type 01EV\n\nHailed as the most technologically advanced and powerful Jaguar in the company’s history, it premiered in New York today, targeting a younger, wealth…\n\nhttps://viewlinemedia.com/article/674368\n\n#ViewlineNews #UKNews #Europe",
+        "created_at": "2026-10-07T16:28:06.674Z",
+        "source": "https://bsky.app/profile/viewlinemedia.com/post/3mxcegtw4pn23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T02:02:51.312809Z",
-    "total_pins": 26
+    "generated_at": "2026-10-07T02:13:02.157921Z",
+    "total_pins": 27
   },
   "features": [
     {
@@ -553,6 +553,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qsfhti5gf25ekrlyayrmrswp/app.bsky.feed.post/3mxaumxoqw22e",
+        "handle": "mugennoken.bsky.social",
+        "text": "The one issue with that and how it’s portrayed here I’d say is like \n\nhe couldn’t live in New York City without money, and there’s no sign how on earth he affords all the things we actively see him have or buy when he left NWH with absolutely nothing",
+        "created_at": "2026-10-07T02:12:32.433Z",
+        "source": "https://bsky.app/profile/mugennoken.bsky.social/post/3mxaumxoqw22e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95
       }
     }
   ]

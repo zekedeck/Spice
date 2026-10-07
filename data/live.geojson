@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:59:30.171579Z",
-    "total_pins": 118
+    "generated_at": "2026-10-07T18:05:40.048641Z",
+    "total_pins": 122
   },
   "features": [
     {
@@ -2488,6 +2488,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:waoj4i36zl3pmqo47h5b6ncs/app.bsky.feed.post/3mxcjplh6aj2y",
+        "handle": "reel360news.bsky.social",
+        "text": "Rethink has named Nicole Rajesky its first Head of Strategy in New York. The longtime strategist and partner will lead the growing department as the agency continues expanding in the market. #Rethink #NicoleRajesky #Strategy #Advertising #AgencyNews #CreativeStrategy #Reel360",
+        "created_at": "2026-10-07T18:02:28Z",
+        "source": "https://bsky.app/profile/reel360news.bsky.social/post/3mxcjplh6aj2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ltnbf7ufxoitsbhgnlfqyd3x/app.bsky.feed.post/3mxcjr3kdty24",
+        "handle": "blueskymoodreport.bsky.social",
+        "text": "Mood: 🌩️\nPolitical discourse feels stormy as users debate election trends in Pennsylvania versus New York. Skepticism is rising regarding the Affordable Care Act's future after reports of enrollment declines, while frustration with figures like Mitch McConnell continues to mount.",
+        "created_at": "2026-10-07T18:03:18.672818+00:00",
+        "source": "https://bsky.app/profile/blueskymoodreport.bsky.social/post/3mxcjr3kdty24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9950297,
+          40.6960849
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4qv3mh4lvzohconfosc2g255/app.bsky.feed.post/3mxcjtdwm6o2j",
+        "handle": "eastbayfoodbriefly.bsky.social",
+        "text": "New October 2026 openings include Straker’s in Soho, Bebo in Brooklyn Heights, and Triona’s Vintage Sporting Club in the Bronx.\n",
+        "created_at": "2026-10-07T18:04:34.693Z",
+        "source": "https://bsky.app/profile/eastbayfoodbriefly.bsky.social/post/3mxcjtdwm6o2j",
+        "mapped_location": "Brooklyn Heights, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Brooklyn Heights",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1496048,
+          40.5834557
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d4sc5kedhq2hlbkugnbp7ag2/app.bsky.feed.post/3mxck3ciau22l",
+        "handle": "motionorthony.bsky.social",
+        "text": "📍 Motion Orthopedics is officially open in Staten Island! Come visit our new office and the expert orthopedic care waiting inside. \n\nCall (212) 355-5555 to schedule a consultation. \n\n#StatenIsland #Orthopedics #MotionOrthopedics",
+        "created_at": "2026-10-07T18:09:01.831Z",
+        "source": "https://bsky.app/profile/motionorthony.bsky.social/post/3mxck3ciau22l",
+        "mapped_location": "Staten Island, Richmond County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Staten Island",
+        "confidence": 1.0
       }
     }
   ]

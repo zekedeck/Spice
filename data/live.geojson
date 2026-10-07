@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:47:42.314274Z",
-    "total_pins": 136
+    "generated_at": "2026-10-07T18:53:36.369250Z",
+    "total_pins": 137
   },
   "features": [
     {
@@ -2868,6 +2868,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5bsdjs54x5n3tcw5kltuut4u/app.bsky.feed.post/3mxcmg4qeoc2w",
+        "handle": "moellennial.bsky.social",
+        "text": "Very excited to be at New York Comic Con this year! My schedule is pretty light and I'll mostly be at my table when not in meetings. I'll be sitting next to @stephwilliams.bsky.social and @yayforzig.bsky.social Stop by and say hello!",
+        "created_at": "2026-10-07T18:50:52.376Z",
+        "source": "https://bsky.app/profile/moellennial.bsky.social/post/3mxcmg4qeoc2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

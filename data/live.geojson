@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T02:46:18.812390Z",
-    "total_pins": 33
+    "generated_at": "2026-10-07T02:52:26.738595Z",
+    "total_pins": 35
   },
   "features": [
     {
@@ -696,6 +696,48 @@
         "text": "GP: Socialist Running for Congress in New York Wants Democrats to Pass a ‘Trans Bill of Rights’ if They Win Midterms (VIDEO) #Socialism",
         "created_at": "2026-10-07T02:45:22Z",
         "source": "https://bsky.app/profile/bsfavourite.bsky.social/post/3mxawhojagf2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:crfe2bkfieme6ls3iuj4a3cs/app.bsky.feed.post/3mxawsh3s3w2y",
+        "handle": "the-gatewaypundit.bsky.social",
+        "text": "Socialist Running for Congress in New York Wants Democrats to Pass a ‘Trans Bill of Rights’ if They Win Midterms (VIDEO)\n",
+        "created_at": "2026-10-07T02:51:23+00:00",
+        "source": "https://bsky.app/profile/the-gatewaypundit.bsky.social/post/3mxawsh3s3w2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ghrptav4bpyctziyada6hids/app.bsky.feed.post/3mxawsl5op22t",
+        "handle": "themadcentrist.com",
+        "text": "Unless, of course, they are in New York with the Rape Law loop hole.\n\nWhich is despicable, disgusting, and inexcusable. \n\nLegislation has been introduced just about every single year to close this loop hole, but for some ungodly reason it never passes.\n\nNY, get it done.",
+        "created_at": "2026-10-07T02:51:28.100Z",
+        "source": "https://bsky.app/profile/themadcentrist.com/post/3mxawsl5op22t",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

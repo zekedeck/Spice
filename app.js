@@ -604,10 +604,7 @@
     map.on("load", function () {
       map.addSource("pins", {
         type: "geojson",
-        data: { type: "FeatureCollection", features: [] },
-        cluster: true,
-        clusterMaxZoom: 14,
-        clusterRadius: 50
+        data: { type: "FeatureCollection", features: [] }
       });
 
       map.addSource("selected-pin", {
@@ -615,46 +612,11 @@
         data: { type: "FeatureCollection", features: [] }
       });
 
-      map.addLayer({
-        id: "clusters",
-        type: "circle",
-        source: "pins",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "#5b8cff",
-          "circle-opacity": 0.75,
-          "circle-stroke-width": 1,
-          "circle-stroke-color": "#0b0e14",
-          "circle-radius": [
-            "step", ["get", "point_count"],
-            16, 10,
-            22, 50,
-            28
-          ]
-        }
-      });
-
-      map.addLayer({
-        id: "cluster-count",
-        type: "symbol",
-        source: "pins",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": "{point_count_abbreviated}",
-          "text-size": 12,
-          "text-font": ["Noto Sans Regular"]
-        },
-        paint: {
-          "text-color": "#0b0e14"
-        }
-      });
-
       // Subtle always-on glow for unselected individual pins.
       map.addLayer({
         id: "unclustered-halo",
         type: "circle",
         source: "pins",
-        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 14,
@@ -667,7 +629,6 @@
         id: "unclustered-point",
         type: "circle",
         source: "pins",
-        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 6,
@@ -697,20 +658,12 @@
         }
       });
 
-      map.on("click", "clusters", function (e) {
-        var clusterId = e.features[0].properties.cluster_id;
-        var source = map.getSource("pins");
-        source.getClusterExpansionZoom(clusterId).then(function (zoom) {
-          map.easeTo({ center: e.features[0].geometry.coordinates, zoom: zoom });
-        }).catch(function () {});
-      });
-
       map.on("click", function (e) {
-        var features = map.queryRenderedFeatures(e.point, { layers: ["unclustered-point", "clusters"] });
+        var features = map.queryRenderedFeatures(e.point, { layers: ["unclustered-point"] });
         if (features.length === 0) clearSelection();
       });
 
-      ["clusters", "unclustered-point"].forEach(function (layerId) {
+      ["unclustered-point"].forEach(function (layerId) {
         map.on("mouseenter", layerId, function () { map.getCanvas().style.cursor = "pointer"; });
         map.on("mouseleave", layerId, function () { map.getCanvas().style.cursor = ""; });
       });

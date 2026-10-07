@@ -1,5 +1,6 @@
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError, GeocoderUnavailable
+import re
 import time
 import logging
 
@@ -27,6 +28,29 @@ _STATE_TYPES = {
 NYC_MIN_LAT, NYC_MAX_LAT = 40.50, 40.92
 NYC_MIN_LNG, NYC_MAX_LNG = -74.26, -73.70
 
+_STOPWORDS = {"the", "of", "in", "at", "a", "an"}
+
+
+def _query_tokens(s: str) -> set:
+    words = re.findall(r"[a-z0-9]+", s.lower())
+    return {w for w in words if w not in _STOPWORDS}
+
+
+def _name_matches_query(query: str, display_name: str) -> bool:
+    # display_name's first comma-separated segment is the matched entity's
+    # own name (e.g. "Williamsburg Bridge" out of "Williamsburg Bridge,
+    # Lower East Side, Manhattan, ..."). Every significant word in the
+    # query must appear there -- extra words on the matched side are fine
+    # (e.g. query "Grand Central" matching "Grand Central Terminal" should
+    # still pass), but a missing query word means the match is likely
+    # coincidental/wrong, not the actual place asked for.
+    primary = display_name.split(",")[0]
+    query_tokens = _query_tokens(query)
+    if not query_tokens:
+        return True
+    primary_tokens = _query_tokens(primary)
+    return query_tokens.issubset(primary_tokens)
+
 
 def init_geocoder(user_agent="Spice/1.0 (NYC Bluesky geolocation map; contact: zeke.deck@gmail.com)"):
     return Nominatim(user_agent=user_agent, timeout=10)
@@ -38,7 +62,8 @@ def geocode_query(query: str, geocoder, conn) -> dict | None:
         cached_lat = float(cached["lat"])
         cached_lng = float(cached["lng"])
         if NYC_MIN_LAT <= cached_lat <= NYC_MAX_LAT and NYC_MIN_LNG <= cached_lng <= NYC_MAX_LNG:
-            return cached
+            if _name_matches_query(query, cached["display_name"]):
+                return cached
     try:
         results = geocoder.geocode(
             query, addressdetails=True, language="en",
@@ -79,6 +104,10 @@ def geocode_query(query: str, geocoder, conn) -> dict | None:
         # Importance floor
         if float(best.raw.get("importance", 0.0)) < 0.02:
             logger.warning("Importance below floor rejected for query %r", query)
+            return None
+
+        if not _name_matches_query(query, best.address):
+            logger.warning("Query/result name mismatch rejected for query %r: matched %r", query, best.address)
             return None
 
         set_cached_geocode(conn, query, lat, lng, best.address, best.raw.get("type", best.raw.get("addresstype", "")), float(best.raw.get("importance", 0.0)))

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-07T10:27:41.319527Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4zzmrr3g3mqtxptcot5ep72c/app.bsky.feed.post/3mxbq5u4odo2l",
+        "handle": "workingclasshistory.com",
+        "text": "#OtD 7 Oct 1969 the Army Induction Centre on Whitehall Street in New York City was bombed by Sam Melville and David Hughey. There were no injuries. It was the 2nd time the building had been bombed by anti-war activists, and was subsequently closed stories.workingclasshistory.com/article/1075...",
+        "created_at": "2026-10-07T10:25:10.139Z",
+        "source": "https://bsky.app/profile/workingclasshistory.com/post/3mxbq5u4odo2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    }
+  ]
+}

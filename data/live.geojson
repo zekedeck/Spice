@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T15:59:27.182358Z",
-    "total_pins": 83
+    "generated_at": "2026-10-07T16:05:44.980341Z",
+    "total_pins": 85
   },
   "features": [
     {
@@ -1135,6 +1135,27 @@
         ]
       },
       "properties": {
+        "post_uri": "at://did:plc:vfr3b5xdbvktoj6uoegqzwux/app.bsky.feed.post/3mxcd24mipd2j",
+        "handle": "jeremydennis.bsky.social",
+        "text": "Upcoming tomorrow: \"Artists on the Rise\" featured work from my Rise series.\n\nLocation: RISE PROJECTS, New York, NY\n\nDates: October 8, 2026 - October 29, 2026\n\nFeatured work:\n- Why Must We Trespass to Visit Our Ancestors?, 2026\n\nhttps://www.jeremynative.com/events/event/group-show-artists-on-the-rise",
+        "created_at": "2026-10-07T12:03:04Z",
+        "source": "https://bsky.app/profile/jeremydennis.bsky.social/post/3mxcd24mipd2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
         "post_uri": "at://did:plc:vzmnljt7otfbbgrmachtefxh/app.bsky.feed.post/3mxbzcl4wwa2b",
         "handle": "news-flows-ir.bsky.social",
         "text": "Tributes paid to father of seven and 'wonderfully talented' GAA player following death in New York\n\nThe 56-year-old passed away in a road traffic accident, with his wife described as being in a 'critical condition'\n",
@@ -1752,6 +1773,27 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fqs4pjjadf3pqbjusb2qm25t/app.bsky.feed.post/3mxcd4bw5422c",
+        "handle": "eligit.bsky.social",
+        "text": "I think there are some folks in the New York money machine (a right wing coded activity) who are not obsessively right wing on social issues.\nThis is a dynamic which has always been part of NY politics.\nAnd even more left wing pols don't want to poison the money machine which pays for everything.",
+        "created_at": "2026-10-07T16:04:18.601Z",
+        "source": "https://bsky.app/profile/eligit.bsky.social/post/3mxcd4bw5422c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
         "confidence": 0.95
       }
     }

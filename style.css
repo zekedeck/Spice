@@ -215,6 +215,43 @@ body {
   gap: 0.5rem;
 }
 
+.state-panel {
+  position: relative;
+}
+
+.state-panel > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.state-panel > summary::-webkit-details-marker {
+  display: none;
+}
+
+#state-panel-count {
+  color: var(--text-secondary);
+  margin-left: 0.4rem;
+}
+
+.state-panel-panel {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.4rem);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.9rem;
+  width: 320px;
+  max-height: 60vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
 main {
   position: relative;
   flex: 1;
@@ -322,34 +359,7 @@ main {
   font-weight: 600;
 }
 
-/* ===== State mentions panel (left side) ===== */
-
-#state-panel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 300px;
-  max-width: 85vw;
-  background: var(--panel-bg);
-  border-right: 1px solid var(--panel-border);
-  box-shadow: 8px 0 24px rgba(0, 0, 0, 0.4);
-  padding: 1rem 1.1rem;
-  overflow-y: auto;
-  z-index: 6;
-}
-
-#state-panel-title {
-  font-size: 1rem;
-  font-weight: 700;
-  margin: 0 0 0.8rem 0;
-}
-
-.state-panel-count {
-  color: var(--text-secondary);
-  font-weight: 400;
-  font-size: 0.85rem;
-}
+/* ===== State mentions dropdown (header) ===== */
 
 .state-panel-empty {
   color: var(--text-secondary);
@@ -417,17 +427,43 @@ main {
   z-index: 5;
 }
 
+.legend-gradient {
+  width: 180px;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fdf6e3, #f7d154, #f2924a, #d94f4f);
+}
+
+.legend-gradient-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+.legend-strokes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+  padding-top: 0.3rem;
+  border-top: 1px solid var(--panel-border);
+}
+
 .legend-item {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
-.legend-dot {
+.legend-ring {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   display: inline-block;
+  background: transparent;
+  border: 2px solid var(--text-secondary);
 }
 
 /* ===== Status line (screen-reader + small visible toast) ===== */
@@ -471,6 +507,16 @@ main {
     width: calc(100vw - 2rem);
   }
 
+  .state-panel {
+    order: 4;
+  }
+
+  .state-panel-panel {
+    left: auto;
+    right: 0;
+    width: calc(100vw - 2rem);
+  }
+
   #detail-panel {
     width: 100%;
     max-width: 100%;
@@ -487,21 +533,6 @@ main {
 
   #detail-panel[aria-hidden="false"] {
     transform: translateY(0);
-  }
-
-  /* Stacks above the detail panel's bottom sheet: state mentions get the
-     top 35vh band, the detail panel (when open) owns the bottom 65vh, so
-     the two never overlap. */
-  #state-panel {
-    top: 0;
-    left: 0;
-    width: 78vw;
-    max-width: 78vw;
-    height: auto;
-    max-height: 35vh;
-    border-right: 1px solid var(--panel-border);
-    border-bottom: 1px solid var(--panel-border);
-    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.4);
   }
 
   .legend {

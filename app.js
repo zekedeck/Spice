@@ -287,10 +287,16 @@
     return "region";
   }
 
+  function computeAgeMinutes(createdAtIso) {
+    var created = new Date(createdAtIso).getTime();
+    return (Date.now() - created) / 60000;
+  }
+
   function annotate(features) {
     for (var i = 0; i < features.length; i++) {
       var props = features[i].properties || {};
       props.category = categorize(props);
+      props.ageMinutes = computeAgeMinutes(props.created_at);
       features[i].properties = props;
     }
     return features;
@@ -583,6 +589,22 @@
     "#8b8fe0" // region / default
   ];
 
+  var CATEGORY_STROKE_WIDTH_EXPR = [
+    "match", ["get", "category"],
+    "flagged", 5,
+    3
+  ];
+
+  // Recency gradient: warm white (just posted) -> yellow -> orange -> red
+  // (12h+), clamped at the red stop for anything older.
+  var AGE_COLOR_EXPR = [
+    "interpolate", ["linear"], ["get", "ageMinutes"],
+    0, "#fdf6e3",
+    15, "#f7d154",
+    120, "#f2924a",
+    720, "#d94f4f"
+  ];
+
   function initMap() {
     map = new maplibregl.Map({
       container: "map",
@@ -648,7 +670,7 @@
         source: "pins",
         filter: ["!", ["has", "point_count"]],
         paint: {
-          "circle-color": CATEGORY_COLOR_EXPR,
+          "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 14,
           "circle-blur": 1,
           "circle-opacity": 0.22
@@ -661,10 +683,10 @@
         source: "pins",
         filter: ["!", ["has", "point_count"]],
         paint: {
-          "circle-color": CATEGORY_COLOR_EXPR,
+          "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 6,
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#0b0e14"
+          "circle-stroke-width": CATEGORY_STROKE_WIDTH_EXPR,
+          "circle-stroke-color": CATEGORY_COLOR_EXPR
         }
       });
 
@@ -674,7 +696,7 @@
         type: "circle",
         source: "selected-pin",
         paint: {
-          "circle-color": CATEGORY_COLOR_EXPR,
+          "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 22,
           "circle-blur": 0.8,
           "circle-opacity": 0.55

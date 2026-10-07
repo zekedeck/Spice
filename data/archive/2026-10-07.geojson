@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T22:54:35.339762Z",
-    "total_pins": 103
+    "generated_at": "2026-10-07T23:20:59.465230Z",
+    "total_pins": 107
   },
   "features": [
     {
@@ -2168,6 +2168,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ec764celcdunkj5mtyrxs7ne/app.bsky.feed.post/3mxd3e7d5m22d",
+        "handle": "hamantaschendog.bsky.social",
+        "text": "Yeah man I completely see how holding up pictures of Yahya Sinwar and Hezbollah flags outside the residence of the mayor of New York advances that aim and doesn’t just mark you as a bloodthirsty lunatic",
+        "created_at": "2026-10-07T23:18:14.117Z",
+        "source": "https://bsky.app/profile/hamantaschendog.bsky.social/post/3mxd3e7d5m22d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5vmsl7ouncdbepmiknropfkw/app.bsky.feed.post/3mxd3eltyqs2s",
+        "handle": "powderbum75.bsky.social",
+        "text": "Their cover of \"The Only Living Boy in New York\" belongs on one of those Great Cover lists. \n\nThat said. \n\nIf you were to look for it on Spotify you might find it listed under a more disturbing and alienating alternate title.",
+        "created_at": "2026-10-07T23:18:27.251Z",
+        "source": "https://bsky.app/profile/powderbum75.bsky.social/post/3mxd3eltyqs2s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mxd3hjznhb2m",
+        "handle": "allforgardening.bsky.social",
+        "text": "Phish Book 100th Madison Square Garden Concert\n\nhttps://www.allforgardening.com/1943896/phish-book-100th-madison-square-garden-concert/\n\nPhish will play their 100th concert at Madison Square Garden this winter. The gig, on Jan. 2, will conclude a four-night run at the legendary New York venue …",
+        "created_at": "2026-10-07T23:20:02+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mxd3hjznhb2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:56fkgedq4gjcc5uhfxx6oiey/app.bsky.feed.post/3mxd3idxuns2q",
+        "handle": "willmushroom.bsky.social",
+        "text": "📍New York",
+        "created_at": "2026-10-07T23:20:33.212Z",
+        "source": "https://bsky.app/profile/willmushroom.bsky.social/post/3mxd3idxuns2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
       }
     }
   ]

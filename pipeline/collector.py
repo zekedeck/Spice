@@ -5,8 +5,8 @@ import time
 
 from atproto import CAR, Client, FirehoseSubscribeReposClient, parse_subscribe_repos_message
 
-from pipeline.database import init_db, insert_post, prune_old_posts, delete_post
-from config import DB_PATH, BSKY_HANDLE, BSKY_APP_PASSWORD, ROLLING_WINDOW_DAYS
+from pipeline.database import init_db, insert_post, delete_post
+from config import DB_PATH, BSKY_HANDLE, BSKY_APP_PASSWORD
 
 logger = logging.getLogger(__name__)
 
@@ -138,9 +138,6 @@ def run_collector(duration_seconds: int = 180) -> None:
                 if inserted:
                     logger.info("Inserted: %s", post_url)
                     post_count += 1
-
-                if post_count > 0 and post_count % 1000 == 0:
-                    prune_old_posts(conn, ROLLING_WINDOW_DAYS)
 
     while True:
         try:

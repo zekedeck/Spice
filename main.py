@@ -28,6 +28,7 @@ def run_pipeline() -> None:
     log = logging.getLogger(__name__)
 
     geocoder = init_geocoder()
+    conn = init_db(DB_PATH)
 
     mode_input = input("Mode — radius filter or global map? [r/g, default r]: ").strip().lower()
     global_mode = mode_input == "g"
@@ -41,7 +42,7 @@ def run_pipeline() -> None:
         print("Global mode — all geocoded locations will be mapped.")
     else:
         address_input = input("Address to search around: ").strip()
-        result = geocode_query(address_input, geocoder)
+        result = geocode_query(address_input, geocoder, conn)
         if result is None:
             print(f"Could not geocode address: {address_input}")
             sys.exit(1)
@@ -85,7 +86,6 @@ def run_pipeline() -> None:
         output_file += ".geojson"
 
     nlp = load_nlp_model()
-    conn = init_db(DB_PATH)
     posts = get_unprocessed_posts(conn, since=since_iso, reprocess=reprocess)
 
     log.info("Processing %d unprocessed posts", len(posts))

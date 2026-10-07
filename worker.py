@@ -14,6 +14,7 @@ from pipeline.database import (
     get_pins_since,
     get_pins_for_range,
     prune_old_pins,
+    prune_old_posts,
 )
 from pipeline.nlp import load_nlp_model, extract_locations, extract_emoji_locations
 from pipeline.semantic_filter import filter_venue_locations
@@ -23,7 +24,7 @@ from pipeline.scorer import apply_confidence_threshold
 from pipeline.writer import post_to_features, write_geojson
 from models import GeoPost
 import config
-from config import DB_PATH, LIVE_WINDOW_HOURS, ARCHIVE_RETENTION_DAYS, LIVE_OUTPUT_PATH, ARCHIVE_DIR
+from config import DB_PATH, LIVE_WINDOW_HOURS, ARCHIVE_RETENTION_DAYS, LIVE_OUTPUT_PATH, ARCHIVE_DIR, ROLLING_WINDOW_DAYS
 
 
 def _pin_rows_to_feature_collection(rows: list) -> dict:
@@ -79,6 +80,7 @@ def run_worker() -> None:
     skipped_no_geocode = 0
     skipped_language = 0
     skipped_low_confidence = 0
+    skipped_error = 0
 
     total_posts = len(posts)
     for i, post in enumerate(posts):
@@ -99,69 +101,75 @@ def run_worker() -> None:
         except LangDetectException:
             pass
 
-        emoji_pairs = extract_emoji_locations(text)
-        nlp_pairs, doc = extract_locations(text, nlp)
-        all_pairs = emoji_pairs + [p for p in nlp_pairs if p[0] not in {e[0] for e in emoji_pairs}]
+        try:
+            emoji_pairs = extract_emoji_locations(text)
+            nlp_pairs, doc = extract_locations(text, nlp)
+            all_pairs = emoji_pairs + [p for p in nlp_pairs if p[0] not in {e[0] for e in emoji_pairs}]
 
-        venue_pairs = filter_venue_locations(all_pairs, text, doc=doc)
+            venue_pairs = filter_venue_locations(all_pairs, text, doc=doc)
 
-        if not venue_pairs:
-            skipped_no_location += 1
-            mark_processed(conn, post["post_uri"])
-            continue
+            if not venue_pairs:
+                skipped_no_location += 1
+                mark_processed(conn, post["post_uri"])
+                continue
 
-        candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs, llm_client=llm_client)
+            candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs, llm_client=llm_client)
 
-        if not candidates:
-            skipped_no_geocode += 1
-            mark_processed(conn, post["post_uri"])
-            continue
+            if not candidates:
+                skipped_no_geocode += 1
+                mark_processed(conn, post["post_uri"])
+                continue
 
-        confident = apply_confidence_threshold(candidates, text, all_pairs)
+            confident = apply_confidence_threshold(candidates, text, all_pairs)
 
-        if not confident:
-            skipped_low_confidence += 1
-            mark_processed(conn, post["post_uri"])
-            continue
+            if not confident:
+                skipped_low_confidence += 1
+                mark_processed(conn, post["post_uri"])
+                continue
 
-        filtered = confident
+            filtered = confident
 
-        geo_post = GeoPost(
-            post_uri=post["post_uri"],
-            handle=post["handle"],
-            did=post["did"],
-            text=text,
-            created_at=post["created_at"],
-            post_url=post["post_url"],
-            candidates=filtered,
-        )
-        geo_posts.append(geo_post)
-
-        features = post_to_features(geo_post)
-        total = len(features)
-        for idx, feature in enumerate(features, start=1):
-            props = feature["properties"]
-            lng, lat = feature["geometry"]["coordinates"]
-            insert_pin(
-                conn,
-                pin_id=f"{geo_post.post_uri}__{idx}",
-                post_uri=props["post_uri"],
-                post_url=props["source"],
-                handle=props["handle"],
-                text=props["text"],
-                post_created_at=props["created_at"],
-                lat=lat,
-                lng=lng,
-                location_text=props["location_text"],
-                mapped_location=props["mapped_location"],
-                precision=props["precision_level"],
-                confidence=props["confidence"],
-                candidate_index=idx,
-                candidate_total=total,
-                other_locations=props.get("other_locations"),
+            geo_post = GeoPost(
+                post_uri=post["post_uri"],
+                handle=post["handle"],
+                did=post["did"],
+                text=text,
+                created_at=post["created_at"],
+                post_url=post["post_url"],
+                candidates=filtered,
             )
+            geo_posts.append(geo_post)
 
-        mark_processed(conn, post["post_uri"])
+            features = post_to_features(geo_post)
+            total = len(features)
+            for idx, feature in enumerate(features, start=1):
+                props = feature["properties"]
+                lng, lat = feature["geometry"]["coordinates"]
+                insert_pin(
+                    conn,
+                    pin_id=f"{geo_post.post_uri}__{idx}",
+                    post_uri=props["post_uri"],
+                    post_url=props["source"],
+                    handle=props["handle"],
+                    text=props["text"],
+                    post_created_at=props["created_at"],
+                    lat=lat,
+                    lng=lng,
+                    location_text=props["location_text"],
+                    mapped_location=props["mapped_location"],
+                    precision=props["precision_level"],
+                    confidence=props["confidence"],
+                    candidate_index=idx,
+                    candidate_total=total,
+                    other_locations=props.get("other_locations"),
+                )
+
+            mark_processed(conn, post["post_uri"])
+        except Exception:
+            skipped_error += 1
+            log.exception("Unhandled error processing post %s; marking processed and skipping", post["post_uri"])
+            mark_processed(conn, post["post_uri"])
+            continue
 
     # Regenerate live + archive output files fresh from the pins table.
     since_iso = (datetime.utcnow() - timedelta(hours=LIVE_WINDOW_HOURS)).isoformat()
@@ -182,8 +190,9 @@ def run_worker() -> None:
     os.makedirs(ARCHIVE_DIR, exist_ok=True)
     write_geojson(archive_collection, f"{ARCHIVE_DIR}/{date_str}.geojson")
 
-    # Prune old data: DB pins table + old archive files.
+    # Prune old data: DB pins table + posts table + old archive files.
     prune_old_pins(conn, ARCHIVE_RETENTION_DAYS)
+    prune_old_posts(conn, ROLLING_WINDOW_DAYS)
 
     cutoff_date = now_et.date() - timedelta(days=ARCHIVE_RETENTION_DAYS)
     for path in glob.glob(f"{ARCHIVE_DIR}/*.geojson"):
@@ -199,8 +208,8 @@ def run_worker() -> None:
 
     total_pins = sum(len(p.candidates) for p in geo_posts)
     log.info(
-        "Done. Total: %d | Non-English: %d | No location: %d | No geocode: %d | Low confidence: %d | Written: %d posts -> %d pins",
-        len(posts), skipped_language, skipped_no_location, skipped_no_geocode, skipped_low_confidence, len(geo_posts), total_pins
+        "Done. Total: %d | Non-English: %d | No location: %d | No geocode: %d | Low confidence: %d | Errors: %d | Written: %d posts -> %d pins",
+        len(posts), skipped_language, skipped_no_location, skipped_no_geocode, skipped_low_confidence, skipped_error, len(geo_posts), total_pins
     )
 
 

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T22:48:04.187782Z",
-    "total_pins": 102
+    "generated_at": "2026-10-07T22:54:35.339762Z",
+    "total_pins": 103
   },
   "features": [
     {
@@ -2143,6 +2143,27 @@
         "text": "Prosecutors in New York are expected to bring new charges against former Venezuelan President Nicolás Maduro and his wife Cilia Flores over the alleged torture of Americans held in Venezuelan government custody in recent years, with an announcement possible as soon as Thursday \nCNN.",
         "created_at": "2026-10-07T22:47:32.062Z",
         "source": "https://bsky.app/profile/cravi75.bsky.social/post/3mxcznclzss2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5edngauen5sywt4m6zhpki5/app.bsky.feed.post/3mxczzb6foc2p",
+        "handle": "violet120.bsky.social",
+        "text": "Realisation that if Moxxie ever ends up in New York \n\nWe’re never going to see him again \nHe lives in the theatre now",
+        "created_at": "2026-10-07T22:54:13.214Z",
+        "source": "https://bsky.app/profile/violet120.bsky.social/post/3mxczzb6foc2p",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

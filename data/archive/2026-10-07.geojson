@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:29:30.876914Z",
-    "total_pins": 76
+    "generated_at": "2026-10-07T18:35:45.170542Z",
+    "total_pins": 78
   },
   "features": [
     {
@@ -1601,6 +1601,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wpe5wcj7y3hfv3huorblcage/app.bsky.feed.post/3mxclfmt4m227",
+        "handle": "oldsquida.bsky.social",
+        "text": "On 10 November 1975, the vote took place at the UN General Assembly session in New York.\nThe resolution said the General Assembly ‘determines that Zionism is a form of racism and racial discrimination’.”",
+        "created_at": "2026-10-07T18:32:16.166Z",
+        "source": "https://bsky.app/profile/oldsquida.bsky.social/post/3mxclfmt4m227",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:45caqn4troowjbp2brbwpjyk/app.bsky.feed.post/3mxcljdx7vs2l",
+        "handle": "newyorkalmanack.bsky.social",
+        "text": "In 2027 bells will be tolling to mark 400 years since the arrival of enslaved people in New York and the 200th year since slavery's abolition in the state. Is your community participating? #history",
+        "created_at": "2026-10-07T18:34:46.876Z",
+        "source": "https://bsky.app/profile/newyorkalmanack.bsky.social/post/3mxcljdx7vs2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

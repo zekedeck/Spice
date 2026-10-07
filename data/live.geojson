@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T15:05:29.926748Z",
-    "total_pins": 75
+    "generated_at": "2026-10-07T15:23:35.978370Z",
+    "total_pins": 77
   },
   "features": [
     {
@@ -1581,6 +1581,48 @@
         "text": "Insert old joke about the tourist in New York asking for directions *here*",
         "created_at": "2026-10-07T15:03:44.936Z",
         "source": "https://bsky.app/profile/loonerlinuxnerd.bsky.social/post/3mxc7pylj422k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ftva2573bvbblf6jeldvraq7/app.bsky.feed.post/3mxcaqy3eas2f",
+        "handle": "brickfanatics.bsky.social",
+        "text": "The artist behind the look of LEGO DC 67012 The Joker Wall Art Comic Cover will be at New York Comic Con 2026, along with a nine-foot-tall version of the set.\n\nbrickfanatics.com/lego-joker-artist-signing-confirmed-for-new-york-comic-con\n\n#LEGO #DC #LEGODC #TheJoker #Jock",
+        "created_at": "2026-10-07T15:22:11.701Z",
+        "source": "https://bsky.app/profile/brickfanatics.bsky.social/post/3mxcaqy3eas2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qupjsewfenjm4msxswrtfvzy/app.bsky.feed.post/3mxcasqag4c2i",
+        "handle": "redsqurrl.bsky.social",
+        "text": "What a fucking lameass🙄 I bet you they don't even live in New York State",
+        "created_at": "2026-10-07T15:23:10.588Z",
+        "source": "https://bsky.app/profile/redsqurrl.bsky.social/post/3mxcasqag4c2i",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

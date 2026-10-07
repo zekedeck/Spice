@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:35:25.931894Z",
-    "total_pins": 43
+    "generated_at": "2026-10-07T16:41:31.970549Z",
+    "total_pins": 46
   },
   "features": [
     {
@@ -906,6 +906,69 @@
         "precision_level": "city",
         "location_text": "Nintendo NEW YORK",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxcezzd4nl23",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "The governor's shocking revelations about Cornell Police potentially omitting critical evidence in a rape case raise serious questions about justice in New York. \n\nClick to read more!\n\n#NY #CitizenPortal #JusticeReform #PublicSafety #NewYorkCampusPolice #CivicAccountability",
+        "created_at": "2026-10-07T16:38:49.781Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxcezzd4nl23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxcf5ko5ym2v",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "Governor calls for urgent legal reform in New York to eliminate the loophole allowing voluntary intoxication as an excuse for sexual assault. \n\nClick to read more!\n\n#NY #CitizenPortal #NewYorkLegislation #SexualAssaultPrevention #LegislativeReform #PublicSafety",
+        "created_at": "2026-10-07T16:40:48.634Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxcf5ko5ym2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7stwnmckdd3fytr7ep6xzyoz/app.bsky.feed.post/3mxcf6ggrj22v",
+        "handle": "thefoxandthecity.com",
+        "text": "Behold, an Italian-designed solution in New York!",
+        "created_at": "2026-10-07T16:41:17.928Z",
+        "source": "https://bsky.app/profile/thefoxandthecity.com/post/3mxcf6ggrj22v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

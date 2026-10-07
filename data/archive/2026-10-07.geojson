@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:05:40.060180Z",
-    "total_pins": 70
+    "generated_at": "2026-10-07T18:11:56.078387Z",
+    "total_pins": 72
   },
   "features": [
     {
@@ -1473,6 +1473,50 @@
         "precision_level": "state",
         "location_text": "Staten Island",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988,
+          40.742
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ua3bur4lsva24j5c3j5tvvdd/app.bsky.feed.post/3mxck3wfekc2j",
+        "handle": "dralegal.bsky.social",
+        "text": "(2/2)\n10am: Line-up at Madison Square Park \n11am: Parade starts\n12pm–3pm: Block Party in Union Square Park\n\nWe can’t wait to see you there! #TogetherWeBuild\n\nLearn more about the event: www.nycdisabilitypride.org",
+        "created_at": "2026-10-07T18:09:22.710Z",
+        "source": "https://bsky.app/profile/dralegal.bsky.social/post/3mxck3wfekc2j",
+        "mapped_location": "Madison Square Park, 11, Manhattan Community Board 5, Manhattan, New York County, New York, 10010, United States",
+        "precision_level": "address",
+        "location_text": "Madison Square Park",
+        "confidence": 0.9,
+        "other_locations": "Union Square Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ua3bur4lsva24j5c3j5tvvdd/app.bsky.feed.post/3mxck3wfekc2j",
+        "handle": "dralegal.bsky.social",
+        "text": "(2/2)\n10am: Line-up at Madison Square Park \n11am: Parade starts\n12pm–3pm: Block Party in Union Square Park\n\nWe can’t wait to see you there! #TogetherWeBuild\n\nLearn more about the event: www.nycdisabilitypride.org",
+        "created_at": "2026-10-07T18:09:22.710Z",
+        "source": "https://bsky.app/profile/dralegal.bsky.social/post/3mxck3wfekc2j",
+        "mapped_location": "Union Square Park, 201, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "address",
+        "location_text": "Union Square Park",
+        "confidence": 1.0,
+        "other_locations": "Madison Square Park"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:41:56.794561Z",
+    "generated_at": "2026-10-07T14:49:33.707602Z",
     "total_pins": 74
   },
   "features": [
@@ -381,28 +381,6 @@
         "precision_level": "address",
         "location_text": "Herald Square",
         "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9076756,
-          40.7028171
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3mxaf64bx6426",
-        "handle": "travelingadvisor.bsky.social",
-        "text": "Did you know? Seneca Falls is a town in Seneca County, New York, United States.",
-        "created_at": "2026-10-06T21:35:47.694099+00:00",
-        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3mxaf64bx6426",
-        "mapped_location": "Seneca Avenue, Palmetto Street, Ridgewood, Queens, Queens County, New York, 11385, United States",
-        "precision_level": "city",
-        "location_text": "Seneca County",
-        "confidence": 0.9,
-        "other_locations": "New York"
       }
     },
     {
@@ -1404,27 +1382,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9814769,
-          40.7165303
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxc53pfsds24",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A man stole a cellphone in East Williamsburg and used the linked credit card for multiple purchases hours later.\n",
-        "created_at": "2026-10-07T14:16:36.524Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxc53pfsds24",
-        "mapped_location": "Williamsburg Bridge, Lower East Side, Manhattan Community Board 3, Manhattan, New York County, New York, 10002, United States",
-        "precision_level": "city",
-        "location_text": "East Williamsburg",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -74.0060152,
           40.7127281
         ]
@@ -1565,6 +1522,48 @@
         "precision_level": "city",
         "location_text": "the Bronx Zoo",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yx24inb75mwze37i6apzgzyt/app.bsky.feed.post/3mxc6vkxpte2u",
+        "handle": "airforcetrack.bsky.social",
+        "text": "99-0404 Took off near Saranac Lake, New York, United States.",
+        "created_at": "2026-10-07T14:48:58.209237+00:00",
+        "source": "https://bsky.app/profile/airforcetrack.bsky.social/post/3mxc6vkxpte2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lzxgvjbf6ahvnxzppnvcjvjb/app.bsky.feed.post/3mxc6vlel5k2k",
+        "handle": "rachelholliday.bsky.social",
+        "text": "for example: the Teacher-Principal Trust metric. if it's really low, that's a biiiig red flag for a school. reporters and experts know that. educators know that. but how would the average, busy parents in New York know that? it's hard\n\nwww.thecityreporter.nyc/2026/10/07/b...",
+        "created_at": "2026-10-07T14:48:58.660Z",
+        "source": "https://bsky.app/profile/rachelholliday.bsky.social/post/3mxc6vlel5k2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

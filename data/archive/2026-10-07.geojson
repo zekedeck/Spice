@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T18:59:25.755845Z",
-    "total_pins": 85
+    "generated_at": "2026-10-07T19:05:38.808134Z",
+    "total_pins": 86
   },
   "features": [
     {
@@ -1789,6 +1789,27 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:53cxohjh3vh7g5egy7zw6d2n/app.bsky.feed.post/3mxcn6gwxic25",
+        "handle": "justjared.com",
+        "text": "Carson Daly is heading back to Times Square for a \"TRL\" reunion special, but it won't be airing on MTV",
+        "created_at": "2026-10-07T19:04:28.396Z",
+        "source": "https://bsky.app/profile/justjared.com/post/3mxcn6gwxic25",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
         "confidence": 0.95
       }
     }

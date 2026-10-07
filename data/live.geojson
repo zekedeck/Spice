@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T19:11:32.932116Z",
-    "total_pins": 138
+    "generated_at": "2026-10-07T19:22:19.834582Z",
+    "total_pins": 139
   },
   "features": [
     {
@@ -2910,6 +2910,27 @@
         "precision_level": "address",
         "location_text": "Times Square",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5z254fk3chggvtdmt6l667bs/app.bsky.feed.post/3mxco54isge23",
+        "handle": "tairnews.bsky.social",
+        "text": "\"Lecturer of Biological Sciences, Computational Biology at Barnard College, New York, NY, USA\"\n\nRead more here\n\n#PlantSciJobs",
+        "created_at": "2026-10-07T19:21:37.385Z",
+        "source": "https://bsky.app/profile/tairnews.bsky.social/post/3mxco54isge23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

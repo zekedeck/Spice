@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:17:35.938555Z",
-    "total_pins": 14
+    "generated_at": "2026-10-07T14:23:34.556092Z",
+    "total_pins": 16
   },
   "features": [
     {
@@ -297,6 +297,48 @@
         "precision_level": "city",
         "location_text": "East Williamsburg",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xdwo6pqw7ahphu2egtjukpj3/app.bsky.feed.post/3mxc5d3tnfc26",
+        "handle": "feenavan2099.bsky.social",
+        "text": "\"In a public notice, the health department said treatment would have to be performed by qualified medical providers licensed in New York and comply with state laws governing parental consent.\"",
+        "created_at": "2026-10-07T14:20:44.657Z",
+        "source": "https://bsky.app/profile/feenavan2099.bsky.social/post/3mxc5d3tnfc26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4ro2cnh2nz6fxc3rpdwy5roe/app.bsky.feed.post/3mxc5fcx3ts2l",
+        "handle": "miriamjohnanne.bsky.social",
+        "text": "˚ ༘♡ ·˚ ₊˚ˑ༄ؘbasic stats˚ ༘♡ ·˚ ₊˚ˑ༄ؘ\n❥miriam johnanne  \n\n❥29 years old \n\n❥august 19th\n\n❥audhd  \n\n❥bisexual\n\n❥leo sun,pisces moon, aries rising, virgo mercury, libra venus and scorpio mars\n\n❥ originally from tennessee, now live in new york city",
+        "created_at": "2026-10-07T14:21:58.925Z",
+        "source": "https://bsky.app/profile/miriamjohnanne.bsky.social/post/3mxc5fcx3ts2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york city",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:47:36.167333Z",
-    "total_pins": 113
+    "generated_at": "2026-10-07T17:53:34.989080Z",
+    "total_pins": 116
   },
   "features": [
     {
@@ -2382,6 +2382,69 @@
         "mapped_location": "Lisson Gallery, 508, West 24th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
         "precision_level": "city",
         "location_text": "Lisson Gallery",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:an3gbmel5ornh77wzqdknjya/app.bsky.feed.post/3mxcj2i7s5k2b",
+        "handle": "publius24.bsky.social",
+        "text": "I can’t express how jarring it is to go from living in D.C. during the DOGE firings, losing everything, the ensuing activism, the unrest in the streets, to the monotony of a stable job in New York where I have to watch the chaos from afar. It’s a little maddening.",
+        "created_at": "2026-10-07T17:50:40.549Z",
+        "source": "https://bsky.app/profile/publius24.bsky.social/post/3mxcj2i7s5k2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9879476,
+          40.702216
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gsnobkkkao5izg34d253cek2/app.bsky.feed.post/3mxcj2qyogk2m",
+        "handle": "fabiennem-thuet.bsky.social",
+        "text": "Remembering actress Eva Marie Saint, 1924-2026. (Philippe Halsman - Eva Marie Saint On The Manhattan Bridge, NYC, 1954.)",
+        "created_at": "2026-10-07T17:50:49.742Z",
+        "source": "https://bsky.app/profile/fabiennem-thuet.bsky.social/post/3mxcj2qyogk2m",
+        "mapped_location": "Manhattan Bridge, Dumbo, Brooklyn, Kings County, New York, 11251, United States",
+        "precision_level": "city",
+        "location_text": "The Manhattan Bridge",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9895127,
+          40.6970288
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sskoqepdrrtlzv6eynmpudir/app.bsky.feed.post/3mxcj4ccyc22e",
+        "handle": "majinboowomp.bsky.social",
+        "text": "I wish we could get a president that’s even half as benevolent as Zoran Mamdani. It really does feel like NYC is the only place in the United States where good things can happen.",
+        "created_at": "2026-10-07T17:51:41.468Z",
+        "source": "https://bsky.app/profile/majinboowomp.bsky.social/post/3mxcj4ccyc22e",
+        "mapped_location": "Theodore Roosevelt United States Courthouse, 225, Cadman Plaza East, Dumbo, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "city",
+        "location_text": "the United States",
         "confidence": 0.9
       }
     }

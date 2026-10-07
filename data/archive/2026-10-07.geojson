@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T20:50:18.445171Z",
-    "total_pins": 92
+    "generated_at": "2026-10-07T21:04:28.795281Z",
+    "total_pins": 95
   },
   "features": [
     {
@@ -1937,6 +1937,69 @@
         "precision_level": "state",
         "location_text": "new york",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:acxaxpjo6md5st5ufvraqcob/app.bsky.feed.post/3mxctpvloa22i",
+        "handle": "swingingstorm.bsky.social",
+        "text": "I am back in New York! And I get to share exciting news soooooooooon",
+        "created_at": "2026-10-07T21:01:36.630Z",
+        "source": "https://bsky.app/profile/swingingstorm.bsky.social/post/3mxctpvloa22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lm7tyxogxk4xzs3cg4oxdb2y/app.bsky.feed.post/3mxctqbrcy223",
+        "handle": "primrosegreen2.bsky.social",
+        "text": "#ClocktoberMusic\n\nDay 8\n\nCourtney Barnett - An Illustration Of Loneliness (Sleepless In New York)\n(Sometimes I Sit And Think, And Sometimes I Just Sit; 2015)\n\n\"I lay awake at four, staring at the wall\nCounting all the cracks backwards in my best French\"\n\nwww.youtube.com/watch?v=t4lk...",
+        "created_at": "2026-10-07T21:01:49.400Z",
+        "source": "https://bsky.app/profile/primrosegreen2.bsky.social/post/3mxctqbrcy223",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ir2b7mnp3f7qouemawhhew72/app.bsky.feed.post/3mxctrjqcit2r",
+        "handle": "biztoc.com",
+        "text": "U.S. Prosecutors Prepare New Charges Against Maduro And His Wife — U.S. prosecutors in New York are preparing new charges against former Venezuelan President Nicolás Maduro and his wife, Cilia Flores. The report did not specify the charges, adding a new development to the couple’s legal…",
+        "created_at": "2026-10-07T21:02:31.228Z",
+        "source": "https://bsky.app/profile/biztoc.com/post/3mxctrjqcit2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T01:04:13.872423Z",
-    "total_pins": 21
+    "generated_at": "2026-10-07T01:53:42.873207Z",
+    "total_pins": 23
   },
   "features": [
     {
@@ -446,6 +446,50 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:huybukt3ly5vedqma55dxyql/app.bsky.feed.post/3mxathlm4tc2b",
+        "handle": "slava.crossfox.party",
+        "text": "The best thing about New Jersey is seeing the Welcome to New York sign when you leave",
+        "created_at": "2026-10-07T01:51:38.247Z",
+        "source": "https://bsky.app/profile/slava.crossfox.party/post/3mxathlm4tc2b",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.8,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:huybukt3ly5vedqma55dxyql/app.bsky.feed.post/3mxathlm4tc2b",
+        "handle": "slava.crossfox.party",
+        "text": "The best thing about New Jersey is seeing the Welcome to New York sign when you leave",
+        "created_at": "2026-10-07T01:51:38.247Z",
+        "source": "https://bsky.app/profile/slava.crossfox.party/post/3mxathlm4tc2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "New Jersey"
       }
     }
   ]

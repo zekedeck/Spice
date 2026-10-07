@@ -1,6 +1,10 @@
 """
 GLiNER proof-of-concept: test against known bskytest5 failures.
 Compares current spaCy extraction vs GLiNER for the same posts.
+
+Standalone exploratory script, not part of the production pipeline --
+requires `pip install gliner` separately, deliberately not in
+requirements.txt since nothing in main.py/worker.py/pipeline/ imports it.
 """
 from gliner import GLiNER
 import spacy

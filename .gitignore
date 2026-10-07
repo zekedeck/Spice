@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 bskytest*.geojson
 data/raw/
+.claude/

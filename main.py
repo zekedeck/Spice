@@ -1,3 +1,9 @@
+# Legacy interactive CLI tool, kept for offline/manual debugging only.
+# Production runs go through worker.py (headless, no input() prompts) via
+# GitHub Actions -- not this file. radius_filter.py and github_push.py
+# below are used only here; worker.py doesn't need them since the
+# geocoder is already NYC-bbox-bounded and the Actions workflow itself
+# handles git commit/push, not Python.
 import logging
 import sys
 from datetime import datetime
@@ -14,7 +20,7 @@ from pipeline.scorer import apply_confidence_threshold
 from pipeline.writer import build_feature_collection, write_geojson
 from pipeline.github_push import push_to_github
 from models import GeoPost
-from config import DB_PATH, DEFAULT_RADIUS_MILES, GEOJSON_OUTPUT
+from config import DB_PATH, DEFAULT_RADIUS_MILES
 
 
 def run_pipeline() -> None:

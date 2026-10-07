@@ -209,7 +209,7 @@ Those come later. Stay in your lane.
 
 ## Addendum — MVP Architecture Pivot (2026-10-05)
 
-Read `FRAMEWORK.md` → "MVP Pivot — GitHub-Only, NYC-Only" before planning any Phase 2 work. Short version: we are not building the Fly.io/FastAPI/WebSocket backend next. The MVP is NYC-only, runs entirely inside GitHub (Actions on a 10-minute schedule + Pages for the static frontend), and needs only 3 external accounts (GitHub, Groq, Bluesky) instead of 8.
+Read `FRAMEWORK.md` → "MVP Pivot — GitHub-Only, NYC-Only" before planning any Phase 2 work. Short version: we are not building the Fly.io/FastAPI/WebSocket backend next. The MVP is NYC-only, runs entirely inside GitHub (Actions on a 6-minute schedule + Pages for the static frontend), and needs only 3 external accounts (GitHub, Groq, Bluesky) instead of 8.
 
 **Workers A–E: your current assignments (WAL mode, collector fixes, EMOJI ordering, geocoder validation, writer security fixes) are unchanged — fix those first regardless of architecture.**
 

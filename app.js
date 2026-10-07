@@ -693,6 +693,22 @@
   lookbackApply.addEventListener("click", handleLookbackApply);
   lookbackReset.addEventListener("click", handleLookbackReset);
 
+  // Browsers throttle setInterval timers on backgrounded tabs, which can
+  // stall the live poll. When the tab becomes visible again after actually
+  // having been hidden (not on initial load), refetch immediately instead
+  // of waiting for the next scheduled interval tick.
+  var tabWasHidden = false;
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "hidden") {
+      tabWasHidden = true;
+      return;
+    }
+    if (document.visibilityState === "visible" && tabWasHidden) {
+      tabWasHidden = false;
+      if (mode === "live") loadLive();
+    }
+  });
+
   initLookbackBounds();
   initMap();
 })();

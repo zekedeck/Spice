@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T17:05:38.924197Z",
-    "total_pins": 52
+    "generated_at": "2026-10-07T17:11:28.295322Z",
+    "total_pins": 53
   },
   "features": [
     {
@@ -1091,6 +1091,27 @@
         "text": "ICYMI: [VIDEO] What It Was Like Living in a House in New York in 1900",
         "created_at": "2026-10-07T17:03:09Z",
         "source": "https://bsky.app/profile/viewingnyc.bsky.social/post/3mxcgfjodvx2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m53436tir5dteesyzatyc7r6/app.bsky.feed.post/3mxcgqfd4cc2s",
+        "handle": "wusf.org",
+        "text": "The Tampa Bay Rays’ official watch party for Wednesday night’s playoff game in New York will be inside Tropicana Field at the Hall of Fame Bar & Grill.",
+        "created_at": "2026-10-07T17:09:14.482Z",
+        "source": "https://bsky.app/profile/wusf.org/post/3mxcgqfd4cc2s",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

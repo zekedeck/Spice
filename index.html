@@ -30,12 +30,18 @@
       <fieldset>
         <legend>Date range (Eastern Time)</legend>
         <div class="lookback-row">
-          <label for="lookback-from">From</label>
-          <input type="datetime-local" id="lookback-from" name="lookback-from" />
+          <label for="lookback-from-date">From</label>
+          <div class="lookback-datetime">
+            <input type="date" id="lookback-from-date" name="lookback-from-date" />
+            <input type="time" id="lookback-from-time" name="lookback-from-time" />
+          </div>
         </div>
         <div class="lookback-row">
-          <label for="lookback-to">To</label>
-          <input type="datetime-local" id="lookback-to" name="lookback-to" />
+          <label for="lookback-to-date">To</label>
+          <div class="lookback-datetime">
+            <input type="date" id="lookback-to-date" name="lookback-to-date" />
+            <input type="time" id="lookback-to-time" name="lookback-to-time" />
+          </div>
         </div>
         <p class="lookback-hint">Range must fall within the last 30 days. All times are Eastern (ET).</p>
         <p class="lookback-error" id="lookback-error" role="alert" hidden></p>

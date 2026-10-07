@@ -76,7 +76,8 @@ button:hover {
 }
 
 input[type="search"],
-input[type="datetime-local"] {
+input[type="date"],
+input[type="time"] {
   background: var(--bg);
   color: var(--text-primary);
   border: 1px solid var(--panel-border);
@@ -195,6 +196,21 @@ body {
 
 .lookback-row input {
   width: 100%;
+}
+
+.lookback-datetime {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.lookback-datetime input[type="date"] {
+  flex: 1.3;
+  min-width: 0;
+}
+
+.lookback-datetime input[type="time"] {
+  flex: 1;
+  min-width: 0;
 }
 
 .lookback-hint {

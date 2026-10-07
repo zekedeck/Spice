@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:05:44.983455Z",
-    "total_pins": 33
+    "generated_at": "2026-10-07T16:11:39.158299Z",
+    "total_pins": 36
   },
   "features": [
     {
@@ -692,6 +692,69 @@
         "text": "I think there are some folks in the New York money machine (a right wing coded activity) who are not obsessively right wing on social issues.\nThis is a dynamic which has always been part of NY politics.\nAnd even more left wing pols don't want to poison the money machine which pays for everything.",
         "created_at": "2026-10-07T16:04:18.601Z",
         "source": "https://bsky.app/profile/eligit.bsky.social/post/3mxcd4bw5422c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kn4j6znxqrhrvm3sr4hz6njv/app.bsky.feed.post/3mxcddlw7bc23",
+        "handle": "grimomenmag.bsky.social",
+        "text": "Artist Michael Blank will be joining us at New York Comic Con on Sunday, come meet him at Booth 1857",
+        "created_at": "2026-10-07T16:08:23.958Z",
+        "source": "https://bsky.app/profile/grimomenmag.bsky.social/post/3mxcddlw7bc23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zkpzrfquay34j6ek627wqtkf/app.bsky.feed.post/3mxcdeb2xjc27",
+        "handle": "ishootsquares.bsky.social",
+        "text": "Today's #AccidentalArtist is Mark Rothko, one of whose earlier works can be found on a wall of a partly demolished building in Colmar, Alsace. The other image below hangs in the Museum of Modern Art in New York.\n\n#aofoto #aoFotoCall #photography #art",
+        "created_at": "2026-10-07T16:08:46.139Z",
+        "source": "https://bsky.app/profile/ishootsquares.bsky.social/post/3mxcdeb2xjc27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:txqadrlf3eadbpjvyoqu2ind/app.bsky.feed.post/3mxcdf7bm522q",
+        "handle": "westcoastsexgod.bsky.social",
+        "text": "I am tempted to buy this book, because I know thrt will be amazing, but I know I would look at it exactly one time. Also, Goodwife, having lived in New York, would scorn me for being pretentious.",
+        "created_at": "2026-10-07T16:09:17.817Z",
+        "source": "https://bsky.app/profile/westcoastsexgod.bsky.social/post/3mxcdf7bm522q",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

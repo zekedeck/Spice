@@ -4,8 +4,6 @@ import os
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from langdetect import detect, LangDetectException
-
 from pipeline.database import (
     init_db,
     get_unprocessed_posts,
@@ -16,11 +14,10 @@ from pipeline.database import (
     prune_old_pins,
     prune_old_posts,
 )
-from pipeline.nlp import load_nlp_model, extract_locations, extract_emoji_locations
-from pipeline.semantic_filter import filter_venue_locations
-from pipeline.geocoder import init_geocoder, resolve_post_locations
+from pipeline.nlp import load_nlp_model
+from pipeline.geocoder import init_geocoder
 from pipeline.llm_geotagging import init_llm_client
-from pipeline.scorer import apply_confidence_threshold
+from pipeline.process_post import resolve_post
 from pipeline.writer import post_to_features, write_geojson
 from models import GeoPost
 import config
@@ -94,35 +91,21 @@ def run_worker() -> None:
         text = post["text"]
 
         try:
-            if detect(text) != "en":
+            confident, skip_reason = resolve_post(text, nlp, geocoder, conn, llm_client=llm_client)
+
+            if skip_reason == "language":
                 skipped_language += 1
                 mark_processed(conn, post["post_uri"])
                 continue
-        except LangDetectException:
-            pass
-
-        try:
-            emoji_pairs = extract_emoji_locations(text)
-            nlp_pairs, doc = extract_locations(text, nlp)
-            all_pairs = emoji_pairs + [p for p in nlp_pairs if p[0] not in {e[0] for e in emoji_pairs}]
-
-            venue_pairs = filter_venue_locations(all_pairs, text, doc=doc)
-
-            if not venue_pairs:
+            if skip_reason == "no_location":
                 skipped_no_location += 1
                 mark_processed(conn, post["post_uri"])
                 continue
-
-            candidates = resolve_post_locations(text, venue_pairs, geocoder, conn, all_entity_pairs=all_pairs, llm_client=llm_client)
-
-            if not candidates:
+            if skip_reason == "no_geocode":
                 skipped_no_geocode += 1
                 mark_processed(conn, post["post_uri"])
                 continue
-
-            confident = apply_confidence_threshold(candidates, text, all_pairs)
-
-            if not confident:
+            if skip_reason == "low_confidence":
                 skipped_low_confidence += 1
                 mark_processed(conn, post["post_uri"])
                 continue

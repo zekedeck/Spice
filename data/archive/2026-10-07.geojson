@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T14:35:30.910592Z",
-    "total_pins": 16
+    "generated_at": "2026-10-07T14:45:49.230964Z",
+    "total_pins": 20
   },
   "features": [
     {
@@ -283,27 +283,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9814769,
-          40.7165303
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxc53pfsds24",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A man stole a cellphone in East Williamsburg and used the linked credit card for multiple purchases hours later.\n",
-        "created_at": "2026-10-07T14:16:36.524Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxc53pfsds24",
-        "mapped_location": "Williamsburg Bridge, Lower East Side, Manhattan Community Board 3, Manhattan, New York County, New York, 10002, United States",
-        "precision_level": "city",
-        "location_text": "East Williamsburg",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -74.0060152,
           40.7127281
         ]
@@ -339,6 +318,111 @@
         "precision_level": "state",
         "location_text": "new york city",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:flpqp5nunpvcknzhnqesxcqe/app.bsky.feed.post/3mxc6etbsys23",
+        "handle": "zekeradford.bsky.social",
+        "text": "...claiming to be a former navy pilot...with a bachelor’s degree from Clemson University...and a master’s degree from Rensselaer Polytechnic Institute in New York.\nInvestigators determined that he did not serve as a navy pilot and did not attend either school...\n\nwww.theguardian.com/us-news/2026...",
+        "created_at": "2026-10-07T14:39:36.535Z",
+        "source": "https://bsky.app/profile/zekeradford.bsky.social/post/3mxc6etbsys23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m6m3gadyjdclag3wgsu3agrl/app.bsky.feed.post/3mxc6fobyd22b",
+        "handle": "darjeelingltd.bsky.social",
+        "text": "Is anyone interested in “What’s Happening in New York?”\n\nSuffolk poll of Hochul up by 11 is shocking folks.\n\nHere are my thoughts as a New Yorker:\n\n•NY is an unequally engaged state where Republicans are outraged 100% of the time due to a steady stream of right wing media (NYPost/Fox/Social Media).",
+        "created_at": "2026-10-07T14:40:04.847Z",
+        "source": "https://bsky.app/profile/darjeelingltd.bsky.social/post/3mxc6fobyd22b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y3wqs5iwpfpmm5ya3xfz57bq/app.bsky.feed.post/3mxc6fy5zgg2y",
+        "handle": "nexa-news.bsky.social",
+        "text": "Jaguar Unveils £130,000 Type 01 Electric Grand Tourer in New York",
+        "created_at": "2026-10-07T14:40:15.154759+00:00",
+        "source": "https://bsky.app/profile/nexa-news.bsky.social/post/3mxc6fy5zgg2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ysvblnkcj6rhnis7rozsceg5/app.bsky.feed.post/3mxc6gdmtv226",
+        "handle": "lotuscarp.bsky.social",
+        "text": "I lived in New York briefly and was taken aback by how comfortable everyone was shitting on SF to my face while knowing it's like my second home (parents used to live in Chinatown and we bought all our groceries there for decades). They'd never visited ofc",
+        "created_at": "2026-10-07T14:40:27.227Z",
+        "source": "https://bsky.app/profile/lotuscarp.bsky.social/post/3mxc6gdmtv226",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8771379,
+          40.8493045
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fso6eclfooi7sdseehpjypmg/app.bsky.feed.post/3mxc6iedxbk2c",
+        "handle": "regieramon.bsky.social",
+        "text": "The American Chestnut tree returns to the Bronx Zoo after more than a century - Gothamist share.google/s9bgHY6KxDfa...",
+        "created_at": "2026-10-07T14:41:35.094Z",
+        "source": "https://bsky.app/profile/regieramon.bsky.social/post/3mxc6iedxbk2c",
+        "mapped_location": "Bronx Zoo, 2300, Southern Boulevard, Belmont, The Bronx, Bronx County, New York, 10460, United States",
+        "precision_level": "city",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.8
       }
     }
   ]

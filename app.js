@@ -43,6 +43,16 @@
   // Timezone helpers (America/New_York), no external library.
   // ---------------------------------------------------------------------
 
+  // Converts an Intl.DateTimeFormat#formatToParts() result into a plain
+  // { year, month, day, hour, minute, second, ... } object keyed by part type.
+  function partsToObject(parts) {
+    var obj = {};
+    for (var i = 0; i < parts.length; i++) {
+      obj[parts[i].type] = parts[i].value;
+    }
+    return obj;
+  }
+
   // Returns the UTC-minus-local offset, in ms, for `timeZone` at `date`.
   // i.e. localWallClockAsUTCNumber = date.getTime() + offsetMs
   function tzOffsetMs(timeZone, date) {
@@ -56,18 +66,14 @@
       minute: "2-digit",
       second: "2-digit"
     });
-    var parts = dtf.formatToParts(date);
-    var map2 = {};
-    for (var i = 0; i < parts.length; i++) {
-      map2[parts[i].type] = parts[i].value;
-    }
+    var obj = partsToObject(dtf.formatToParts(date));
     var asLocal = Date.UTC(
-      parseInt(map2.year, 10),
-      parseInt(map2.month, 10) - 1,
-      parseInt(map2.day, 10),
-      parseInt(map2.hour, 10),
-      parseInt(map2.minute, 10),
-      parseInt(map2.second, 10)
+      parseInt(obj.year, 10),
+      parseInt(obj.month, 10) - 1,
+      parseInt(obj.day, 10),
+      parseInt(obj.hour, 10),
+      parseInt(obj.minute, 10),
+      parseInt(obj.second, 10)
     );
     return asLocal - date.getTime();
   }
@@ -105,10 +111,8 @@
       month: "2-digit",
       day: "2-digit"
     });
-    var parts = dtf.formatToParts(date);
-    var map2 = {};
-    for (var i = 0; i < parts.length; i++) map2[parts[i].type] = parts[i].value;
-    return map2.year + "-" + map2.month + "-" + map2.day;
+    var obj = partsToObject(dtf.formatToParts(date));
+    return obj.year + "-" + obj.month + "-" + obj.day;
   }
 
   function formatEt(date) {
@@ -424,10 +428,8 @@
         minute: "2-digit",
         hourCycle: "h23"
       });
-      var parts = dtf.formatToParts(date);
-      var map2 = {};
-      for (var i = 0; i < parts.length; i++) map2[parts[i].type] = parts[i].value;
-      return map2.year + "-" + map2.month + "-" + map2.day + "T" + map2.hour + ":" + map2.minute;
+      var obj = partsToObject(dtf.formatToParts(date));
+      return obj.year + "-" + obj.month + "-" + obj.day + "T" + obj.hour + ":" + obj.minute;
     }
     var minVal = toLocalInputValue(thirtyDaysAgo);
     var maxVal = toLocalInputValue(now);
@@ -507,7 +509,8 @@
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
   }
 
   function openPanel(feature) {
@@ -551,6 +554,7 @@
       var item = document.createElement("button");
       item.type = "button";
       item.className = "state-mention-item";
+      item.setAttribute("aria-label", (p.handle || "unknown") + ": " + truncateSnippet(p.text, 60));
       item.innerHTML =
         '<span class="state-mention-handle">' + escapeHtml(p.handle || "unknown") + "</span>" +
         '<span class="state-mention-snippet">' + escapeHtml(truncateSnippet(p.text, 80)) + "</span>" +
@@ -614,7 +618,7 @@
 
       // Subtle always-on glow for unselected individual pins.
       map.addLayer({
-        id: "unclustered-halo",
+        id: "pin-halo",
         type: "circle",
         source: "pins",
         paint: {
@@ -626,7 +630,7 @@
       });
 
       map.addLayer({
-        id: "unclustered-point",
+        id: "pin-point",
         type: "circle",
         source: "pins",
         paint: {
@@ -650,7 +654,7 @@
         }
       });
 
-      map.on("click", "unclustered-point", function (e) {
+      map.on("click", "pin-point", function (e) {
         if (e.features && e.features[0]) {
           var feature = e.features[0];
           map.easeTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
@@ -659,11 +663,11 @@
       });
 
       map.on("click", function (e) {
-        var features = map.queryRenderedFeatures(e.point, { layers: ["unclustered-point"] });
+        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
         if (features.length === 0) clearSelection();
       });
 
-      ["unclustered-point"].forEach(function (layerId) {
+      ["pin-point"].forEach(function (layerId) {
         map.on("mouseenter", layerId, function () { map.getCanvas().style.cursor = "pointer"; });
         map.on("mouseleave", layerId, function () { map.getCanvas().style.cursor = ""; });
       });

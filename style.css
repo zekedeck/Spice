@@ -69,7 +69,6 @@ button:hover {
   filter: brightness(1.1);
 }
 
-button.secondary,
 #lookback-reset {
   background: transparent;
   color: var(--text-primary);
@@ -215,6 +214,8 @@ body {
   gap: 0.5rem;
 }
 
+/* ===== State mentions (header dropdown) ===== */
+
 .state-panel {
   position: relative;
 }
@@ -250,6 +251,54 @@ body {
   max-height: 60vh;
   overflow-y: auto;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.state-panel-empty {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.state-panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.state-mention-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.2rem;
+  text-align: left;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.state-mention-item:hover {
+  border-color: var(--accent);
+}
+
+.state-mention-handle {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.state-mention-snippet {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.3;
+}
+
+.state-mention-time {
+  color: var(--text-secondary);
+  font-size: 0.72rem;
 }
 
 main {
@@ -357,56 +406,6 @@ main {
   display: inline-block;
   margin-top: 0.3rem;
   font-weight: 600;
-}
-
-/* ===== State mentions dropdown (header) ===== */
-
-.state-panel-empty {
-  color: var(--text-secondary);
-  font-size: 0.85rem;
-  margin: 0;
-}
-
-.state-panel-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.state-mention-item {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 0.2rem;
-  text-align: left;
-  width: 100%;
-  background: transparent;
-  border: 1px solid var(--panel-border);
-  border-radius: 8px;
-  padding: 0.5rem 0.6rem;
-  color: var(--text-primary);
-  cursor: pointer;
-  font-weight: 400;
-}
-
-.state-mention-item:hover {
-  border-color: var(--accent);
-}
-
-.state-mention-handle {
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.state-mention-snippet {
-  color: var(--text-secondary);
-  font-size: 0.82rem;
-  line-height: 1.3;
-}
-
-.state-mention-time {
-  color: var(--text-secondary);
-  font-size: 0.72rem;
 }
 
 /* ===== Legend ===== */

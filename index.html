@@ -57,6 +57,11 @@
 </header>
 
 <main>
+  <!-- Known gap, acknowledged: map pins are MapLibre circle-layer features,
+       not real DOM elements, so they are not keyboard-reachable. The
+       state-mention list items are the only keyboard-accessible entry
+       points into the detail panel. Fixing this would require a structural
+       change to how pins are hit-tested/rendered; out of scope for now. -->
   <div id="map"></div>
 
   <div class="legend" aria-hidden="true">

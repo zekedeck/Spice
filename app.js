@@ -9,7 +9,7 @@
   "use strict";
 
   var ET_ZONE = "America/New_York";
-  var LIVE_REFRESH_MS = 6 * 60 * 1000; // matches the pipeline's 6-min cadence
+  var LIVE_REFRESH_MS = 15 * 60 * 1000; // matches the pipeline's 15-min native cron cadence
 
   var map = null;
   var mode = "live"; // "live" | "archive"

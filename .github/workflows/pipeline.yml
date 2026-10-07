@@ -64,5 +64,24 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/live.geojson data/archive/
           git diff --cached --quiet || git commit -m "Update map data"
-          git pull --rebase origin main
-          git push
+
+          # live.geojson and the archive files are always fully regenerated
+          # each run (never hand-edited), so on a push conflict the freshest
+          # regeneration should just win -- a line-based rebase can't
+          # reconcile two full-file rewrites and fails outright. Retry with
+          # a merge that prefers our side for these generated paths; other
+          # files (e.g. frontend commits landing in parallel) still merge
+          # normally via the 3-way merge.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              break
+            fi
+            echo "Push rejected, retrying with merge (attempt $i)..."
+            git fetch origin main
+            git merge -X ours --no-edit origin/main
+            if [ "$i" -eq 5 ]; then
+              echo "Giving up after 5 attempts"
+              exit 1
+            fi
+            sleep $(( (RANDOM % 5) + 1 ))
+          done

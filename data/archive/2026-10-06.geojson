@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T02:52:26.761679Z",
-    "total_pins": 31
+    "generated_at": "2026-10-07T02:58:20.562991Z",
+    "total_pins": 32
   },
   "features": [
     {
@@ -658,6 +658,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxax67nm722p",
+        "handle": "audubonballroom.bsky.social",
+        "text": "2008, the National Museum of the American Indian opened a two-venue retrospective of Scholder's work titled Indian/Not Indian: one in Washington, DC and the other in New York. On October 4, 2015, the Denver Art Museum opened a major traveling exhibition of Scholder's \"Indian\" series titled,\n\n(4/7)",
+        "created_at": "2026-10-07T02:57:58.693Z",
+        "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxax67nm722p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

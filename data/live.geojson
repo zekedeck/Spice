@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T16:41:31.961819Z",
-    "total_pins": 98
+    "generated_at": "2026-10-07T16:47:34.282543Z",
+    "total_pins": 100
   },
   "features": [
     {
@@ -2064,6 +2064,48 @@
         "text": "Behold, an Italian-designed solution in New York!",
         "created_at": "2026-10-07T16:41:17.928Z",
         "source": "https://bsky.app/profile/thefoxandthecity.com/post/3mxcf6ggrj22v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:erhqtotlqjtddjfyvelnz7pa/app.bsky.feed.post/3mxcfgq2hqk25",
+        "handle": "valentinexyz.bsky.social",
+        "text": "20 years is an eternity in politics. New York had a Republican Governor from 1995-2007 because basically every state’s state-level and even US congressional politics were significantly more divorced from their presidential politics during that time.",
+        "created_at": "2026-10-07T16:45:56.446Z",
+        "source": "https://bsky.app/profile/valentinexyz.bsky.social/post/3mxcfgq2hqk25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4rnm3fdqrcjzz6m4kv2hhqol/app.bsky.feed.post/3mxcfhchw2c2w",
+        "handle": "nickwidzowski.bsky.social",
+        "text": "Oh yeah, that's definitely an issue in New York. When it's been almost 25 years since a Republican won a statewide race, you lose the memory of what it was like to have high-profile Republicans in power.",
+        "created_at": "2026-10-07T16:46:15.766Z",
+        "source": "https://bsky.app/profile/nickwidzowski.bsky.social/post/3mxcfhchw2c2w",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

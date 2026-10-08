@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T03:14:22.501631Z",
-    "total_pins": 163
+    "generated_at": "2026-10-08T03:21:31.907186Z",
+    "total_pins": 164
   },
   "features": [
     {
@@ -3431,6 +3431,27 @@
         "text": "Victoria Drake, 33, filed the civil lawsuit in New York supreme court alleging that Zampolli, 56, sexually assaulted her after drugging her.\nZampolli was appointed as Trump's special envoy for global partnerships in March 2025.",
         "created_at": "2026-10-08T03:13:07.501Z",
         "source": "https://bsky.app/profile/context776.bsky.social/post/3mxdii7syyc2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxdiup5tcn2m",
+        "handle": "laviezine.bsky.social",
+        "text": "Telfar Invited the Industry to a Fashion Show in Paris—Then Held One in New York Instead\n\nhttps://www.laviezine.com/1657077/telfar-invited-the-industry-to-a-fashion-show-in-paris-then-held-one-in-new-york-instead/\n\n4 min read Yesterday, Telfar Clemens pulled a prank on the fashion industry. Less …",
+        "created_at": "2026-10-08T03:20:03+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxdiup5tcn2m",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

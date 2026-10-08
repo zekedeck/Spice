@@ -29,20 +29,33 @@
     <div class="lookback-panel">
       <fieldset>
         <legend>Date range (Eastern Time)</legend>
-        <div class="lookback-row">
-          <label for="lookback-from-date">From</label>
-          <div class="lookback-datetime">
-            <input type="date" id="lookback-from-date" name="lookback-from-date" />
-            <input type="time" id="lookback-from-time" name="lookback-from-time" />
+
+        <div class="calendar" id="lookback-calendar">
+          <div class="calendar-header">
+            <button type="button" id="calendar-prev" aria-label="Previous month">&lsaquo;</button>
+            <span id="calendar-month-label" aria-live="polite"></span>
+            <button type="button" id="calendar-next" aria-label="Next month">&rsaquo;</button>
           </div>
+          <div class="calendar-weekdays" aria-hidden="true">
+            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+          </div>
+          <div class="calendar-grid" id="calendar-grid" role="grid"></div>
+        </div>
+        <p class="calendar-selection" id="calendar-selection-text" aria-live="polite">Pick a start date, then an end date.</p>
+
+        <!-- Hidden: source-of-truth date strings, written by calendar day clicks. -->
+        <input type="hidden" id="lookback-from-date" name="lookback-from-date" />
+        <input type="hidden" id="lookback-to-date" name="lookback-to-date" />
+
+        <div class="lookback-row">
+          <label for="lookback-from-time">From time</label>
+          <input type="time" id="lookback-from-time" name="lookback-from-time" />
         </div>
         <div class="lookback-row">
-          <label for="lookback-to-date">To</label>
-          <div class="lookback-datetime">
-            <input type="date" id="lookback-to-date" name="lookback-to-date" />
-            <input type="time" id="lookback-to-time" name="lookback-to-time" />
-          </div>
+          <label for="lookback-to-time">To time</label>
+          <input type="time" id="lookback-to-time" name="lookback-to-time" />
         </div>
+
         <p class="lookback-hint">Range must fall within the last 30 days. All times are Eastern (ET).</p>
         <p class="lookback-error" id="lookback-error" role="alert" hidden></p>
         <div class="lookback-actions">

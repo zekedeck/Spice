@@ -33,6 +33,11 @@
   var lookbackError = document.getElementById("lookback-error");
   var lookbackSummaryText = document.getElementById("lookback-summary-text");
   var lookbackDetails = document.getElementById("lookback-details");
+  var calendarGrid = document.getElementById("calendar-grid");
+  var calendarMonthLabel = document.getElementById("calendar-month-label");
+  var calendarPrevBtn = document.getElementById("calendar-prev");
+  var calendarNextBtn = document.getElementById("calendar-next");
+  var calendarSelectionText = document.getElementById("calendar-selection-text");
   var statePanelList = document.getElementById("state-panel-list");
   var statePanelCount = document.getElementById("state-panel-count");
   var statePanelEmpty = document.getElementById("state-panel-empty");
@@ -419,28 +424,160 @@
   // Lookback controls
   // ---------------------------------------------------------------------
 
-  function initLookbackBounds() {
-    var now = new Date();
-    var thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
-    // date input min/max expect "YYYY-MM-DD" in the field's own (unzoned)
-    // terms; we treat those terms as ET throughout the app.
-    function toLocalDateValue(date) {
-      var dtf = new Intl.DateTimeFormat("en-US", {
-        timeZone: ET_ZONE,
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit"
-      });
-      var obj = partsToObject(dtf.formatToParts(date));
-      return obj.year + "-" + obj.month + "-" + obj.day;
-    }
-    var minVal = toLocalDateValue(thirtyDaysAgo);
-    var maxVal = toLocalDateValue(now);
-    lookbackFromDate.min = minVal;
-    lookbackFromDate.max = maxVal;
-    lookbackToDate.min = minVal;
-    lookbackToDate.max = maxVal;
+  // ---------------------------------------------------------------------
+  // Visible calendar (date-range picker). Click a start day, then an end
+  // day; the selected range is written into the hidden lookback-from-date
+  // / lookback-to-date inputs that the rest of the lookback logic reads.
+  // ---------------------------------------------------------------------
+
+  var calState = {
+    minStr: null,   // earliest selectable date, "YYYY-MM-DD" (ET, 30 days back)
+    maxStr: null,   // latest selectable date, "YYYY-MM-DD" (ET, today)
+    viewYear: null,
+    viewMonth: null, // 1-12
+    startStr: null,
+    endStr: null
+  };
+
+  var MONTH_NAMES = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  var WEEKDAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+  function etTodayParts() {
+    var dtf = new Intl.DateTimeFormat("en-US", {
+      timeZone: ET_ZONE,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    });
+    var obj = partsToObject(dtf.formatToParts(new Date()));
+    return { year: parseInt(obj.year, 10), month: parseInt(obj.month, 10), day: parseInt(obj.day, 10) };
   }
+
+  function dateStrFromParts(y, m, d) {
+    return y + "-" + pad2(m) + "-" + pad2(d);
+  }
+
+  function addDaysToDateStr(dateStr, deltaDays) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr);
+    var d = new Date(Date.UTC(parseInt(m[1], 10), parseInt(m[2], 10) - 1, parseInt(m[3], 10)));
+    d.setUTCDate(d.getUTCDate() + deltaDays);
+    return dateStrFromParts(d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate());
+  }
+
+  function monthKey(year, month) {
+    return year * 12 + (month - 1);
+  }
+
+  function initLookbackBounds() {
+    var today = etTodayParts();
+    calState.maxStr = dateStrFromParts(today.year, today.month, today.day);
+    calState.minStr = addDaysToDateStr(calState.maxStr, -30);
+    calState.viewYear = today.year;
+    calState.viewMonth = today.month;
+    renderCalendar();
+  }
+
+  function updateSelectionText() {
+    if (!calState.startStr) {
+      calendarSelectionText.textContent = "Pick a start date, then an end date.";
+    } else if (!calState.endStr) {
+      calendarSelectionText.textContent = "From " + calState.startStr + " — pick an end date.";
+    } else {
+      calendarSelectionText.textContent = calState.startStr + " → " + calState.endStr;
+    }
+  }
+
+  function handleCalendarDayClick(dateStr) {
+    if (!calState.startStr || calState.endStr) {
+      calState.startStr = dateStr;
+      calState.endStr = null;
+    } else if (dateStr < calState.startStr) {
+      calState.endStr = calState.startStr;
+      calState.startStr = dateStr;
+    } else {
+      calState.endStr = dateStr;
+    }
+    lookbackFromDate.value = calState.startStr || "";
+    lookbackToDate.value = calState.endStr || "";
+    updateSelectionText();
+    renderCalendar();
+  }
+
+  function renderCalendar() {
+    var year = calState.viewYear;
+    var month = calState.viewMonth; // 1-12
+    calendarMonthLabel.textContent = MONTH_NAMES[month - 1] + " " + year;
+
+    var firstWeekday = new Date(Date.UTC(year, month - 1, 1)).getUTCDay();
+    var daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+
+    calendarGrid.innerHTML = "";
+    for (var i = 0; i < firstWeekday; i++) {
+      var empty = document.createElement("span");
+      empty.className = "calendar-day calendar-day--empty";
+      calendarGrid.appendChild(empty);
+    }
+
+    for (var d = 1; d <= daysInMonth; d++) {
+      var dStr = dateStrFromParts(year, month, d);
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "calendar-day";
+      btn.textContent = String(d);
+
+      var disabled = dStr < calState.minStr || dStr > calState.maxStr;
+      if (disabled) btn.disabled = true;
+
+      if (dStr === calState.maxStr) btn.classList.add("calendar-day--today");
+      if (calState.startStr && calState.startStr <= dStr && calState.endStr && dStr <= calState.endStr && dStr !== calState.startStr && dStr !== calState.endStr) {
+        btn.classList.add("calendar-day--in-range");
+      }
+      if (dStr === calState.startStr) btn.classList.add("calendar-day--start");
+      if (dStr === calState.endStr) btn.classList.add("calendar-day--end");
+
+      var dateObj = new Date(Date.UTC(year, month - 1, d));
+      btn.setAttribute("aria-label", WEEKDAY_NAMES[dateObj.getUTCDay()] + ", " + MONTH_NAMES[month - 1] + " " + d + ", " + year);
+      if (dStr === calState.startStr || dStr === calState.endStr) btn.setAttribute("aria-pressed", "true");
+
+      if (!disabled) {
+        btn.addEventListener("click", (function (clickedStr) {
+          return function () { handleCalendarDayClick(clickedStr); };
+        })(dStr));
+      }
+
+      calendarGrid.appendChild(btn);
+    }
+
+    calendarPrevBtn.disabled = monthKey(year, month) <= monthKey(
+      parseInt(calState.minStr.slice(0, 4), 10), parseInt(calState.minStr.slice(5, 7), 10)
+    );
+    calendarNextBtn.disabled = monthKey(year, month) >= monthKey(
+      parseInt(calState.maxStr.slice(0, 4), 10), parseInt(calState.maxStr.slice(5, 7), 10)
+    );
+  }
+
+  function navigateCalendar(deltaMonths) {
+    var m = calState.viewMonth - 1 + deltaMonths; // 0-based
+    calState.viewYear += Math.floor(m / 12);
+    calState.viewMonth = (((m % 12) + 12) % 12) + 1;
+    renderCalendar();
+  }
+
+  function resetCalendarSelection() {
+    calState.startStr = null;
+    calState.endStr = null;
+    var today = etTodayParts();
+    calState.viewYear = today.year;
+    calState.viewMonth = today.month;
+    updateSelectionText();
+    renderCalendar();
+  }
+
+  calendarPrevBtn.addEventListener("click", function () { navigateCalendar(-1); });
+  calendarNextBtn.addEventListener("click", function () { navigateCalendar(1); });
 
   function showLookbackError(msg) {
     lookbackError.textContent = msg;
@@ -476,6 +613,7 @@
     lookbackFromTime.value = "";
     lookbackToDate.value = "";
     lookbackToTime.value = "";
+    resetCalendarSelection();
     showLookbackError("");
     loadLive();
     startLiveRefresh();

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T21:12:05.804299Z",
-    "total_pins": 90
+    "generated_at": "2026-10-08T21:39:44.621327Z",
+    "total_pins": 93
   },
   "features": [
     {
@@ -1895,6 +1895,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mxaawismszl4x2sjl5efqvui/app.bsky.feed.post/3mxfg6hcgds2t",
+        "handle": "fluffyscales.bsky.social",
+        "text": "Yes, but look at Marcy Kaptur and Amy Acton in Ohio (hell, look at the entire Democratic Equality caucus in Ohio), or James Talarico capitulating and having to crawl back in Texas, or Blake Gendebien in New York. Pretending like this isn’t a larger trend isn’t helping, it’s actively hurting.",
+        "created_at": "2026-10-08T21:37:11.796Z",
+        "source": "https://bsky.app/profile/fluffyscales.bsky.social/post/3mxfg6hcgds2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3374polobvhdrvk5of27pfwg/app.bsky.feed.post/3mxfg7lag5k2k",
+        "handle": "secondhusk.bsky.social",
+        "text": "Attn: nerds — I’m hosting an epic all-geek trivia game at House of Spells tonight in Times Square. Stop by and Um, Actually my ass! www.eventbrite.com/e/fandom-tri...",
+        "created_at": "2026-10-08T21:37:49.470Z",
+        "source": "https://bsky.app/profile/secondhusk.bsky.social/post/3mxfg7lag5k2k",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ak52riygnk6q2siglha6ez7o/app.bsky.feed.post/3mxfgbnnlz22s",
+        "handle": "jasonkpargin.bsky.social",
+        "text": "What is the quintessential \"New York\" film where it feels like the city itself is literally the most compelling and dynamic character? I'd have to go with The Town",
+        "created_at": "2026-10-08T21:38:59.116Z",
+        "source": "https://bsky.app/profile/jasonkpargin.bsky.social/post/3mxfgbnnlz22s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
       }
     }
   ]

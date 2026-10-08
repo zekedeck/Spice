@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T16:15:41.612364Z",
-    "total_pins": 194
+    "generated_at": "2026-10-08T16:23:32.768882Z",
+    "total_pins": 195
   },
   "features": [
     {
@@ -4088,6 +4088,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mmk2ipc25u2lfjfkumxy67az/app.bsky.feed.post/3mxeumipisa2p",
+        "handle": "xchatter.techmeme.com",
+        "text": "This tweet appeared under this Techmeme headline:\n\n@appltrack:\n\nApple is referring to their October 13 home launch as an \"Apple Experience,\" rather than a full-on Apple Event. They previously used this terminology when announcing the MacBook Neo in New York earlier this year.",
+        "created_at": "2026-10-08T16:22:55Z",
+        "source": "https://bsky.app/profile/xchatter.techmeme.com/post/3mxeumipisa2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

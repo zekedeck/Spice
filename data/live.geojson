@@ -1,178 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T16:53:45.938416Z",
-    "total_pins": 207
+    "generated_at": "2026-10-08T17:02:50.394800Z",
+    "total_pins": 208
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9823155,
-          40.690517
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cpusbfdsvazbbjansz4zak4j/app.bsky.feed.post/3mx7vobx3xb2s",
-        "handle": "ogeltdm.bsky.social",
-        "text": "Arbitrator Ordered $47M Award Against Michael Stern, JDS\nhttps://therealdeal....\n... finding that the developer diverted insurance proceeds from its Brooklyn Tower project and failed to account for millions in loan advances.",
-        "created_at": "2026-10-06T16:58:30Z",
-        "source": "https://bsky.app/profile/ogeltdm.bsky.social/post/3mx7vobx3xb2s",
-        "mapped_location": "The Brooklyn Tower, Fleet Street, Downtown Brooklyn, Brooklyn, Kings County, New York, 11201, United States",
-        "precision_level": "city",
-        "location_text": "Brooklyn Tower",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6wx2gg5yqgvmlu35r6y3bk6d/app.bsky.feed.post/3mx7vone6i22m",
-        "handle": "hunterfelt.bsky.social",
-        "text": "Zappa In New York for me is THE moment.",
-        "created_at": "2026-10-06T16:58:42.710Z",
-        "source": "https://bsky.app/profile/hunterfelt.bsky.social/post/3mx7vone6i22m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kfcmkjdb4gz5h5vtkf7khlj4/app.bsky.feed.post/3mx7vpaxt2v2b",
-        "handle": "wlky.bsky.social",
-        "text": "Video shows moment hayride crashes in New York, injuring nearly a dozen people",
-        "created_at": "2026-10-06T16:59:03.257Z",
-        "source": "https://bsky.app/profile/wlky.bsky.social/post/3mx7vpaxt2v2b",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7m2l7giygph5ruwfnlglajyu/app.bsky.feed.post/3mx7vpe3w7m2d",
-        "handle": "local-news-pgh.bsky.social",
-        "text": "Video shows moment hayride crashes in New York, injuring nearly a dozen people\n\nhttps://www.wtae.com/article/wellsburg-new-york-hayride-crash-video/74049093",
-        "created_at": "2026-10-06T16:59:06.347079+00:00",
-        "source": "https://bsky.app/profile/local-news-pgh.bsky.social/post/3mx7vpe3w7m2d",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975,
-          40.683
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mx7vpumtei2b",
-        "handle": "porcellato.bsky.social",
-        "text": "Jun 23, 2026; New York, NY, USA; NBA commissioner Adam Silver speaks during the 2026 NBA Draft at Barclays Center. Mandatory Credit: Brad Penner-Imagn Images https://ift.tt/ofYHLVa",
-        "created_at": "2026-10-06T16:59:23+00:00",
-        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mx7vpumtei2b",
-        "mapped_location": "Barclays Center, 620, Atlantic Avenue, Fort Greene, Brooklyn, Kings County, New York, 11217, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Barclays Center",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mx7vrzmiie2b",
-        "handle": "timesofisrael.com",
-        "text": "Israel’s consulate in New York invites New York City Mayor Zohran Mamdani to watch footage of the October 2023 Hamas invasion tomorrow, the anniversary of the attack.\n\nRead more: www.timesofisrael.com/liveblog_ent...",
-        "created_at": "2026-10-06T17:00:36.213Z",
-        "source": "https://bsky.app/profile/timesofisrael.com/post/3mx7vrzmiie2b",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9484995,
-          40.7455316
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uanjz2fsrry4qrqzcv76yl6i/app.bsky.feed.post/3mx7vsftzqb2g",
-        "handle": "phoblographer.bsky.social",
-        "text": "Mark Your Calendar: The 5 Boro Foto Fest Is Coming to Queens on October 25th\n\nThe 5 Boro Foto Fest now has a firm date, time, and location: Sunday, October 25th, from 11am to 6pm, at Culture Lab LIC in Long Island City, Queens. Admission is free, with registration available on site, and it's…",
-        "created_at": "2026-10-06T17:00:48Z",
-        "source": "https://bsky.app/profile/phoblographer.bsky.social/post/3mx7vsftzqb2g",
-        "mapped_location": "Long Island City, Queens, Queens County, New York, 11109, United States",
-        "precision_level": "city",
-        "location_text": "Long Island City",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975,
-          40.683
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mx7vsrmzhf2n",
-        "handle": "porcellato.bsky.social",
-        "text": "Jun 23, 2026; New York, NY, USA; NBA commissioner Adam Silver speaks during the 2026 NBA Draft at Barclays Center. Mandatory Credit: Brad Penner-Imagn Images https://ift.tt/zPZkUfj",
-        "created_at": "2026-10-06T17:01:01+00:00",
-        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mx7vsrmzhf2n",
-        "mapped_location": "Barclays Center, 620, Atlantic Avenue, Fort Greene, Brooklyn, Kings County, New York, 11217, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Barclays Center",
-        "confidence": 1.0
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -4361,6 +4193,195 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:32j7ybb3rqcdlkbsszgnio7l/app.bsky.feed.post/3mxewh7z2g72v",
+        "handle": "comicbasics.com",
+        "text": "Doctor Doom’s ‘Avengers: Doomsday’ Costume Takes Its Throne at New York Comic Con",
+        "created_at": "2026-10-08T16:55:46+00:00",
+        "source": "https://bsky.app/profile/comicbasics.com/post/3mxewh7z2g72v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bxmkvg2zs7zwfserdztze76m/app.bsky.feed.post/3mxewixudak2h",
+        "handle": "rachelcraves.bsky.social",
+        "text": "Why does everyone keep saying that The Only Living Pickpocket in New York is Noah Segan's debut feature? Is it his first feature with a theatrical release and therefore a debut?",
+        "created_at": "2026-10-08T16:56:44.835Z",
+        "source": "https://bsky.app/profile/rachelcraves.bsky.social/post/3mxewixudak2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kx4dfhjg7rchrtcmh6ppynxz/app.bsky.feed.post/3mxewjljzn22q",
+        "handle": "dupreedela.bsky.social",
+        "text": "TikTok Gave Teens, Children Placebo Safety Feature in Experiment, New York Alleges\n\n@usnews.com \n\nmoney.usnews.com/investing/ne...",
+        "created_at": "2026-10-08T16:57:05.468Z",
+        "source": "https://bsky.app/profile/dupreedela.bsky.social/post/3mxewjljzn22q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bsedrnu53nrw5g22shc7wqkh/app.bsky.feed.post/3mxewk3knwk2w",
+        "handle": "antimaatheist.bsky.social",
+        "text": "I was born 213 miles south of the Canadian border. And in 74 years I have never set foot on Canadian soil. I lived in Washington state, Idaho, North Dakota, Minnesota. Strange that I never went farther north. I went to Niagara Falls in New York state. The closest I've ever been to Canada.",
+        "created_at": "2026-10-08T16:57:22.267Z",
+        "source": "https://bsky.app/profile/antimaatheist.bsky.social/post/3mxewk3knwk2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9402214,
+          40.8401984
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wacok4zytx5s2nhisqfkcgt5/app.bsky.feed.post/3mxewkjeep22i",
+        "handle": "fucktheory.bsky.social",
+        "text": "It’s the same with Columbia Presbyterian in Washington Heights. Just swallowing one lot after another.",
+        "created_at": "2026-10-08T16:57:36.735Z",
+        "source": "https://bsky.app/profile/fucktheory.bsky.social/post/3mxewkjeep22i",
+        "mapped_location": "Washington Heights, Manhattan Community Board 12, Manhattan, New York County, New York, 10032, United States",
+        "precision_level": "city",
+        "location_text": "Washington Heights",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chcmq5lhhwn66xammd2iiq4i/app.bsky.feed.post/3mxewkldq2225",
+        "handle": "homerundarby.bsky.social",
+        "text": "The new road gray Tampa Bay jerseys have tasted a lot of champagne in New York for uniforms that are less then a few weeks old",
+        "created_at": "2026-10-08T16:57:38.812Z",
+        "source": "https://bsky.app/profile/homerundarby.bsky.social/post/3mxewkldq2225",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxewl7nw5z24",
+        "handle": "weloveproduct.co",
+        "text": "Gemini is looking for a Product Design Intern (Winter 2027) in New York, United States\nhttps://weloveproduct.co/jobs/product-design-intern-winter-2027-gemini-q8eak0\n\n#productdesigner #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-08T16:58:00.105Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxewl7nw5z24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ww7zb3fvnwsqfvvgeouqnn/app.bsky.feed.post/3mxewohnkgw22",
+        "handle": "anizeen.bsky.social",
+        "text": "\n\nIf you’re at New York Comic Con this weekend  and  in need of some new footwear, the  Chainsaw Man   x Crocs collaboration is officially live. The set of clogs and accessories launched early for NYCC attendees ahead\n\nvia https://bit.ly/4rS85IN\n\n🌸 #animenews #anizeen ",
+        "created_at": "2026-10-08T16:59:48+00:00",
+        "source": "https://bsky.app/profile/anizeen.bsky.social/post/3mxewohnkgw22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9859723,
+          40.6701033
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2lzlmp7ksnkpy6p752ery4yn/app.bsky.feed.post/3mxewpcgmsc22",
+        "handle": "morecitibikes.bsky.social",
+        "text": "New 36-dock Citi Bike station available at 8 Ave & 11 St in Park Slope, Brooklyn https://www.google.com/maps/search/?api=1&query=8+Ave+%26+11+St%2C+Park+Slope%2C+Brooklyn",
+        "created_at": "2026-10-08T17:00:17.245965651Z",
+        "source": "https://bsky.app/profile/morecitibikes.bsky.social/post/3mxewpcgmsc22",
+        "mapped_location": "Park Slope, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Park Slope",
+        "confidence": 0.8
       }
     }
   ]

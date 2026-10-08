@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T16:53:45.944126Z",
-    "total_pins": 47
+    "generated_at": "2026-10-08T17:02:50.400038Z",
+    "total_pins": 56
   },
   "features": [
     {
@@ -992,6 +992,195 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:32j7ybb3rqcdlkbsszgnio7l/app.bsky.feed.post/3mxewh7z2g72v",
+        "handle": "comicbasics.com",
+        "text": "Doctor Doom’s ‘Avengers: Doomsday’ Costume Takes Its Throne at New York Comic Con",
+        "created_at": "2026-10-08T16:55:46+00:00",
+        "source": "https://bsky.app/profile/comicbasics.com/post/3mxewh7z2g72v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bxmkvg2zs7zwfserdztze76m/app.bsky.feed.post/3mxewixudak2h",
+        "handle": "rachelcraves.bsky.social",
+        "text": "Why does everyone keep saying that The Only Living Pickpocket in New York is Noah Segan's debut feature? Is it his first feature with a theatrical release and therefore a debut?",
+        "created_at": "2026-10-08T16:56:44.835Z",
+        "source": "https://bsky.app/profile/rachelcraves.bsky.social/post/3mxewixudak2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kx4dfhjg7rchrtcmh6ppynxz/app.bsky.feed.post/3mxewjljzn22q",
+        "handle": "dupreedela.bsky.social",
+        "text": "TikTok Gave Teens, Children Placebo Safety Feature in Experiment, New York Alleges\n\n@usnews.com \n\nmoney.usnews.com/investing/ne...",
+        "created_at": "2026-10-08T16:57:05.468Z",
+        "source": "https://bsky.app/profile/dupreedela.bsky.social/post/3mxewjljzn22q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bsedrnu53nrw5g22shc7wqkh/app.bsky.feed.post/3mxewk3knwk2w",
+        "handle": "antimaatheist.bsky.social",
+        "text": "I was born 213 miles south of the Canadian border. And in 74 years I have never set foot on Canadian soil. I lived in Washington state, Idaho, North Dakota, Minnesota. Strange that I never went farther north. I went to Niagara Falls in New York state. The closest I've ever been to Canada.",
+        "created_at": "2026-10-08T16:57:22.267Z",
+        "source": "https://bsky.app/profile/antimaatheist.bsky.social/post/3mxewk3knwk2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9402214,
+          40.8401984
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wacok4zytx5s2nhisqfkcgt5/app.bsky.feed.post/3mxewkjeep22i",
+        "handle": "fucktheory.bsky.social",
+        "text": "It’s the same with Columbia Presbyterian in Washington Heights. Just swallowing one lot after another.",
+        "created_at": "2026-10-08T16:57:36.735Z",
+        "source": "https://bsky.app/profile/fucktheory.bsky.social/post/3mxewkjeep22i",
+        "mapped_location": "Washington Heights, Manhattan Community Board 12, Manhattan, New York County, New York, 10032, United States",
+        "precision_level": "city",
+        "location_text": "Washington Heights",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chcmq5lhhwn66xammd2iiq4i/app.bsky.feed.post/3mxewkldq2225",
+        "handle": "homerundarby.bsky.social",
+        "text": "The new road gray Tampa Bay jerseys have tasted a lot of champagne in New York for uniforms that are less then a few weeks old",
+        "created_at": "2026-10-08T16:57:38.812Z",
+        "source": "https://bsky.app/profile/homerundarby.bsky.social/post/3mxewkldq2225",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxewl7nw5z24",
+        "handle": "weloveproduct.co",
+        "text": "Gemini is looking for a Product Design Intern (Winter 2027) in New York, United States\nhttps://weloveproduct.co/jobs/product-design-intern-winter-2027-gemini-q8eak0\n\n#productdesigner #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-08T16:58:00.105Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxewl7nw5z24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ww7zb3fvnwsqfvvgeouqnn/app.bsky.feed.post/3mxewohnkgw22",
+        "handle": "anizeen.bsky.social",
+        "text": "\n\nIf you’re at New York Comic Con this weekend  and  in need of some new footwear, the  Chainsaw Man   x Crocs collaboration is officially live. The set of clogs and accessories launched early for NYCC attendees ahead\n\nvia https://bit.ly/4rS85IN\n\n🌸 #animenews #anizeen ",
+        "created_at": "2026-10-08T16:59:48+00:00",
+        "source": "https://bsky.app/profile/anizeen.bsky.social/post/3mxewohnkgw22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9859723,
+          40.6701033
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2lzlmp7ksnkpy6p752ery4yn/app.bsky.feed.post/3mxewpcgmsc22",
+        "handle": "morecitibikes.bsky.social",
+        "text": "New 36-dock Citi Bike station available at 8 Ave & 11 St in Park Slope, Brooklyn https://www.google.com/maps/search/?api=1&query=8+Ave+%26+11+St%2C+Park+Slope%2C+Brooklyn",
+        "created_at": "2026-10-08T17:00:17.245965651Z",
+        "source": "https://bsky.app/profile/morecitibikes.bsky.social/post/3mxewpcgmsc22",
+        "mapped_location": "Park Slope, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Park Slope",
+        "confidence": 0.8
       }
     }
   ]

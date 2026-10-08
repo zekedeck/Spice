@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T20:10:54.072119Z",
-    "total_pins": 82
+    "generated_at": "2026-10-08T20:20:11.613434Z",
+    "total_pins": 85
   },
   "features": [
     {
@@ -1726,6 +1726,69 @@
         "mapped_location": "Saint Peter's Church, 342, West 20th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
         "precision_level": "address",
         "location_text": "Saint Peter's Church",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hdaycih2fvzx3olivstldujp/app.bsky.feed.post/3mxfboz4etc24",
+        "handle": "inspecter797.bsky.social",
+        "text": "Daniel Jones really followed his trajectory in New York in Indy: gets new offensive minded coach (Daboll/Steichen), plays well, gets injured, gets extended, comes back from injury, looks bad, and fans wonder why you paid him in the first place.",
+        "created_at": "2026-10-08T20:16:58.634Z",
+        "source": "https://bsky.app/profile/inspecter797.bsky.social/post/3mxfboz4etc24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lnnvjk2ldhfreaddkbejdiy3/app.bsky.feed.post/3mxfbpx2lw222",
+        "handle": "numberonegmom.bsky.social",
+        "text": "The question occurs to me. How did ICE know to look at this 21yo 6'9\" student who transferred to MS but attended high school in New York? Think abt it. They have records of some kind on all of us is my guess. Somehow they tracked him to MS using that info. He's still in custody. @nytimes.com",
+        "created_at": "2026-10-08T20:17:30.028Z",
+        "source": "https://bsky.app/profile/numberonegmom.bsky.social/post/3mxfbpx2lw222",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9859723,
+          40.6701033
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2cbvuk7lywsctvivc5q7xhlq/app.bsky.feed.post/3mxfbraxs6p2v",
+        "handle": "colin.rafferty.net",
+        "text": "That’s me. I live in Prospect Heights but will park in Park Slope for my vacation to only get 1 ticket a week. It’s much less expensive to pay $65/week + r/t taxi than parking at the airport. ",
+        "created_at": "2026-10-08T20:18:13Z",
+        "source": "https://bsky.app/profile/colin.rafferty.net/post/3mxfbraxs6p2v",
+        "mapped_location": "Park Slope, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Park Slope",
         "confidence": 0.9
       }
     }

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T19:19:48.734082Z",
-    "total_pins": 79
+    "generated_at": "2026-10-08T19:27:17.104770Z",
+    "total_pins": 81
   },
   "features": [
     {
@@ -1660,6 +1660,48 @@
         "text": "We saw The Only Living Pickpocket In New York last night and enjoyed it very much; I do recommend you see it when it goes into general release. \nen.wikipedia.org/wiki/The_Onl...",
         "created_at": "2026-10-08T18:53:36.796Z",
         "source": "https://bsky.app/profile/fplynch.bsky.social/post/3mxf4zwygf22o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9915987,
+          40.7020375
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:izxpomdyri45gzhppiiyattq/app.bsky.feed.post/3mxf6segqpc2w",
+        "handle": "coachfinstock.bsky.social",
+        "text": "You are the dumbest people alive. You are a walking Kick Me sign. Selling you the Brooklyn Bridge on an installment plan so I can hit you with the service fees on top of the scam level of sucker.",
+        "created_at": "2026-10-08T19:25:09.945Z",
+        "source": "https://bsky.app/profile/coachfinstock.bsky.social/post/3mxf6segqpc2w",
+        "mapped_location": "Brooklyn Bridge, Dumbo, Brooklyn, Kings County, New York, 11242, United States",
+        "precision_level": "city",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7diml3o5czy3feqhl6jat2x/app.bsky.feed.post/3mxf6t6cd4s2r",
+        "handle": "cranebones.bsky.social",
+        "text": "Honestly my mom always just walks in when I wake up or am getting settled after coming home to alert me of shit that happened in the news\n\nThat's how I learned about 9/11. Just woke up and it's \"Someone flew a plane into a tower in New York.\"\n\nThanks, Mom",
+        "created_at": "2026-10-08T19:25:37.064Z",
+        "source": "https://bsky.app/profile/cranebones.bsky.social/post/3mxf6t6cd4s2r",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T22:46:20.012402Z",
-    "total_pins": 94
+    "generated_at": "2026-10-08T22:54:15.604639Z",
+    "total_pins": 95
   },
   "features": [
     {
@@ -1979,6 +1979,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nzftse6ub6guehtgkvm2uhmr/app.bsky.feed.post/3mxfkeqyvys2s",
+        "handle": "themarchingmorons.bsky.social",
+        "text": "Man shot in vehicle during ICE operation in Marble Hill: officials\n\nA man in a vehicle was shot during an ICE operation in Manhattan on Thursday, according to officials.\n\nIt happened just after 4 p.m. in the upper Manhattan neighborhood of Marble Hill.\n\n@hart28.bsky.social \n\n#AbolishICE",
+        "created_at": "2026-10-08T22:52:18.172Z",
+        "source": "https://bsky.app/profile/themarchingmorons.bsky.social/post/3mxfkeqyvys2s",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
       }
     }
   ]

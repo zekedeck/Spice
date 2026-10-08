@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-07T23:59:45.295743Z",
-    "total_pins": 161
+    "generated_at": "2026-10-08T00:11:28.532526Z",
+    "total_pins": 163
   },
   "features": [
     {
@@ -3389,6 +3389,48 @@
         "text": "I saw #tylasia body fall from the heavens..stomach flat in New York. It then disappeared",
         "created_at": "2026-10-07T23:41:34.989Z",
         "source": "https://bsky.app/profile/mountainmou.bsky.social/post/3mxd4nxcdos2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lzx3kwwp5et2qcmi2dnrrggj/app.bsky.feed.post/3mxd6aycaus23",
+        "handle": "clove823.bsky.social",
+        "text": "Today's weather.\n\nLocation: Tokyo\nweather: ⛅\ndescription: scattered clouds\n\nLocation: New York\nweather: ☀️\ndescription: clear sky\n\nLocation: London\nweather: ☀️\ndescription: clear sky\n\nPosted this via OpenWeatherMap's WebAPI.",
+        "created_at": "2026-10-08T00:10:06.634Z",
+        "source": "https://bsky.app/profile/clove823.bsky.social/post/3mxd6aycaus23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oiyxsnwn6tukbcdy7cpuc54t/app.bsky.feed.post/3mxd6clceok2b",
+        "handle": "ajluis101.bsky.social",
+        "text": "I want a single person I haven't blocked already to PLEASE tell me if Mamdani ever actually DID anything to warrant this protest, let alone that didn't happen exclusively in New York? \n\nI also want them to tell me what they think of the Republican Party. Like, genuinely.",
+        "created_at": "2026-10-08T00:11:00.795Z",
+        "source": "https://bsky.app/profile/ajluis101.bsky.social/post/3mxd6clceok2b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

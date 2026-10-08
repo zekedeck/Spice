@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:29:36.160848Z",
-    "total_pins": 68
+    "generated_at": "2026-10-08T17:35:29.800758Z",
+    "total_pins": 71
   },
   "features": [
     {
@@ -1433,6 +1433,69 @@
         "precision_level": "city",
         "location_text": "the United States",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ihewvvysbpplunhdcopsctl/app.bsky.feed.post/3mxeyikxkm22v",
+        "handle": "dnoven.bsky.social",
+        "text": "That's kind of my point.  I'd rather vote for someone who proves their mettle by community organizing, like AOC, Mamdani, Darializa, or Brad Lander in New York, or Elizabeth Warren. who fought the good fight as a professor in economics, before running.  There are others, but not enough.",
+        "created_at": "2026-10-08T17:32:18.789Z",
+        "source": "https://bsky.app/profile/dnoven.bsky.social/post/3mxeyikxkm22v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jl5mqn5eis5rhwu7yobkhh23/app.bsky.feed.post/3mxeyinss6j2n",
+        "handle": "bleedingcool.com",
+        "text": "Kuromi gets her own Hello Kitty And Friends One-Shot in 2027 from Tony Fleecs, Tini Howard, and Kay Davault announced by IDW at New York Comic Con #NYCC #hellokitty",
+        "created_at": "2026-10-08T17:32:21Z",
+        "source": "https://bsky.app/profile/bleedingcool.com/post/3mxeyinss6j2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8187956,
+          40.7367029
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mypfysmfia2mqw72s2puhzih/app.bsky.feed.post/3mxeyjpsi6s2k",
+        "handle": "repoz2.bsky.social",
+        "text": "God Save the Queens College!\n\nOct. 8, 1979: From my stuff comes a wild Village Voice photo ad for the Ramones (The Laughing Dogs and The A's were openers) at Queens College...47 carbona-aroma years ago tonight!",
+        "created_at": "2026-10-08T17:32:57.420Z",
+        "source": "https://bsky.app/profile/repoz2.bsky.social/post/3mxeyjpsi6s2k",
+        "mapped_location": "Queens College, City University of New York, 65 30, Kissena Boulevard, Queens, Queens County, New York, 11367, United States",
+        "precision_level": "city",
+        "location_text": "Queens College",
+        "confidence": 0.7
       }
     }
   ]

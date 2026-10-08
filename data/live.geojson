@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:23:55.289142Z",
-    "total_pins": 219
+    "generated_at": "2026-10-08T17:29:36.155814Z",
+    "total_pins": 220
   },
   "features": [
     {
@@ -4613,6 +4613,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9895127,
+          40.6970288
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:quiion5t54fed2l7363omgdo/app.bsky.feed.post/3mxeycbfl6s2t",
+        "handle": "tobaccopolicy.org",
+        "text": "🚨TOMORROW🚨\n➡️Friday, October 9 2pm ET (New York Time)\n➡️\"Distinguishing Legalization from Commercialization: Rapid Retail Cannabis Rollout and Adolescent Tobacco and Cannabis Use in the United States\"\n➡️Amit Summan from @econforhealth.bsky.social\n 👉Register: bit.ly/TOPS-Summer2026",
+        "created_at": "2026-10-08T17:28:47.439Z",
+        "source": "https://bsky.app/profile/tobaccopolicy.org/post/3mxeycbfl6s2t",
+        "mapped_location": "Theodore Roosevelt United States Courthouse, 225, Cadman Plaza East, Dumbo, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "city",
+        "location_text": "the United States",
+        "confidence": 0.9
       }
     }
   ]

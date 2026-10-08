@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T18:06:05.695917Z",
-    "total_pins": 228
+    "generated_at": "2026-10-08T18:54:18.647244Z",
+    "total_pins": 231
   },
   "features": [
     {
@@ -4798,6 +4798,69 @@
         "text": "In light of New York Governor Kathy Hochul’s declared state of emergency over measles cases, we’re sharing our Measles Awareness Tool to help hospitals prepare for and respond to cases and exposures. See details here: https://bit.ly/477CFEB ",
         "created_at": "2026-10-08T18:05:02.855464015Z",
         "source": "https://bsky.app/profile/gnyha.org/post/3mxf2d45nro2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gzrl62guw5o3cogeqwqmbjte/app.bsky.feed.post/3mxf4y3wbz22r",
+        "handle": "goldenera.si",
+        "text": "TSMC has a new U.S. supplier: GlobalFoundries will make silicon interposers for its CoWoS advanced packaging in Malta, New York, under a five-year, $2 billion agreement. Volume production is expected to ramp in the first half of 2028.",
+        "created_at": "2026-10-08T18:52:34.859Z",
+        "source": "https://bsky.app/profile/goldenera.si/post/3mxf4y3wbz22r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1496048,
+          40.5834557
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b6i7yz3ucws556xbrawiptkf/app.bsky.feed.post/3mxf4zmfauk2g",
+        "handle": "weact4ej.bsky.social",
+        "text": "Staten Island, join us Saturday, Oct 17, 12-4 PM at Snug Harbor Cultural Center for the EJNYC Community Engagement Session. \n\nLet’s talk flooding, transit, and healthy homes. \n\nTranslation, childcare, and food provided. \n\nRSVP: tinyurl.com/bdhvh58u",
+        "created_at": "2026-10-08T18:53:25.682Z",
+        "source": "https://bsky.app/profile/weact4ej.bsky.social/post/3mxf4zmfauk2g",
+        "mapped_location": "Staten Island, Richmond County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Staten Island",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ede7vytzyl7vums23i4oiz2a/app.bsky.feed.post/3mxf4zwygf22o",
+        "handle": "fplynch.bsky.social",
+        "text": "We saw The Only Living Pickpocket In New York last night and enjoyed it very much; I do recommend you see it when it goes into general release. \nen.wikipedia.org/wiki/The_Onl...",
+        "created_at": "2026-10-08T18:53:36.796Z",
+        "source": "https://bsky.app/profile/fplynch.bsky.social/post/3mxf4zwygf22o",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

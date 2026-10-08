@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T16:23:32.768882Z",
-    "total_pins": 195
+    "generated_at": "2026-10-08T16:44:11.112726Z",
+    "total_pins": 197
   },
   "features": [
     {
@@ -4109,6 +4109,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r77w3pkdkkjzka64u4t3y37h/app.bsky.feed.post/3mxevnsruoc2y",
+        "handle": "coyotestail.bsky.social",
+        "text": "auntie normiedem in a new york mid rise who is 36 and works for a nursing union and helps the paramedics organize on her days off and gives bread to the local school and voted for biden and thinks \"well this AOC fella is a lot like my daughter, she's so smart\"",
+        "created_at": "2026-10-08T16:41:33.542Z",
+        "source": "https://bsky.app/profile/coyotestail.bsky.social/post/3mxevnsruoc2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1143992,
+          40.6159228
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxevr3g2be24",
+        "handle": "porcellato.bsky.social",
+        "text": "Colorful wine glasses from around the world fill a cabinet in this Royal Oak home. https://ift.tt/vRNycCO",
+        "created_at": "2026-10-08T16:43:23+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxevr3g2be24",
+        "mapped_location": "Royal Oak Road, Staten Island, Richmond County, New York, 10310, United States",
+        "precision_level": "city",
+        "location_text": "Royal Oak",
+        "confidence": 0.8
       }
     }
   ]

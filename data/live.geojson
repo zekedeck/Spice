@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T13:43:17.969105Z",
-    "total_pins": 181
+    "generated_at": "2026-10-08T15:03:09.839066Z",
+    "total_pins": 186
   },
   "features": [
     {
@@ -3815,6 +3815,111 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iioh4je6vkpnoxrutacqhggu/app.bsky.feed.post/3mxepxstnwc2n",
+        "handle": "csharpfritz.com",
+        "text": "I’m seeing a second musical in two days in London.. it’s so much more accessible to me and my family here than in New York\n\nFrankly, I’d rather the trip to London and experience here than Manhattan",
+        "created_at": "2026-10-08T14:59:46.691Z",
+        "source": "https://bsky.app/profile/csharpfritz.com/post/3mxepxstnwc2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pa6f3duvqxf7vy5yrkuczop6/app.bsky.feed.post/3mxepxxdhic2l",
+        "handle": "juanxgomez6666.bsky.social",
+        "text": "yes of course a in New York love r&d",
+        "created_at": "2026-10-08T14:59:51.402Z",
+        "source": "https://bsky.app/profile/juanxgomez6666.bsky.social/post/3mxepxxdhic2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4aeinxjwao74le6dktiiyxg4/app.bsky.feed.post/3mxepyviian2r",
+        "handle": "marketwire.bsky.social",
+        "text": "📰 #Finance\n\n\"Team owners, current and former athletes and investors joined us in New York to discuss the value of sports as an investment, the competitive sports rights landscape, the changing face of college sports, the rise of the WNBA and the success of the World Cup. (Source: Bloomberg)\"",
+        "created_at": "2026-10-08T15:00:22.812447+00:00",
+        "source": "https://bsky.app/profile/marketwire.bsky.social/post/3mxepyviian2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9863984,
+          40.7309569
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yvzppuwjyxbmscumyjojkf5h/app.bsky.feed.post/3mxeq2qm3ls2j",
+        "handle": "bullfrogfilms.bsky.social",
+        "text": "Our release OUTGROW THE SYSTEM is an Official Selection at this year’s @workersuniteff.bsky.social Join us at Cinema Village in NYC on Saturday, October 24 at 5PM EST for the screening. bit.ly/OutgrowWUFF15 | #alternativeconomics #globaleconomics #workersunitefilmfest #degrowth #bullfrogfilms",
+        "created_at": "2026-10-08T15:01:25.004Z",
+        "source": "https://bsky.app/profile/bullfrogfilms.bsky.social/post/3mxeq2qm3ls2j",
+        "mapped_location": "Village East Cinema, 181-189, 2nd Avenue, East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "city",
+        "location_text": "Cinema Village",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxeq3n4ncs26",
+        "handle": "porcellato.bsky.social",
+        "text": "Will New York rally from 0–2 deficit vs. Dream? | Liberty Lately https://ift.tt/PQTJXm2",
+        "created_at": "2026-10-08T15:01:54+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxeq3n4ncs26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
       }
     }
   ]

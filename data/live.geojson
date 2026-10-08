@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T20:20:11.572113Z",
-    "total_pins": 237
+    "generated_at": "2026-10-08T20:52:01.770875Z",
+    "total_pins": 238
   },
   "features": [
     {
@@ -4991,6 +4991,27 @@
         "precision_level": "city",
         "location_text": "Park Slope",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f3ph3ymzcnhpchwqiu4u37g2/app.bsky.feed.post/3mxfdl3uerw2m",
+        "handle": "gizmodo.com",
+        "text": "Who or what it's about we don't know, but the news broke at New York Comic Con.",
+        "created_at": "2026-10-08T20:50:34.365Z",
+        "source": "https://bsky.app/profile/gizmodo.com/post/3mxfdl3uerw2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

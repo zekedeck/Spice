@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T16:44:11.122691Z",
-    "total_pins": 37
+    "generated_at": "2026-10-08T16:53:45.944126Z",
+    "total_pins": 47
   },
   "features": [
     {
@@ -782,6 +782,216 @@
         "precision_level": "city",
         "location_text": "Royal Oak",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oytabqgjri3j5h34l6ieqngf/app.bsky.feed.post/3mxew5fkivs25",
+        "handle": "justasuta.bsky.social",
+        "text": "WELCOME TO DAY ONE OF NEW YORK COMIC CON #nycc \n\nJUSTASUTA IS IN THE ARTIST ALLEY AT E09 COME AND SEE OUR WONDERFUL WARES\n\n#nycc2026 #bskyart #mlp #pokemon #neopets",
+        "created_at": "2026-10-08T16:50:16.533Z",
+        "source": "https://bsky.app/profile/justasuta.bsky.social/post/3mxew5fkivs25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xzh4y5uw75he5zjv7i6in7c2/app.bsky.feed.post/3mxew6jsk6n2t",
+        "handle": "thecircuitry.to",
+        "text": "Apple sets Oct. 13 for a 'Welcome home' event in New York.\nReports expect a new Apple TV 4K, a smart home hub and HomePod mini 2. Apple hasn't named the products.\n\nhttps://thecircuitry.to/article/apple-sets-oct-13-welcome-home-event-new-york-muzre0v8",
+        "created_at": "2026-10-08T16:50:54.354Z",
+        "source": "https://bsky.app/profile/thecircuitry.to/post/3mxew6jsk6n2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v7doga3gbuafvojwzceex6q7/app.bsky.feed.post/3mxew7uaq7e2y",
+        "handle": "bsnnetwork.bsky.social",
+        "text": "New York held a moment of grief and a street protest at the same time in the same place. Somehow neither side considered this a problem they had caused.\n\nRead it at https://bsnnetwork.today/article/pro-palestine-protester-explains-to-grieving-family-that-now-is",
+        "created_at": "2026-10-08T16:51:38.818358521Z",
+        "source": "https://bsky.app/profile/bsnnetwork.bsky.social/post/3mxew7uaq7e2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gda46xgmv7ygquvca5yj7lun/app.bsky.feed.post/3mxewafoscs2r",
+        "handle": "nickallison80.bsky.social",
+        "text": "A muddy Sunday at this year’s #ACLFest and a look back. Neil Young in 2012, Willie Nelson in New York at 92, more Wilco shows than anyone should admit to, how my kids’ music has influenced mine, and the dawning realization that some things aren’t made for my demographic… and that I’m okay with it.",
+        "created_at": "2026-10-08T16:51:57.344Z",
+        "source": "https://bsky.app/profile/nickallison80.bsky.social/post/3mxewafoscs2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4ejfm73buubo7bszre2qb6sk/app.bsky.feed.post/3mxewaufvj22k",
+        "handle": "victoriasetian.bsky.social",
+        "text": "If someone had told teenage Tory she'd be a Panelist at New York Comic Con one day, she wouldn't have believed you.",
+        "created_at": "2026-10-08T16:52:12.772Z",
+        "source": "https://bsky.app/profile/victoriasetian.bsky.social/post/3mxewaufvj22k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6iumtlucr4oijgc47s2erzd4/app.bsky.feed.post/3mxewcfu4na2o",
+        "handle": "annylon.bsky.social",
+        "text": "Report: Gen Z Collectors Are Reshaping the Art Market—and Art Basel\n\nThe latest Art Basel and UBS Survey of Global Collecting was presented in New York at the Ned NoMad. Observer If the most visible effect of the Great Wealth Transfer on the art world so far has been the parade of major…",
+        "created_at": "2026-10-08T16:53:04Z",
+        "source": "https://bsky.app/profile/annylon.bsky.social/post/3mxewcfu4na2o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hgtggvtniq3cfadktplxvykh/app.bsky.feed.post/3mxewchofh52y",
+        "handle": "jafifsd.bsky.social",
+        "text": "Report: Gen Z Collectors Are Reshaping the Art Market—and Art Basel\n\nThe latest Art Basel and UBS Survey of Global Collecting was presented in New York at the Ned NoMad. Observer If the most visible effect of the Great Wealth Transfer on the art world so far has been the parade of major…",
+        "created_at": "2026-10-08T16:53:06Z",
+        "source": "https://bsky.app/profile/jafifsd.bsky.social/post/3mxewchofh52y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6nxrl3vwfoi5q4u2cxe7vnge/app.bsky.feed.post/3mxewck54g52n",
+        "handle": "nationscopeusa.bsky.social",
+        "text": "Report: Gen Z Collectors Are Reshaping the Art Market—and Art Basel\n\nThe latest Art Basel and UBS Survey of Global Collecting was presented in New York at the Ned NoMad. Observer If the most visible effect of the Great Wealth Transfer on the art world so far has been the parade of major…",
+        "created_at": "2026-10-08T16:53:08Z",
+        "source": "https://bsky.app/profile/nationscopeusa.bsky.social/post/3mxewck54g52n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0574515,
+          40.5973979
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:txvldv5jpdp4kpdo4dtdwlne/app.bsky.feed.post/3mxewcnguwc2l",
+        "handle": "baronthegrey.bsky.social",
+        "text": "Want to hear something weird? I live in North Carolina, and in the past month, I've had a coworker and a customer I was speaking with, out of the blue and without warning, in two separate instances, both bring up Mamdani and how he's a socialist and he's going to destroy New York 😐",
+        "created_at": "2026-10-08T16:53:12.578Z",
+        "source": "https://bsky.app/profile/baronthegrey.bsky.social/post/3mxewcnguwc2l",
+        "mapped_location": "USS North Carolina Road, Staten Island, Richmond County, New York, 10305, United States",
+        "precision_level": "city",
+        "location_text": "North Carolina",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vrudpadksfyvx5rxq7jpllb/app.bsky.feed.post/3mxewco3xab2y",
+        "handle": "statesora.bsky.social",
+        "text": "Report: Gen Z Collectors Are Reshaping the Art Market—and Art Basel\n\nThe latest Art Basel and UBS Survey of Global Collecting was presented in New York at the Ned NoMad. Observer If the most visible effect of the Great Wealth Transfer on the art world so far has been the parade of major…",
+        "created_at": "2026-10-08T16:53:13Z",
+        "source": "https://bsky.app/profile/statesora.bsky.social/post/3mxewco3xab2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

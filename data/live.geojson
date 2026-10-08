@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:35:29.795614Z",
-    "total_pins": 223
+    "generated_at": "2026-10-08T17:43:05.493265Z",
+    "total_pins": 225
   },
   "features": [
     {
@@ -4697,6 +4697,48 @@
         "precision_level": "city",
         "location_text": "Queens College",
         "confidence": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kyzgcblw4mgs6typfe7atusq/app.bsky.feed.post/3mxeytxj4hc25",
+        "handle": "tg80.bsky.social",
+        "text": "Part 4: Can the revolt govern? In New York, Mamdani got a rent freeze and partial free child care. Free buses stalled in Albany. A pre-primary poll had El-Sayed trailing Republican Mike Rogers, while in Maine, progressive Troy Jackson leads Susan Collins. Winning isn't governing.",
+        "created_at": "2026-10-08T17:37:15.835Z",
+        "source": "https://bsky.app/profile/tg80.bsky.social/post/3mxeytxj4hc25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zgnvusam7aox7pvqf7apnsbr/app.bsky.feed.post/3mxeyxmngqk2m",
+        "handle": "rogue82.bsky.social",
+        "text": "Statue of Liberty flips the state bird.\nWelcome to New York,  Dementia, Pedo Donnie\n\n#fucktrump 🖕\n#fuckMAGA 🖕",
+        "created_at": "2026-10-08T17:40:43.871Z",
+        "source": "https://bsky.app/profile/rogue82.bsky.social/post/3mxeyxmngqk2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

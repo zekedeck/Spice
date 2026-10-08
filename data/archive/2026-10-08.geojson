@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T09:37:57.757082Z",
-    "total_pins": 3
+    "generated_at": "2026-10-08T10:49:59.887769Z",
+    "total_pins": 5
   },
   "features": [
     {
@@ -66,6 +66,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyv7jpb7mrrlblk4jpnjhbvc/app.bsky.feed.post/3mxebvbrpbm2c",
+        "handle": "crossvol.bsky.social",
+        "text": "14 pips separate $EURUSD at 1.1186 from at least 1.75B of 1.1200 puts expiring Friday Oct 9 at the 10am New York cut. 30 day realized of 3.94% sets one standard deviation at 28 pips a day, more than the gap. Hedging can keep spot close until the cut, and expiry ends the pull.",
+        "created_at": "2026-10-08T10:47:49.000Z",
+        "source": "https://bsky.app/profile/crossvol.bsky.social/post/3mxebvbrpbm2c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3rg7uwpg4hkh5gb7sfxjt572/app.bsky.feed.post/3mxebw56o4c25",
+        "handle": "resurrectedrena34.bsky.social",
+        "text": "Trump said the Twin Towers falling made it so that his building was the tallest in New York, he did not give a fuck about 9/11 and never has.",
+        "created_at": "2026-10-08T10:48:18.045Z",
+        "source": "https://bsky.app/profile/resurrectedrena34.bsky.social/post/3mxebw56o4c25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

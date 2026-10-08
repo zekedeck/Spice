@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T03:01:01.854794Z",
-    "total_pins": 111
+    "generated_at": "2026-10-08T03:14:22.507740Z",
+    "total_pins": 115
   },
   "features": [
     {
@@ -2336,6 +2336,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6hcirxvyf5kyyzvu2ik2apxt/app.bsky.feed.post/3mxdietqad22k",
+        "handle": "sephine.bsky.social",
+        "text": "im away this weekend for a concert in new york!! but as soon as im back i have to really get back to work 😭😭 honestly i really wanted the big costumes done FIRST but i kept running into huge roadblocks.... so i'm crunching out dolls now\n\nafter gateway!!! naptime!!",
+        "created_at": "2026-10-08T03:11:14.162Z",
+        "source": "https://bsky.app/profile/sephine.bsky.social/post/3mxdietqad22k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b2cz64rm2uafgufl25nbcnvs/app.bsky.feed.post/3mxdigogrm22g",
+        "handle": "camrodriguez.bsky.social",
+        "text": "similarly to triangularly sliced pizza, it was something that i would see on a screen and go \"that only happens in new york,\" almost like a reassurance to my twelve-year-old self and her twelve-year-old anxiety",
+        "created_at": "2026-10-08T03:12:15.721Z",
+        "source": "https://bsky.app/profile/camrodriguez.bsky.social/post/3mxdigogrm22g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e5aej6ge4e5kfy54pt3km6lu/app.bsky.feed.post/3mxdih75iwk2p",
+        "handle": "jvancitters.bsky.social",
+        "text": "In New York. Had a steak. No signs of Sharia law. Everyone is out and happy. Did the media and James Carville get it wrong??",
+        "created_at": "2026-10-08T03:12:33.243Z",
+        "source": "https://bsky.app/profile/jvancitters.bsky.social/post/3mxdih75iwk2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:beilpv3ekhl6hn25ya45vffn/app.bsky.feed.post/3mxdii7syyc2e",
+        "handle": "context776.bsky.social",
+        "text": "Victoria Drake, 33, filed the civil lawsuit in New York supreme court alleging that Zampolli, 56, sexually assaulted her after drugging her.\nZampolli was appointed as Trump's special envoy for global partnerships in March 2025.",
+        "created_at": "2026-10-08T03:13:07.501Z",
+        "source": "https://bsky.app/profile/context776.bsky.social/post/3mxdii7syyc2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:11:22.734744Z",
-    "total_pins": 59
+    "generated_at": "2026-10-08T17:17:36.937383Z",
+    "total_pins": 63
   },
   "features": [
     {
@@ -1240,6 +1240,90 @@
         "text": "Update: «‹Welcome home›: Apple-Experience am 13. Oktober in New York»",
         "created_at": "2026-10-08T17:11:00.991Z",
         "source": "https://bsky.app/profile/macprime.bsky.social/post/3mxexcie62s2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k5nskatzhyxersjilvtnz4lh/app.bsky.feed.post/3mxexjt7lo526",
+        "handle": "washingtonpost.com",
+        "text": "The Justice Department charged deposed Venezuelan president Nicolás Maduro and his wife with torturing prisoners, adding to the list of federal counts that the former South American leader and his inner circle are facing in New York.\nhttps://wapo.st/47OgYtn",
+        "created_at": "2026-10-08T17:15:07.24124229Z",
+        "source": "https://bsky.app/profile/washingtonpost.com/post/3mxexjt7lo526",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ice32idqbommwmmg4xkpf36p/app.bsky.feed.post/3mxexkvrhvk22",
+        "handle": "misinterpretcult.bsky.social",
+        "text": "Normally joking but serious about this. I can't drive, so advocating for parking doesn't benefit me. I also don't live in New York any more but my parents still do and need parking within 3 blocks of their home. My father is waiting for a knee replacement. How far is he expected to walk to park?",
+        "created_at": "2026-10-08T17:15:43.494Z",
+        "source": "https://bsky.app/profile/misinterpretcult.bsky.social/post/3mxexkvrhvk22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9495692,
+          40.8306339
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b3ft7hxkaixeavf4qcw4mjc/app.bsky.feed.post/3mxexmvx5oc2q",
+        "handle": "rebeccaore.bsky.social",
+        "text": "When I lived in NYC, the news had a story of  man who died defending his very expensive bicycle in Central Park.   The cops praised his heroism. As a woman cyclist, when some guys tried to take me off my bike, I knew instantly it wasn't flirting,  got in the center of Riverside Drive and screamed.",
+        "created_at": "2026-10-08T17:16:50.789Z",
+        "source": "https://bsky.app/profile/rebeccaore.bsky.social/post/3mxexmvx5oc2q",
+        "mapped_location": "Riverside Drive, Sugar Hill, Manhattan Community Board 9, Manhattan, New York County, New York, 10031, United States",
+        "precision_level": "city",
+        "location_text": "Riverside Drive",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rkpsmsbgbesjfcyctd4gq7im/app.bsky.feed.post/3mxexnnsx3c2y",
+        "handle": "mattmcgough.bsky.social",
+        "text": "2/ In FL-27, 31% of residents are enrolled, with FL-28 (30%), FL-24 (29%), and FL-26 (28%) close behind. At the other end, 24 of the 25 lowest-enrollment districts are in New York, each under 10K, thanks to Medicaid expansion and a Basic Health Plan.",
+        "created_at": "2026-10-08T17:17:15.763Z",
+        "source": "https://bsky.app/profile/mattmcgough.bsky.social/post/3mxexnnsx3c2y",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

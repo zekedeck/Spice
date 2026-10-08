@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T12:05:44.700740Z",
-    "total_pins": 9
+    "generated_at": "2026-10-08T12:12:00.119157Z",
+    "total_pins": 12
   },
   "features": [
     {
@@ -188,6 +188,69 @@
         "text": "Real estate in New York has always been… a very different thing.",
         "created_at": "2026-10-08T12:05:11.593Z",
         "source": "https://bsky.app/profile/disappoptimism.bsky.social/post/3mxeg7myx422i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wtgramxisgeoudvnaxnbexwj/app.bsky.feed.post/3mxegfsn34aa2",
+        "handle": "carnellm.mastodon.social.ap.brid.gy",
+        "text": "Jaguar Type 01 Revealed: 1,000PS Electric GT Debuts in New York\n\nJaguar unveiled the Type 01 at a world premiere in New York on 6 October: a four-door electric GT with more than 1,000PS, a 400-mile EPA range, and prices starting at 130,000 GBP. Orders open in early 2027 […]",
+        "created_at": "2026-10-08T12:08:37.000Z",
+        "source": "https://bsky.app/profile/carnellm.mastodon.social.ap.brid.gy/post/3mxegfsn34aa2",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:brlejez43rrpgyelu4gk5hpl/app.bsky.feed.post/3mxegjfn5uk2g",
+        "handle": "theridesofar.com",
+        "text": "Billy Joel is going to auction off his collection of more than 70 motorcycles and if you happen to be in New York this weekend you can see part of the collection. #motosky www.revzilla.com/common-tread...",
+        "created_at": "2026-10-08T12:10:39.408Z",
+        "source": "https://bsky.app/profile/theridesofar.com/post/3mxegjfn5uk2g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:otdjt7vcfqhxi7hgaxe4csax/app.bsky.feed.post/3mxegkgs5zc2q",
+        "handle": "alanallport.bsky.social",
+        "text": "Building the Suez Canal in New York would have been a plain bad idea",
+        "created_at": "2026-10-08T12:11:14.178Z",
+        "source": "https://bsky.app/profile/alanallport.bsky.social/post/3mxegkgs5zc2q",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

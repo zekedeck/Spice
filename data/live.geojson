@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T13:16:44.097406Z",
-    "total_pins": 179
+    "generated_at": "2026-10-08T13:23:31.632263Z",
+    "total_pins": 181
   },
   "features": [
     {
@@ -3773,6 +3773,48 @@
         "location_text": "New Jersey",
         "confidence": 0.9,
         "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9867644,
+          40.6915721
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sajwk2kma5oeryy6odgweciz/app.bsky.feed.post/3mxekkxbiq22q",
+        "handle": "toobigtofail.bsky.social",
+        "text": "10,000-15,000 panel trucks and tractor trailers cross the Verrazano each day. If you get rid of the BQE, they have literally nowhere to go except up 3rd Avenue to Atlantic Avenue and through downtown Brooklyn.\n\nNobody wants that.",
+        "created_at": "2026-10-08T13:23:06.424Z",
+        "source": "https://bsky.app/profile/toobigtofail.bsky.social/post/3mxekkxbiq22q",
+        "mapped_location": "Downtown Brooklyn, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "downtown Brooklyn",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xv2as7miy7ghje2htfynaqex/app.bsky.feed.post/3mxekkxc76s2h",
+        "handle": "aphclarkson.bsky.social",
+        "text": "Gaza mattered to Mamdani, but his central project was quality of life in New York. Though she showed sympathy with protests, Eralp made affordability and public services the heart of her pitch\n\nThey face Gaza campaigners who expect leaders to subordinate all other issues to their cause",
+        "created_at": "2026-10-08T13:23:06.448Z",
+        "source": "https://bsky.app/profile/aphclarkson.bsky.social/post/3mxekkxc76s2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

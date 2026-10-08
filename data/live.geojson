@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T12:12:00.107181Z",
-    "total_pins": 175
+    "generated_at": "2026-10-08T12:19:05.575634Z",
+    "total_pins": 177
   },
   "features": [
     {
@@ -3687,6 +3687,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:edxrnz3bvgridahqhai3gifz/app.bsky.feed.post/3mxegsuy4w225",
+        "handle": "guyforgetghost.bsky.social",
+        "text": "Ohhh myyyyyy. LOL Sooooo…..a new Steve Bartman EXCEPT…..this one was the literal DOOR SEALER & ended series. For Cubs there were like 2 more games it just changed momentum. This….WAYYYY WORSE. YIKES. 😳👀 \n\nIN NEW YORK. Whew, that dude should look into facial reconstruction surgery or move to Canada😂",
+        "created_at": "2026-10-08T12:15:57.489Z",
+        "source": "https://bsky.app/profile/guyforgetghost.bsky.social/post/3mxegsuy4w225",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n6l74xyppdzfcagfvpuuoynm/app.bsky.feed.post/3mxegttsdj22l",
+        "handle": "dreamscapes.swifties.social",
+        "text": "We were doing what we could while we lacked the freedom/power. Then comes the lover era and I was dancing when the music stopped. I was loud! I was ME! out now but my headphones were gone. The music stopped. The masters heist. \n\nI lost you the one I was dancing with in New York. WTNY!",
+        "created_at": "2026-10-08T12:16:29.785Z",
+        "source": "https://bsky.app/profile/dreamscapes.swifties.social/post/3mxegttsdj22l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

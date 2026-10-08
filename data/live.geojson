@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:53:31.341862Z",
-    "total_pins": 226
+    "generated_at": "2026-10-08T17:59:31.337651Z",
+    "total_pins": 227
   },
   "features": [
     {
@@ -4760,6 +4760,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ncdvzkkqgqnmdhglormsgxfq/app.bsky.feed.post/3mxezttkb2k2k",
+        "handle": "priyamvadagopal.bsky.social",
+        "text": "I'm all for holding politicians accountable but the people who booed the Mayor of New York for attending a vigil yesterday are massive numpties.",
+        "created_at": "2026-10-08T17:56:30.635Z",
+        "source": "https://bsky.app/profile/priyamvadagopal.bsky.social/post/3mxezttkb2k2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
       }
     }
   ]

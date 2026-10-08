@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T03:21:31.907186Z",
-    "total_pins": 164
+    "generated_at": "2026-10-08T03:54:35.298051Z",
+    "total_pins": 165
   },
   "features": [
     {
@@ -3452,6 +3452,27 @@
         "text": "Telfar Invited the Industry to a Fashion Show in Paris—Then Held One in New York Instead\n\nhttps://www.laviezine.com/1657077/telfar-invited-the-industry-to-a-fashion-show-in-paris-then-held-one-in-new-york-instead/\n\n4 min read Yesterday, Telfar Clemens pulled a prank on the fashion industry. Less …",
         "created_at": "2026-10-08T03:20:03+00:00",
         "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxdiup5tcn2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qynwa7zzde7o5z27o473uli2/app.bsky.feed.post/3mxdkp5fdxc2z",
+        "handle": "bernardjkd.bsky.social",
+        "text": "#SchlitzPlayhouseOfStars TV ep #1.33 \"Autumn in New York\" (16-May-52).\nOk we are back with live TV.  It's definitely CBS New York.  LA can't fake this TV!\n\nOnly the first 8 minutes exist and it's a musical.  Not sure how it ends just so glad it's still going out live.\nwww.youtube.com/watch?v=I4SF...",
+        "created_at": "2026-10-08T03:52:47.321Z",
+        "source": "https://bsky.app/profile/bernardjkd.bsky.social/post/3mxdkp5fdxc2z",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

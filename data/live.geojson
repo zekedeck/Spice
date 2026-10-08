@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T10:49:59.884543Z",
+    "generated_at": "2026-10-08T11:32:07.676969Z",
     "total_pins": 169
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.965,
-          40.783
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4y6u3rjyibwgx6v7blvjwhcq/app.bsky.feed.post/3mx7b5ahigk2u",
-        "handle": "wmbfnews.com",
-        "text": "71-year-old man thrown from bike, killed after hitting dog in Central Park  #usnews",
-        "created_at": "2026-10-06T10:51:03.878Z",
-        "source": "https://bsky.app/profile/wmbfnews.com/post/3mx7b5ahigk2u",
-        "mapped_location": "Central Park, New York County, New York, 11025, United States",
-        "precision_level": "address",
-        "location_text": "Central Park",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -3557,6 +3536,27 @@
         "text": "Trump said the Twin Towers falling made it so that his building was the tallest in New York, he did not give a fuck about 9/11 and never has.",
         "created_at": "2026-10-08T10:48:18.045Z",
         "source": "https://bsky.app/profile/resurrectedrena34.bsky.social/post/3mxebw56o4c25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:siujwygz5s3xneyy7mch5zop/app.bsky.feed.post/3mxeedw7pnc2p",
+        "handle": "webofspider-man.bsky.social",
+        "text": "\"Cool outfit. But I didn't know there were maid cafes or anything like that here in New York...\"",
+        "created_at": "2026-10-08T11:31:47.985Z",
+        "source": "https://bsky.app/profile/webofspider-man.bsky.social/post/3mxeedw7pnc2p",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

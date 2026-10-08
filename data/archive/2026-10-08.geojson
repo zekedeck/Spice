@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T15:44:42.580118Z",
-    "total_pins": 33
+    "generated_at": "2026-10-08T16:15:41.639914Z",
+    "total_pins": 34
   },
   "features": [
     {
@@ -698,6 +698,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:imcdx2ngupxo6557gjyzkm7g/app.bsky.feed.post/3mxeu3jbe5f2w",
+        "handle": "huggsbizon.bsky.social",
+        "text": "Hillary Clinton used a private email server located in the basement of the Clintons’ home in Chappaqua, New York, for all her official State Department business from 2009 to 2013.",
+        "created_at": "2026-10-08T16:13:25.841Z",
+        "source": "https://bsky.app/profile/huggsbizon.bsky.social/post/3mxeu3jbe5f2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

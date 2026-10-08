@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T12:19:05.575634Z",
-    "total_pins": 177
+    "generated_at": "2026-10-08T13:16:44.097406Z",
+    "total_pins": 179
   },
   "features": [
     {
@@ -3729,6 +3729,50 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mxek4jku5z2g",
+        "handle": "queerhistorybot.bsky.social",
+        "text": "\"I was no one, nobody, from Nowheresville until I became a drag queen. That’s what made me in New York, that’s what made me in New Jersey, that’s what made me in the world.\"\n\n- Marsha P. Johnson",
+        "created_at": "2026-10-08T13:15:01.87621200Z",
+        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mxek4jku5z2g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "New Jersey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mxek4jku5z2g",
+        "handle": "queerhistorybot.bsky.social",
+        "text": "\"I was no one, nobody, from Nowheresville until I became a drag queen. That’s what made me in New York, that’s what made me in New Jersey, that’s what made me in the world.\"\n\n- Marsha P. Johnson",
+        "created_at": "2026-10-08T13:15:01.87621200Z",
+        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mxek4jku5z2g",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.9,
+        "other_locations": "New York"
       }
     }
   ]

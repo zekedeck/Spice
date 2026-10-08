@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T13:23:31.643438Z",
-    "total_pins": 18
+    "generated_at": "2026-10-08T13:43:17.977560Z",
+    "total_pins": 21
   },
   "features": [
     {
@@ -379,6 +379,69 @@
         "text": "Gaza mattered to Mamdani, but his central project was quality of life in New York. Though she showed sympathy with protests, Eralp made affordability and public services the heart of her pitch\n\nThey face Gaza campaigners who expect leaders to subordinate all other issues to their cause",
         "created_at": "2026-10-08T13:23:06.448Z",
         "source": "https://bsky.app/profile/aphclarkson.bsky.social/post/3mxekkxc76s2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cegurhm3furyso6rugojp4oq/app.bsky.feed.post/3mxelk7vaks2p",
+        "handle": "bygjacob.bsky.social",
+        "text": "@purrtah.bsky.social  Looks like our issue in New York is Hochul",
+        "created_at": "2026-10-08T13:40:35.644Z",
+        "source": "https://bsky.app/profile/bygjacob.bsky.social/post/3mxelk7vaks2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vwn5mjhhhpirw3jfez752mcl/app.bsky.feed.post/3mxelkgjosd2y",
+        "handle": "linksgraph.bsky.social",
+        "text": "Mamdani heckled at New York vigil marking Oct. 7 anniversary\n\nNew York marked the third anniversary of Hamas’s Oct. 7 attack with a vigil in Union Square. Mayor Zohran Mamdani attended the\n\nhttps://linksgraph.com/en/mamdani-heckled-at-new-york-vigil-marking-oct-7-anniversary",
+        "created_at": "2026-10-08T13:40:42.247323Z",
+        "source": "https://bsky.app/profile/linksgraph.bsky.social/post/3mxelkgjosd2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eata2lkcvmh7csdbbvoo4eib/app.bsky.feed.post/3mxelkij6nc2w",
+        "handle": "craigburley.bsky.social",
+        "text": "Thanks for the piece. \n\nIt would and will be helpful in Hamilton to have campus officers at Redeemer, Mac and Mohawk speak to the press about how such investigations would be done differently here rather than in New York. I’ll suggest it to the Spec.",
+        "created_at": "2026-10-08T13:40:44.689Z",
+        "source": "https://bsky.app/profile/craigburley.bsky.social/post/3mxelkij6nc2w",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

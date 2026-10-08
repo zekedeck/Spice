@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T19:27:17.068731Z",
-    "total_pins": 233
+    "generated_at": "2026-10-08T19:47:02.894559Z",
+    "total_pins": 234
   },
   "features": [
     {
@@ -4907,6 +4907,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002,
+          40.744
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vcyufljb4mexfpsnvo4ry5sm/app.bsky.feed.post/3mxf7vlkerc2w",
+        "handle": "lavrami.bsky.social",
+        "text": "Michael Mustafa Ulmer performing at the James Blood Ulmer Jazz Memorial at Saint Peter's Church, NYC Sept 29, 2026",
+        "created_at": "2026-10-08T19:44:51.805Z",
+        "source": "https://bsky.app/profile/lavrami.bsky.social/post/3mxf7vlkerc2w",
+        "mapped_location": "Saint Peter's Church, 342, West 20th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+        "precision_level": "address",
+        "location_text": "Saint Peter's Church",
+        "confidence": 0.9
       }
     }
   ]

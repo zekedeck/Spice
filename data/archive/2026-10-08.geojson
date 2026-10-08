@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T21:39:44.621327Z",
-    "total_pins": 93
+    "generated_at": "2026-10-08T21:46:29.058802Z",
+    "total_pins": 94
   },
   "features": [
     {
@@ -1958,6 +1958,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l6agqcjf4rwy6u57cxvpzxqh/app.bsky.feed.post/3mxfgmoblha2i",
+        "handle": "akerix-en.bsky.social",
+        "text": "Sean Lennon: musical heir and custodian of the legacy of John and Yoko\n\nOn October 9, 1975, the only son of the iconic duo John Lennon and Yoko Ono was born in New York, marking the…\n\n#Akerix #AI #SeanLennon #JohnLennon\nhttps://akerix.com/on-this-day/10-09-sean-lennon-1975\n📷 Wikimedia Commons",
+        "created_at": "2026-10-08T21:45:08.824Z",
+        "source": "https://bsky.app/profile/akerix-en.bsky.social/post/3mxfgmoblha2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

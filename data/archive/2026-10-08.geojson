@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T15:24:14.810523Z",
-    "total_pins": 29
+    "generated_at": "2026-10-08T15:44:42.580118Z",
+    "total_pins": 33
   },
   "features": [
     {
@@ -614,6 +614,90 @@
         "precision_level": "city",
         "location_text": "Fort Greene",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:leifdsfeh6kaoqxboqjqqviu/app.bsky.feed.post/3mxesdd7wus2p",
+        "handle": "formline.bsky.social",
+        "text": "Sandman is retired. He came from last to win the 2025 Arkansas Derby by 2 1/2 lengths, then ran third in the Preakness. 3 wins from 15 starts, over $1.5 million earned, and a lot of new fans brought into the sport. He stands at Rockridge Stud in New York in 2027 for $10,000.",
+        "created_at": "2026-10-08T15:42:00.456Z",
+        "source": "https://bsky.app/profile/formline.bsky.social/post/3mxesdd7wus2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxesh2yvqu2e",
+        "handle": "some-news.bsky.social",
+        "text": "Ousted Venezuelan president and Cilia Flores have been in jail in New York since early January",
+        "created_at": "2026-10-08T15:44:05.958942+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxesh2yvqu2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pfwpb5pebmlsc7r5b2lxqofp/app.bsky.feed.post/3mxeshdf74c2z",
+        "handle": "trialsofmaya.bsky.social",
+        "text": "The word is out! We’ve loved bringing you the Maya experience across North America and Europe. Now, discover Maya: Seed Takes Root and Trials of Maya at New York Comic Con 2026!\n\nBooth 3325\nLevel 3\nJavits Center\n\n#EnterMaya #SciFi #Fantasy #NYCC #ComicCon",
+        "created_at": "2026-10-08T15:44:14.844Z",
+        "source": "https://bsky.app/profile/trialsofmaya.bsky.social/post/3mxeshdf74c2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7jay7nelegipdr7ic2dlumol/app.bsky.feed.post/3mxeshk4xfs2s",
+        "handle": "mattzollerseitz.bsky.social",
+        "text": "It's worth asking why every legacy media outlet in the New York area and every conservative commentator in the country is laser-focused on damaging or destroying this mayor",
+        "created_at": "2026-10-08T15:44:21.915Z",
+        "source": "https://bsky.app/profile/mattzollerseitz.bsky.social/post/3mxeshk4xfs2s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T20:52:01.770875Z",
-    "total_pins": 238
+    "generated_at": "2026-10-08T21:12:05.796690Z",
+    "total_pins": 242
   },
   "features": [
     {
@@ -5008,6 +5008,90 @@
         "text": "Who or what it's about we don't know, but the news broke at New York Comic Con.",
         "created_at": "2026-10-08T20:50:34.365Z",
         "source": "https://bsky.app/profile/gizmodo.com/post/3mxfdl3uerw2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hqbspgkcf5dixfhngmqq3jfd/app.bsky.feed.post/3mxfen7547c2m",
+        "handle": "victorlavalle.bsky.social",
+        "text": "Your boy is at New York Comic Con signing signing books! \n\nThe Devil in Silver, specifically but if you’ve got something else I’ll sign that, too.\n\nIf you’re here, I get going from 5:30-6:15 at the Penguin Random House booth.",
+        "created_at": "2026-10-08T21:09:39.061Z",
+        "source": "https://bsky.app/profile/victorlavalle.bsky.social/post/3mxfen7547c2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfenycpoc2e",
+        "handle": "wsbt22.bsky.social",
+        "text": "Cilia Flores, the wife of former Venezuelan President Nicolás Maduro, is asking a federal judge in New York to release her from jail and allow her to live under house arrest with 24-hour security as she awaits trial on US cocaine-trafficking charges.\nhttps://bit.ly/4AUdH9t",
+        "created_at": "2026-10-08T21:10:05.349714094Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfenycpoc2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:njpw4itkjllk3kdjahnlyraq/app.bsky.feed.post/3mxfeokguwk2y",
+        "handle": "paulbali.com",
+        "text": "Every facet of every serious domestic credit institution in China is governed by the wise instruction of the State Council of China, executed by the cadres in the People's Government of the Munincipality of [xyz], not the shareholders of Bank of America in New York. This produces different outcomes",
+        "created_at": "2026-10-08T21:10:24.474Z",
+        "source": "https://bsky.app/profile/paulbali.com/post/3mxfeokguwk2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxfeomo6452y",
+        "handle": "mainstream-media.bsky.social",
+        "text": "Jeffries says Republicans are mismanaging their money in New York House races\n\nhttps://www.washingtonexaminer.com/n...",
+        "created_at": "2026-10-08T21:10:26.798846+00:00",
+        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxfeomo6452y",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

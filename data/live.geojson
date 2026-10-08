@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T23:25:31.333676Z",
-    "total_pins": 258
+    "generated_at": "2026-10-08T23:47:15.906849Z",
+    "total_pins": 259
   },
   "features": [
     {
@@ -5434,6 +5434,27 @@
         "mapped_location": "Ice-Water Wall, Lower Manhattan, Manhattan, New York County, New York, United States",
         "precision_level": "city",
         "location_text": "ICE &",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lagbkd7bzx4uuiaebxejmr7y/app.bsky.feed.post/3mxfnbahzys2k",
+        "handle": "dcdiversity1.bsky.social",
+        "text": "“The shooting happened at about 4 p.m. in the Marble Hill neighborhood and involved “federal law enforcement agents,” according to a Police Department statement posted online. Marble Hill is considered either part of Upper Manhattan or at the southern edge of the Bronx.”",
+        "created_at": "2026-10-08T23:44:01.495Z",
+        "source": "https://bsky.app/profile/dcdiversity1.bsky.social/post/3mxfnbahzys2k",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
         "confidence": 0.9
       }
     }

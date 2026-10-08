@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T23:03:52.449999Z",
-    "total_pins": 248
+    "generated_at": "2026-10-08T23:08:50.194571Z",
+    "total_pins": 250
   },
   "features": [
     {
@@ -5221,6 +5221,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n4ko273ye6yqefhtzaq4iu7m/app.bsky.feed.post/3mxfl57a7xc2h",
+        "handle": "alfrib25.bsky.social",
+        "text": "And the Russian whites who wanted to assassinate the chess genius in New York, being white makes a good assassin and brings in good business in Putin's Russia 😂😂",
+        "created_at": "2026-10-08T23:05:58.486Z",
+        "source": "https://bsky.app/profile/alfrib25.bsky.social/post/3mxfl57a7xc2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054261,
+          40.7135482
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dvud37olrmvwyboy7mnj4ihh/app.bsky.feed.post/3mxflb3kllm2g",
+        "handle": "earthcams.bsky.social",
+        "text": "See live views of the World Trade Center and September 11 Memorial & Museum in lower Manhattan. · #Earthcam #Travel #World #Discover #Webcam",
+        "created_at": "2026-10-08T23:08:08Z",
+        "source": "https://bsky.app/profile/earthcams.bsky.social/post/3mxflb3kllm2g",
+        "mapped_location": "Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "city",
+        "location_text": "lower Manhattan",
+        "confidence": 0.95
       }
     }
   ]

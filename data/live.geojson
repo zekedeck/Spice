@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:59:31.337651Z",
-    "total_pins": 227
+    "generated_at": "2026-10-08T18:06:05.695917Z",
+    "total_pins": 228
   },
   "features": [
     {
@@ -4781,6 +4781,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n34fdgjed4tzddxqvbwh4lp7/app.bsky.feed.post/3mxf2d45nro2x",
+        "handle": "gnyha.org",
+        "text": "In light of New York Governor Kathy Hochul’s declared state of emergency over measles cases, we’re sharing our Measles Awareness Tool to help hospitals prepare for and respond to cases and exposures. See details here: https://bit.ly/477CFEB ",
+        "created_at": "2026-10-08T18:05:02.855464015Z",
+        "source": "https://bsky.app/profile/gnyha.org/post/3mxf2d45nro2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

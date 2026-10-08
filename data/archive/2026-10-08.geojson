@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:02:50.400038Z",
-    "total_pins": 56
+    "generated_at": "2026-10-08T17:11:22.734744Z",
+    "total_pins": 59
   },
   "features": [
     {
@@ -1181,6 +1181,69 @@
         "precision_level": "city",
         "location_text": "Park Slope",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vsh5d4ifukj2woh24nz7focm/app.bsky.feed.post/3mxex6pffsk2y",
+        "handle": "bluelion70.bsky.social",
+        "text": "What’s in his heart is less relevant than his actions. I’ve been trying so hard to believe him when he speaks about protecting my community, that I wasn’t wrong to vote for him. \n\nHis statement yesterday felt like being kicked in the throat. I’ve never felt less welcome in New York than I do today.",
+        "created_at": "2026-10-08T17:08:54.155Z",
+        "source": "https://bsky.app/profile/bluelion70.bsky.social/post/3mxex6pffsk2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2eq3273yo4eq7xi7wxz2wqav/app.bsky.feed.post/3mxexait5gc2q",
+        "handle": "joshsternberg.com",
+        "text": "If you've been a New Yorker for the last 35 years, you are very aware of Dan Smith, local guitar legend. Now he's on a billboard in Times Square, brought to us by HP.\n\nwww.marketingbrew.com/stories/dan-...",
+        "created_at": "2026-10-08T17:09:54.372Z",
+        "source": "https://bsky.app/profile/joshsternberg.com/post/3mxexait5gc2q",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gbyr6rrsksugdoasfe2k4kfe/app.bsky.feed.post/3mxexcie62s2q",
+        "handle": "macprime.bsky.social",
+        "text": "Update: «‹Welcome home›: Apple-Experience am 13. Oktober in New York»",
+        "created_at": "2026-10-08T17:11:00.991Z",
+        "source": "https://bsky.app/profile/macprime.bsky.social/post/3mxexcie62s2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

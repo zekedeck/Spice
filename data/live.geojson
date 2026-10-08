@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:17:36.933585Z",
-    "total_pins": 215
+    "generated_at": "2026-10-08T17:23:55.289142Z",
+    "total_pins": 219
   },
   "features": [
     {
@@ -4529,6 +4529,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4os5ghcxq2mh643cwekhld3c/app.bsky.feed.post/3mxexuwu2m62x",
+        "handle": "fictionhorizon.bsky.social",
+        "text": "Doctor Doom’s ‘Avengers: Doomsday’ Costume Takes Center Stage at New York Comic Con",
+        "created_at": "2026-10-08T17:21:20+00:00",
+        "source": "https://bsky.app/profile/fictionhorizon.bsky.social/post/3mxexuwu2m62x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4os5ghcxq2mh643cwekhld3c/app.bsky.feed.post/3mxexuxdbeu24",
+        "handle": "fictionhorizon.bsky.social",
+        "text": "Doctor Doom’s ‘Avengers: Doomsday’ Costume Takes Center Stage at New York Comic Con",
+        "created_at": "2026-10-08T17:21:20+00:00",
+        "source": "https://bsky.app/profile/fictionhorizon.bsky.social/post/3mxexuxdbeu24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rbchflsbwh3nzmqmfy3x7qud/app.bsky.feed.post/3mxexvdpizk24",
+        "handle": "grahamedwards439.bsky.social",
+        "text": "They are nuts. These pro-Palestinian, anti-Semitic protestors have been practically living in Times Square and they pretty much hijacked the protests at Columbia U, but they are a tiny group that just makes a lot of noise and causes congestion on the sidewalks.",
+        "created_at": "2026-10-08T17:21:33.654Z",
+        "source": "https://bsky.app/profile/grahamedwards439.bsky.social/post/3mxexvdpizk24",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w7gjmsztghe25agziaee4cnt/app.bsky.feed.post/3mxexww34cs2z",
+        "handle": "hunterub.bsky.social",
+        "text": "Born with a silver spoon in Queens, New York\nEven as a kid was an entitled dork\nRaised filthy rich by his racist dad\nWorst piece of shit that the country's ever had",
+        "created_at": "2026-10-08T17:22:26.463Z",
+        "source": "https://bsky.app/profile/hunterub.bsky.social/post/3mxexww34cs2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

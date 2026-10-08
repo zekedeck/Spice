@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T23:13:56.522754Z",
-    "total_pins": 100
+    "generated_at": "2026-10-08T23:25:31.341180Z",
+    "total_pins": 108
   },
   "features": [
     {
@@ -2105,6 +2105,178 @@
         "precision_level": "city",
         "location_text": "lower Manhattan",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atlkjg42q45quxehr5m7hcmc/app.bsky.feed.post/3mxfm33wo4w22",
+        "handle": "newsgroup-site.bsky.social",
+        "text": "🟡 LawEnforcement | 4/10 🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood\n\n#OSINT #USA #NewYork",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/newsgroup-site.bsky.social/post/3mxfm33wo4w22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Marble Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atlkjg42q45quxehr5m7hcmc/app.bsky.feed.post/3mxfm33wo4w22",
+        "handle": "newsgroup-site.bsky.social",
+        "text": "🟡 LawEnforcement | 4/10 🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood\n\n#OSINT #USA #NewYork",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/newsgroup-site.bsky.social/post/3mxfm33wo4w22",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ogpzk3l77iv46gat55ghgs5r/app.bsky.feed.post/3mxfm3av4jsz2",
+        "handle": "analytics.social.vir.group.ap.brid.gy",
+        "text": "🟡 LawEnforcement | 4/10\n🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood.\n\n#OSINT #NewsGroup #USA #NewYork #Security",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/analytics.social.vir.group.ap.brid.gy/post/3mxfm3av4jsz2",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Marble Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ogpzk3l77iv46gat55ghgs5r/app.bsky.feed.post/3mxfm3av4jsz2",
+        "handle": "analytics.social.vir.group.ap.brid.gy",
+        "text": "🟡 LawEnforcement | 4/10\n🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood.\n\n#OSINT #NewsGroup #USA #NewYork #Security",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/analytics.social.vir.group.ap.brid.gy/post/3mxfm3av4jsz2",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pvcxicdndphhuiqczyzu43dw/app.bsky.feed.post/3mxfm4cjhqc2m",
+        "handle": "rosesbloom24.bsky.social",
+        "text": "The shooting happened at about 4 p.m. in the Marble Hill neighborhood and involved “federal law enforcement agents,” according to a New York Police Department statement posted online. Marble Hill is considered either part of Upper Manhattan or at the southern edge of the Bronx.",
+        "created_at": "2026-10-08T23:23:20.193Z",
+        "source": "https://bsky.app/profile/rosesbloom24.bsky.social/post/3mxfm4cjhqc2m",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zwa4q7v7kz3qpbmjaihifrsk/app.bsky.feed.post/3mxfm5bioic2u",
+        "handle": "oldredsubby.bsky.social",
+        "text": "ICE agent shoots man in New York City with five-year-old nearby, mayor says | New York | The Guardian \nwww.theguardian.com/us-news/2026...",
+        "created_at": "2026-10-08T23:23:54.605Z",
+        "source": "https://bsky.app/profile/oldredsubby.bsky.social/post/3mxfm5bioic2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jczmphrsdnv23cxsqk6nf72c/app.bsky.feed.post/3mxfm5q7lt22u",
+        "handle": "bendavanzo.bsky.social",
+        "text": "Another ICE shooting, this time in New York. Brought to you by funds that were cut from Medicaid and SNAP.",
+        "created_at": "2026-10-08T23:24:10.034Z",
+        "source": "https://bsky.app/profile/bendavanzo.bsky.social/post/3mxfm5q7lt22u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0156507,
+          40.7166864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbgqzdymfgz6dk7wr6oxozap/app.bsky.feed.post/3mxfm6q4vhk2q",
+        "handle": "rknight0415.bsky.social",
+        "text": "www.youtube.com/watch?v=OlkZ...\nWhat the AF? Another shooting in NYC by ICE & local cops were called & had to grab the unresponsive man and put him in back of a cop SUV-ICE MUST BE DISSOLVED AND START OVER WITH A NEW DEPT-The untrained minions they hire MUST BE HELD ACCOUNTABLE! File State charges!",
+        "created_at": "2026-10-08T23:24:43.502Z",
+        "source": "https://bsky.app/profile/rknight0415.bsky.social/post/3mxfm6q4vhk2q",
+        "mapped_location": "Ice-Water Wall, Lower Manhattan, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "ICE &",
+        "confidence": 0.9
       }
     }
   ]

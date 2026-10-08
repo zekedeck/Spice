@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T11:57:54.097082Z",
-    "total_pins": 6
+    "generated_at": "2026-10-08T12:05:44.700740Z",
+    "total_pins": 9
   },
   "features": [
     {
@@ -125,6 +125,69 @@
         "text": "\"Cool outfit. But I didn't know there were maid cafes or anything like that here in New York...\"",
         "created_at": "2026-10-08T11:31:47.985Z",
         "source": "https://bsky.app/profile/webofspider-man.bsky.social/post/3mxeedw7pnc2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qraefsv3axinkuiege55pqb4/app.bsky.feed.post/3mxeg2rva4t2q",
+        "handle": "wewatchfilms.bsky.social",
+        "text": "\"Some of the most intense affairs are between actors and characters. There's a fire in the human heart and we jump into it with the same obsession as we have with our lovers.\"\n\nBorn on this day in Manhatten, New York, arguably one of cinema's most loved action heros, Sigourney Weaver turns 77 today.",
+        "created_at": "2026-10-08T12:02:28.914Z",
+        "source": "https://bsky.app/profile/wewatchfilms.bsky.social/post/3mxeg2rva4t2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qju5a3556voxaxqs2jg4ekit/app.bsky.feed.post/3mxeg4rfmek2i",
+        "handle": "disappoptimism.bsky.social",
+        "text": "Because I have real estate brain I was sure the massive debt exposure Trump had in real estate was now a lever the well established Russian connections in New York & other places were pulling on with him.\n\nBut I was wrong",
+        "created_at": "2026-10-08T12:03:35.539Z",
+        "source": "https://bsky.app/profile/disappoptimism.bsky.social/post/3mxeg4rfmek2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qju5a3556voxaxqs2jg4ekit/app.bsky.feed.post/3mxeg7myx422i",
+        "handle": "disappoptimism.bsky.social",
+        "text": "Real estate in New York has always been… a very different thing.",
+        "created_at": "2026-10-08T12:05:11.593Z",
+        "source": "https://bsky.app/profile/disappoptimism.bsky.social/post/3mxeg7myx422i",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

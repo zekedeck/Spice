@@ -61,13 +61,28 @@ def build_post_url(handle: str, uri: str) -> str:
     return f"https://bsky.app/profile/{handle}/post/{rkey}"
 
 
+def _login_with_retry(client: Client, handle: str, password: str, attempts: int = 3) -> None:
+    # Bluesky's session-creation endpoint occasionally times out transiently
+    # (seen in production); retry with backoff instead of letting one bad
+    # request kill the whole collection run.
+    for attempt in range(1, attempts + 1):
+        try:
+            client.login(handle, password)
+            return
+        except Exception:
+            if attempt == attempts:
+                raise
+            logger.warning("Bluesky login attempt %d/%d failed, retrying...", attempt, attempts, exc_info=True)
+            time.sleep(2 ** attempt)
+
+
 def run_collector(duration_seconds: int = 180) -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     duration_seconds = int(os.getenv("COLLECTOR_DURATION_SECONDS", duration_seconds))
     conn = init_db(DB_PATH)
 
     client = Client()
-    client.login(BSKY_HANDLE, BSKY_APP_PASSWORD)
+    _login_with_retry(client, BSKY_HANDLE, BSKY_APP_PASSWORD)
 
     post_count = 0
     deadline = time.monotonic() + duration_seconds

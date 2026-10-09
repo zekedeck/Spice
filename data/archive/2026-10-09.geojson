@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T14:32:18.245547Z",
-    "total_pins": 46
+    "generated_at": "2026-10-09T14:42:17.218612Z",
+    "total_pins": 52
   },
   "features": [
     {
@@ -971,6 +971,134 @@
         "precision_level": "city",
         "location_text": "Foley Square",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8857755,
+          40.7556561
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ihl667oyujekuvexdhtgwvc5/app.bsky.feed.post/3mxh7df5ohe2g",
+        "handle": "uspoliticsbriefly.bsky.social",
+        "text": "ICE agents were seen near P.S. 280 in Jackson Heights and three arrests followed, days before an ICE shooting injured a man in Manhattan.\n",
+        "created_at": "2026-10-09T14:40:00.187Z",
+        "source": "https://bsky.app/profile/uspoliticsbriefly.bsky.social/post/3mxh7df5ohe2g",
+        "mapped_location": "Jackson Heights, Queens, Queens County, New York, 11372, United States",
+        "precision_level": "city",
+        "location_text": "Jackson Heights",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjqmr5n3s3ndpo6lpalfpvxx/app.bsky.feed.post/3mxh7e3mtp22q",
+        "handle": "beezloop.com",
+        "text": "ICE Agent Fired 7 Shots Into a Car in Upper Manhattan, Wounding a Man With His 5-Year-Old in the Back Seat\n\nOscar Belgal, 28, was shot in the neck in Marble Hill as kids left school. His son wasn't hurt. Mamdani says he called Trump to get Belgal released and…\n\n#ICE #Immigration",
+        "created_at": "2026-10-09T14:40:24.163Z",
+        "source": "https://bsky.app/profile/beezloop.com/post/3mxh7e3mtp22q",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxh7en4t3d25",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Ben Marshall has lived in multiple New York neighborhoods, moved ten times, and follows specific subway, street, and etiquette rules.\n",
+        "created_at": "2026-10-09T14:40:42.199Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxh7en4t3d25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ihl667oyujekuvexdhtgwvc5/app.bsky.feed.post/3mxh7gi6v7l2q",
+        "handle": "uspoliticsbriefly.bsky.social",
+        "text": "Federal immigration agents fired at least seven shots in New York, wounding a driver while a five-year-old boy was in the vehicle, prompting demands for ICE to leave.\n",
+        "created_at": "2026-10-09T14:41:43.955Z",
+        "source": "https://bsky.app/profile/uspoliticsbriefly.bsky.social/post/3mxh7gi6v7l2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3vgka7uaytnn6y4nybu2zupl/app.bsky.feed.post/3mxh7gl6fpc2x",
+        "handle": "columbusfreepress.bsky.social",
+        "text": "Headlines Oct 09, 2026\n\nProtests Erupt in New York After ICE Agent Shoots and Wounds Man\n\nVideo Shows Bystanders Attempting to Intervene in Violent ICE Arrest in New Jersey\n\nFamily Seeks Damages from U.S. over ICE Killing of Silverio Villegas González\n\nUSS Abraham Lincoln Arrives in San Diego Aft...",
+        "created_at": "2026-10-09T14:41:47.575Z",
+        "source": "https://bsky.app/profile/columbusfreepress.bsky.social/post/3mxh7gl6fpc2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "New Jersey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3vgka7uaytnn6y4nybu2zupl/app.bsky.feed.post/3mxh7gl6fpc2x",
+        "handle": "columbusfreepress.bsky.social",
+        "text": "Headlines Oct 09, 2026\n\nProtests Erupt in New York After ICE Agent Shoots and Wounds Man\n\nVideo Shows Bystanders Attempting to Intervene in Violent ICE Arrest in New Jersey\n\nFamily Seeks Damages from U.S. over ICE Killing of Silverio Villegas González\n\nUSS Abraham Lincoln Arrives in San Diego Aft...",
+        "created_at": "2026-10-09T14:41:47.575Z",
+        "source": "https://bsky.app/profile/columbusfreepress.bsky.social/post/3mxh7gl6fpc2x",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.9,
+        "other_locations": "New York"
       }
     }
   ]

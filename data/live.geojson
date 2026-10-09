@@ -1,52 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T15:08:55.960309Z",
-    "total_pins": 297
+    "generated_at": "2026-10-09T15:27:55.123498Z",
+    "total_pins": 298
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ftva2573bvbblf6jeldvraq7/app.bsky.feed.post/3mxcaqy3eas2f",
-        "handle": "brickfanatics.bsky.social",
-        "text": "The artist behind the look of LEGO DC 67012 The Joker Wall Art Comic Cover will be at New York Comic Con 2026, along with a nine-foot-tall version of the set.\n\nbrickfanatics.com/lego-joker-artist-signing-confirmed-for-new-york-comic-con\n\n#LEGO #DC #LEGODC #TheJoker #Jock",
-        "created_at": "2026-10-07T15:22:11.701Z",
-        "source": "https://bsky.app/profile/brickfanatics.bsky.social/post/3mxcaqy3eas2f",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qupjsewfenjm4msxswrtfvzy/app.bsky.feed.post/3mxcasqag4c2i",
-        "handle": "redsqurrl.bsky.social",
-        "text": "What a fucking lameass🙄 I bet you they don't even live in New York State",
-        "created_at": "2026-10-07T15:23:10.588Z",
-        "source": "https://bsky.app/profile/redsqurrl.bsky.social/post/3mxcasqag4c2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6250,6 +6208,69 @@
         "text": "Trump immigrant purge could cut social security for Americans by $2,000 a year\nNew report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034\nAlexandra Villarreal in New York\nwww.theguardian.com/us-news/2026...",
         "created_at": "2026-10-09T15:08:17.572Z",
         "source": "https://bsky.app/profile/ls2000.bsky.social/post/3mxhavxj67s24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gszsx5qhrnwd477dmxk6sq5y/app.bsky.feed.post/3mxhbvtkmlk2l",
+        "handle": "architecturenerd.bsky.social",
+        "text": "In New York governor's race, a Republican rallies with Trump and leans into his political playbook\napnews.com/article/blak...",
+        "created_at": "2026-10-09T15:26:07.166Z",
+        "source": "https://bsky.app/profile/architecturenerd.bsky.social/post/3mxhbvtkmlk2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:674fpt46qehe4g27x7vvt5w2/app.bsky.feed.post/3mxhbw5nkl22q",
+        "handle": "longtalljodie.com",
+        "text": "I'm at New York in spirit.",
+        "created_at": "2026-10-09T15:26:17.748Z",
+        "source": "https://bsky.app/profile/longtalljodie.com/post/3mxhbw5nkl22q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kiajokl5j5eygdfohx26pldi/app.bsky.feed.post/3mxhbwrloik2k",
+        "handle": "shannonliao.bsky.social",
+        "text": "will be at New York Comic Con today moderating a games journalism networking session at noon at the center of the first floor lobby, feel free to come say hi if you’re attending! wearing a black hat and all blue suit today",
+        "created_at": "2026-10-09T15:26:38.650Z",
+        "source": "https://bsky.app/profile/shannonliao.bsky.social/post/3mxhbwrloik2k",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T03:02:41.042539Z",
-    "total_pins": 136
+    "generated_at": "2026-10-09T03:29:03.771381Z",
+    "total_pins": 137
   },
   "features": [
     {
@@ -2861,6 +2861,27 @@
         "text": "A man was arrested after his 23-year-old ex-girlfriend and her baby were pushed off a 15th-floor balcony in New York, according to authorities.\nhttps://bit.ly/4duXnlp",
         "created_at": "2026-10-09T03:00:07.195519578Z",
         "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfy7va65e2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y7h5ik5jv67dakzala3hr5dv/app.bsky.feed.post/3mxfzprgpcc2j",
+        "handle": "rddegrazia.bsky.social",
+        "text": "ICE officer shoots a man while making an arrest in New York, officials say\napnews.com/article/new-...",
+        "created_at": "2026-10-09T03:26:53.938Z",
+        "source": "https://bsky.app/profile/rddegrazia.bsky.social/post/3mxfzprgpcc2j",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

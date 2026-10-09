@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T21:25:09.874173Z",
-    "total_pins": 119
+    "generated_at": "2026-10-09T21:32:14.424475Z",
+    "total_pins": 120
   },
   "features": [
     {
@@ -2507,6 +2507,27 @@
         "mapped_location": "Madison Square Garden, 4, Pennsylvania Plaza, Chelsea District, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
         "precision_level": "address",
         "location_text": "Madison Square Garden",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4q5mpnrdiripojvwelxwqbc/app.bsky.feed.post/3mxhwdhyard2d",
+        "handle": "kcomicsbeat.bsky.social",
+        "text": "NYCC ’26: IZE Press licenses manhwa EAT BEFORE YOU GO and REGAS\n\nIZE Press has announced two new manhwa licenses at the Yen Press industry panel at New York Comic Con 2026: Eat Before You Go and Regas. Here's what was revealed at NYCC '26! Eat Before You Go & Regas The first title was Eat Before…",
+        "created_at": "2026-10-09T21:31:39Z",
+        "source": "https://bsky.app/profile/kcomicsbeat.bsky.social/post/3mxhwdhyard2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
         "confidence": 1.0
       }
     }

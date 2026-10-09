@@ -1,199 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T02:28:38.243271Z",
-    "total_pins": 269
+    "generated_at": "2026-10-09T03:02:41.034537Z",
+    "total_pins": 262
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hb5dup6slomgs7gficut6cmc/app.bsky.feed.post/3mxawgrjqtl26",
-        "handle": "tmastreet.bsky.social",
-        "text": "Utilities Lead S&P 500 to Record Highs as Small Caps Dip – American equity markets displayed a marked structural bifurcation on Tuesday, October 6, 2026, as the S&P 500 climbed 0.72% to reach 7,830.08 by mid-day trading in New York, maintaining a strong trajectory towards a fresh record close. Howev",
-        "created_at": "2026-10-07T02:44:50Z",
-        "source": "https://bsky.app/profile/tmastreet.bsky.social/post/3mxawgrjqtl26",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bgt62gzl3y5ke7b45xi5vkvu/app.bsky.feed.post/3mxawhojagf2n",
-        "handle": "bsfavourite.bsky.social",
-        "text": "GP: Socialist Running for Congress in New York Wants Democrats to Pass a ‘Trans Bill of Rights’ if They Win Midterms (VIDEO) #Socialism",
-        "created_at": "2026-10-07T02:45:22Z",
-        "source": "https://bsky.app/profile/bsfavourite.bsky.social/post/3mxawhojagf2n",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxawkhm7ro2x",
-        "handle": "some-news.bsky.social",
-        "text": "Latest model is launching in New York to target rich US buyers – and is more than 5.2 metres long and 2 metres wide",
-        "created_at": "2026-10-07T02:46:55.858069+00:00",
-        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxawkhm7ro2x",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9843694,
-          40.7430536
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fs6e4nxd3n6biykcz6itlpxy/app.bsky.feed.post/3mxawmv7j4s2p",
-        "handle": "ctphil.bsky.social",
-        "text": "D'Agostino's 34th st. in NYC. Little old Park Avenue South ladies would open the fucking 1lb boxes because they didn't need a pound.",
-        "created_at": "2026-10-07T02:48:17.319Z",
-        "source": "https://bsky.app/profile/ctphil.bsky.social/post/3mxawmv7j4s2p",
-        "mapped_location": "Park Avenue South, Rose Hill, Manhattan Community Board 5, Manhattan, New York County, New York, 10010, United States",
-        "precision_level": "city",
-        "location_text": "Park Avenue South",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:crfe2bkfieme6ls3iuj4a3cs/app.bsky.feed.post/3mxawsh3s3w2y",
-        "handle": "the-gatewaypundit.bsky.social",
-        "text": "Socialist Running for Congress in New York Wants Democrats to Pass a ‘Trans Bill of Rights’ if They Win Midterms (VIDEO)\n",
-        "created_at": "2026-10-07T02:51:23+00:00",
-        "source": "https://bsky.app/profile/the-gatewaypundit.bsky.social/post/3mxawsh3s3w2y",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ghrptav4bpyctziyada6hids/app.bsky.feed.post/3mxawsl5op22t",
-        "handle": "themadcentrist.com",
-        "text": "Unless, of course, they are in New York with the Rape Law loop hole.\n\nWhich is despicable, disgusting, and inexcusable. \n\nLegislation has been introduced just about every single year to close this loop hole, but for some ungodly reason it never passes.\n\nNY, get it done.",
-        "created_at": "2026-10-07T02:51:28.100Z",
-        "source": "https://bsky.app/profile/themadcentrist.com/post/3mxawsl5op22t",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3pcnghkif2l2bf3g3hx5spsu/app.bsky.feed.post/3mxawwyxueu2r",
-        "handle": "babyshoes4cash.com",
-        "text": "As for Tom, the fct that hye \"had some woman in New york\": was really less surprising than that he had been depressed by a book. Something was making him nubble at the edge of stale ideas as if his studyr phsycial egotism not longer nouished his peremptyory heart",
-        "created_at": "2026-10-07T02:53:56.419Z",
-        "source": "https://bsky.app/profile/babyshoes4cash.com/post/3mxawwyxueu2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New york",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fea4ibvgynxlr7b72c4b3azq/app.bsky.feed.post/3mxax67nm722p",
-        "handle": "audubonballroom.bsky.social",
-        "text": "2008, the National Museum of the American Indian opened a two-venue retrospective of Scholder's work titled Indian/Not Indian: one in Washington, DC and the other in New York. On October 4, 2015, the Denver Art Museum opened a major traveling exhibition of Scholder's \"Indian\" series titled,\n\n(4/7)",
-        "created_at": "2026-10-07T02:57:58.693Z",
-        "source": "https://bsky.app/profile/audubonballroom.bsky.social/post/3mxax67nm722p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:v4c4uuueipj63vdxmlhhezz6/app.bsky.feed.post/3mxaxbuenok2d",
-        "handle": "damop.bsky.social",
-        "text": "A Democratic Socialist in New York City is reminding America that government can still be about caring for people, strengthening communities, & building cities where everyone has a chance to thrive. When we put people before profit, we can create a future worth believing in.\nyoutu.be/6gZ3w7zRv0w?...",
-        "created_at": "2026-10-07T03:00:01.083Z",
-        "source": "https://bsky.app/profile/damop.bsky.social/post/3mxaxbuenok2d",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York City",
-        "confidence": 1.0
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5664,6 +5475,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rrnpj73ojgkqyonjtrx27sbt/app.bsky.feed.post/3mxfy6zosn22s",
+        "handle": "alistairthethird.bsky.social",
+        "text": "I need to go to at least one New York sirens game before year end or I will explode",
+        "created_at": "2026-10-09T02:59:38.426Z",
+        "source": "https://bsky.app/profile/alistairthethird.bsky.social/post/3mxfy6zosn22s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfy7va65e2x",
+        "handle": "wsbt22.bsky.social",
+        "text": "A man was arrested after his 23-year-old ex-girlfriend and her baby were pushed off a 15th-floor balcony in New York, according to authorities.\nhttps://bit.ly/4duXnlp",
+        "created_at": "2026-10-09T03:00:07.195519578Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfy7va65e2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

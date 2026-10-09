@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T02:28:38.254721Z",
-    "total_pins": 134
+    "generated_at": "2026-10-09T03:02:41.042539Z",
+    "total_pins": 136
   },
   "features": [
     {
@@ -2823,6 +2823,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rrnpj73ojgkqyonjtrx27sbt/app.bsky.feed.post/3mxfy6zosn22s",
+        "handle": "alistairthethird.bsky.social",
+        "text": "I need to go to at least one New York sirens game before year end or I will explode",
+        "created_at": "2026-10-09T02:59:38.426Z",
+        "source": "https://bsky.app/profile/alistairthethird.bsky.social/post/3mxfy6zosn22s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfy7va65e2x",
+        "handle": "wsbt22.bsky.social",
+        "text": "A man was arrested after his 23-year-old ex-girlfriend and her baby were pushed off a 15th-floor balcony in New York, according to authorities.\nhttps://bit.ly/4duXnlp",
+        "created_at": "2026-10-09T03:00:07.195519578Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfy7va65e2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

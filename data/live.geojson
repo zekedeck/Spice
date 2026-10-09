@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:54:33.080059Z",
-    "total_pins": 271
+    "generated_at": "2026-10-09T19:58:27.856090Z",
+    "total_pins": 274
   },
   "features": [
     {
@@ -5706,6 +5706,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.673
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p4t6r3s5e36tjjlokfcijg2a/app.bsky.feed.post/3mxhqy64exk2w",
+        "handle": "stellarvibrosity.bsky.social",
+        "text": "Rosie O'Donnell joined Epstein survivors at Washington Park in Manhattan, demanding release of all unredacted files. She called Trump \"very sick\" and \"dangerous,\" said democracy is on the Nov. 3 ballot, and said powerful men, including Trump, belong in prison. ✊\n\nwww.tiktok.com/t/ZPLMSsxwk/",
+        "created_at": "2026-10-09T19:55:51.469Z",
+        "source": "https://bsky.app/profile/stellarvibrosity.bsky.social/post/3mxhqy64exk2w",
+        "mapped_location": "Washington Park, Brooklyn, Kings County, New York, United States",
+        "precision_level": "address",
+        "location_text": "Washington Park",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mlthzzcp2i4slffudemplpue/app.bsky.feed.post/3mxhr2z5ers2e",
+        "handle": "trdowden2.bsky.social",
+        "text": "If you signed up for one of these phones, you might as well have posted all your personal data on a Times Square billboard.",
+        "created_at": "2026-10-09T19:57:26.923Z",
+        "source": "https://bsky.app/profile/trdowden2.bsky.social/post/3mxhr2z5ers2e",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z53xjp3ojino3x5lfqt7mhnq/app.bsky.feed.post/3mxhr3ir4xs2m",
+        "handle": "citizenquips.bsky.social",
+        "text": "California hasn't executed anyone since Schwarzenegger was in office. New York abolished it in 2004. New Mexico in 2009. The blue state record on this is pretty clear",
+        "created_at": "2026-10-09T19:57:43.300Z",
+        "source": "https://bsky.app/profile/citizenquips.bsky.social/post/3mxhr3ir4xs2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

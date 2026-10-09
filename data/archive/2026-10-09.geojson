@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T15:27:55.136870Z",
-    "total_pins": 70
+    "generated_at": "2026-10-09T15:38:10.272999Z",
+    "total_pins": 76
   },
   "features": [
     {
@@ -1479,6 +1479,132 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nsnkdpcf2div4vcgys2ceiak/app.bsky.feed.post/3mxhcfwgk3c2r",
+        "handle": "paularevere69.bsky.social",
+        "text": "Letitia James trounced by GOP opponent for attorney general Saritha Komatireddy in fiery debate \nNew York Attorney General Letitia James was ambushed by her well-prepared, locked-in GOP opponent, Saritha Komatireddy, who hammered the incumbent Dem over New York’s bail nypost.com/2026/10/09/u...",
+        "created_at": "2026-10-09T15:35:07.050Z",
+        "source": "https://bsky.app/profile/paularevere69.bsky.social/post/3mxhcfwgk3c2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6wx2gg5yqgvmlu35r6y3bk6d/app.bsky.feed.post/3mxhchiy4rk2p",
+        "handle": "hunterfelt.bsky.social",
+        "text": "She was briefly canceled for her post-9/11 concerts in New York where she welcomed the tragedy as \"an opportunity\" for us to be our best selves but damn we should have listened.",
+        "created_at": "2026-10-09T15:36:00.055Z",
+        "source": "https://bsky.app/profile/hunterfelt.bsky.social/post/3mxhchiy4rk2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d4z6zveh6n4qifdn223mj4uk/app.bsky.feed.post/3mxhchlm4bk2p",
+        "handle": "howranaterrellcsit.bsky.social",
+        "text": "ICE needs to get out of my city!\n\nAgents shot Oscar Belgal, a 28-year-old man from the Dominican Republic, while his 5-year-old son was in the backseat in the Marble Hill section of Manhattan. By God’s grace, he is expected to survive. \n\nAbolish ICE!\n\nwww.nytimes.com/2026/10/08/n...",
+        "created_at": "2026-10-09T15:36:02.802Z",
+        "source": "https://bsky.app/profile/howranaterrellcsit.bsky.social/post/3mxhchlm4bk2p",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fzm6qm725tfxzatlxfzgrbrg/app.bsky.feed.post/3mxhcivd2zk2a",
+        "handle": "kentuckypublicradio.org",
+        "text": "USA Today’s parent company filed a lawsuit against OpenAI in New York federal court Thursday for allegedly using reporting from its 19 publications, including the Louisville Courier Journal, without permission.\n\nFrom @joesonka.lpm.org & @sylviaruthg.lpm.org",
+        "created_at": "2026-10-09T15:36:46.550Z",
+        "source": "https://bsky.app/profile/kentuckypublicradio.org/post/3mxhcivd2zk2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o7b6xww2d7pxvp3x4tvm2yst/app.bsky.feed.post/3mxhcj5z4ic2q",
+        "handle": "ggpsbdpmm.bsky.social",
+        "text": "www.bloomberg.com/opinion/arti...\n“In response to a lawsuit under the Freedom of Information Act, a federal judge in New York has ruled that the government must show him that memo by next week, and also tell him who has already seen it, so he can decide who else should be able to read it.”",
+        "created_at": "2026-10-09T15:36:55.661Z",
+        "source": "https://bsky.app/profile/ggpsbdpmm.bsky.social/post/3mxhcj5z4ic2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9879476,
+          40.702216
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uk5o3oscaaodeuaq2a2trmqo/app.bsky.feed.post/3mxhcjdfrus2r",
+        "handle": "nygamesweek.bsky.social",
+        "text": "In the evening, GUMBO is celebrating 10 years with a gala on a yacht under the Manhattan Bridge, while Sonic is celebrating 35 years at Club Chaos!\n\nFind all the details at www.NYGamesWeek.com",
+        "created_at": "2026-10-09T15:37:01.314Z",
+        "source": "https://bsky.app/profile/nygamesweek.bsky.social/post/3mxhcjdfrus2r",
+        "mapped_location": "Manhattan Bridge, Dumbo, Brooklyn, Kings County, New York, 11251, United States",
+        "precision_level": "city",
+        "location_text": "the Manhattan Bridge",
+        "confidence": 0.8
       }
     }
   ]

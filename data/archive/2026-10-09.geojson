@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T07:34:40.748671Z",
-    "total_pins": 6
+    "generated_at": "2026-10-09T07:58:59.286462Z",
+    "total_pins": 8
   },
   "features": [
     {
@@ -129,6 +129,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9440833,
+          40.5779176
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ygqeqom37ktnwbx3u2rgncfs/app.bsky.feed.post/3mxgisybzac2x",
+        "handle": "invisiblefoodtruck.bsky.social",
+        "text": "What's cracking? We have set up shop at 15th and Highland in Manhattan Beach! Try our new hot turkey dumplings!",
+        "created_at": "2026-10-09T07:57:02.45346300Z",
+        "source": "https://bsky.app/profile/invisiblefoodtruck.bsky.social/post/3mxgisybzac2x",
+        "mapped_location": "Manhattan Beach, Brooklyn, Kings County, New York, 11235, United States",
+        "precision_level": "city",
+        "location_text": "Manhattan Beach",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:quzts3ldmxdiut5ckqqm3r6d/app.bsky.feed.post/3mxgiuvkcor2r",
+        "handle": "v-u-this.bsky.social",
+        "text": "Mum in Sydney, the client in New York, the boss still asleep. Every clock on one big screen, labelled how you like, from your phone. vuthis.com, free, no app.\n\n#RemoteWork #SmartTV #DigitalSignage #WebDev",
+        "created_at": "2026-10-09T07:58:11.971Z",
+        "source": "https://bsky.app/profile/v-u-this.bsky.social/post/3mxgiuvkcor2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

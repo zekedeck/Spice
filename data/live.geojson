@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:58:27.856090Z",
-    "total_pins": 274
+    "generated_at": "2026-10-09T20:08:30.596868Z",
+    "total_pins": 275
   },
   "features": [
     {
@@ -5769,6 +5769,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jcpjfhiieq4y7ad55hi2xx2e/app.bsky.feed.post/3mxhrldttu226",
+        "handle": "duskyartz.bsky.social",
+        "text": "Yeah , us americans have teleportation powers , that's probably one of the many things you've heard about us. We have this little institute up in westchester , new york , for those of us that are special. This is oald psychic dude , that's a head master. He's cool. He rides around in the hover chair",
+        "created_at": "2026-10-09T20:06:35.015Z",
+        "source": "https://bsky.app/profile/duskyartz.bsky.social/post/3mxhrldttu226",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
       }
     }
   ]

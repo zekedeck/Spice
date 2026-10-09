@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T18:17:36.647377Z",
-    "total_pins": 85
+    "generated_at": "2026-10-09T18:29:19.939423Z",
+    "total_pins": 90
   },
   "features": [
     {
@@ -1790,6 +1790,111 @@
         "text": "#OscarBelgal was shot in the neck by an #ICE agent during an attempted arrest in New York on Thursday (October 8).",
         "created_at": "2026-10-09T18:16:57.521Z",
         "source": "https://bsky.app/profile/blackinfonet.bsky.social/post/3mxhlhd2mvc2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jtzfj5hax2fh2mep5g63542/app.bsky.feed.post/3mbd3542khw22",
+        "handle": "bevnet.com",
+        "text": "TAT2 Spirits, LLC is hiring a Senior Beer and Liquor Sales Representative for multiple areas in New York. View the full job listing on BevNET.",
+        "created_at": "2026-10-09T18:26:21.469Z",
+        "source": "https://bsky.app/profile/bevnet.com/post/3mbd3542khw22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h6sxr2tggilixoodglqu65bk/app.bsky.feed.post/3mxhlyb5v722f",
+        "handle": "ediaz3652.bsky.social",
+        "text": "🚨NYC -  Today at 5:30pm join the emergency nonviolent protest at Foley Square to demand ICE out of New York NOW.\n\n- Indivisible Team\n\n#iceoutofnyc",
+        "created_at": "2026-10-09T18:26:25.951Z",
+        "source": "https://bsky.app/profile/ediaz3652.bsky.social/post/3mxhlyb5v722f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wikgx7s27ogmqm5guswronjc/app.bsky.feed.post/3mbd3542khy22",
+        "handle": "brewbound.com",
+        "text": "TAT2 Spirits, LLC is hiring a Senior Beer and Liquor Sales Representative for multiple areas in New York. Visit Brewbound Jobs to view the full listing and application details.",
+        "created_at": "2026-10-09T18:26:40.633Z",
+        "source": "https://bsky.app/profile/brewbound.com/post/3mbd3542khy22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:45caqn4troowjbp2brbwpjyk/app.bsky.feed.post/3mxhm46nl5k2s",
+        "handle": "newyorkalmanack.bsky.social",
+        "text": "The 45th Symposium on Industrial Archeology in New York and New Jersey will take place on October 24th in Hoboken, New Jersey. #history #archeology",
+        "created_at": "2026-10-09T18:28:37.542Z",
+        "source": "https://bsky.app/profile/newyorkalmanack.bsky.social/post/3mxhm46nl5k2s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxhm4q5bau2d",
+        "handle": "some-news.bsky.social",
+        "text": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
+        "created_at": "2026-10-09T18:28:55.790484+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxhm4q5bau2d",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

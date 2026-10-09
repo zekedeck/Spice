@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T04:29:53.506609Z",
-    "total_pins": 255
+    "generated_at": "2026-10-09T05:05:39.678323Z",
+    "total_pins": 258
   },
   "features": [
     {
@@ -5366,6 +5366,69 @@
         "precision_level": "address",
         "location_text": "Astoria Park",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3mxg72wvnah2k",
+        "handle": "qncnews.bsky.social",
+        "text": "Mamdani Decries ‘Unconscionable’ ICE Gunfire After Agent Wounds Man in NYC\n\nMayor Zohran Mamdani condemned an ICE shooting in New York that wounded a Dominican man, saying he called President Trump to demand a halt to enforcement.",
+        "created_at": "2026-10-09T05:02:37Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3mxg72wvnah2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fhruylcs3yoa7ei5em46xnts/app.bsky.feed.post/3mxg74xko2s2p",
+        "handle": "littlegeeo.bsky.social",
+        "text": "Spider-Man: Far From Home Alone 2: Lost in New York",
+        "created_at": "2026-10-09T05:03:45.279Z",
+        "source": "https://bsky.app/profile/littlegeeo.bsky.social/post/3mxg74xko2s2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lwooy533uevkdp5l7qsarrwe/app.bsky.feed.post/3mxg76jcz5c27",
+        "handle": "battcommader.bsky.social",
+        "text": "apnews.com/article/new-... officer shoots a man while making an arrest in New York, officials say",
+        "created_at": "2026-10-09T05:04:37.457Z",
+        "source": "https://bsky.app/profile/battcommader.bsky.social/post/3mxg76jcz5c27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

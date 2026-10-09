@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T13:25:31.178009Z",
-    "total_pins": 284
+    "generated_at": "2026-10-09T13:42:05.504931Z",
+    "total_pins": 285
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lodqzrjt5ftncmojm5dh5uci/app.bsky.feed.post/3mxc2cvcqck2p",
-        "handle": "realmaplesyrup.bsky.social",
-        "text": "Oh wow. And in New York the \nRepublican congressional candidate just tried to blame smuggling on the Mohawk.",
-        "created_at": "2026-10-07T13:26:56.584Z",
-        "source": "https://bsky.app/profile/realmaplesyrup.bsky.social/post/3mxc2cvcqck2p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5976,6 +5955,48 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New york",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7tmxrxohruvrlq6fpqhxvvhi/app.bsky.feed.post/3mxh3wupwh22d",
+        "handle": "grest2.bsky.social",
+        "text": "OTD \n\n1973. \nFirst general strike in Luxembourg since 1942\n\n1989. \nPenthouse Magazine in Hebrew hits newsstands\n\n1992. \nAn estimated 13-kilogram meteorite lands in the driveway of the Knapp residence in Peekskill, New York, destroying the family's 1980 Chevrolet Malibu",
+        "created_at": "2026-10-09T13:39:19.491Z",
+        "source": "https://bsky.app/profile/grest2.bsky.social/post/3mxh3wupwh22d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:73vkh3bocvb6uewxbpmhay7d/app.bsky.feed.post/3mxh3ykxubh2h",
+        "handle": "ctvnews.bsky.social",
+        "text": "U.S. immigration officers opened fire on a Dominican man whom they were trying to arrest in New York because they believed their lives were in danger, a senior Immigration and Customs Enforcement official said Friday.",
+        "created_at": "2026-10-09T13:40:16Z",
+        "source": "https://bsky.app/profile/ctvnews.bsky.social/post/3mxh3ykxubh2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
         "confidence": 1.0
       }
     }

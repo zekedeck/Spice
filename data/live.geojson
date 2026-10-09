@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:28:39.044561Z",
-    "total_pins": 272
+    "generated_at": "2026-10-09T01:45:17.052760Z",
+    "total_pins": 276
   },
   "features": [
     {
@@ -5725,6 +5725,90 @@
         "text": "They’re turning every street into a war zone. It’s time we fight back. ALL of us! There should be thousands of people in the streets in New York right now.\nHow many people have to be injured or murdered before we say ENOUGH!?",
         "created_at": "2026-10-09T01:27:45.057Z",
         "source": "https://bsky.app/profile/winenotwhine.bsky.social/post/3mxft2pq2c224",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b76wp25kuvpxdjl23uijdsjb/app.bsky.feed.post/3mxftvef4ec2e",
+        "handle": "feitclub.bsky.social",
+        "text": "the overarching theme of this “Snoopy in New York!” collaboration is Snoopy loves The Strand",
+        "created_at": "2026-10-09T01:42:39.127Z",
+        "source": "https://bsky.app/profile/feitclub.bsky.social/post/3mxftvef4ec2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xvmzhfvnlix2admr7ioaf6ht/app.bsky.feed.post/3mxftwb2nos2t",
+        "handle": "tag24.com",
+        "text": "A man was shot Thursday during an interaction with federal agents in New York, city police said, with medi outlets reporting that Immigration and Customs Enforcement (ICE) was involved.",
+        "created_at": "2026-10-09T01:43:09.199Z",
+        "source": "https://bsky.app/profile/tag24.com/post/3mxftwb2nos2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p4zpan4tv6cw3jzbbnbjzwnh/app.bsky.feed.post/3mxfty5tg4c2l",
+        "handle": "westinlee.itch.io",
+        "text": "If you’re a huge nerd you may have seen the teenage engineering comments about how they’re quitting synths. \n\nRemember they’re also opening a flagship store tomorrow in New York. They’re up to something but it ain’t quitting making stuff.",
+        "created_at": "2026-10-09T01:44:12.926Z",
+        "source": "https://bsky.app/profile/westinlee.itch.io/post/3mxfty5tg4c2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:purohzlbh3ov47ybr5ja6rfx/app.bsky.feed.post/3mxftyzvbkk2b",
+        "handle": "wellhellno.bsky.social",
+        "text": "Please tell me how long has this been going on in New York? I’m angry.",
+        "created_at": "2026-10-09T01:44:42.347Z",
+        "source": "https://bsky.app/profile/wellhellno.bsky.social/post/3mxftyzvbkk2b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

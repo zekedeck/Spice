@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T05:05:39.689726Z",
-    "total_pins": 4
+    "generated_at": "2026-10-09T05:42:26.562539Z",
+    "total_pins": 5
   },
   "features": [
     {
@@ -87,6 +87,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4hhxfexig2densmqetl2qhb7/app.bsky.feed.post/3mxgb76he2s2m",
+        "handle": "normaforhumanity.bsky.social",
+        "text": "We are so far. Tomorrow Lucas Museum. Excited to see that with her.  I don’t know if I had told you when I was in NJ she took me to  9/11 museum in New York sad. 🙁",
+        "created_at": "2026-10-09T05:40:47.104Z",
+        "source": "https://bsky.app/profile/normaforhumanity.bsky.social/post/3mxgb76he2s2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

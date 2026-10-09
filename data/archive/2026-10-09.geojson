@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T10:22:24.468682Z",
-    "total_pins": 16
+    "generated_at": "2026-10-09T11:23:14.440928Z",
+    "total_pins": 19
   },
   "features": [
     {
@@ -335,6 +335,71 @@
         "text": "Jessica Kent\n﻿Jessica Kent · Original audio\nGrowing up in a radio station in New York… I always knew he was a con man. How can people not see it?!",
         "created_at": "2026-10-09T10:20:39.058Z",
         "source": "https://bsky.app/profile/doopy12.bsky.social/post/3mxgqtmj5mk23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.753,
+          40.737
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uhpw5q3xowsoxaf4gsvfepin/app.bsky.feed.post/3mxgublwmdk2e",
+        "handle": "onthisgayday.bsky.social",
+        "text": "On This Gay Day - 9th October 1960\n\nVoice actor & comic book writer Maddie Blaustein was born in Long Island, New York, USA.\nShe died in Jersey City, Hudson County, New Jersey, USA.\n\nwww.imdb.com/name/nm00068...\nen.wikipedia.org/wiki/Maddie_...",
+        "created_at": "2026-10-09T11:22:09.436Z",
+        "source": "https://bsky.app/profile/onthisgayday.bsky.social/post/3mxgublwmdk2e",
+        "mapped_location": "Long Island Motor Parkway, Queens, Queens County, New York, United States",
+        "precision_level": "address",
+        "location_text": "Long Island",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uhpw5q3xowsoxaf4gsvfepin/app.bsky.feed.post/3mxgublwmdk2e",
+        "handle": "onthisgayday.bsky.social",
+        "text": "On This Gay Day - 9th October 1960\n\nVoice actor & comic book writer Maddie Blaustein was born in Long Island, New York, USA.\nShe died in Jersey City, Hudson County, New Jersey, USA.\n\nwww.imdb.com/name/nm00068...\nen.wikipedia.org/wiki/Maddie_...",
+        "created_at": "2026-10-09T11:22:09.436Z",
+        "source": "https://bsky.app/profile/onthisgayday.bsky.social/post/3mxgublwmdk2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Long Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qf326qqj6z6axummja52dzpq/app.bsky.feed.post/3mxgucr72k22y",
+        "handle": "charlierichmond.bsky.social",
+        "text": "ICE Officer Shoots A Man While Making An Arrest In New York, Officials Say | HuffPost Latest News www.huffpost.com/entry/federa...",
+        "created_at": "2026-10-09T11:22:48.509Z",
+        "source": "https://bsky.app/profile/charlierichmond.bsky.social/post/3mxgucr72k22y",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

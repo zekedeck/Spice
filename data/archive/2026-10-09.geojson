@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T21:32:14.424475Z",
-    "total_pins": 120
+    "generated_at": "2026-10-09T21:58:59.797612Z",
+    "total_pins": 123
   },
   "features": [
     {
@@ -2529,6 +2529,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zk7naflivhinsipi4phywowg/app.bsky.feed.post/3mxhxpdjl322j",
+        "handle": "gangly-bitch.bsky.social",
+        "text": "I’ve driven in downtown Chicago, New York, and Atlanta but DC might be the worst",
+        "created_at": "2026-10-09T21:56:11.349Z",
+        "source": "https://bsky.app/profile/gangly-bitch.bsky.social/post/3mxhxpdjl322j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7nvzrgnxnr5kkuaq3kjr7yfv/app.bsky.feed.post/3mxhxplfhmk2d",
+        "handle": "gitshelfcomics.bsky.social",
+        "text": "THE CLOCK STRIKES MIDNIGHT AT NEW YORK COMIC CON WITH NEW REVEALS FOR MARVEL COMICS’ TERRIFYING NEW STORYTELLING UNIVERSE\n@marvelcomicshqs.bsky.social @phillipkjohnson.bsky.social @benjaminpercy.bsky.social",
+        "created_at": "2026-10-09T21:56:19.587Z",
+        "source": "https://bsky.app/profile/gitshelfcomics.bsky.social/post/3mxhxplfhmk2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:32luxadck7623j5wwxz25thu/app.bsky.feed.post/3mxhxs7cy5c25",
+        "handle": "laprofelgp.bsky.social",
+        "text": "We can condemn the shooting of a Dominican man by 🧊 in New York AND condemn the violence Dominican authorities inflict on Haitian migrants.\n\nOur solidarity must cross borders, too.\n\nNo one should have to prove they are worthy of humanity.\n\n#StopAntiHaitianism #endglobalantiblackness",
+        "created_at": "2026-10-09T21:57:47.585Z",
+        "source": "https://bsky.app/profile/laprofelgp.bsky.social/post/3mxhxs7cy5c25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

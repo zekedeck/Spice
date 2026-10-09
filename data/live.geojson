@@ -1,451 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T16:10:47.213528Z",
-    "total_pins": 298
+    "generated_at": "2026-10-09T17:28:49.847645Z",
+    "total_pins": 280
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:d7xvvzv6ot65qyvla35bk64d/app.bsky.feed.post/3mxcdoml7f22m",
-        "handle": "justinlawguy.bsky.social",
-        "text": "If the problem is just \"Gen X sucks\" then yes, Republicans have a demographic problem in New York, although they have the same demographic problem almost everywhere with snow. If the problem is \"people of a certain age suck\" then that problem isn't demographically going away.",
-        "created_at": "2026-10-07T16:14:33.757Z",
-        "source": "https://bsky.app/profile/justinlawguy.bsky.social/post/3mxcdoml7f22m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3p3kun3xuc7q63f3kftmgria/app.bsky.feed.post/3mxcdpiung62j",
-        "handle": "chollomeeples-es.bsky.social",
-        "text": "🎲 MARVEL: Skirmish! In New York\n💶 17,99 € · 30% ↓ vs media · Outlet-PC\n🔥 Mínimo histórico\nhttps://www.chollomeeples.com/es/out/marvel-escaramuza-en-new-york-4/v2.AAA_TwAKAdc.80SDIDvX?utm_source=bluesky&utm_medium=social&utm_campaign=es\n#juegosdemesa",
-        "created_at": "2026-10-07T16:15:03.187957+00:00",
-        "source": "https://bsky.app/profile/chollomeeples-es.bsky.social/post/3mxcdpiung62j",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3cxlzoauzucbtkray2wqrhvw/app.bsky.feed.post/3mxcdptvuq22p",
-        "handle": "itsjakechandler.bsky.social",
-        "text": "In New York for Comic-Con!",
-        "created_at": "2026-10-07T16:15:14.999Z",
-        "source": "https://bsky.app/profile/itsjakechandler.bsky.social/post/3mxcdptvuq22p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:by2kjyqdqrjwkmozzulnlfhj/app.bsky.feed.post/3mxcdpucdgd2p",
-        "handle": "broker-wise.bsky.social",
-        "text": "Why Data Integrity Is Becoming Critical for Brokerages in New York\n\nIn New York's dynamic real estate market, brokerages are grappling with a critical challenge: maintaining data integrity in the face of increasingly sophisticated AI-generated documents and synthetic records. This issue extends…",
-        "created_at": "2026-10-07T16:15:15Z",
-        "source": "https://bsky.app/profile/broker-wise.bsky.social/post/3mxcdpucdgd2p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9794142,
-          40.757976
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zrdz6tftzmzajqzg5lsn6u2z/app.bsky.feed.post/3mxce2el7lh2a",
-        "handle": "nintendoamerica.xmirror.bot",
-        "text": "Refueling before the next race.\n\nAvailable at:\n📍Nintendo NEW YORK\n📍Nintendo SAN FRANCISCO\n💻https://ninten.do/6015aW2T9",
-        "created_at": "2026-10-07T16:21:07.940Z",
-        "source": "https://bsky.app/profile/nintendoamerica.xmirror.bot/post/3mxce2el7lh2a",
-        "mapped_location": "Nintendo NEW YORK, 10, Rockefeller Plaza, Midtown, Manhattan Community Board 5, Manhattan, New York County, New York, 10020, United States",
-        "precision_level": "city",
-        "location_text": "Nintendo NEW YORK",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t3xsuszszej25hvctcui4wie/app.bsky.feed.post/3mxcegtw4pn23",
-        "handle": "viewlinemedia.com",
-        "text": "📰 Rebranded Jaguar unveils its first electric sportscar: The Type 01EV\n\nHailed as the most technologically advanced and powerful Jaguar in the company’s history, it premiered in New York today, targeting a younger, wealth…\n\nhttps://viewlinemedia.com/article/674368\n\n#ViewlineNews #UKNews #Europe",
-        "created_at": "2026-10-07T16:28:06.674Z",
-        "source": "https://bsky.app/profile/viewlinemedia.com/post/3mxcegtw4pn23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9794142,
-          40.757976
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:epti2tfjvwhnvwliibxe5koh/app.bsky.feed.post/3mxcer5evqk2f",
-        "handle": "nintendoamericax.bsky.social",
-        "text": "Refueling before the next race.\n\nAvailable at:\n📍 Nintendo NEW YORK\n📍 Nintendo SAN FRANCISCO\n💻 ninten.do/6015aW2T9",
-        "created_at": "2026-10-07T16:33:52.217Z",
-        "source": "https://bsky.app/profile/nintendoamericax.bsky.social/post/3mxcer5evqk2f",
-        "mapped_location": "Nintendo NEW YORK, 10, Rockefeller Plaza, Midtown, Manhattan Community Board 5, Manhattan, New York County, New York, 10020, United States",
-        "precision_level": "city",
-        "location_text": "Nintendo NEW YORK",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxcezzd4nl23",
-        "handle": "citizenptnewsny.bsky.social",
-        "text": "The governor's shocking revelations about Cornell Police potentially omitting critical evidence in a rape case raise serious questions about justice in New York. \n\nClick to read more!\n\n#NY #CitizenPortal #JusticeReform #PublicSafety #NewYorkCampusPolice #CivicAccountability",
-        "created_at": "2026-10-07T16:38:49.781Z",
-        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxcezzd4nl23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxcf5ko5ym2v",
-        "handle": "citizenptnewsny.bsky.social",
-        "text": "Governor calls for urgent legal reform in New York to eliminate the loophole allowing voluntary intoxication as an excuse for sexual assault. \n\nClick to read more!\n\n#NY #CitizenPortal #NewYorkLegislation #SexualAssaultPrevention #LegislativeReform #PublicSafety",
-        "created_at": "2026-10-07T16:40:48.634Z",
-        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxcf5ko5ym2v",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7stwnmckdd3fytr7ep6xzyoz/app.bsky.feed.post/3mxcf6ggrj22v",
-        "handle": "thefoxandthecity.com",
-        "text": "Behold, an Italian-designed solution in New York!",
-        "created_at": "2026-10-07T16:41:17.928Z",
-        "source": "https://bsky.app/profile/thefoxandthecity.com/post/3mxcf6ggrj22v",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:erhqtotlqjtddjfyvelnz7pa/app.bsky.feed.post/3mxcfgq2hqk25",
-        "handle": "valentinexyz.bsky.social",
-        "text": "20 years is an eternity in politics. New York had a Republican Governor from 1995-2007 because basically every state’s state-level and even US congressional politics were significantly more divorced from their presidential politics during that time.",
-        "created_at": "2026-10-07T16:45:56.446Z",
-        "source": "https://bsky.app/profile/valentinexyz.bsky.social/post/3mxcfgq2hqk25",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4rnm3fdqrcjzz6m4kv2hhqol/app.bsky.feed.post/3mxcfhchw2c2w",
-        "handle": "nickwidzowski.bsky.social",
-        "text": "Oh yeah, that's definitely an issue in New York. When it's been almost 25 years since a Republican won a statewide race, you lose the memory of what it was like to have high-profile Republicans in power.",
-        "created_at": "2026-10-07T16:46:15.766Z",
-        "source": "https://bsky.app/profile/nickwidzowski.bsky.social/post/3mxcfhchw2c2w",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9624901,
-          40.8077507
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:osilyvnmxedefzjtgignpm6l/app.bsky.feed.post/3mxcfoqputs2f",
-        "handle": "ffcws.bsky.social",
-        "text": "📢 The Future of Families Summer Data Workshop is back! Join us and the Columbia Population Research Center the week of June 14, 2027, at Columbia University in NYC to get hands-on with FFCWS data. Stay tuned for updates about how to apply tinyurl.com/5n9at3tv",
-        "created_at": "2026-10-07T16:50:25.587Z",
-        "source": "https://bsky.app/profile/ffcws.bsky.social/post/3mxcfoqputs2f",
-        "mapped_location": "Columbia University, Amsterdam Avenue, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10027, United States",
-        "precision_level": "city",
-        "location_text": "Columbia University",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.7480633,
-          40.7300413
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:37opzvoqfsda6pceairjyxzy/app.bsky.feed.post/3mxcfrt2txs2w",
-        "handle": "billmorrison.bsky.social",
-        "text": "Sawyer Avenue, Sunday Afternoon (18’, 2026) \n\nFREE PUBLIC SCREENING & DISCUSSION \n\nThe Cooper Union\nThe Great Hall \n7 East 7th Street NYC\nThursday 10/22 @ 6:15p\n\nDiscussion with Gwynne Hogan of City Reporter, Jamie Kalven of Invisible Institute, Daveshish Basnet of New York Civil Liberties Union.",
-        "created_at": "2026-10-07T16:52:08.707Z",
-        "source": "https://bsky.app/profile/billmorrison.bsky.social/post/3mxcfrt2txs2w",
-        "mapped_location": "Sawyer Avenue, Queens Village, Queens, Queens County, New York, 11427, United States",
-        "precision_level": "city",
-        "location_text": "Sawyer Avenue",
-        "confidence": 0.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5ufg4t6h2mr2lncg2qwvecwu/app.bsky.feed.post/3mxcgf7yduy2a",
-        "handle": "projectcrimsonsky.bsky.social",
-        "text": "Today I met with the President of the Society of Adventurers, Sir Simon Higgins in New York at the society’s headquarters. \n\nClick the link below or visit the link in the bio to read:\nlumostation.wixsite.com/sofa/the-con...",
-        "created_at": "2026-10-07T17:02:59.769Z",
-        "source": "https://bsky.app/profile/projectcrimsonsky.bsky.social/post/3mxcgf7yduy2a",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uv5g5pipfjit224l5567y35t/app.bsky.feed.post/3mxcgfjodvx2e",
-        "handle": "viewingnyc.bsky.social",
-        "text": "ICYMI: [VIDEO] What It Was Like Living in a House in New York in 1900",
-        "created_at": "2026-10-07T17:03:09Z",
-        "source": "https://bsky.app/profile/viewingnyc.bsky.social/post/3mxcgfjodvx2e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:m53436tir5dteesyzatyc7r6/app.bsky.feed.post/3mxcgqfd4cc2s",
-        "handle": "wusf.org",
-        "text": "The Tampa Bay Rays’ official watch party for Wednesday night’s playoff game in New York will be inside Tropicana Field at the Hall of Fame Bar & Grill.",
-        "created_at": "2026-10-07T17:09:14.482Z",
-        "source": "https://bsky.app/profile/wusf.org/post/3mxcgqfd4cc2s",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zgsooke323njkmkrinf65z5p/app.bsky.feed.post/3mxch2x675a2i",
-        "handle": "echolead.bsky.social",
-        "text": "435 live shows in New York this week — indie rooms to big stages. See them all:\nhttps://echolead.live/new-york/new-york?utm_source=bluesky&utm_medium=social&utm_campaign=weekly_digest\n#LiveMusic #NewYork",
-        "created_at": "2026-10-07T17:15:08.575Z",
-        "source": "https://bsky.app/profile/echolead.bsky.social/post/3mxch2x675a2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vyqweols2vaifbezbahqmcxl/app.bsky.feed.post/3mxch3fgngu2k",
-        "handle": "bloodhorse.com",
-        "text": "Arkansas Derby (G1) winner Sandman has been retired from racing. He will stand the 2027 season at Rockridge Stud in New York for $10,000.",
-        "created_at": "2026-10-07T17:15:23.632Z",
-        "source": "https://bsky.app/profile/bloodhorse.com/post/3mxch3fgngu2k",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8912474,
-          40.6770477
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dxu25p5fmfrngmjr5iawpr4d/app.bsky.feed.post/3mxch5tgmw22m",
-        "handle": "bradlander.bsky.social",
-        "text": "No Kings/Democracy March Field Call, Friday at 1pm: www.mobilize.us/handsoffnyc/... \n\nKnow Your Rights Business Canvassing in Cypress Hills, Saturday at 11am: www.mobilize.us/handsoffnyc/...",
-        "created_at": "2026-10-07T17:16:41.306Z",
-        "source": "https://bsky.app/profile/bradlander.bsky.social/post/3mxch5tgmw22m",
-        "mapped_location": "Cypress Hills, Brooklyn, Kings County, New York, 11207, United States",
-        "precision_level": "city",
-        "location_text": "Cypress Hills",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkvzqvq45j3grirlbyztxy3l/app.bsky.feed.post/3mxchrhx2tp23",
-        "handle": "mofollp.bsky.social",
-        "text": "Join MoFo on October 13 in New York for an interactive discussion focused on practical strategies for harnessing AI’s benefits while putting the right legal and technical guardrails in place. For more details: bit.ly/4hnqFVC",
-        "created_at": "2026-10-07T17:27:44.417Z",
-        "source": "https://bsky.app/profile/mofollp.bsky.social/post/3mxchrhx2tp23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6275,6 +5834,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1496048,
+          40.5834557
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy4fpfxgsd5ml3a644jusqmn/app.bsky.feed.post/3mxhimi56f52o",
+        "handle": "letters.resist.bot",
+        "text": "From a constituent in 📍 Staten Island, NY",
+        "created_at": "2026-10-09T17:26:09.231Z",
+        "source": "https://bsky.app/profile/letters.resist.bot/post/3mxhimi56f52o",
+        "mapped_location": "Staten Island, Richmond County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Staten Island",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xqnwvy5iwjwz4kefhl2xvreo/app.bsky.feed.post/3mxhipnlsx22i",
+        "handle": "dn-ny-mtl.bsky.social",
+        "text": "I worry about “fake” boxes in SOME areas.\nVote cast & received by mail in New York 4 weeks early.\nNot living in Trump’s world has its advantages.",
+        "created_at": "2026-10-09T17:27:55.771Z",
+        "source": "https://bsky.app/profile/dn-ny-mtl.bsky.social/post/3mxhipnlsx22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9879476,
+          40.702216
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mxhipsx6gi23",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Downtown [B][D] trains are delayed while we investigate what caused a train's brakes to activate on the Manhattan Bridge.",
+        "created_at": "2026-10-09T17:28:00.790Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mxhipsx6gi23",
+        "mapped_location": "Manhattan Bridge, Dumbo, Brooklyn, Kings County, New York, 11251, United States",
+        "precision_level": "city",
+        "location_text": "the Manhattan Bridge",
+        "confidence": 0.8
       }
     }
   ]

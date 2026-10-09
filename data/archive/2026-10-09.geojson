@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T16:10:47.221452Z",
-    "total_pins": 80
+    "generated_at": "2026-10-09T17:28:49.855410Z",
+    "total_pins": 83
   },
   "features": [
     {
@@ -1689,6 +1689,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1496048,
+          40.5834557
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy4fpfxgsd5ml3a644jusqmn/app.bsky.feed.post/3mxhimi56f52o",
+        "handle": "letters.resist.bot",
+        "text": "From a constituent in 📍 Staten Island, NY",
+        "created_at": "2026-10-09T17:26:09.231Z",
+        "source": "https://bsky.app/profile/letters.resist.bot/post/3mxhimi56f52o",
+        "mapped_location": "Staten Island, Richmond County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Staten Island",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xqnwvy5iwjwz4kefhl2xvreo/app.bsky.feed.post/3mxhipnlsx22i",
+        "handle": "dn-ny-mtl.bsky.social",
+        "text": "I worry about “fake” boxes in SOME areas.\nVote cast & received by mail in New York 4 weeks early.\nNot living in Trump’s world has its advantages.",
+        "created_at": "2026-10-09T17:27:55.771Z",
+        "source": "https://bsky.app/profile/dn-ny-mtl.bsky.social/post/3mxhipnlsx22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9879476,
+          40.702216
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mxhipsx6gi23",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Downtown [B][D] trains are delayed while we investigate what caused a train's brakes to activate on the Manhattan Bridge.",
+        "created_at": "2026-10-09T17:28:00.790Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mxhipsx6gi23",
+        "mapped_location": "Manhattan Bridge, Dumbo, Brooklyn, Kings County, New York, 11251, United States",
+        "precision_level": "city",
+        "location_text": "the Manhattan Bridge",
+        "confidence": 0.8
       }
     }
   ]

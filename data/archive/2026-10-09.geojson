@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T17:54:05.757014Z",
-    "total_pins": 83
+    "generated_at": "2026-10-09T18:17:36.647377Z",
+    "total_pins": 85
   },
   "features": [
     {
@@ -1752,6 +1752,48 @@
         "precision_level": "city",
         "location_text": "the Manhattan Bridge",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c7pkf5n556qn3tdwiel67o4r/app.bsky.feed.post/3mxhlexj3ks22",
+        "handle": "bhschenker.bsky.social",
+        "text": "The questions I'd ask (and likely will never get a chance) DC's executives at New York Comic Con about their new owners and the future of the comic publisher.",
+        "created_at": "2026-10-09T18:15:38.303Z",
+        "source": "https://bsky.app/profile/bhschenker.bsky.social/post/3mxhlexj3ks22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sjaqbtcyri2dqe43erysr5bo/app.bsky.feed.post/3mxhlhd2mvc2y",
+        "handle": "blackinfonet.bsky.social",
+        "text": "#OscarBelgal was shot in the neck by an #ICE agent during an attempted arrest in New York on Thursday (October 8).",
+        "created_at": "2026-10-09T18:16:57.521Z",
+        "source": "https://bsky.app/profile/blackinfonet.bsky.social/post/3mxhlhd2mvc2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

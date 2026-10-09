@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T00:49:28.066150Z",
-    "total_pins": 117
+    "generated_at": "2026-10-09T01:17:42.945863Z",
+    "total_pins": 119
   },
   "features": [
     {
@@ -2466,6 +2466,48 @@
         "precision_level": "city",
         "location_text": "Marble Hill",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6k3zzoqzkofkzuu2demrdspw/app.bsky.feed.post/3mxfsderjgk27",
+        "handle": "itsyouredoctor.bsky.social",
+        "text": "He focused on opening a portal. Before speaking to the different Spider Man in front of him.\n\n\"If this helps you out. You don't owe me. You'll owe the city. You're one of the biggest protectors. New York has, so after all this is done. Plus protect every one here.\"",
+        "created_at": "2026-10-09T01:14:41.819Z",
+        "source": "https://bsky.app/profile/itsyouredoctor.bsky.social/post/3mxfsderjgk27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vwt6opoyqeui2nnohjejp3ms/app.bsky.feed.post/3mxfsgpjcsc2i",
+        "handle": "yomimonoid.bsky.social",
+        "text": "The Remarried Empress Webtoon Gets TV Anime From TROYCA\n\nTROYCA is adapting The Remarried Empress for TV, announced at New York Comic Con. Yoko Hikasa, Ryōhei Kimura, Tomoaki Maeno and Reina Ueda lead the cast, with Tetsuya Yanagisawa directing and a 2027 broadcast planned.",
+        "created_at": "2026-10-09T01:16:33.688Z",
+        "source": "https://bsky.app/profile/yomimonoid.bsky.social/post/3mxfsgpjcsc2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

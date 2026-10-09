@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T04:19:57.792352Z",
-    "total_pins": 254
+    "generated_at": "2026-10-09T04:29:53.506609Z",
+    "total_pins": 255
   },
   "features": [
     {
@@ -5345,6 +5345,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923,
+          40.779
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gcn2c7a6hlcriukqv4buzai5/app.bsky.feed.post/3mxg56l6vs22z",
+        "handle": "tvguy9605.bsky.social",
+        "text": "I believe they were in Astoria Park tonight on Shore Rd. 3 men standing outside 3 unmarked black SUV's. They were armed & wearing black hoodies. It looked like they had vests underneath. No ID of any kind. They were watching everyone passing by. Most people not paying attention completely unaware.",
+        "created_at": "2026-10-09T04:28:51.937Z",
+        "source": "https://bsky.app/profile/tvguy9605.bsky.social/post/3mxg56l6vs22z",
+        "mapped_location": "Astoria Park, Queens, Queens County, New York, United States",
+        "precision_level": "address",
+        "location_text": "Astoria Park",
+        "confidence": 0.9
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:47:04.265731Z",
-    "total_pins": 101
+    "generated_at": "2026-10-09T19:54:33.131764Z",
+    "total_pins": 107
   },
   "features": [
     {
@@ -2130,6 +2130,132 @@
         "precision_level": "city",
         "location_text": "Marble Hill",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z5fipjqscom2ydwvm7p4cwib/app.bsky.feed.post/3mxhqpyv5ts26",
+        "handle": "connor4justice.bsky.social",
+        "text": "I was living in New York back then. Guidry was superman that year. His ERA was insane. Arguably the most dominant season ever by a pitcher. Definitely top 10 of all time. He was the King of New York that season.",
+        "created_at": "2026-10-09T19:51:17.555Z",
+        "source": "https://bsky.app/profile/connor4justice.bsky.social/post/3mxhqpyv5ts26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9626653,
+          40.7386412
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ds6ef3qjlg2yqwbiokedskdf/app.bsky.feed.post/3mxhqq4fkjk2n",
+        "handle": "ohheyimadeitweird.bsky.social",
+        "text": "How about a proper waterfront for the people of the Bronx? Not a waterfront created for the benefit of developers like in Hunters Point, DUMBO, etc., that pushes out regular NYers.",
+        "created_at": "2026-10-09T19:51:21.239Z",
+        "source": "https://bsky.app/profile/ohheyimadeitweird.bsky.social/post/3mxhqq4fkjk2n",
+        "mapped_location": "Hunters Point, Queens, Queens County, New York, 11109, United States",
+        "precision_level": "city",
+        "location_text": "Hunters Point",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s6rmzb4pah2ybpfztqcqmklj/app.bsky.feed.post/3mxhqsju7vs2m",
+        "handle": "pudgeyale92.bsky.social",
+        "text": "Oh, another Fun Train Fact I forgot to tell you the other day: the ridership of the Lexington Avenue Line in New York alone is higher than that of the entire Metro system. We can and must get the entire DMV onto the trains with the capacity we have now.",
+        "created_at": "2026-10-09T19:52:42.459Z",
+        "source": "https://bsky.app/profile/pudgeyale92.bsky.social/post/3mxhqsju7vs2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:auk4xklydfg2s6o6olr2pyus/app.bsky.feed.post/3mxhqt7xpfw2c",
+        "handle": "bestdealssnews.bsky.social",
+        "text": "Dungeons & Dragons Officially Reveals First Details on Star Wars Collaboration\n\nAfter announcing a Star Wars and Dungeons & Dragons crossover in July, Wizards of the Coast just provided the first concrete details about this TTRPG collaboration at New York Comic Con. The expansion will be made up of…",
+        "created_at": "2026-10-09T19:53:05Z",
+        "source": "https://bsky.app/profile/bestdealssnews.bsky.social/post/3mxhqt7xpfw2c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cedbnkc77u7mribgzeiwe5ci/app.bsky.feed.post/3mxhqtapn6k23",
+        "handle": "hellscapenavigator.bsky.social",
+        "text": "reminds me of the 3-4 soldiers from Operation EMPIRE SHIELD always standing around Grand Central Station in New York looking incredibly bored at all times.",
+        "created_at": "2026-10-09T19:53:06.427Z",
+        "source": "https://bsky.app/profile/hellscapenavigator.bsky.social/post/3mxhqtapn6k23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uggqh4ryozw7qutuzod7zjps/app.bsky.feed.post/3mxhquhkfqc2b",
+        "handle": "stopaapihateaction.org",
+        "text": "ICE agents terrorize and shoot people with impunity to fulfill Trump's disgusting anti-immigrant agenda. ICE has already shot and killed at least eight people during Trump's second term — and last night in New York, Oscar Belgal and his son almost died because of ICE's recklessness.",
+        "created_at": "2026-10-09T19:53:47.149Z",
+        "source": "https://bsky.app/profile/stopaapihateaction.org/post/3mxhquhkfqc2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

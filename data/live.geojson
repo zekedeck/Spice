@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T12:17:45.269465Z",
-    "total_pins": 275
+    "generated_at": "2026-10-09T12:24:11.032618Z",
+    "total_pins": 278
   },
   "features": [
     {
@@ -5784,6 +5784,69 @@
         "text": "Even us up here by Lake Ontario in New York one ice out of the whole f****** State. Out of the whole f****** country they need to be put down like the rabid dogs that they are",
         "created_at": "2026-10-09T12:17:09.421Z",
         "source": "https://bsky.app/profile/ravindave63.bsky.social/post/3mxgxdx23yc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g634ndp6jlvxcsujcslcdb6m/app.bsky.feed.post/3mxgxnowcnz2x",
+        "handle": "robertpatulacci.bsky.social",
+        "text": "Masked ICE officers shoot a man while making an arrest in New York\n➡️https://nonli.net/85XE",
+        "created_at": "2026-10-09T12:22:31.000Z",
+        "source": "https://bsky.app/profile/robertpatulacci.bsky.social/post/3mxgxnowcnz2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbmsbevib3m4ucdz7qafohfn/app.bsky.feed.post/3mxgxpbykxs25",
+        "handle": "runningbriefly.bsky.social",
+        "text": "Dangerous driving behavior continues to kill cyclists in New York, and permitting tested autonomous vehicles could reduce injury-causing crashes.\n",
+        "created_at": "2026-10-09T12:23:29.628Z",
+        "source": "https://bsky.app/profile/runningbriefly.bsky.social/post/3mxgxpbykxs25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jm3sjraywke4fz5g4moyyncv/app.bsky.feed.post/3mxgxpq3ax22y",
+        "handle": "theericgoldman.bsky.social",
+        "text": "Here's my walkthrough of the entire Crystal Lake experience at New York Comic Con. #NYCC #CrystalLake #Fridaythe13th \n\nwww.youtube.com/watch?v=E0RG...",
+        "created_at": "2026-10-09T12:23:44.772Z",
+        "source": "https://bsky.app/profile/theericgoldman.bsky.social/post/3mxgxpq3ax22y",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

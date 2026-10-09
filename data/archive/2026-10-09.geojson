@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:04:08.887290Z",
-    "total_pins": 92
+    "generated_at": "2026-10-09T19:18:03.435934Z",
+    "total_pins": 93
   },
   "features": [
     {
@@ -1937,6 +1937,27 @@
         "text": "There is a reason companies invest in New York rn.\n\nThey know that content people tend to spend more.\n\nMore non work time + more money left from bills = greater tendency to spend money. (Eg: cinemas, cafes, ect)\n\nThe left does not make companies leave.\nIt makes them more interested in investing.",
         "created_at": "2026-10-09T19:02:27.207Z",
         "source": "https://bsky.app/profile/loere.bsky.social/post/3mxhnyocpec2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xkbf2rnnkt2fsrqv5zdu3tye/app.bsky.feed.post/3mxhoox3n422s",
+        "handle": "derekexmachina.com",
+        "text": "So jealous! Looks like you've had a great time in New York!",
+        "created_at": "2026-10-09T19:14:54.630Z",
+        "source": "https://bsky.app/profile/derekexmachina.com/post/3mxhoox3n422s",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

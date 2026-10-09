@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T18:29:19.939423Z",
-    "total_pins": 90
+    "generated_at": "2026-10-09T19:04:08.887290Z",
+    "total_pins": 92
   },
   "features": [
     {
@@ -1895,6 +1895,48 @@
         "text": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
         "created_at": "2026-10-09T18:28:55.790484+00:00",
         "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxhm4q5bau2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wesnugh2lq6x36yu5ymqxyeb/app.bsky.feed.post/3mxhnwunzhu26",
+        "handle": "publisherswkly.bsky.social",
+        "text": "The Image Comics cofounder and CEO, who also created the superhero Spawn and the Marvel villain Venom, has been a fixture at New York Comic Con—the 2026 edition of which kicks off today—since it started. more » buff.ly/Dszy24b",
+        "created_at": "2026-10-09T19:01:26.761Z",
+        "source": "https://bsky.app/profile/publisherswkly.bsky.social/post/3mxhnwunzhu26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:etissu5hxvtk74u2vqdxpafk/app.bsky.feed.post/3mxhnyocpec2i",
+        "handle": "loere.bsky.social",
+        "text": "There is a reason companies invest in New York rn.\n\nThey know that content people tend to spend more.\n\nMore non work time + more money left from bills = greater tendency to spend money. (Eg: cinemas, cafes, ect)\n\nThe left does not make companies leave.\nIt makes them more interested in investing.",
+        "created_at": "2026-10-09T19:02:27.207Z",
+        "source": "https://bsky.app/profile/loere.bsky.social/post/3mxhnyocpec2i",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,199 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T18:29:19.929415Z",
-    "total_pins": 268
+    "generated_at": "2026-10-09T19:04:08.870466Z",
+    "total_pins": 261
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wpe5wcj7y3hfv3huorblcage/app.bsky.feed.post/3mxclfmt4m227",
-        "handle": "oldsquida.bsky.social",
-        "text": "On 10 November 1975, the vote took place at the UN General Assembly session in New York.\nThe resolution said the General Assembly ‘determines that Zionism is a form of racism and racial discrimination’.”",
-        "created_at": "2026-10-07T18:32:16.166Z",
-        "source": "https://bsky.app/profile/oldsquida.bsky.social/post/3mxclfmt4m227",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:45caqn4troowjbp2brbwpjyk/app.bsky.feed.post/3mxcljdx7vs2l",
-        "handle": "newyorkalmanack.bsky.social",
-        "text": "In 2027 bells will be tolling to mark 400 years since the arrival of enslaved people in New York and the 200th year since slavery's abolition in the state. Is your community participating? #history",
-        "created_at": "2026-10-07T18:34:46.876Z",
-        "source": "https://bsky.app/profile/newyorkalmanack.bsky.social/post/3mxcljdx7vs2l",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y3wqs5iwpfpmm5ya3xfz57bq/app.bsky.feed.post/3mxclt6v2uh2w",
-        "handle": "nexa-news.bsky.social",
-        "text": "Jaguar Unveils £130,000 Type 01 Electric Grand Tourer in New York",
-        "created_at": "2026-10-07T18:40:17.048147+00:00",
-        "source": "https://bsky.app/profile/nexa-news.bsky.social/post/3mxclt6v2uh2w",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hucg6kj6ufxqly5ytx52daw6/app.bsky.feed.post/3mxclv427zk2y",
-        "handle": "portablerockart.bsky.social",
-        "text": "\"Only in New York ... \" 💯",
-        "created_at": "2026-10-07T18:41:21.239Z",
-        "source": "https://bsky.app/profile/portablerockart.bsky.social/post/3mxclv427zk2y",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:gy4jjyh7gtyvxorc5i4aemp2/app.bsky.feed.post/3mxclzzwppk2i",
-        "handle": "brianpshea.bsky.social",
-        "text": "A central location where you can exchange local currency for various goods? Only in New York, baby!",
-        "created_at": "2026-10-07T18:44:06.790Z",
-        "source": "https://bsky.app/profile/brianpshea.bsky.social/post/3mxclzzwppk2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5fqihdzpeyhlk4ehyvueye4r/app.bsky.feed.post/3mxcm6bp56k2r",
-        "handle": "comicsbeat.bsky.social",
-        "text": "NYCC ‘26: Heroes & Villains launches AVENGERS: DOOMSDAY merch at NYCC\n\nHeroes & Villains launches a Latvarian Marketplace with a new line of Avengers: Doomsday themed merchandise available at New York Comic Con.",
-        "created_at": "2026-10-07T18:46:28Z",
-        "source": "https://bsky.app/profile/comicsbeat.bsky.social/post/3mxcm6bp56k2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9440833,
-          40.5779176
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fj67u4nr5llcmjswy37rs7jl/app.bsky.feed.post/3mxcm74x54h23",
-        "handle": "fakecelebspotter.bsky.social",
-        "text": "Ted Ketchum has been SPOTTED pretending to be a statue with his leaf blower at Polliwog Park in Manhattan Beach!",
-        "created_at": "2026-10-07T18:46:52.30100100Z",
-        "source": "https://bsky.app/profile/fakecelebspotter.bsky.social/post/3mxcm74x54h23",
-        "mapped_location": "Manhattan Beach, Brooklyn, Kings County, New York, 11235, United States",
-        "precision_level": "city",
-        "location_text": "Manhattan Beach",
-        "confidence": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:gyeyixjkykqyfmsxl7fnltij/app.bsky.feed.post/3mxcm7fxovc2r",
-        "handle": "loribaby5.bsky.social",
-        "text": "American television host Ed Sullivan presenting the Redwood Magazine Award trophy to actress Ann Blyth on his TV show in New York, January 29th 1956. Blyth, representing Metro-Goldwyn-Mayer (MGM) studios, accepted the award on behalf of MGM head Dore Schary. ❤️",
-        "created_at": "2026-10-07T18:47:07.184Z",
-        "source": "https://bsky.app/profile/loribaby5.bsky.social/post/3mxcm7fxovc2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5bsdjs54x5n3tcw5kltuut4u/app.bsky.feed.post/3mxcmg4qeoc2w",
-        "handle": "moellennial.bsky.social",
-        "text": "Very excited to be at New York Comic Con this year! My schedule is pretty light and I'll mostly be at my table when not in meetings. I'll be sitting next to @stephwilliams.bsky.social and @yayforzig.bsky.social Stop by and say hello!",
-        "created_at": "2026-10-07T18:50:52.376Z",
-        "source": "https://bsky.app/profile/moellennial.bsky.social/post/3mxcmg4qeoc2w",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5639,6 +5450,48 @@
         "text": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
         "created_at": "2026-10-09T18:28:55.790484+00:00",
         "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxhm4q5bau2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wesnugh2lq6x36yu5ymqxyeb/app.bsky.feed.post/3mxhnwunzhu26",
+        "handle": "publisherswkly.bsky.social",
+        "text": "The Image Comics cofounder and CEO, who also created the superhero Spawn and the Marvel villain Venom, has been a fixture at New York Comic Con—the 2026 edition of which kicks off today—since it started. more » buff.ly/Dszy24b",
+        "created_at": "2026-10-09T19:01:26.761Z",
+        "source": "https://bsky.app/profile/publisherswkly.bsky.social/post/3mxhnwunzhu26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:etissu5hxvtk74u2vqdxpafk/app.bsky.feed.post/3mxhnyocpec2i",
+        "handle": "loere.bsky.social",
+        "text": "There is a reason companies invest in New York rn.\n\nThey know that content people tend to spend more.\n\nMore non work time + more money left from bills = greater tendency to spend money. (Eg: cinemas, cafes, ect)\n\nThe left does not make companies leave.\nIt makes them more interested in investing.",
+        "created_at": "2026-10-09T19:02:27.207Z",
+        "source": "https://bsky.app/profile/loere.bsky.social/post/3mxhnyocpec2i",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

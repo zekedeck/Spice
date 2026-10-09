@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T14:14:23.081569Z",
-    "total_pins": 35
+    "generated_at": "2026-10-09T14:27:07.000643Z",
+    "total_pins": 41
   },
   "features": [
     {
@@ -740,6 +740,132 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyjm4ylfid2a7mjm6varxuiq/app.bsky.feed.post/3mxh6fuy6xs2m",
+        "handle": "robertscotthorton.bsky.social",
+        "text": "A Trump-appointed judge ripped ICE agents for giving false sworn testimony and records to justify the violent mistaken-identity arrests of 2 men in the Bronx, one of whom was a US citizen. Brenden Cuni, who fired seven shots into a stopped car with a 5-yr-old child in Marble Hill yesterday, was one",
+        "created_at": "2026-10-09T14:23:30.561Z",
+        "source": "https://bsky.app/profile/robertscotthorton.bsky.social/post/3mxh6fuy6xs2m",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4ghka4wo7znwir2xjlzzlkmo/app.bsky.feed.post/3mxh6gdhqxc2p",
+        "handle": "seanfl50.bsky.social",
+        "text": "You should see the ones I saw in the YouTube chat room of Status Coup after the ICE shooting of that guy in New York in front of his 5-year-old son. They were cheering \"ICE ICE baby\" and asking if the guy was in the US illegally.",
+        "created_at": "2026-10-09T14:23:45.754Z",
+        "source": "https://bsky.app/profile/seanfl50.bsky.social/post/3mxh6gdhqxc2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:aattexikjlpex2xxdod2el5y/app.bsky.feed.post/3mxh6h3qizc2w",
+        "handle": "diningandcooking.bsky.social",
+        "text": "Italian Restaurant Casa Serra to Open at 227 Front Street in South Street Seaport – Commercial Observer\n\nhttps://www.diningandcooking.com/2850003/italian-restaurant-casa-serra-to-open-at-227-front-street-in-south-street-seaport-commercial-observer/\n\nLower Manhattan’s South Street Seaport will be …",
+        "created_at": "2026-10-09T14:24:07+00:00",
+        "source": "https://bsky.app/profile/diningandcooking.bsky.social/post/3mxh6h3qizc2w",
+        "mapped_location": "South Street Seaport, Pier 16, Seaport, Lower Manhattan, Manhattan, New York County, New York, 10038, United States",
+        "precision_level": "address",
+        "location_text": "South Street Seaport",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q6x6qsiuu4yax77igfiix7ng/app.bsky.feed.post/3mxh6idh7j22o",
+        "handle": "ocanannain.bsky.social",
+        "text": "‘This is not an anti-tech town’: backlash to datacenter in city once home to IBM\n\nFight in East Fishkill, New York, part of a growing divide over whether AI benefits outweigh enormous downsides",
+        "created_at": "2026-10-09T14:24:52.845Z",
+        "source": "https://bsky.app/profile/ocanannain.bsky.social/post/3mxh6idh7j22o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p46pex3lmdkfa2iksow3fezc/app.bsky.feed.post/3mxh6j4ioxs2j",
+        "handle": "hamamm7iowio.eurosky.social",
+        "text": "Mamdani A protester stood with Jewish people in New York regarding October 7th and faced jeers, though I do not wish to delve into politics. However, I was struck by his remark that our tax dollars are still funding the genocide.",
+        "created_at": "2026-10-09T14:25:19.107Z",
+        "source": "https://bsky.app/profile/hamamm7iowio.eurosky.social/post/3mxh6j4ioxs2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kqw6qin6mavujlel57s2ffdq/app.bsky.feed.post/3mxh6jrbyz22f",
+        "handle": "waynefryback.bsky.social",
+        "text": "My dick is so big, it got traded from the Knicks to the Spurs, because James Dolan didn't want a bigger dick than him in New York.",
+        "created_at": "2026-10-09T14:25:40.909Z",
+        "source": "https://bsky.app/profile/waynefryback.bsky.social/post/3mxh6jrbyz22f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

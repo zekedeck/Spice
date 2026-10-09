@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T12:24:11.032618Z",
-    "total_pins": 278
+    "generated_at": "2026-10-09T12:58:28.804869Z",
+    "total_pins": 281
   },
   "features": [
     {
@@ -5851,6 +5851,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8823583,
+          40.6667702
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxgziuxyj42j",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Battery storage project breaks ground in East New York, while efforts push for a permanent October 7 memorial in Gravesend.\n",
+        "created_at": "2026-10-09T12:55:42.031Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxgziuxyj42j",
+        "mapped_location": "East New York, Brooklyn, Kings County, New York, 11208, United States",
+        "precision_level": "city",
+        "location_text": "East New York",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8823583,
+          40.6667702
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3mxgzj3377q2m",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "Battery storage project breaks ground in East New York, while efforts push for a permanent October 7 memorial in Gravesend.\n",
+        "created_at": "2026-10-09T12:55:48.766Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3mxgzj3377q2m",
+        "mapped_location": "East New York, Brooklyn, Kings County, New York, 11208, United States",
+        "precision_level": "city",
+        "location_text": "East New York",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tn2ybrntwxdf5k5a763nhq3k/app.bsky.feed.post/3mxgzk2dtk22m",
+        "handle": "stallfortime.bsky.social",
+        "text": "Fucking tell Trump. No one can guarantee theor safety if they remain in new York. We need to be out there blocking their hotels gas stations and food. That is a lea mamdani could sign today. No more parking no more staging areas. Make sure they have no where but on the street with us.",
+        "created_at": "2026-10-09T12:56:21.696Z",
+        "source": "https://bsky.app/profile/stallfortime.bsky.social/post/3mxgzk2dtk22m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new York",
+        "confidence": 0.95
       }
     }
   ]

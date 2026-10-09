@@ -1,178 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:53:10.731235Z",
-    "total_pins": 276
+    "generated_at": "2026-10-09T02:13:52.311402Z",
+    "total_pins": 270
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9873613,
-          40.7292688
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3d66gipjllrtwcfkjekogm77/app.bsky.feed.post/3mxatppezjk24",
-        "handle": "lavenderscrabble.bsky.social",
-        "text": "B&H in East Village - should probably check to see if it has vegan options or just vegetarian. But I still crave their vegetable soup and perogies.",
-        "created_at": "2026-10-07T01:56:10.637Z",
-        "source": "https://bsky.app/profile/lavenderscrabble.bsky.social/post/3mxatppezjk24",
-        "mapped_location": "East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
-        "precision_level": "city",
-        "location_text": "East Village",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wpkxkxnhvguruvdntidqrra5/app.bsky.feed.post/3mxatrg4eik2x",
-        "handle": "opmerchandise.bsky.social",
-        "text": "Here’s a look at the One Piece x Bear Walker Kaido Collection dropping this Thursday at New York Comic Con!\n\nThere will be limited quantities of blind boxes and apparel available each day at the event at Booth #2461 and online.\n\nMore info below.\n\n#OnePiece\n#NYCC2026",
-        "created_at": "2026-10-07T01:57:08.031Z",
-        "source": "https://bsky.app/profile/opmerchandise.bsky.social/post/3mxatrg4eik2x",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fedn7qfnkhpr6pnihdosetrq/app.bsky.feed.post/3mxattvalqk2h",
-        "handle": "mike-in-the-box.bsky.social",
-        "text": "Tomorrow in New York, the mayor's organization, DSA, is holding a rally to celebrate Vivian Silver's being burned alive.",
-        "created_at": "2026-10-07T01:58:31.011Z",
-        "source": "https://bsky.app/profile/mike-in-the-box.bsky.social/post/3mxattvalqk2h",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.994,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mxatwqmic426",
-        "handle": "allforgardening.bsky.social",
-        "text": "Madison Square Garden expands event food offerings\n\nhttps://www.allforgardening.com/1943759/madison-square-garden-expands-event-food-offerings/\n\nNEW YORK CITY (WABC) — Madison Square Garden is expanding its food options for fans attending Knicks and Rangers games, as well as other live events …",
-        "created_at": "2026-10-07T02:00:03+00:00",
-        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mxatwqmic426",
-        "mapped_location": "Madison Square Garden, 4, Pennsylvania Plaza, Chelsea District, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.003,
-          40.734
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cqlecccbzftvfapzpbb6ixzg/app.bsky.feed.post/3mxatwnfkye2z",
-        "handle": "dillonfuhrmankyma.bsky.social",
-        "text": "CCTV footage shared by St Joseph's Church in Greenwich Village shows the mammal scurry past churchgoers, and a priest inside the parish investigating the unexpected visitor.",
-        "created_at": "2026-10-07T02:00:03.377Z",
-        "source": "https://bsky.app/profile/dillonfuhrmankyma.bsky.social/post/3mxatwnfkye2z",
-        "mapped_location": "Greenwich Village, 7th Avenue South, West Village, Manhattan, New York County, New York, 10014, United States",
-        "precision_level": "address",
-        "location_text": "Greenwich Village",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.003,
-          40.734
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ojs3pdc6vbk6rxaohacrbkx4/app.bsky.feed.post/3mxatwo5szx2a",
-        "handle": "kyma-tv.bsky.social",
-        "text": "CCTV footage shared by St Joseph's Church in Greenwich Village shows the mammal scurry past churchgoers, and a priest inside the parish investigating the unexpected visitor.",
-        "created_at": "2026-10-07T02:00:04.016Z",
-        "source": "https://bsky.app/profile/kyma-tv.bsky.social/post/3mxatwo5szx2a",
-        "mapped_location": "Greenwich Village, 7th Avenue South, West Village, Manhattan, New York County, New York, 10014, United States",
-        "precision_level": "address",
-        "location_text": "Greenwich Village",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:iqm3dhztz5x575rufe4osak5/app.bsky.feed.post/3mxatyqhakw2k",
-        "handle": "kirotestdaily.bsky.social",
-        "text": "Jaguar unveiled its 1,000-horsepower Type 01 electric GT in New York, priced from £130,000. Reinvention tests whether you trust change over familiarity—do you?",
-        "created_at": "2026-10-07T02:01:12.000Z",
-        "source": "https://bsky.app/profile/kirotestdaily.bsky.social/post/3mxatyqhakw2k",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qsfhti5gf25ekrlyayrmrswp/app.bsky.feed.post/3mxaumxoqw22e",
-        "handle": "mugennoken.bsky.social",
-        "text": "The one issue with that and how it’s portrayed here I’d say is like \n\nhe couldn’t live in New York City without money, and there’s no sign how on earth he affords all the things we actively see him have or buy when he left NWH with absolutely nothing",
-        "created_at": "2026-10-07T02:12:32.433Z",
-        "source": "https://bsky.app/profile/mugennoken.bsky.social/post/3mxaumxoqw22e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York City",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5807,6 +5639,48 @@
         "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas.",
         "created_at": "2026-10-09T01:52:29.131Z",
         "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugx2fck2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:764hmzpjlbi36cfuakpuncrc/app.bsky.feed.post/3mxfvh2lwc22j",
+        "handle": "hasidicyiddish.bsky.social",
+        "text": "ICE agent shoots, injures immigrant man in NYC's Marble Hill, Bronx - Gothamist\n\ngothamist.com/news/person-...",
+        "created_at": "2026-10-09T02:10:26.588Z",
+        "source": "https://bsky.app/profile/hasidicyiddish.bsky.social/post/3mxfvh2lwc22j",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yw6rba2gojlne2kj6qhkz5if/app.bsky.feed.post/3mxfvlsz5lc2h",
+        "handle": "cpagal.bsky.social",
+        "text": "Get them the fuck out of our country they were harassing people in Rochester, New York last summer.",
+        "created_at": "2026-10-09T02:13:06.410Z",
+        "source": "https://bsky.app/profile/cpagal.bsky.social/post/3mxfvlsz5lc2h",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

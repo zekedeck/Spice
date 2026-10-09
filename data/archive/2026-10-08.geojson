@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:53:10.742010Z",
-    "total_pins": 129
+    "generated_at": "2026-10-09T02:13:52.319648Z",
+    "total_pins": 131
   },
   "features": [
     {
@@ -2714,6 +2714,48 @@
         "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas.",
         "created_at": "2026-10-09T01:52:29.131Z",
         "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugx2fck2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:764hmzpjlbi36cfuakpuncrc/app.bsky.feed.post/3mxfvh2lwc22j",
+        "handle": "hasidicyiddish.bsky.social",
+        "text": "ICE agent shoots, injures immigrant man in NYC's Marble Hill, Bronx - Gothamist\n\ngothamist.com/news/person-...",
+        "created_at": "2026-10-09T02:10:26.588Z",
+        "source": "https://bsky.app/profile/hasidicyiddish.bsky.social/post/3mxfvh2lwc22j",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yw6rba2gojlne2kj6qhkz5if/app.bsky.feed.post/3mxfvlsz5lc2h",
+        "handle": "cpagal.bsky.social",
+        "text": "Get them the fuck out of our country they were harassing people in Rochester, New York last summer.",
+        "created_at": "2026-10-09T02:13:06.410Z",
+        "source": "https://bsky.app/profile/cpagal.bsky.social/post/3mxfvlsz5lc2h",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

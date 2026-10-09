@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T20:08:30.604657Z",
-    "total_pins": 111
+    "generated_at": "2026-10-09T20:22:01.624892Z",
+    "total_pins": 112
   },
   "features": [
     {
@@ -2340,6 +2340,27 @@
         "precision_level": "state",
         "location_text": "new york",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9101947,
+          40.8742974
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l4bnzy66zfutco2unou5rx4b/app.bsky.feed.post/3mxhsbgs5w22f",
+        "handle": "mfmmfm.bsky.social",
+        "text": "Yesterday in NYC an ICE officer shot a man who was in a vehicle with his 5 year old son. This happened in Marble Hill/225th street. How can some unidentified gunman just shoot wildly into a car in a crowded neighborhood—with a child in the car!! ICE must be stopped. #abolishICE #protectourneighbors",
+        "created_at": "2026-10-09T20:18:56.298Z",
+        "source": "https://bsky.app/profile/mfmmfm.bsky.social/post/3mxhsbgs5w22f",
+        "mapped_location": "Marble Hill–225th Street, Broadway, Marble Hill, Manhattan, New York County, New York, 10034, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill/225th street",
+        "confidence": 0.9
       }
     }
   ]

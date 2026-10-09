@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T05:42:26.558476Z",
-    "total_pins": 259
+    "generated_at": "2026-10-09T07:34:40.741970Z",
+    "total_pins": 260
   },
   "features": [
     {
@@ -5450,6 +5450,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bw476ibzymiv6u7qbwdtewjh/app.bsky.feed.post/3mxghhlzo4c2p",
+        "handle": "franz-wien.bsky.social",
+        "text": "The Trump Nazis' plan is working. They're stirring up unrest in New York!",
+        "created_at": "2026-10-09T07:32:52.221Z",
+        "source": "https://bsky.app/profile/franz-wien.bsky.social/post/3mxghhlzo4c2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

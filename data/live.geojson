@@ -1,52 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T14:42:17.208922Z",
-    "total_pins": 285
+    "generated_at": "2026-10-09T14:54:36.279688Z",
+    "total_pins": 288
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:yx24inb75mwze37i6apzgzyt/app.bsky.feed.post/3mxc6vkxpte2u",
-        "handle": "airforcetrack.bsky.social",
-        "text": "99-0404 Took off near Saranac Lake, New York, United States.",
-        "created_at": "2026-10-07T14:48:58.209237+00:00",
-        "source": "https://bsky.app/profile/airforcetrack.bsky.social/post/3mxc6vkxpte2u",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lzxgvjbf6ahvnxzppnvcjvjb/app.bsky.feed.post/3mxc6vlel5k2k",
-        "handle": "rachelholliday.bsky.social",
-        "text": "for example: the Teacher-Principal Trust metric. if it's really low, that's a biiiig red flag for a school. reporters and experts know that. educators know that. but how would the average, busy parents in New York know that? it's hard\n\nwww.thecityreporter.nyc/2026/10/07/b...",
-        "created_at": "2026-10-07T14:48:58.660Z",
-        "source": "https://bsky.app/profile/rachelholliday.bsky.social/post/3mxc6vlel5k2k",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6000,6 +5958,111 @@
         "location_text": "New Jersey",
         "confidence": 0.9,
         "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:po2fsv3b3qqsds55lzrxmcv3/app.bsky.feed.post/3mxh7zvoyyc2j",
+        "handle": "handsoffnyc.bsky.social",
+        "text": "EMERGENCY PROTEST IN NEW YORK TONIGHT 5:30PM FOLEY SQUARE.\n\nICE shot a man with his 5 year old in the backseat. We cannot let this be normal. Be there.",
+        "created_at": "2026-10-09T14:52:36.130Z",
+        "source": "https://bsky.app/profile/handsoffnyc.bsky.social/post/3mxh7zvoyyc2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054261,
+          40.7135482
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ozyrqqn53kji4mmcaivtej3d/app.bsky.feed.post/3mxha2iu5422o",
+        "handle": "bigsamthompson.bsky.social",
+        "text": "I went to that Target last summer & dawdled around the area where the shooting happened on the day the subway flooded in lower Manhattan.\n\nThe more frames of reference I have & the closer it gets to me, the more horror I feel.",
+        "created_at": "2026-10-09T14:52:56.233Z",
+        "source": "https://bsky.app/profile/bigsamthompson.bsky.social/post/3mxha2iu5422o",
+        "mapped_location": "Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "city",
+        "location_text": "lower Manhattan",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vvlzmo2anppmayllpdcipd7x/app.bsky.feed.post/3mxha37kzts2j",
+        "handle": "katemcclanaghan.bsky.social",
+        "text": "NEWS: Trump Loses Nobel Prize He Begged For, ICE Unleashed on California, Shoots Man in New York, UN Calls Trump’s Execution Torture\naaronparnas.substack.com/p/news-trump...",
+        "created_at": "2026-10-09T14:53:20.050Z",
+        "source": "https://bsky.app/profile/katemcclanaghan.bsky.social/post/3mxha37kzts2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3k4ivyknlg4yv4as4b6anmt/app.bsky.feed.post/3mxha3up5lk2y",
+        "handle": "ecmclaughlin.bsky.social",
+        "text": "Meanwhile, ICE shot a man in New York City with his five-year-old in the car, Trump escalates his attacks on Somali Americans, and ICE detention operations expand in New Jersey. Plus, Arlington County takes Trump to court over his proposed triumphal arch.\n\nyoutube.com/live/qiXnixI...",
+        "created_at": "2026-10-09T14:53:41.774Z",
+        "source": "https://bsky.app/profile/ecmclaughlin.bsky.social/post/3mxha3up5lk2y",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:namifrcorf6hzy45phd4shvt/app.bsky.feed.post/3mxha4noyfh2n",
+        "handle": "newsanalysis.com",
+        "text": "An ICE operation in Marble Hill, Manhattan, resulted in a suspect being shot and wounded by an ICE agent. A child in the vehicle was unharmed. The suspect, who officials say has ties to a gang and a criminal history, was taken to the hospital and then into ICE custody. #ICE #News",
+        "created_at": "2026-10-09T14:54:08.105973+00:00",
+        "source": "https://bsky.app/profile/newsanalysis.com/post/3mxha4noyfh2n",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T22:33:21.498097Z",
-    "total_pins": 127
+    "generated_at": "2026-10-09T23:33:28.857263Z",
+    "total_pins": 132
   },
   "features": [
     {
@@ -2672,6 +2672,111 @@
         "text": "On Monday I'm giving a Zoom talk with video clips about the evolution of LGBT images on 20th-century TV. The event is sponsored by CBST in New York, and all are welcome to register by clicking the itty-bitty \"Register\" link at the end of the program description. 😀\n\ncbst.org/eventdetails...",
         "created_at": "2026-10-09T22:31:06.755Z",
         "source": "https://bsky.app/profile/stevencapsuto.bsky.social/post/3mxhznrucxs2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nevw4u7spxbgbwbh6ckoqzjz/app.bsky.feed.post/3mxi4xqmpox25",
+        "handle": "forbiddenscience.bsky.social",
+        "text": "Columbus Day. My knowledgeable friend, journalist Holly Newman just called from the editorial offices of the Wall Street Journal in New York:",
+        "created_at": "2026-10-09T23:30:22.030Z",
+        "source": "https://bsky.app/profile/forbiddenscience.bsky.social/post/3mxi4xqmpox25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g63re74gfhm2wzoqgeerpfwy/app.bsky.feed.post/3mxi4xutpvs2d",
+        "handle": "4medlen.bsky.social",
+        "text": "LIVE #WNBA on ESPN2 Atlanta at New York 2026 #WNBAPlayoffs Presented By Google Pixel Semifinals Game 3 from Barclays Center in Brooklyn New York\n\n& ATL Leads Series 2-0",
+        "created_at": "2026-10-09T23:30:26.611Z",
+        "source": "https://bsky.app/profile/4medlen.bsky.social/post/3mxi4xutpvs2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgt62gzl3y5ke7b45xi5vkvu/app.bsky.feed.post/3mxi4xzum3q2w",
+        "handle": "bsfavourite.bsky.social",
+        "text": "GP: WATCH LIVE: Trump Rallies for GOP Gubernatorial Candidate Bruce Blakeman in Syracuse, New York with Mike Tyson – 7:30 PM ET #TrumpRally",
+        "created_at": "2026-10-09T23:30:31Z",
+        "source": "https://bsky.app/profile/bsfavourite.bsky.social/post/3mxi4xzum3q2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtwphuxvtvimwtra5yh4ujt4/app.bsky.feed.post/3mxi52p7zk52d",
+        "handle": "pbsnews.org",
+        "text": "Federal immigration officers opened fire on a Dominican man in New York because he drove his car into officers' vehicles and they believed their lives were in danger, a senior Immigration and Customs Enforcement official said Friday. https://to.pbs.org/4ibdV4C ",
+        "created_at": "2026-10-09T23:32:01.410273044Z",
+        "source": "https://bsky.app/profile/pbsnews.org/post/3mxi52p7zk52d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rhryrs66kikepbxn3rmr25v/app.bsky.feed.post/3mxi53scaqs2b",
+        "handle": "patpolley23.bsky.social",
+        "text": "Friday is sock-washing day in New York",
+        "created_at": "2026-10-09T23:32:38.199Z",
+        "source": "https://bsky.app/profile/patpolley23.bsky.social/post/3mxi53scaqs2b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

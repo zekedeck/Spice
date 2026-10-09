@@ -1,178 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T22:33:21.489349Z",
-    "total_pins": 282
+    "generated_at": "2026-10-09T23:33:28.847923Z",
+    "total_pins": 279
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wasv4oyzcs32cjjxpbk65md2/app.bsky.feed.post/3mxczj4qkjk2e",
-        "handle": "kobaltfox.bsky.social",
-        "text": "I have been seeing more Harry Potter ads in new york than usual. And I don't know what's worse the Harry Potter ads or the AI ads",
-        "created_at": "2026-10-07T22:45:11.703Z",
-        "source": "https://bsky.app/profile/kobaltfox.bsky.social/post/3mxczj4qkjk2e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "new york",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tdtimcnvktlldjazzcccmtky/app.bsky.feed.post/3mxczknxqrk27",
-        "handle": "headynj.bsky.social",
-        "text": "The Cannabis Place (TCP) dispensary, which is based in New York, is suing the United Food and Commercial Workers (UFCW) labor union and the NJ Cannabis Regulatory Commission (NJCRC).\n\nheadynj.com/politics/the...",
-        "created_at": "2026-10-07T22:46:03.316Z",
-        "source": "https://bsky.app/profile/headynj.bsky.social/post/3mxczknxqrk27",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cdnhjrw5y723gdpxc5oopimq/app.bsky.feed.post/3mxcznclzss2v",
-        "handle": "cravi75.bsky.social",
-        "text": "Prosecutors in New York are expected to bring new charges against former Venezuelan President Nicolás Maduro and his wife Cilia Flores over the alleged torture of Americans held in Venezuelan government custody in recent years, with an announcement possible as soon as Thursday \nCNN.",
-        "created_at": "2026-10-07T22:47:32.062Z",
-        "source": "https://bsky.app/profile/cravi75.bsky.social/post/3mxcznclzss2v",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w5edngauen5sywt4m6zhpki5/app.bsky.feed.post/3mxczzb6foc2p",
-        "handle": "violet120.bsky.social",
-        "text": "Realisation that if Moxxie ever ends up in New York \n\nWe’re never going to see him again \nHe lives in the theatre now",
-        "created_at": "2026-10-07T22:54:13.214Z",
-        "source": "https://bsky.app/profile/violet120.bsky.social/post/3mxczzb6foc2p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ec764celcdunkj5mtyrxs7ne/app.bsky.feed.post/3mxd3e7d5m22d",
-        "handle": "hamantaschendog.bsky.social",
-        "text": "Yeah man I completely see how holding up pictures of Yahya Sinwar and Hezbollah flags outside the residence of the mayor of New York advances that aim and doesn’t just mark you as a bloodthirsty lunatic",
-        "created_at": "2026-10-07T23:18:14.117Z",
-        "source": "https://bsky.app/profile/hamantaschendog.bsky.social/post/3mxd3e7d5m22d",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.85
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5vmsl7ouncdbepmiknropfkw/app.bsky.feed.post/3mxd3eltyqs2s",
-        "handle": "powderbum75.bsky.social",
-        "text": "Their cover of \"The Only Living Boy in New York\" belongs on one of those Great Cover lists. \n\nThat said. \n\nIf you were to look for it on Spotify you might find it listed under a more disturbing and alienating alternate title.",
-        "created_at": "2026-10-07T23:18:27.251Z",
-        "source": "https://bsky.app/profile/powderbum75.bsky.social/post/3mxd3eltyqs2s",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mxd3hjznhb2m",
-        "handle": "allforgardening.bsky.social",
-        "text": "Phish Book 100th Madison Square Garden Concert\n\nhttps://www.allforgardening.com/1943896/phish-book-100th-madison-square-garden-concert/\n\nPhish will play their 100th concert at Madison Square Garden this winter. The gig, on Jan. 2, will conclude a four-night run at the legendary New York venue …",
-        "created_at": "2026-10-07T23:20:02+00:00",
-        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mxd3hjznhb2m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:56fkgedq4gjcc5uhfxx6oiey/app.bsky.feed.post/3mxd3idxuns2q",
-        "handle": "willmushroom.bsky.social",
-        "text": "📍New York",
-        "created_at": "2026-10-07T23:20:33.212Z",
-        "source": "https://bsky.app/profile/willmushroom.bsky.social/post/3mxd3idxuns2q",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.85
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5933,6 +5765,111 @@
         "text": "On Monday I'm giving a Zoom talk with video clips about the evolution of LGBT images on 20th-century TV. The event is sponsored by CBST in New York, and all are welcome to register by clicking the itty-bitty \"Register\" link at the end of the program description. 😀\n\ncbst.org/eventdetails...",
         "created_at": "2026-10-09T22:31:06.755Z",
         "source": "https://bsky.app/profile/stevencapsuto.bsky.social/post/3mxhznrucxs2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nevw4u7spxbgbwbh6ckoqzjz/app.bsky.feed.post/3mxi4xqmpox25",
+        "handle": "forbiddenscience.bsky.social",
+        "text": "Columbus Day. My knowledgeable friend, journalist Holly Newman just called from the editorial offices of the Wall Street Journal in New York:",
+        "created_at": "2026-10-09T23:30:22.030Z",
+        "source": "https://bsky.app/profile/forbiddenscience.bsky.social/post/3mxi4xqmpox25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g63re74gfhm2wzoqgeerpfwy/app.bsky.feed.post/3mxi4xutpvs2d",
+        "handle": "4medlen.bsky.social",
+        "text": "LIVE #WNBA on ESPN2 Atlanta at New York 2026 #WNBAPlayoffs Presented By Google Pixel Semifinals Game 3 from Barclays Center in Brooklyn New York\n\n& ATL Leads Series 2-0",
+        "created_at": "2026-10-09T23:30:26.611Z",
+        "source": "https://bsky.app/profile/4medlen.bsky.social/post/3mxi4xutpvs2d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgt62gzl3y5ke7b45xi5vkvu/app.bsky.feed.post/3mxi4xzum3q2w",
+        "handle": "bsfavourite.bsky.social",
+        "text": "GP: WATCH LIVE: Trump Rallies for GOP Gubernatorial Candidate Bruce Blakeman in Syracuse, New York with Mike Tyson – 7:30 PM ET #TrumpRally",
+        "created_at": "2026-10-09T23:30:31Z",
+        "source": "https://bsky.app/profile/bsfavourite.bsky.social/post/3mxi4xzum3q2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtwphuxvtvimwtra5yh4ujt4/app.bsky.feed.post/3mxi52p7zk52d",
+        "handle": "pbsnews.org",
+        "text": "Federal immigration officers opened fire on a Dominican man in New York because he drove his car into officers' vehicles and they believed their lives were in danger, a senior Immigration and Customs Enforcement official said Friday. https://to.pbs.org/4ibdV4C ",
+        "created_at": "2026-10-09T23:32:01.410273044Z",
+        "source": "https://bsky.app/profile/pbsnews.org/post/3mxi52p7zk52d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rhryrs66kikepbxn3rmr25v/app.bsky.feed.post/3mxi53scaqs2b",
+        "handle": "patpolley23.bsky.social",
+        "text": "Friday is sock-washing day in New York",
+        "created_at": "2026-10-09T23:32:38.199Z",
+        "source": "https://bsky.app/profile/patpolley23.bsky.social/post/3mxi53scaqs2b",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

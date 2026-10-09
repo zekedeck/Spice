@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T00:14:49.231076Z",
-    "total_pins": 109
+    "generated_at": "2026-10-09T00:49:28.066150Z",
+    "total_pins": 117
   },
   "features": [
     {
@@ -2294,6 +2294,174 @@
         "text": "“The shooting happened at about 4 p.m. in the Marble Hill neighborhood and involved “federal law enforcement agents,” according to a Police Department statement posted online. Marble Hill is considered either part of Upper Manhattan or at the southern edge of the Bronx.”",
         "created_at": "2026-10-08T23:44:01.495Z",
         "source": "https://bsky.app/profile/dcdiversity1.bsky.social/post/3mxfnbahzys2k",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:724wtzpmbwpgtoe46yjl4w44/app.bsky.feed.post/3mxfqpxnzn22n",
+        "handle": "squirrellma.bsky.social",
+        "text": "ICE officer shoots a man while making an arrest in New York, officials say\napnews.com/article/new-...    #GOP wants to know-was he brown?  Vote them all out",
+        "created_at": "2026-10-09T00:45:56.796Z",
+        "source": "https://bsky.app/profile/squirrellma.bsky.social/post/3mxfqpxnzn22n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:st5ddt3d4p4t2ezr27blrt6m/app.bsky.feed.post/3mxfqr6ho2k2s",
+        "handle": "sengonzalezny.bsky.social",
+        "text": "I am absolutely outraged that ICE agents shot a New Yorker in Marble Hill, and even more outraged to hear a child may have been involved, though unharmed. This is reckless, lawless, and dangerous for our families and communities. Abolish ICE now!",
+        "created_at": "2026-10-09T00:46:37.482Z",
+        "source": "https://bsky.app/profile/sengonzalezny.bsky.social/post/3mxfqr6ho2k2s",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy3473q2mwo6dqx6cvb7kf4x/app.bsky.feed.post/3mxfqr7nlwc2n",
+        "handle": "nevint.bsky.social",
+        "text": "We watched Americans in New York, Illinois, Minnesota take a stand, and this was happening all over the country.",
+        "created_at": "2026-10-09T00:46:38.726Z",
+        "source": "https://bsky.app/profile/nevint.bsky.social/post/3mxfqr7nlwc2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vhuuz22ixmikwdnxx7xemjvl/app.bsky.feed.post/3mxfqrx2pm32c",
+        "handle": "insideukraine.bsky.social",
+        "text": "An Immigration and Customs Enforcement (ICE) agent shot and injured a person in the Bronx, New York, on October 8, according to law enforcement sources.\n\nThe person was hospitalized with non-life-threatening injuries.",
+        "created_at": "2026-10-09T00:47:03.273Z",
+        "source": "https://bsky.app/profile/insideukraine.bsky.social/post/3mxfqrx2pm32c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:czj2wa5qpmr4trvvwzjhfrgp/app.bsky.feed.post/3mxfqrxd45s2r",
+        "handle": "izzydizzydeergay.bsky.social",
+        "text": "CONTROL: RESONANT is about having autism in new york",
+        "created_at": "2026-10-09T00:47:03.541Z",
+        "source": "https://bsky.app/profile/izzydizzydeergay.bsky.social/post/3mxfqrxd45s2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ilslivqg7ku632yq62mfb3re/app.bsky.feed.post/3mxfqs5ovnc2q",
+        "handle": "dkwally.bsky.social",
+        "text": "TRUMPS DEATH SQUAD TERRORISTS ICE SHOT INTO CAR WITH A 5 YR OLD CHILD IN IY‼️🖕🤡🖕🧊\n\nICE agents shot and wounded man in New York while making an arrest, officials say | khou.com share.google/VsGyBjfevGer...",
+        "created_at": "2026-10-09T00:47:10.223Z",
+        "source": "https://bsky.app/profile/dkwally.bsky.social/post/3mxfqs5ovnc2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j37zetcnytvnfjlk4ca3d2yv/app.bsky.feed.post/3mxfqu4r2p22o",
+        "handle": "newyorkstateag.bsky.social",
+        "text": "Earlier today, ICE shot a New Yorker in front of a child in Marble Hill. I am keeping the victim and their family in my prayers tonight.\n\nWe need a full investigation into this shooting. We need accountability.",
+        "created_at": "2026-10-09T00:48:16.357Z",
+        "source": "https://bsky.app/profile/newyorkstateag.bsky.social/post/3mxfqu4r2p22o",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3armyjpde5t2226pviltl36e/app.bsky.feed.post/3mxfqug64ic2f",
+        "handle": "loriperkinsrab.bsky.social",
+        "text": "Man shot in vehicle during ICE operation in Marble Hill, Manhattan | abc7ny.com",
+        "created_at": "2026-10-09T00:48:26.219Z",
+        "source": "https://bsky.app/profile/loriperkinsrab.bsky.social/post/3mxfqug64ic2f",
         "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
         "precision_level": "city",
         "location_text": "Marble Hill",

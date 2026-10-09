@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T15:00:15.010764Z",
-    "total_pins": 63
+    "generated_at": "2026-10-09T15:08:55.968855Z",
+    "total_pins": 67
   },
   "features": [
     {
@@ -1328,6 +1328,90 @@
         "text": "apnews.com/article/new-... officer shoots a man while making an arrest in New York, officials say. 🤬",
         "created_at": "2026-10-09T14:59:26.807Z",
         "source": "https://bsky.app/profile/anubis12.bsky.social/post/3mxhag5dizk2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yosojsta3nm5qiod5zqixzur/app.bsky.feed.post/3mxharae4n32w",
+        "handle": "democracynow.org",
+        "text": "Masked federal agents apparently posing as construction workers attempted to arrest 28-year-old Oscar Belgal in New York on Thursday.",
+        "created_at": "2026-10-09T15:05:39.052856265Z",
+        "source": "https://bsky.app/profile/democracynow.org/post/3mxharae4n32w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rikusqceczsk7n7hn7hzypmt/app.bsky.feed.post/3mxhavkyunk2q",
+        "handle": "littleredwhip.bsky.social",
+        "text": "Got offers to shoot in New York, Copenhagen, and Los Angeles. Got a meeting with an agent for vanilla stuff Saturday. Waiting on offers from several startups. Still need to take the bar. \n\nSometimes I wish I were religious so I could ask someone else for guidance because what the fuck?!",
+        "created_at": "2026-10-09T15:08:04.451Z",
+        "source": "https://bsky.app/profile/littleredwhip.bsky.social/post/3mxhavkyunk2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fsti2hy6ys6umrk2hwaj57zf/app.bsky.feed.post/3mxhavxc3ns2v",
+        "handle": "lukeepplin.bsky.social",
+        "text": "Found at a toy store in Beacon, New York. Reader, I bought it.",
+        "created_at": "2026-10-09T15:08:17.335Z",
+        "source": "https://bsky.app/profile/lukeepplin.bsky.social/post/3mxhavxc3ns2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vdyus7rywm4677lm3ueuxnjm/app.bsky.feed.post/3mxhavxj67s24",
+        "handle": "ls2000.bsky.social",
+        "text": "Trump immigrant purge could cut social security for Americans by $2,000 a year\nNew report on economic cost of anti-immigration campaign projects 8.6% reduction in retirement payments by 2034\nAlexandra Villarreal in New York\nwww.theguardian.com/us-news/2026...",
+        "created_at": "2026-10-09T15:08:17.572Z",
+        "source": "https://bsky.app/profile/ls2000.bsky.social/post/3mxhavxj67s24",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

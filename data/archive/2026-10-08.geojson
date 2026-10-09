@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:17:42.945863Z",
-    "total_pins": 119
+    "generated_at": "2026-10-09T01:23:38.661884Z",
+    "total_pins": 120
   },
   "features": [
     {
@@ -2508,6 +2508,27 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2swl4c54byt3it23whl5mu4w/app.bsky.feed.post/3mxfsnkyqtl2o",
+        "handle": "spectrumnewsny1.bsky.social",
+        "text": "A man was shot by ICE agents in the Marble Hill section of Manhattan Thursday afternoon, according to authorities.\n\nOne person who witnessed the shooting described the scene, saying everyone nearby ran and hid when they heard the shots.",
+        "created_at": "2026-10-09T01:20:23.837Z",
+        "source": "https://bsky.app/profile/spectrumnewsny1.bsky.social/post/3mxfsnkyqtl2o",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
       }
     }
   ]

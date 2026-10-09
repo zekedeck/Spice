@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:45:17.067371Z",
-    "total_pins": 127
+    "generated_at": "2026-10-09T01:53:10.742010Z",
+    "total_pins": 129
   },
   "features": [
     {
@@ -2676,6 +2676,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3mxfugleank2q",
+        "handle": "mayhem1994.bsky.social",
+        "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas. ￼",
+        "created_at": "2026-10-09T01:52:16.870Z",
+        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugleank2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3mxfugx2fck2q",
+        "handle": "mayhem1994.bsky.social",
+        "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas.",
+        "created_at": "2026-10-09T01:52:29.131Z",
+        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugx2fck2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

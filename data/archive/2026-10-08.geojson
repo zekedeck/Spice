@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T02:13:52.319648Z",
-    "total_pins": 131
+    "generated_at": "2026-10-09T02:28:38.254721Z",
+    "total_pins": 134
   },
   "features": [
     {
@@ -2756,6 +2756,69 @@
         "text": "Get them the fuck out of our country they were harassing people in Rochester, New York last summer.",
         "created_at": "2026-10-09T02:13:06.410Z",
         "source": "https://bsky.app/profile/cpagal.bsky.social/post/3mxfvlsz5lc2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:usw4nu6ei4vcf5xsq4cjqtd5/app.bsky.feed.post/3mxfwdew5lc2o",
+        "handle": "chinaawakens.org",
+        "text": "China Democracy Party members chant for freedom in Times Square on the 25th anniversary of Operation Enduring Freedom.\n2026年10月7日，中国民主党成员在纽约时代广场举拳喊口号，纪念持久自由行动25周年。\n\nyoutube.com/shorts/NV_yC...\n#中国民主党 #纽约时代广场 #持久自由行动",
+        "created_at": "2026-10-09T02:26:16.935Z",
+        "source": "https://bsky.app/profile/chinaawakens.org/post/3mxfwdew5lc2o",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dxnjy6eq5tv5yin2tmjapcca/app.bsky.feed.post/3mxfwe74xes2t",
+        "handle": "kjshepherd.bsky.social",
+        "text": "I truly have a low standard for bartending in New York because it is either the world's best or the world's worst, no middle ground, but I do expect someone to talk over a affected mumble and like not be fucking weird at everyone who's a little friend",
+        "created_at": "2026-10-09T02:26:44.424Z",
+        "source": "https://bsky.app/profile/kjshepherd.bsky.social/post/3mxfwe74xes2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z2gdgxz2um3eq47a2ebsz3wz/app.bsky.feed.post/3mxfwgupis623",
+        "handle": "venezuelanewschepa.bsky.social",
+        "text": "An ICE agent shot and injured a man in the Bronx, New York, while he was in a car with a child.\n\nFuente: El País\n🔗\n\nhttps://elpais.com/us/migracion/2026-10-08/un-agente-del-ice-dispara-y-hiere-a-una-persona-en-la-ciudad-de-nueva-york.html",
+        "created_at": "2026-10-09T02:28:14.067655+00:00",
+        "source": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mxfwgupis623",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

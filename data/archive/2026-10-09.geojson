@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:30:08.185015Z",
-    "total_pins": 96
+    "generated_at": "2026-10-09T19:47:04.265731Z",
+    "total_pins": 101
   },
   "features": [
     {
@@ -2025,6 +2025,111 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wq75sxtabr36od4vty2ipg2y/app.bsky.feed.post/3mxhqdiugsc2h",
+        "handle": "delauro.house.gov",
+        "text": "ICE continues to terrorize our communities with zero accountability; this time in New York, they shot a man with his 5-year-old child in the car.\n \nICE must be reined in before more senseless violence continues. ICE must not get another dime until reforms. The violence must end.",
+        "created_at": "2026-10-09T19:44:18.101Z",
+        "source": "https://bsky.app/profile/delauro.house.gov/post/3mxhqdiugsc2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hclxw3cnxpfjjabpkkciv4zo/app.bsky.feed.post/3mxhqetpigg2g",
+        "handle": "seennfl.bsky.social",
+        "text": "Cleveland (3-1) at New York (1-3), 1 ET on CBS. The Browns are coming off a win over the Steelers but their offense is 24th in yards. The Jets can't run it, 27th in the league. Breece Hall is out, so it's on Geno Smith and Garrett Wilson #NFL #Browns #Jets",
+        "created_at": "2026-10-09T19:45:00.452Z",
+        "source": "https://bsky.app/profile/seennfl.bsky.social/post/3mxhqetpigg2g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843968,
+          40.5729833
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxhqevc2i42v",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Parks seeks a business to manage Coney Island’s Parachute Jump tower, allowing approved personal messages and requiring renovation of the Cyclone roller coaster.\n",
+        "created_at": "2026-10-09T19:45:04.406Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxhqevc2i42v",
+        "mapped_location": "Parachute Jump, Riegelmann Boardwalk, Brighton Beach, Coney Island, Brooklyn, Kings County, New York, 11224, United States",
+        "precision_level": "city",
+        "location_text": "Parachute Jump",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mxhqfbmc7s2g",
+        "handle": "innercitypress.bsky.social",
+        "text": "Judge Cronan: Around 1 pm the Government wrote in that they intend to detain the Petitioner in MDC-Brooklyn. Is that still the Government's position?\nAUSA Waterman: Yes.\nJudge: Was he located in SDNY when the petition was filed?\nAUSA: No. He was in New Jersey.",
+        "created_at": "2026-10-09T19:45:17.604Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mxhqfbmc7s2g",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sjiqjo33a3br4iyed7ph5oym/app.bsky.feed.post/3mxhqgrfe3f2q",
+        "handle": "nospinmedia.bsky.social",
+        "text": "🚨 A federal ICE officer shot Oscar Belgal, a 28-year-old Dominican man, during an arrest operation in NYC’s Marble Hill neighborhood with his 5-year-old son in the car. Belgal was hit seven times and hospitalized; his son was unharmed. Federal authorities are investigating. #ICE #NYC #Shooting",
+        "created_at": "2026-10-09T19:46:07.599Z",
+        "source": "https://bsky.app/profile/nospinmedia.bsky.social/post/3mxhqgrfe3f2q",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
       }
     }
   ]

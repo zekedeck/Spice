@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T15:38:10.272999Z",
-    "total_pins": 76
+    "generated_at": "2026-10-09T16:10:47.221452Z",
+    "total_pins": 80
   },
   "features": [
     {
@@ -1605,6 +1605,90 @@
         "precision_level": "city",
         "location_text": "the Manhattan Bridge",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:majj3qxlov2yfi3lr36q7nfk/app.bsky.feed.post/3mxhe7y7tka2q",
+        "handle": "wkmsfm.bsky.social",
+        "text": "USA Today’s parent company filed a lawsuit against OpenAI in New York federal court Thursday for allegedly using reporting from its 19 publications, including Louisville’s Courier Journal, without permission.\nwww.wkms.org/2026-10-09/u...",
+        "created_at": "2026-10-09T16:07:33.747Z",
+        "source": "https://bsky.app/profile/wkmsfm.bsky.social/post/3mxhe7y7tka2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9901888,
+          40.7360717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:idpan7zoavmxgciqqeastadx/app.bsky.feed.post/3mxhebkssgm2x",
+        "handle": "hfhr.bsky.social",
+        "text": "NYC TODAY, 5:30 PM: Join us at the Gandhi Statue in Union Square for our In Defense of Indian Democracy rally.\nAfterward, we’ll march together to Foley Square to join the larger protest against yesterday’s ICE shooting.\n Bring signs, friends & your voice.",
+        "created_at": "2026-10-09T16:08:28.115Z",
+        "source": "https://bsky.app/profile/hfhr.bsky.social/post/3mxhebkssgm2x",
+        "mapped_location": "Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "city",
+        "location_text": "Union Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z5dcgwxgfgqj72dyuzkp6nu2/app.bsky.feed.post/3mxhed2i42rl2",
+        "handle": "nonilex.masto.ai.ap.brid.gy",
+        "text": "A federal #immigration agent shot & wounded a man in #NYC Thursday, heightening concerns about immigration enforcement in a city with millions of immigrants.\n\nThe man, #OscarBelgal, 28, a Dominican immigrant, was shot in the Marble Hill neighborhood as #ICE agents tried to arrest him while he […]",
+        "created_at": "2026-10-09T16:09:13.000Z",
+        "source": "https://bsky.app/profile/nonilex.masto.ai.ap.brid.gy/post/3mxhed2i42rl2",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7oig3ztl52xu4garvx43dhqd/app.bsky.feed.post/3mxheegcyni2v",
+        "handle": "uiuxjobsboard.bsky.social",
+        "text": "Fizz is hiring a Product Manager, Design & UX in New York, United States. https://uiuxjobsboard.com/job/1630526-product-manager-design-ux-new-york-united-states\n\n#DesignJobs #UIUX #UXDesign",
+        "created_at": "2026-10-09T16:10:02.708Z",
+        "source": "https://bsky.app/profile/uiuxjobsboard.bsky.social/post/3mxheegcyni2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

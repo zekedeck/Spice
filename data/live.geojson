@@ -1,157 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T15:38:10.261979Z",
-    "total_pins": 301
+    "generated_at": "2026-10-09T16:10:47.213528Z",
+    "total_pins": 298
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9915987,
-          40.7020375
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3mxcbqeslzi2b",
-        "handle": "travelingadvisor.bsky.social",
-        "text": "Fun fact: Opened on May 24, 1883, the Brooklyn Bridge was the first fixed crossing of the East River.",
-        "created_at": "2026-10-07T15:39:44.424346+00:00",
-        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3mxcbqeslzi2b",
-        "mapped_location": "Brooklyn Bridge, Dumbo, Brooklyn, Kings County, New York, 11242, United States",
-        "precision_level": "city",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kfxcudujhmwjknb377p5y7p3/app.bsky.feed.post/3mxccfxewmx2g",
-        "handle": "financemastering.com",
-        "text": "Wall Street is on track for a potential record $90 billion in profits, boosting New York tax revenues, as State Comptroller Thomas DiNapoli discusses jobs, bonuses, rebates, and the risks of an AI-driven bubble.",
-        "created_at": "2026-10-07T15:51:49Z",
-        "source": "https://bsky.app/profile/financemastering.com/post/3mxccfxewmx2g",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6v3itqjwcev4fwtba7ld2t7a/app.bsky.feed.post/3mxcct2nues2l",
-        "handle": "panicopress.bsky.social",
-        "text": "PANICO SPOTLIGHT: GUNBREED BOOK 5\n\nRETURN TO BAJO TIERRA.\n\nGUNBREED BOOK 5: BLOOD ON THE HILLS brings together multiple creators for another trip into the dark and twisted world of GUNBREED.\n\nPick up GUNBREED BOOK 5 from PANICO PRESS at NEW YORK COMIC CON this weekend, booth 1855!",
-        "created_at": "2026-10-07T15:59:08.977Z",
-        "source": "https://bsky.app/profile/panicopress.bsky.social/post/3mxcct2nues2l",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NEW YORK",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fqs4pjjadf3pqbjusb2qm25t/app.bsky.feed.post/3mxcd4bw5422c",
-        "handle": "eligit.bsky.social",
-        "text": "I think there are some folks in the New York money machine (a right wing coded activity) who are not obsessively right wing on social issues.\nThis is a dynamic which has always been part of NY politics.\nAnd even more left wing pols don't want to poison the money machine which pays for everything.",
-        "created_at": "2026-10-07T16:04:18.601Z",
-        "source": "https://bsky.app/profile/eligit.bsky.social/post/3mxcd4bw5422c",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kn4j6znxqrhrvm3sr4hz6njv/app.bsky.feed.post/3mxcddlw7bc23",
-        "handle": "grimomenmag.bsky.social",
-        "text": "Artist Michael Blank will be joining us at New York Comic Con on Sunday, come meet him at Booth 1857",
-        "created_at": "2026-10-07T16:08:23.958Z",
-        "source": "https://bsky.app/profile/grimomenmag.bsky.social/post/3mxcddlw7bc23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zkpzrfquay34j6ek627wqtkf/app.bsky.feed.post/3mxcdeb2xjc27",
-        "handle": "ishootsquares.bsky.social",
-        "text": "Today's #AccidentalArtist is Mark Rothko, one of whose earlier works can be found on a wall of a partly demolished building in Colmar, Alsace. The other image below hangs in the Museum of Modern Art in New York.\n\n#aofoto #aoFotoCall #photography #art",
-        "created_at": "2026-10-07T16:08:46.139Z",
-        "source": "https://bsky.app/profile/ishootsquares.bsky.social/post/3mxcdeb2xjc27",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:txqadrlf3eadbpjvyoqu2ind/app.bsky.feed.post/3mxcdf7bm522q",
-        "handle": "westcoastsexgod.bsky.social",
-        "text": "I am tempted to buy this book, because I know thrt will be amazing, but I know I would look at it exactly one time. Also, Goodwife, having lived in New York, would scorn me for being pretentious.",
-        "created_at": "2026-10-07T16:09:17.817Z",
-        "source": "https://bsky.app/profile/westcoastsexgod.bsky.social/post/3mxcdf7bm522q",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6338,6 +6191,90 @@
         "precision_level": "city",
         "location_text": "the Manhattan Bridge",
         "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:majj3qxlov2yfi3lr36q7nfk/app.bsky.feed.post/3mxhe7y7tka2q",
+        "handle": "wkmsfm.bsky.social",
+        "text": "USA Today’s parent company filed a lawsuit against OpenAI in New York federal court Thursday for allegedly using reporting from its 19 publications, including Louisville’s Courier Journal, without permission.\nwww.wkms.org/2026-10-09/u...",
+        "created_at": "2026-10-09T16:07:33.747Z",
+        "source": "https://bsky.app/profile/wkmsfm.bsky.social/post/3mxhe7y7tka2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9901888,
+          40.7360717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:idpan7zoavmxgciqqeastadx/app.bsky.feed.post/3mxhebkssgm2x",
+        "handle": "hfhr.bsky.social",
+        "text": "NYC TODAY, 5:30 PM: Join us at the Gandhi Statue in Union Square for our In Defense of Indian Democracy rally.\nAfterward, we’ll march together to Foley Square to join the larger protest against yesterday’s ICE shooting.\n Bring signs, friends & your voice.",
+        "created_at": "2026-10-09T16:08:28.115Z",
+        "source": "https://bsky.app/profile/hfhr.bsky.social/post/3mxhebkssgm2x",
+        "mapped_location": "Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "city",
+        "location_text": "Union Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z5dcgwxgfgqj72dyuzkp6nu2/app.bsky.feed.post/3mxhed2i42rl2",
+        "handle": "nonilex.masto.ai.ap.brid.gy",
+        "text": "A federal #immigration agent shot & wounded a man in #NYC Thursday, heightening concerns about immigration enforcement in a city with millions of immigrants.\n\nThe man, #OscarBelgal, 28, a Dominican immigrant, was shot in the Marble Hill neighborhood as #ICE agents tried to arrest him while he […]",
+        "created_at": "2026-10-09T16:09:13.000Z",
+        "source": "https://bsky.app/profile/nonilex.masto.ai.ap.brid.gy/post/3mxhed2i42rl2",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7oig3ztl52xu4garvx43dhqd/app.bsky.feed.post/3mxheegcyni2v",
+        "handle": "uiuxjobsboard.bsky.social",
+        "text": "Fizz is hiring a Product Manager, Design & UX in New York, United States. https://uiuxjobsboard.com/job/1630526-product-manager-design-ux-new-york-united-states\n\n#DesignJobs #UIUX #UXDesign",
+        "created_at": "2026-10-09T16:10:02.708Z",
+        "source": "https://bsky.app/profile/uiuxjobsboard.bsky.social/post/3mxheegcyni2v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

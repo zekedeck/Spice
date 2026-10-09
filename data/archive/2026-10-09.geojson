@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T19:18:03.435934Z",
-    "total_pins": 93
+    "generated_at": "2026-10-09T19:30:08.185015Z",
+    "total_pins": 96
   },
   "features": [
     {
@@ -1958,6 +1958,69 @@
         "text": "So jealous! Looks like you've had a great time in New York!",
         "created_at": "2026-10-09T19:14:54.630Z",
         "source": "https://bsky.app/profile/derekexmachina.com/post/3mxhoox3n422s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4wl3nbp7llokumzxcsvb5hvu/app.bsky.feed.post/3mxhpgcvixk2o",
+        "handle": "allysapol.bsky.social",
+        "text": "Where are your dads?\nMicheal jay Garfinkel is an immigration lawyer in Manhattan, New York!",
+        "created_at": "2026-10-09T19:27:58.766Z",
+        "source": "https://bsky.app/profile/allysapol.bsky.social/post/3mxhpgcvixk2o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rinppbcile4bndh4psn6v4et/app.bsky.feed.post/3mxhpgf2qrs2i",
+        "handle": "animesuperhero.bsky.social",
+        "text": "Mobile Suit Gundam Seed Freedom Zero had a panel at New York Comic Con on October 8, 2026 from 3:30 PM – 4:30 PM Eastern Time. The big announcement to come out of this convention panel is that the film... #GundamSeed #GundamSeedFreedomZero #NewYorkComicCon animesuperhero.com/nycc-2026-gu...",
+        "created_at": "2026-10-09T19:28:01.035Z",
+        "source": "https://bsky.app/profile/animesuperhero.bsky.social/post/3mxhpgf2qrs2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3rrdfn6pefmtfmvkez7lnbln/app.bsky.feed.post/3mxhpgkzop226",
+        "handle": "newzblock.bsky.social",
+        "text": "🔦 UNDER-REPORTED — barely anyone else is covering this:\n\nOutrage in New York over the case of the Dominican man sh\n\n#NYC #ICE #BreakingNews #Immigration #NewYorkCity #HumanRights #Justice #News\n\nRead more: https://newzblock.com/story/identifican-como-oscar-belgal-al-dominicano-herido-por-ice-e16e6d",
+        "created_at": "2026-10-09T19:28:07.242Z",
+        "source": "https://bsky.app/profile/newzblock.bsky.social/post/3mxhpgkzop226",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,115 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T20:31:20.161590Z",
-    "total_pins": 279
+    "generated_at": "2026-10-09T21:14:24.724113Z",
+    "total_pins": 276
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.722,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6vclg75je5soq3cxipnlqn2n/app.bsky.feed.post/3mxcswalahc2w",
-        "handle": "itsinqueens.bsky.social",
-        "text": "Learn how to turn squash into an 18th century staple at Queens County Farm Museum on Oct. 10. More: tinyurl.com/f4wzttnj",
-        "created_at": "2026-10-07T20:47:15.736Z",
-        "source": "https://bsky.app/profile/itsinqueens.bsky.social/post/3mxcswalahc2w",
-        "mapped_location": "Queens County Farm Museum, Queens, Queens County, New York, United States",
-        "precision_level": "address",
-        "location_text": "Queens County Farm Museum",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wt4lr5gjv3zn4wsxt7tbsx7q/app.bsky.feed.post/3mxcsxanq4c2a",
-        "handle": "gooeatsyoo.bsky.social",
-        "text": "Absolutely wild that while the world is burning down around us, Mamdani is somehow just fixing everything in new york on a daily basis\n\nI love this man",
-        "created_at": "2026-10-07T20:47:49.374Z",
-        "source": "https://bsky.app/profile/gooeatsyoo.bsky.social/post/3mxcsxanq4c2a",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "new york",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:acxaxpjo6md5st5ufvraqcob/app.bsky.feed.post/3mxctpvloa22i",
-        "handle": "swingingstorm.bsky.social",
-        "text": "I am back in New York! And I get to share exciting news soooooooooon",
-        "created_at": "2026-10-07T21:01:36.630Z",
-        "source": "https://bsky.app/profile/swingingstorm.bsky.social/post/3mxctpvloa22i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lm7tyxogxk4xzs3cg4oxdb2y/app.bsky.feed.post/3mxctqbrcy223",
-        "handle": "primrosegreen2.bsky.social",
-        "text": "#ClocktoberMusic\n\nDay 8\n\nCourtney Barnett - An Illustration Of Loneliness (Sleepless In New York)\n(Sometimes I Sit And Think, And Sometimes I Just Sit; 2015)\n\n\"I lay awake at four, staring at the wall\nCounting all the cracks backwards in my best French\"\n\nwww.youtube.com/watch?v=t4lk...",
-        "created_at": "2026-10-07T21:01:49.400Z",
-        "source": "https://bsky.app/profile/primrosegreen2.bsky.social/post/3mxctqbrcy223",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ir2b7mnp3f7qouemawhhew72/app.bsky.feed.post/3mxctrjqcit2r",
-        "handle": "biztoc.com",
-        "text": "U.S. Prosecutors Prepare New Charges Against Maduro And His Wife — U.S. prosecutors in New York are preparing new charges against former Venezuelan President Nicolás Maduro and his wife, Cilia Flores. The report did not specify the charges, adding a new development to the couple’s legal…",
-        "created_at": "2026-10-07T21:02:31.228Z",
-        "source": "https://bsky.app/profile/biztoc.com/post/3mxctrjqcit2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5870,6 +5765,48 @@
         "text": "Big changes are coming to high school graduation requirements in New York, with the Regents exams no longer mandatory for current juniors and below! \n\nLearn more here\n\n#NY #CitizenPortal #StudentAchievement #LocalAssessment #PublicEngagement #NewYorkEducation",
         "created_at": "2026-10-09T20:30:48.688Z",
         "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxhswodxag2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ba7ifamevsbdzhet3xyluyzi/app.bsky.feed.post/3mxhvajsoqk27",
+        "handle": "bubbleberlino.bsky.social",
+        "text": "\"There is a sickness in New York.\" 🤔\nOr all over America. \nThe fish stinks from the head in a criminal rogue country where the justice doesn't work and ethical values are rotten and noch checks& balances ist left .",
+        "created_at": "2026-10-09T21:12:07.137Z",
+        "source": "https://bsky.app/profile/bubbleberlino.bsky.social/post/3mxhvajsoqk27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3vvjuarlpx2456ftfhruc7zu/app.bsky.feed.post/3mxhvdez3g22a",
+        "handle": "ziamacmarten.bsky.social",
+        "text": "Hochul needs to crush him utterly but his brand of conspiracy mongering makes him dangerous in New York",
+        "created_at": "2026-10-09T21:13:42.769Z",
+        "source": "https://bsky.app/profile/ziamacmarten.bsky.social/post/3mxhvdez3g22a",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

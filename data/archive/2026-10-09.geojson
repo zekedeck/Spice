@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T20:31:20.169466Z",
-    "total_pins": 115
+    "generated_at": "2026-10-09T21:14:24.736766Z",
+    "total_pins": 117
   },
   "features": [
     {
@@ -2420,6 +2420,48 @@
         "text": "Big changes are coming to high school graduation requirements in New York, with the Regents exams no longer mandatory for current juniors and below! \n\nLearn more here\n\n#NY #CitizenPortal #StudentAchievement #LocalAssessment #PublicEngagement #NewYorkEducation",
         "created_at": "2026-10-09T20:30:48.688Z",
         "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxhswodxag2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ba7ifamevsbdzhet3xyluyzi/app.bsky.feed.post/3mxhvajsoqk27",
+        "handle": "bubbleberlino.bsky.social",
+        "text": "\"There is a sickness in New York.\" 🤔\nOr all over America. \nThe fish stinks from the head in a criminal rogue country where the justice doesn't work and ethical values are rotten and noch checks& balances ist left .",
+        "created_at": "2026-10-09T21:12:07.137Z",
+        "source": "https://bsky.app/profile/bubbleberlino.bsky.social/post/3mxhvajsoqk27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3vvjuarlpx2456ftfhruc7zu/app.bsky.feed.post/3mxhvdez3g22a",
+        "handle": "ziamacmarten.bsky.social",
+        "text": "Hochul needs to crush him utterly but his brand of conspiracy mongering makes him dangerous in New York",
+        "created_at": "2026-10-09T21:13:42.769Z",
+        "source": "https://bsky.app/profile/ziamacmarten.bsky.social/post/3mxhvdez3g22a",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T20:22:01.618479Z",
-    "total_pins": 276
+    "generated_at": "2026-10-09T20:31:20.161590Z",
+    "total_pins": 279
   },
   "features": [
     {
@@ -5811,6 +5811,69 @@
         "precision_level": "city",
         "location_text": "Marble Hill/225th street",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nkwnr3emph5sgbwrdpkozbla/app.bsky.feed.post/3mxhsu6aczc2o",
+        "handle": "comradeswkids.bsky.social",
+        "text": "As @socialists.nyc parents and caregivers we are outraged by the news that ICE shot Oscar Bengal in front of his child in Marble Hill yesterday. No parent should be gunned down while picking up thier kids from school.",
+        "created_at": "2026-10-09T20:29:24.865Z",
+        "source": "https://bsky.app/profile/comradeswkids.bsky.social/post/3mxhsu6aczc2o",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tbj36aljn733us5zr7fer3mf/app.bsky.feed.post/3mxhswfamv22h",
+        "handle": "kidmouser.bsky.social",
+        "text": "Right now, the only country that's not exercising a right to arrest Netanyahu... is Trump's USA.  But because the recent UN General Assembly took place in New York.... once again that murderous man was able to speak to a wider audience and repeat his lies.  Kudos to the vast majority who walked out.",
+        "created_at": "2026-10-09T20:30:39.278Z",
+        "source": "https://bsky.app/profile/kidmouser.bsky.social/post/3mxhswfamv22h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxhswodxag2h",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "Big changes are coming to high school graduation requirements in New York, with the Regents exams no longer mandatory for current juniors and below! \n\nLearn more here\n\n#NY #CitizenPortal #StudentAchievement #LocalAssessment #PublicEngagement #NewYorkEducation",
+        "created_at": "2026-10-09T20:30:48.688Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxhswodxag2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

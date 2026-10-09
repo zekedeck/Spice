@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T12:58:28.804869Z",
-    "total_pins": 281
+    "generated_at": "2026-10-09T13:25:31.178009Z",
+    "total_pins": 284
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vzmnljt7otfbbgrmachtefxh/app.bsky.feed.post/3mxbzcl4wwa2b",
-        "handle": "news-flows-ir.bsky.social",
-        "text": "Tributes paid to father of seven and 'wonderfully talented' GAA player following death in New York\n\nThe 56-year-old passed away in a road traffic accident, with his wife described as being in a 'critical condition'\n",
-        "created_at": "2026-10-07T13:02:59.000000Z",
-        "source": "https://bsky.app/profile/news-flows-ir.bsky.social/post/3mxbzcl4wwa2b",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5914,6 +5893,90 @@
         "precision_level": "state",
         "location_text": "new York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p4yqrnrw6bkhlsmvyfcooyfw/app.bsky.feed.post/3mxh2yiseh225",
+        "handle": "jencalleja.bsky.social",
+        "text": "Ok, off I go! ✈️ \n\nWorld tour part III kicks off this Monday in New York! \n\n@invisibooks.bsky.social @prototypepubs.bsky.social",
+        "created_at": "2026-10-09T13:22:20.352Z",
+        "source": "https://bsky.app/profile/jencalleja.bsky.social/post/3mxh2yiseh225",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy4fpfxgsd5ml3a644jusqmn/app.bsky.feed.post/3mxh32l7isz25",
+        "handle": "letters.resist.bot",
+        "text": "From a constituent in 📍 New York, NY",
+        "created_at": "2026-10-09T13:23:29.814Z",
+        "source": "https://bsky.app/profile/letters.resist.bot/post/3mxh32l7isz25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2zmkt3nz5fd2x2tfghwjol5j/app.bsky.feed.post/3mxh33un77c2j",
+        "handle": "iddybud.bsky.social",
+        "text": "Too much, too soon.\nCandidates pushing the data center agenda are almost certain to be losers in New York state.\n\n➡️ A furious backlash erupted before even a single permit application was filed with the municipal government.",
+        "created_at": "2026-10-09T13:24:13.432Z",
+        "source": "https://bsky.app/profile/iddybud.bsky.social/post/3mxh33un77c2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:waor3x5ai3ydk5qs5htpxwxi/app.bsky.feed.post/3mxh342hmzk2i",
+        "handle": "mikki756.bsky.social",
+        "text": "Hey Ruhle u need to stop running campaign ads for Ice. Mark Wayne Mullet sounded like he was running for office during that so-called press conference in New york on October 9th 2026. We all know Republican politicians LIE it's all they do.",
+        "created_at": "2026-10-09T13:24:19.537Z",
+        "source": "https://bsky.app/profile/mikki756.bsky.social/post/3mxh342hmzk2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New york",
+        "confidence": 1.0
       }
     }
   ]

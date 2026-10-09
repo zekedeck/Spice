@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T21:14:24.736766Z",
-    "total_pins": 117
+    "generated_at": "2026-10-09T21:25:09.874173Z",
+    "total_pins": 119
   },
   "features": [
     {
@@ -2466,6 +2466,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gvk6ylwl47vqafbaouzjs2t4/app.bsky.feed.post/3mxhvsrtnmk2c",
+        "handle": "timetofixit.bsky.social",
+        "text": "Homeland Security chief defends ICE shooting in New York, calling the victim “a threat to our community” - POLITICO\n\napple.news/AQykpEs51R0C...",
+        "created_at": "2026-10-09T21:22:19.538Z",
+        "source": "https://bsky.app/profile/timetofixit.bsky.social/post/3mxhvsrtnmk2c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jeuauk2dzkn2rgaa2xasu3hk/app.bsky.feed.post/3mxhvu4c4d22l",
+        "handle": "johnlouiseisenberg.bsky.social",
+        "text": "You're entirely welcome. \nI sang that to my daughters as a lullaby.\nI've always been a big fan of Loggins & Messina.\nOn my 18th birthday I saw them in concert at Madison Square Garden in NYC with POCO opening for them.\nThis was another great live performance:\nyoutu.be/oKZt5TKPuyU?...",
+        "created_at": "2026-10-09T21:23:04.052Z",
+        "source": "https://bsky.app/profile/johnlouiseisenberg.bsky.social/post/3mxhvu4c4d22l",
+        "mapped_location": "Madison Square Garden, 4, Pennsylvania Plaza, Chelsea District, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 1.0
       }
     }
   ]

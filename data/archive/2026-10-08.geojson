@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T01:23:38.661884Z",
-    "total_pins": 120
+    "generated_at": "2026-10-09T01:28:39.070022Z",
+    "total_pins": 123
   },
   "features": [
     {
@@ -2529,6 +2529,69 @@
         "precision_level": "city",
         "location_text": "Marble Hill",
         "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w6wv25oshzvqkhqc4xqg72h3/app.bsky.feed.post/3mxfsygbkhs2f",
+        "handle": "kiblade.bsky.social",
+        "text": "Ridiculous REPUBLICANS trying win in NEW YORK STATE.",
+        "created_at": "2026-10-09T01:26:28.035Z",
+        "source": "https://bsky.app/profile/kiblade.bsky.social/post/3mxfsygbkhs2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:psj4fhxs37nlohyylmy75peh/app.bsky.feed.post/3mxfszxe5b22h",
+        "handle": "resistfight.com",
+        "text": "BREAKING 🚨: Nazi ICE shot and hospitalized a man in Marble Hill, Manhattan. Witnesses say agents fired through his windshield. They heard four to seven rapid shots and no shouted commands. ICE agents later left; NYPD secured the scene. Watch. Share this everywhere—demand answers for the shooting.",
+        "created_at": "2026-10-09T01:27:19.500Z",
+        "source": "https://bsky.app/profile/resistfight.com/post/3mxfszxe5b22h",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:supgrwdnh73h7fymcbnjcscd/app.bsky.feed.post/3mxft2pq2c224",
+        "handle": "winenotwhine.bsky.social",
+        "text": "They’re turning every street into a war zone. It’s time we fight back. ALL of us! There should be thousands of people in the streets in New York right now.\nHow many people have to be injured or murdered before we say ENOUGH!?",
+        "created_at": "2026-10-09T01:27:45.057Z",
+        "source": "https://bsky.app/profile/winenotwhine.bsky.social/post/3mxft2pq2c224",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

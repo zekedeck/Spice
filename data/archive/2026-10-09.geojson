@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T21:58:59.797612Z",
-    "total_pins": 123
+    "generated_at": "2026-10-09T22:33:21.498097Z",
+    "total_pins": 127
   },
   "features": [
     {
@@ -2588,6 +2588,90 @@
         "text": "We can condemn the shooting of a Dominican man by 🧊 in New York AND condemn the violence Dominican authorities inflict on Haitian migrants.\n\nOur solidarity must cross borders, too.\n\nNo one should have to prove they are worthy of humanity.\n\n#StopAntiHaitianism #endglobalantiblackness",
         "created_at": "2026-10-09T21:57:47.585Z",
         "source": "https://bsky.app/profile/laprofelgp.bsky.social/post/3mxhxs7cy5c25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxhzmnj4mt2b",
+        "handle": "mainstream-media.bsky.social",
+        "text": "WATCH LIVE: Trump speaks at rally in Syracuse, New York\n\nhttps://www.washingtonexaminer.com/n...",
+        "created_at": "2026-10-09T22:30:28.583623+00:00",
+        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxhzmnj4mt2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0030793,
+          40.714438
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:43ftp34k5guqqkjn2dpv4q2j/app.bsky.feed.post/3mxhzn4d4bab2",
+        "handle": "baslow.social.coop.ap.brid.gy",
+        "text": "Newly released video sheds light on Marble Hill ICE shooting as protests continue in NYC\n\n[Protests in Foley Square and Marble Hill]\n\nhttps://youtu.be/JDETmr9Plf4?si=jn2Gu1OxrHoy1dkO",
+        "created_at": "2026-10-09T22:30:40.000Z",
+        "source": "https://bsky.app/profile/baslow.social.coop.ap.brid.gy/post/3mxhzn4d4bab2",
+        "mapped_location": "Foley Square, Civic Center, Lower Manhattan, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Foley Square",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l6iudjwzj7s6xxy6mcy5mfzl/app.bsky.feed.post/3mxhzncnksc2u",
+        "handle": "kendylhanks.bsky.social",
+        "text": "Here is just one story about what we do—and the very real impact fly fishing has made for veterans we serve—by my friend Sue Kerver. Join me in supporting Project Healing Waters and come to New York in November. I’d love to introduce you to our crew. vimeo.com/1108252954?f...",
+        "created_at": "2026-10-09T22:30:50.798Z",
+        "source": "https://bsky.app/profile/kendylhanks.bsky.social/post/3mxhzncnksc2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gjzkgzjhmvuj2qcbjjl5xbhm/app.bsky.feed.post/3mxhznrucxs2x",
+        "handle": "stevencapsuto.bsky.social",
+        "text": "On Monday I'm giving a Zoom talk with video clips about the evolution of LGBT images on 20th-century TV. The event is sponsored by CBST in New York, and all are welcome to register by clicking the itty-bitty \"Register\" link at the end of the program description. 😀\n\ncbst.org/eventdetails...",
+        "created_at": "2026-10-09T22:31:06.755Z",
+        "source": "https://bsky.app/profile/stevencapsuto.bsky.social/post/3mxhznrucxs2x",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

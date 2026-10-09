@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-09T11:42:53.589025Z",
-    "total_pins": 272
+    "generated_at": "2026-10-09T12:17:45.269465Z",
+    "total_pins": 275
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vfr3b5xdbvktoj6uoegqzwux/app.bsky.feed.post/3mxcd24mipd2j",
-        "handle": "jeremydennis.bsky.social",
-        "text": "Upcoming tomorrow: \"Artists on the Rise\" featured work from my Rise series.\n\nLocation: RISE PROJECTS, New York, NY\n\nDates: October 8, 2026 - October 29, 2026\n\nFeatured work:\n- Why Must We Trespass to Visit Our Ancestors?, 2026\n\nhttps://www.jeremynative.com/events/event/group-show-artists-on-the-rise",
-        "created_at": "2026-10-07T12:03:04Z",
-        "source": "https://bsky.app/profile/jeremydennis.bsky.social/post/3mxcd24mipd2j",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.85
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5725,6 +5704,90 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nlg66iqy6gudln2olpe3c7pv/app.bsky.feed.post/3mxgxbpagls2e",
+        "handle": "ultramod2.bsky.social",
+        "text": "A lot of those apocalyptic types, really. Those Weathermen dipshits who blew themselves up in the Greenwich Village townhouse.",
+        "created_at": "2026-10-09T12:15:54.131Z",
+        "source": "https://bsky.app/profile/ultramod2.bsky.social/post/3mxgxbpagls2e",
+        "mapped_location": "Greenwich Village, 7th Avenue South, West Village, Manhattan, New York County, New York, 10014, United States",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4my5f37lxqnkdw2qhia4ind4/app.bsky.feed.post/3mxgxc64lvk2z",
+        "handle": "vob.bsky.social",
+        "text": "Marcus Rashford was born in manchester.\n\nBoris Johnson was born in new york.\n\nOnly one has been told they are not english.\n\nIt ain't the foreigner. Journalists whould be pointing this out of course, nevet time one of these clowns pretend it isn;t racism",
+        "created_at": "2026-10-09T12:16:09.735Z",
+        "source": "https://bsky.app/profile/vob.bsky.social/post/3mxgxc64lvk2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5v4aciyd64npzaga23sacet/app.bsky.feed.post/3mxgxd3nbfc2q",
+        "handle": "hopebuilding.bsky.social",
+        "text": "\"An Immigration and Customs Enforcement agent on the scene of a shooting in upper Manhattan on Thursday has repeatedly been accused in federal court of unlawful arrests and using force during arrests in New York and Minneapolis, a WIRED investigation finds.\"",
+        "created_at": "2026-10-09T12:16:40.688Z",
+        "source": "https://bsky.app/profile/hopebuilding.bsky.social/post/3mxgxd3nbfc2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:adarm7y6nfgu2vigqtq6a46c/app.bsky.feed.post/3mxgxdx23yc2r",
+        "handle": "ravindave63.bsky.social",
+        "text": "Even us up here by Lake Ontario in New York one ice out of the whole f****** State. Out of the whole f****** country they need to be put down like the rabid dogs that they are",
+        "created_at": "2026-10-09T12:17:09.421Z",
+        "source": "https://bsky.app/profile/ravindave63.bsky.social/post/3mxgxdx23yc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

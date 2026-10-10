@@ -1,325 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-10T19:08:31.725519Z",
-    "total_pins": 199
+    "generated_at": "2026-10-10T22:31:05.982067Z",
+    "total_pins": 186
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9915987,
-          40.7020375
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:izxpomdyri45gzhppiiyattq/app.bsky.feed.post/3mxf6segqpc2w",
-        "handle": "coachfinstock.bsky.social",
-        "text": "You are the dumbest people alive. You are a walking Kick Me sign. Selling you the Brooklyn Bridge on an installment plan so I can hit you with the service fees on top of the scam level of sucker.",
-        "created_at": "2026-10-08T19:25:09.945Z",
-        "source": "https://bsky.app/profile/coachfinstock.bsky.social/post/3mxf6segqpc2w",
-        "mapped_location": "Brooklyn Bridge, Dumbo, Brooklyn, Kings County, New York, 11242, United States",
-        "precision_level": "city",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:g7diml3o5czy3feqhl6jat2x/app.bsky.feed.post/3mxf6t6cd4s2r",
-        "handle": "cranebones.bsky.social",
-        "text": "Honestly my mom always just walks in when I wake up or am getting settled after coming home to alert me of shit that happened in the news\n\nThat's how I learned about 9/11. Just woke up and it's \"Someone flew a plane into a tower in New York.\"\n\nThanks, Mom",
-        "created_at": "2026-10-08T19:25:37.064Z",
-        "source": "https://bsky.app/profile/cranebones.bsky.social/post/3mxf6t6cd4s2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.002,
-          40.744
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vcyufljb4mexfpsnvo4ry5sm/app.bsky.feed.post/3mxf7vlkerc2w",
-        "handle": "lavrami.bsky.social",
-        "text": "Michael Mustafa Ulmer performing at the James Blood Ulmer Jazz Memorial at Saint Peter's Church, NYC Sept 29, 2026",
-        "created_at": "2026-10-08T19:44:51.805Z",
-        "source": "https://bsky.app/profile/lavrami.bsky.social/post/3mxf7vlkerc2w",
-        "mapped_location": "Saint Peter's Church, 342, West 20th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
-        "precision_level": "address",
-        "location_text": "Saint Peter's Church",
-        "confidence": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hdaycih2fvzx3olivstldujp/app.bsky.feed.post/3mxfboz4etc24",
-        "handle": "inspecter797.bsky.social",
-        "text": "Daniel Jones really followed his trajectory in New York in Indy: gets new offensive minded coach (Daboll/Steichen), plays well, gets injured, gets extended, comes back from injury, looks bad, and fans wonder why you paid him in the first place.",
-        "created_at": "2026-10-08T20:16:58.634Z",
-        "source": "https://bsky.app/profile/inspecter797.bsky.social/post/3mxfboz4etc24",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lnnvjk2ldhfreaddkbejdiy3/app.bsky.feed.post/3mxfbpx2lw222",
-        "handle": "numberonegmom.bsky.social",
-        "text": "The question occurs to me. How did ICE know to look at this 21yo 6'9\" student who transferred to MS but attended high school in New York? Think abt it. They have records of some kind on all of us is my guess. Somehow they tracked him to MS using that info. He's still in custody. @nytimes.com",
-        "created_at": "2026-10-08T20:17:30.028Z",
-        "source": "https://bsky.app/profile/numberonegmom.bsky.social/post/3mxfbpx2lw222",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9859723,
-          40.6701033
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2cbvuk7lywsctvivc5q7xhlq/app.bsky.feed.post/3mxfbraxs6p2v",
-        "handle": "colin.rafferty.net",
-        "text": "That’s me. I live in Prospect Heights but will park in Park Slope for my vacation to only get 1 ticket a week. It’s much less expensive to pay $65/week + r/t taxi than parking at the airport. ",
-        "created_at": "2026-10-08T20:18:13Z",
-        "source": "https://bsky.app/profile/colin.rafferty.net/post/3mxfbraxs6p2v",
-        "mapped_location": "Park Slope, Brooklyn, Kings County, New York, United States",
-        "precision_level": "city",
-        "location_text": "Park Slope",
-        "confidence": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:f3ph3ymzcnhpchwqiu4u37g2/app.bsky.feed.post/3mxfdl3uerw2m",
-        "handle": "gizmodo.com",
-        "text": "Who or what it's about we don't know, but the news broke at New York Comic Con.",
-        "created_at": "2026-10-08T20:50:34.365Z",
-        "source": "https://bsky.app/profile/gizmodo.com/post/3mxfdl3uerw2m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hqbspgkcf5dixfhngmqq3jfd/app.bsky.feed.post/3mxfen7547c2m",
-        "handle": "victorlavalle.bsky.social",
-        "text": "Your boy is at New York Comic Con signing signing books! \n\nThe Devil in Silver, specifically but if you’ve got something else I’ll sign that, too.\n\nIf you’re here, I get going from 5:30-6:15 at the Penguin Random House booth.",
-        "created_at": "2026-10-08T21:09:39.061Z",
-        "source": "https://bsky.app/profile/victorlavalle.bsky.social/post/3mxfen7547c2m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfenycpoc2e",
-        "handle": "wsbt22.bsky.social",
-        "text": "Cilia Flores, the wife of former Venezuelan President Nicolás Maduro, is asking a federal judge in New York to release her from jail and allow her to live under house arrest with 24-hour security as she awaits trial on US cocaine-trafficking charges.\nhttps://bit.ly/4AUdH9t",
-        "created_at": "2026-10-08T21:10:05.349714094Z",
-        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfenycpoc2e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:njpw4itkjllk3kdjahnlyraq/app.bsky.feed.post/3mxfeokguwk2y",
-        "handle": "paulbali.com",
-        "text": "Every facet of every serious domestic credit institution in China is governed by the wise instruction of the State Council of China, executed by the cadres in the People's Government of the Munincipality of [xyz], not the shareholders of Bank of America in New York. This produces different outcomes",
-        "created_at": "2026-10-08T21:10:24.474Z",
-        "source": "https://bsky.app/profile/paulbali.com/post/3mxfeokguwk2y",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxfeomo6452y",
-        "handle": "mainstream-media.bsky.social",
-        "text": "Jeffries says Republicans are mismanaging their money in New York House races\n\nhttps://www.washingtonexaminer.com/n...",
-        "created_at": "2026-10-08T21:10:26.798846+00:00",
-        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxfeomo6452y",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:mxaawismszl4x2sjl5efqvui/app.bsky.feed.post/3mxfg6hcgds2t",
-        "handle": "fluffyscales.bsky.social",
-        "text": "Yes, but look at Marcy Kaptur and Amy Acton in Ohio (hell, look at the entire Democratic Equality caucus in Ohio), or James Talarico capitulating and having to crawl back in Texas, or Blake Gendebien in New York. Pretending like this isn’t a larger trend isn’t helping, it’s actively hurting.",
-        "created_at": "2026-10-08T21:37:11.796Z",
-        "source": "https://bsky.app/profile/fluffyscales.bsky.social/post/3mxfg6hcgds2t",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.757
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3374polobvhdrvk5of27pfwg/app.bsky.feed.post/3mxfg7lag5k2k",
-        "handle": "secondhusk.bsky.social",
-        "text": "Attn: nerds — I’m hosting an epic all-geek trivia game at House of Spells tonight in Times Square. Stop by and Um, Actually my ass! www.eventbrite.com/e/fandom-tri...",
-        "created_at": "2026-10-08T21:37:49.470Z",
-        "source": "https://bsky.app/profile/secondhusk.bsky.social/post/3mxfg7lag5k2k",
-        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ak52riygnk6q2siglha6ez7o/app.bsky.feed.post/3mxfgbnnlz22s",
-        "handle": "jasonkpargin.bsky.social",
-        "text": "What is the quintessential \"New York\" film where it feels like the city itself is literally the most compelling and dynamic character? I'd have to go with The Town",
-        "created_at": "2026-10-08T21:38:59.116Z",
-        "source": "https://bsky.app/profile/jasonkpargin.bsky.social/post/3mxfgbnnlz22s",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.85
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l6agqcjf4rwy6u57cxvpzxqh/app.bsky.feed.post/3mxfgmoblha2i",
-        "handle": "akerix-en.bsky.social",
-        "text": "Sean Lennon: musical heir and custodian of the legacy of John and Yoko\n\nOn October 9, 1975, the only son of the iconic duo John Lennon and Yoko Ono was born in New York, marking the…\n\n#Akerix #AI #SeanLennon #JohnLennon\nhttps://akerix.com/on-this-day/10-09-sean-lennon-1975\n📷 Wikimedia Commons",
-        "created_at": "2026-10-08T21:45:08.824Z",
-        "source": "https://bsky.app/profile/akerix-en.bsky.social/post/3mxfgmoblha2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -4190,6 +3875,48 @@
         "text": "Delayed harvest: For Lake Erie Walleye, good things come to those who wait\n\nhttps://www.flakefood.com/923596/delayed-harvest-for-lake-erie-walleye-good-things-come-to-those-who-wait/\n\nDUNKIRK, New York — Ask my kids what their favorite fish to eat is and they won’t even hesitate – it’s walleye, …",
         "created_at": "2026-10-10T15:00:09+00:00",
         "source": "https://bsky.app/profile/flakefood.bsky.social/post/3mxjqwfm3qg2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4nfh7634ofwv7frsvulzcumq/app.bsky.feed.post/3mxkjypgxpc2r",
+        "handle": "ashryver16.swifties.social",
+        "text": "rank the track 1s\n\n❤️ State of Grace\n💜 Mine\n💚 Tim McGraw\n💛 Fearless\n🩶 the 1\n🤎 willow\n🩵 Welcome to New York\n❤️‍🔥 The Fate of Ophelia\n🩷 I Forgot that You Existed\n🤍 Fortnight\n💙 Lavender Haze\n🖤 …Ready for it?",
+        "created_at": "2026-10-10T22:28:52.665Z",
+        "source": "https://bsky.app/profile/ashryver16.swifties.social/post/3mxkjypgxpc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gtnepfunzgrv3l7kqshlzcla/app.bsky.feed.post/3mxkk34gdtc25",
+        "handle": "inmyspeaknowera.swifties.social",
+        "text": "Rank the track 1’s \n\n🩶 the 1\n🩷 I Forgot that You Existed\n❤️‍🔥 The Fate of Ophelia\n💚 Tim McGraw\n💛 Fearless\n💜 Mine\n❤️ State of Grace\n🤎 willow\n💙 Lavender Haze\n🖤 …Ready for it?\n🤍 Fortnight\n🩵 Welcome to New York",
+        "created_at": "2026-10-10T22:30:13.381Z",
+        "source": "https://bsky.app/profile/inmyspeaknowera.swifties.social/post/3mxkk34gdtc25",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

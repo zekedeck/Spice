@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-10T19:08:31.734529Z",
-    "total_pins": 8
+    "generated_at": "2026-10-10T22:31:05.987317Z",
+    "total_pins": 10
   },
   "features": [
     {
@@ -169,6 +169,48 @@
         "text": "Delayed harvest: For Lake Erie Walleye, good things come to those who wait\n\nhttps://www.flakefood.com/923596/delayed-harvest-for-lake-erie-walleye-good-things-come-to-those-who-wait/\n\nDUNKIRK, New York — Ask my kids what their favorite fish to eat is and they won’t even hesitate – it’s walleye, …",
         "created_at": "2026-10-10T15:00:09+00:00",
         "source": "https://bsky.app/profile/flakefood.bsky.social/post/3mxjqwfm3qg2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4nfh7634ofwv7frsvulzcumq/app.bsky.feed.post/3mxkjypgxpc2r",
+        "handle": "ashryver16.swifties.social",
+        "text": "rank the track 1s\n\n❤️ State of Grace\n💜 Mine\n💚 Tim McGraw\n💛 Fearless\n🩶 the 1\n🤎 willow\n🩵 Welcome to New York\n❤️‍🔥 The Fate of Ophelia\n🩷 I Forgot that You Existed\n🤍 Fortnight\n💙 Lavender Haze\n🖤 …Ready for it?",
+        "created_at": "2026-10-10T22:28:52.665Z",
+        "source": "https://bsky.app/profile/ashryver16.swifties.social/post/3mxkjypgxpc2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gtnepfunzgrv3l7kqshlzcla/app.bsky.feed.post/3mxkk34gdtc25",
+        "handle": "inmyspeaknowera.swifties.social",
+        "text": "Rank the track 1’s \n\n🩶 the 1\n🩷 I Forgot that You Existed\n❤️‍🔥 The Fate of Ophelia\n💚 Tim McGraw\n💛 Fearless\n💜 Mine\n❤️ State of Grace\n🤎 willow\n💙 Lavender Haze\n🖤 …Ready for it?\n🤍 Fortnight\n🩵 Welcome to New York",
+        "created_at": "2026-10-10T22:30:13.381Z",
+        "source": "https://bsky.app/profile/inmyspeaknowera.swifties.social/post/3mxkk34gdtc25",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

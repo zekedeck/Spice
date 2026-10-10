@@ -1,474 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-10T09:01:17.886516Z",
-    "total_pins": 267
+    "generated_at": "2026-10-10T15:01:47.105255Z",
+    "total_pins": 253
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dyv7jpb7mrrlblk4jpnjhbvc/app.bsky.feed.post/3mxebvbrpbm2c",
-        "handle": "crossvol.bsky.social",
-        "text": "14 pips separate $EURUSD at 1.1186 from at least 1.75B of 1.1200 puts expiring Friday Oct 9 at the 10am New York cut. 30 day realized of 3.94% sets one standard deviation at 28 pips a day, more than the gap. Hedging can keep spot close until the cut, and expiry ends the pull.",
-        "created_at": "2026-10-08T10:47:49.000Z",
-        "source": "https://bsky.app/profile/crossvol.bsky.social/post/3mxebvbrpbm2c",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3rg7uwpg4hkh5gb7sfxjt572/app.bsky.feed.post/3mxebw56o4c25",
-        "handle": "resurrectedrena34.bsky.social",
-        "text": "Trump said the Twin Towers falling made it so that his building was the tallest in New York, he did not give a fuck about 9/11 and never has.",
-        "created_at": "2026-10-08T10:48:18.045Z",
-        "source": "https://bsky.app/profile/resurrectedrena34.bsky.social/post/3mxebw56o4c25",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:siujwygz5s3xneyy7mch5zop/app.bsky.feed.post/3mxeedw7pnc2p",
-        "handle": "webofspider-man.bsky.social",
-        "text": "\"Cool outfit. But I didn't know there were maid cafes or anything like that here in New York...\"",
-        "created_at": "2026-10-08T11:31:47.985Z",
-        "source": "https://bsky.app/profile/webofspider-man.bsky.social/post/3mxeedw7pnc2p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qraefsv3axinkuiege55pqb4/app.bsky.feed.post/3mxeg2rva4t2q",
-        "handle": "wewatchfilms.bsky.social",
-        "text": "\"Some of the most intense affairs are between actors and characters. There's a fire in the human heart and we jump into it with the same obsession as we have with our lovers.\"\n\nBorn on this day in Manhatten, New York, arguably one of cinema's most loved action heros, Sigourney Weaver turns 77 today.",
-        "created_at": "2026-10-08T12:02:28.914Z",
-        "source": "https://bsky.app/profile/wewatchfilms.bsky.social/post/3mxeg2rva4t2q",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qju5a3556voxaxqs2jg4ekit/app.bsky.feed.post/3mxeg4rfmek2i",
-        "handle": "disappoptimism.bsky.social",
-        "text": "Because I have real estate brain I was sure the massive debt exposure Trump had in real estate was now a lever the well established Russian connections in New York & other places were pulling on with him.\n\nBut I was wrong",
-        "created_at": "2026-10-08T12:03:35.539Z",
-        "source": "https://bsky.app/profile/disappoptimism.bsky.social/post/3mxeg4rfmek2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qju5a3556voxaxqs2jg4ekit/app.bsky.feed.post/3mxeg7myx422i",
-        "handle": "disappoptimism.bsky.social",
-        "text": "Real estate in New York has always been… a very different thing.",
-        "created_at": "2026-10-08T12:05:11.593Z",
-        "source": "https://bsky.app/profile/disappoptimism.bsky.social/post/3mxeg7myx422i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wtgramxisgeoudvnaxnbexwj/app.bsky.feed.post/3mxegfsn34aa2",
-        "handle": "carnellm.mastodon.social.ap.brid.gy",
-        "text": "Jaguar Type 01 Revealed: 1,000PS Electric GT Debuts in New York\n\nJaguar unveiled the Type 01 at a world premiere in New York on 6 October: a four-door electric GT with more than 1,000PS, a 400-mile EPA range, and prices starting at 130,000 GBP. Orders open in early 2027 […]",
-        "created_at": "2026-10-08T12:08:37.000Z",
-        "source": "https://bsky.app/profile/carnellm.mastodon.social.ap.brid.gy/post/3mxegfsn34aa2",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:brlejez43rrpgyelu4gk5hpl/app.bsky.feed.post/3mxegjfn5uk2g",
-        "handle": "theridesofar.com",
-        "text": "Billy Joel is going to auction off his collection of more than 70 motorcycles and if you happen to be in New York this weekend you can see part of the collection. #motosky www.revzilla.com/common-tread...",
-        "created_at": "2026-10-08T12:10:39.408Z",
-        "source": "https://bsky.app/profile/theridesofar.com/post/3mxegjfn5uk2g",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:otdjt7vcfqhxi7hgaxe4csax/app.bsky.feed.post/3mxegkgs5zc2q",
-        "handle": "alanallport.bsky.social",
-        "text": "Building the Suez Canal in New York would have been a plain bad idea",
-        "created_at": "2026-10-08T12:11:14.178Z",
-        "source": "https://bsky.app/profile/alanallport.bsky.social/post/3mxegkgs5zc2q",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:edxrnz3bvgridahqhai3gifz/app.bsky.feed.post/3mxegsuy4w225",
-        "handle": "guyforgetghost.bsky.social",
-        "text": "Ohhh myyyyyy. LOL Sooooo…..a new Steve Bartman EXCEPT…..this one was the literal DOOR SEALER & ended series. For Cubs there were like 2 more games it just changed momentum. This….WAYYYY WORSE. YIKES. 😳👀 \n\nIN NEW YORK. Whew, that dude should look into facial reconstruction surgery or move to Canada😂",
-        "created_at": "2026-10-08T12:15:57.489Z",
-        "source": "https://bsky.app/profile/guyforgetghost.bsky.social/post/3mxegsuy4w225",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NEW YORK",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:n6l74xyppdzfcagfvpuuoynm/app.bsky.feed.post/3mxegttsdj22l",
-        "handle": "dreamscapes.swifties.social",
-        "text": "We were doing what we could while we lacked the freedom/power. Then comes the lover era and I was dancing when the music stopped. I was loud! I was ME! out now but my headphones were gone. The music stopped. The masters heist. \n\nI lost you the one I was dancing with in New York. WTNY!",
-        "created_at": "2026-10-08T12:16:29.785Z",
-        "source": "https://bsky.app/profile/dreamscapes.swifties.social/post/3mxegttsdj22l",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mxek4jku5z2g",
-        "handle": "queerhistorybot.bsky.social",
-        "text": "\"I was no one, nobody, from Nowheresville until I became a drag queen. That’s what made me in New York, that’s what made me in New Jersey, that’s what made me in the world.\"\n\n- Marsha P. Johnson",
-        "created_at": "2026-10-08T13:15:01.87621200Z",
-        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mxek4jku5z2g",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0,
-        "other_locations": "New Jersey"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.2374679,
-          40.5961103
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mxek4jku5z2g",
-        "handle": "queerhistorybot.bsky.social",
-        "text": "\"I was no one, nobody, from Nowheresville until I became a drag queen. That’s what made me in New York, that’s what made me in New Jersey, that’s what made me in the world.\"\n\n- Marsha P. Johnson",
-        "created_at": "2026-10-08T13:15:01.87621200Z",
-        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mxek4jku5z2g",
-        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
-        "precision_level": "city",
-        "location_text": "New Jersey",
-        "confidence": 0.9,
-        "other_locations": "New York"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9867644,
-          40.6915721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sajwk2kma5oeryy6odgweciz/app.bsky.feed.post/3mxekkxbiq22q",
-        "handle": "toobigtofail.bsky.social",
-        "text": "10,000-15,000 panel trucks and tractor trailers cross the Verrazano each day. If you get rid of the BQE, they have literally nowhere to go except up 3rd Avenue to Atlantic Avenue and through downtown Brooklyn.\n\nNobody wants that.",
-        "created_at": "2026-10-08T13:23:06.424Z",
-        "source": "https://bsky.app/profile/toobigtofail.bsky.social/post/3mxekkxbiq22q",
-        "mapped_location": "Downtown Brooklyn, Brooklyn, Kings County, New York, United States",
-        "precision_level": "city",
-        "location_text": "downtown Brooklyn",
-        "confidence": 0.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xv2as7miy7ghje2htfynaqex/app.bsky.feed.post/3mxekkxc76s2h",
-        "handle": "aphclarkson.bsky.social",
-        "text": "Gaza mattered to Mamdani, but his central project was quality of life in New York. Though she showed sympathy with protests, Eralp made affordability and public services the heart of her pitch\n\nThey face Gaza campaigners who expect leaders to subordinate all other issues to their cause",
-        "created_at": "2026-10-08T13:23:06.448Z",
-        "source": "https://bsky.app/profile/aphclarkson.bsky.social/post/3mxekkxc76s2h",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cegurhm3furyso6rugojp4oq/app.bsky.feed.post/3mxelk7vaks2p",
-        "handle": "bygjacob.bsky.social",
-        "text": "@purrtah.bsky.social  Looks like our issue in New York is Hochul",
-        "created_at": "2026-10-08T13:40:35.644Z",
-        "source": "https://bsky.app/profile/bygjacob.bsky.social/post/3mxelk7vaks2p",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vwn5mjhhhpirw3jfez752mcl/app.bsky.feed.post/3mxelkgjosd2y",
-        "handle": "linksgraph.bsky.social",
-        "text": "Mamdani heckled at New York vigil marking Oct. 7 anniversary\n\nNew York marked the third anniversary of Hamas’s Oct. 7 attack with a vigil in Union Square. Mayor Zohran Mamdani attended the\n\nhttps://linksgraph.com/en/mamdani-heckled-at-new-york-vigil-marking-oct-7-anniversary",
-        "created_at": "2026-10-08T13:40:42.247323Z",
-        "source": "https://bsky.app/profile/linksgraph.bsky.social/post/3mxelkgjosd2y",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:eata2lkcvmh7csdbbvoo4eib/app.bsky.feed.post/3mxelkij6nc2w",
-        "handle": "craigburley.bsky.social",
-        "text": "Thanks for the piece. \n\nIt would and will be helpful in Hamilton to have campus officers at Redeemer, Mac and Mohawk speak to the press about how such investigations would be done differently here rather than in New York. I’ll suggest it to the Spec.",
-        "created_at": "2026-10-08T13:40:44.689Z",
-        "source": "https://bsky.app/profile/craigburley.bsky.social/post/3mxelkij6nc2w",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:iioh4je6vkpnoxrutacqhggu/app.bsky.feed.post/3mxepxstnwc2n",
-        "handle": "csharpfritz.com",
-        "text": "I’m seeing a second musical in two days in London.. it’s so much more accessible to me and my family here than in New York\n\nFrankly, I’d rather the trip to London and experience here than Manhattan",
-        "created_at": "2026-10-08T14:59:46.691Z",
-        "source": "https://bsky.app/profile/csharpfritz.com/post/3mxepxstnwc2n",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pa6f3duvqxf7vy5yrkuczop6/app.bsky.feed.post/3mxepxxdhic2l",
-        "handle": "juanxgomez6666.bsky.social",
-        "text": "yes of course a in New York love r&d",
-        "created_at": "2026-10-08T14:59:51.402Z",
-        "source": "https://bsky.app/profile/juanxgomez6666.bsky.social/post/3mxepxxdhic2l",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4aeinxjwao74le6dktiiyxg4/app.bsky.feed.post/3mxepyviian2r",
-        "handle": "marketwire.bsky.social",
-        "text": "📰 #Finance\n\n\"Team owners, current and former athletes and investors joined us in New York to discuss the value of sports as an investment, the competitive sports rights landscape, the changing face of college sports, the rise of the WNBA and the success of the World Cup. (Source: Bloomberg)\"",
-        "created_at": "2026-10-08T15:00:22.812447+00:00",
-        "source": "https://bsky.app/profile/marketwire.bsky.social/post/3mxepyviian2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9863984,
-          40.7309569
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:yvzppuwjyxbmscumyjojkf5h/app.bsky.feed.post/3mxeq2qm3ls2j",
-        "handle": "bullfrogfilms.bsky.social",
-        "text": "Our release OUTGROW THE SYSTEM is an Official Selection at this year’s @workersuniteff.bsky.social Join us at Cinema Village in NYC on Saturday, October 24 at 5PM EST for the screening. bit.ly/OutgrowWUFF15 | #alternativeconomics #globaleconomics #workersunitefilmfest #degrowth #bullfrogfilms",
-        "created_at": "2026-10-08T15:01:25.004Z",
-        "source": "https://bsky.app/profile/bullfrogfilms.bsky.social/post/3mxeq2qm3ls2j",
-        "mapped_location": "Village East Cinema, 181-189, 2nd Avenue, East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
-        "precision_level": "city",
-        "location_text": "Cinema Village",
-        "confidence": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5618,6 +5154,176 @@
         "text": "What in the hell is he doing in New York anyway",
         "created_at": "2026-10-10T02:36:48.430Z",
         "source": "https://bsky.app/profile/dickiddaveson.bsky.social/post/3mxihf4mjxk26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vl2iacwizczp6ljbud7mlvwb/app.bsky.feed.post/3mxjquazhhs2z",
+        "handle": "imthatholly.bsky.social",
+        "text": "Trump's story was \"I started out with a small loan from my father\", was long know false in New York City. He was a trust-fund brat. So either the New York Media of The Today Show are stupid or chose to let Trump continue that lie at his \"coming out party\" in 2015. www.youtube.com/watch?v=TXEO...",
+        "created_at": "2026-10-10T14:58:59.779Z",
+        "source": "https://bsky.app/profile/imthatholly.bsky.social/post/3mxjquazhhs2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0970865,
+          40.833989
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nb6uhiglzowsdcbgwv2itwa7/app.bsky.feed.post/3mxjquyxfac2k",
+        "handle": "onestpress.onestnetwork.com",
+        "text": "NASA: As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11.",
+        "created_at": "2026-10-10T14:59:24.877Z",
+        "source": "https://bsky.app/profile/onestpress.onestnetwork.com/post/3mxjquyxfac2k",
+        "mapped_location": "East Rutherford, Bergen County, New Jersey, 07073, United States",
+        "precision_level": "state",
+        "location_text": "East Rutherford",
+        "confidence": 1.0,
+        "other_locations": "New Jersey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nb6uhiglzowsdcbgwv2itwa7/app.bsky.feed.post/3mxjquyxfac2k",
+        "handle": "onestpress.onestnetwork.com",
+        "text": "NASA: As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11.",
+        "created_at": "2026-10-10T14:59:24.877Z",
+        "source": "https://bsky.app/profile/onestpress.onestnetwork.com/post/3mxjquyxfac2k",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.9,
+        "other_locations": "East Rutherford"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:unkqxy3fxjckrxrqstopn3qb/app.bsky.feed.post/3mxjqv6ro6c2p",
+        "handle": "robdenbleyker.com",
+        "text": "chilling at FedEx when who should arrive but Werewolverine\n\nonly at New York Comic Con 🤷🏻‍♂️",
+        "created_at": "2026-10-10T14:59:30.970Z",
+        "source": "https://bsky.app/profile/robdenbleyker.com/post/3mxjqv6ro6c2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3mxjqw3bek52l",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Commerce Analyst at Vox Media\n📍 New York, NY\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-10T15:00:00.807Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3mxjqw3bek52l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3mxjqw3ems72o",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Senior Technical Recruiter at Zocdoc\n📍 New York, NY; Silicon Valley, CA\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-10T15:00:00.898Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3mxjqw3ems72o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uvz2gmmwkztuen54is2l4h7e/app.bsky.feed.post/3mxjqwalkc226",
+        "handle": "khaliqali.bsky.social",
+        "text": "Jim Ledford \nEagle Cliff Falls- Havana Glen Park in Montour Falls, New York \nwww.facebook.com/share/p/1Das...",
+        "created_at": "2026-10-10T15:00:06.396Z",
+        "source": "https://bsky.app/profile/khaliqali.bsky.social/post/3mxjqwalkc226",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o7k4nmf5w5gczdvtbpbvhas4/app.bsky.feed.post/3mxjqwfm3qg2q",
+        "handle": "flakefood.bsky.social",
+        "text": "Delayed harvest: For Lake Erie Walleye, good things come to those who wait\n\nhttps://www.flakefood.com/923596/delayed-harvest-for-lake-erie-walleye-good-things-come-to-those-who-wait/\n\nDUNKIRK, New York — Ask my kids what their favorite fish to eat is and they won’t even hesitate – it’s walleye, …",
+        "created_at": "2026-10-10T15:00:09+00:00",
+        "source": "https://bsky.app/profile/flakefood.bsky.social/post/3mxjqwfm3qg2q",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

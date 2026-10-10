@@ -1,8 +1,179 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-10T09:01:17.899307Z",
-    "total_pins": 0
+    "generated_at": "2026-10-10T15:01:47.116146Z",
+    "total_pins": 8
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vl2iacwizczp6ljbud7mlvwb/app.bsky.feed.post/3mxjquazhhs2z",
+        "handle": "imthatholly.bsky.social",
+        "text": "Trump's story was \"I started out with a small loan from my father\", was long know false in New York City. He was a trust-fund brat. So either the New York Media of The Today Show are stupid or chose to let Trump continue that lie at his \"coming out party\" in 2015. www.youtube.com/watch?v=TXEO...",
+        "created_at": "2026-10-10T14:58:59.779Z",
+        "source": "https://bsky.app/profile/imthatholly.bsky.social/post/3mxjquazhhs2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0970865,
+          40.833989
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nb6uhiglzowsdcbgwv2itwa7/app.bsky.feed.post/3mxjquyxfac2k",
+        "handle": "onestpress.onestnetwork.com",
+        "text": "NASA: As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11.",
+        "created_at": "2026-10-10T14:59:24.877Z",
+        "source": "https://bsky.app/profile/onestpress.onestnetwork.com/post/3mxjquyxfac2k",
+        "mapped_location": "East Rutherford, Bergen County, New Jersey, 07073, United States",
+        "precision_level": "state",
+        "location_text": "East Rutherford",
+        "confidence": 1.0,
+        "other_locations": "New Jersey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nb6uhiglzowsdcbgwv2itwa7/app.bsky.feed.post/3mxjquyxfac2k",
+        "handle": "onestpress.onestnetwork.com",
+        "text": "NASA: As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11.",
+        "created_at": "2026-10-10T14:59:24.877Z",
+        "source": "https://bsky.app/profile/onestpress.onestnetwork.com/post/3mxjquyxfac2k",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "city",
+        "location_text": "New Jersey",
+        "confidence": 0.9,
+        "other_locations": "East Rutherford"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:unkqxy3fxjckrxrqstopn3qb/app.bsky.feed.post/3mxjqv6ro6c2p",
+        "handle": "robdenbleyker.com",
+        "text": "chilling at FedEx when who should arrive but Werewolverine\n\nonly at New York Comic Con 🤷🏻‍♂️",
+        "created_at": "2026-10-10T14:59:30.970Z",
+        "source": "https://bsky.app/profile/robdenbleyker.com/post/3mxjqv6ro6c2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3mxjqw3bek52l",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Commerce Analyst at Vox Media\n📍 New York, NY\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-10T15:00:00.807Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3mxjqw3bek52l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3mxjqw3ems72o",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Senior Technical Recruiter at Zocdoc\n📍 New York, NY; Silicon Valley, CA\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-10T15:00:00.898Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3mxjqw3ems72o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uvz2gmmwkztuen54is2l4h7e/app.bsky.feed.post/3mxjqwalkc226",
+        "handle": "khaliqali.bsky.social",
+        "text": "Jim Ledford \nEagle Cliff Falls- Havana Glen Park in Montour Falls, New York \nwww.facebook.com/share/p/1Das...",
+        "created_at": "2026-10-10T15:00:06.396Z",
+        "source": "https://bsky.app/profile/khaliqali.bsky.social/post/3mxjqwalkc226",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o7k4nmf5w5gczdvtbpbvhas4/app.bsky.feed.post/3mxjqwfm3qg2q",
+        "handle": "flakefood.bsky.social",
+        "text": "Delayed harvest: For Lake Erie Walleye, good things come to those who wait\n\nhttps://www.flakefood.com/923596/delayed-harvest-for-lake-erie-walleye-good-things-come-to-those-who-wait/\n\nDUNKIRK, New York — Ask my kids what their favorite fish to eat is and they won’t even hesitate – it’s walleye, …",
+        "created_at": "2026-10-10T15:00:09+00:00",
+        "source": "https://bsky.app/profile/flakefood.bsky.social/post/3mxjqwfm3qg2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    }
+  ]
 }

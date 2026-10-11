@@ -1,8 +1,30 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-11T07:11:03.732726Z",
-    "total_pins": 0
+    "generated_at": "2026-10-11T14:02:05.653512Z",
+    "total_pins": 1
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kphsb6jts7ri735cwbpm5a5x/app.bsky.feed.post/3mxm63wqtua2k",
+        "handle": "citizenscreen.bsky.social",
+        "text": "\"I shall never forget the weekend Laura died”\n\nOtto Preminger’s LAURA, starring Gene Tierney and Dana Andrews, was released in NYC, New York #OnThisDay in 1944. With Clifton Webb, Vincent Price, Judith Anderson.",
+        "created_at": "2026-10-11T14:01:15.553Z",
+        "source": "https://bsky.app/profile/citizenscreen.bsky.social/post/3mxm63wqtua2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-11T18:38:50.873533Z",
-    "total_pins": 3
+    "generated_at": "2026-10-11T22:30:30.871533Z",
+    "total_pins": 4
   },
   "features": [
     {
@@ -62,6 +62,27 @@
         "text": "Back in 2017, I was known on Twitter for addressing him as Putin's Ho while replying to his posts.\nHe's been a Russian assett since Russian mafia in New York city bailed him out (look up David Bogatin buying 5 condos from Trump in 1984). \nBecoming Putin's Ho is his favorite and highest achievement.",
         "created_at": "2026-10-11T18:38:10.668Z",
         "source": "https://bsky.app/profile/sanehuman.bsky.social/post/3mxmnl45ij22y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fptqug2lsn4ozakbl3bsdz6r/app.bsky.feed.post/3mxn2ft7cqk2f",
+        "handle": "leeaaronrosen.bsky.social",
+        "text": "I envy you both. I have, at separate points in my life, passed Karl Rove, Roger Stone, and Martin Shkreli on the streets in New York, and I was too slow to react every time. I regret not saying something. Or punching them.",
+        "created_at": "2026-10-11T22:27:52.161Z",
+        "source": "https://bsky.app/profile/leeaaronrosen.bsky.social/post/3mxn2ft7cqk2f",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

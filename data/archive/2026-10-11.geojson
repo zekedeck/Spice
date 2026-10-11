@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-11T14:02:05.653512Z",
-    "total_pins": 1
+    "generated_at": "2026-10-11T18:38:50.873533Z",
+    "total_pins": 3
   },
   "features": [
     {
@@ -24,6 +24,48 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bro5xawhmcsk7qqggmabw3kr/app.bsky.feed.post/3mxmnhjnsa22a",
+        "handle": "sorathecyclist.bsky.social",
+        "text": "Lol the Times Square lip sync lady is still going, even after people found out she was lip syncing.",
+        "created_at": "2026-10-11T18:36:10.616Z",
+        "source": "https://bsky.app/profile/sorathecyclist.bsky.social/post/3mxmnhjnsa22a",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nc4xprftwltdmprgm2jiloht/app.bsky.feed.post/3mxmnl45ij22y",
+        "handle": "sanehuman.bsky.social",
+        "text": "Back in 2017, I was known on Twitter for addressing him as Putin's Ho while replying to his posts.\nHe's been a Russian assett since Russian mafia in New York city bailed him out (look up David Bogatin buying 5 condos from Trump in 1984). \nBecoming Putin's Ho is his favorite and highest achievement.",
+        "created_at": "2026-10-11T18:38:10.668Z",
+        "source": "https://bsky.app/profile/sanehuman.bsky.social/post/3mxmnl45ij22y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

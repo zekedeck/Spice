@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-10T22:31:05.987317Z",
-    "total_pins": 10
+    "generated_at": "2026-10-11T01:09:30.568450Z",
+    "total_pins": 11
   },
   "features": [
     {
@@ -211,6 +211,27 @@
         "text": "Rank the track 1’s \n\n🩶 the 1\n🩷 I Forgot that You Existed\n❤️‍🔥 The Fate of Ophelia\n💚 Tim McGraw\n💛 Fearless\n💜 Mine\n❤️ State of Grace\n🤎 willow\n💙 Lavender Haze\n🖤 …Ready for it?\n🤍 Fortnight\n🩵 Welcome to New York",
         "created_at": "2026-10-10T22:30:13.381Z",
         "source": "https://bsky.app/profile/inmyspeaknowera.swifties.social/post/3mxkk34gdtc25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3dv4g7ocioqtwzkshjrpex5w/app.bsky.feed.post/3mxksxjhbwk2o",
+        "handle": "jordanbaelage.bsky.social",
+        "text": "Enough about fantasizing about about cars 🚗 🤣🤣\n\nWho’s in New York? How’s Harry styles concert streak like? 👋❤️",
+        "created_at": "2026-10-11T01:09:16.507Z",
+        "source": "https://bsky.app/profile/jordanbaelage.bsky.social/post/3mxksxjhbwk2o",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",

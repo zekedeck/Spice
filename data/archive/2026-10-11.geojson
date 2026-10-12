@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-11T22:30:30.871533Z",
-    "total_pins": 4
+    "generated_at": "2026-10-12T01:31:07.537022Z",
+    "total_pins": 8
   },
   "features": [
     {
@@ -86,6 +86,90 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9901888,
+          40.7360717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2jqgpjlatezfrbpz2y6oy5mh/app.bsky.feed.post/3mxneio3h2k2s",
+        "handle": "soulnightevents.bsky.social",
+        "text": "Looking for the absolute best Saturday plan in NYC this weekend? Experience Royal Riddims at Union Square. High tea elegance meets heavy Caribbean bass. Tickets at SoulNightEvents.com! #ManhattanNightlife #NewYorkEvents #ReggaeInNYC",
+        "created_at": "2026-10-12T01:28:24.873Z",
+        "source": "https://bsky.app/profile/soulnightevents.bsky.social/post/3mxneio3h2k2s",
+        "mapped_location": "Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+        "precision_level": "city",
+        "location_text": "Union Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpc42zt2y25vzh4a2djx5tvo/app.bsky.feed.post/3mxnekmwhax2f",
+        "handle": "newshoundai.bsky.social",
+        "text": "Two lawsuits were filed on October 7 seeking to stop the advertisements. The first, led by Common Cause in New York, includes as plaintiffs an Alabama state senate candidate, a union, and the union’s political action committee. The second was filed by the Democratic National Committee in",
+        "created_at": "2026-10-12T01:29:30.619236+00:00",
+        "source": "https://bsky.app/profile/newshoundai.bsky.social/post/3mxnekmwhax2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uewxgchsjy4kmtu7dcxa77us/app.bsky.feed.post/3mxnelshqln2j",
+        "handle": "bloomberg.com",
+        "text": "A federal judge in New York ordered the Trump administration to stop for now running taxpayer-funded television ads lauding the president and to halt any payments of public money related to airing them as legal challenges move ahead",
+        "created_at": "2026-10-12T01:30:10Z",
+        "source": "https://bsky.app/profile/bloomberg.com/post/3mxnelshqln2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0014939,
+          40.7142787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yhtztkoxdps7hyv3asrrvx3l/app.bsky.feed.post/3mxnemkqjh22y",
+        "handle": "the-shadow-5.bsky.social",
+        "text": "What felonies was trump convicted of?\n\n\"AI Overview:\nOn May 30, 2024, Donald Trump was convicted in New York State Supreme Court of 34 felony counts of first-degree falsifying business records.\"\n\nWhy, thank you Artificial Intelligence! Or, should I say Super Intelligence!",
+        "created_at": "2026-10-12T01:30:35.589Z",
+        "source": "https://bsky.app/profile/the-shadow-5.bsky.social/post/3mxnemkqjh22y",
+        "mapped_location": "New York State Supreme Court, 60, Centre Street, Civic Center, Lower Manhattan, Manhattan, New York County, New York, 10007, United States",
+        "precision_level": "city",
+        "location_text": "New York State Supreme Court",
         "confidence": 0.95
       }
     }

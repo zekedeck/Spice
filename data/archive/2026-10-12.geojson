@@ -1,8 +1,51 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-12T07:42:06.770181Z",
-    "total_pins": 0
+    "generated_at": "2026-10-12T17:02:47.336962Z",
+    "total_pins": 2
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxoynimags2x",
+        "handle": "lightnews.app",
+        "text": "US allows Iran, denies Abbas\n\nThe United States granted visas to Iran’s delegation for the U.N. General Assembly in New York but denied entry to Palestinian Authority president Mahmoud Abbas and PA officials.\n\nWith posts by 🎓Scott Lucas, 🎓Amir Attaran, 🎓Timothy D. McBride.",
+        "created_at": "2026-10-12T17:01:40Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxoynimags2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jjngmnstufou5untjiao5euq/app.bsky.feed.post/3mxoyo4d44227",
+        "handle": "incognitoastronaut.bsky.social",
+        "text": "CNBC has had a hard on for Columbus Day all morning. From the parade in New York were a business program needed to ask about the Mayor, to other nonstop mentions between AI this and AI that.",
+        "created_at": "2026-10-12T17:02:02.153Z",
+        "source": "https://bsky.app/profile/incognitoastronaut.bsky.social/post/3mxoyo4d44227",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    }
+  ]
 }

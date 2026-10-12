@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-12T01:31:07.535514Z",
-    "total_pins": 20
+    "generated_at": "2026-10-12T07:42:06.764526Z",
+    "total_pins": 19
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:66zrkvy42lc75f4cx7h6tb3s/app.bsky.feed.post/3mxihf4mjxk26",
-        "handle": "dickiddaveson.bsky.social",
-        "text": "What in the hell is he doing in New York anyway",
-        "created_at": "2026-10-10T02:36:48.430Z",
-        "source": "https://bsky.app/profile/dickiddaveson.bsky.social/post/3mxihf4mjxk26",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {

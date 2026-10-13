@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T15:46:47.314571Z",
-    "total_pins": 88
+    "generated_at": "2026-10-13T15:59:46.212905Z",
+    "total_pins": 99
   },
   "features": [
     {
@@ -1867,6 +1867,243 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfcfpadk2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "The Clash getting ready to go on stage at Shea Stadium in New York City, October 13, 1982...\n\nPhoto by Michael Zagaris\n\n#Punk #Punks #PunkRock #TheClash #SheaStadium #PunkRockHistory #Rock #RockNRoll #RockNRollHistory #MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:53:27.453Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfcfpadk2u",
+        "mapped_location": "Shea Stadium",
+        "precision_level": "address",
+        "location_text": "Shea Stadium",
+        "confidence": 1.0,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfcfpadk2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "The Clash getting ready to go on stage at Shea Stadium in New York City, October 13, 1982...\n\nPhoto by Michael Zagaris\n\n#Punk #Punks #PunkRock #TheClash #SheaStadium #PunkRockHistory #Rock #RockNRoll #RockNRollHistory #MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:53:27.453Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfcfpadk2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0,
+        "other_locations": "Shea Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c7bxdzw7monhuzzhfjyo2jbu/app.bsky.feed.post/3mxrfcwirj226",
+        "handle": "theunrepentables.bsky.social",
+        "text": "If you are in New York City - Manhattan 326 East 110th St on Oct 16 around 1pm - join in this protest to end the killing of healthy cats and dogs in NYC Shelters #OnlyLovePrevails #LoveIsAWitness #TheyWantToLive #NoKillShelters #NYC #DogRescues #CatRescues",
+        "created_at": "2026-10-13T15:53:45.069Z",
+        "source": "https://bsky.app/profile/theunrepentables.bsky.social/post/3mxrfcwirj226",
+        "mapped_location": "New York City -",
+        "precision_level": "address",
+        "location_text": "New York City -",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kvjrdchmmclca3nxjhc5mpz/app.bsky.feed.post/3mxrfe2zkjr2n",
+        "handle": "urbanmagazine.bsky.social",
+        "text": "NYC Love to Host Urbanworld Festival 30th Anniversary Afterparty in New York\n\nNYC Love will celebrate the 30th anniversary of the Urbanworld Festival with an after-work mixer and after-party on Wednesday, Oct. 14, bringing festivalgoers together for an evening of music, networking, and celebration.…",
+        "created_at": "2026-10-13T15:54:23Z",
+        "source": "https://bsky.app/profile/urbanmagazine.bsky.social/post/3mxrfe2zkjr2n",
+        "mapped_location": "NYC Love",
+        "precision_level": "address",
+        "location_text": "NYC Love",
+        "confidence": 0.95,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kvjrdchmmclca3nxjhc5mpz/app.bsky.feed.post/3mxrfe2zkjr2n",
+        "handle": "urbanmagazine.bsky.social",
+        "text": "NYC Love to Host Urbanworld Festival 30th Anniversary Afterparty in New York\n\nNYC Love will celebrate the 30th anniversary of the Urbanworld Festival with an after-work mixer and after-party on Wednesday, Oct. 14, bringing festivalgoers together for an evening of music, networking, and celebration.…",
+        "created_at": "2026-10-13T15:54:23Z",
+        "source": "https://bsky.app/profile/urbanmagazine.bsky.social/post/3mxrfe2zkjr2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "NYC Love"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfehmjfs2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "youtube.com/watch?v=8-cj...\n\nTHE CLASH At SHEA STADIUM IN NEW YORK CITY 10/13/1982...\n\nThe Clash ~ Should I Stay Or Should I Go\n\n#TheClash #Clash #SheaStadium #ShouldIStayOrShouldIGo \n#Punk #PunkRock #PunkRockHistory #Rock #RockNRoll #RockNRollHistory\n#MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:54:36.570Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfehmjfs2u",
+        "mapped_location": "SHEA STADIUM",
+        "precision_level": "address",
+        "location_text": "SHEA STADIUM",
+        "confidence": 1.0,
+        "other_locations": "NEW YORK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfehmjfs2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "youtube.com/watch?v=8-cj...\n\nTHE CLASH At SHEA STADIUM IN NEW YORK CITY 10/13/1982...\n\nThe Clash ~ Should I Stay Or Should I Go\n\n#TheClash #Clash #SheaStadium #ShouldIStayOrShouldIGo \n#Punk #PunkRock #PunkRockHistory #Rock #RockNRoll #RockNRollHistory\n#MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:54:36.570Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfehmjfs2u",
+        "mapped_location": "NEW YORK",
+        "precision_level": "address",
+        "location_text": "NEW YORK",
+        "confidence": 1.0,
+        "other_locations": "SHEA STADIUM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gcrbmhbzstndqfddsyq4w4ct/app.bsky.feed.post/3mxrfesmnxk2q",
+        "handle": "tvtech.bsky.social",
+        "text": "GatesAir to Introduce High-Efficiency UHF Transmitters at NAB Show New York www.tvtechnology.com/platform/bro...",
+        "created_at": "2026-10-13T15:54:48.110Z",
+        "source": "https://bsky.app/profile/tvtech.bsky.social/post/3mxrfesmnxk2q",
+        "mapped_location": "NAB Show New York www.tvtechnology.com/platform/bro",
+        "precision_level": "address",
+        "location_text": "NAB Show New York www.tvtechnology.com/platform/bro",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.977,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2jwqxtttwx27ftvymmygjahh/app.bsky.feed.post/3mxrfj2ea422d",
+        "handle": "soonergrunt.bsky.social",
+        "text": "\"are there any adults left at the new york times\"\nThere haven't been for some time.\nThey tried desperately to turn Whitewater into a Watergate-type Presidency-ending scandal so they could claim a Presidential scalp of their own.\nWhen that failed, they practically salivated over the prospect of HRC",
+        "created_at": "2026-10-13T15:57:10.441Z",
+        "source": "https://bsky.app/profile/soonergrunt.bsky.social/post/3mxrfj2ea422d",
+        "mapped_location": "the new york times\"",
+        "precision_level": "address",
+        "location_text": "the new york times\"",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4fxfcb37p5sk2ebogaizccv3/app.bsky.feed.post/3mxrfkqgxvc27",
+        "handle": "wah.bsky.social",
+        "text": "OdaJoe himself studied abroad in the US as a youth, so perhaps that informed a key part of the story–the fish out of water element feels quite real and relatable. Also gotta hand props to Jai West for his lively and convincing performance as a part-Japanese drug dealer in New York.\n\n#AHWatching",
+        "created_at": "2026-10-13T15:57:39.034Z",
+        "source": "https://bsky.app/profile/wah.bsky.social/post/3mxrfkqgxvc27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gh57p72rmew33jordovmuaz6/app.bsky.feed.post/3mxrfli3qos2u",
+        "handle": "stitch.bsky.social",
+        "text": "They're... in new York city.\n\nDuring a zombie apocalypse...\n\nFeels like a bad idea considering how many people - now zombies - are out there but like?? I guess??\n\nIt is peak zombie media to do absolutely ridiculous things that open you up to death??",
+        "created_at": "2026-10-13T15:58:31.951Z",
+        "source": "https://bsky.app/profile/stitch.bsky.social/post/3mxrfli3qos2u",
+        "mapped_location": "new York",
+        "precision_level": "address",
+        "location_text": "new York",
         "confidence": 0.95
       }
     }

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T11:09:57.940067Z",
-    "total_pins": 11
+    "generated_at": "2026-10-13T13:46:08.173133Z",
+    "total_pins": 14
   },
   "features": [
     {
@@ -234,6 +234,69 @@
         "precision_level": "state",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sm5zfqyntsddvvdttpzi2qon/app.bsky.feed.post/3mxr5vwpet22o",
+        "handle": "marksteger.bsky.social",
+        "text": "From First Person Singular, by Haruki Murakami:\n\n\"I was in New York on business and, with time on my hands, took a walk near my hotel and ducked inside a small used-record store I came across on East Fourteenth Street. And in the section of Charlie Parker records, I found, of all things, ...\"",
+        "created_at": "2026-10-13T13:41:12.882Z",
+        "source": "https://bsky.app/profile/marksteger.bsky.social/post/3mxr5vwpet22o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p2tymkvl3e54jjv5ndmavw75/app.bsky.feed.post/3mxr5yxxvfs2p",
+        "handle": "profpolisci.bsky.social",
+        "text": "The Only Living Boy in New York\n\nAmerican Tune\n\n“We come in the age's most uncertain hours/ And sing an American tune”",
+        "created_at": "2026-10-13T13:42:54.876Z",
+        "source": "https://bsky.app/profile/profpolisci.bsky.social/post/3mxr5yxxvfs2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lnonisrzzlsp7rkd4rr6y6et/app.bsky.feed.post/3mxr64ekeys2u",
+        "handle": "john63kelly.bsky.social",
+        "text": "Spike Lee’s Summer of Sam is hilarious in its depiction of punks in 1977, especially in New York.",
+        "created_at": "2026-10-13T13:44:48.717Z",
+        "source": "https://bsky.app/profile/john63kelly.bsky.social/post/3mxr64ekeys2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

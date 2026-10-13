@@ -10,12 +10,28 @@ import config
 logger = logging.getLogger(__name__)
 
 # Verified against Groq docs (console.groq.com/docs/models,
-# console.groq.com/docs/structured-outputs) on 2026-10-05:
-# - "llama-3.1-8b-instant" is the current, non-deprecated model id for Llama 3.1 8B.
-# - JSON Object Mode (response_format={"type": "json_object"}) is supported on
-#   all Groq models, including this one, but requires the word "JSON" to appear
-#   in the prompt and still requires manual schema validation on our end.
-MODEL_NAME = "llama-3.1-8b-instant"
+# console.groq.com/docs/deprecations, console.groq.com/docs/structured-outputs)
+# on 2026-10-13:
+# - "llama-3.1-8b-instant" was DEPRECATED on 2026-08-16 and is no longer served
+#   to free/developer-tier API keys. It is still listed in the model catalogue
+#   under an "Enterprise" label, which is why the docs page looks fine while
+#   every real call returns HTTP 404 model_not_found. Because this whole layer
+#   is additive and fail-safe (resolve_entity_with_llm swallows exceptions and
+#   returns None), that 404 degraded silently on every single entity instead of
+#   crashing -- the pipeline fell back to the rule-based path everywhere.
+# - "openai/gpt-oss-20b" is Groq's own documented migration target for
+#   llama-3.1-8b-instant, and is the right fit here: it is the fastest model on
+#   the platform (~1000 tok/s vs ~560 for the old 8B), cheap
+#   ($0.075/$0.30 per M in/out), small/instruct-tuned, and well within the
+#   latency budget of our 10s per-call timeout.
+# - JSON support: JSON Object Mode (response_format={"type": "json_object"}) is
+#   supported on all Groq models including this one; it requires the word "JSON"
+#   to appear in the prompt (SYSTEM_PROMPT says "single JSON object" and
+#   "Output must be valid JSON") and still requires manual schema validation on
+#   our end, which _validate_llm_response does. This model additionally supports
+#   the stricter json_schema structured-outputs mode, so tightening this later
+#   to a real schema is an option without another model change.
+MODEL_NAME = "openai/gpt-oss-20b"
 
 _VALID_ACTIONS = {"resolve", "query", "accept", "null"}
 

@@ -30,26 +30,117 @@ NYC_MIN_LNG, NYC_MAX_LNG = -74.26, -73.70
 
 _STOPWORDS = {"the", "of", "in", "at", "a", "an"}
 
+# Name aliases, applied to both the query side and the matched-name side so the
+# comparison is symmetric. Nominatim canonicalizes all of "New York City" /
+# "NYC" / "NY" to the bare name "New York", so without this normalization every
+# one of those queries is a false reject -- and "New York City" is by far the
+# most frequent query in this dataset, so the old check fired on nearly every
+# run. Longest patterns first; each is anchored on word boundaries.
+_NAME_ALIASES = [
+    (re.compile(r"\bcity of new york\b"), "new york"),
+    (re.compile(r"\bnew york city\b"), "new york"),
+    (re.compile(r"\bnew york state\b"), "new york"),
+    (re.compile(r"\bn\.?y\.?c\.?\b"), "new york"),
+    (re.compile(r"\bnyc\b"), "new york"),
+    (re.compile(r"\bn\.?j\.?\b"), "new jersey"),
+    (re.compile(r"\bn\.?y\.?\b"), "new york"),
+]
+
+# Administrative suffix words that describe an admin *level* rather than being
+# part of a place's actual name ("Kings County", "New York City"). They may be
+# dropped from the tail of a query only when the matched result is itself an
+# administrative-level place (see _ADMIN_RESULT_TYPES) -- that is what keeps
+# "Seneca County" from being reduced to "Seneca" and then matching the road
+# "Seneca Avenue".
+_ADMIN_SUFFIX_TOKENS = {
+    "city", "county", "borough", "state", "province", "district",
+    "parish", "municipality", "township",
+}
+
+_ADMIN_RESULT_TYPES = _CITY_TYPES | _STATE_TYPES | {"country"}
+
+
+def _normalize_name(s: str) -> str:
+    s = s.lower()
+    for pattern, replacement in _NAME_ALIASES:
+        s = pattern.sub(replacement, s)
+    return s
+
 
 def _query_tokens(s: str) -> set:
-    words = re.findall(r"[a-z0-9]+", s.lower())
+    words = re.findall(r"[a-z0-9]+", _normalize_name(s))
     return {w for w in words if w not in _STOPWORDS}
 
 
-def _name_matches_query(query: str, display_name: str) -> bool:
-    # display_name's first comma-separated segment is the matched entity's
-    # own name (e.g. "Williamsburg Bridge" out of "Williamsburg Bridge,
-    # Lower East Side, Manhattan, ..."). Every significant word in the
-    # query must appear there -- extra words on the matched side are fine
-    # (e.g. query "Grand Central" matching "Grand Central Terminal" should
-    # still pass), but a missing query word means the match is likely
-    # coincidental/wrong, not the actual place asked for.
-    primary = display_name.split(",")[0]
-    query_tokens = _query_tokens(query)
-    if not query_tokens:
+def _core_tokens_without_admin_suffix(core: str) -> set:
+    """Token set for `core` with trailing administrative suffix words removed.
+
+    Only *trailing* suffixes are dropped, and never the last remaining token.
+    Trailing-only matters: "Borough Park" (a real Brooklyn neighbourhood) keeps
+    both of its words, so it can't be loosened into matching "Park Slope".
+    """
+    words = [w for w in re.findall(r"[a-z0-9]+", _normalize_name(core))
+             if w not in _STOPWORDS]
+    while len(words) > 1 and words[-1] in _ADMIN_SUFFIX_TOKENS:
+        words.pop()
+    return set(words)
+
+
+def _name_matches_query(query: str, display_name: str, address_type: str = "") -> bool:
+    """Guard against Nominatim's bounded=True force-matching the nearest
+    textually-similar result inside the NYC bbox when the real place is far
+    away (e.g. "Seneca County", ~300mi upstate, resolving to "Seneca Avenue,
+    Queens").
+
+    The query is split on commas: the first segment is the place name proper,
+    and any later segments are *context* appended by build_geocoding_query or
+    by the LLM "query" action (a nearby US state, a co-occurring GPE).
+
+    - The core name must match the matched result's own name, which is
+      display_name's first comma-separated segment (e.g. "Williamsburg Bridge"
+      out of "Williamsburg Bridge, Lower East Side, Manhattan, ..."). Extra
+      words on the matched side are fine, so query "Grand Central" still
+      matches "Grand Central Terminal"; a missing query word means the match is
+      probably coincidental.
+    - Context segments are checked against the *whole* display_name rather than
+      just its first segment, because that is where context like "New York" or
+      "Manhattan" actually appears. Requiring context words in the first
+      segment (the old behaviour) rejected essentially every clarified query,
+      e.g. "Williamsburg Bridge, NY". Checking them against the full name still
+      blocks the far-away class: "Portland, Oregon" cannot match
+      "Portland Avenue, Brooklyn, New York, ...".
+    - `address_type` is the matched result's Nominatim type/addresstype. When it
+      is an administrative level (city/town/borough/county/state/...), a
+      trailing admin suffix on the query is treated as satisfied by the result
+      itself instead of having to appear literally in its name -- so
+      "New York City" may match the city/state record named just "New York".
+      When the type is unknown or non-administrative we do not loosen anything,
+      which is what preserves the Seneca-style reject.
+    """
+    segments = query.split(",")
+    core = segments[0]
+    context = segments[1:]
+
+    core_tokens = _query_tokens(core)
+    if not core_tokens:
         return True
-    primary_tokens = _query_tokens(primary)
-    return query_tokens.issubset(primary_tokens)
+
+    primary_tokens = _query_tokens(display_name.split(",")[0])
+    core_ok = core_tokens.issubset(primary_tokens)
+
+    if not core_ok and (address_type or "").lower() in _ADMIN_RESULT_TYPES:
+        core_ok = _core_tokens_without_admin_suffix(core).issubset(primary_tokens)
+
+    if not core_ok:
+        return False
+
+    full_tokens = _query_tokens(display_name)
+    for segment in context:
+        segment_tokens = _query_tokens(segment)
+        if segment_tokens and not segment_tokens.issubset(full_tokens):
+            return False
+
+    return True
 
 
 def init_geocoder(user_agent="Spice/1.0 (NYC Bluesky geolocation map; contact: zeke.deck@gmail.com)"):
@@ -62,7 +153,7 @@ def geocode_query(query: str, geocoder, conn) -> dict | None:
         cached_lat = float(cached["lat"])
         cached_lng = float(cached["lng"])
         if NYC_MIN_LAT <= cached_lat <= NYC_MAX_LAT and NYC_MIN_LNG <= cached_lng <= NYC_MAX_LNG:
-            if _name_matches_query(query, cached["display_name"]):
+            if _name_matches_query(query, cached["display_name"], cached.get("address_type", "")):
                 return cached
     try:
         results = geocoder.geocode(
@@ -106,7 +197,8 @@ def geocode_query(query: str, geocoder, conn) -> dict | None:
             logger.warning("Importance below floor rejected for query %r", query)
             return None
 
-        if not _name_matches_query(query, best.address):
+        best_type = best.raw.get("type", best.raw.get("addresstype", ""))
+        if not _name_matches_query(query, best.address, best_type):
             logger.warning("Query/result name mismatch rejected for query %r: matched %r", query, best.address)
             return None
 

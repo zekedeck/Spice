@@ -15,7 +15,16 @@ permissions:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # 15m budget: the collector alone now holds the firehose open for 7m
+    # (see COLLECTOR_DURATION_SECONDS below), and the worker step scales with
+    # post volume, so it needs real headroom on top of that.
+    #   420s collector + ~40s fixed overhead (checkout, setup-python, pip
+    #   install, cache restore/save, commit+push) leaves ~440s of the 900s
+    #   budget for the worker. The worker took ~12s for 18 posts, so even at
+    #   5x the volume (~60s) -- plus the extra geocode/LLM calls that the
+    #   revived Groq model and the loosened name check now let through -- it
+    #   fits several times over.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -43,7 +52,15 @@ jobs:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
           DB_PATH: data/raw/posts.db
-          COLLECTOR_DURATION_SECONDS: "180"
+          # Long collection window on purpose. The cron above asks for every
+          # 15 minutes, but GitHub's scheduler only actually fires this job
+          # ~4-6 times a day (a known GitHub limitation we accept). At 180s
+          # that was only ~12-18 minutes of firehose coverage per DAY, which
+          # is why the map went nearly empty. Since we get so few firings,
+          # each one has to do much more work: 420s x ~5 firings is ~35
+          # minutes of coverage a day. This repo is public, so Actions
+          # minutes are unlimited and the longer run costs nothing.
+          COLLECTOR_DURATION_SECONDS: "420"
 
       - name: Run worker
         run: python worker.py

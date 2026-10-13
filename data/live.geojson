@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T22:55:21.824123Z",
-    "total_pins": 254
+    "generated_at": "2026-10-13T23:12:19.710259Z",
+    "total_pins": 268
   },
   "features": [
     {
@@ -5385,6 +5385,300 @@
         "precision_level": "address",
         "location_text": "West Village",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:edons64eo3qqlvw522vgkiut/app.bsky.feed.post/3mxs4yvm4322y",
+        "handle": "qaadri.bsky.social",
+        "text": "📍Manhattan, NYC, NY 🇺🇸\n____\n#Manhattan #NewYork #NewYorkCity #NYC #MidTown #Brooklyn #CentralPark #Morning #BigApple #Night #Urban #architecture #Autumn #PortfolioDay #Photography #Connecticut #CT #Harlem #Bronx #Classic #Queens #Fairfield #Bridgeport #NewJersey #Photooftheday #View #BlueSky #USA",
+        "created_at": "2026-10-13T22:57:38.370Z",
+        "source": "https://bsky.app/profile/qaadri.bsky.social/post/3mxs4yvm4322y",
+        "mapped_location": "Manhattan, NYC, NY 🇺🇸",
+        "precision_level": "address",
+        "location_text": "Manhattan, NYC, NY 🇺🇸",
+        "confidence": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:njmusrhyoqiumkywf3ewvi3e/app.bsky.feed.post/3mxs526ngll23",
+        "handle": "sadisticpenguin.bsky.social",
+        "text": "In New York, Satan possesses a banker. His target? Christine York, who's central to an end-of-1999 prophecy. #film #thriller",
+        "created_at": "2026-10-13T22:58:21.338Z",
+        "source": "https://bsky.app/profile/sadisticpenguin.bsky.social/post/3mxs526ngll23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nawo4kbffrpxaoig34ofryei/app.bsky.feed.post/3mxs52rl7gr42",
+        "handle": "raven.fedi.raventhemaker.com.ap.brid.gy",
+        "text": "With tracking saying my handpan left a FedEx facility up near New York this morning and nothing else, I totally did not expect it when it arrived today.\n\nAlas, I have no energy or desire to play it. This cold is kicking my butt.",
+        "created_at": "2026-10-13T22:58:28.000Z",
+        "source": "https://bsky.app/profile/raven.fedi.raventhemaker.com.ap.brid.gy/post/3mxs52rl7gr42",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e5ui7dzjh5hspj26s5zys4bq/app.bsky.feed.post/3mxs53443i22v",
+        "handle": "rilaws.bsky.social",
+        "text": "I know they’re not building a massive pickle store under the Brooklyn Bridge but I wish that’s what it was",
+        "created_at": "2026-10-13T22:58:52.310Z",
+        "source": "https://bsky.app/profile/rilaws.bsky.social/post/3mxs53443i22v",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxs55o26f32y",
+        "handle": "laviezine.bsky.social",
+        "text": "Katy Perry Premieres ‘The Lifetimes Tour — Live From Paris,’ Says She’s “Very in Love” With Justin Trudeau\n\nhttps://www.laviezine.com/1661637/katy-perry-premieres-the-lifetimes-tour-live-from-paris-says-shes-very-in-love-with-justin-trudeau/\n\nKaty Perry had a memorable night in New York City on …",
+        "created_at": "2026-10-13T23:00:15+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxs55o26f32y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bg3zlpvm46kvfafayjowlhj/app.bsky.feed.post/3mxs573gdhc2r",
+        "handle": "caroleeena.bsky.social",
+        "text": "What is something that brought you Joy today? \n\nFor me, I just learned that Mamdani has made a deal to ban the horse carriage industry in New York City and I could not be happier! So many horses suffer from walking on those paved roads in heavy traffic and pollution. Often made to work sick.",
+        "created_at": "2026-10-13T23:01:05.816Z",
+        "source": "https://bsky.app/profile/caroleeena.bsky.social/post/3mxs573gdhc2r",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s7eizcymyxqy2ac7spbqxzze/app.bsky.feed.post/3mxs57omf232g",
+        "handle": "kevinthoule.bsky.social",
+        "text": "I was lucky enough to see the Galileo when it was at the Johnson Space Center. Would love to see it again someday in New York.",
+        "created_at": "2026-10-13T23:01:25Z",
+        "source": "https://bsky.app/profile/kevinthoule.bsky.social/post/3mxs57omf232g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jhummoojz7qfytxfsdbmm6vm/app.bsky.feed.post/3mxs5e3tpz22y",
+        "handle": "maru9999.bsky.social",
+        "text": "You literally live in New York.",
+        "created_at": "2026-10-13T23:03:54.028Z",
+        "source": "https://bsky.app/profile/maru9999.bsky.social/post/3mxs5e3tpz22y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c4izsceap562rvlcivxq44rg/app.bsky.feed.post/3mxs5gon2xx2p",
+        "handle": "nowglobe.bsky.social",
+        "text": "🌍 New York City, USA is entering its evening rush. Watch the live view now.\nLive camera: Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife\n#NowGlobe #LiveCamera",
+        "created_at": "2026-10-13T23:05:20.576Z",
+        "source": "https://bsky.app/profile/nowglobe.bsky.social/post/3mxs5gon2xx2p",
+        "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "precision_level": "address",
+        "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xfxjlzxidrarezafsabvhe33/app.bsky.feed.post/3mxs5kpkf7o2u",
+        "handle": "swingleft.bsky.social",
+        "text": "Another week of the Big Swing Challenge is complete, and volunteers in Michigan, California, New York, New Jersey, and New Hampshire led this past week. \n\nOnly THREE weeks remain until Election Day. Ready to take your own biggest swing now?\n\nVisit swingleft.org/challenge to join volunteers!\n",
+        "created_at": "2026-10-13T23:07:35.899510569Z",
+        "source": "https://bsky.app/profile/swingleft.bsky.social/post/3mxs5kpkf7o2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7ns5ynpm4g6q62wgx6ikcrys/app.bsky.feed.post/3mxs5nhae3k2v",
+        "handle": "rawcharge.com",
+        "text": "Happy NHL Frenzy Day. Here are how the #GoBolts are lining up in New York City.  \n\nGoncalves-Point-Kucherov\nHagel-Cirelli-Guentzel\nMikheyev-Girgensons-Holmberg\nViel-Geekie\n\nMoser-Carlson\nMcDonagh-Cernak\nHedman-Crozier\nD’Astous\n\nVasilevskiy\nSogaard",
+        "created_at": "2026-10-13T23:09:07.961Z",
+        "source": "https://bsky.app/profile/rawcharge.com/post/3mxs5nhae3k2v",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bncyyvioexgoiylx7zxz677x/app.bsky.feed.post/3mxs5osgud22i",
+        "handle": "wilsones13.bsky.social",
+        "text": "Get an electric small truck or car to pull the carriages around New York's sights and landmarks. They could go more easily through the city with no suffering. Decorate the vehicle with horses. Times change; people need to adapt.",
+        "created_at": "2026-10-13T23:09:53.261Z",
+        "source": "https://bsky.app/profile/wilsones13.bsky.social/post/3mxs5osgud22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nfs3v2icvkab7ipfklp54oqc/app.bsky.feed.post/3mxs5p3bm6c2w",
+        "handle": "greenpartyoli.bsky.social",
+        "text": "The mayor industry is coming to an end in New York City\n\nThis is the end game\n\nWe won't need a new one probably for the next like ten years",
+        "created_at": "2026-10-13T23:10:02.534Z",
+        "source": "https://bsky.app/profile/greenpartyoli.bsky.social/post/3mxs5p3bm6c2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rnk5ufrnbifgjgojcku3vduu/app.bsky.feed.post/3mxs5qein5s2l",
+        "handle": "ogcaliboi.bsky.social",
+        "text": "As someone who's taken those rides through Central Park, it's time for that to come to an end. Some of the horses definitely struggle with it.",
+        "created_at": "2026-10-13T23:10:45.753Z",
+        "source": "https://bsky.app/profile/ogcaliboi.bsky.social/post/3mxs5qein5s2l",
+        "mapped_location": "Central Park",
+        "precision_level": "address",
+        "location_text": "Central Park",
+        "confidence": 0.85
       }
     }
   ]

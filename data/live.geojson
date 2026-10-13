@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T14:42:39.009882Z",
-    "total_pins": 45
+    "generated_at": "2026-10-13T14:51:30.142839Z",
+    "total_pins": 56
   },
   "features": [
     {
@@ -950,6 +950,241 @@
         "text": "Now add 2.1 million Jews in New York. Then the Jewish populations of Miami & my home, Hollywood. That's where the AIPAC money is coming from to bribe American politicians to support Israel's genocide. \n\nYou're welcome.",
         "created_at": "2026-10-13T14:40:42.548Z",
         "source": "https://bsky.app/profile/dodgersfan4ever.bsky.social/post/3mxrbacyut22r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:aqkhgtacyqtfdeonzytkmonx/app.bsky.feed.post/3mxrbgiz3mc2e",
+        "handle": "jimswanson.bsky.social",
+        "text": "More people seen entering and exiting NYC manholes\n\nPolice are searching for three men seen entering a manhole on West 141st Street, in New York City's Hamilton Heights neighborhood, shortly before 1 a.m. on Sunday, New York Police Department sources said.\n\ntinyurl.com/a6VgRt",
+        "created_at": "2026-10-13T14:44:10.173Z",
+        "source": "https://bsky.app/profile/jimswanson.bsky.social/post/3mxrbgiz3mc2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City's",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4vs4txwbwdkkkoeuxut67e5t/app.bsky.feed.post/3mxrbjma2ak2r",
+        "handle": "30000plusdawns.bsky.social",
+        "text": "Thanks!  Now, living in central New York state in the US, I'll just need to keep in mind that our seasons are reversed! 😁💛",
+        "created_at": "2026-10-13T14:45:54.210Z",
+        "source": "https://bsky.app/profile/30000plusdawns.bsky.social/post/3mxrbjma2ak2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ra22hjtek3bwqwea4rn6wtf6/app.bsky.feed.post/3mxrbksehxc2g",
+        "handle": "antofwands.bsky.social",
+        "text": "Hey #PortfolioDay! 🌿\nI'm Anthony, a concept artist & freelance illustrator based in New York. I love earthy tones and painting fantasy characters! ✨\n\n📧 antcerulloart@gmail.com\n✏️ anthonycerullo.carrd.co",
+        "created_at": "2026-10-13T14:46:34.200Z",
+        "source": "https://bsky.app/profile/antofwands.bsky.social/post/3mxrbksehxc2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vmahnbhfsccrghdzg5ytkmzd/app.bsky.feed.post/3mxrbnpthuk2j",
+        "handle": "gizmouse.bsky.social",
+        "text": "looking for three other women to form this team with, meet me in the new york sewers",
+        "created_at": "2026-10-13T14:48:12.211Z",
+        "source": "https://bsky.app/profile/gizmouse.bsky.social/post/3mxrbnpthuk2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "the new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bupiwfmx5itxdujb2seitqym/app.bsky.feed.post/3mxrboqigds2e",
+        "handle": "volty.bsky.social",
+        "text": "I'll be in new york city tomorrow",
+        "created_at": "2026-10-13T14:48:46.451Z",
+        "source": "https://bsky.app/profile/volty.bsky.social/post/3mxrboqigds2e",
+        "mapped_location": "new york city",
+        "precision_level": "address",
+        "location_text": "new york city",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mxrbpdyi322m",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Catholic Center at New York University, 58 Washington Square S, New York, NY 10012",
+        "created_at": "2026-10-13T14:49:06.888Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mxrbpdyi322m",
+        "mapped_location": "New York University",
+        "precision_level": "address",
+        "location_text": "New York University",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mxrbpdyi322m",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Catholic Center at New York University, 58 Washington Square S, New York, NY 10012",
+        "created_at": "2026-10-13T14:49:06.888Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mxrbpdyi322m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "New York University"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kdl26txasdspeuauz24x5wdx/app.bsky.feed.post/3mxrbr6biqc2v",
+        "handle": "gvwire.bsky.social",
+        "text": "About a year before the World Cup, FIFA held a splashy opening for its latest office, a 17th-floor suite in Trump Tower in New York. \n\ngvwire.com/2026/10/13/f...",
+        "created_at": "2026-10-13T14:50:08.013Z",
+        "source": "https://bsky.app/profile/gvwire.bsky.social/post/3mxrbr6biqc2v",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kdl26txasdspeuauz24x5wdx/app.bsky.feed.post/3mxrbr6biqc2v",
+        "handle": "gvwire.bsky.social",
+        "text": "About a year before the World Cup, FIFA held a splashy opening for its latest office, a 17th-floor suite in Trump Tower in New York. \n\ngvwire.com/2026/10/13/f...",
+        "created_at": "2026-10-13T14:50:08.013Z",
+        "source": "https://bsky.app/profile/gvwire.bsky.social/post/3mxrbr6biqc2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Trump Tower"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h4cbb7x5snyfbc5rib5c2xuj/app.bsky.feed.post/3mxrbrid7ns2u",
+        "handle": "garyhershorn.bsky.social",
+        "text": "A SpaceX Falcon 9 rocket on mission CRS SpX-35 to the International Space Station flies over lower Manhattan and One World Trade before sunrise in New York City, Tuesday morning #newyorkcity #nyc #newyork #SpaceX #rocket",
+        "created_at": "2026-10-13T14:50:18.553Z",
+        "source": "https://bsky.app/profile/garyhershorn.bsky.social/post/3mxrbrid7ns2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vusyljxzvgwmsuzgzhd7jssf/app.bsky.feed.post/3mxrbrjis6o2w",
+        "handle": "iphoneislam.bsky.social",
+        "text": "Apple officially breaks into your home: Welcome the new Apple device, Home View\n\nAt its Welcome Home event in New York, Apple unveiled its new Home View smart home device with a 7-inch touchscreen and built-in speaker. The device features Apple Intelligence capabilities and facial recognition for…",
+        "created_at": "2026-10-13T14:50:19Z",
+        "source": "https://bsky.app/profile/iphoneislam.bsky.social/post/3mxrbrjis6o2w",
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",

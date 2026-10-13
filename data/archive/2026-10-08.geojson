@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-08T17:35:29.800758Z",
-    "total_pins": 71
+    "generated_at": "2026-10-09T03:29:03.771381Z",
+    "total_pins": 137
   },
   "features": [
     {
@@ -1496,6 +1496,1396 @@
         "precision_level": "city",
         "location_text": "Queens College",
         "confidence": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kyzgcblw4mgs6typfe7atusq/app.bsky.feed.post/3mxeytxj4hc25",
+        "handle": "tg80.bsky.social",
+        "text": "Part 4: Can the revolt govern? In New York, Mamdani got a rent freeze and partial free child care. Free buses stalled in Albany. A pre-primary poll had El-Sayed trailing Republican Mike Rogers, while in Maine, progressive Troy Jackson leads Susan Collins. Winning isn't governing.",
+        "created_at": "2026-10-08T17:37:15.835Z",
+        "source": "https://bsky.app/profile/tg80.bsky.social/post/3mxeytxj4hc25",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zgnvusam7aox7pvqf7apnsbr/app.bsky.feed.post/3mxeyxmngqk2m",
+        "handle": "rogue82.bsky.social",
+        "text": "Statue of Liberty flips the state bird.\nWelcome to New York,  Dementia, Pedo Donnie\n\n#fucktrump 🖕\n#fuckMAGA 🖕",
+        "created_at": "2026-10-08T17:40:43.871Z",
+        "source": "https://bsky.app/profile/rogue82.bsky.social/post/3mxeyxmngqk2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mxez73gmag2b",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "Tourists in New York are facing sky-high fares from pedicabs, but a coalition of stakeholders is pushing for visible meters and scannable plates to combat scams and ensure fair pricing. \n\nLearn more here\n\n#NY #CitizenPortal #ConsumerProtection #TransportationTransparency #FairPricing",
+        "created_at": "2026-10-08T17:44:54.058Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mxez73gmag2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ncdvzkkqgqnmdhglormsgxfq/app.bsky.feed.post/3mxezttkb2k2k",
+        "handle": "priyamvadagopal.bsky.social",
+        "text": "I'm all for holding politicians accountable but the people who booed the Mayor of New York for attending a vigil yesterday are massive numpties.",
+        "created_at": "2026-10-08T17:56:30.635Z",
+        "source": "https://bsky.app/profile/priyamvadagopal.bsky.social/post/3mxezttkb2k2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n34fdgjed4tzddxqvbwh4lp7/app.bsky.feed.post/3mxf2d45nro2x",
+        "handle": "gnyha.org",
+        "text": "In light of New York Governor Kathy Hochul’s declared state of emergency over measles cases, we’re sharing our Measles Awareness Tool to help hospitals prepare for and respond to cases and exposures. See details here: https://bit.ly/477CFEB ",
+        "created_at": "2026-10-08T18:05:02.855464015Z",
+        "source": "https://bsky.app/profile/gnyha.org/post/3mxf2d45nro2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gzrl62guw5o3cogeqwqmbjte/app.bsky.feed.post/3mxf4y3wbz22r",
+        "handle": "goldenera.si",
+        "text": "TSMC has a new U.S. supplier: GlobalFoundries will make silicon interposers for its CoWoS advanced packaging in Malta, New York, under a five-year, $2 billion agreement. Volume production is expected to ramp in the first half of 2028.",
+        "created_at": "2026-10-08T18:52:34.859Z",
+        "source": "https://bsky.app/profile/goldenera.si/post/3mxf4y3wbz22r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1496048,
+          40.5834557
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b6i7yz3ucws556xbrawiptkf/app.bsky.feed.post/3mxf4zmfauk2g",
+        "handle": "weact4ej.bsky.social",
+        "text": "Staten Island, join us Saturday, Oct 17, 12-4 PM at Snug Harbor Cultural Center for the EJNYC Community Engagement Session. \n\nLet’s talk flooding, transit, and healthy homes. \n\nTranslation, childcare, and food provided. \n\nRSVP: tinyurl.com/bdhvh58u",
+        "created_at": "2026-10-08T18:53:25.682Z",
+        "source": "https://bsky.app/profile/weact4ej.bsky.social/post/3mxf4zmfauk2g",
+        "mapped_location": "Staten Island, Richmond County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Staten Island",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ede7vytzyl7vums23i4oiz2a/app.bsky.feed.post/3mxf4zwygf22o",
+        "handle": "fplynch.bsky.social",
+        "text": "We saw The Only Living Pickpocket In New York last night and enjoyed it very much; I do recommend you see it when it goes into general release. \nen.wikipedia.org/wiki/The_Onl...",
+        "created_at": "2026-10-08T18:53:36.796Z",
+        "source": "https://bsky.app/profile/fplynch.bsky.social/post/3mxf4zwygf22o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9915987,
+          40.7020375
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:izxpomdyri45gzhppiiyattq/app.bsky.feed.post/3mxf6segqpc2w",
+        "handle": "coachfinstock.bsky.social",
+        "text": "You are the dumbest people alive. You are a walking Kick Me sign. Selling you the Brooklyn Bridge on an installment plan so I can hit you with the service fees on top of the scam level of sucker.",
+        "created_at": "2026-10-08T19:25:09.945Z",
+        "source": "https://bsky.app/profile/coachfinstock.bsky.social/post/3mxf6segqpc2w",
+        "mapped_location": "Brooklyn Bridge, Dumbo, Brooklyn, Kings County, New York, 11242, United States",
+        "precision_level": "city",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7diml3o5czy3feqhl6jat2x/app.bsky.feed.post/3mxf6t6cd4s2r",
+        "handle": "cranebones.bsky.social",
+        "text": "Honestly my mom always just walks in when I wake up or am getting settled after coming home to alert me of shit that happened in the news\n\nThat's how I learned about 9/11. Just woke up and it's \"Someone flew a plane into a tower in New York.\"\n\nThanks, Mom",
+        "created_at": "2026-10-08T19:25:37.064Z",
+        "source": "https://bsky.app/profile/cranebones.bsky.social/post/3mxf6t6cd4s2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002,
+          40.744
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vcyufljb4mexfpsnvo4ry5sm/app.bsky.feed.post/3mxf7vlkerc2w",
+        "handle": "lavrami.bsky.social",
+        "text": "Michael Mustafa Ulmer performing at the James Blood Ulmer Jazz Memorial at Saint Peter's Church, NYC Sept 29, 2026",
+        "created_at": "2026-10-08T19:44:51.805Z",
+        "source": "https://bsky.app/profile/lavrami.bsky.social/post/3mxf7vlkerc2w",
+        "mapped_location": "Saint Peter's Church, 342, West 20th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+        "precision_level": "address",
+        "location_text": "Saint Peter's Church",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hdaycih2fvzx3olivstldujp/app.bsky.feed.post/3mxfboz4etc24",
+        "handle": "inspecter797.bsky.social",
+        "text": "Daniel Jones really followed his trajectory in New York in Indy: gets new offensive minded coach (Daboll/Steichen), plays well, gets injured, gets extended, comes back from injury, looks bad, and fans wonder why you paid him in the first place.",
+        "created_at": "2026-10-08T20:16:58.634Z",
+        "source": "https://bsky.app/profile/inspecter797.bsky.social/post/3mxfboz4etc24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lnnvjk2ldhfreaddkbejdiy3/app.bsky.feed.post/3mxfbpx2lw222",
+        "handle": "numberonegmom.bsky.social",
+        "text": "The question occurs to me. How did ICE know to look at this 21yo 6'9\" student who transferred to MS but attended high school in New York? Think abt it. They have records of some kind on all of us is my guess. Somehow they tracked him to MS using that info. He's still in custody. @nytimes.com",
+        "created_at": "2026-10-08T20:17:30.028Z",
+        "source": "https://bsky.app/profile/numberonegmom.bsky.social/post/3mxfbpx2lw222",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9859723,
+          40.6701033
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2cbvuk7lywsctvivc5q7xhlq/app.bsky.feed.post/3mxfbraxs6p2v",
+        "handle": "colin.rafferty.net",
+        "text": "That’s me. I live in Prospect Heights but will park in Park Slope for my vacation to only get 1 ticket a week. It’s much less expensive to pay $65/week + r/t taxi than parking at the airport. ",
+        "created_at": "2026-10-08T20:18:13Z",
+        "source": "https://bsky.app/profile/colin.rafferty.net/post/3mxfbraxs6p2v",
+        "mapped_location": "Park Slope, Brooklyn, Kings County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Park Slope",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f3ph3ymzcnhpchwqiu4u37g2/app.bsky.feed.post/3mxfdl3uerw2m",
+        "handle": "gizmodo.com",
+        "text": "Who or what it's about we don't know, but the news broke at New York Comic Con.",
+        "created_at": "2026-10-08T20:50:34.365Z",
+        "source": "https://bsky.app/profile/gizmodo.com/post/3mxfdl3uerw2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hqbspgkcf5dixfhngmqq3jfd/app.bsky.feed.post/3mxfen7547c2m",
+        "handle": "victorlavalle.bsky.social",
+        "text": "Your boy is at New York Comic Con signing signing books! \n\nThe Devil in Silver, specifically but if you’ve got something else I’ll sign that, too.\n\nIf you’re here, I get going from 5:30-6:15 at the Penguin Random House booth.",
+        "created_at": "2026-10-08T21:09:39.061Z",
+        "source": "https://bsky.app/profile/victorlavalle.bsky.social/post/3mxfen7547c2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfenycpoc2e",
+        "handle": "wsbt22.bsky.social",
+        "text": "Cilia Flores, the wife of former Venezuelan President Nicolás Maduro, is asking a federal judge in New York to release her from jail and allow her to live under house arrest with 24-hour security as she awaits trial on US cocaine-trafficking charges.\nhttps://bit.ly/4AUdH9t",
+        "created_at": "2026-10-08T21:10:05.349714094Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfenycpoc2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:njpw4itkjllk3kdjahnlyraq/app.bsky.feed.post/3mxfeokguwk2y",
+        "handle": "paulbali.com",
+        "text": "Every facet of every serious domestic credit institution in China is governed by the wise instruction of the State Council of China, executed by the cadres in the People's Government of the Munincipality of [xyz], not the shareholders of Bank of America in New York. This produces different outcomes",
+        "created_at": "2026-10-08T21:10:24.474Z",
+        "source": "https://bsky.app/profile/paulbali.com/post/3mxfeokguwk2y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxfeomo6452y",
+        "handle": "mainstream-media.bsky.social",
+        "text": "Jeffries says Republicans are mismanaging their money in New York House races\n\nhttps://www.washingtonexaminer.com/n...",
+        "created_at": "2026-10-08T21:10:26.798846+00:00",
+        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxfeomo6452y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mxaawismszl4x2sjl5efqvui/app.bsky.feed.post/3mxfg6hcgds2t",
+        "handle": "fluffyscales.bsky.social",
+        "text": "Yes, but look at Marcy Kaptur and Amy Acton in Ohio (hell, look at the entire Democratic Equality caucus in Ohio), or James Talarico capitulating and having to crawl back in Texas, or Blake Gendebien in New York. Pretending like this isn’t a larger trend isn’t helping, it’s actively hurting.",
+        "created_at": "2026-10-08T21:37:11.796Z",
+        "source": "https://bsky.app/profile/fluffyscales.bsky.social/post/3mxfg6hcgds2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3374polobvhdrvk5of27pfwg/app.bsky.feed.post/3mxfg7lag5k2k",
+        "handle": "secondhusk.bsky.social",
+        "text": "Attn: nerds — I’m hosting an epic all-geek trivia game at House of Spells tonight in Times Square. Stop by and Um, Actually my ass! www.eventbrite.com/e/fandom-tri...",
+        "created_at": "2026-10-08T21:37:49.470Z",
+        "source": "https://bsky.app/profile/secondhusk.bsky.social/post/3mxfg7lag5k2k",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ak52riygnk6q2siglha6ez7o/app.bsky.feed.post/3mxfgbnnlz22s",
+        "handle": "jasonkpargin.bsky.social",
+        "text": "What is the quintessential \"New York\" film where it feels like the city itself is literally the most compelling and dynamic character? I'd have to go with The Town",
+        "created_at": "2026-10-08T21:38:59.116Z",
+        "source": "https://bsky.app/profile/jasonkpargin.bsky.social/post/3mxfgbnnlz22s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l6agqcjf4rwy6u57cxvpzxqh/app.bsky.feed.post/3mxfgmoblha2i",
+        "handle": "akerix-en.bsky.social",
+        "text": "Sean Lennon: musical heir and custodian of the legacy of John and Yoko\n\nOn October 9, 1975, the only son of the iconic duo John Lennon and Yoko Ono was born in New York, marking the…\n\n#Akerix #AI #SeanLennon #JohnLennon\nhttps://akerix.com/on-this-day/10-09-sean-lennon-1975\n📷 Wikimedia Commons",
+        "created_at": "2026-10-08T21:45:08.824Z",
+        "source": "https://bsky.app/profile/akerix-en.bsky.social/post/3mxfgmoblha2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nzftse6ub6guehtgkvm2uhmr/app.bsky.feed.post/3mxfkeqyvys2s",
+        "handle": "themarchingmorons.bsky.social",
+        "text": "Man shot in vehicle during ICE operation in Marble Hill: officials\n\nA man in a vehicle was shot during an ICE operation in Manhattan on Thursday, according to officials.\n\nIt happened just after 4 p.m. in the upper Manhattan neighborhood of Marble Hill.\n\n@hart28.bsky.social \n\n#AbolishICE",
+        "created_at": "2026-10-08T22:52:18.172Z",
+        "source": "https://bsky.app/profile/themarchingmorons.bsky.social/post/3mxfkeqyvys2s",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3mxfktmofs322",
+        "handle": "reuters.com",
+        "text": "Person wounded in New York shooting involving US Homeland Security agents, police say reut.rs/4ylN1vW",
+        "created_at": "2026-10-08T23:00:36Z",
+        "source": "https://bsky.app/profile/reuters.com/post/3mxfktmofs322",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mvw7lhdg7qa7473tn43a5j6d/app.bsky.feed.post/3mxfkuroflk2r",
+        "handle": "fenyc.girlmode.net",
+        "text": "I made it..\n\nI got a compliment from a cute trans woman walking past me in Times Square.\n\nI caught someone’s attention in the most attention starved place in the city :333\n\naaa",
+        "created_at": "2026-10-08T23:01:15.837Z",
+        "source": "https://bsky.app/profile/fenyc.girlmode.net/post/3mxfkuroflk2r",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ekixxjxw7stz5vjy7qdcavsy/app.bsky.feed.post/3mxfkypfy5n2f",
+        "handle": "codaily.bsky.social",
+        "text": "Person wounded in New York shooting involving US Homeland Security agents, police say",
+        "created_at": "2026-10-08T23:03:27.661Z",
+        "source": "https://bsky.app/profile/codaily.bsky.social/post/3mxfkypfy5n2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n4ko273ye6yqefhtzaq4iu7m/app.bsky.feed.post/3mxfl57a7xc2h",
+        "handle": "alfrib25.bsky.social",
+        "text": "And the Russian whites who wanted to assassinate the chess genius in New York, being white makes a good assassin and brings in good business in Putin's Russia 😂😂",
+        "created_at": "2026-10-08T23:05:58.486Z",
+        "source": "https://bsky.app/profile/alfrib25.bsky.social/post/3mxfl57a7xc2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054261,
+          40.7135482
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dvud37olrmvwyboy7mnj4ihh/app.bsky.feed.post/3mxflb3kllm2g",
+        "handle": "earthcams.bsky.social",
+        "text": "See live views of the World Trade Center and September 11 Memorial & Museum in lower Manhattan. · #Earthcam #Travel #World #Discover #Webcam",
+        "created_at": "2026-10-08T23:08:08Z",
+        "source": "https://bsky.app/profile/earthcams.bsky.social/post/3mxflb3kllm2g",
+        "mapped_location": "Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "city",
+        "location_text": "lower Manhattan",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atlkjg42q45quxehr5m7hcmc/app.bsky.feed.post/3mxfm33wo4w22",
+        "handle": "newsgroup-site.bsky.social",
+        "text": "🟡 LawEnforcement | 4/10 🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood\n\n#OSINT #USA #NewYork",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/newsgroup-site.bsky.social/post/3mxfm33wo4w22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Marble Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atlkjg42q45quxehr5m7hcmc/app.bsky.feed.post/3mxfm33wo4w22",
+        "handle": "newsgroup-site.bsky.social",
+        "text": "🟡 LawEnforcement | 4/10 🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood\n\n#OSINT #USA #NewYork",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/newsgroup-site.bsky.social/post/3mxfm33wo4w22",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ogpzk3l77iv46gat55ghgs5r/app.bsky.feed.post/3mxfm3av4jsz2",
+        "handle": "analytics.social.vir.group.ap.brid.gy",
+        "text": "🟡 LawEnforcement | 4/10\n🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood.\n\n#OSINT #NewsGroup #USA #NewYork #Security",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/analytics.social.vir.group.ap.brid.gy/post/3mxfm3av4jsz2",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Marble Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ogpzk3l77iv46gat55ghgs5r/app.bsky.feed.post/3mxfm3av4jsz2",
+        "handle": "analytics.social.vir.group.ap.brid.gy",
+        "text": "🟡 LawEnforcement | 4/10\n🇺🇸\n\nShooting involving federal agents in New York (USA)\nAn individual was shot during a confrontation with ICE federal law enforcement agents in the Marble Hill neighborhood.\n\n#OSINT #NewsGroup #USA #NewYork #Security",
+        "created_at": "2026-10-08T23:22:41.000Z",
+        "source": "https://bsky.app/profile/analytics.social.vir.group.ap.brid.gy/post/3mxfm3av4jsz2",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pvcxicdndphhuiqczyzu43dw/app.bsky.feed.post/3mxfm4cjhqc2m",
+        "handle": "rosesbloom24.bsky.social",
+        "text": "The shooting happened at about 4 p.m. in the Marble Hill neighborhood and involved “federal law enforcement agents,” according to a New York Police Department statement posted online. Marble Hill is considered either part of Upper Manhattan or at the southern edge of the Bronx.",
+        "created_at": "2026-10-08T23:23:20.193Z",
+        "source": "https://bsky.app/profile/rosesbloom24.bsky.social/post/3mxfm4cjhqc2m",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zwa4q7v7kz3qpbmjaihifrsk/app.bsky.feed.post/3mxfm5bioic2u",
+        "handle": "oldredsubby.bsky.social",
+        "text": "ICE agent shoots man in New York City with five-year-old nearby, mayor says | New York | The Guardian \nwww.theguardian.com/us-news/2026...",
+        "created_at": "2026-10-08T23:23:54.605Z",
+        "source": "https://bsky.app/profile/oldredsubby.bsky.social/post/3mxfm5bioic2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jczmphrsdnv23cxsqk6nf72c/app.bsky.feed.post/3mxfm5q7lt22u",
+        "handle": "bendavanzo.bsky.social",
+        "text": "Another ICE shooting, this time in New York. Brought to you by funds that were cut from Medicaid and SNAP.",
+        "created_at": "2026-10-08T23:24:10.034Z",
+        "source": "https://bsky.app/profile/bendavanzo.bsky.social/post/3mxfm5q7lt22u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0156507,
+          40.7166864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbgqzdymfgz6dk7wr6oxozap/app.bsky.feed.post/3mxfm6q4vhk2q",
+        "handle": "rknight0415.bsky.social",
+        "text": "www.youtube.com/watch?v=OlkZ...\nWhat the AF? Another shooting in NYC by ICE & local cops were called & had to grab the unresponsive man and put him in back of a cop SUV-ICE MUST BE DISSOLVED AND START OVER WITH A NEW DEPT-The untrained minions they hire MUST BE HELD ACCOUNTABLE! File State charges!",
+        "created_at": "2026-10-08T23:24:43.502Z",
+        "source": "https://bsky.app/profile/rknight0415.bsky.social/post/3mxfm6q4vhk2q",
+        "mapped_location": "Ice-Water Wall, Lower Manhattan, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "ICE &",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lagbkd7bzx4uuiaebxejmr7y/app.bsky.feed.post/3mxfnbahzys2k",
+        "handle": "dcdiversity1.bsky.social",
+        "text": "“The shooting happened at about 4 p.m. in the Marble Hill neighborhood and involved “federal law enforcement agents,” according to a Police Department statement posted online. Marble Hill is considered either part of Upper Manhattan or at the southern edge of the Bronx.”",
+        "created_at": "2026-10-08T23:44:01.495Z",
+        "source": "https://bsky.app/profile/dcdiversity1.bsky.social/post/3mxfnbahzys2k",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:724wtzpmbwpgtoe46yjl4w44/app.bsky.feed.post/3mxfqpxnzn22n",
+        "handle": "squirrellma.bsky.social",
+        "text": "ICE officer shoots a man while making an arrest in New York, officials say\napnews.com/article/new-...    #GOP wants to know-was he brown?  Vote them all out",
+        "created_at": "2026-10-09T00:45:56.796Z",
+        "source": "https://bsky.app/profile/squirrellma.bsky.social/post/3mxfqpxnzn22n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:st5ddt3d4p4t2ezr27blrt6m/app.bsky.feed.post/3mxfqr6ho2k2s",
+        "handle": "sengonzalezny.bsky.social",
+        "text": "I am absolutely outraged that ICE agents shot a New Yorker in Marble Hill, and even more outraged to hear a child may have been involved, though unharmed. This is reckless, lawless, and dangerous for our families and communities. Abolish ICE now!",
+        "created_at": "2026-10-09T00:46:37.482Z",
+        "source": "https://bsky.app/profile/sengonzalezny.bsky.social/post/3mxfqr6ho2k2s",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy3473q2mwo6dqx6cvb7kf4x/app.bsky.feed.post/3mxfqr7nlwc2n",
+        "handle": "nevint.bsky.social",
+        "text": "We watched Americans in New York, Illinois, Minnesota take a stand, and this was happening all over the country.",
+        "created_at": "2026-10-09T00:46:38.726Z",
+        "source": "https://bsky.app/profile/nevint.bsky.social/post/3mxfqr7nlwc2n",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vhuuz22ixmikwdnxx7xemjvl/app.bsky.feed.post/3mxfqrx2pm32c",
+        "handle": "insideukraine.bsky.social",
+        "text": "An Immigration and Customs Enforcement (ICE) agent shot and injured a person in the Bronx, New York, on October 8, according to law enforcement sources.\n\nThe person was hospitalized with non-life-threatening injuries.",
+        "created_at": "2026-10-09T00:47:03.273Z",
+        "source": "https://bsky.app/profile/insideukraine.bsky.social/post/3mxfqrx2pm32c",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:czj2wa5qpmr4trvvwzjhfrgp/app.bsky.feed.post/3mxfqrxd45s2r",
+        "handle": "izzydizzydeergay.bsky.social",
+        "text": "CONTROL: RESONANT is about having autism in new york",
+        "created_at": "2026-10-09T00:47:03.541Z",
+        "source": "https://bsky.app/profile/izzydizzydeergay.bsky.social/post/3mxfqrxd45s2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ilslivqg7ku632yq62mfb3re/app.bsky.feed.post/3mxfqs5ovnc2q",
+        "handle": "dkwally.bsky.social",
+        "text": "TRUMPS DEATH SQUAD TERRORISTS ICE SHOT INTO CAR WITH A 5 YR OLD CHILD IN IY‼️🖕🤡🖕🧊\n\nICE agents shot and wounded man in New York while making an arrest, officials say | khou.com share.google/VsGyBjfevGer...",
+        "created_at": "2026-10-09T00:47:10.223Z",
+        "source": "https://bsky.app/profile/dkwally.bsky.social/post/3mxfqs5ovnc2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j37zetcnytvnfjlk4ca3d2yv/app.bsky.feed.post/3mxfqu4r2p22o",
+        "handle": "newyorkstateag.bsky.social",
+        "text": "Earlier today, ICE shot a New Yorker in front of a child in Marble Hill. I am keeping the victim and their family in my prayers tonight.\n\nWe need a full investigation into this shooting. We need accountability.",
+        "created_at": "2026-10-09T00:48:16.357Z",
+        "source": "https://bsky.app/profile/newyorkstateag.bsky.social/post/3mxfqu4r2p22o",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3armyjpde5t2226pviltl36e/app.bsky.feed.post/3mxfqug64ic2f",
+        "handle": "loriperkinsrab.bsky.social",
+        "text": "Man shot in vehicle during ICE operation in Marble Hill, Manhattan | abc7ny.com",
+        "created_at": "2026-10-09T00:48:26.219Z",
+        "source": "https://bsky.app/profile/loriperkinsrab.bsky.social/post/3mxfqug64ic2f",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6k3zzoqzkofkzuu2demrdspw/app.bsky.feed.post/3mxfsderjgk27",
+        "handle": "itsyouredoctor.bsky.social",
+        "text": "He focused on opening a portal. Before speaking to the different Spider Man in front of him.\n\n\"If this helps you out. You don't owe me. You'll owe the city. You're one of the biggest protectors. New York has, so after all this is done. Plus protect every one here.\"",
+        "created_at": "2026-10-09T01:14:41.819Z",
+        "source": "https://bsky.app/profile/itsyouredoctor.bsky.social/post/3mxfsderjgk27",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vwt6opoyqeui2nnohjejp3ms/app.bsky.feed.post/3mxfsgpjcsc2i",
+        "handle": "yomimonoid.bsky.social",
+        "text": "The Remarried Empress Webtoon Gets TV Anime From TROYCA\n\nTROYCA is adapting The Remarried Empress for TV, announced at New York Comic Con. Yoko Hikasa, Ryōhei Kimura, Tomoaki Maeno and Reina Ueda lead the cast, with Tetsuya Yanagisawa directing and a 2027 broadcast planned.",
+        "created_at": "2026-10-09T01:16:33.688Z",
+        "source": "https://bsky.app/profile/yomimonoid.bsky.social/post/3mxfsgpjcsc2i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2swl4c54byt3it23whl5mu4w/app.bsky.feed.post/3mxfsnkyqtl2o",
+        "handle": "spectrumnewsny1.bsky.social",
+        "text": "A man was shot by ICE agents in the Marble Hill section of Manhattan Thursday afternoon, according to authorities.\n\nOne person who witnessed the shooting described the scene, saying everyone nearby ran and hid when they heard the shots.",
+        "created_at": "2026-10-09T01:20:23.837Z",
+        "source": "https://bsky.app/profile/spectrumnewsny1.bsky.social/post/3mxfsnkyqtl2o",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w6wv25oshzvqkhqc4xqg72h3/app.bsky.feed.post/3mxfsygbkhs2f",
+        "handle": "kiblade.bsky.social",
+        "text": "Ridiculous REPUBLICANS trying win in NEW YORK STATE.",
+        "created_at": "2026-10-09T01:26:28.035Z",
+        "source": "https://bsky.app/profile/kiblade.bsky.social/post/3mxfsygbkhs2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NEW YORK",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:psj4fhxs37nlohyylmy75peh/app.bsky.feed.post/3mxfszxe5b22h",
+        "handle": "resistfight.com",
+        "text": "BREAKING 🚨: Nazi ICE shot and hospitalized a man in Marble Hill, Manhattan. Witnesses say agents fired through his windshield. They heard four to seven rapid shots and no shouted commands. ICE agents later left; NYPD secured the scene. Watch. Share this everywhere—demand answers for the shooting.",
+        "created_at": "2026-10-09T01:27:19.500Z",
+        "source": "https://bsky.app/profile/resistfight.com/post/3mxfszxe5b22h",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:supgrwdnh73h7fymcbnjcscd/app.bsky.feed.post/3mxft2pq2c224",
+        "handle": "winenotwhine.bsky.social",
+        "text": "They’re turning every street into a war zone. It’s time we fight back. ALL of us! There should be thousands of people in the streets in New York right now.\nHow many people have to be injured or murdered before we say ENOUGH!?",
+        "created_at": "2026-10-09T01:27:45.057Z",
+        "source": "https://bsky.app/profile/winenotwhine.bsky.social/post/3mxft2pq2c224",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b76wp25kuvpxdjl23uijdsjb/app.bsky.feed.post/3mxftvef4ec2e",
+        "handle": "feitclub.bsky.social",
+        "text": "the overarching theme of this “Snoopy in New York!” collaboration is Snoopy loves The Strand",
+        "created_at": "2026-10-09T01:42:39.127Z",
+        "source": "https://bsky.app/profile/feitclub.bsky.social/post/3mxftvef4ec2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xvmzhfvnlix2admr7ioaf6ht/app.bsky.feed.post/3mxftwb2nos2t",
+        "handle": "tag24.com",
+        "text": "A man was shot Thursday during an interaction with federal agents in New York, city police said, with medi outlets reporting that Immigration and Customs Enforcement (ICE) was involved.",
+        "created_at": "2026-10-09T01:43:09.199Z",
+        "source": "https://bsky.app/profile/tag24.com/post/3mxftwb2nos2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p4zpan4tv6cw3jzbbnbjzwnh/app.bsky.feed.post/3mxfty5tg4c2l",
+        "handle": "westinlee.itch.io",
+        "text": "If you’re a huge nerd you may have seen the teenage engineering comments about how they’re quitting synths. \n\nRemember they’re also opening a flagship store tomorrow in New York. They’re up to something but it ain’t quitting making stuff.",
+        "created_at": "2026-10-09T01:44:12.926Z",
+        "source": "https://bsky.app/profile/westinlee.itch.io/post/3mxfty5tg4c2l",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:purohzlbh3ov47ybr5ja6rfx/app.bsky.feed.post/3mxftyzvbkk2b",
+        "handle": "wellhellno.bsky.social",
+        "text": "Please tell me how long has this been going on in New York? I’m angry.",
+        "created_at": "2026-10-09T01:44:42.347Z",
+        "source": "https://bsky.app/profile/wellhellno.bsky.social/post/3mxftyzvbkk2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3mxfugleank2q",
+        "handle": "mayhem1994.bsky.social",
+        "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas. ￼",
+        "created_at": "2026-10-09T01:52:16.870Z",
+        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugleank2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3mxfugx2fck2q",
+        "handle": "mayhem1994.bsky.social",
+        "text": "I’m showing up tomorrow. Advocates are now also setting up a protest beginning at 7 p.m. at New York-Presbyterian Allen Hospital in Northern Manhattan. They are trying to target us for terrorism. Show them that we are not fucking Texas.",
+        "created_at": "2026-10-09T01:52:29.131Z",
+        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxfugx2fck2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104292,
+          40.8762983
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:764hmzpjlbi36cfuakpuncrc/app.bsky.feed.post/3mxfvh2lwc22j",
+        "handle": "hasidicyiddish.bsky.social",
+        "text": "ICE agent shoots, injures immigrant man in NYC's Marble Hill, Bronx - Gothamist\n\ngothamist.com/news/person-...",
+        "created_at": "2026-10-09T02:10:26.588Z",
+        "source": "https://bsky.app/profile/hasidicyiddish.bsky.social/post/3mxfvh2lwc22j",
+        "mapped_location": "Marble Hill, Manhattan, New York County, New York, 10463, United States",
+        "precision_level": "city",
+        "location_text": "Marble Hill",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yw6rba2gojlne2kj6qhkz5if/app.bsky.feed.post/3mxfvlsz5lc2h",
+        "handle": "cpagal.bsky.social",
+        "text": "Get them the fuck out of our country they were harassing people in Rochester, New York last summer.",
+        "created_at": "2026-10-09T02:13:06.410Z",
+        "source": "https://bsky.app/profile/cpagal.bsky.social/post/3mxfvlsz5lc2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:usw4nu6ei4vcf5xsq4cjqtd5/app.bsky.feed.post/3mxfwdew5lc2o",
+        "handle": "chinaawakens.org",
+        "text": "China Democracy Party members chant for freedom in Times Square on the 25th anniversary of Operation Enduring Freedom.\n2026年10月7日，中国民主党成员在纽约时代广场举拳喊口号，纪念持久自由行动25周年。\n\nyoutube.com/shorts/NV_yC...\n#中国民主党 #纽约时代广场 #持久自由行动",
+        "created_at": "2026-10-09T02:26:16.935Z",
+        "source": "https://bsky.app/profile/chinaawakens.org/post/3mxfwdew5lc2o",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dxnjy6eq5tv5yin2tmjapcca/app.bsky.feed.post/3mxfwe74xes2t",
+        "handle": "kjshepherd.bsky.social",
+        "text": "I truly have a low standard for bartending in New York because it is either the world's best or the world's worst, no middle ground, but I do expect someone to talk over a affected mumble and like not be fucking weird at everyone who's a little friend",
+        "created_at": "2026-10-09T02:26:44.424Z",
+        "source": "https://bsky.app/profile/kjshepherd.bsky.social/post/3mxfwe74xes2t",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z2gdgxz2um3eq47a2ebsz3wz/app.bsky.feed.post/3mxfwgupis623",
+        "handle": "venezuelanewschepa.bsky.social",
+        "text": "An ICE agent shot and injured a man in the Bronx, New York, while he was in a car with a child.\n\nFuente: El País\n🔗\n\nhttps://elpais.com/us/migracion/2026-10-08/un-agente-del-ice-dispara-y-hiere-a-una-persona-en-la-ciudad-de-nueva-york.html",
+        "created_at": "2026-10-09T02:28:14.067655+00:00",
+        "source": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mxfwgupis623",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rrnpj73ojgkqyonjtrx27sbt/app.bsky.feed.post/3mxfy6zosn22s",
+        "handle": "alistairthethird.bsky.social",
+        "text": "I need to go to at least one New York sirens game before year end or I will explode",
+        "created_at": "2026-10-09T02:59:38.426Z",
+        "source": "https://bsky.app/profile/alistairthethird.bsky.social/post/3mxfy6zosn22s",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxfy7va65e2x",
+        "handle": "wsbt22.bsky.social",
+        "text": "A man was arrested after his 23-year-old ex-girlfriend and her baby were pushed off a 15th-floor balcony in New York, according to authorities.\nhttps://bit.ly/4duXnlp",
+        "created_at": "2026-10-09T03:00:07.195519578Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxfy7va65e2x",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y7h5ik5jv67dakzala3hr5dv/app.bsky.feed.post/3mxfzprgpcc2j",
+        "handle": "rddegrazia.bsky.social",
+        "text": "ICE officer shoots a man while making an arrest in New York, officials say\napnews.com/article/new-...",
+        "created_at": "2026-10-09T03:26:53.938Z",
+        "source": "https://bsky.app/profile/rddegrazia.bsky.social/post/3mxfzprgpcc2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

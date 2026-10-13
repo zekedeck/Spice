@@ -31,6 +31,35 @@ logger = logging.getLogger(__name__)
 #   our end, which _validate_llm_response does. This model additionally supports
 #   the stricter json_schema structured-outputs mode, so tightening this later
 #   to a real schema is an option without another model change.
+# - Reasoning-token starvation fix (verified against console.groq.com/docs/
+#   reasoning on 2026-10-13, cross-checked against the installed groq-python
+#   1.7.0 SDK's own parameter docstrings): "openai/gpt-oss-20b" is a
+#   reasoning model that burns chain-of-thought tokens before its JSON
+#   answer, and its default reasoning_effort is "medium" ("a moderate
+#   number of reasoning tokens") per both the docs and the SDK docstring.
+#   Against this call's max_tokens=200 budget that was consuming the whole
+#   budget on 64% of real calls, surfacing as Groq error
+#   json_validate_failed ("max completion tokens reached before generating
+#   a valid document") with empty/truncated content.
+#     * reasoning_effort="low" ("a small number of reasoning tokens", per
+#       the docs) is the actual fix for the token starvation: it is the
+#       only parameter that changes how many reasoning tokens the model
+#       generates. This is deliberately NOT "none" or "default" -- gpt-oss
+#       only supports low/medium/high; none/default are Qwen-3.8-27B-only
+#       values and are invalid for this model.
+#     * include_reasoning=False additionally strips the reasoning text from
+#       the response payload. This is NOT a fix for the budget problem --
+#       the docs state explicitly that hidden/excluded reasoning is still
+#       generated ("The model will still reason, but the reasoning content
+#       will not be returned in the response"), so it does not give back
+#       any of the 200-token budget by itself. It is set here only to keep
+#       the response small and to guarantee message.content never contains
+#       a stray reasoning/<think> payload, layered on top of the real fix.
+#     * reasoning_format is deliberately NOT used: gpt-oss-20b does not
+#       support it at all ("With openai/gpt-oss-20b and openai/gpt-oss-120b,
+#       the reasoning_format parameter is not supported" -- it's a
+#       Qwen/other-model-family parameter), and it is mutually exclusive
+#       with include_reasoning in the SDK regardless.
 MODEL_NAME = "openai/gpt-oss-20b"
 
 _VALID_ACTIONS = {"resolve", "query", "accept", "null"}
@@ -187,6 +216,8 @@ def resolve_entity_with_llm(client, entity_text: str, label: str, post_text: str
             response_format={"type": "json_object"},
             temperature=0,
             max_tokens=200,
+            reasoning_effort="low",
+            include_reasoning=False,
             timeout=10,
         )
         raw_content = response.choices[0].message.content

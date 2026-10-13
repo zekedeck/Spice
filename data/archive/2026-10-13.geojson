@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T23:04:24.760131Z",
-    "total_pins": 256
+    "generated_at": "2026-10-13T23:20:05.250922Z",
+    "total_pins": 268
   },
   "features": [
     {
@@ -5423,6 +5423,260 @@
         "text": "You literally live in New York.",
         "created_at": "2026-10-13T23:03:54.028Z",
         "source": "https://bsky.app/profile/maru9999.bsky.social/post/3mxs5e3tpz22y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c4izsceap562rvlcivxq44rg/app.bsky.feed.post/3mxs5gon2xx2p",
+        "handle": "nowglobe.bsky.social",
+        "text": "🌍 New York City, USA is entering its evening rush. Watch the live view now.\nLive camera: Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife\n#NowGlobe #LiveCamera",
+        "created_at": "2026-10-13T23:05:20.576Z",
+        "source": "https://bsky.app/profile/nowglobe.bsky.social/post/3mxs5gon2xx2p",
+        "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "precision_level": "address",
+        "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xfxjlzxidrarezafsabvhe33/app.bsky.feed.post/3mxs5kpkf7o2u",
+        "handle": "swingleft.bsky.social",
+        "text": "Another week of the Big Swing Challenge is complete, and volunteers in Michigan, California, New York, New Jersey, and New Hampshire led this past week. \n\nOnly THREE weeks remain until Election Day. Ready to take your own biggest swing now?\n\nVisit swingleft.org/challenge to join volunteers!\n",
+        "created_at": "2026-10-13T23:07:35.899510569Z",
+        "source": "https://bsky.app/profile/swingleft.bsky.social/post/3mxs5kpkf7o2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7ns5ynpm4g6q62wgx6ikcrys/app.bsky.feed.post/3mxs5nhae3k2v",
+        "handle": "rawcharge.com",
+        "text": "Happy NHL Frenzy Day. Here are how the #GoBolts are lining up in New York City.  \n\nGoncalves-Point-Kucherov\nHagel-Cirelli-Guentzel\nMikheyev-Girgensons-Holmberg\nViel-Geekie\n\nMoser-Carlson\nMcDonagh-Cernak\nHedman-Crozier\nD’Astous\n\nVasilevskiy\nSogaard",
+        "created_at": "2026-10-13T23:09:07.961Z",
+        "source": "https://bsky.app/profile/rawcharge.com/post/3mxs5nhae3k2v",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bncyyvioexgoiylx7zxz677x/app.bsky.feed.post/3mxs5osgud22i",
+        "handle": "wilsones13.bsky.social",
+        "text": "Get an electric small truck or car to pull the carriages around New York's sights and landmarks. They could go more easily through the city with no suffering. Decorate the vehicle with horses. Times change; people need to adapt.",
+        "created_at": "2026-10-13T23:09:53.261Z",
+        "source": "https://bsky.app/profile/wilsones13.bsky.social/post/3mxs5osgud22i",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nfs3v2icvkab7ipfklp54oqc/app.bsky.feed.post/3mxs5p3bm6c2w",
+        "handle": "greenpartyoli.bsky.social",
+        "text": "The mayor industry is coming to an end in New York City\n\nThis is the end game\n\nWe won't need a new one probably for the next like ten years",
+        "created_at": "2026-10-13T23:10:02.534Z",
+        "source": "https://bsky.app/profile/greenpartyoli.bsky.social/post/3mxs5p3bm6c2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rnk5ufrnbifgjgojcku3vduu/app.bsky.feed.post/3mxs5qein5s2l",
+        "handle": "ogcaliboi.bsky.social",
+        "text": "As someone who's taken those rides through Central Park, it's time for that to come to an end. Some of the horses definitely struggle with it.",
+        "created_at": "2026-10-13T23:10:45.753Z",
+        "source": "https://bsky.app/profile/ogcaliboi.bsky.social/post/3mxs5qein5s2l",
+        "mapped_location": "Central Park",
+        "precision_level": "address",
+        "location_text": "Central Park",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lt7thl7hjjo5cwni67vwa6ji/app.bsky.feed.post/3mxs5uikip22p",
+        "handle": "ratedxsupergirl.bsky.social",
+        "text": "Have fun in New York....",
+        "created_at": "2026-10-13T23:13:04.228Z",
+        "source": "https://bsky.app/profile/ratedxsupergirl.bsky.social/post/3mxs5uikip22p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g63re74gfhm2wzoqgeerpfwy/app.bsky.feed.post/3mxs5yzfjyc2o",
+        "handle": "4medlen.bsky.social",
+        "text": "LIVE #NHL on ESPN+ PowerPlay 2026 #FrozenFrenzy PresentedBy AstraZeneca #TBLvsNYR Tampa Bay @ New York Rangers from Madison Square Garden in New York City",
+        "created_at": "2026-10-13T23:15:36.109Z",
+        "source": "https://bsky.app/profile/4medlen.bsky.social/post/3mxs5yzfjyc2o",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 1.0,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g63re74gfhm2wzoqgeerpfwy/app.bsky.feed.post/3mxs5yzfjyc2o",
+        "handle": "4medlen.bsky.social",
+        "text": "LIVE #NHL on ESPN+ PowerPlay 2026 #FrozenFrenzy PresentedBy AstraZeneca #TBLvsNYR Tampa Bay @ New York Rangers from Madison Square Garden in New York City",
+        "created_at": "2026-10-13T23:15:36.109Z",
+        "source": "https://bsky.app/profile/4medlen.bsky.social/post/3mxs5yzfjyc2o",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0,
+        "other_locations": "Madison Square Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qs2kuxirareirw3vobkjn7iw/app.bsky.feed.post/3mxs62gcpak24",
+        "handle": "grosdoriane.bsky.social",
+        "text": "i'm in a new york state of mine~",
+        "created_at": "2026-10-13T23:16:23.201Z",
+        "source": "https://bsky.app/profile/grosdoriane.bsky.social/post/3mxs62gcpak24",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bh6qxkfhyh6czxbbzmqogsez/app.bsky.feed.post/3mxs62ghfn22x",
+        "handle": "jes-sayin-jes-axin.bsky.social",
+        "text": "I remember Mafia run neighborhoods in New York were the safest from petty crime. You could walk around them alone late at night.",
+        "created_at": "2026-10-13T23:16:23.356Z",
+        "source": "https://bsky.app/profile/jes-sayin-jes-axin.bsky.social/post/3mxs62ghfn22x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6w3houezoyl6rufhgxodhg7w/app.bsky.feed.post/3mxs675zkzm2d",
+        "handle": "tvline.bsky.social",
+        "text": "Robyn Wells is played by Jennifer Beals in NCIS: New York. Beals famously starred in Flashdance in 1983, which turned her into a household name.",
+        "created_at": "2026-10-13T23:19:01.112Z",
+        "source": "https://bsky.app/profile/tvline.bsky.social/post/3mxs675zkzm2d",
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",

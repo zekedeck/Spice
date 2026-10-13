@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T22:14:33.537510Z",
-    "total_pins": 222
+    "generated_at": "2026-10-13T22:30:19.501773Z",
+    "total_pins": 241
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fptqug2lsn4ozakbl3bsdz6r/app.bsky.feed.post/3mxn2ft7cqk2f",
-        "handle": "leeaaronrosen.bsky.social",
-        "text": "I envy you both. I have, at separate points in my life, passed Karl Rove, Roger Stone, and Martin Shkreli on the streets in New York, and I was too slow to react every time. I regret not saying something. Or punching them.",
-        "created_at": "2026-10-11T22:27:52.161Z",
-        "source": "https://bsky.app/profile/leeaaronrosen.bsky.social/post/3mxn2ft7cqk2f",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -4505,6 +4484,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qbr4eqracledmasmsnrhibi3/app.bsky.feed.post/3mxs3bbzrfi2j",
+        "handle": "seattlecourant.bsky.social",
+        "text": "Rare fossil of T. rex cousin goes on display in New York before heading to auction\n\n#seattle #news",
+        "created_at": "2026-10-13T21:28:11.000Z",
+        "source": "https://bsky.app/profile/seattlecourant.bsky.social/post/3mxs3bbzrfi2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.998,
           40.731
         ]
@@ -4707,6 +4707,407 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2swl4c54byt3it23whl5mu4w/app.bsky.feed.post/3mxs2msoafh2a",
+        "handle": "spectrumnewsny1.bsky.social",
+        "text": "Christina Hansen, a veteran horse carriage driver and TWU Local 100 shop steward, told NY1 she felt \"blindsided\" by the news that the mayor and City Council speaker have agreed on a deal to ban horse carriages in New York City.\n",
+        "created_at": "2026-10-13T22:15:05.094Z",
+        "source": "https://bsky.app/profile/spectrumnewsny1.bsky.social/post/3mxs2msoafh2a",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ul65nzm7jn4ju63sb7ziypl/app.bsky.feed.post/3mxs2muitps2w",
+        "handle": "fams2gether.bsky.social",
+        "text": "A 5-year-old was in the back seat when an ICE agent shot his father in New York City. City officials say the boy wasn't physically hurt, but he was in the car when it happened. No child should have to witness a parent being shot. #FamiliesBelongTogether",
+        "created_at": "2026-10-13T22:15:06.321Z",
+        "source": "https://bsky.app/profile/fams2gether.bsky.social/post/3mxs2muitps2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zra7bsvnd2xqwyp6narezghy/app.bsky.feed.post/3mxs2pc6opzz2",
+        "handle": "kmck.mas.to.ap.brid.gy",
+        "text": "Our son married a Canadian whose knowledge of North America was basically cities in the Toronto, New York, Boston, Vancouver tier. My ancestral realm is more like: St. Paul, Minnesota. You’ll like it, he reassured her before a visit. It’s like the Canada of the ‘States.\n\nI’m sure many […]",
+        "created_at": "2026-10-13T22:16:25.000Z",
+        "source": "https://bsky.app/profile/kmck.mas.to.ap.brid.gy/post/3mxs2pc6opzz2",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bs6iajvbfi3qflp2b4oas5nk/app.bsky.feed.post/3mxs2pikyws23",
+        "handle": "990000.bsky.social",
+        "text": "Criminal. I’m always in shock when I go out to the burbs or countryside and encounter Times Square prices for so so food, it’s crazy. Even in NYC $24 can get you a damn good lunch. Also,\nJust Salad and Sweetgreen chick caesar are only $13.",
+        "created_at": "2026-10-13T22:16:35.248Z",
+        "source": "https://bsky.app/profile/990000.bsky.social/post/3mxs2pikyws23",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cjelmmxjg7ypiuifwa7pbtkx/app.bsky.feed.post/3mxs2pq5dt22i",
+        "handle": "satire-of-sevs.bsky.social",
+        "text": "36% of America also wants to buy the Brooklyn Bridge, apparently.",
+        "created_at": "2026-10-13T22:16:43.188Z",
+        "source": "https://bsky.app/profile/satire-of-sevs.bsky.social/post/3mxs2pq5dt22i",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6iumtlucr4oijgc47s2erzd4/app.bsky.feed.post/3mxs2s3v76d2q",
+        "handle": "annylon.bsky.social",
+        "text": "City Council to vote on proposal to end horse-drawn carriages in New York City – NBC New York\n\nAfter decades of political back-and-forth on the hot-button issue, the New York City Council will vote on a proposal to end New York City's horse-drawn carriage industry, according to the Speaker's…",
+        "created_at": "2026-10-13T22:18:02Z",
+        "source": "https://bsky.app/profile/annylon.bsky.social/post/3mxs2s3v76d2q",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hgtggvtniq3cfadktplxvykh/app.bsky.feed.post/3mxs2s5r42i2y",
+        "handle": "jafifsd.bsky.social",
+        "text": "City Council to vote on proposal to end horse-drawn carriages in New York City – NBC New York\n\nAfter decades of political back-and-forth on the hot-button issue, the New York City Council will vote on a proposal to end New York City's horse-drawn carriage industry, according to the Speaker's…",
+        "created_at": "2026-10-13T22:18:04Z",
+        "source": "https://bsky.app/profile/jafifsd.bsky.social/post/3mxs2s5r42i2y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6nxrl3vwfoi5q4u2cxe7vnge/app.bsky.feed.post/3mxs2sa7lri2y",
+        "handle": "nationscopeusa.bsky.social",
+        "text": "City Council to vote on proposal to end horse-drawn carriages in New York City – NBC New York\n\nAfter decades of political back-and-forth on the hot-button issue, the New York City Council will vote on a proposal to end New York City's horse-drawn carriage industry, according to the Speaker's…",
+        "created_at": "2026-10-13T22:18:06Z",
+        "source": "https://bsky.app/profile/nationscopeusa.bsky.social/post/3mxs2sa7lri2y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vrudpadksfyvx5rxq7jpllb/app.bsky.feed.post/3mxs2sd2kf52s",
+        "handle": "statesora.bsky.social",
+        "text": "City Council to vote on proposal to end horse-drawn carriages in New York City – NBC New York\n\nAfter decades of political back-and-forth on the hot-button issue, the New York City Council will vote on a proposal to end New York City's horse-drawn carriage industry, according to the Speaker's…",
+        "created_at": "2026-10-13T22:18:09Z",
+        "source": "https://bsky.app/profile/statesora.bsky.social/post/3mxs2sd2kf52s",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:drhdhlhsktkfdaxakzrmhmc3/app.bsky.feed.post/3mxs2sro52k2j",
+        "handle": "madalinepaige.bsky.social",
+        "text": "MadalinePaige.bsky.social\nPresident Trump said a \"device\" was in or near his microwave in his New York office,\"spying\" on him & whomever was in his office during his first run for president. He was right all along?😲",
+        "created_at": "2026-10-13T22:18:25.448Z",
+        "source": "https://bsky.app/profile/madalinepaige.bsky.social/post/3mxs2sro52k2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6rnzhbn6enprtfeytkidjsbi/app.bsky.feed.post/3mxs2t2lumc2c",
+        "handle": "nycgriff.bsky.social",
+        "text": "Wanna know the quickest was to turn off New York City voters? Announce you're hosting a 10k per ticket 'fund-raiser' for gubernatorial candidate Bruce Blakeman at Madison Square Garden. That's the stupider-than-shit idea of Garden's owner, James Dolan. If Blakeman wasn't already in the toilet...",
+        "created_at": "2026-10-13T22:18:34.813Z",
+        "source": "https://bsky.app/profile/nycgriff.bsky.social/post/3mxs2t2lumc2c",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lqjzzfodg4ckf4wnybunxroq/app.bsky.feed.post/3mxs2tfchis2w",
+        "handle": "sunstonepress.bsky.social",
+        "text": "LEGACY: Sarah, attending college in New York City on a scholarship, has her plans for a literary career derailed when she marries Roger Delaney, an advertising executive. She becomes progressively more unhappy with her job and marriage.",
+        "created_at": "2026-10-13T22:18:46.038Z",
+        "source": "https://bsky.app/profile/sunstonepress.bsky.social/post/3mxs2tfchis2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxs2x74ypmt2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 14th Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/b6080270-c5af-012f-aa91-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2014th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-13T22:19:22.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxs2x74ypmt2",
+        "mapped_location": "6th Avenue",
+        "precision_level": "address",
+        "location_text": "6th Avenue",
+        "confidence": 0.95,
+        "other_locations": "7th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxs2x74ypmt2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 14th Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/b6080270-c5af-012f-aa91-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2014th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-13T22:19:22.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxs2x74ypmt2",
+        "mapped_location": "7th Avenue",
+        "precision_level": "address",
+        "location_text": "7th Avenue",
+        "confidence": 0.95,
+        "other_locations": "6th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mxs2xd6ed32n",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌇 on Tuesday, October 13, 2026 at 18:20 in New York City.\n\nCurrent conditions (via NOAA):\n🌞 Fair/clear\nTemperature: 20°\nRelative Humidity: 81.31%",
+        "created_at": "2026-10-13T22:20:57.748Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mxs2xd6ed32n",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mxs2ypuiq22e",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in the city:\n\nThe Taillors' CFNM Party comes to Manhattan — a femdom event for kink tastings. \n\n📷 Goddess Sparkle (@yesgoddesssparkle.bsky.social) \n\n🗓️ Sunday, 10/18\n🕰️ 6:00 PM\n📍 Lower Manhattan\n\n🎟️ Tickets: taillorcfnm.eventbrite.com",
+        "created_at": "2026-10-13T22:21:44.886Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mxs2ypuiq22e",
+        "mapped_location": "Lower Manhattan",
+        "precision_level": "address",
+        "location_text": "Lower Manhattan",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fojjo4ucg2lvwpwkgzrgdcv3/app.bsky.feed.post/3mxs35mecq22l",
+        "handle": "landondais.bsky.social",
+        "text": "Over 300 RSVPs and only about 17 spots left! 🇺🇸\n\nJoin us this Thursday, October 15 at 10:30 AM for our New York Veterans Summit at the Intrepid Museum.\n\nRSVP today!\n\n#ENDVETERANSPOVERTY #SUPPORTINGVETERANSSUCCESS",
+        "created_at": "2026-10-13T22:24:28.984Z",
+        "source": "https://bsky.app/profile/landondais.bsky.social/post/3mxs35mecq22l",
+        "mapped_location": "the Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "the Intrepid Museum",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:udnac33pmf2iwcblpeai5a5p/app.bsky.feed.post/3mxs3duc47s23",
+        "handle": "iwillnotbesilenced.bsky.social",
+        "text": "Mamdani bans horse carriage industry in New York City. 👏👏👏",
+        "created_at": "2026-10-13T22:27:58.626Z",
+        "source": "https://bsky.app/profile/iwillnotbesilenced.bsky.social/post/3mxs3duc47s23",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ikikqrof2wyiaih3mqnqr5za/app.bsky.feed.post/3mxs3efwmoc2i",
+        "handle": "anacpaim.bsky.social",
+        "text": "Eles tocaram meet me in the bathroom, new york city cops e soma só pq eu vim no show, ctz",
+        "created_at": "2026-10-13T22:28:17.125Z",
+        "source": "https://bsky.app/profile/anacpaim.bsky.social/post/3mxs3efwmoc2i",
+        "mapped_location": "new york city",
+        "precision_level": "address",
+        "location_text": "new york city",
         "confidence": 0.95
       }
     }

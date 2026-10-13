@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T14:22:37.825730Z",
-    "total_pins": 28
+    "generated_at": "2026-10-13T14:34:48.278888Z",
+    "total_pins": 34
   },
   "features": [
     {
@@ -597,6 +597,132 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qyuqo4zmcs5u5t56wgbtmoei/app.bsky.feed.post/3mxraizscy22i",
+        "handle": "philliplrizzo.bsky.social",
+        "text": "Murder In Times Square! Legally Justified, or Officer-Created Jeopardy by the NYPD? A Tragedy of Tactical Errors, Missed Opportunities, Poor Police Positioning, Ineffective Use of Less-Lethal Options & Inadequate Crisis Intervention Training.\n\nwww.buzzsprout.com/823981/episo...",
+        "created_at": "2026-10-13T14:27:41.144Z",
+        "source": "https://bsky.app/profile/philliplrizzo.bsky.social/post/3mxraizscy22i",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gy3qj2ibq6xpmzq2d2wafxzq/app.bsky.feed.post/3mxrajsuwvc2n",
+        "handle": "comicsxf.com",
+        "text": "Marvel's Spider-Man panel at New York Comic Con offered glimpses at upcoming events for Peter Parker, Miles Morales, Spider-Punk and more.",
+        "created_at": "2026-10-13T14:28:07Z",
+        "source": "https://bsky.app/profile/comicsxf.com/post/3mxrajsuwvc2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:thenrqqrn3qvnyoocptc3msa/app.bsky.feed.post/3mxrak7bc622f",
+        "handle": "vanburenpapers.bsky.social",
+        "text": "and as his health continued to deteriorate, he \"talked incessantly but incoherently, chiefly upon political matters.\" He is buried in Albany Rural Cemetery in Albany, New York.",
+        "created_at": "2026-10-13T14:28:19.464Z",
+        "source": "https://bsky.app/profile/vanburenpapers.bsky.social/post/3mxrak7bc622f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dbyiiezygctpknpht6ygkthv/app.bsky.feed.post/3mxrao2egfe26",
+        "handle": "titanbooks.bsky.social",
+        "text": "NESTLINGS by @natcassidy.bsky.social is out in the UK! 🖤\n\nThis cinematic horror harnesses the paranoia of Rosemary's Baby and the horror of Salem's Lot, set in an exclusive New York City residential building.\n\n🩸 Grab your copy now: https://tinyurl.com/5n7ry5px",
+        "created_at": "2026-10-13T14:30:29Z",
+        "source": "https://bsky.app/profile/titanbooks.bsky.social/post/3mxrao2egfe26",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxraqqtyux24",
+        "handle": "weloveproduct.co",
+        "text": "Profound is looking for a Head of Design in New York, United States\nhttps://weloveproduct.co/jobs/head-of-design-profound-s1lcs7\n\n#headofdesign #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-13T14:32:00.147Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxraqqtyux24",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:puwixtbyncx3skjop7x4wu7a/app.bsky.feed.post/3mxrarekha22a",
+        "handle": "joewrote.bsky.social",
+        "text": "I wrote about the recent protests in New York City, Paris, and India. Protests need clear demands, disciplined messaging, and broad appeal to build pressure and win. Without them, they’ll struggle to succeed. \nwww.joewrote.com/p/protests-n...",
+        "created_at": "2026-10-13T14:32:20.856Z",
+        "source": "https://bsky.app/profile/joewrote.bsky.social/post/3mxrarekha22a",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
       }
     }
   ]

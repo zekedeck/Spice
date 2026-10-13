@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T21:12:31.660865Z",
-    "total_pins": 193
+    "generated_at": "2026-10-13T21:23:38.491311Z",
+    "total_pins": 205
   },
   "features": [
     {
@@ -4097,6 +4097,260 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6jqaj5qku73kt3qgkfey2ued/app.bsky.feed.post/3mxrxdrrwdd2m",
+        "handle": "veratify.bsky.social",
+        "text": "V confirms this claim checks out. Steve Kuhn is a well-documented American jazz pianist, born in Brooklyn, New York, with a long and established career in the music industry.\n\nReal-time fact-checks on your feed: https://veratify.ai\nErrors or comments: info@veratify.ai",
+        "created_at": "2026-10-13T21:16:20.556Z",
+        "source": "https://bsky.app/profile/veratify.bsky.social/post/3mxrxdrrwdd2m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6jqaj5qku73kt3qgkfey2ued/app.bsky.feed.post/3mxrxdry37u2q",
+        "handle": "veratify.bsky.social",
+        "text": "V confirms this claim checks out. Steve Kuhn is a well-documented American jazz pianist, born in Brooklyn, New York, with a long and established career in the music industry.\n\nReal-time fact-checks on your feed: https://veratify.ai\nErrors or comments: info@veratify.ai",
+        "created_at": "2026-10-13T21:16:21.122Z",
+        "source": "https://bsky.app/profile/veratify.bsky.social/post/3mxrxdry37u2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lwavnjd2j3a6msrld5ysefc4/app.bsky.feed.post/3mxrnivgiubrs",
+        "handle": "usjobatlas.bsky.social",
+        "text": "New Finance opportunity:\n\nFinance Intern (Summer 2027) at Gusto\n\nNew York, NY · On-site\n\nSource verified through Greenhouse.\n\nhttps://usjobatlas.com/job/finance-intern-summer-2027-gusto-dad1e1ab-56b9-4315-9d5e-dcdea5520b36/",
+        "created_at": "2026-10-13T21:17:00.885Z",
+        "source": "https://bsky.app/profile/usjobatlas.bsky.social/post/3mxrnivgiubrs",
+        "mapped_location": "Gusto\n\nNew York",
+        "precision_level": "address",
+        "location_text": "Gusto\n\nNew York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wrwbdr6txs3z6hgrszxdrd2k/app.bsky.feed.post/3mxrxga5hcs2d",
+        "handle": "strayney.bsky.social",
+        "text": "The one time I saw Metallica it was at the Global Citizen Festival in Central Park which is literally a whole festival centered around political advocacy",
+        "created_at": "2026-10-13T21:17:43.199Z",
+        "source": "https://bsky.app/profile/strayney.bsky.social/post/3mxrxga5hcs2d",
+        "mapped_location": "the Global Citizen Festival",
+        "precision_level": "address",
+        "location_text": "the Global Citizen Festival",
+        "confidence": 1.0,
+        "other_locations": "Central Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wrwbdr6txs3z6hgrszxdrd2k/app.bsky.feed.post/3mxrxga5hcs2d",
+        "handle": "strayney.bsky.social",
+        "text": "The one time I saw Metallica it was at the Global Citizen Festival in Central Park which is literally a whole festival centered around political advocacy",
+        "created_at": "2026-10-13T21:17:43.199Z",
+        "source": "https://bsky.app/profile/strayney.bsky.social/post/3mxrxga5hcs2d",
+        "mapped_location": "Central Park",
+        "precision_level": "address",
+        "location_text": "Central Park",
+        "confidence": 1.0,
+        "other_locations": "the Global Citizen Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rn3i5a5w4q22c7gcu6x54man/app.bsky.feed.post/3mxrxgpya4c2a",
+        "handle": "foaorg.bsky.social",
+        "text": " “Lugging tourists around New York’s dangerous, congested streets is a nightmare made even worse by horses eventually being sold to slaughter,” FoA’s President Priscilla Feral said.",
+        "created_at": "2026-10-13T21:17:59.806Z",
+        "source": "https://bsky.app/profile/foaorg.bsky.social/post/3mxrxgpya4c2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kvjrdchmmclca3nxjhc5mpz/app.bsky.feed.post/3mxrxhyhk262n",
+        "handle": "urbanmagazine.bsky.social",
+        "text": "Fabolous, Maino, Dave East, and Jim Jones Celebrate One Year of ‘Let’s Rap About It’\n\nFabolous, Maino, Dave East, and Jim Jones marked the one-year anniversary of their podcast, “Let’s Rap About It,” with a celebration Saturday, Oct. 10, at Partake NYC in Queens. The event brought together fans,…",
+        "created_at": "2026-10-13T21:18:42Z",
+        "source": "https://bsky.app/profile/urbanmagazine.bsky.social/post/3mxrxhyhk262n",
+        "mapped_location": "Partake NYC",
+        "precision_level": "address",
+        "location_text": "Partake NYC",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6me5wo2yunnn7mdqbqiongic/app.bsky.feed.post/3mxrxkxdip22r",
+        "handle": "m01r4.bsky.social",
+        "text": "i didn’t see sex in the city because i was born in 1994 and i didnt see girls because i have never lived in or wanted to live in new york city",
+        "created_at": "2026-10-13T21:20:21.732Z",
+        "source": "https://bsky.app/profile/m01r4.bsky.social/post/3mxrxkxdip22r",
+        "mapped_location": "new york city",
+        "precision_level": "address",
+        "location_text": "new york city",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zefvtijtyjma3ly5ovtpjg3s/app.bsky.feed.post/3mxrxkxphj22p",
+        "handle": "bookpostusa.bsky.social",
+        "text": "The thing that irked me was the complete lack of culture. There those girls were, young & in NYC & supposedly “artistic,” and they never did a thing except the occasional gallery opening or friend’s reading (✍️)",
+        "created_at": "2026-10-13T21:20:22.122Z",
+        "source": "https://bsky.app/profile/bookpostusa.bsky.social/post/3mxrxkxphj22p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC &",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lnamjzanglynqbri6gxyyvcm/app.bsky.feed.post/3mxrxn5fks222",
+        "handle": "adjordan.bsky.social",
+        "text": "A Family of Barn Owls Has Moved Into New York City's Upper West Side, Perhaps the First to Nest in Manhattan in Modern History share.google/bRL4yZbpYksw...",
+        "created_at": "2026-10-13T21:21:35.198Z",
+        "source": "https://bsky.app/profile/adjordan.bsky.social/post/3mxrxn5fks222",
+        "mapped_location": "New York City's Upper West Side",
+        "precision_level": "address",
+        "location_text": "New York City's Upper West Side",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cccus3n2vvic2f6x64blwk35/app.bsky.feed.post/3mxrxnam32s2d",
+        "handle": "susanmcp.bsky.social",
+        "text": "Some good news! A deep gratitude to FINALLY stop the horse carriages in New York City.\n\ngothamist.com/news/nyc-cou...",
+        "created_at": "2026-10-13T21:21:38.556Z",
+        "source": "https://bsky.app/profile/susanmcp.bsky.social/post/3mxrxnam32s2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bjvxhhpzammbe366dwuongof/app.bsky.feed.post/3mxrxnmekw22a",
+        "handle": "acidstorment1.bsky.social",
+        "text": "OUR NEW LADY LIBERTY:\n\nAt a Trump rally in Syracuse, New York, on Friday, October 9, a grandmotherly heckler \nHer name hasn't been publicly released by the media or Trump authorities, but as soon as I saw a photo of her flipping two birds, I immediately thought of her as our new Statue of Liberty!",
+        "created_at": "2026-10-13T21:21:50.885Z",
+        "source": "https://bsky.app/profile/acidstorment1.bsky.social/post/3mxrxnmekw22a",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,31 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-12T23:32:01.339034Z",
-    "total_pins": 11
+    "generated_at": "2026-10-13T03:46:28.569308Z",
+    "total_pins": 10
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3dv4g7ocioqtwzkshjrpex5w/app.bsky.feed.post/3mxksxjhbwk2o",
-        "handle": "jordanbaelage.bsky.social",
-        "text": "Enough about fantasizing about about cars 🚗 🤣🤣\n\nWho’s in New York? How’s Harry styles concert streak like? 👋❤️",
-        "created_at": "2026-10-11T01:09:16.507Z",
-        "source": "https://bsky.app/profile/jordanbaelage.bsky.social/post/3mxksxjhbwk2o",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York",
-        "confidence": 0.95
-      }
-    },
     {
       "type": "Feature",
       "geometry": {

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T15:59:46.221337Z",
-    "total_pins": 90
+    "generated_at": "2026-10-13T16:16:01.209763Z",
+    "total_pins": 114
   },
   "features": [
     {
@@ -1915,6 +1915,516 @@
         "mapped_location": "new York",
         "precision_level": "address",
         "location_text": "new York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k63stdyzvrn3gtebd5qtaiaf/app.bsky.feed.post/3mxrfp7ddd22h",
+        "handle": "palentz.bsky.social",
+        "text": "A reminder -- My next show at The Bitter End is this Friday -- Oct. 16, at 7:30 pm. We'll be playing all original songs at the iconic Greenwich Village music club. Please join us!",
+        "created_at": "2026-10-13T16:00:36.978Z",
+        "source": "https://bsky.app/profile/palentz.bsky.social/post/3mxrfp7ddd22h",
+        "mapped_location": "Greenwich Village",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3mxrfr5kkri32",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-13T16:01:24.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3mxrfr5kkri32",
+        "mapped_location": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
+        "precision_level": "address",
+        "location_text": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zif6is44fylzyi5zhn3agvej/app.bsky.feed.post/3mxrfs2iae42j",
+        "handle": "elon.mu.sk",
+        "text": "player.\n\n\n\n\n- \nZohran Mamdani orders first NYPD use-of-force review in a decade: New York City Mayor Zohran Mamdani ordered the first review of the New York Police Department’s use of force in a decade, alongside reforms including $2.6 million in new funding for the Office of the\n 64/118",
+        "created_at": "2026-10-13T16:02:12.524774+00:00",
+        "source": "https://bsky.app/profile/elon.mu.sk/post/3mxrfs2iae42j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zif6is44fylzyi5zhn3agvej/app.bsky.feed.post/3mxrfs35gzs2d",
+        "handle": "elon.mu.sk",
+        "text": "reportedly in stable condition as of Sunday.\n\n\n\n- \nJudge orders Trump administration to pull taxpayer-funded promotional ads: U.S. District Judge Jennifer Rochon in New York on Sunday night ordered President Donald Trump’s administration to cancel any remaining television ads\n 72/118",
+        "created_at": "2026-10-13T16:02:13.220029+00:00",
+        "source": "https://bsky.app/profile/elon.mu.sk/post/3mxrfs35gzs2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "23-66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "23-66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "Steinway St, Astoria",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:as4toe6tae2fp4nmjb4aqlxr/app.bsky.feed.post/3mxrfsxsq3k2u",
+        "handle": "omnirogue.bsky.social",
+        "text": "Times Square, but make it fantasy. ⚔️\n\nMirage on OmniRogue recasts your footage and keeps every step.\n\nLink in bio.\n\n#OmniRogueAI #Mirage #AIVideo #Cosplay",
+        "created_at": "2026-10-13T16:02:42+00:00",
+        "source": "https://bsky.app/profile/omnirogue.bsky.social/post/3mxrfsxsq3k2u",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "23-66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "23-66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "Steinway St, Astoria",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sonncyo6avfaobajokkmqvm2/app.bsky.feed.post/3mxrftvpmic2i",
+        "handle": "angelic.style",
+        "text": "my life will not be complete until i am in a power metal band        so uh          who lives in new york and wants to play Fast",
+        "created_at": "2026-10-13T16:03:14.670Z",
+        "source": "https://bsky.app/profile/angelic.style/post/3mxrftvpmic2i",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bqkjmkzwn4emhny2j5oaxtks/app.bsky.feed.post/3mxrfuojeam2o",
+        "handle": "gc-migration.bsky.social",
+        "text": "Interested in studying international migration in NYC? Join the M.A. in International Migration Studies at the CUNY Graduate Center and explore migration through interdisciplinary perspectives!\n\n📣 Apply by Nov 1 for Spring 2027 enrollment\n🔗 www.gc.cuny.edu/admissions-a... \n\n#MigrationStudies #CUNY",
+        "created_at": "2026-10-13T16:03:40.499Z",
+        "source": "https://bsky.app/profile/gc-migration.bsky.social/post/3mxrfuojeam2o",
+        "mapped_location": "the CUNY Graduate Center",
+        "precision_level": "address",
+        "location_text": "the CUNY Graduate Center",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:apcdxmlxjd46y544cqwouqhf/app.bsky.feed.post/3mxrfyd4ei222",
+        "handle": "unravel-network.bsky.social",
+        "text": "🧵 Mental health support can exist and still remain out of reach when people do not know where to start.\n\nIn New York, one useful first step is only three digits: 988.",
+        "created_at": "2026-10-13T16:05:42.936Z",
+        "source": "https://bsky.app/profile/unravel-network.bsky.social/post/3mxrfyd4ei222",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:diwavkkkn65d7ptmfk7ugqld/app.bsky.feed.post/3mxrg2rklkzyb",
+        "handle": "hacks.gr",
+        "text": "Apple is calling its New York “Welcome home” gathering an “Apple Experience,” not a big keynote.\n\nIts smart-home lineup is being refreshed; reports of a touchscreen MacBo…\n\nhttps://en.hacks.gr/i-apple-ananeonei-ta-proionta-gia-to-exypno-spiti-me-tin-ekdilosi-welcome-home/\n\n#Apple #SmartHome #MacBook",
+        "created_at": "2026-10-13T16:07:03.000Z",
+        "source": "https://bsky.app/profile/hacks.gr/post/3mxrg2rklkzyb",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chol5vuamo3qfw4aftnmbuss/app.bsky.feed.post/3mxrg5yjmzs2u",
+        "handle": "browneyesblue.bsky.social",
+        "text": "I PASSED THE BAR IN MANY STATES!\nI passed Cheers in Boston\nI passed Sip & Guzzle in New York\nI passed Smuggler's Cove in California\netc.",
+        "created_at": "2026-10-13T16:08:53.163Z",
+        "source": "https://bsky.app/profile/browneyesblue.bsky.social/post/3mxrg5yjmzs2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hanvkwn457nricn7jucdr33g/app.bsky.feed.post/3mxrg6coik22b",
+        "handle": "brooklyncollege.bsky.social",
+        "text": "More than 800 students, alumni, educators, professionals, and community advocates gathered at Brooklyn College for the 21st Annual CUNY BMI Conference, “Building Bridges: How Communities Protect & Empower.”",
+        "created_at": "2026-10-13T16:09:03.807Z",
+        "source": "https://bsky.app/profile/brooklyncollege.bsky.social/post/3mxrg6coik22b",
+        "mapped_location": "Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Brooklyn College",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fxgcizbgq3wltpjdkibyvssk/app.bsky.feed.post/3mxrg6lelxc2r",
+        "handle": "gottem420.newgrounds.com",
+        "text": "#PortfolioDay\n\nThe name's Gottem. I'm a digital artist based in New York. I mainly draw original characters and currently trying to make a comic with them. I also draw what I think is cool.",
+        "created_at": "2026-10-13T16:09:12.749Z",
+        "source": "https://bsky.app/profile/gottem420.newgrounds.com/post/3mxrg6lelxc2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pntef6tb5pifttiog2qrxany/app.bsky.feed.post/3mxrg7ylols2e",
+        "handle": "interruptcrim.bsky.social",
+        "text": "📍New York City\n📅 This Thursday, 10/15\n🕰️ 9:30a-12p\n\nRegister now to join IC cofounder Andrea Ritchie with other orgs to discuss how philanthropy can support effective coalitions to combat authoritarianism! bit.ly/policingfamiliesnyc",
+        "created_at": "2026-10-13T16:10:00.337Z",
+        "source": "https://bsky.app/profile/interruptcrim.bsky.social/post/3mxrg7ylols2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mwrvz2myt4jdlk3dni476x2q/app.bsky.feed.post/3mxrga4gyv22k",
+        "handle": "jameshodges.net",
+        "text": "I love living in New York City. Where else could I walk outside and find that my entire block smells like a litter box?",
+        "created_at": "2026-10-13T16:10:04.375Z",
+        "source": "https://bsky.app/profile/jameshodges.net/post/3mxrga4gyv22k",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mw3wyabmuqepjtglngn3yldg/app.bsky.feed.post/3mxrgehbt5a22",
+        "handle": "venturebriefly.bsky.social",
+        "text": "SpaceX agreed to testify in a New York City AI safety probe, and the news pressured multiple space stocks.\n",
+        "created_at": "2026-10-13T16:12:28.844Z",
+        "source": "https://bsky.app/profile/venturebriefly.bsky.social/post/3mxrgehbt5a22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City AI",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:swj6nxxfi5gcpgjdzvo25cri/app.bsky.feed.post/3mxrgi47zus2p",
+        "handle": "jacobinmag.bsky.social",
+        "text": "Workers in White Plains, New York, won the first union at any of AutoZone’s nearly seven thousand US stores, despite an aggressive anti-union campaign.\n\nThe next day, the company fired a lead organizer. Then another. 1",
+        "created_at": "2026-10-13T16:14:32.508906028Z",
+        "source": "https://bsky.app/profile/jacobinmag.bsky.social/post/3mxrgi47zus2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v7ztn2sqle7dszt6rbbjk56n/app.bsky.feed.post/3mxrgj24p2i22",
+        "handle": "laxt.bsky.social",
+        "text": "#UK Top posts x reach yesterday | https://laxt.info\n1⃣ Trump’s feds raid home of Ilhan Omar as part of criminal investigation\n2⃣ Mamdani says ICE agents who shot man in New York looked like ‘mass shooters…\n3⃣ When AI is subject to less regulation than your fridge, something is startl…\n",
+        "created_at": "2026-10-13T16:15:03.372412+00:00",
+        "source": "https://bsky.app/profile/laxt.bsky.social/post/3mxrgj24p2i22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.676
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hanvkwn457nricn7jucdr33g/app.bsky.feed.post/3mxrgjuvc722s",
+        "handle": "brooklyncollege.bsky.social",
+        "text": "Held at the Leonard & Claire Tow Center for the Performing Arts with the help of our own Brooklyn College Black and Latino Male Initiative, the conference celebrated the leaders and visionaries who have shaped the CUNY BMI movement while inspiring the next generation of changemakers.",
+        "created_at": "2026-10-13T16:15:32.005Z",
+        "source": "https://bsky.app/profile/brooklyncollege.bsky.social/post/3mxrgjuvc722s",
+        "mapped_location": "the Leonard & Claire Tow Center",
+        "precision_level": "address",
+        "location_text": "the Leonard & Claire Tow Center",
         "confidence": 0.95
       }
     }

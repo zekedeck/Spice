@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T14:51:30.142839Z",
-    "total_pins": 56
+    "generated_at": "2026-10-13T15:14:53.330261Z",
+    "total_pins": 71
   },
   "features": [
     {
@@ -1189,6 +1189,326 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sa67jnfofqxvisksceikvfcw/app.bsky.feed.post/3mxrcc5ual22h",
+        "handle": "darlenecypser.com",
+        "text": "In New York attorneys are licensed by Divisions of the courts and the rolls are kept by the Divisions. You have to check each Division. They are not the same as counties. Other states could have other systems that are not statewide.",
+        "created_at": "2026-10-13T14:59:37.985Z",
+        "source": "https://bsky.app/profile/darlenecypser.com/post/3mxrcc5ual22h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mxrcd2emfn2z",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "today, mostly sunny, with a high near 71. south wind 2 to 10 mph. (M) planned work, Oct 17 - 18, Sat and Sun, all day: No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av board from the Manhattan-bound platform... (L) (1/2)",
+        "created_at": "2026-10-13T15:00:07.817143+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mxrcd2emfn2z",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ra6gopdeuq77naoqp3qob5od/app.bsky.feed.post/3mxrcdze4fk2e",
+        "handle": "emilyflitter.bsky.social",
+        "text": "The man shot by an ICE agent in Marble Hill still has a bullet lodged in his neck, four days after the shooting, and is being held in solitary confinement at a federal jail, without access to adequate medical care, his lawyers say. www.thecityreporter.nyc/2026/10/12/o...",
+        "created_at": "2026-10-13T15:00:40.390Z",
+        "source": "https://bsky.app/profile/emilyflitter.bsky.social/post/3mxrcdze4fk2e",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrcemqh762h",
+        "handle": "lightnews.app",
+        "text": "Denmark, Greenland allow US bases\n\nDenmark, the United States and Greenland said they would sign a security agreement in New York on Tuesday to allow U.S. military bases and expand Arctic security cooperation.\n\nWith posts by 🎓Hans M. Kristensen, 🎓Ian Bremmer, 🎓François Heisbourg +3 more scholars.",
+        "created_at": "2026-10-13T15:00:59Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrcemqh762h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euogifoh4mj52xvkbqcfqtti/app.bsky.feed.post/3mxrchrhiln26",
+        "handle": "health897.bsky.social",
+        "text": "Navratri Garba at New York’s Times Square goes viral; internet divided as users debate Indian celebrations abroad\n\nNavratri Garba at New York’s Times Square goes viral A Navratri celebration in New York has sparked a debate on social media, with some users appreciating the display of Indian culture…",
+        "created_at": "2026-10-13T15:02:46Z",
+        "source": "https://bsky.app/profile/health897.bsky.social/post/3mxrchrhiln26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 1.0,
+        "other_locations": "Times Square, New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euogifoh4mj52xvkbqcfqtti/app.bsky.feed.post/3mxrchrhiln26",
+        "handle": "health897.bsky.social",
+        "text": "Navratri Garba at New York’s Times Square goes viral; internet divided as users debate Indian celebrations abroad\n\nNavratri Garba at New York’s Times Square goes viral A Navratri celebration in New York has sparked a debate on social media, with some users appreciating the display of Indian culture…",
+        "created_at": "2026-10-13T15:02:46Z",
+        "source": "https://bsky.app/profile/health897.bsky.social/post/3mxrchrhiln26",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 1.0,
+        "other_locations": "New York’s, New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euogifoh4mj52xvkbqcfqtti/app.bsky.feed.post/3mxrchrhiln26",
+        "handle": "health897.bsky.social",
+        "text": "Navratri Garba at New York’s Times Square goes viral; internet divided as users debate Indian celebrations abroad\n\nNavratri Garba at New York’s Times Square goes viral A Navratri celebration in New York has sparked a debate on social media, with some users appreciating the display of Indian culture…",
+        "created_at": "2026-10-13T15:02:46Z",
+        "source": "https://bsky.app/profile/health897.bsky.social/post/3mxrchrhiln26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "New York’s, Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cqhvayqla4gqkoarzrg4h46e/app.bsky.feed.post/3mxrchvwlrs2f",
+        "handle": "nypirg.bsky.social",
+        "text": "📢 Want to make a difference in New York? Join @nypirg.bsky.social's Community Action Network and help us strengthen democracy, fight for the rights of consumers and voters, and protect the environment and public health! Sign up today to get informed and get involved: nypirg.org/can",
+        "created_at": "2026-10-13T15:02:51.014Z",
+        "source": "https://bsky.app/profile/nypirg.bsky.social/post/3mxrchvwlrs2f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ehz7shlj7u2f2asrxi2b676/app.bsky.feed.post/3mxrchxba2223",
+        "handle": "djrunnels.bsky.social",
+        "text": "Once verbally accepted by the third largest book publisher in New York, who later backed out, so now I get to grovel for attention. But I have no pride. OK, yes, I do. Look I only get $2 in royalties off this = 40% of a cup of coffee. Most give it 5 stars. #booksky📚💙\nDead Mona by D. J. Runnels",
+        "created_at": "2026-10-13T15:02:52.410Z",
+        "source": "https://bsky.app/profile/djrunnels.bsky.social/post/3mxrchxba2223",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxrcv47hma32",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown M, R trains are delayed while we investigate why a train's brakes activated at Jackson Heights-Roosevelt Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T15:10:08.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxrcv47hma32",
+        "mapped_location": "Jackson Heights-Roosevelt Av",
+        "precision_level": "address",
+        "location_text": "Jackson Heights-Roosevelt Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eof64py7gulrj4drvmp52scd/app.bsky.feed.post/3mxrcvvkpu22n",
+        "handle": "c-sommerfeldt.bsky.social",
+        "text": "Mayor Zohran Mamdani is appearing with NYPD Commissioner Jessica Tisch at police memorial in downtown Manhattan. \n\nThis comes as Mamdani's under increasing pressure from his supporters to fire Tisch.",
+        "created_at": "2026-10-13T15:10:40.388Z",
+        "source": "https://bsky.app/profile/c-sommerfeldt.bsky.social/post/3mxrcvvkpu22n",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "city",
+        "location_text": "downtown Manhattan",
+        "confidence": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gyu37737cldtehocmchkyold/app.bsky.feed.post/3mxrcxqyuyk26",
+        "handle": "sazeracla.bsky.social",
+        "text": "I own a bridge in Brooklyn, New York, that I have decided to sell. Would you be interested in buying it?",
+        "created_at": "2026-10-13T15:11:42.723Z",
+        "source": "https://bsky.app/profile/sazeracla.bsky.social/post/3mxrcxqyuyk26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrcz6ixqp23",
+        "handle": "lightnews.app",
+        "text": "US gains Greenland basing rights\n\nThe United States, Denmark and Greenland signed a security agreement at the U.N. General Assembly in New York that allowed greater U.S. military presence and potential new bases on Greenland.\n\nWith posts by 🎓Michael McFaul, 🎓Antje Wiener +11 more scholars.",
+        "created_at": "2026-10-13T15:12:29Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrcz6ixqp23",
+        "mapped_location": "the U.N. General Assembly",
+        "precision_level": "address",
+        "location_text": "the U.N. General Assembly",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrcz6ixqp23",
+        "handle": "lightnews.app",
+        "text": "US gains Greenland basing rights\n\nThe United States, Denmark and Greenland signed a security agreement at the U.N. General Assembly in New York that allowed greater U.S. military presence and potential new bases on Greenland.\n\nWith posts by 🎓Michael McFaul, 🎓Antje Wiener +11 more scholars.",
+        "created_at": "2026-10-13T15:12:29Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrcz6ixqp23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the U.N. General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:om6pmfx4mrnwpz4dgfz54evn/app.bsky.feed.post/3mxrd2smd6s2w",
+        "handle": "jsfw.bsky.social",
+        "text": "Only Living Boy In New York",
+        "created_at": "2026-10-13T15:13:25.069Z",
+        "source": "https://bsky.app/profile/jsfw.bsky.social/post/3mxrd2smd6s2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

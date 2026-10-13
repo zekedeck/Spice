@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T21:23:38.491311Z",
-    "total_pins": 205
+    "generated_at": "2026-10-13T21:41:23.431696Z",
+    "total_pins": 211
   },
   "features": [
     {
@@ -4351,6 +4351,132 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6hgx4pzt3hqazmnjizp63d62/app.bsky.feed.post/3mxryeuj5ts2r",
+        "handle": "colinsmith.bsky.social",
+        "text": "Why, yes, by that Pennie Smith, who captured this rightly famous shot of Paul Simonon at NYC’s Palladium in the same year, and quite probably in the same month …",
+        "created_at": "2026-10-13T21:34:51.186Z",
+        "source": "https://bsky.app/profile/colinsmith.bsky.social/post/3mxryeuj5ts2r",
+        "mapped_location": "NYC’s Palladium",
+        "precision_level": "address",
+        "location_text": "NYC’s Palladium",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2e24433sb4folqbudqiiite/app.bsky.feed.post/3mxryj22rpc2i",
+        "handle": "kojamf.bsky.social",
+        "text": "Mamdani bans horse carriage industry in New York City.🙌",
+        "created_at": "2026-10-13T21:37:11.226Z",
+        "source": "https://bsky.app/profile/kojamf.bsky.social/post/3mxryj22rpc2i",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:frjs35tjwcvgrk5gmqalvzps/app.bsky.feed.post/3mxrykz6kjc23",
+        "handle": "spideylibrarian.bsky.social",
+        "text": "Awesome. \n\nSpider-Man Way unveiled in Forest Hills, Queens, near Peter Parker's house share.google/xKe5VjsrSvlT...",
+        "created_at": "2026-10-13T21:38:17.405Z",
+        "source": "https://bsky.app/profile/spideylibrarian.bsky.social/post/3mxrykz6kjc23",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vbbeyvnvx4l4clfdasa3q3xw/app.bsky.feed.post/3mxrymclvnk2b",
+        "handle": "stutler.org",
+        "text": "It was in mine. \nI grew up in Deo-wain-sta, the Haudenosaunee name for the Oneida Carry or the Great Carrying Place in modern-day Rome, New York.\nHeck, I played Gawasa as a kid, carving and decorating my own snow snakes.\nGood times......",
+        "created_at": "2026-10-13T21:39:00.838Z",
+        "source": "https://bsky.app/profile/stutler.org/post/3mxrymclvnk2b",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mxrynsuckc2o",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in the city:\n\n🤏 So Tiny by @thedommekat.com — a workshop on consensual SPH play. An exploration of ethical verbal humiliation (with a focus on SPH) in a safe space.\n\n🗓️ Sunday, 10/18\n🕰️ 4:00 PM\n📍 Lower Manhattan\n\n🎟️ Tickets: sotiny.eventbrite.com",
+        "created_at": "2026-10-13T21:39:51.442Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mxrynsuckc2o",
+        "mapped_location": "Lower Manhattan",
+        "precision_level": "address",
+        "location_text": "Lower Manhattan",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7ytxywmuywqubuzhrwkvbkvj/app.bsky.feed.post/3mxrypas4q22n",
+        "handle": "lively1.bsky.social",
+        "text": "Having lived in New York previously I fully support this.  \nHorse drawn, carriages are a thing of the past and the way that these horses are used is in no way shape or form how they were used in the previous centuries.   Only people who profit are mad about this.\n\napple.news/A6qcW4UiTQfS...",
+        "created_at": "2026-10-13T21:40:39.609Z",
+        "source": "https://bsky.app/profile/lively1.bsky.social/post/3mxrypas4q22n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

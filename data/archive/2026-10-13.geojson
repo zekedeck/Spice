@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T15:14:53.332691Z",
-    "total_pins": 62
+    "generated_at": "2026-10-13T15:30:50.565049Z",
+    "total_pins": 69
   },
   "features": [
     {
@@ -1320,6 +1320,155 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mvjajwb7epqok6df3rbf4m7h/app.bsky.feed.post/3mxrdq4czis2p",
+        "handle": "howsexgotscrewedup.bsky.social",
+        "text": "As public opinion ran in her favor, #Sanger decided to go home & ahttps://pbs.twimg.com/media/HUb75iGW8AAxpe6?format=png&name=smallrrived in New York to great acclaim in October 1915.  Ghosts of #WmnHist still haunt. HowSexGotScrewedUp.com #BirthControl #DontGoBack",
+        "created_at": "2026-10-13T15:25:16.995Z",
+        "source": "https://bsky.app/profile/howsexgotscrewedup.bsky.social/post/3mxrdq4czis2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iqm3dhztz5x575rufe4osak5/app.bsky.feed.post/3mxrdqe4zmh2s",
+        "handle": "kirotestdaily.bsky.social",
+        "text": "In New York, Kristin Davis says viewers still watch ‘Sex and the City’ and identify with its characters. That lasting connection speaks to friendship’s power to steady us through change; can yours?",
+        "created_at": "2026-10-13T15:25:27.000Z",
+        "source": "https://bsky.app/profile/kirotestdaily.bsky.social/post/3mxrdqe4zmh2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lppl4sbj7r4uoj4yd4mnuxgf/app.bsky.feed.post/3mxrdrurj4k2g",
+        "handle": "bklyninclusive.bsky.social",
+        "text": "Are you interested in a job at Brooklyn Army Terminal? Find out more at their career event, happening TODAY, Tuesday 10/13/26, as well as Wednesday (10/14) and Thursday (10/15), 10 AM-3 PM at Brooklyn Army Terminal.",
+        "created_at": "2026-10-13T15:26:19.091Z",
+        "source": "https://bsky.app/profile/bklyninclusive.bsky.social/post/3mxrdrurj4k2g",
+        "mapped_location": "Brooklyn Army Terminal",
+        "precision_level": "address",
+        "location_text": "Brooklyn Army Terminal",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.843
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vi53pbqfkjflc2bn2nushkhj/app.bsky.feed.post/3mxrds2zglc2r",
+        "handle": "newyorktopnews.bsky.social",
+        "text": "A 12-year-old girl was wounded during a suspected #gang-related #shootout near Pearly Gates Park in the #Bronx. She was hospitalized in stable condition and underwent surgery Tue. Police are searching for 2 gunmen who fled toward Zerega Avenue.\n\n#NewYork\n\nabc7ny.com/post/girl-12...",
+        "created_at": "2026-10-13T15:26:25.641Z",
+        "source": "https://bsky.app/profile/newyorktopnews.bsky.social/post/3mxrds2zglc2r",
+        "mapped_location": "Pearly Gates Park",
+        "precision_level": "address",
+        "location_text": "Pearly Gates Park",
+        "confidence": 1.0,
+        "other_locations": "Zerega Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901,
+          40.844
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vi53pbqfkjflc2bn2nushkhj/app.bsky.feed.post/3mxrds2zglc2r",
+        "handle": "newyorktopnews.bsky.social",
+        "text": "A 12-year-old girl was wounded during a suspected #gang-related #shootout near Pearly Gates Park in the #Bronx. She was hospitalized in stable condition and underwent surgery Tue. Police are searching for 2 gunmen who fled toward Zerega Avenue.\n\n#NewYork\n\nabc7ny.com/post/girl-12...",
+        "created_at": "2026-10-13T15:26:25.641Z",
+        "source": "https://bsky.app/profile/newyorktopnews.bsky.social/post/3mxrds2zglc2r",
+        "mapped_location": "Zerega Avenue",
+        "precision_level": "address",
+        "location_text": "Zerega Avenue",
+        "confidence": 0.95,
+        "other_locations": "Pearly Gates Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2476rggwxtwyu6wex64ibeo/app.bsky.feed.post/3mxrdwoqk5s23",
+        "handle": "nightmare4lol.bsky.social",
+        "text": "dont think to much on it. everytime ive donated blood Ive never gotten anything, not a cookie, not even a smile. and ive donated in california and new york",
+        "created_at": "2026-10-13T15:29:00.538Z",
+        "source": "https://bsky.app/profile/nightmare4lol.bsky.social/post/3mxrdwoqk5s23",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6whlcnfew6ajlhhtmqex5qme/app.bsky.feed.post/3mxrdxpebox2n",
+        "handle": "ahadreports.bsky.social",
+        "text": "Zacharia: Trump plans rallies in Alaska, Arizona, Montana, Georgia.\n\nZacharia ties the planned rallies to momentum from recent Trump stops in Tennessee, New York, Texas, and Nebraska, framing the schedule around Trump's America First agenda of lower taxes, higher wages, and border security.",
+        "created_at": "2026-10-13T15:29:32.000Z",
+        "source": "https://bsky.app/profile/ahadreports.bsky.social/post/3mxrdxpebox2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

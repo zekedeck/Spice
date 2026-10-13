@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T16:39:08.290752Z",
-    "total_pins": 134
+    "generated_at": "2026-10-13T19:08:06.384806Z",
+    "total_pins": 138
   },
   "features": [
     {
@@ -2851,6 +2851,90 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fab7al4jsxtbsuwrqcl2wghr/app.bsky.feed.post/3mxrpsdlecs2s",
+        "handle": "nickcarr.bsky.social",
+        "text": "Bad guy Luther shoots gang leader Cyrus, then blames the Warriors. Chaos breaks out, and the Warriors seek refuge in a cemetery, which would be Woodlawn if they were in the Bronx. However, this was actually shot at Evergreen Cemetery, in the Cypress Hills section of Brooklyn:",
+        "created_at": "2026-10-13T19:00:33.163Z",
+        "source": "https://bsky.app/profile/nickcarr.bsky.social/post/3mxrpsdlecs2s",
+        "mapped_location": "Evergreen Cemetery",
+        "precision_level": "address",
+        "location_text": "Evergreen Cemetery",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.046,
+          40.667
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e5naj2jfdy3psmcrqqbvterd/app.bsky.feed.post/3mxrpsvmk2227",
+        "handle": "visitusparks.bsky.social",
+        "text": "What if your next workday came with a better view?\n\nImagine working near Acadia (ME), taking lunch breaks at Cuyahoga Valley (OH), or enjoying NYC skyline views at Liberty State Park (NJ).\n\nJust make sure you've got Wi-Fi!\n\nWhere would you work remotely?\n\n#StateParks #NationalParks",
+        "created_at": "2026-10-13T19:01:38.428Z",
+        "source": "https://bsky.app/profile/visitusparks.bsky.social/post/3mxrpsvmk2227",
+        "mapped_location": "Liberty State Park",
+        "precision_level": "address",
+        "location_text": "Liberty State Park",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r2zq365s6dtxgx47cvs4oixl/app.bsky.feed.post/3mxrpyzjwff2p",
+        "handle": "wsbt22.bsky.social",
+        "text": "The suspect accused of pushing his 23-year-old ex-girlfriend and their baby girl off a 15th floor balcony in New York was smiling as police led him toward a patrol car after his arrest.\nhttps://bit.ly/4e6ABR2",
+        "created_at": "2026-10-13T19:05:03.755344752Z",
+        "source": "https://bsky.app/profile/wsbt22.bsky.social/post/3mxrpyzjwff2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ni2rvkdxfrn34idcm6vptdr4/app.bsky.feed.post/3mxrq4amrn226",
+        "handle": "xannamachine.northsky.social",
+        "text": "I redid the stuff in and around New York City, meaning I also remade my entire Northeast United States fantasy map",
+        "created_at": "2026-10-13T19:06:51.965Z",
+        "source": "https://bsky.app/profile/xannamachine.northsky.social/post/3mxrq4amrn226",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
         "confidence": 1.0
       }
     }

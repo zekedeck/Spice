@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T20:48:01.277240Z",
-    "total_pins": 182
+    "generated_at": "2026-10-13T21:04:40.204279Z",
+    "total_pins": 191
   },
   "features": [
     {
@@ -3866,6 +3866,195 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxrvvgfgvu2e",
+        "handle": "mainstream-media.bsky.social",
+        "text": "Horse carriages in New York City expected to be outlawed\n\nhttps://www.bbc.co.uk/news/articles/...",
+        "created_at": "2026-10-13T20:50:25.572689+00:00",
+        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxrvvgfgvu2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a7doe3tujsudhl7rqmqanyxd/app.bsky.feed.post/3mxrvw6bypo2z",
+        "handle": "nexis-pulse.bsky.social",
+        "text": "AI Takes Center Stage at New York Climate Week\n\nAs world leaders gather in Manhattan for the UN General Assembly, another major conversation is sweeping through New York Climate Week.\n\nRead the full story ↗\n#Technology #NexisPulse",
+        "created_at": "2026-10-13T20:50:49.091Z",
+        "source": "https://bsky.app/profile/nexis-pulse.bsky.social/post/3mxrvw6bypo2z",
+        "mapped_location": "the UN General Assembly",
+        "precision_level": "address",
+        "location_text": "the UN General Assembly",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iuff4hrcublddhu7ewubiywz/app.bsky.feed.post/3mxrvxm6msk2d",
+        "handle": "johnnyfreeusa.bsky.social",
+        "text": "Trump is the wrong person to be pointing the finger about ill gotten gains. Don't forget he and his family are permanently banned from doing business in New York. Don the Con hass a tendency to project.",
+        "created_at": "2026-10-13T20:51:38.763Z",
+        "source": "https://bsky.app/profile/johnnyfreeusa.bsky.social/post/3mxrvxm6msk2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxrvxu5vexz2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are delayed while we address a door problem on a train at Elder Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T20:51:44.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxrvxu5vexz2",
+        "mapped_location": "Elder Av",
+        "precision_level": "address",
+        "location_text": "Elder Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:34foecukuzkuhexh7k4anqqk/app.bsky.feed.post/3mxrvy2fw5c2d",
+        "handle": "guylc.bsky.social",
+        "text": "A Kosher Sicilian restaurant in New York called Ayyyyywhatsamatzahyou",
+        "created_at": "2026-10-13T20:51:53.678Z",
+        "source": "https://bsky.app/profile/guylc.bsky.social/post/3mxrvy2fw5c2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tqwr4w5b5lxuwxganxjrnmop/app.bsky.feed.post/3mxrvzpvsg22e",
+        "handle": "sleepykittypaw.bsky.social",
+        "text": "The Christmas-set OTHER DESERT CITIES Broadway run goes through January 17 at the Hudson Theatre. \n\n🎟️ www.todaytix.com/nyc/shows/47...",
+        "created_at": "2026-10-13T20:52:49.777Z",
+        "source": "https://bsky.app/profile/sleepykittypaw.bsky.social/post/3mxrvzpvsg22e",
+        "mapped_location": "the Hudson Theatre",
+        "precision_level": "address",
+        "location_text": "the Hudson Theatre",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mxrw4vhcs22l",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in the city:\n\n🎨 Sunday Drawminatrix is here. The kinky figure drawing session for artists, Dommes & sub models. Come pose, draw & hang out — either way, come sharp.\n\n🗓️ Sunday, 10/18\n🕰️ 4:00 PM - 6:00 PM\n📍 Lower Manhattan\n\n🎟️ Tickets: drawminatrix.eventbrite.com",
+        "created_at": "2026-10-13T20:54:36.256Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mxrw4vhcs22l",
+        "mapped_location": "Lower Manhattan",
+        "precision_level": "address",
+        "location_text": "Lower Manhattan",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6ijlu2cpferlpfyxwhskh4o4/app.bsky.feed.post/3mxrwi7t3ak25",
+        "handle": "nightcourtliker.bsky.social",
+        "text": "love when the mask slips a bit. this is between articles about how everyone in new york is starving in the streets because of mamdani's cruel taxes and right after it is a walkthrough of how sad and tragic jeff bezos' fembot was before he came along",
+        "created_at": "2026-10-13T21:00:56.226Z",
+        "source": "https://bsky.app/profile/nightcourtliker.bsky.social/post/3mxrwi7t3ak25",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a4gqm5l6r3j6dje3zslgrdi6/app.bsky.feed.post/3mxrwng4q7k2b",
+        "handle": "streetfilms.bsky.social",
+        "text": "We finally got the yellow stripe down the 2-way Borden Avenue. Now I don't have to yell back at drivers that I'm not going the wrong way. There are two not-so-good sections where parked cars narrow it. But it is so much better than prior. Gamechanger. @misernyc.bsky.social @nyc.streetsblog.org",
+        "created_at": "2026-10-13T21:03:50.605Z",
+        "source": "https://bsky.app/profile/streetfilms.bsky.social/post/3mxrwng4q7k2b",
+        "mapped_location": "2-way Borden Avenue",
+        "precision_level": "address",
+        "location_text": "2-way Borden Avenue",
+        "confidence": 0.85
       }
     }
   ]

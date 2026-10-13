@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T15:46:47.322507Z",
-    "total_pins": 79
+    "generated_at": "2026-10-13T16:07:59.778021Z",
+    "total_pins": 105
   },
   "features": [
     {
@@ -1679,6 +1679,564 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfcfpadk2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "The Clash getting ready to go on stage at Shea Stadium in New York City, October 13, 1982...\n\nPhoto by Michael Zagaris\n\n#Punk #Punks #PunkRock #TheClash #SheaStadium #PunkRockHistory #Rock #RockNRoll #RockNRollHistory #MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:53:27.453Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfcfpadk2u",
+        "mapped_location": "Shea Stadium",
+        "precision_level": "address",
+        "location_text": "Shea Stadium",
+        "confidence": 1.0,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfcfpadk2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "The Clash getting ready to go on stage at Shea Stadium in New York City, October 13, 1982...\n\nPhoto by Michael Zagaris\n\n#Punk #Punks #PunkRock #TheClash #SheaStadium #PunkRockHistory #Rock #RockNRoll #RockNRollHistory #MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:53:27.453Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfcfpadk2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0,
+        "other_locations": "Shea Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c7bxdzw7monhuzzhfjyo2jbu/app.bsky.feed.post/3mxrfcwirj226",
+        "handle": "theunrepentables.bsky.social",
+        "text": "If you are in New York City - Manhattan 326 East 110th St on Oct 16 around 1pm - join in this protest to end the killing of healthy cats and dogs in NYC Shelters #OnlyLovePrevails #LoveIsAWitness #TheyWantToLive #NoKillShelters #NYC #DogRescues #CatRescues",
+        "created_at": "2026-10-13T15:53:45.069Z",
+        "source": "https://bsky.app/profile/theunrepentables.bsky.social/post/3mxrfcwirj226",
+        "mapped_location": "New York City -",
+        "precision_level": "address",
+        "location_text": "New York City -",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kvjrdchmmclca3nxjhc5mpz/app.bsky.feed.post/3mxrfe2zkjr2n",
+        "handle": "urbanmagazine.bsky.social",
+        "text": "NYC Love to Host Urbanworld Festival 30th Anniversary Afterparty in New York\n\nNYC Love will celebrate the 30th anniversary of the Urbanworld Festival with an after-work mixer and after-party on Wednesday, Oct. 14, bringing festivalgoers together for an evening of music, networking, and celebration.…",
+        "created_at": "2026-10-13T15:54:23Z",
+        "source": "https://bsky.app/profile/urbanmagazine.bsky.social/post/3mxrfe2zkjr2n",
+        "mapped_location": "NYC Love",
+        "precision_level": "address",
+        "location_text": "NYC Love",
+        "confidence": 0.95,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kvjrdchmmclca3nxjhc5mpz/app.bsky.feed.post/3mxrfe2zkjr2n",
+        "handle": "urbanmagazine.bsky.social",
+        "text": "NYC Love to Host Urbanworld Festival 30th Anniversary Afterparty in New York\n\nNYC Love will celebrate the 30th anniversary of the Urbanworld Festival with an after-work mixer and after-party on Wednesday, Oct. 14, bringing festivalgoers together for an evening of music, networking, and celebration.…",
+        "created_at": "2026-10-13T15:54:23Z",
+        "source": "https://bsky.app/profile/urbanmagazine.bsky.social/post/3mxrfe2zkjr2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "NYC Love"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfehmjfs2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "youtube.com/watch?v=8-cj...\n\nTHE CLASH At SHEA STADIUM IN NEW YORK CITY 10/13/1982...\n\nThe Clash ~ Should I Stay Or Should I Go\n\n#TheClash #Clash #SheaStadium #ShouldIStayOrShouldIGo \n#Punk #PunkRock #PunkRockHistory #Rock #RockNRoll #RockNRollHistory\n#MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:54:36.570Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfehmjfs2u",
+        "mapped_location": "SHEA STADIUM",
+        "precision_level": "address",
+        "location_text": "SHEA STADIUM",
+        "confidence": 1.0,
+        "other_locations": "NEW YORK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpy2vtisiyy7ml34rzevbbjz/app.bsky.feed.post/3mxrfehmjfs2u",
+        "handle": "1bigbullshitbill.bsky.social",
+        "text": "youtube.com/watch?v=8-cj...\n\nTHE CLASH At SHEA STADIUM IN NEW YORK CITY 10/13/1982...\n\nThe Clash ~ Should I Stay Or Should I Go\n\n#TheClash #Clash #SheaStadium #ShouldIStayOrShouldIGo \n#Punk #PunkRock #PunkRockHistory #Rock #RockNRoll #RockNRollHistory\n#MusicChallenge #MusicSky #MusicOfBlueSky",
+        "created_at": "2026-10-13T15:54:36.570Z",
+        "source": "https://bsky.app/profile/1bigbullshitbill.bsky.social/post/3mxrfehmjfs2u",
+        "mapped_location": "NEW YORK",
+        "precision_level": "address",
+        "location_text": "NEW YORK",
+        "confidence": 1.0,
+        "other_locations": "SHEA STADIUM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gcrbmhbzstndqfddsyq4w4ct/app.bsky.feed.post/3mxrfesmnxk2q",
+        "handle": "tvtech.bsky.social",
+        "text": "GatesAir to Introduce High-Efficiency UHF Transmitters at NAB Show New York www.tvtechnology.com/platform/bro...",
+        "created_at": "2026-10-13T15:54:48.110Z",
+        "source": "https://bsky.app/profile/tvtech.bsky.social/post/3mxrfesmnxk2q",
+        "mapped_location": "NAB Show New York www.tvtechnology.com/platform/bro",
+        "precision_level": "address",
+        "location_text": "NAB Show New York www.tvtechnology.com/platform/bro",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.977,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2jwqxtttwx27ftvymmygjahh/app.bsky.feed.post/3mxrfj2ea422d",
+        "handle": "soonergrunt.bsky.social",
+        "text": "\"are there any adults left at the new york times\"\nThere haven't been for some time.\nThey tried desperately to turn Whitewater into a Watergate-type Presidency-ending scandal so they could claim a Presidential scalp of their own.\nWhen that failed, they practically salivated over the prospect of HRC",
+        "created_at": "2026-10-13T15:57:10.441Z",
+        "source": "https://bsky.app/profile/soonergrunt.bsky.social/post/3mxrfj2ea422d",
+        "mapped_location": "the new york times\"",
+        "precision_level": "address",
+        "location_text": "the new york times\"",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4fxfcb37p5sk2ebogaizccv3/app.bsky.feed.post/3mxrfkqgxvc27",
+        "handle": "wah.bsky.social",
+        "text": "OdaJoe himself studied abroad in the US as a youth, so perhaps that informed a key part of the story–the fish out of water element feels quite real and relatable. Also gotta hand props to Jai West for his lively and convincing performance as a part-Japanese drug dealer in New York.\n\n#AHWatching",
+        "created_at": "2026-10-13T15:57:39.034Z",
+        "source": "https://bsky.app/profile/wah.bsky.social/post/3mxrfkqgxvc27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gh57p72rmew33jordovmuaz6/app.bsky.feed.post/3mxrfli3qos2u",
+        "handle": "stitch.bsky.social",
+        "text": "They're... in new York city.\n\nDuring a zombie apocalypse...\n\nFeels like a bad idea considering how many people - now zombies - are out there but like?? I guess??\n\nIt is peak zombie media to do absolutely ridiculous things that open you up to death??",
+        "created_at": "2026-10-13T15:58:31.951Z",
+        "source": "https://bsky.app/profile/stitch.bsky.social/post/3mxrfli3qos2u",
+        "mapped_location": "new York",
+        "precision_level": "address",
+        "location_text": "new York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k63stdyzvrn3gtebd5qtaiaf/app.bsky.feed.post/3mxrfp7ddd22h",
+        "handle": "palentz.bsky.social",
+        "text": "A reminder -- My next show at The Bitter End is this Friday -- Oct. 16, at 7:30 pm. We'll be playing all original songs at the iconic Greenwich Village music club. Please join us!",
+        "created_at": "2026-10-13T16:00:36.978Z",
+        "source": "https://bsky.app/profile/palentz.bsky.social/post/3mxrfp7ddd22h",
+        "mapped_location": "Greenwich Village",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3mxrfr5kkri32",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-13T16:01:24.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3mxrfr5kkri32",
+        "mapped_location": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
+        "precision_level": "address",
+        "location_text": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zif6is44fylzyi5zhn3agvej/app.bsky.feed.post/3mxrfs2iae42j",
+        "handle": "elon.mu.sk",
+        "text": "player.\n\n\n\n\n- \nZohran Mamdani orders first NYPD use-of-force review in a decade: New York City Mayor Zohran Mamdani ordered the first review of the New York Police Department’s use of force in a decade, alongside reforms including $2.6 million in new funding for the Office of the\n 64/118",
+        "created_at": "2026-10-13T16:02:12.524774+00:00",
+        "source": "https://bsky.app/profile/elon.mu.sk/post/3mxrfs2iae42j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zif6is44fylzyi5zhn3agvej/app.bsky.feed.post/3mxrfs35gzs2d",
+        "handle": "elon.mu.sk",
+        "text": "reportedly in stable condition as of Sunday.\n\n\n\n- \nJudge orders Trump administration to pull taxpayer-funded promotional ads: U.S. District Judge Jennifer Rochon in New York on Sunday night ordered President Donald Trump’s administration to cancel any remaining television ads\n 72/118",
+        "created_at": "2026-10-13T16:02:13.220029+00:00",
+        "source": "https://bsky.app/profile/elon.mu.sk/post/3mxrfs35gzs2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "23-66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "23-66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxrfsh6sqa2p",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:02:24.986Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxrfsh6sqa2p",
+        "mapped_location": "Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "Steinway St, Astoria",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:as4toe6tae2fp4nmjb4aqlxr/app.bsky.feed.post/3mxrfsxsq3k2u",
+        "handle": "omnirogue.bsky.social",
+        "text": "Times Square, but make it fantasy. ⚔️\n\nMirage on OmniRogue recasts your footage and keeps every step.\n\nLink in bio.\n\n#OmniRogueAI #Mirage #AIVideo #Cosplay",
+        "created_at": "2026-10-13T16:02:42+00:00",
+        "source": "https://bsky.app/profile/omnirogue.bsky.social/post/3mxrfsxsq3k2u",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.788
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "23-66 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "23-66 Steinway St, Astoria, NY",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxrftskbbu2j",
+        "handle": "mtsproductions.bsky.social",
+        "text": "♎️🔥 THE LIBRA AFFAIR! Motion Fridays takes over LEVEL Astoria Friday, Oct. 16! 👠 Ladies in heels FREE before 1AM w/ RSVP. Dress to impress and bring your crew for a night of nonstop vibes! 💃🥂\n\n📍 23-66 Steinway St, Astoria, NY\n\n#MotionFridays #TheLibraAffair #LevelAstoria #QueensNightlife",
+        "created_at": "2026-10-13T16:03:10.140Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxrftskbbu2j",
+        "mapped_location": "Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "Steinway St, Astoria",
+        "confidence": 0.95,
+        "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sonncyo6avfaobajokkmqvm2/app.bsky.feed.post/3mxrftvpmic2i",
+        "handle": "angelic.style",
+        "text": "my life will not be complete until i am in a power metal band        so uh          who lives in new york and wants to play Fast",
+        "created_at": "2026-10-13T16:03:14.670Z",
+        "source": "https://bsky.app/profile/angelic.style/post/3mxrftvpmic2i",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bqkjmkzwn4emhny2j5oaxtks/app.bsky.feed.post/3mxrfuojeam2o",
+        "handle": "gc-migration.bsky.social",
+        "text": "Interested in studying international migration in NYC? Join the M.A. in International Migration Studies at the CUNY Graduate Center and explore migration through interdisciplinary perspectives!\n\n📣 Apply by Nov 1 for Spring 2027 enrollment\n🔗 www.gc.cuny.edu/admissions-a... \n\n#MigrationStudies #CUNY",
+        "created_at": "2026-10-13T16:03:40.499Z",
+        "source": "https://bsky.app/profile/gc-migration.bsky.social/post/3mxrfuojeam2o",
+        "mapped_location": "the CUNY Graduate Center",
+        "precision_level": "address",
+        "location_text": "the CUNY Graduate Center",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:apcdxmlxjd46y544cqwouqhf/app.bsky.feed.post/3mxrfyd4ei222",
+        "handle": "unravel-network.bsky.social",
+        "text": "🧵 Mental health support can exist and still remain out of reach when people do not know where to start.\n\nIn New York, one useful first step is only three digits: 988.",
+        "created_at": "2026-10-13T16:05:42.936Z",
+        "source": "https://bsky.app/profile/unravel-network.bsky.social/post/3mxrfyd4ei222",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:diwavkkkn65d7ptmfk7ugqld/app.bsky.feed.post/3mxrg2rklkzyb",
+        "handle": "hacks.gr",
+        "text": "Apple is calling its New York “Welcome home” gathering an “Apple Experience,” not a big keynote.\n\nIts smart-home lineup is being refreshed; reports of a touchscreen MacBo…\n\nhttps://en.hacks.gr/i-apple-ananeonei-ta-proionta-gia-to-exypno-spiti-me-tin-ekdilosi-welcome-home/\n\n#Apple #SmartHome #MacBook",
+        "created_at": "2026-10-13T16:07:03.000Z",
+        "source": "https://bsky.app/profile/hacks.gr/post/3mxrg2rklkzyb",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.85
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T20:56:06.257159Z",
-    "total_pins": 196
+    "generated_at": "2026-10-13T21:12:31.646929Z",
+    "total_pins": 200
   },
   "features": [
     {
@@ -4160,6 +4160,90 @@
         "precision_level": "address",
         "location_text": "Lower Manhattan",
         "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6ijlu2cpferlpfyxwhskh4o4/app.bsky.feed.post/3mxrwi7t3ak25",
+        "handle": "nightcourtliker.bsky.social",
+        "text": "love when the mask slips a bit. this is between articles about how everyone in new york is starving in the streets because of mamdani's cruel taxes and right after it is a walkthrough of how sad and tragic jeff bezos' fembot was before he came along",
+        "created_at": "2026-10-13T21:00:56.226Z",
+        "source": "https://bsky.app/profile/nightcourtliker.bsky.social/post/3mxrwi7t3ak25",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a4gqm5l6r3j6dje3zslgrdi6/app.bsky.feed.post/3mxrwng4q7k2b",
+        "handle": "streetfilms.bsky.social",
+        "text": "We finally got the yellow stripe down the 2-way Borden Avenue. Now I don't have to yell back at drivers that I'm not going the wrong way. There are two not-so-good sections where parked cars narrow it. But it is so much better than prior. Gamechanger. @misernyc.bsky.social @nyc.streetsblog.org",
+        "created_at": "2026-10-13T21:03:50.605Z",
+        "source": "https://bsky.app/profile/streetfilms.bsky.social/post/3mxrwng4q7k2b",
+        "mapped_location": "2-way Borden Avenue",
+        "precision_level": "address",
+        "location_text": "2-way Borden Avenue",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.773
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zth7e34hktbgzpobtcejxx5h/app.bsky.feed.post/3mxrwsadxx22e",
+        "handle": "lofromwisco.bsky.social",
+        "text": "I usually put on orchestral music when I need to really lock in at work instead of a podcast or lyrical music. \n\nToday I chose Tchaikovsky’s the Nutcracker, a performance I see every year with the NYC Ballet. UNFORTUNATELY I cannot focus because I’m literally watching the whole show in my head 😂🫶",
+        "created_at": "2026-10-13T21:06:32.322Z",
+        "source": "https://bsky.app/profile/lofromwisco.bsky.social/post/3mxrwsadxx22e",
+        "mapped_location": "the NYC Ballet",
+        "precision_level": "address",
+        "location_text": "the NYC Ballet",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6fcidzdkq25l6z5yi2fcjt7d/app.bsky.feed.post/3mxrwykcgrk24",
+        "handle": "timgrierson.bsky.social",
+        "text": "THE FRIEND’S HOUSE IS HERE is one of the year's best films. You may not have heard much about it, but it opens in New York on December 4 and expands across the country from there. Here's my review from Sundance.",
+        "created_at": "2026-10-13T21:10:04.087Z",
+        "source": "https://bsky.app/profile/timgrierson.bsky.social/post/3mxrwykcgrk24",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T20:22:05.621474Z",
-    "total_pins": 162
+    "generated_at": "2026-10-13T20:38:13.804060Z",
+    "total_pins": 180
   },
   "features": [
     {
@@ -3442,6 +3442,384 @@
         "text": "Full Cast for Three's Company Live Reading in New York City; High Potential to Air After Super Bowl on ABC blog.sitcomsonline.com/2026/10/full...",
         "created_at": "2026-10-13T20:21:29.182Z",
         "source": "https://bsky.app/profile/sitcomsonline.bsky.social/post/3mxruboiobc2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fvlwmrpteojo3p66alt76p4d/app.bsky.feed.post/3mxruehig722i",
+        "handle": "advocatetrish.bsky.social",
+        "text": "Yes. I was living in New York then.  tRump was always trying to get himself in the news and on TV.\nAnother thing; as soon as Ivana wanted to work, their marriage was in trouble. She started to redo the Plaza. tRump started multiple affairs. Everyone knew.  He HATES WOMEN who work and have a brain💩🤮",
+        "created_at": "2026-10-13T20:23:02.564Z",
+        "source": "https://bsky.app/profile/advocatetrish.bsky.social/post/3mxruehig722i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxruex6kn627",
+        "handle": "lightnews.app",
+        "text": "Burnham and Trump seek detente\n\nPrime Minister Andy Burnham met President Donald Trump in New York on the sidelines of the U.N. General Assembly and both sought to repair strained U.S.-U.K. ties.\n\nWith posts by 🎓Patrick Dunleavy, 🎓Michael McFaul, 🎓Steve Peers +11 more scholars.",
+        "created_at": "2026-10-13T20:23:18Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxruex6kn627",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxrugg7g4p2d",
+        "handle": "some-news.bsky.social",
+        "text": "The City Council is poised to pass a bill banning the carriage horse industry in New York City, officials said Tuesday.",
+        "created_at": "2026-10-13T20:24:08.238920+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxrugg7g4p2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dxu25p5fmfrngmjr5iawpr4d/app.bsky.feed.post/3mxrui4oxrk23",
+        "handle": "bradlander.bsky.social",
+        "text": "As a third-generation union member & fourth-generation Staten Islander, he’ll hustle everyday in Congress to deliver for the people of this district. \n\nI canvassed with him in Bay Ridge on Saturday, and I can tell you: he’s the real deal.",
+        "created_at": "2026-10-13T20:25:05.218Z",
+        "source": "https://bsky.app/profile/bradlander.bsky.social/post/3mxrui4oxrk23",
+        "mapped_location": "Bay Ridge",
+        "precision_level": "address",
+        "location_text": "Bay Ridge",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrumtlhen2w",
+        "handle": "lightnews.app",
+        "text": "Venezuela interim president vows elections\n\nDelcy Rodríguez, Venezuela’s interim president, told the UN in New York she would hold elections, thanked Donald Trump, gave no date and said talks with the opposition had begun.\n\nWith posts by 🎓Michael McFaul, 🎓Nicola Giocoli.",
+        "created_at": "2026-10-13T20:27:42Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrumtlhen2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3mxrupv2htg27",
+        "handle": "osna-fm.bsky.social",
+        "text": "US stock markets softened on Tuesday. By the close in New York, the Dow Jones reached 51,670 points, marking a 0.4% decrease compared to the prior trading day.... https://news.osna.fm/?p=67785  | #news #ai #amid #concerns #fears",
+        "created_at": "2026-10-13T20:29:24+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3mxrupv2htg27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.856,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n2y72xj7tkaz7lnfwqiwxp4a/app.bsky.feed.post/3mxruqcmjqc2z",
+        "handle": "jonnyjumpup.bsky.social",
+        "text": "Please save 5yo Oreo Cookie. She is rescue only at Queens ACC.\nSAVE her from the NYCACC Kill Command!!!",
+        "created_at": "2026-10-13T20:29:40.105Z",
+        "source": "https://bsky.app/profile/jonnyjumpup.bsky.social/post/3mxruqcmjqc2z",
+        "mapped_location": "Queens ACC",
+        "precision_level": "address",
+        "location_text": "Queens ACC",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4nmwak3dwpoilgwsqlsyohib/app.bsky.feed.post/3mxrusixa742u",
+        "handle": "halfmarshall.bsky.social",
+        "text": "“James Talarico, the Democrat who has had Ken Paxton on the ropes all year, stepped off the trail for about nine days after an event in New York at the end of September.",
+        "created_at": "2026-10-13T20:30:53.383Z",
+        "source": "https://bsky.app/profile/halfmarshall.bsky.social/post/3mxrusixa742u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zw64pmwh45o75o4uuc7g576q/app.bsky.feed.post/3mxrutdeudy2e",
+        "handle": "documentedny.bsky.social",
+        "text": "At Brooklyn Bridge Park, chefs shared family recipes and diaspora histories while creating opportunities for their businesses amid mounting immigration pressures.\n",
+        "created_at": "2026-10-13T20:31:21.333222057Z",
+        "source": "https://bsky.app/profile/documentedny.bsky.social/post/3mxrutdeudy2e",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:piwyxifjr3ndpmmp7jsbardl/app.bsky.feed.post/3mxrutjqkd226",
+        "handle": "thisisme7.bsky.social",
+        "text": "Donald Trump on 911. I heard him on the TV. He was on a radio station “now I have the tallest building in New York.“￼",
+        "created_at": "2026-10-13T20:31:28.245Z",
+        "source": "https://bsky.app/profile/thisisme7.bsky.social/post/3mxrutjqkd226",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpzjl3wgcpmdibccdcngx7tq/app.bsky.feed.post/3mxrutq7cjs2k",
+        "handle": "jemoni.bsky.social",
+        "text": "No but like really, you fight red enemies in New York and traverse around all over the place, it's practically the same\n\nExcept instead of the world's edgiest man or world's angriest man you're world's saddest sad man",
+        "created_at": "2026-10-13T20:31:35.017Z",
+        "source": "https://bsky.app/profile/jemoni.bsky.social/post/3mxrutq7cjs2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jltj5zv7sfe5seroq6nhbaxd/app.bsky.feed.post/3mxruu55y2s2j",
+        "handle": "paolina2018.bsky.social",
+        "text": "They must have a lot on their hands in New York if it takes four years for the trial over this mass shooting to begin.",
+        "created_at": "2026-10-13T20:31:48.608Z",
+        "source": "https://bsky.app/profile/paolina2018.bsky.social/post/3mxruu55y2s2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tbiugclqogq7m53onx2plufs/app.bsky.feed.post/3mxruugl6qc23",
+        "handle": "dorianjw.bsky.social",
+        "text": "Oh poor University of Iowa...maybe our second biggest failure as a Prime Minister ( after Liz Truss...) is trying to start his campaign to be nominated by the GOP for as USA President in 2028, as he was born in New York, is very economical with the Truth and seems close to Mr Putin....please keep...",
+        "created_at": "2026-10-13T20:31:58.478Z",
+        "source": "https://bsky.app/profile/dorianjw.bsky.social/post/3mxruugl6qc23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7iyol77dw2viublnkatetrgf/app.bsky.feed.post/3mxruujwzvs2b",
+        "handle": "y-combinator.bsky.social",
+        "text": "Fed’s Williams Currently Sees No Need for Rate Hike in 2027\n\nThe New York Fed President still sees one more interest-rate hike as appropriate this year.",
+        "created_at": "2026-10-13T20:32:02.012Z",
+        "source": "https://bsky.app/profile/y-combinator.bsky.social/post/3mxruujwzvs2b",
+        "mapped_location": "The New York Fed",
+        "precision_level": "address",
+        "location_text": "The New York Fed",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwhhorjopaab77ctxmuchnqc/app.bsky.feed.post/3mxruuvdlwc2u",
+        "handle": "schlocklustervideo.bsky.social",
+        "text": "On October 13, 1960, Midnight Lace premiered in New York City.",
+        "created_at": "2026-10-13T20:32:13.958Z",
+        "source": "https://bsky.app/profile/schlocklustervideo.bsky.social/post/3mxruuvdlwc2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rb23bgpkc4m5kf6icff4spb6/app.bsky.feed.post/3mxrux76j7c2h",
+        "handle": "brianferrari.bsky.social",
+        "text": "This week on 60 Degrees: Live at the Brooklyn Fox 1964, Girls Will Be Girls, Anita Humes & The Essex, Margaret Whiting, French chanteuses, Motown and more!\nwww.mixcloud.com/EastVillageR...",
+        "created_at": "2026-10-13T20:33:31.376Z",
+        "source": "https://bsky.app/profile/brianferrari.bsky.social/post/3mxrux76j7c2h",
+        "mapped_location": "the Brooklyn Fox 1964",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Fox 1964",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwhhorjopaab77ctxmuchnqc/app.bsky.feed.post/3mxruyjr6oc2u",
+        "handle": "schlocklustervideo.bsky.social",
+        "text": "On October 13, 2014, John Wick premiered in New York City.",
+        "created_at": "2026-10-13T20:34:16.037Z",
+        "source": "https://bsky.app/profile/schlocklustervideo.bsky.social/post/3mxruyjr6oc2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wbdzpqqhcknmdrbvicm6bqie/app.bsky.feed.post/3mxrv3xojmm2k",
+        "handle": "equalisource.bsky.social",
+        "text": "The majority of #Ecuadoran immigrants come to one destination: New York City",
+        "created_at": "2026-10-13T20:36:11.000Z",
+        "source": "https://bsky.app/profile/equalisource.bsky.social/post/3mxrv3xojmm2k",
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",

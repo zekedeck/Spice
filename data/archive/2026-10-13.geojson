@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T19:08:06.384806Z",
-    "total_pins": 138
+    "generated_at": "2026-10-13T19:39:57.067855Z",
+    "total_pins": 141
   },
   "features": [
     {
@@ -2932,6 +2932,71 @@
         "text": "I redid the stuff in and around New York City, meaning I also remade my entire Northeast United States fantasy map",
         "created_at": "2026-10-13T19:06:51.965Z",
         "source": "https://bsky.app/profile/xannamachine.northsky.social/post/3mxrq4amrn226",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.709
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p45gfoaklmlvv2nb252fe5xw/app.bsky.feed.post/3mxrrel3m7c2q",
+        "handle": "tj-stiles.bsky.social",
+        "text": "A volunteer at the New York Municipal Archives reached out with a question about young Cornelius Vanderbilt. It led to an email discussion of the horrors inflicted on manumitted Black people in New York and New Jersey in the early 19th century, when both states phased out slavery. \n\nIt was bad.\n1/",
+        "created_at": "2026-10-13T19:29:25.114Z",
+        "source": "https://bsky.app/profile/tj-stiles.bsky.social/post/3mxrrel3m7c2q",
+        "mapped_location": "the New York Municipal Archives",
+        "precision_level": "address",
+        "location_text": "the New York Municipal Archives",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p45gfoaklmlvv2nb252fe5xw/app.bsky.feed.post/3mxrrel3m7c2q",
+        "handle": "tj-stiles.bsky.social",
+        "text": "A volunteer at the New York Municipal Archives reached out with a question about young Cornelius Vanderbilt. It led to an email discussion of the horrors inflicted on manumitted Black people in New York and New Jersey in the early 19th century, when both states phased out slavery. \n\nIt was bad.\n1/",
+        "created_at": "2026-10-13T19:29:25.114Z",
+        "source": "https://bsky.app/profile/tj-stiles.bsky.social/post/3mxrrel3m7c2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the New York Municipal Archives"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxrrsy3v3h2x",
+        "handle": "some-news.bsky.social",
+        "text": "Cornell University contains seven undergraduate colleges plus the College of Veterinary Medicine, the Law School, the Samuel Curtis Johnson Graduate School of Management, the Weill Cornell Medical College in New York City and Doha, Qatar, and the 93 fields of study in the Graduate School.",
+        "created_at": "2026-10-13T19:37:28.407366+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxrrsy3v3h2x",
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",

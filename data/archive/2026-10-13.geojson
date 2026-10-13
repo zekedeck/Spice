@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T13:46:08.179970Z",
-    "total_pins": 4
+    "generated_at": "2026-10-13T14:06:51.193230Z",
+    "total_pins": 19
   },
   "features": [
     {
@@ -86,6 +86,325 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b6zktnev3va56zi4dx5gwme7/app.bsky.feed.post/3mxr6uqrq3c2c",
+        "handle": "freelarrydoby.bsky.social",
+        "text": "Sweet Smell of Success is perfect for your thesis. Not only set in NYC of the 1950's, but very specifically in NYC from Herald Square to Central Park South, an incredibly specific time and place in the world",
+        "created_at": "2026-10-13T13:58:26.858Z",
+        "source": "https://bsky.app/profile/freelarrydoby.bsky.social/post/3mxr6uqrq3c2c",
+        "mapped_location": "Herald Square",
+        "precision_level": "address",
+        "location_text": "Herald Square",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxr6usl74625",
+        "handle": "porcellato.bsky.social",
+        "text": "A Skydance billboard outside of Paramount headquarters in Times Square in New York on Oct. 6, 2026. https://ift.tt/nWTcpkK",
+        "created_at": "2026-10-13T13:58:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxr6usl74625",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxr6usl74625",
+        "handle": "porcellato.bsky.social",
+        "text": "A Skydance billboard outside of Paramount headquarters in Times Square in New York on Oct. 6, 2026. https://ift.tt/nWTcpkK",
+        "created_at": "2026-10-13T13:58:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxr6usl74625",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxr6xpiimt2i",
+        "handle": "porcellato.bsky.social",
+        "text": "Kate Hancock and Daniel Robbins Join Dhar Mann’s Creator and Brand Ambassador Network at Advertising Week New York https://ift.tt/XJz16hV",
+        "created_at": "2026-10-13T14:00:06+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxr6xpiimt2i",
+        "mapped_location": "Advertising Week New York",
+        "precision_level": "address",
+        "location_text": "Advertising Week New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5zww7zorx2ajw7hqrhuix3ba/app.bsky.feed.post/3mxr6yexzjy2h",
+        "handle": "byteseu.bsky.social",
+        "text": "Stock market today: Live updates\n\nhttps://www.byteseu.com/2448825/\n\nTraders work at the New York Stock Exchange on June 26, 2026. NYSE Stocks were mixed on Tuesday, with traders digesting a slew of corporate earnings reports from major banks along with a steep overnight decline in South Korea …",
+        "created_at": "2026-10-13T14:00:25+00:00",
+        "source": "https://bsky.app/profile/byteseu.bsky.social/post/3mxr6yexzjy2h",
+        "mapped_location": "the New York Stock Exchange",
+        "precision_level": "address",
+        "location_text": "the New York Stock Exchange",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ldkg26osbcsbbktk4n6kfr3/app.bsky.feed.post/3mxr6yf5lyu2z",
+        "handle": "thr.com",
+        "text": "Selma Blair was taken into custody at New York’s JFK Airport on Sunday after allegedly assaulting Delta Airlines flight attendants on board flight 938 from Los Angeles.",
+        "created_at": "2026-10-13T14:00:28Z",
+        "source": "https://bsky.app/profile/thr.com/post/3mxr6yf5lyu2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 1.0,
+        "other_locations": "New York’s JFK Airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.778,
+          40.641
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ldkg26osbcsbbktk4n6kfr3/app.bsky.feed.post/3mxr6yf5lyu2z",
+        "handle": "thr.com",
+        "text": "Selma Blair was taken into custody at New York’s JFK Airport on Sunday after allegedly assaulting Delta Airlines flight attendants on board flight 938 from Los Angeles.",
+        "created_at": "2026-10-13T14:00:28Z",
+        "source": "https://bsky.app/profile/thr.com/post/3mxr6yf5lyu2z",
+        "mapped_location": "New York’s JFK Airport",
+        "precision_level": "address",
+        "location_text": "New York’s JFK Airport",
+        "confidence": 1.0,
+        "other_locations": "New York’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxr6zi4lbqd2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown N, Q, R trains are running on the line from Canal St to DeKalb Av while NYPD responds to a person being disruptive on a train at Canal St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T14:00:32.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxr6zi4lbqd2",
+        "mapped_location": "Canal St.\n\nFor",
+        "precision_level": "address",
+        "location_text": "Canal St.\n\nFor",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:otmqi2ngde7asqts4gj7gyod/app.bsky.feed.post/3mxr6yjaadd2p",
+        "handle": "fandango.com",
+        "text": "Get a free ticket (up to $28 off ticket price and fees) to see #Fjord at select showtimes in New York, Los Angeles, and Chicago  from 10/15–10/18 with code FJORDFREE at checkout. See full terms here👇\nfandan.co/FjordPromo",
+        "created_at": "2026-10-13T14:00:33.051385404Z",
+        "source": "https://bsky.app/profile/fandango.com/post/3mxr6yjaadd2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:anjoufxslrvvt2f4duarnwzb/app.bsky.feed.post/3mxr6yll4cs2b",
+        "handle": "lagatanoir.bsky.social",
+        "text": "Makes me feel alive even more is doing rapid response to ICE still being in fucking New York City right this second as I type type, while politicians smile and don’t do fucking shit about ICE kidnapping human beings, especially Latinos in Queens. In fact right now I am about to…. 😉😜",
+        "created_at": "2026-10-13T14:00:35.615Z",
+        "source": "https://bsky.app/profile/lagatanoir.bsky.social/post/3mxr6yll4cs2b",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hleqckmxi73f7bravwbyc5jj/app.bsky.feed.post/3mxr6zrrgl22x",
+        "handle": "alte.klezmor.im",
+        "text": "my talk in December about Galician klezmer musicians in New York is going ahead, so expect the Galicia-posting to continue for some time 🥸",
+        "created_at": "2026-10-13T14:01:15.668Z",
+        "source": "https://bsky.app/profile/alte.klezmor.im/post/3mxr6zrrgl22x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3mxr74fgg4i2x",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "🎃👻 VAULT HALLOWEEN PARTY! 🔥 Two floors, nonstop beats & spooky vibes! Dance to Reggaeton, Soca, Dancehall & Afrobeats all night! 💃🕺\n\n📅 Oct 31 | 10PM–4AM\n📍 Don Rique, Brooklyn\n\n#VaultHalloween #HalloweenNYC #DonRique",
+        "created_at": "2026-10-13T14:02:42.613Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3mxr74fgg4i2x",
+        "mapped_location": "Don Rique, Brooklyn",
+        "precision_level": "address",
+        "location_text": "Don Rique, Brooklyn",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxr75wod5o2a",
+        "handle": "mtsproductions.bsky.social",
+        "text": "🎃👻 VAULT HALLOWEEN PARTY! 🔥 Two floors, nonstop beats & spooky vibes! Dance to Reggaeton, Soca, Dancehall & Afrobeats all night! 💃🕺\n\n📅 Oct 31 | 10PM–4AM\n📍 Don Rique, Brooklyn\n\n#VaultHalloween #HalloweenNYC #DonRique",
+        "created_at": "2026-10-13T14:03:33.817Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxr75wod5o2a",
+        "mapped_location": "Don Rique, Brooklyn",
+        "precision_level": "address",
+        "location_text": "Don Rique, Brooklyn",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxrm4xklotqak4easf3ude5z/app.bsky.feed.post/3mxr77pwi2t2y",
+        "handle": "mtgsalvation.bsky.social",
+        "text": "All of the Cards Revealed for Marvel Darkhold Destiny at New York ComicCon",
+        "created_at": "2026-10-13T14:04:34.596Z",
+        "source": "https://bsky.app/profile/mtgsalvation.bsky.social/post/3mxr77pwi2t2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fz6vk6tbe6bfzvszchtxfy3i/app.bsky.feed.post/3mxr7ae5dfg2j",
+        "handle": "schoolreadinglist.bsky.social",
+        "text": "The Age of Fury by John Stephens. The Age of Fury by John Stephens. In 1907 New York, Caitlin seeks justice for her murdered twin - Daily new children's book #kidlit #BookOfTheDay #ad - Daily new children's book #kidlit  #ad\n⬇️\nuk.bookshop.org/a/735/978147...",
+        "created_at": "2026-10-13T14:04:55.834Z",
+        "source": "https://bsky.app/profile/schoolreadinglist.bsky.social/post/3mxr7ae5dfg2j",
+        "mapped_location": "1907 New York",
+        "precision_level": "address",
+        "location_text": "1907 New York",
         "confidence": 0.95
       }
     }

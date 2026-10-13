@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T21:41:23.431696Z",
-    "total_pins": 211
+    "generated_at": "2026-10-13T22:14:33.544195Z",
+    "total_pins": 215
   },
   "features": [
     {
@@ -4476,6 +4476,90 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjmnwzpxbzehorgdc2motdcj/app.bsky.feed.post/3mxs2da7jnz2i",
+        "handle": "cbsnewyork.bsky.social",
+        "text": "Protesters rallied outside a Target in the Bronx on Tuesday after they say ICE agents used the store's parking lot as a staging area. It follows the shooting of a man by federal agents in Marble Hill last week. Ali Bauman has the latest.",
+        "created_at": "2026-10-13T22:09:43.778Z",
+        "source": "https://bsky.app/profile/cbsnewyork.bsky.social/post/3mxs2da7jnz2i",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ujehxzn25l45regcqi2beco/app.bsky.feed.post/3mxs2jhluh226",
+        "handle": "pismoelizabeth.bsky.social",
+        "text": "•Who's the actual owner of IN50JE? \n•Capacity:16-20 Kidnapped \n  victims\n• 1999 Gulfstream G-V \n• Registered Owner: IN50JE, \n    LLC (NYC) \n• 1400 Broadway, NYC\n• Operated by Talon Air, Inc. \n\n**Question: What's the difference between IN50JE in 2026 & the cattle cars in 1942?\n**Answer:The altitude",
+        "created_at": "2026-10-13T22:13:12.897Z",
+        "source": "https://bsky.app/profile/pismoelizabeth.bsky.social/post/3mxs2jhluh226",
+        "mapped_location": "• 1400 Broadway",
+        "precision_level": "address",
+        "location_text": "• 1400 Broadway",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2y6synlz56h7dionpn252d3r/app.bsky.feed.post/3mxs2jyiccstr",
+        "handle": "museumstories.bsky.social",
+        "text": "This mask danced at a dama instead, the ceremony that closes a period of mourning and settles the dead among the ancestors. Then it left Mali. The dealer Pierre Matisse, son of the painter Henri Matisse, had it in his New York gallery until 1960. A dama can field several hundred masks.",
+        "created_at": "2026-10-13T22:13:34.859257+00:00",
+        "source": "https://bsky.app/profile/museumstories.bsky.social/post/3mxs2jyiccstr",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3mxs2kogmhx2q",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Grizzly Bear: an American indie rock band formed in 2000 in New York City, emerged as a pioneering force in the genre with their intricate guitar work, layered harmonies, and genre-defying experimentation. Comprised of Noah Kahan, Chris Taylor, and Daniel Rossen, the group initially gained att...",
+        "created_at": "2026-10-13T22:13:52.302243Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3mxs2kogmhx2q",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
         "confidence": 0.95
       }
     }

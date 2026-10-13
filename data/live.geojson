@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T20:38:13.804060Z",
-    "total_pins": 180
+    "generated_at": "2026-10-13T20:56:06.257159Z",
+    "total_pins": 196
   },
   "features": [
     {
@@ -3824,6 +3824,342 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4etkwrpdfopcun6v76fujuim/app.bsky.feed.post/3mxrvevm2jc2y",
+        "handle": "brizzyc.bsky.social",
+        "text": "I almost get choked up every time I get the Covid vaccine thinking how surreal it was to stand in line in the cavernous New York convention center in 2021 and the refrigerated trucks with bodies outside hospitals nearby and how many lives were to be saved thanks to the determination of scientists",
+        "created_at": "2026-10-13T20:41:11.106Z",
+        "source": "https://bsky.app/profile/brizzyc.bsky.social/post/3mxrvevm2jc2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4yitynp25wwyqxtdcf6mwhau/app.bsky.feed.post/3mxrvf7kqr22z",
+        "handle": "karolinus.bsky.social",
+        "text": "His dad was a workaholic and a miser. In the end, there was almost $1 billion left over. The houses in New York had appreciated enormously in value. \n\nAnd Donnie then cheated the IRS out of 430 million when his father retired.",
+        "created_at": "2026-10-13T20:41:21.549Z",
+        "source": "https://bsky.app/profile/karolinus.bsky.social/post/3mxrvf7kqr22z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:46s3hbopigmgqdf27wsqckwx/app.bsky.feed.post/3mxrvfphqts2m",
+        "handle": "nysdps.bsky.social",
+        "text": "@GovKathyHochul Announces More Than $37 Million to Advance Innovative Clean Energy Technologies in New York State\nLink: www.governor.ny.gov/news/governo...",
+        "created_at": "2026-10-13T20:41:38.228Z",
+        "source": "https://bsky.app/profile/nysdps.bsky.social/post/3mxrvfphqts2m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hp7sfjskidphzvy6qoeo3fyi/app.bsky.feed.post/3mxrvgmk7b22t",
+        "handle": "kempnercanucks.bsky.social",
+        "text": "After the VAN @ NYI game, join the POST Game Show!\n\nLet's recap the 4th game of the East Coast SWING! As the Vancouver Canucks face-off in New York against the Islanders. \n\nCome join the #Canucks conversation here.\nyoutube.com/live/bDVVmF7...",
+        "created_at": "2026-10-13T20:42:08.716Z",
+        "source": "https://bsky.app/profile/kempnercanucks.bsky.social/post/3mxrvgmk7b22t",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iwiuecotocw2z64rlnu7un6h/app.bsky.feed.post/3mxrvhnycgc2g",
+        "handle": "nycbuildings.bsky.social",
+        "text": "Ribbon cut! 🎀 Our Commissioner joined @nycdcas.bsky.social and DOB Senior Staff to open a new office space for our Development Inspections and Quality Assurance Inspections units at 280 Broadway, in the former Modell’s space.",
+        "created_at": "2026-10-13T20:42:43.764Z",
+        "source": "https://bsky.app/profile/nycbuildings.bsky.social/post/3mxrvhnycgc2g",
+        "mapped_location": "280 Broadway",
+        "precision_level": "address",
+        "location_text": "280 Broadway",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mxrvlyrg2n25",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "Nicolas Cage stars in VAMPIRE'S KISS, on 35mm this weekend at Nitehawk Prospect Park in SPOOKY SEASON AT NITEHAWK",
+        "created_at": "2026-10-13T20:45:09.287Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mxrvlyrg2n25",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mmwzhgbn7ts5ojthe6ef4ny6/app.bsky.feed.post/3mxrvnabbyk2y",
+        "handle": "cheyenne50.bsky.social",
+        "text": "A good friend of mine grew up in Buffalo, New York.  When he appeared on the scene, she told us all that he was hated quite thoroughly across the state of New York and he was nothing but trouble.",
+        "created_at": "2026-10-13T20:45:50.723Z",
+        "source": "https://bsky.app/profile/cheyenne50.bsky.social/post/3mxrvnabbyk2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dmxmansmjd2og2emeyt54pty/app.bsky.feed.post/3mxrvobci322j",
+        "handle": "tommarcinko.bsky.social",
+        "text": "‘--Outspoken: \"Ukraine took out Russian bot farms, and suddenly the internet has a suspicious shortage of Trump supporters.\"\n--randym77: \"You're laughing. Your uncle in the Rochester, New York, suburbs just lost all of his online 'friends' in a drone strike, and you're laughing.\"’",
+        "created_at": "2026-10-13T20:46:25.365Z",
+        "source": "https://bsky.app/profile/tommarcinko.bsky.social/post/3mxrvobci322j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwhhorjopaab77ctxmuchnqc/app.bsky.feed.post/3mxrvowxkrs2u",
+        "handle": "schlocklustervideo.bsky.social",
+        "text": "On October 13, 1964, Babo 73 debuted in New York City.",
+        "created_at": "2026-10-13T20:46:48.075Z",
+        "source": "https://bsky.app/profile/schlocklustervideo.bsky.social/post/3mxrvowxkrs2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fjuk4kzqyvbk4dg5r3c7cums/app.bsky.feed.post/3mxrvvgfgvu2e",
+        "handle": "mainstream-media.bsky.social",
+        "text": "Horse carriages in New York City expected to be outlawed\n\nhttps://www.bbc.co.uk/news/articles/...",
+        "created_at": "2026-10-13T20:50:25.572689+00:00",
+        "source": "https://bsky.app/profile/mainstream-media.bsky.social/post/3mxrvvgfgvu2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a7doe3tujsudhl7rqmqanyxd/app.bsky.feed.post/3mxrvw6bypo2z",
+        "handle": "nexis-pulse.bsky.social",
+        "text": "AI Takes Center Stage at New York Climate Week\n\nAs world leaders gather in Manhattan for the UN General Assembly, another major conversation is sweeping through New York Climate Week.\n\nRead the full story ↗\n#Technology #NexisPulse",
+        "created_at": "2026-10-13T20:50:49.091Z",
+        "source": "https://bsky.app/profile/nexis-pulse.bsky.social/post/3mxrvw6bypo2z",
+        "mapped_location": "the UN General Assembly",
+        "precision_level": "address",
+        "location_text": "the UN General Assembly",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iuff4hrcublddhu7ewubiywz/app.bsky.feed.post/3mxrvxm6msk2d",
+        "handle": "johnnyfreeusa.bsky.social",
+        "text": "Trump is the wrong person to be pointing the finger about ill gotten gains. Don't forget he and his family are permanently banned from doing business in New York. Don the Con hass a tendency to project.",
+        "created_at": "2026-10-13T20:51:38.763Z",
+        "source": "https://bsky.app/profile/johnnyfreeusa.bsky.social/post/3mxrvxm6msk2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxrvxu5vexz2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are delayed while we address a door problem on a train at Elder Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T20:51:44.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxrvxu5vexz2",
+        "mapped_location": "Elder Av",
+        "precision_level": "address",
+        "location_text": "Elder Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:34foecukuzkuhexh7k4anqqk/app.bsky.feed.post/3mxrvy2fw5c2d",
+        "handle": "guylc.bsky.social",
+        "text": "A Kosher Sicilian restaurant in New York called Ayyyyywhatsamatzahyou",
+        "created_at": "2026-10-13T20:51:53.678Z",
+        "source": "https://bsky.app/profile/guylc.bsky.social/post/3mxrvy2fw5c2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tqwr4w5b5lxuwxganxjrnmop/app.bsky.feed.post/3mxrvzpvsg22e",
+        "handle": "sleepykittypaw.bsky.social",
+        "text": "The Christmas-set OTHER DESERT CITIES Broadway run goes through January 17 at the Hudson Theatre. \n\n🎟️ www.todaytix.com/nyc/shows/47...",
+        "created_at": "2026-10-13T20:52:49.777Z",
+        "source": "https://bsky.app/profile/sleepykittypaw.bsky.social/post/3mxrvzpvsg22e",
+        "mapped_location": "the Hudson Theatre",
+        "precision_level": "address",
+        "location_text": "the Hudson Theatre",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mxrw4vhcs22l",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in the city:\n\n🎨 Sunday Drawminatrix is here. The kinky figure drawing session for artists, Dommes & sub models. Come pose, draw & hang out — either way, come sharp.\n\n🗓️ Sunday, 10/18\n🕰️ 4:00 PM - 6:00 PM\n📍 Lower Manhattan\n\n🎟️ Tickets: drawminatrix.eventbrite.com",
+        "created_at": "2026-10-13T20:54:36.256Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mxrw4vhcs22l",
+        "mapped_location": "Lower Manhattan",
+        "precision_level": "address",
+        "location_text": "Lower Manhattan",
+        "confidence": 0.85
       }
     }
   ]

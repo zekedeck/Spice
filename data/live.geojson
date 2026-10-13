@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T15:30:50.555213Z",
-    "total_pins": 78
+    "generated_at": "2026-10-13T15:46:47.314571Z",
+    "total_pins": 88
   },
   "features": [
     {
@@ -1658,6 +1658,216 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yl7wmj2cz6dxgexblhrlore6/app.bsky.feed.post/3mxrejpgtt227",
+        "handle": "skullfaceproject.bsky.social",
+        "text": "On this day in 1925, comedian Lenny Bruce was born in Mineola, New York. Thanks for sticking to your guns and staying Blue.",
+        "created_at": "2026-10-13T15:39:38.797Z",
+        "source": "https://bsky.app/profile/skullfaceproject.bsky.social/post/3mxrejpgtt227",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lawfan5jdv75zng4kwjyfzey/app.bsky.feed.post/3mxrekjifnk2u",
+        "handle": "nadler.house.gov",
+        "text": "Five days ago, ICE agents shot Oscar Belgal inside his car while his 5-year-old son sat in the back seat. A bullet remains lodged in his neck. He urgently needs surgery, yet he is being held in solitary confinement at MDC Brooklyn.",
+        "created_at": "2026-10-13T15:40:06.117Z",
+        "source": "https://bsky.app/profile/nadler.house.gov/post/3mxrekjifnk2u",
+        "mapped_location": "MDC Brooklyn",
+        "precision_level": "address",
+        "location_text": "MDC Brooklyn",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ek442fsaxzvy6nwhjtno7xo5/app.bsky.feed.post/3mxrendtt2227",
+        "handle": "urbanviewradio.bsky.social",
+        "text": "Join @luriedanielfavors.bsky.social in welcoming New York-based design strategist and founder of The Kyndred Collaborative, Chris Moncrief, to the #LDFShow!! #Education4Liberation",
+        "created_at": "2026-10-13T15:41:40.864Z",
+        "source": "https://bsky.app/profile/urbanviewradio.bsky.social/post/3mxrendtt2227",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mxrenxbuuz2c",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Downtown [M][R] trains are running express from Jackson Heights:\n[M] to 36 St 21 St-Queensbridge.\n[R] to Queens Plaza.\nFor skipped stops, take a Forest Hills-71 Av-bound train.",
+        "created_at": "2026-10-13T15:42:01.107Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mxrenxbuuz2c",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:diuzholwrflln45kotc6hyra/app.bsky.feed.post/3mxreou3y4s2p",
+        "handle": "laguardiawagner.bsky.social",
+        "text": "IN THE GALLERY - Girls Just Wanna Make Fun: Women of the Inner Circle﻿, through December 2026\n\nExplore the rich history of “The Inner Circle,” a political satire organization founded in 1923 by New York journalists.",
+        "created_at": "2026-10-13T15:42:31.461Z",
+        "source": "https://bsky.app/profile/laguardiawagner.bsky.social/post/3mxreou3y4s2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xblm36u4lwnnhrkqcn65nvuv/app.bsky.feed.post/3mxreplncl22q",
+        "handle": "thecenterholds.bsky.social",
+        "text": "Actually maybe just replay portions of it as is with a fake audience, like mystery science theater 3000, but dubbing in a laugh track.  That's it. Then have someone walk out in front of the screen and in the most humorless deadpan say: \"Live from New York...etc.\"",
+        "created_at": "2026-10-13T15:42:56.148Z",
+        "source": "https://bsky.app/profile/thecenterholds.bsky.social/post/3mxreplncl22q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ltu6kwmc6ox46xuzua6ejac2/app.bsky.feed.post/3mxrepp2frs2i",
+        "handle": "berrybluepaws.bsky.social",
+        "text": "Ough that’s good looking gosh. Also dang you’ve been in New York for awhile!",
+        "created_at": "2026-10-13T15:42:59.716Z",
+        "source": "https://bsky.app/profile/berrybluepaws.bsky.social/post/3mxrepp2frs2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mqzqvdivnlza4ut52vhzxxps/app.bsky.feed.post/3mxreruwtl6hn",
+        "handle": "heyday.news",
+        "text": "Selma Blair pleaded not guilty at Queens Criminal Court to two assault counts involving alleged kicks to a police officer and a hospital nurse after a Delta flight. She is out on bail; whether separate federal charges have been filed remains unclear.\n\n#SelmaBlair #QueensCriminalCourt",
+        "created_at": "2026-10-13T15:44:12.807093Z",
+        "source": "https://bsky.app/profile/heyday.news/post/3mxreruwtl6hn",
+        "mapped_location": "Queens Criminal Court",
+        "precision_level": "address",
+        "location_text": "Queens Criminal Court",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qmppelk7djnhd5anio7r7m5f/app.bsky.feed.post/3mxretmmlhc2u",
+        "handle": "artofthemale.bsky.social",
+        "text": "The Lookout — thanks to my friend in New York, New York for purchasing this wonderful art print from the brush of Henry Scott Tuke: buff.ly/5DJ237b I'm so glad it found a new home; his luminous seascapes and subtle light are endlessly captivating. #ArtLovers",
+        "created_at": "2026-10-13T15:45:11.211Z",
+        "source": "https://bsky.app/profile/artofthemale.bsky.social/post/3mxretmmlhc2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pj2gmv3pfssw2yjmfvebm2ey/app.bsky.feed.post/3mxreuyczss26",
+        "handle": "tylerwalpole.bsky.social",
+        "text": "Big shoutout to Neil Newborn for being kind enough to sign this art print of Astarion for me at New York Comic Con!\n\nIt also happens to my cover to issue 1 of the new Baldur’s Gate III comic from @darkhorse.com 😊\n\nPreorder at your local retailer today!\n\n#bg3 #baldursgate3 #astarion #dnd #nycc2026",
+        "created_at": "2026-10-13T15:45:57.204Z",
+        "source": "https://bsky.app/profile/tylerwalpole.bsky.social/post/3mxreuyczss26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
       }
     }
   ]

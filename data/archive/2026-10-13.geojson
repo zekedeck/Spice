@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T23:20:05.250922Z",
-    "total_pins": 268
+    "generated_at": "2026-10-13T23:44:01.691822Z",
+    "total_pins": 274
   },
   "features": [
     {
@@ -5677,6 +5677,132 @@
         "text": "Robyn Wells is played by Jennifer Beals in NCIS: New York. Beals famously starred in Flashdance in 1983, which turned her into a household name.",
         "created_at": "2026-10-13T23:19:01.112Z",
         "source": "https://bsky.app/profile/tvline.bsky.social/post/3mxs675zkzm2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b4bjhxkkt4gm7brqmlhpvrys/app.bsky.feed.post/3mxs7bphhkk2p",
+        "handle": "e6n.lol",
+        "text": "so the fact that it looks like gangs of new york in a big tube is like, yes, this is theatre, but also\n\nyknow like a metaphor or allegory or whatever\n\ndigger is the same, so much so it's literally like 3 kinds of theatre because gen x are all prats and the real problem in the room",
+        "created_at": "2026-10-13T23:38:21.419Z",
+        "source": "https://bsky.app/profile/e6n.lol/post/3mxs7bphhkk2p",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tvvk4hmw2bjsswsldo6ndzv2/app.bsky.feed.post/3mxs7cxcxxk2k",
+        "handle": "carmensovereign.bsky.social",
+        "text": "Listening to Stunna Girl about to knock out these dishes, sweep floor and take trash out. Keeping my kitchen in my parents home to show spirit and ancestors I’m grateful and ready for the home they will bless my Virgo and me with. But on the flip music is in New York. #ebonyfindom #bnwo #ebonydomme",
+        "created_at": "2026-10-13T23:39:03.211Z",
+        "source": "https://bsky.app/profile/carmensovereign.bsky.social/post/3mxs7cxcxxk2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6lnryahijev45wlbfzoohquo/app.bsky.feed.post/3mxs7dmw55k2s",
+        "handle": "childoftheflame.bsky.social",
+        "text": "2) Born in Ithaca, New York well technically on the border next to a river along Story",
+        "created_at": "2026-10-13T23:39:25.863Z",
+        "source": "https://bsky.app/profile/childoftheflame.bsky.social/post/3mxs7dmw55k2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xboskbchbiczolzjb3tvrnix/app.bsky.feed.post/3mxs7fdjozk2b",
+        "handle": "gopherandtuk.bsky.social",
+        "text": "Every day, there's something horrible happening in the Trump administration while there's something wonderful happening in New York City.",
+        "created_at": "2026-10-13T23:40:23.125Z",
+        "source": "https://bsky.app/profile/gopherandtuk.bsky.social/post/3mxs7fdjozk2b",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bdoatrigtvojnq5xh3alqsri/app.bsky.feed.post/3mxs7flwse22b",
+        "handle": "seanandmarokko.bsky.social",
+        "text": "Oh, I guess I responded to the wrong post!  How silly!   Guests are lovely.  I have a small group of close friends here and in Santa Fe, but the majority of my friends are in New York.",
+        "created_at": "2026-10-13T23:40:31.945Z",
+        "source": "https://bsky.app/profile/seanandmarokko.bsky.social/post/3mxs7flwse22b",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zq36vj77wroe44l7hbf5gzba/app.bsky.feed.post/3mxs7jem6sk2e",
+        "handle": "busterbnyc.bsky.social",
+        "text": "Welcome to New York. We all do it.",
+        "created_at": "2026-10-13T23:42:38.475Z",
+        "source": "https://bsky.app/profile/busterbnyc.bsky.social/post/3mxs7jem6sk2e",
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",

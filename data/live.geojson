@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T16:24:09.495450Z",
-    "total_pins": 136
+    "generated_at": "2026-10-13T16:39:08.285474Z",
+    "total_pins": 143
   },
   "features": [
     {
@@ -2891,6 +2891,155 @@
         "mapped_location": "Queens College",
         "precision_level": "address",
         "location_text": "Queens College",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qmimi4x2urx6yvbyijlfyz2z/app.bsky.feed.post/3mxrhitzmjr23",
+        "handle": "creativemornings.bsky.social",
+        "text": "🚨 Job Alert: Understood in New York is hiring a Director of Product Management to lead the strategy and execution of their AI-based consumer products. Find the details on their CreativeGuild page buff.ly/s2Fn3xf",
+        "created_at": "2026-10-13T16:32:51.259Z",
+        "source": "https://bsky.app/profile/creativemornings.bsky.social/post/3mxrhitzmjr23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vmwpjvu75hm2ytei22sqd7gg/app.bsky.feed.post/3mxrhn3mrlk2x",
+        "handle": "portrayalofguilt.bsky.social",
+        "text": "‘WE ARE ALWAYS ALONE’\nLIVE IN FULL\n\n2/7\nAT SAINT VITUS\nBROOKLYN, NY\n\nSUPPORT TBA\n\nTICKETS ON SALE FRIDAY",
+        "created_at": "2026-10-13T16:35:13.465Z",
+        "source": "https://bsky.app/profile/portrayalofguilt.bsky.social/post/3mxrhn3mrlk2x",
+        "mapped_location": "SAINT VITUS\nBROOKLYN",
+        "precision_level": "address",
+        "location_text": "SAINT VITUS\nBROOKLYN",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ptzeccrfyaj36ljotp7w4xsm/app.bsky.feed.post/3mxrhoc5dxs2w",
+        "handle": "christianclaude.bsky.social",
+        "text": "Your point makes no sense. Chubb plays in Buffalo, New York.",
+        "created_at": "2026-10-13T16:35:53.855Z",
+        "source": "https://bsky.app/profile/christianclaude.bsky.social/post/3mxrhoc5dxs2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:db5ldbb6nda3drhabppy6mjj/app.bsky.feed.post/3mxrhopiiw223",
+        "handle": "rufus-wainwright.bsky.social",
+        "text": "Delighted to announce that Jack Wolfe will be joining us for “Manhattan for the Holidays\" at New York City’s Town Hall on December 6th!",
+        "created_at": "2026-10-13T16:36:07.853Z",
+        "source": "https://bsky.app/profile/rufus-wainwright.bsky.social/post/3mxrhopiiw223",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 1.0,
+        "other_locations": "New York City’s Town Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002,
+          40.722
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:db5ldbb6nda3drhabppy6mjj/app.bsky.feed.post/3mxrhopiiw223",
+        "handle": "rufus-wainwright.bsky.social",
+        "text": "Delighted to announce that Jack Wolfe will be joining us for “Manhattan for the Holidays\" at New York City’s Town Hall on December 6th!",
+        "created_at": "2026-10-13T16:36:07.853Z",
+        "source": "https://bsky.app/profile/rufus-wainwright.bsky.social/post/3mxrhopiiw223",
+        "mapped_location": "New York City’s Town Hall",
+        "precision_level": "address",
+        "location_text": "New York City’s Town Hall",
+        "confidence": 1.0,
+        "other_locations": "New York City’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5exs3e2vemaqyjwtrbxn352b/app.bsky.feed.post/3mxrhpfaw322o",
+        "handle": "xdaddies.bsky.social",
+        "text": "Wow, in New York? oh, NY NY",
+        "created_at": "2026-10-13T16:36:30.677Z",
+        "source": "https://bsky.app/profile/xdaddies.bsky.social/post/3mxrhpfaw322o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ncva6zby5n2spqewkaps4mi4/app.bsky.feed.post/3mxrhrquhu22k",
+        "handle": "vero1986.bsky.social",
+        "text": "C-Corporations are highly mobile. A company can be headquartered in New York but chartered (incorporated) in Delaware to take advantage of Delaware's business-friendly courts and laws",
+        "created_at": "2026-10-13T16:37:49.960Z",
+        "source": "https://bsky.app/profile/vero1986.bsky.social/post/3mxrhrquhu22k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
         "confidence": 1.0
       }
     }

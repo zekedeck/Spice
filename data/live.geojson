@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T20:14:00.060063Z",
-    "total_pins": 152
+    "generated_at": "2026-10-13T20:30:05.478137Z",
+    "total_pins": 169
   },
   "features": [
     {
@@ -3006,6 +3006,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2pcjoeylzg3uqk4aricwh5jo/app.bsky.feed.post/45xg4rnqg5yzg",
+        "handle": "nytimes-news.bsky.social",
+        "text": "Restaurant Review: Soccería in New York",
+        "created_at": "2026-10-13T17:16:04-03:00",
+        "source": "https://bsky.app/profile/nytimes-news.bsky.social/post/45xg4rnqg5yzg",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.945,
           40.645
         ]
@@ -3231,6 +3252,346 @@
         "mapped_location": "City Winery NYC",
         "precision_level": "address",
         "location_text": "City Winery NYC",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g45u5yjzuvvmzyn346dtlemj/app.bsky.feed.post/3mxrtw25m222o",
+        "handle": "brianvan.bsky.social",
+        "text": "All of the transit in Hudson County is pointed at a bus terminal in New York. Some connections are very easy but there are areas that have very bad bus connections (including worse-than-NY travel times) and the mass transit situation there is bleak.\n\nCan’t really get there from Secaucus or Bayonne",
+        "created_at": "2026-10-13T20:14:58.816Z",
+        "source": "https://bsky.app/profile/brianvan.bsky.social/post/3mxrtw25m222o",
+        "mapped_location": "Hudson County",
+        "precision_level": "address",
+        "location_text": "Hudson County",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g45u5yjzuvvmzyn346dtlemj/app.bsky.feed.post/3mxrtw25m222o",
+        "handle": "brianvan.bsky.social",
+        "text": "All of the transit in Hudson County is pointed at a bus terminal in New York. Some connections are very easy but there are areas that have very bad bus connections (including worse-than-NY travel times) and the mass transit situation there is bleak.\n\nCan’t really get there from Secaucus or Bayonne",
+        "created_at": "2026-10-13T20:14:58.816Z",
+        "source": "https://bsky.app/profile/brianvan.bsky.social/post/3mxrtw25m222o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "Hudson County"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m46t23rbzbkgyljvpzripipg/app.bsky.feed.post/3mxrtw6wvcs2b",
+        "handle": "brookston.bsky.social",
+        "text": "Beer in Art #2099\n\nNew York, New York! (for Anheuser-Busch), by Rodriguez, 1982 (Illinois, United States)",
+        "created_at": "2026-10-13T20:15:03.838Z",
+        "source": "https://bsky.app/profile/brookston.bsky.social/post/3mxrtw6wvcs2b",
+        "mapped_location": "Art #2099\n\nNew York",
+        "precision_level": "address",
+        "location_text": "Art #2099\n\nNew York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zmlw2mq2d4mscgnku4l3lnfb/app.bsky.feed.post/3mxru3kcmsk25",
+        "handle": "mattquietwriter.bsky.social",
+        "text": "Jameson: Breaking news! Councilwoman Rio Morales has been caught in lewd acts with Spider-Man in public sex. Some say they have active every day and night. They could be doing it right now. Is this the kind of people we want in New York?",
+        "created_at": "2026-10-13T20:18:02.628Z",
+        "source": "https://bsky.app/profile/mattquietwriter.bsky.social/post/3mxru3kcmsk25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i4uqcqeictd4irpzpdfnvj33/app.bsky.feed.post/3mxru3rfvbd25",
+        "handle": "jordanehoser.bsky.social",
+        "text": "Israeli media today:\n\n\"Another incident involving Delta: The US airline's plane was scheduled to take off for Tel Aviv a short while ago, but a report was received regarding a \"bomb\" on board—this time in New York. The aircraft has not yet been cleared for takeoff...\"",
+        "created_at": "2026-10-13T20:18:10.978Z",
+        "source": "https://bsky.app/profile/jordanehoser.bsky.social/post/3mxru3rfvbd25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxru727vhw2y",
+        "handle": "lightnews.app",
+        "text": "Iran keeps civilian nuclear program\n\nIranian President Masoud Pezeshkian delivered a defiant speech at the U.N. General Assembly in New York, rejecting U.S. annihilation threats and saying Iran would not abandon its civilian nuclear program.\n\nWith posts by 🎓Victor Asal +11 more scholars.",
+        "created_at": "2026-10-13T20:20:00Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxru727vhw2y",
+        "mapped_location": "the U.N. General Assembly",
+        "precision_level": "address",
+        "location_text": "the U.N. General Assembly",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxru727vhw2y",
+        "handle": "lightnews.app",
+        "text": "Iran keeps civilian nuclear program\n\nIranian President Masoud Pezeshkian delivered a defiant speech at the U.N. General Assembly in New York, rejecting U.S. annihilation threats and saying Iran would not abandon its civilian nuclear program.\n\nWith posts by 🎓Victor Asal +11 more scholars.",
+        "created_at": "2026-10-13T20:20:00Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxru727vhw2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the U.N. General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxruaxohs4k2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Forest Hills-71 Av-bound M, R trains are running with delays after we requested NYPD assistance for someone being disruptive on a train at Steinway St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T20:21:03.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxruaxohs4k2",
+        "mapped_location": "Steinway St.",
+        "precision_level": "address",
+        "location_text": "Steinway St.",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nx265f7gp53xgmkfsgkxqac5/app.bsky.feed.post/3mxruboiobc2u",
+        "handle": "sitcomsonline.bsky.social",
+        "text": "Full Cast for Three's Company Live Reading in New York City; High Potential to Air After Super Bowl on ABC blog.sitcomsonline.com/2026/10/full...",
+        "created_at": "2026-10-13T20:21:29.182Z",
+        "source": "https://bsky.app/profile/sitcomsonline.bsky.social/post/3mxruboiobc2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fvlwmrpteojo3p66alt76p4d/app.bsky.feed.post/3mxruehig722i",
+        "handle": "advocatetrish.bsky.social",
+        "text": "Yes. I was living in New York then.  tRump was always trying to get himself in the news and on TV.\nAnother thing; as soon as Ivana wanted to work, their marriage was in trouble. She started to redo the Plaza. tRump started multiple affairs. Everyone knew.  He HATES WOMEN who work and have a brain💩🤮",
+        "created_at": "2026-10-13T20:23:02.564Z",
+        "source": "https://bsky.app/profile/advocatetrish.bsky.social/post/3mxruehig722i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxruex6kn627",
+        "handle": "lightnews.app",
+        "text": "Burnham and Trump seek detente\n\nPrime Minister Andy Burnham met President Donald Trump in New York on the sidelines of the U.N. General Assembly and both sought to repair strained U.S.-U.K. ties.\n\nWith posts by 🎓Patrick Dunleavy, 🎓Michael McFaul, 🎓Steve Peers +11 more scholars.",
+        "created_at": "2026-10-13T20:23:18Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxruex6kn627",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxrugg7g4p2d",
+        "handle": "some-news.bsky.social",
+        "text": "The City Council is poised to pass a bill banning the carriage horse industry in New York City, officials said Tuesday.",
+        "created_at": "2026-10-13T20:24:08.238920+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxrugg7g4p2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dxu25p5fmfrngmjr5iawpr4d/app.bsky.feed.post/3mxrui4oxrk23",
+        "handle": "bradlander.bsky.social",
+        "text": "As a third-generation union member & fourth-generation Staten Islander, he’ll hustle everyday in Congress to deliver for the people of this district. \n\nI canvassed with him in Bay Ridge on Saturday, and I can tell you: he’s the real deal.",
+        "created_at": "2026-10-13T20:25:05.218Z",
+        "source": "https://bsky.app/profile/bradlander.bsky.social/post/3mxrui4oxrk23",
+        "mapped_location": "Bay Ridge",
+        "precision_level": "address",
+        "location_text": "Bay Ridge",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrumtlhen2w",
+        "handle": "lightnews.app",
+        "text": "Venezuela interim president vows elections\n\nDelcy Rodríguez, Venezuela’s interim president, told the UN in New York she would hold elections, thanked Donald Trump, gave no date and said talks with the opposition had begun.\n\nWith posts by 🎓Michael McFaul, 🎓Nicola Giocoli.",
+        "created_at": "2026-10-13T20:27:42Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrumtlhen2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3mxrupv2htg27",
+        "handle": "osna-fm.bsky.social",
+        "text": "US stock markets softened on Tuesday. By the close in New York, the Dow Jones reached 51,670 points, marking a 0.4% decrease compared to the prior trading day.... https://news.osna.fm/?p=67785  | #news #ai #amid #concerns #fears",
+        "created_at": "2026-10-13T20:29:24+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3mxrupv2htg27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.856,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n2y72xj7tkaz7lnfwqiwxp4a/app.bsky.feed.post/3mxruqcmjqc2z",
+        "handle": "jonnyjumpup.bsky.social",
+        "text": "Please save 5yo Oreo Cookie. She is rescue only at Queens ACC.\nSAVE her from the NYCACC Kill Command!!!",
+        "created_at": "2026-10-13T20:29:40.105Z",
+        "source": "https://bsky.app/profile/jonnyjumpup.bsky.social/post/3mxruqcmjqc2z",
+        "mapped_location": "Queens ACC",
+        "precision_level": "address",
+        "location_text": "Queens ACC",
         "confidence": 0.95
       }
     }

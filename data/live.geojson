@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T22:30:19.501773Z",
-    "total_pins": 241
+    "generated_at": "2026-10-13T22:47:29.791025Z",
+    "total_pins": 248
   },
   "features": [
     {
@@ -5109,6 +5109,153 @@
         "precision_level": "address",
         "location_text": "new york city",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ecjse2vspta6f5veqlhynlg/app.bsky.feed.post/3mxs3zlnae22q",
+        "handle": "chrissteller.bsky.social",
+        "text": "October 12-13, 1982, the Clash opened for The Who at Shea Stadium, after having played Saint Paul two months before.\n\nSaint Paul fans heard 11 songs NYC fans didn’t. NYC fans heard 4 songs not played in St. Paul (including “Clampdown,” which the Clash had debuted in Saint Paul three years earlier).",
+        "created_at": "2026-10-13T22:40:07.748Z",
+        "source": "https://bsky.app/profile/chrissteller.bsky.social/post/3mxs3zlnae22q",
+        "mapped_location": "Shea Stadium",
+        "precision_level": "address",
+        "location_text": "Shea Stadium",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:auetaemkwhxcbnkuwnwn2kyw/app.bsky.feed.post/3mxs42v6vk22o",
+        "handle": "americanourstory.bsky.social",
+        "text": "Garinagu from Honduras settled primarily on the East Coast, particularly in New York. Other communities are found in Houston and San Francisco",
+        "created_at": "2026-10-13T22:40:51.000Z",
+        "source": "https://bsky.app/profile/americanourstory.bsky.social/post/3mxs42v6vk22o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5ccvlip7cdsx73zxugelzym/app.bsky.feed.post/3mxs43v3s4s2o",
+        "handle": "paidprotester.bsky.social",
+        "text": "2/2\nJames is still pursuing it with the highest court in New York to get it reinstated. The Cornell rape case is a whole different story. Trump, being a rapist, wants to make sure the rapists get a fair shake.",
+        "created_at": "2026-10-13T22:41:23.553Z",
+        "source": "https://bsky.app/profile/paidprotester.bsky.social/post/3mxs43v3s4s2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lzxgvjbf6ahvnxzppnvcjvjb/app.bsky.feed.post/3mxs47nmozk2b",
+        "handle": "rachelholliday.bsky.social",
+        "text": "it doesn’t matter how long you’ve lived in new york, or taken the same commute. once every three years or so, the gods are gonna make you miss your stop, or take the train in the wrong direction — to humble your ass. today was my day",
+        "created_at": "2026-10-13T22:43:31.158Z",
+        "source": "https://bsky.app/profile/rachelholliday.bsky.social/post/3mxs47nmozk2b",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mxs4cvomc324",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "\"Is There a God?\" and other fun games this weekend at brunch!\n\nTHE ADDAMS FAMILY screens Saturday & Sunday at Nitehawk Prospect Park in SPOOKY SEASON AT NITEHAWK.",
+        "created_at": "2026-10-13T22:45:20.251Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mxs4cvomc324",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:auetaemkwhxcbnkuwnwn2kyw/app.bsky.feed.post/3mxs4e4vw7e2o",
+        "handle": "americanourstory.bsky.social",
+        "text": "#Lebanese developed important communities in Utica, New York; Boston, Lawrence, Lowell, and Springfield, Massachusetts; Fall River, Rhode Island; and Danbury, Connecticut.",
+        "created_at": "2026-10-13T22:46:01.000Z",
+        "source": "https://bsky.app/profile/americanourstory.bsky.social/post/3mxs4e4vw7e2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7bt3pwkn3fedmrmuoj2qbfqa/app.bsky.feed.post/3mxs4f7kmky2p",
+        "handle": "ayoobkk1984.bsky.social",
+        "text": "Muhammad Yunus Heckled, Called “Terrorist” By Critics At New York Airport\n\nMuhammad Yunus, who headed Bangladesh's Interim Government between August 2024 and February 2026, was heckled by critics at New York's John F Kennedy Airport who labelled him a \"terrorist\" and accused him of destroying…",
+        "created_at": "2026-10-13T22:46:37Z",
+        "source": "https://bsky.app/profile/ayoobkk1984.bsky.social/post/3mxs4f7kmky2p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0
       }
     }
   ]

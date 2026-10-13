@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T16:07:59.773751Z",
-    "total_pins": 114
+    "generated_at": "2026-10-13T16:24:09.495450Z",
+    "total_pins": 136
   },
   "features": [
     {
@@ -2426,6 +2426,472 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chol5vuamo3qfw4aftnmbuss/app.bsky.feed.post/3mxrg5yjmzs2u",
+        "handle": "browneyesblue.bsky.social",
+        "text": "I PASSED THE BAR IN MANY STATES!\nI passed Cheers in Boston\nI passed Sip & Guzzle in New York\nI passed Smuggler's Cove in California\netc.",
+        "created_at": "2026-10-13T16:08:53.163Z",
+        "source": "https://bsky.app/profile/browneyesblue.bsky.social/post/3mxrg5yjmzs2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hanvkwn457nricn7jucdr33g/app.bsky.feed.post/3mxrg6coik22b",
+        "handle": "brooklyncollege.bsky.social",
+        "text": "More than 800 students, alumni, educators, professionals, and community advocates gathered at Brooklyn College for the 21st Annual CUNY BMI Conference, “Building Bridges: How Communities Protect & Empower.”",
+        "created_at": "2026-10-13T16:09:03.807Z",
+        "source": "https://bsky.app/profile/brooklyncollege.bsky.social/post/3mxrg6coik22b",
+        "mapped_location": "Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Brooklyn College",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fxgcizbgq3wltpjdkibyvssk/app.bsky.feed.post/3mxrg6lelxc2r",
+        "handle": "gottem420.newgrounds.com",
+        "text": "#PortfolioDay\n\nThe name's Gottem. I'm a digital artist based in New York. I mainly draw original characters and currently trying to make a comic with them. I also draw what I think is cool.",
+        "created_at": "2026-10-13T16:09:12.749Z",
+        "source": "https://bsky.app/profile/gottem420.newgrounds.com/post/3mxrg6lelxc2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pntef6tb5pifttiog2qrxany/app.bsky.feed.post/3mxrg7ylols2e",
+        "handle": "interruptcrim.bsky.social",
+        "text": "📍New York City\n📅 This Thursday, 10/15\n🕰️ 9:30a-12p\n\nRegister now to join IC cofounder Andrea Ritchie with other orgs to discuss how philanthropy can support effective coalitions to combat authoritarianism! bit.ly/policingfamiliesnyc",
+        "created_at": "2026-10-13T16:10:00.337Z",
+        "source": "https://bsky.app/profile/interruptcrim.bsky.social/post/3mxrg7ylols2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mwrvz2myt4jdlk3dni476x2q/app.bsky.feed.post/3mxrga4gyv22k",
+        "handle": "jameshodges.net",
+        "text": "I love living in New York City. Where else could I walk outside and find that my entire block smells like a litter box?",
+        "created_at": "2026-10-13T16:10:04.375Z",
+        "source": "https://bsky.app/profile/jameshodges.net/post/3mxrga4gyv22k",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mw3wyabmuqepjtglngn3yldg/app.bsky.feed.post/3mxrgehbt5a22",
+        "handle": "venturebriefly.bsky.social",
+        "text": "SpaceX agreed to testify in a New York City AI safety probe, and the news pressured multiple space stocks.\n",
+        "created_at": "2026-10-13T16:12:28.844Z",
+        "source": "https://bsky.app/profile/venturebriefly.bsky.social/post/3mxrgehbt5a22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City AI",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:swj6nxxfi5gcpgjdzvo25cri/app.bsky.feed.post/3mxrgi47zus2p",
+        "handle": "jacobinmag.bsky.social",
+        "text": "Workers in White Plains, New York, won the first union at any of AutoZone’s nearly seven thousand US stores, despite an aggressive anti-union campaign.\n\nThe next day, the company fired a lead organizer. Then another. 1",
+        "created_at": "2026-10-13T16:14:32.508906028Z",
+        "source": "https://bsky.app/profile/jacobinmag.bsky.social/post/3mxrgi47zus2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v7ztn2sqle7dszt6rbbjk56n/app.bsky.feed.post/3mxrgj24p2i22",
+        "handle": "laxt.bsky.social",
+        "text": "#UK Top posts x reach yesterday | https://laxt.info\n1⃣ Trump’s feds raid home of Ilhan Omar as part of criminal investigation\n2⃣ Mamdani says ICE agents who shot man in New York looked like ‘mass shooters…\n3⃣ When AI is subject to less regulation than your fridge, something is startl…\n",
+        "created_at": "2026-10-13T16:15:03.372412+00:00",
+        "source": "https://bsky.app/profile/laxt.bsky.social/post/3mxrgj24p2i22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.676
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hanvkwn457nricn7jucdr33g/app.bsky.feed.post/3mxrgjuvc722s",
+        "handle": "brooklyncollege.bsky.social",
+        "text": "Held at the Leonard & Claire Tow Center for the Performing Arts with the help of our own Brooklyn College Black and Latino Male Initiative, the conference celebrated the leaders and visionaries who have shaped the CUNY BMI movement while inspiring the next generation of changemakers.",
+        "created_at": "2026-10-13T16:15:32.005Z",
+        "source": "https://bsky.app/profile/brooklyncollege.bsky.social/post/3mxrgjuvc722s",
+        "mapped_location": "the Leonard & Claire Tow Center",
+        "precision_level": "address",
+        "location_text": "the Leonard & Claire Tow Center",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m4bsvkpizpkzcqmfcc7zwvec/app.bsky.feed.post/3mxrgo6edq22i",
+        "handle": "glamslam72.bsky.social",
+        "text": "Slade – “Can Slade Win Their Stars And Stripes?” (October 13 1973)\n\nMelody Maker reported from New York as Slade took to the stage at the Academy of Music in what was seen as their biggest American challenge yet.",
+        "created_at": "2026-10-13T16:17:56.149Z",
+        "source": "https://bsky.app/profile/glamslam72.bsky.social/post/3mxrgo6edq22i",
+        "mapped_location": "the Academy of Music",
+        "precision_level": "address",
+        "location_text": "the Academy of Music",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrgofy7gi2x",
+        "handle": "lightnews.app",
+        "text": "Guterres delivers final UN address\n\nAntónio Guterres, who will finish his second term on 31 December, opened the U.N. General Assembly in New York with his final address as secretary-general.\n\nWith posts by 🎓Kate E. Pickett, 🎓Henry Jones, 🎓John Mullahy.",
+        "created_at": "2026-10-13T16:18:03Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrgofy7gi2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k5nhe2cypeis5o2nzwvsdefw/app.bsky.feed.post/3mxrgpv6jmw2a",
+        "handle": "businessbriefly.bsky.social",
+        "text": "SpaceX agreed to testify in a New York City AI safety probe, and the news pressured multiple space stocks.\n",
+        "created_at": "2026-10-13T16:18:53.432Z",
+        "source": "https://bsky.app/profile/businessbriefly.bsky.social/post/3mxrgpv6jmw2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City AI",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrgq7kufh2g",
+        "handle": "lightnews.app",
+        "text": "Trump urges Iranians to rise\n\nPresident Trump delivered a UN General Debate speech in New York urging Iranians to rise up and pressing Iran over the war, though critics said the conflict was uniting Iranians.\n\nWith posts by 🎓Brendan Nyhan, 🎓Steve Peers, 🎓Scott L. Greer +18 more scholars.",
+        "created_at": "2026-10-13T16:19:03Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrgq7kufh2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ntko74qzrdjsu7lhjh3txd/app.bsky.feed.post/3mxrgqbozwc2z",
+        "handle": "ajbruner77.bsky.social",
+        "text": "HE has such a LOW-IQ, HE doesn't even know when anyone lies to HIS face.\n\nHey, diarrhea for brains, which part of the country is the State of China located? Somewhere in New York City, right? That would track with the level of intelligence amongst the crash test dummies.\n\n🤔",
+        "created_at": "2026-10-13T16:19:06.757Z",
+        "source": "https://bsky.app/profile/ajbruner77.bsky.social/post/3mxrgqbozwc2z",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7xp53spq3n6juv6ljlnmc3nl/app.bsky.feed.post/3mxrgr3tj5c2r",
+        "handle": "trueinspiring.bsky.social",
+        "text": "Emily Roebling’s Victory Rooster\n\nThe first carriage over the Brooklyn Bridge carried a woman with years of hard-won knowledge in her head — and a rooster in her lap.\n\n#inspiringstories #truestories",
+        "created_at": "2026-10-13T16:19:33.000Z",
+        "source": "https://bsky.app/profile/trueinspiring.bsky.social/post/3mxrgr3tj5c2r",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrgrnxuz52h",
+        "handle": "lightnews.app",
+        "text": "UN chief demands AI rules\n\nAt the UN General Assembly in New York, UN Secretary‑General António Guterres warned autonomous, AI‑driven weapons needed international rules, and Austria vowed to push for such regulation.\n\nWith posts by 🎓Suresh Venkatasubramanian, 🎓Robert B. Reich +3 more scholars.",
+        "created_at": "2026-10-13T16:19:52Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrgrnxuz52h",
+        "mapped_location": "the UN General Assembly",
+        "precision_level": "address",
+        "location_text": "the UN General Assembly",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxrgrnxuz52h",
+        "handle": "lightnews.app",
+        "text": "UN chief demands AI rules\n\nAt the UN General Assembly in New York, UN Secretary‑General António Guterres warned autonomous, AI‑driven weapons needed international rules, and Austria vowed to push for such regulation.\n\nWith posts by 🎓Suresh Venkatasubramanian, 🎓Robert B. Reich +3 more scholars.",
+        "created_at": "2026-10-13T16:19:52Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxrgrnxuz52h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the UN General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:opzq33cnpnezfaw4zyo57red/app.bsky.feed.post/3mxrgulxnui2w",
+        "handle": "pinknews.bsky.social",
+        "text": "‘Scream’ star Matthew Lillard has addressed the “queer awakening” fan theory that has surrounded characters, Stu Macher and Billy Loomis, at New York Comic Con - nearly 30 years since the slasher classic premiered.\r\n\r\n📷 Getty, Scream / Dimension Films",
+        "created_at": "2026-10-13T16:20:00Z",
+        "source": "https://bsky.app/profile/pinknews.bsky.social/post/3mxrgulxnui2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mxrgs6htjv2l",
+        "handle": "queerhistorybot.bsky.social",
+        "text": "\"I was no one, nobody, from Nowheresville until I became a drag queen. That’s what made me in New York, that’s what made me in New Jersey, that’s what made me in the world.\"\n\n- Marsha P. Johnson",
+        "created_at": "2026-10-13T16:20:02.02471900Z",
+        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mxrgs6htjv2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3mxrgssef3i2w",
+        "handle": "osna-fm.bsky.social",
+        "text": "Germany has been elected to the UN Human Rights Council. At the UN General Assembly in New York, 163 members voted in favor of adding Germany to the council fro... https://news.osna.fm/?p=67761  | #news #amid #commitments #council #defense",
+        "created_at": "2026-10-13T16:20:30+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3mxrgssef3i2w",
+        "mapped_location": "the UN General Assembly",
+        "precision_level": "address",
+        "location_text": "the UN General Assembly",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3mxrgssef3i2w",
+        "handle": "osna-fm.bsky.social",
+        "text": "Germany has been elected to the UN Human Rights Council. At the UN General Assembly in New York, 163 members voted in favor of adding Germany to the council fro... https://news.osna.fm/?p=67761  | #news #amid #commitments #council #defense",
+        "created_at": "2026-10-13T16:20:30+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3mxrgssef3i2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the UN General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922,
+          40.825
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ysdibsjglggly2lpmoekupxd/app.bsky.feed.post/3mxrgtnubos2v",
+        "handle": "psc-cuny.org",
+        "text": "𝗖𝗟𝗔𝗥𝗜𝗢𝗡 𝗢𝗡𝗟𝗜𝗡𝗘\n𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐢𝐧𝐠, 𝐃𝐞𝐥𝐚𝐧𝐲 𝐇𝐚𝐥𝐥 𝐢𝐬 𝐬𝐚𝐟𝐞 𝐚𝐠𝐚𝐢𝐧\nWorkers confront a safety crisis at Queens College, and win. \n\nRead the full article here: psc-cuny.org/clarion/onli...",
+        "created_at": "2026-10-13T16:21:00.172Z",
+        "source": "https://bsky.app/profile/psc-cuny.org/post/3mxrgtnubos2v",
+        "mapped_location": "Queens College",
+        "precision_level": "address",
+        "location_text": "Queens College",
+        "confidence": 1.0
       }
     }
   ]

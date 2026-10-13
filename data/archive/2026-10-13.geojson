@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T23:20:05.250922Z",
-    "total_pins": 268
+    "generated_at": "2026-10-13T23:52:09.521360Z",
+    "total_pins": 283
   },
   "features": [
     {
@@ -5681,6 +5681,321 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b4bjhxkkt4gm7brqmlhpvrys/app.bsky.feed.post/3mxs7bphhkk2p",
+        "handle": "e6n.lol",
+        "text": "so the fact that it looks like gangs of new york in a big tube is like, yes, this is theatre, but also\n\nyknow like a metaphor or allegory or whatever\n\ndigger is the same, so much so it's literally like 3 kinds of theatre because gen x are all prats and the real problem in the room",
+        "created_at": "2026-10-13T23:38:21.419Z",
+        "source": "https://bsky.app/profile/e6n.lol/post/3mxs7bphhkk2p",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tvvk4hmw2bjsswsldo6ndzv2/app.bsky.feed.post/3mxs7cxcxxk2k",
+        "handle": "carmensovereign.bsky.social",
+        "text": "Listening to Stunna Girl about to knock out these dishes, sweep floor and take trash out. Keeping my kitchen in my parents home to show spirit and ancestors I’m grateful and ready for the home they will bless my Virgo and me with. But on the flip music is in New York. #ebonyfindom #bnwo #ebonydomme",
+        "created_at": "2026-10-13T23:39:03.211Z",
+        "source": "https://bsky.app/profile/carmensovereign.bsky.social/post/3mxs7cxcxxk2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6lnryahijev45wlbfzoohquo/app.bsky.feed.post/3mxs7dmw55k2s",
+        "handle": "childoftheflame.bsky.social",
+        "text": "2) Born in Ithaca, New York well technically on the border next to a river along Story",
+        "created_at": "2026-10-13T23:39:25.863Z",
+        "source": "https://bsky.app/profile/childoftheflame.bsky.social/post/3mxs7dmw55k2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xboskbchbiczolzjb3tvrnix/app.bsky.feed.post/3mxs7fdjozk2b",
+        "handle": "gopherandtuk.bsky.social",
+        "text": "Every day, there's something horrible happening in the Trump administration while there's something wonderful happening in New York City.",
+        "created_at": "2026-10-13T23:40:23.125Z",
+        "source": "https://bsky.app/profile/gopherandtuk.bsky.social/post/3mxs7fdjozk2b",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bdoatrigtvojnq5xh3alqsri/app.bsky.feed.post/3mxs7flwse22b",
+        "handle": "seanandmarokko.bsky.social",
+        "text": "Oh, I guess I responded to the wrong post!  How silly!   Guests are lovely.  I have a small group of close friends here and in Santa Fe, but the majority of my friends are in New York.",
+        "created_at": "2026-10-13T23:40:31.945Z",
+        "source": "https://bsky.app/profile/seanandmarokko.bsky.social/post/3mxs7flwse22b",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zq36vj77wroe44l7hbf5gzba/app.bsky.feed.post/3mxs7jem6sk2e",
+        "handle": "busterbnyc.bsky.social",
+        "text": "Welcome to New York. We all do it.",
+        "created_at": "2026-10-13T23:42:38.475Z",
+        "source": "https://bsky.app/profile/busterbnyc.bsky.social/post/3mxs7jem6sk2e",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qmppelk7djnhd5anio7r7m5f/app.bsky.feed.post/3mxs7nqtlgx27",
+        "handle": "artofthemale.bsky.social",
+        "text": "Our Jack — thanks to my friend in New York, New York, for purchasing this lovely portrait by Henry Scott Tuke. His late‑19th/early‑20th‑century work captures light and youth; this piece will be cherished. buff.ly/6M7NLBi #Art",
+        "created_at": "2026-10-13T23:45:05.335Z",
+        "source": "https://bsky.app/profile/artofthemale.bsky.social/post/3mxs7nqtlgx27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g63re74gfhm2wzoqgeerpfwy/app.bsky.feed.post/3mxs7nrpyo22o",
+        "handle": "4medlen.bsky.social",
+        "text": "LIVE #NHL on ESPN+ Power Play 2026 #FrozenFrenzy Presented By AstraZeneca #VANvsNYI Vancouver at New York Islanders from UBS Arena in Elmont, New York",
+        "created_at": "2026-10-13T23:45:06.441Z",
+        "source": "https://bsky.app/profile/4medlen.bsky.social/post/3mxs7nrpyo22o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxs7oklu7q62",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown E, F trains are running with delays after we addressed a door problem at Jackson Heights-Roosevelt Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T23:45:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxs7oklu7q62",
+        "mapped_location": "Jackson Heights-Roosevelt Av",
+        "precision_level": "address",
+        "location_text": "Jackson Heights-Roosevelt Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a4gqm5l6r3j6dje3zslgrdi6/app.bsky.feed.post/3mxs7p4shyk2i",
+        "handle": "streetfilms.bsky.social",
+        "text": "Times Square BEFORE and AFTER!",
+        "created_at": "2026-10-13T23:45:51.613Z",
+        "source": "https://bsky.app/profile/streetfilms.bsky.social/post/3mxs7p4shyk2i",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square BEFORE",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rswqppottbkzxnetlqrc2e76/app.bsky.feed.post/3mxs7qyluj227",
+        "handle": "ginamurrell1.blacksky.app",
+        "text": "Extending my holiday weekend, I spent this afternoon at the Jack Shainman Gallery, 74 Lafayette St, where I viewed “Gordon Parks: Voices in the Mirror.” The exhibit fills two galleries on the 2nd Floor, plus photos in the lobby. jackshainman.com/exhibitions/... #photography #BlackHistory #NYC",
+        "created_at": "2026-10-13T23:46:54.291Z",
+        "source": "https://bsky.app/profile/ginamurrell1.blacksky.app/post/3mxs7qyluj227",
+        "mapped_location": "the Jack Shainman Gallery",
+        "precision_level": "address",
+        "location_text": "the Jack Shainman Gallery",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j2v367bbtarli2lkrltlrtdt/app.bsky.feed.post/3mxs7rsb6qc2r",
+        "handle": "drjohnfrancis.bsky.social",
+        "text": "At least they don't lose holy golden tablets in New York",
+        "created_at": "2026-10-13T23:47:21.230Z",
+        "source": "https://bsky.app/profile/drjohnfrancis.bsky.social/post/3mxs7rsb6qc2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y24gcrfugd3wnhzvl7or5ft5/app.bsky.feed.post/3mxs7wspxac2d",
+        "handle": "esghound.com",
+        "text": "maybe this shit works at the kankakee sherrifs office but you're in new York. get over yourself lmao",
+        "created_at": "2026-10-13T23:50:09.485Z",
+        "source": "https://bsky.app/profile/esghound.com/post/3mxs7wspxac2d",
+        "mapped_location": "new York",
+        "precision_level": "address",
+        "location_text": "new York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ihpzjaqctj4pa76hgizrwdih/app.bsky.feed.post/3mxs7xpgtjs2a",
+        "handle": "flanageddon.bsky.social",
+        "text": "rewat ching Spider-Man Brand new Day.... i hold by my thought everyone in new york knows who he is... not that he is peter parker, just that guy over there is spider-man... dont be the asshole who narcs on spider-man",
+        "created_at": "2026-10-13T23:50:39.595Z",
+        "source": "https://bsky.app/profile/flanageddon.bsky.social/post/3mxs7xpgtjs2a",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hd5vl6cq26k5s5u45kmedjcn/app.bsky.feed.post/3mxs7ywuilc2z",
+        "handle": "amybean62.bsky.social",
+        "text": "Comparatively, Trump’s rally’s are similar to the Nazi 1939’s German American Bund rally at Madison Square Garden in NYC, where they attacked a protestor in the same manner by beating him, just like some did to the female protester in Youngstown. \ndeanblundell.substack.com/p/trump-went...",
+        "created_at": "2026-10-13T23:51:20.935Z",
+        "source": "https://bsky.app/profile/amybean62.bsky.social/post/3mxs7ywuilc2z",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 1.0
       }
     }
   ]

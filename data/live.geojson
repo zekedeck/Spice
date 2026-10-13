@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T14:06:51.179886Z",
-    "total_pins": 28
+    "generated_at": "2026-10-13T14:22:37.816436Z",
+    "total_pins": 37
   },
   "features": [
     {
@@ -594,6 +594,197 @@
         "mapped_location": "1907 New York",
         "precision_level": "address",
         "location_text": "1907 New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q6x3jhk3luf7coyjxnzpfomp/app.bsky.feed.post/3mxr7xabuec2p",
+        "handle": "scubapopeye.bsky.social",
+        "text": "Took the fam to NYC one year. \n\nWife said “I’d like to go to the Statue of Liberty “\n\nShe cried when we got there\n\nShe walked 350 miles with a 1 yo to come to this country \n\nI think of the thousands who came here for a better life my parents included \n\nStand up and fight!",
+        "created_at": "2026-10-13T14:17:43.965Z",
+        "source": "https://bsky.app/profile/scubapopeye.bsky.social/post/3mxr7xabuec2p",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5fawxtrjvzhsy3raymbgugf4/app.bsky.feed.post/3mxr7xpfe222y",
+        "handle": "belforantiques.bsky.social",
+        "text": "If we consider the work, on line postings, rallies and endorsements \nmade by the wife of the Mayor of New York, including her anti-Semitic speeches, there is every justification to throw her husband out of Office\nThere are over 1 million Jewish people in New York City who are affected by her slander",
+        "created_at": "2026-10-13T14:17:59.805Z",
+        "source": "https://bsky.app/profile/belforantiques.bsky.social/post/3mxr7xpfe222y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2wihyfaunsxochkyvqzal45x/app.bsky.feed.post/3mxr7xpqw5s2u",
+        "handle": "stone-lis.bsky.social",
+        "text": "Apply by November 2! Applications are open for our postdoctoral scholars program. These full-time, 2-year positions start in August 2027 and are based at the @thegraduatecenter.bsky.social Stone Center in New York. One is focused on wealth inequality, the other more broadly on economic inequality.",
+        "created_at": "2026-10-13T14:18:00.186Z",
+        "source": "https://bsky.app/profile/stone-lis.bsky.social/post/3mxr7xpqw5s2u",
+        "mapped_location": "the @thegraduatecenter.bsky.social Stone Center",
+        "precision_level": "address",
+        "location_text": "the @thegraduatecenter.bsky.social Stone Center",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2wihyfaunsxochkyvqzal45x/app.bsky.feed.post/3mxr7xpqw5s2u",
+        "handle": "stone-lis.bsky.social",
+        "text": "Apply by November 2! Applications are open for our postdoctoral scholars program. These full-time, 2-year positions start in August 2027 and are based at the @thegraduatecenter.bsky.social Stone Center in New York. One is focused on wealth inequality, the other more broadly on economic inequality.",
+        "created_at": "2026-10-13T14:18:00.186Z",
+        "source": "https://bsky.app/profile/stone-lis.bsky.social/post/3mxr7xpqw5s2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the @thegraduatecenter.bsky.social Stone Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zjbc5zhc6m6khj2s5gcp6vbi/app.bsky.feed.post/3mxr7yghtus2v",
+        "handle": "mtgillikin.bsky.social",
+        "text": "Got to witness the Zohramp after walking across the Williamsburg Bridge",
+        "created_at": "2026-10-13T14:18:24.007Z",
+        "source": "https://bsky.app/profile/mtgillikin.bsky.social/post/3mxr7yghtus2v",
+        "mapped_location": "the Williamsburg Bridge",
+        "precision_level": "address",
+        "location_text": "the Williamsburg Bridge",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cxj7axe6owjqdv4nd6ofefi4/app.bsky.feed.post/3mxra22kiv22w",
+        "handle": "jasmine29.bsky.social",
+        "text": "#VoteEarly In New York it starts on October 24th. \n#VoteBlue from head to toes",
+        "created_at": "2026-10-13T14:19:18.620Z",
+        "source": "https://bsky.app/profile/jasmine29.bsky.social/post/3mxra22kiv22w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxra2fj2zj32",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Canarsie-Rockaway Pkwy-bound L trains are delayed while we investigate why a train's brakes activated near Morgan Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-13T14:19:21.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxra2fj2zj32",
+        "mapped_location": "Morgan Av",
+        "precision_level": "address",
+        "location_text": "Morgan Av",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s46ljretv3jpnjmgnp2chwh6/app.bsky.feed.post/3mxra3xojns2j",
+        "handle": "mercurie80.bsky.social",
+        "text": "Today in 1950 All About Eve, starring Bette Davis and Anne Baxter, premiered in New York City.",
+        "created_at": "2026-10-13T14:20:22.715Z",
+        "source": "https://bsky.app/profile/mercurie80.bsky.social/post/3mxra3xojns2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q2bguwfbvwbiloie6q2aq3gp/app.bsky.feed.post/3mxra46lmu22u",
+        "handle": "officially-hennie.bsky.social",
+        "text": "13 October 1968:\nDrama ‘The Subject Was Roses’, based on the eponymous 1964 play and directed by Ulu Grosbard, premiered in New York City.\n\nRotten Tomatoes score: 100%*\nLetterboxd score: 3.5 (70%)\n(*Popcornmeter: 73%)\n\n#FilmSky #TodayAtTheMovies",
+        "created_at": "2026-10-13T14:20:29.960Z",
+        "source": "https://bsky.app/profile/officially-hennie.bsky.social/post/3mxra46lmu22u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
         "confidence": 0.95
       }
     }

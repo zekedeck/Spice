@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T15:30:58.162578Z",
-    "total_pins": 86
+    "generated_at": "2026-10-14T15:51:04.043437Z",
+    "total_pins": 97
   },
   "features": [
     {
@@ -2174,6 +2174,283 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.813
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oogfabl2lgwpsxpoy6atwdqg/app.bsky.feed.post/3mxtuxsbwvc2x",
+        "handle": "sonofmoon.bsky.social",
+        "text": "😯 Epstein = Cotter?\n\nWelcome Back, Kotter originally aired on ABC from September 9, 1975, to June 8, 1979 .\n\nJeffrey Epstein was a teacher at the Dalton School in Manhattan from 1974 to 1976 . 🤔",
+        "created_at": "2026-10-14T15:39:10.889Z",
+        "source": "https://bsky.app/profile/sonofmoon.bsky.social/post/3mxtuxsbwvc2x",
+        "mapped_location": "the Dalton School",
+        "precision_level": "address",
+        "location_text": "the Dalton School",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtv26umxk2o",
+        "handle": "lightnews.app",
+        "text": "Netanyahu Defends Campaigns; Protesters Arrested\n\nBenjamin Netanyahu defended Israel’s Gaza and Iran campaigns at the U.N. in New York, prompting delegates to walk out and police to arrest about 100 protesters, including Susan Sarandon.\n\nWith posts by 🎓Sanford F. Schram +25 more scholars.",
+        "created_at": "2026-10-14T15:40:30Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtv26umxk2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7d72iwjdb256lo4mgvk3wfqk/app.bsky.feed.post/3mxtv3oiw4c26",
+        "handle": "swiderski.bsky.social",
+        "text": "...and, people spent several years before it was implemented in New York pointing out that in London and nearly every other place it's been done before, it _also_ didn't poll well before implementation, but people liked it after it took effect....",
+        "created_at": "2026-10-14T15:41:21.147Z",
+        "source": "https://bsky.app/profile/swiderski.bsky.social/post/3mxtv3oiw4c26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jey4e3zadu7m35wx5jjh4bes/app.bsky.feed.post/3mxtv5ecmq72h",
+        "handle": "socres.org",
+        "text": "#BOTD 120 years ago in Hanover, Germany, was Hannah Arendt, a key political theorist of the last century, whose work remains highly relevant today. A refugee from Nazism, she found a home in NYC and at the New School, where she taught political philosophy in 1968–1975.\n\n1/3",
+        "created_at": "2026-10-14T15:42:16.000Z",
+        "source": "https://bsky.app/profile/socres.org/post/3mxtv5ecmq72h",
+        "mapped_location": "the New School",
+        "precision_level": "address",
+        "location_text": "the New School",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l4mci5kjpw6cylqwn6wdtvkq/app.bsky.feed.post/3mxtvctumqc2m",
+        "handle": "catranslation.org",
+        "text": "✨️ Today! 7 pm ET/ 4 pm PT, join us at The Center for Fiction in Brooklyn or online for the launch of PERFECTING THE SHOT, a novel by Mathias Énard, translated by Charlotte Mandell (@ndbooks.bsky.social). +",
+        "created_at": "2026-10-14T15:45:21.635Z",
+        "source": "https://bsky.app/profile/catranslation.org/post/3mxtvctumqc2m",
+        "mapped_location": "The Center for Fiction",
+        "precision_level": "address",
+        "location_text": "The Center for Fiction",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mxtvdd3kvb26",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🔥 NYC, HALLOWEEN = REGGAETON + DEMBOW + ROOFTOP VIBES! 👻💃🏽 Costumes on, crew ready, let’s party!\n\n📍 Lost in Paradise, Queens\n🕚 Oct 31 | 11PM\n🎟️ Tickets at link in bio!\n\nTag your Halloween crew! 🔥\n\n#ReggaetonHalloween #NYCNightlife",
+        "created_at": "2026-10-14T15:45:34.022Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mxtvdd3kvb26",
+        "mapped_location": "Lost in Paradise, Queens",
+        "precision_level": "address",
+        "location_text": "Lost in Paradise, Queens",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uucb6tiflbenrj7msri7g5uu/app.bsky.feed.post/3mxtvfg4luc25",
+        "handle": "colmguapo.bsky.social",
+        "text": "I blocked him so I don’t have the temptation to quote tweet him with our messenger convo about how dangerous Times Square is",
+        "created_at": "2026-10-14T15:46:47.901Z",
+        "source": "https://bsky.app/profile/colmguapo.bsky.social/post/3mxtvfg4luc25",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtvfgeupd2o",
+        "handle": "lightnews.app",
+        "text": "Trump rejects Iran Strait reopening\n\nU.S. President Donald Trump rejected an Iranian proposal to reopen the Strait of Hormuz presented at the United Nations in New York, calling it \"unacceptable.\"\n\nWith posts by 🎓Will Jennings, 🎓Steve Peers, 🎓Victor Asal +21 more scholars.",
+        "created_at": "2026-10-14T15:46:47Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtvfgeupd2o",
+        "mapped_location": "the United Nations",
+        "precision_level": "address",
+        "location_text": "the United Nations",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtvfgeupd2o",
+        "handle": "lightnews.app",
+        "text": "Trump rejects Iran Strait reopening\n\nU.S. President Donald Trump rejected an Iranian proposal to reopen the Strait of Hormuz presented at the United Nations in New York, calling it \"unacceptable.\"\n\nWith posts by 🎓Will Jennings, 🎓Steve Peers, 🎓Victor Asal +21 more scholars.",
+        "created_at": "2026-10-14T15:46:47Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtvfgeupd2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the United Nations"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jbtw3djzn4vyeg6afvtr3ba5/app.bsky.feed.post/3mxtvh475s224",
+        "handle": "nikolaskozloff.bsky.social",
+        "text": "Long live #animalrights in #CentralPark \n\nvegnews.com/mamdani-new-... #NYC #mamdani",
+        "created_at": "2026-10-14T15:47:44.609Z",
+        "source": "https://bsky.app/profile/nikolaskozloff.bsky.social/post/3mxtvh475s224",
+        "mapped_location": "CentralPark \n\nvegnews.com/mamdani-new-",
+        "precision_level": "address",
+        "location_text": "CentralPark \n\nvegnews.com/mamdani-new-",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxtvltmiin22",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "L trains are running with delays in both directions while we perform track maintenance near Canarsie-Rockaway Pkwy.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-14T15:50:20.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxtvltmiin22",
+        "mapped_location": "Canarsie-Rockaway Pkwy",
+        "precision_level": "address",
+        "location_text": "Canarsie-Rockaway Pkwy",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

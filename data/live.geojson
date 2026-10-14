@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T00:19:09.260774Z",
-    "total_pins": 302
+    "generated_at": "2026-10-14T00:28:51.518222Z",
+    "total_pins": 308
   },
   "features": [
     {
@@ -6401,6 +6401,134 @@
         "location_text": "New York",
         "confidence": 1.0,
         "other_locations": "the United Nations General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894,
+          40.844
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bwvznbuaaphslpysg7k7mxi3/app.bsky.feed.post/3mxsbovv3es2p",
+        "handle": "siemprepalante.bsky.social",
+        "text": "From being photographed by the legendary Danny Hastings to celebrating Joe Bataan, whose music shaped generations!\n\nMi gente! I’ll have the honor of hosting 60 Years of Salsa, and Latin Soul on Oct. 24 at Hostos Center in the Bronx. Pa’lante!\n\n🎟️ www.joebataanmusic.com/event/60-yea...\n\n#Bronx #NYC",
+        "created_at": "2026-10-14T00:21:31.843Z",
+        "source": "https://bsky.app/profile/siemprepalante.bsky.social/post/3mxsbovv3es2p",
+        "mapped_location": "Hostos Center",
+        "precision_level": "address",
+        "location_text": "Hostos Center",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vfo7t4nmz5ba2a3vrebzqrx/app.bsky.feed.post/3mxsbqnxjas24",
+        "handle": "julia2312.bsky.social",
+        "text": "New York at night has a romance of its own. Watching the Brooklyn Bridge glow and the city lights reflect on the water, I’m reminded that life’s beauty often lies in simple, peaceful moments. ✨🌃",
+        "created_at": "2026-10-14T00:22:30.648Z",
+        "source": "https://bsky.app/profile/julia2312.bsky.social/post/3mxsbqnxjas24",
+        "mapped_location": "Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qv4v5niwitfmeytiuys2uuec/app.bsky.feed.post/3mxsbupcqdc2w",
+        "handle": "ecksearoh.bsky.social",
+        "text": "I just realized today that when Trump is finally dragged out of the White House in 2028 I will be 60. \n\nI remember the crack epidemic in New York, gunshots every night, running firefights, dead friends, and honestly accepting that I wouldn't make it out of my thirties.",
+        "created_at": "2026-10-14T00:24:46.282Z",
+        "source": "https://bsky.app/profile/ecksearoh.bsky.social/post/3mxsbupcqdc2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxsbyf3wzz2w",
+        "handle": "some-news.bsky.social",
+        "text": "New York City's horse-drawn carriage industry could soon come to an end as the City Council is expected to vote Oct. 22 on a bill that would ban horse-drawn carriages in New York City.",
+        "created_at": "2026-10-14T00:26:49.691030+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxsbyf3wzz2w",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City's",
+        "confidence": 0.95,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtg2oeh4jj3lmbcxyxl6nm34/app.bsky.feed.post/3mxsbyf3wzz2w",
+        "handle": "some-news.bsky.social",
+        "text": "New York City's horse-drawn carriage industry could soon come to an end as the City Council is expected to vote Oct. 22 on a bill that would ban horse-drawn carriages in New York City.",
+        "created_at": "2026-10-14T00:26:49.691030+00:00",
+        "source": "https://bsky.app/profile/some-news.bsky.social/post/3mxsbyf3wzz2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95,
+        "other_locations": "New York City's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7fccj37eco5jcul6lku46tt6/app.bsky.feed.post/3mxsc2aodh42a",
+        "handle": "pilotonline.com",
+        "text": "Rare fossil of T. rex cousin goes on display in New York before heading to auction: https://mrf.lu/26Hjy",
+        "created_at": "2026-10-14T00:27:51.093Z",
+        "source": "https://bsky.app/profile/pilotonline.com/post/3mxsc2aodh42a",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T15:16:24.730182Z",
-    "total_pins": 79
+    "generated_at": "2026-10-14T15:30:58.162578Z",
+    "total_pins": 86
   },
   "features": [
     {
@@ -1999,6 +1999,181 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3mxtu4q3bt222",
+        "handle": "mayhem1994.bsky.social",
+        "text": "Chill out, we good in New York ￼",
+        "created_at": "2026-10-14T15:24:02.612Z",
+        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3mxtu4q3bt222",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wxhotdgb7jr6ek7bley6doty/app.bsky.feed.post/3mxtu4xs76s2t",
+        "handle": "binkybird.bsky.social",
+        "text": "Finally - really diverse. Set in New York. The ladies all had names & talked about all sorts, inc. mermaids.\n\nLots of beautiful fish & sea creature animation, as well as pets.",
+        "created_at": "2026-10-14T15:24:10.662Z",
+        "source": "https://bsky.app/profile/binkybird.bsky.social/post/3mxtu4xs76s2t",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxtu5kjvj22i",
+        "handle": "porcellato.bsky.social",
+        "text": "Man stabbed multiple times at East Village subway station: NYPD https://ift.tt/6DYqe9n",
+        "created_at": "2026-10-14T15:24:30+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxtu5kjvj22i",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.825
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gntexqnobznqtock662okuwm/app.bsky.feed.post/3mxtu6c3qo22o",
+        "handle": "tonycaction.bsky.social",
+        "text": "We made a short film about our community! There was a wonderful screening last week at Judson Memorial Church. Now it's online for you to see:\n\nwww.tonyc.nyc/film-TONYC-is",
+        "created_at": "2026-10-14T15:24:55.057Z",
+        "source": "https://bsky.app/profile/tonycaction.bsky.social/post/3mxtu6c3qo22o",
+        "mapped_location": "Judson Memorial Church",
+        "precision_level": "address",
+        "location_text": "Judson Memorial Church",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8283132,
+          40.7135078
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3ed3w7yseqgyyyphiuqadwb/app.bsky.feed.post/3mxtu6exldn22",
+        "handle": "quzusmart.bsky.social",
+        "text": "Your alarm just went off. What happens next?\n\nLocal-only systems scream in the building. Monitored setups can alert you faster when it matters.\n\nQuzuSmart installs, repairs & upgrades alarms for homes & businesses in Queens & NYC.\n\n📞 929-336-8714\n🌐 quzusmart.com\n\n#NYCSecurity #QueensSecurity",
+        "created_at": "2026-10-14T15:24:57.693Z",
+        "source": "https://bsky.app/profile/quzusmart.bsky.social/post/3mxtu6exldn22",
+        "mapped_location": "Queens, Queens County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Queens & NYC",
+        "confidence": 0.95,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3mxtudze55x2x",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 14, 1926: The new boxing heavyweight champion, Gene Tunney, is made an honorary chief by a delegation of Indians visiting him in New York.",
+        "created_at": "2026-10-14T15:28:07.200Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3mxtudze55x2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hdznfqs2ti7mc26m7lxtupn7/app.bsky.feed.post/3mxtuerjvks2q",
+        "handle": "indivisible-les.bsky.social",
+        "text": "Join us in #NYC for #NoKings 4!\nWe'll be in Washington Square Park\nSaturday, Oct 17\n2-5pm\n\nLong Live the Vote!\n\nThis will be a fun, informative, citywide celebration where we come together as a community and prepare to #DefendDemocracy!",
+        "created_at": "2026-10-14T15:28:32.575Z",
+        "source": "https://bsky.app/profile/indivisible-les.bsky.social/post/3mxtuerjvks2q",
+        "mapped_location": "Washington Square Park",
+        "precision_level": "address",
+        "location_text": "Washington Square Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

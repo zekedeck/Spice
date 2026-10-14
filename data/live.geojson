@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T14:40:36.965896Z",
-    "total_pins": 378
+    "generated_at": "2026-10-14T14:56:58.025130Z",
+    "total_pins": 393
   },
   "features": [
     {
@@ -9530,6 +9530,383 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "New York’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3q3aczldnxmsbqu375ysdpxt/app.bsky.feed.post/3mxtrsydb2k2k",
+        "handle": "astraldastard.bsky.social",
+        "text": "come to this free event i'm coörganizing in Brooklyn in November! we've got a really cool lineup, i'm very excited. for details see \ncomposition.codes\nwhen - Sunday Nov 8th, 2:30-6pm\nwhere - Wonderville (www.wonderville.nyc), 1186 Broadway, Brooklyn, NYC\nRSVP - pools.events/event/rNQWlw...",
+        "created_at": "2026-10-14T14:42:48.179Z",
+        "source": "https://bsky.app/profile/astraldastard.bsky.social/post/3mxtrsydb2k2k",
+        "mapped_location": "1186 Broadway",
+        "precision_level": "address",
+        "location_text": "1186 Broadway",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtrv64qml2g",
+        "handle": "lightnews.app",
+        "text": "Sarandon Arrested During Netanyahu Protest\n\nActress Susan Sarandon was arrested in Midtown Manhattan during a pro-Palestinian protest coordinated to coincide with Israeli Prime Minister Benjamin Netanyahu’s speech to the U.N. General Assembly.\n\nWith posts by 🎓Jonathan Wolff +20 more scholars.",
+        "created_at": "2026-10-14T14:44:00Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtrv64qml2g",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009,
+          40.719
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vbyvj6re5dzdwukzdtonebny/app.bsky.feed.post/3mxtrv76ygs2i",
+        "handle": "svukic.bsky.social",
+        "text": "LGBTQ Global Book Odyssey\nLGBTQ, everywhere, always… \nNYC’s Christopher Street in Greenwich Village is universally recognized as the epicenter and birthplace of the modern LGBTQ+ rights movement. \n\n#LGBTQGlobalOdyssey #LGBTQ #GayBooks #Booksky #NewYork #gaynewyork",
+        "created_at": "2026-10-14T14:44:02.541Z",
+        "source": "https://bsky.app/profile/svukic.bsky.social/post/3mxtrv76ygs2i",
+        "mapped_location": "NYC’s Christopher Street",
+        "precision_level": "address",
+        "location_text": "NYC’s Christopher Street",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Greenwich Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vbyvj6re5dzdwukzdtonebny/app.bsky.feed.post/3mxtrv76ygs2i",
+        "handle": "svukic.bsky.social",
+        "text": "LGBTQ Global Book Odyssey\nLGBTQ, everywhere, always… \nNYC’s Christopher Street in Greenwich Village is universally recognized as the epicenter and birthplace of the modern LGBTQ+ rights movement. \n\n#LGBTQGlobalOdyssey #LGBTQ #GayBooks #Booksky #NewYork #gaynewyork",
+        "created_at": "2026-10-14T14:44:02.541Z",
+        "source": "https://bsky.app/profile/svukic.bsky.social/post/3mxtrv76ygs2i",
+        "mapped_location": "Greenwich Village",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "NYC’s Christopher Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vbyvj6re5dzdwukzdtonebny/app.bsky.feed.post/3mxtrwyvwy22i",
+        "handle": "svukic.bsky.social",
+        "text": "LGBTQ Global Book Odyssey\nLGBTQ, everywhere, always… \nNYC’s St. Marks Place — culturally iconic three-block stretch in the East Village. Widely considered one of America’s historically \"coolest\" streets, steeped with LGBTQ history.\n\n#LGBTQGlobalOdyssey #LGBTQ #GayBooks #Booksky #NewYork #gaynewyork",
+        "created_at": "2026-10-14T14:45:03.064Z",
+        "source": "https://bsky.app/profile/svukic.bsky.social/post/3mxtrwyvwy22i",
+        "mapped_location": "the East Village",
+        "precision_level": "address",
+        "location_text": "the East Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i3t5plujknxclpumc5d44pb7/app.bsky.feed.post/3mxts25k6ch2w",
+        "handle": "finalweapon.net",
+        "text": "Mobile Suit Gundam SEED FREEDOM ZERO Gets the Spotlight at New York Comic Con 2026",
+        "created_at": "2026-10-14T14:46:48Z",
+        "source": "https://bsky.app/profile/finalweapon.net/post/3mxts25k6ch2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nofomf5emprlxr4cgr6sifvk/app.bsky.feed.post/3mxts3ruf2c2l",
+        "handle": "thectman11.bsky.social",
+        "text": "At the Bronx Zoo on Saturday",
+        "created_at": "2026-10-14T14:47:43.407Z",
+        "source": "https://bsky.app/profile/thectman11.bsky.social/post/3mxts3ruf2c2l",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:szd6kmaoms7uziqk4pdd2v77/app.bsky.feed.post/3mxts72fmvk2q",
+        "handle": "tbslswiftie.swifties.social",
+        "text": "my parents are in new york tonight so i told them to go see harry for me at MSG",
+        "created_at": "2026-10-14T14:49:33.062Z",
+        "source": "https://bsky.app/profile/tbslswiftie.swifties.social/post/3mxts72fmvk2q",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ykhzwg7gjylh4662uey6ywwa/app.bsky.feed.post/3mxts7boovs2k",
+        "handle": "hyenasandgin.bsky.social",
+        "text": "I’ll never forget how when I lived in New York, Billina took a piss next to a tree covered in plastic bags and chicken bones and some passerby snootly remarked “that’s bad for the tree”",
+        "created_at": "2026-10-14T14:49:40.699Z",
+        "source": "https://bsky.app/profile/hyenasandgin.bsky.social/post/3mxts7boovs2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ujj4qtzqaso75dqss2zdygji/app.bsky.feed.post/3mxtscp5yes2z",
+        "handle": "myarsenalalt.bsky.social",
+        "text": "Saw this years ago at New York Theater Workshop. Not a musical person normally, but wow the music is great.",
+        "created_at": "2026-10-14T14:51:35.496Z",
+        "source": "https://bsky.app/profile/myarsenalalt.bsky.social/post/3mxtscp5yes2z",
+        "mapped_location": "New York Theater Workshop",
+        "precision_level": "address",
+        "location_text": "New York Theater Workshop",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.822
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5f2mvkwoqb5pvxb63z3tsij5/app.bsky.feed.post/3mxtsdlwzke2g",
+        "handle": "revwar250.bsky.social",
+        "text": "14 OCTOBER 1776, KINGSBRIDGE, NEW YORK: Continental morale is given a massive boost by the arrival of Charles Lee. Washington immediately places Lee in command of the troops being deployed opposite the British landing at Throggs Neck—more than half the army.",
+        "created_at": "2026-10-14T14:52:05.659Z",
+        "source": "https://bsky.app/profile/revwar250.bsky.social/post/3mxtsdlwzke2g",
+        "mapped_location": "Throggs Neck",
+        "precision_level": "address",
+        "location_text": "Throggs Neck",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5zww7zorx2ajw7hqrhuix3ba/app.bsky.feed.post/3mxtse4xzsj23",
+        "handle": "byteseu.bsky.social",
+        "text": "GlobalFoundries to operate two Japan-funded fabs in New York\n\nhttps://www.byteseu.com/2451821/\n\nJapan will provide the funding, while GlobalFoundries contributes its technology and manufacturing expertise as technology provider and operator of the two 300mm fabs, according to a press release from …",
+        "created_at": "2026-10-14T14:52:20+00:00",
+        "source": "https://bsky.app/profile/byteseu.bsky.social/post/3mxtse4xzsj23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ywctiyaggtbo7chgt6h57ns4/app.bsky.feed.post/3mxtsf37kfk2k",
+        "handle": "therealnews.com",
+        "text": "Workers in White Plains, New York, won the first union at any of AutoZone’s nearly 7,000 US stores, despite an aggressive anti-union campaign. The next day, the company fired a lead organizer. Then another.",
+        "created_at": "2026-10-14T14:52:55.237Z",
+        "source": "https://bsky.app/profile/therealnews.com/post/3mxtsf37kfk2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882,
+          40.864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hox66gu2ekeejpk7zo2q7ifu/app.bsky.feed.post/3mxtsf4ak2s2w",
+        "handle": "paminnyc.bsky.social",
+        "text": "Positive photo day 2401: Happy Wood Duck Wednesday! #birds 🪶#birdphotography #naturephotography (While I usually see these in Van Cortlandt Park in the Bronx, this one was in Lithia Park in Ashland, Oregon)",
+        "created_at": "2026-10-14T14:52:56.317Z",
+        "source": "https://bsky.app/profile/paminnyc.bsky.social/post/3mxtsf4ak2s2w",
+        "mapped_location": "Van Cortlandt Park",
+        "precision_level": "address",
+        "location_text": "Van Cortlandt Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jxjrszqh7vhsec56zz7qxthb/app.bsky.feed.post/3mxtsg3kbq225",
+        "handle": "bsfwriters.bsky.social",
+        "text": "Fantastic Fiction @ KGB Bar - Wed 10/14 7PM\nMarcy's Writing for the Open Call - Thu 10/15 7PM\nWE DEMAND COMICS! @ 1561 Bedford Ave, Bklyn - Sat 10/17 11AM \nBrooklyn Books & Booze Readings@Barrow's Intense - Tue 10/20 7PM\n\nwww.meetup.com/brooklyn-spe...",
+        "created_at": "2026-10-14T14:53:29.144Z",
+        "source": "https://bsky.app/profile/bsfwriters.bsky.social/post/3mxtsg3kbq225",
+        "mapped_location": "1561 Bedford Ave",
+        "precision_level": "address",
+        "location_text": "1561 Bedford Ave",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-13T23:52:09.504284Z",
-    "total_pins": 289
+    "generated_at": "2026-10-14T00:01:41.898386Z",
+    "total_pins": 295
   },
   "features": [
     {
@@ -6122,6 +6122,134 @@
         "precision_level": "address",
         "location_text": "Madison Square Garden",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxsagskdqo2o",
+        "handle": "lightnews.app",
+        "text": "Weinstein Sentenced to Fifteen Years\n\nHarvey Weinstein was sentenced in New York to 15 years in prison for sexually assaulting former production assistant Miriam Haley, after his earlier conviction was voided and retried.\n\nWith posts by 🎓Steve Peers, 🎓John R. Lott, 🎓Iain Davidson +2 more scholars.",
+        "created_at": "2026-10-13T23:59:05Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxsagskdqo2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:stcddwsnjsgvhrtnvl45iico/app.bsky.feed.post/3mxsaif6cis2q",
+        "handle": "rickgregory59.bsky.social",
+        "text": "Dale Crover from the Melvins is opening for the Schizophonics at the Duck Room tonight in St Louis…and I have tickets. I feel like a 20-year-old getting to see the Ramones at CBGB’s in New York…in ‘79. Rock ‘n Roll will never die.",
+        "created_at": "2026-10-13T23:59:59.248Z",
+        "source": "https://bsky.app/profile/rickgregory59.bsky.social/post/3mxsaif6cis2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jfs5gkg7kloqukyp35zxeemi/app.bsky.feed.post/3mxsainomty2m",
+        "handle": "everycarnegie.bsky.social",
+        "text": "Chatham Square, New York City 📚\n33 E. Broadway\n📍 Map\n\n📷 Mcmillin24 · CC BY-SA 3.0\n\n#CarnegieLibraries #Libraries",
+        "created_at": "2026-10-14T00:00:08.071512+00:00",
+        "source": "https://bsky.app/profile/everycarnegie.bsky.social/post/3mxsainomty2m",
+        "mapped_location": "Chatham Square",
+        "precision_level": "address",
+        "location_text": "Chatham Square",
+        "confidence": 0.95,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jfs5gkg7kloqukyp35zxeemi/app.bsky.feed.post/3mxsainomty2m",
+        "handle": "everycarnegie.bsky.social",
+        "text": "Chatham Square, New York City 📚\n33 E. Broadway\n📍 Map\n\n📷 Mcmillin24 · CC BY-SA 3.0\n\n#CarnegieLibraries #Libraries",
+        "created_at": "2026-10-14T00:00:08.071512+00:00",
+        "source": "https://bsky.app/profile/everycarnegie.bsky.social/post/3mxsainomty2m",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.95,
+        "other_locations": "Chatham Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2swl4c54byt3it23whl5mu4w/app.bsky.feed.post/3mxsajssstc2a",
+        "handle": "spectrumnewsny1.bsky.social",
+        "text": "During Spectrum News’ debate, Democratic candidate Kathy Hochul said Republican candidate Bruce Blakeman will follow President Donald Trump’s lead when it comes to utility costs in New York, saying Trump has raised gasoline prices and energy prices.",
+        "created_at": "2026-10-14T00:00:47.111Z",
+        "source": "https://bsky.app/profile/spectrumnewsny1.bsky.social/post/3mxsajssstc2a",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.742
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nefowetx5jlczpwp6mcleixv/app.bsky.feed.post/3mxsaknptks2w",
+        "handle": "wolfwithdances.bsky.social",
+        "text": "Strong chance! It's very near Chelsea Market, which is always a nice place to visit when you're in town.",
+        "created_at": "2026-10-14T00:01:15.327Z",
+        "source": "https://bsky.app/profile/wolfwithdances.bsky.social/post/3mxsaknptks2w",
+        "mapped_location": "Chelsea Market",
+        "precision_level": "address",
+        "location_text": "Chelsea Market",
+        "confidence": 0.95
       }
     }
   ]

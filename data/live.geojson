@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T13:41:54.683320Z",
-    "total_pins": 334
+    "generated_at": "2026-10-14T13:58:06.374585Z",
+    "total_pins": 355
   },
   "features": [
     {
@@ -8413,6 +8413,543 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtogr7hns2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/1995\n\nShawn Michaels was assaulted outside a nightclub in Syracuse, New York.\n\n#WWF #WWE #ShawnMichaels #HBK #TheShowStopper #TheHeadliner #MrWrestleMania",
+        "created_at": "2026-10-14T13:42:16.892Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtogr7hns2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklgym22l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "Hundreds of pro-Palestine demonstrators took to the streets of New York City earlier this week as part of a global day of action, marking three years since Israel's war on Gaza began.\n\nThe march, which moved from Washington Square Park to Herald Square, brought together people demanding an",
+        "created_at": "2026-10-14T13:44:25.065Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklgym22l",
+        "mapped_location": "Washington Square Park",
+        "precision_level": "address",
+        "location_text": "Washington Square Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Herald Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklgym22l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "Hundreds of pro-Palestine demonstrators took to the streets of New York City earlier this week as part of a global day of action, marking three years since Israel's war on Gaza began.\n\nThe march, which moved from Washington Square Park to Herald Square, brought together people demanding an",
+        "created_at": "2026-10-14T13:44:25.065Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklgym22l",
+        "mapped_location": "Herald Square",
+        "precision_level": "address",
+        "location_text": "Herald Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Washington Square Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklhcek2l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "end to Israel's assault on Palestinians. \n\nAnti-Zionist Jewish activists also joined Palestine solidarity protests in New York, rejecting the Israeli government's policies and expressing support for Palestinian rights.",
+        "created_at": "2026-10-14T13:44:25.066Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklhcek2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mxtomaqnut2f",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "👻 NYC’s wildest Halloween night awaits! 🎃🍸 Crawl from Times Square to the East Village on October 30, 2026, for spooky vibes, epic costumes, and unforgettable party moments! 🕸️🔥 Grab your tickets at mtsproductions.com\n\n#NYCHalloween #Halloween2026 #BarCrawl #NYCNightlife",
+        "created_at": "2026-10-14T13:45:19.935Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mxtomaqnut2f",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxtomb3vbc2a",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A free New York Veterans Summit at the Intrepid Museum will connect veterans with career pathways, resources, and policy support on Oct. 15.\n",
+        "created_at": "2026-10-14T13:45:21.089Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxtomb3vbc2a",
+        "mapped_location": "the Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "the Intrepid Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3mxton4d7hr2b",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "A free New York Veterans Summit at the Intrepid Museum will connect veterans with career pathways, resources, and policy support on Oct. 15.\n",
+        "created_at": "2026-10-14T13:45:49.801Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3mxton4d7hr2b",
+        "mapped_location": "the Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "the Intrepid Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5xpslr2bnzbnbyzkexm4ork/app.bsky.feed.post/3mxtopk5jcc2m",
+        "handle": "banmarnj.bsky.social",
+        "text": "Trump emerges as the main character in New York governor debate\n\nDemocratic Gov. Kathy Hochul hammered her GOP foe Bruce Blakeman over his ties to the president, while he excoriated the incumbent’s record.",
+        "created_at": "2026-10-14T13:47:11.478Z",
+        "source": "https://bsky.app/profile/banmarnj.bsky.social/post/3mxtopk5jcc2m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:clk67qyo77a6b6jcemqf6pkc/app.bsky.feed.post/3mxtopuen322r",
+        "handle": "wabisabihoppe.bsky.social",
+        "text": "A Family of Barn Owls Has Moved Into New York City's Upper West Side, Perhaps the First to Nest in Manhattan in Modern History - Smithsonian Magazine\n\nNature gifts the best glimmers.",
+        "created_at": "2026-10-14T13:47:22.184Z",
+        "source": "https://bsky.app/profile/wabisabihoppe.bsky.social/post/3mxtopuen322r",
+        "mapped_location": "New York City's Upper West Side",
+        "precision_level": "address",
+        "location_text": "New York City's Upper West Side",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kqatenuowdowwbfclyzg2mq5/app.bsky.feed.post/3mxtp37jbgc2m",
+        "handle": "dickymcgeezak.bsky.social",
+        "text": "I am normally a YIMBY when it comes to housing, but 262 Fifth Avenue, New York, NY is a waste of space because it’s a massive skyscraper & will only house 26 people.",
+        "created_at": "2026-10-14T13:53:42.981Z",
+        "source": "https://bsky.app/profile/dickymcgeezak.bsky.social/post/3mxtp37jbgc2m",
+        "mapped_location": "262 Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "262 Fifth Avenue",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtp5sfa3c2q",
+        "handle": "lightnews.app",
+        "text": "Wadephul rebuffed; Lavrov blames Europe\n\nGerman foreign minister Johann Wadephul met Russia’s Sergei Lavrov in New York at the UN and urged de‑escalation, but Lavrov dismissed him and blamed Europe.\n\nWith posts by 🎓Michael McFaul, 🎓Fareed Zakaria, 🎓Ivan Katchanovski +17 more scholars.",
+        "created_at": "2026-10-14T13:55:09Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtp5sfa3c2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtp6dbkqk2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018\n\nJohnny Impact defeated Austin Aries to become the new Impact World Champion at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #JohnnyImpact #JohnnyNitro #JohMorrison #AustinAries #TheGreatestManThatEverLived",
+        "created_at": "2026-10-14T13:55:27.587Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtp6dbkqk2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtp6dbkqk2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018\n\nJohnny Impact defeated Austin Aries to become the new Impact World Champion at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #JohnnyImpact #JohnnyNitro #JohMorrison #AustinAries #TheGreatestManThatEverLived",
+        "created_at": "2026-10-14T13:55:27.587Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtp6dbkqk2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtp7vc6hs2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nLAX defeated The OGz in a Concrete Jungle Death Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #LAX #Konnan #Santana #Ortiz #TheOGz #EddieKingston #Homicide #Hernandez #ConcreteJungleDeathMatch",
+        "created_at": "2026-10-14T13:56:20.036Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtp7vc6hs2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtp7vc6hs2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nLAX defeated The OGz in a Concrete Jungle Death Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #LAX #Konnan #Santana #Ortiz #TheOGz #EddieKingston #Homicide #Hernandez #ConcreteJungleDeathMatch",
+        "created_at": "2026-10-14T13:56:20.036Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtp7vc6hs2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpakfyh22j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nOVE defeated Brian Cage, Rey Fenix & Pentagon Jr. in an oVe Rules Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #OVE #SamiCallihan #DaveChrist #JakeChrist #BrianCage #ReyFenix #PentagonJr #Penta #TheLuchaBros",
+        "created_at": "2026-10-14T13:56:42.180Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpakfyh22j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpakfyh22j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nOVE defeated Brian Cage, Rey Fenix & Pentagon Jr. in an oVe Rules Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #OVE #SamiCallihan #DaveChrist #JakeChrist #BrianCage #ReyFenix #PentagonJr #Penta #TheLuchaBros",
+        "created_at": "2026-10-14T13:56:42.180Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpakfyh22j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpb7bzfk2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018   \n\nEddie Edwards & Tommy Dreamer defeated Moose & Killer Kross in a No Disqualification Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #EddieEdwards #TommyDreamer #Moose #KillerKross #KarrionKross",
+        "created_at": "2026-10-14T13:57:04.071Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpb7bzfk2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpb7bzfk2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018   \n\nEddie Edwards & Tommy Dreamer defeated Moose & Killer Kross in a No Disqualification Match at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #EddieEdwards #TommyDreamer #Moose #KillerKross #KarrionKross",
+        "created_at": "2026-10-14T13:57:04.071Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpb7bzfk2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpbqti722j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nEddie Edwards defeated Moose by disqualification at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #EddieEdwards #DieHard #Moose",
+        "created_at": "2026-10-14T13:57:22.469Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpbqti722j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtpbqti722j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/2018  \n\nEddie Edwards defeated Moose by disqualification at Bound For Glory from the Melrose Ballroom in New York City, New York.  \n\n#ImpactWrestling #TNA #BoundForGlory #EddieEdwards #DieHard #Moose",
+        "created_at": "2026-10-14T13:57:22.469Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtpbqti722j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
       }
     }
   ]

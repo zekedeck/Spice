@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T00:09:30.666427Z",
-    "total_pins": 298
+    "generated_at": "2026-10-14T00:19:09.260774Z",
+    "total_pins": 302
   },
   "features": [
     {
@@ -6315,6 +6315,92 @@
         "location_text": "New York City’s",
         "confidence": 1.0,
         "other_locations": "Atlantic Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:db6qi22oxhj3p4uc222wigzc/app.bsky.feed.post/3mxsbc4mfms2p",
+        "handle": "ravensnpennies.com",
+        "text": "I...think...\n\n I am where I am supposed to be and I am terrified of it. This is not home, but it's trying to be. My road has gone to the north and the land calls to me here in a way I have rarely felt.\n\nWho knew it would be in New York and why now?",
+        "created_at": "2026-10-14T00:14:22.696Z",
+        "source": "https://bsky.app/profile/ravensnpennies.com/post/3mxsbc4mfms2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i7qngh3hfiolwthllyz3r32t/app.bsky.feed.post/3mxsbdpa5ns2l",
+        "handle": "thork.bsky.social",
+        "text": "All B Division cars in New York, also all cars in Toronto and the MR-73s in Montreal.\n\nIf you include light rail this list gets a lot longer.",
+        "created_at": "2026-10-14T00:15:15.761Z",
+        "source": "https://bsky.app/profile/thork.bsky.social/post/3mxsbdpa5ns2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxsbgczuwl2s",
+        "handle": "lightnews.app",
+        "text": "Trump Gaza corridor claim debunked\n\nAt the United Nations General Assembly in New York, President Donald Trump defended his geopolitical record and repeatedly claimed Gaza corridors had reopened, assertions Macron and fact‑checkers rejected as…\n\nWith posts by 🎓Steve Peers +14 more scholars.",
+        "created_at": "2026-10-14T00:16:42Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxsbgczuwl2s",
+        "mapped_location": "the United Nations General Assembly",
+        "precision_level": "address",
+        "location_text": "the United Nations General Assembly",
+        "confidence": 1.0,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxsbgczuwl2s",
+        "handle": "lightnews.app",
+        "text": "Trump Gaza corridor claim debunked\n\nAt the United Nations General Assembly in New York, President Donald Trump defended his geopolitical record and repeatedly claimed Gaza corridors had reopened, assertions Macron and fact‑checkers rejected as…\n\nWith posts by 🎓Steve Peers +14 more scholars.",
+        "created_at": "2026-10-14T00:16:42Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxsbgczuwl2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "other_locations": "the United Nations General Assembly"
       }
     }
   ]

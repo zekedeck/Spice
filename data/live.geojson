@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T14:17:19.484932Z",
-    "total_pins": 364
+    "generated_at": "2026-10-14T14:40:36.965896Z",
+    "total_pins": 378
   },
   "features": [
     {
@@ -9175,6 +9175,361 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lyt423uqihmrwysvclhsuruj/app.bsky.feed.post/3mxtrcljgec2b",
+        "handle": "bruinsbriefly.bsky.social",
+        "text": "New York Rangers started 5-0 at Madison Square Garden with a 4-1 win over Tampa Bay, powered by Alexis Lafreniere’s surge and strong home scoring.\n",
+        "created_at": "2026-10-14T14:33:37.880Z",
+        "source": "https://bsky.app/profile/bruinsbriefly.bsky.social/post/3mxtrcljgec2b",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3mulurp4i45rjxexipvqgrzj/app.bsky.feed.post/3mxtrg3hbu22w",
+        "handle": "davidnagler.bsky.social",
+        "text": "“Billy Sunday” is an original song that we performed at the 2016 record release shows in New York and Chicago. Many people, myself included, were first familiar with Billy Sunday from the song “Chicago,” which was “the town that Billy Sunday couldn’t shut down.” (4/6)",
+        "created_at": "2026-10-14T14:35:33.299Z",
+        "source": "https://bsky.app/profile/davidnagler.bsky.social/post/3mxtrg3hbu22w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i4sqj4y5rx726tv7y6wvchui/app.bsky.feed.post/3mxtrgvzyw22o",
+        "handle": "dcpubliclibrary.bsky.social",
+        "text": "Maya Angelou. Nina Simone. Lorraine Hansberry. What happened when these icons came together at a legendary NYC nightclub? Discover the story behind Freedom’s Gate with author Soyica Diggs Colbert TONIGHT at West End Library, 6:30 PM. https://bit.ly/4y6ywNb",
+        "created_at": "2026-10-14T14:36:03.051837568Z",
+        "source": "https://bsky.app/profile/dcpubliclibrary.bsky.social/post/3mxtrgvzyw22o",
+        "mapped_location": "West End Library",
+        "precision_level": "address",
+        "location_text": "West End Library",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.865,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxtrhmlkaw24",
+        "handle": "porcellato.bsky.social",
+        "text": "Revolutionary War history hides in plain sight outside Bronx White Castle https://ift.tt/z1j8ge6",
+        "created_at": "2026-10-14T14:36:26+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxtrhmlkaw24",
+        "mapped_location": "Bronx White Castle",
+        "precision_level": "address",
+        "location_text": "Bronx White Castle",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:udic75t6xmwpkmwt6g4xpubf/app.bsky.feed.post/3mxtrhtm6tc2l",
+        "handle": "paneintheazz.bsky.social",
+        "text": "MAGAts, just keep voting for YOUR oppressors!!!! \nThis moron would sell you the Brooklyn Bridge if he was allowed to go to NY for business! 😂😆😂😆😂",
+        "created_at": "2026-10-14T14:36:34.181Z",
+        "source": "https://bsky.app/profile/paneintheazz.bsky.social/post/3mxtrhtm6tc2l",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:honwu3zwt277hgg46s24amta/app.bsky.feed.post/3mxtrjaccis2k",
+        "handle": "meng.house.gov",
+        "text": "New York finally made it official. \"Spider-Man Way\" now stands in Forest Hills, Queens, to honor one of our best. (2/2)",
+        "created_at": "2026-10-14T14:37:21.025Z",
+        "source": "https://bsky.app/profile/meng.house.gov/post/3mxtrjaccis2k",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h5aozvodeighmzvjeked7qpv/app.bsky.feed.post/3mxtrkfksns27",
+        "handle": "alamhigo.bsky.social",
+        "text": "Come to Sunday Morning at 29 Avenue B, New York, NY 10009,\nUnited States\n\nIf you want cinnamon rolls and an ass kicking",
+        "created_at": "2026-10-14T14:38:00.117Z",
+        "source": "https://bsky.app/profile/alamhigo.bsky.social/post/3mxtrkfksns27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nzzojxkhoc2q7cgukbm7pee5/app.bsky.feed.post/3mxtrkx6lm32g",
+        "handle": "rushnewstream.bsky.social",
+        "text": "🔥 Trending on 𝕏: “Hochul and Blakeman Clash in Heated New York Governor Debate” — track social news trends across all platforms on RUSH Newstream https://beta.rushnewstream.com/social",
+        "created_at": "2026-10-14T14:38:18.545284+00:00",
+        "source": "https://bsky.app/profile/rushnewstream.bsky.social/post/3mxtrkx6lm32g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "Heated New York",
+        "confidence": 0.95,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:koc7rgupawf6zh6grvjvj7jw/app.bsky.feed.post/3mxtrlyf6m22g",
+        "handle": "starloggers-2011.bsky.social",
+        "text": "New York City officially renames a street in Forest Hills, Queens after Spider-Man! It's the intersection of Ingram Street and Ascan Avenue.",
+        "created_at": "2026-10-14T14:38:53.404Z",
+        "source": "https://bsky.app/profile/starloggers-2011.bsky.social/post/3mxtrlyf6m22g",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Ingram Street, Ascan Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:koc7rgupawf6zh6grvjvj7jw/app.bsky.feed.post/3mxtrlyf6m22g",
+        "handle": "starloggers-2011.bsky.social",
+        "text": "New York City officially renames a street in Forest Hills, Queens after Spider-Man! It's the intersection of Ingram Street and Ascan Avenue.",
+        "created_at": "2026-10-14T14:38:53.404Z",
+        "source": "https://bsky.app/profile/starloggers-2011.bsky.social/post/3mxtrlyf6m22g",
+        "mapped_location": "Ingram Street",
+        "precision_level": "address",
+        "location_text": "Ingram Street",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Forest Hills, Ascan Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.842,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:koc7rgupawf6zh6grvjvj7jw/app.bsky.feed.post/3mxtrlyf6m22g",
+        "handle": "starloggers-2011.bsky.social",
+        "text": "New York City officially renames a street in Forest Hills, Queens after Spider-Man! It's the intersection of Ingram Street and Ascan Avenue.",
+        "created_at": "2026-10-14T14:38:53.404Z",
+        "source": "https://bsky.app/profile/starloggers-2011.bsky.social/post/3mxtrlyf6m22g",
+        "mapped_location": "Ascan Avenue",
+        "precision_level": "address",
+        "location_text": "Ascan Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Forest Hills, Ingram Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dpi7y5j7p2oghqu5bbumutot/app.bsky.feed.post/3mxtrmrvds224",
+        "handle": "onjikun.bsky.social",
+        "text": "Still never got around to doing a new #PortfolioDay post, so here's my nearly-two-year-old one.\n\nBTW, I'm sadly no longer based in New York, as I recently moved to Carmel, Indiana for family reasons.",
+        "created_at": "2026-10-14T14:39:20.160Z",
+        "source": "https://bsky.app/profile/onjikun.bsky.social/post/3mxtrmrvds224",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxtro64p272y",
+        "handle": "laviezine.bsky.social",
+        "text": "HUMM with interiors by Pierre Yovanovitch\n\nhttps://www.laviezine.com/1662141/humm-with-interiors-by-pierre-yovanovitch/\n\nHUMM, a new restaurant by chef Daniel Humm, has recently opened in New York’s West Village, with interiors entrusted to French designer Pierre Yovanovitch. It seems to me that …",
+        "created_at": "2026-10-14T14:40:03+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxtro64p272y",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York’s West Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxtro64p272y",
+        "handle": "laviezine.bsky.social",
+        "text": "HUMM with interiors by Pierre Yovanovitch\n\nhttps://www.laviezine.com/1662141/humm-with-interiors-by-pierre-yovanovitch/\n\nHUMM, a new restaurant by chef Daniel Humm, has recently opened in New York’s West Village, with interiors entrusted to French designer Pierre Yovanovitch. It seems to me that …",
+        "created_at": "2026-10-14T14:40:03+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxtro64p272y",
+        "mapped_location": "New York’s West Village",
+        "precision_level": "address",
+        "location_text": "New York’s West Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York’s"
       }
     }
   ]

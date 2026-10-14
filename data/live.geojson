@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T05:32:47.590404Z",
-    "total_pins": 318
+    "generated_at": "2026-10-14T10:34:37.189281Z",
+    "total_pins": 322
   },
   "features": [
     {
@@ -8006,6 +8006,108 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtdmhdewg2v",
+        "handle": "lightnews.app",
+        "text": "Actress Sarandon among 100 arrested\n\nAbout 100 people were arrested in Midtown Manhattan during protests against Israeli PM Benjamin Netanyahu at the U.N. General Assembly, including actress Susan Sarandon.\n\nWith posts by 🎓Patrick Dunleavy, 🎓Jonathan Wolff, 🎓Shibley Telhami +21 more scholars.",
+        "created_at": "2026-10-14T10:28:36Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtdmhdewg2v",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the U.N. General Assembly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxtdmhdewg2v",
+        "handle": "lightnews.app",
+        "text": "Actress Sarandon among 100 arrested\n\nAbout 100 people were arrested in Midtown Manhattan during protests against Israeli PM Benjamin Netanyahu at the U.N. General Assembly, including actress Susan Sarandon.\n\nWith posts by 🎓Patrick Dunleavy, 🎓Jonathan Wolff, 🎓Shibley Telhami +21 more scholars.",
+        "created_at": "2026-10-14T10:28:36Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxtdmhdewg2v",
+        "mapped_location": "the U.N. General Assembly",
+        "precision_level": "address",
+        "location_text": "the U.N. General Assembly",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Midtown Manhattan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s2pa3z6pvjjwzm6tmnoljm72/app.bsky.feed.post/3mxtdrtfsws2v",
+        "handle": "rneagle.bsky.social",
+        "text": "Back in the 70s, I used to go to the ports in New York City constantly to pick up freight in many times I’d have to sit in the docks waiting for the importer to pay the tariffs. Anybody who thinks like this guy thinks needs to be educated.",
+        "created_at": "2026-10-14T10:31:37.136Z",
+        "source": "https://bsky.app/profile/rneagle.bsky.social/post/3mxtdrtfsws2v",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o7jfnoou4y6k7uc2dtcrkxzi/app.bsky.feed.post/3mxtdrvag522r",
+        "handle": "publicfreakoutsub.bsky.social",
+        "text": "Man loudly heckling and swearing at police officers and pro-Palestine protestors in New York City",
+        "created_at": "2026-10-14T10:31:38.756Z",
+        "source": "https://bsky.app/profile/publicfreakoutsub.bsky.social/post/3mxtdrvag522r",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",

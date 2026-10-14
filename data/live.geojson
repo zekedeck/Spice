@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T00:28:51.518222Z",
-    "total_pins": 308
+    "generated_at": "2026-10-14T00:45:11.618439Z",
+    "total_pins": 312
   },
   "features": [
     {
@@ -6529,6 +6529,90 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s7qneh5m2vxdbbcuflq365h4/app.bsky.feed.post/3mxscmq4u2za2",
+        "handle": "nafnlj.linuxrocks.online.ap.brid.gy",
+        "text": "Inflatable Spooky Halloween Tree in Cobble Hill\n\nDay and night reports on an inflatable spooky Halloween tree ensemble seen in Cobble Hill, Brooklyn.\n\nhttps://thenewleafjournal.com/inflatable-spooky-halloween-tree-in-cobble-hill/\n\n#Brooklyn #CobbleHill #Halloween #InflatableDecoration #Crows",
+        "created_at": "2026-10-14T00:38:01.000Z",
+        "source": "https://bsky.app/profile/nafnlj.linuxrocks.online.ap.brid.gy/post/3mxscmq4u2za2",
+        "mapped_location": "Cobble Hill",
+        "precision_level": "address",
+        "location_text": "Cobble Hill",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.043,
+          40.718
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rdwznl2hofuz4etyzjjnw6yk/app.bsky.feed.post/3mxscmjcvcc2y",
+        "handle": "alastairarthur.bsky.social",
+        "text": "First time post. I’m a photographer from England, currently living in Jersey City and working with B&H in Manhattan. Currently using the OM System OM-3.\nA few images from Blue Rocks, Nova Scotia on the Sigma BF.\n#novascotia #sigmabf",
+        "created_at": "2026-10-14T00:38:05.296Z",
+        "source": "https://bsky.app/profile/alastairarthur.bsky.social/post/3mxscmjcvcc2y",
+        "mapped_location": "Jersey City",
+        "precision_level": "address",
+        "location_text": "Jersey City",
+        "confidence": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r4ve5hjtfjubdwrvlxcad62e/app.bsky.feed.post/3mxscs6phu42k",
+        "handle": "en.afp.com",
+        "text": "Cornell University suspends frat parties after alleged gang rape.\n\nThe Ivy League institution in New York state has drawn accusations that it failed to properly punish the men involved\n\nu.afp.com/SCQJ",
+        "created_at": "2026-10-14T00:41:15.482Z",
+        "source": "https://bsky.app/profile/en.afp.com/post/3mxscs6phu42k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.795,
+          40.728
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jrgb3jlmmsgfd7nruk6ihwrx/app.bsky.feed.post/3mxscwivcg22h",
+        "handle": "loydas.bsky.social",
+        "text": "www.instagram.com/reel/DeRMwhm...\n5 years probation for sexual assault for a white kid in Queens USA.",
+        "created_at": "2026-10-14T00:43:40.401Z",
+        "source": "https://bsky.app/profile/loydas.bsky.social/post/3mxscwivcg22h",
+        "mapped_location": "Queens USA",
+        "precision_level": "address",
+        "location_text": "Queens USA",
+        "confidence": 0.95
       }
     }
   ]

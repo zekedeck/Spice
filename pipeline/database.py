@@ -66,6 +66,20 @@ def init_llm_cache_table(conn) -> None:
     """)
 
 
+# Columns added after the original pins table shipped. Each entry is
+# (column_name, SQL type/default) as passed to "ALTER TABLE pins ADD COLUMN".
+# The pins table lives in a SQLite DB that persists ONLY via a GitHub
+# Actions cache (never committed) across pipeline runs, so a DB cached from
+# a run before one of these columns existed must still open cleanly -- this
+# list, applied via _migrate_pins_table, is what makes that migration-safe.
+_PINS_MIGRATION_COLUMNS = [
+    ("address_type", "TEXT"),
+    ("provenance", "TEXT"),
+    ("borough_conflict", "INTEGER"),
+    ("specificity_score", "REAL"),
+]
+
+
 def init_pins_table(conn) -> None:
     conn.execute("""
         CREATE TABLE IF NOT EXISTS pins (
@@ -88,7 +102,24 @@ def init_pins_table(conn) -> None:
         )
     """)
 
+    _migrate_pins_table(conn)
+
     conn.execute("CREATE INDEX IF NOT EXISTS idx_pins_post_created_at ON pins (post_created_at)")
+
+
+def _migrate_pins_table(conn) -> None:
+    """Add any columns in _PINS_MIGRATION_COLUMNS that are missing from an
+    already-existing (possibly pre-migration) pins table.
+
+    SQLite has no "ADD COLUMN IF NOT EXISTS"; the safe equivalent is to
+    check PRAGMA table_info(pins) for the column names that already exist
+    and only ALTER TABLE for the ones that don't, so this never raises
+    against a DB cached from a prior run / older schema.
+    """
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(pins)").fetchall()}
+    for column_name, column_type in _PINS_MIGRATION_COLUMNS:
+        if column_name not in existing:
+            conn.execute(f"ALTER TABLE pins ADD COLUMN {column_name} {column_type}")
 
 
 def insert_post(conn, did, handle, post_uri, post_url, text, created_at) -> bool:
@@ -143,19 +174,21 @@ def delete_post(conn, post_uri: str) -> None:
     conn.commit()
 
 
-def insert_pin(conn, pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng, location_text, mapped_location, precision, confidence, candidate_index, candidate_total, other_locations=None) -> None:
+def insert_pin(conn, pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng, location_text, mapped_location, precision, confidence, candidate_index, candidate_total, other_locations=None, address_type=None, provenance=None, borough_conflict=None, specificity_score=None) -> None:
     inserted_at = datetime.datetime.utcnow().isoformat()
     conn.execute(
         """
         INSERT OR REPLACE INTO pins
             (pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng,
              location_text, mapped_location, precision, confidence, candidate_index,
-             candidate_total, other_locations, inserted_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             candidate_total, other_locations, inserted_at, address_type, provenance,
+             borough_conflict, specificity_score)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (pin_id, post_uri, post_url, handle, text, post_created_at, lat, lng,
          location_text, mapped_location, precision, confidence, candidate_index,
-         candidate_total, other_locations, inserted_at),
+         candidate_total, other_locations, inserted_at, address_type, provenance,
+         borough_conflict, specificity_score),
     )
     conn.commit()
 

@@ -37,6 +37,10 @@ def _pin_rows_to_feature_collection(rows: list) -> dict:
             "precision_level": row["precision"],
             "location_text": row["location_text"],
             "confidence": row["confidence"],
+            "address_type": row["address_type"],
+            "provenance": row["provenance"],
+            "borough_conflict": bool(row["borough_conflict"]) if row["borough_conflict"] is not None else False,
+            "specificity_score": row["specificity_score"],
         }
         if row.get("other_locations"):
             properties["other_locations"] = row["other_locations"]
@@ -145,6 +149,10 @@ def run_worker() -> None:
                     candidate_index=idx,
                     candidate_total=total,
                     other_locations=props.get("other_locations"),
+                    address_type=props.get("address_type"),
+                    provenance=props.get("provenance"),
+                    borough_conflict=props.get("borough_conflict"),
+                    specificity_score=props.get("specificity_score"),
                 )
 
             mark_processed(conn, post["post_uri"])

@@ -26,6 +26,10 @@ def post_to_features(post) -> list:
             "precision_level": candidate.precision,
             "location_text": candidate.text,
             "confidence": candidate.confidence,
+            "address_type": candidate.address_type,
+            "provenance": candidate.provenance,
+            "borough_conflict": candidate.borough_conflict,
+            "specificity_score": candidate.specificity_score,
         }
 
         if other_locations:

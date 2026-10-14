@@ -23,6 +23,7 @@ _NYC_KEYWORDS = frozenset({
     "bronx",
     "staten island",
     "williamsburg",
+    "marble hill",
     "dumbo",
     "astoria",
     "chelsea",

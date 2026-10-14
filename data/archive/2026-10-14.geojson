@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T13:34:00.789030Z",
-    "total_pins": 10
+    "generated_at": "2026-10-14T13:49:58.873586Z",
+    "total_pins": 25
   },
   "features": [
     {
@@ -255,6 +255,383 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nasdzbpiyzph2lvcoijyxere/app.bsky.feed.post/3mxto2ylunc2e",
+        "handle": "quartzmedia.bsky.social",
+        "text": "GlobalFoundries tapped to run 2 new chip plants backed by $21 billion from Japan: Japan will fund the two facilities at GlobalFoundries' Malta, New York site; the U.S. Commerce Department will take a roughly 4% equity stake in the company",
+        "created_at": "2026-10-14T13:35:41Z",
+        "source": "https://bsky.app/profile/quartzmedia.bsky.social/post/3mxto2ylunc2e",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sw7pk6ksve7i5sk7vvhap3ol/app.bsky.feed.post/3mxto64k32s2l",
+        "handle": "thatgrlwitapen.bsky.social",
+        "text": "Because it has happened before.\nA  teen girl and her boyfriend murdered a  random man in New York for fun in the late 90s.\nShe was released and given a new identity less than a decade later. Had a history of mutilating animals as a child.",
+        "created_at": "2026-10-14T13:37:26.784Z",
+        "source": "https://bsky.app/profile/thatgrlwitapen.bsky.social/post/3mxto64k32s2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5zww7zorx2ajw7hqrhuix3ba/app.bsky.feed.post/3mxtobp73ue2n",
+        "handle": "byteseu.bsky.social",
+        "text": "Stock market today: Live updates\n\nhttps://www.byteseu.com/2451633/\n\nTraders work on the floor of the New York Stock Exchange (NYSE) on Sept. 29, 2026 in New York City. Spencer Platt | Getty Images Stock futures fell on Wednesday as Treasury yields rose, with investors reacting to the release of …",
+        "created_at": "2026-10-14T13:39:24+00:00",
+        "source": "https://bsky.app/profile/byteseu.bsky.social/post/3mxtobp73ue2n",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nemmew6ixbz3ceoyidaq5xcm/app.bsky.feed.post/3mxtobybk6s2o",
+        "handle": "dmtastudios.bsky.social",
+        "text": "One thing fascists and authoritarians never understand is right makes might. Might doesn't make right.\n\n\"Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.\" — Abraham Lincoln, Cooper Union in New York City on February 27, 1860",
+        "created_at": "2026-10-14T13:39:36.527Z",
+        "source": "https://bsky.app/profile/dmtastudios.bsky.social/post/3mxtobybk6s2o",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uheq43mihkdzfhhuvlqbunxo/app.bsky.feed.post/3mxtodqrnks2e",
+        "handle": "kwelijournal.bsky.social",
+        "text": "Last night's book launch of EVERYTHING NEW AGAIN by Renée Watson, with Kwame Alexander at Harlem School Of the Arts, was AMAZING!!  💖✨\n📷 by Laura Pegram / Kweli Journal",
+        "created_at": "2026-10-14T13:40:35.739Z",
+        "source": "https://bsky.app/profile/kwelijournal.bsky.social/post/3mxtodqrnks2e",
+        "mapped_location": "Harlem School Of the Arts",
+        "precision_level": "address",
+        "location_text": "Harlem School Of the Arts",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4m2mvqumu72dar3pcm2tpebi/app.bsky.feed.post/3mxtoeuh7yw2m",
+        "handle": "mediaite.com",
+        "text": "WATCH: Pablo Torre Gets a Hold of Kelly Clarkson Video at Brooklyn Toy Shop, Breaks Down Entire Interaction",
+        "created_at": "2026-10-14T13:41:13Z",
+        "source": "https://bsky.app/profile/mediaite.com/post/3mxtoeuh7yw2m",
+        "mapped_location": "Brooklyn Toy Shop",
+        "precision_level": "address",
+        "location_text": "Brooklyn Toy Shop",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3mxtogr7hns2j",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/14/1995\n\nShawn Michaels was assaulted outside a nightclub in Syracuse, New York.\n\n#WWF #WWE #ShawnMichaels #HBK #TheShowStopper #TheHeadliner #MrWrestleMania",
+        "created_at": "2026-10-14T13:42:16.892Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3mxtogr7hns2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklgym22l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "Hundreds of pro-Palestine demonstrators took to the streets of New York City earlier this week as part of a global day of action, marking three years since Israel's war on Gaza began.\n\nThe march, which moved from Washington Square Park to Herald Square, brought together people demanding an",
+        "created_at": "2026-10-14T13:44:25.065Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklgym22l",
+        "mapped_location": "Washington Square Park",
+        "precision_level": "address",
+        "location_text": "Washington Square Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Herald Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklgym22l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "Hundreds of pro-Palestine demonstrators took to the streets of New York City earlier this week as part of a global day of action, marking three years since Israel's war on Gaza began.\n\nThe march, which moved from Washington Square Park to Herald Square, brought together people demanding an",
+        "created_at": "2026-10-14T13:44:25.065Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklgym22l",
+        "mapped_location": "Herald Square",
+        "precision_level": "address",
+        "location_text": "Herald Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Washington Square Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qwwqmj5drgsgrqekhg5sax4t/app.bsky.feed.post/3mxtoklhcek2l",
+        "handle": "catalinafernandes.bsky.social",
+        "text": "end to Israel's assault on Palestinians. \n\nAnti-Zionist Jewish activists also joined Palestine solidarity protests in New York, rejecting the Israeli government's policies and expressing support for Palestinian rights.",
+        "created_at": "2026-10-14T13:44:25.066Z",
+        "source": "https://bsky.app/profile/catalinafernandes.bsky.social/post/3mxtoklhcek2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mxtomaqnut2f",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "👻 NYC’s wildest Halloween night awaits! 🎃🍸 Crawl from Times Square to the East Village on October 30, 2026, for spooky vibes, epic costumes, and unforgettable party moments! 🕸️🔥 Grab your tickets at mtsproductions.com\n\n#NYCHalloween #Halloween2026 #BarCrawl #NYCNightlife",
+        "created_at": "2026-10-14T13:45:19.935Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mxtomaqnut2f",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxtomb3vbc2a",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A free New York Veterans Summit at the Intrepid Museum will connect veterans with career pathways, resources, and policy support on Oct. 15.\n",
+        "created_at": "2026-10-14T13:45:21.089Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxtomb3vbc2a",
+        "mapped_location": "the Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "the Intrepid Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3mxton4d7hr2b",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "A free New York Veterans Summit at the Intrepid Museum will connect veterans with career pathways, resources, and policy support on Oct. 15.\n",
+        "created_at": "2026-10-14T13:45:49.801Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3mxton4d7hr2b",
+        "mapped_location": "the Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "the Intrepid Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5xpslr2bnzbnbyzkexm4ork/app.bsky.feed.post/3mxtopk5jcc2m",
+        "handle": "banmarnj.bsky.social",
+        "text": "Trump emerges as the main character in New York governor debate\n\nDemocratic Gov. Kathy Hochul hammered her GOP foe Bruce Blakeman over his ties to the president, while he excoriated the incumbent’s record.",
+        "created_at": "2026-10-14T13:47:11.478Z",
+        "source": "https://bsky.app/profile/banmarnj.bsky.social/post/3mxtopk5jcc2m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:clk67qyo77a6b6jcemqf6pkc/app.bsky.feed.post/3mxtopuen322r",
+        "handle": "wabisabihoppe.bsky.social",
+        "text": "A Family of Barn Owls Has Moved Into New York City's Upper West Side, Perhaps the First to Nest in Manhattan in Modern History - Smithsonian Magazine\n\nNature gifts the best glimmers.",
+        "created_at": "2026-10-14T13:47:22.184Z",
+        "source": "https://bsky.app/profile/wabisabihoppe.bsky.social/post/3mxtopuen322r",
+        "mapped_location": "New York City's Upper West Side",
+        "precision_level": "address",
+        "location_text": "New York City's Upper West Side",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

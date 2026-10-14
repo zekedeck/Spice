@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T14:56:58.032558Z",
-    "total_pins": 75
+    "generated_at": "2026-10-14T15:16:24.730182Z",
+    "total_pins": 79
   },
   "features": [
     {
@@ -1895,6 +1895,106 @@
         "precision_level": "address",
         "location_text": "1561 Bedford Ave",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pdafggyvelbahwy3s2wnq54r/app.bsky.feed.post/3mxttfzsjps2z",
+        "handle": "rustyshackleman.bsky.social",
+        "text": "LRT ok can someone fill me in on the New York horse carriage situation? I'm not doubting the guy but how is it comparable to the Orphan Grinding Machine? What the hell did they do?",
+        "created_at": "2026-10-14T15:11:21.060Z",
+        "source": "https://bsky.app/profile/rustyshackleman.bsky.social/post/3mxttfzsjps2z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxttgdwe4x22",
+        "handle": "lightnews.app",
+        "text": "Forty countries defend international law\n\nForty countries, led by South Africa and Malaysia, met at the UN in New York on Friday to defend the International Criminal Court and international law against threatened U.S. sanctions.\n\nWith posts by 🎓Ryan Goodman, 🎓Justin Wolfers +7 more scholars.",
+        "created_at": "2026-10-14T15:11:30Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxttgdwe4x22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3iynlqyilh6q5pwy2zefrqwu/app.bsky.feed.post/3mxttil2yti2p",
+        "handle": "us-brief.com",
+        "text": "Mamdani orders first NYPD use-of-force review in a decade\n\nNew York City Mayor Zohran Mamdani directed the NYPD to review use-of-force policies for the first time in 10 years and announced accountability reforms after an officer facing charges in the 2024 Win Rozario shooting retired… #USNews",
+        "created_at": "2026-10-14T15:12:46.022Z",
+        "source": "https://bsky.app/profile/us-brief.com/post/3mxttil2yti2p",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7yae6zexwxrphkd3bdsycmud/app.bsky.feed.post/3mxttksbzbk2b",
+        "handle": "bkindivisible.bsky.social",
+        "text": "No Kings: Vote Early Sat, Oct 17 11am in Bay Ridge. Help turn out voters in NYC’s ONLY SWING DISTRICT! Bring your friends/family for a joyful parade & make sure we have a democracy with NO KINGS! www.mobilize.us/nokings/even...\n\n@riseandresist.bsky.social \n@handsoffnyc.bsky.social \n@indivisible.org",
+        "created_at": "2026-10-14T15:14:00.943Z",
+        "source": "https://bsky.app/profile/bkindivisible.bsky.social/post/3mxttksbzbk2b",
+        "mapped_location": "Bay Ridge",
+        "precision_level": "address",
+        "location_text": "Bay Ridge",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T13:58:06.405777Z",
-    "total_pins": 37
+    "generated_at": "2026-10-14T14:09:18.237052Z",
+    "total_pins": 42
   },
   "features": [
     {
@@ -942,6 +942,131 @@
         "borough_conflict": false,
         "specificity_score": 0.1,
         "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nqi4h5dafsekwfuvxzzwqtq5/app.bsky.feed.post/3mxtpkb3fh22z",
+        "handle": "cjsprigman.bsky.social",
+        "text": "One of the 17 new public restrooms that Mamdani deployed as a pilot is around the block from my apartment. Politicians in New York City have been talking about this for years. It turns out you can just  do it.",
+        "created_at": "2026-10-14T14:02:07.925Z",
+        "source": "https://bsky.app/profile/cjsprigman.bsky.social/post/3mxtpkb3fh22z",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3mxtpmgulgp2t",
+        "handle": "mtsproductions.bsky.social",
+        "text": "👻 NYC’s wildest Halloween night awaits! 🎃🍸 Crawl from Times Square to the East Village on October 30, 2026, for spooky vibes, epic costumes, and unforgettable party moments! 🕸️🔥 Grab your tickets at mtsproductions.com\n\n#NYCHalloween #Halloween2026 #BarCrawl #NYCNightlife",
+        "created_at": "2026-10-14T14:03:19.953Z",
+        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3mxtpmgulgp2t",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wekuzkb5idcshy47hvtddgei/app.bsky.feed.post/3mxtpq3tvik2v",
+        "handle": "kuzikaima2.bsky.social",
+        "text": "The Aura Farmer is in New York now.",
+        "created_at": "2026-10-14T14:05:23.777Z",
+        "source": "https://bsky.app/profile/kuzikaima2.bsky.social/post/3mxtpq3tvik2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxtpqkq4pu22",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A cement truck caught fire on the Brooklyn-Queens Expressway after leaking fuel, prompting an FDNY response, with no reported injuries.\n",
+        "created_at": "2026-10-14T14:05:39.160Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxtpqkq4pu22",
+        "mapped_location": "the Brooklyn-Queens Expressway",
+        "precision_level": "address",
+        "location_text": "the Brooklyn-Queens Expressway",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dx3ay6rcqediw2gbhb4bp76l/app.bsky.feed.post/3mxtprl472c27",
+        "handle": "up-8.bsky.social",
+        "text": "Elliot looks at the Astor Place Cube\n\n#photo #photography #nyc #newyork #elliot #family #cube #sculpture #art #astorplace #laowa #9mm #wideangle",
+        "created_at": "2026-10-14T14:06:13.332Z",
+        "source": "https://bsky.app/profile/up-8.bsky.social/post/3mxtprl472c27",
+        "mapped_location": "the Astor Place Cube",
+        "precision_level": "address",
+        "location_text": "the Astor Place Cube",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

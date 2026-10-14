@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T10:34:37.220321Z",
-    "total_pins": 4
+    "generated_at": "2026-10-14T13:25:56.308880Z",
+    "total_pins": 7
   },
   "features": [
     {
@@ -105,6 +105,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:guglfuvqukopbx3vq3pcr76o/app.bsky.feed.post/3mxtn7y2aic2n",
+        "handle": "wfuvnews.bsky.social",
+        "text": "All You Need Is John, a musical celebration of John Lennon, is set to kick off its North American tour in 2027 and will include several stops in New York.\nnysmusic.com/2026/10/13/a...",
+        "created_at": "2026-10-14T13:20:35.437Z",
+        "source": "https://bsky.app/profile/wfuvnews.bsky.social/post/3mxtn7y2aic2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxtncitpjf27",
+        "handle": "weloveproduct.co",
+        "text": "Charlie Health is looking for a Product Manager, Business Systems in New York, United States\nhttps://weloveproduct.co/jobs/product-manager-business-systems-charlie-health-uhb2gc\n\n#productmanager #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-14T13:22:00.114Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxtncitpjf27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.694
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tfo26ast2txhcsndlnmtj3xi/app.bsky.feed.post/3mxtnfvfb5s2c",
+        "handle": "christyadmiraal.bsky.social",
+        "text": "I don't have an online following to speak of and I'm not sure there's literally anything an employee at a specialty store in downtown Brooklyn could do to me that I'd post about. I guess maybe if they pushed me into a mud puddle, but even then I wouldn't want them to lose business or anything",
+        "created_at": "2026-10-14T13:23:53.978Z",
+        "source": "https://bsky.app/profile/christyadmiraal.bsky.social/post/3mxtnfvfb5s2c",
+        "mapped_location": "downtown Brooklyn",
+        "precision_level": "address",
+        "location_text": "downtown Brooklyn",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

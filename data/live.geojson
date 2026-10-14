@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T19:43:14.413919Z",
-    "total_pins": 420
+    "generated_at": "2026-10-14T22:46:30.473748Z",
+    "total_pins": 423
   },
   "features": [
     {
@@ -10579,6 +10579,81 @@
         "mapped_location": "MDC Brooklyn",
         "precision_level": "address",
         "location_text": "MDC Brooklyn",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2cs6y4wjlbs7uwqvsrnltd6z/app.bsky.feed.post/3mxumnytdmk2s",
+        "handle": "pjhrose.bsky.social",
+        "text": "I didn't know Trump's grandfather operated a whorehouse in Whitehorse Canada. He left for Germany with his substantial fortune before the Mounties showed up. Crime family money then showed up in New York where son and grandson became slum lords.\nQuite a heritage. \nTrump mob boss in the genes.",
+        "created_at": "2026-10-14T22:43:12.015Z",
+        "source": "https://bsky.app/profile/pjhrose.bsky.social/post/3mxumnytdmk2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u6jwqspda4uhf2alsxo345lw/app.bsky.feed.post/3mxump7bvkc25",
+        "handle": "pguist.bsky.social",
+        "text": "During a New York gubernatorial debate, Gov. Kathy Hochul pressed Republican Bruce Blakeman over his remarks at a recent rally praising President Donald Trump as the \"greatest president of his lifetime” and shouting, “We love Donald Trump.”",
+        "created_at": "2026-10-14T22:43:52.341Z",
+        "source": "https://bsky.app/profile/pguist.bsky.social/post/3mxump7bvkc25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxumpg4uopu2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 1 trains are delayed while we address a train with a mechanical problem at Chambers St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-14T22:43:57.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxumpg4uopu2",
+        "mapped_location": "Chambers St.",
+        "precision_level": "address",
+        "location_text": "Chambers St.",
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",

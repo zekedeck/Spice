@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T10:34:37.189281Z",
-    "total_pins": 322
+    "generated_at": "2026-10-14T13:34:00.779429Z",
+    "total_pins": 328
   },
   "features": [
     {
@@ -8109,6 +8109,156 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:guglfuvqukopbx3vq3pcr76o/app.bsky.feed.post/3mxtn7y2aic2n",
+        "handle": "wfuvnews.bsky.social",
+        "text": "All You Need Is John, a musical celebration of John Lennon, is set to kick off its North American tour in 2027 and will include several stops in New York.\nnysmusic.com/2026/10/13/a...",
+        "created_at": "2026-10-14T13:20:35.437Z",
+        "source": "https://bsky.app/profile/wfuvnews.bsky.social/post/3mxtn7y2aic2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxtncitpjf27",
+        "handle": "weloveproduct.co",
+        "text": "Charlie Health is looking for a Product Manager, Business Systems in New York, United States\nhttps://weloveproduct.co/jobs/product-manager-business-systems-charlie-health-uhb2gc\n\n#productmanager #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-14T13:22:00.114Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxtncitpjf27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.694
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tfo26ast2txhcsndlnmtj3xi/app.bsky.feed.post/3mxtnfvfb5s2c",
+        "handle": "christyadmiraal.bsky.social",
+        "text": "I don't have an online following to speak of and I'm not sure there's literally anything an employee at a specialty store in downtown Brooklyn could do to me that I'd post about. I guess maybe if they pushed me into a mud puddle, but even then I wouldn't want them to lose business or anything",
+        "created_at": "2026-10-14T13:23:53.978Z",
+        "source": "https://bsky.app/profile/christyadmiraal.bsky.social/post/3mxtnfvfb5s2c",
+        "mapped_location": "downtown Brooklyn",
+        "precision_level": "address",
+        "location_text": "downtown Brooklyn",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fcblefst5dxv4m25i5uebbfo/app.bsky.feed.post/3mxtnrnv33e2d",
+        "handle": "gdradio.net",
+        "text": "It's Hump Day! Today on  GDRADIO.COM we've got 1989-10-20 in Philadelphia PA, \"Dick's Pick's Volume 14 (1973-11-30 & 1973-12-02 Boston MA)\", *1977-10-14 in Houston TX*, 1995-07-05 in Maryland Heights MO, 1981-03-10 in New York City, 1987-12-31 in Oakland CA and more!",
+        "created_at": "2026-10-14T13:30:28.553Z",
+        "source": "https://bsky.app/profile/gdradio.net/post/3mxtnrnv33e2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02,
+          40.861
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxtntlwtpf2w",
+        "handle": "porcellato.bsky.social",
+        "text": "New York Veterans Summit at Intrepid Museum Thursday brings important resources and info to those who served https://ift.tt/cakUYiC",
+        "created_at": "2026-10-14T13:31:33+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxtntlwtpf2w",
+        "mapped_location": "Intrepid Museum",
+        "precision_level": "address",
+        "location_text": "Intrepid Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jjheidmljqrsatjic4e6hmm2/app.bsky.feed.post/3mxtnvyczak2u",
+        "handle": "wellborn.net",
+        "text": "Clergy in Georgia and New York are volunteering as de-escalators at polling places because armed ICE agents might show up. In America. In 2026. Homan says they'll go where they gotta go. Fuckface can't win an honest vote, so he sends men with guns to the line.",
+        "created_at": "2026-10-14T13:32:53.922Z",
+        "source": "https://bsky.app/profile/wellborn.net/post/3mxtnvyczak2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T00:45:11.632066Z",
-    "total_pins": 306
+    "generated_at": "2026-10-14T01:56:37.136945Z",
+    "total_pins": 316
   },
   "features": [
     {
@@ -23,7 +23,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -44,7 +48,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -65,7 +73,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -86,7 +98,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -107,7 +123,11 @@
         "mapped_location": "Herald Square",
         "precision_level": "address",
         "location_text": "Herald Square",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -129,6 +149,10 @@
         "precision_level": "address",
         "location_text": "Times Square",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -151,6 +175,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Times Square"
       }
     },
@@ -172,7 +200,11 @@
         "mapped_location": "Advertising Week New York",
         "precision_level": "address",
         "location_text": "Advertising Week New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -193,7 +225,11 @@
         "mapped_location": "the New York Stock Exchange",
         "precision_level": "address",
         "location_text": "the New York Stock Exchange",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -215,6 +251,10 @@
         "precision_level": "state",
         "location_text": "New York’s",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York’s JFK Airport"
       }
     },
@@ -237,6 +277,10 @@
         "precision_level": "address",
         "location_text": "New York’s JFK Airport",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York’s"
       }
     },
@@ -258,7 +302,11 @@
         "mapped_location": "Canal St.\n\nFor",
         "precision_level": "address",
         "location_text": "Canal St.\n\nFor",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -279,7 +327,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -300,7 +352,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -321,7 +377,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -342,7 +402,11 @@
         "mapped_location": "Don Rique, Brooklyn",
         "precision_level": "address",
         "location_text": "Don Rique, Brooklyn",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -363,7 +427,11 @@
         "mapped_location": "Don Rique, Brooklyn",
         "precision_level": "address",
         "location_text": "Don Rique, Brooklyn",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -384,7 +452,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -405,7 +477,11 @@
         "mapped_location": "1907 New York",
         "precision_level": "address",
         "location_text": "1907 New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -426,7 +502,11 @@
         "mapped_location": "the Statue of Liberty",
         "precision_level": "address",
         "location_text": "the Statue of Liberty",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -447,7 +527,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -469,6 +553,10 @@
         "precision_level": "address",
         "location_text": "the @thegraduatecenter.bsky.social Stone Center",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -491,6 +579,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the @thegraduatecenter.bsky.social Stone Center"
       }
     },
@@ -512,7 +604,11 @@
         "mapped_location": "the Williamsburg Bridge",
         "precision_level": "address",
         "location_text": "the Williamsburg Bridge",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -533,7 +629,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -554,7 +654,11 @@
         "mapped_location": "Morgan Av",
         "precision_level": "address",
         "location_text": "Morgan Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -575,7 +679,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -596,7 +704,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -617,7 +729,11 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -638,7 +754,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -659,7 +779,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -680,7 +804,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -701,7 +829,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -722,7 +854,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -743,7 +879,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -764,7 +904,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -785,7 +929,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York City's",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -806,7 +954,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -827,7 +979,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -848,7 +1004,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "the new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -869,7 +1029,11 @@
         "mapped_location": "new york city",
         "precision_level": "address",
         "location_text": "new york city",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -891,6 +1055,10 @@
         "precision_level": "address",
         "location_text": "New York University",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -913,6 +1081,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York University"
       }
     },
@@ -935,6 +1107,10 @@
         "precision_level": "address",
         "location_text": "Trump Tower",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -957,6 +1133,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Trump Tower"
       }
     },
@@ -978,7 +1158,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -999,7 +1183,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1020,7 +1208,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1041,7 +1233,11 @@
         "mapped_location": "Myrtle Av",
         "precision_level": "address",
         "location_text": "Myrtle Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1062,7 +1258,11 @@
         "mapped_location": "Marble Hill",
         "precision_level": "address",
         "location_text": "Marble Hill",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1083,7 +1283,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1105,6 +1309,10 @@
         "precision_level": "state",
         "location_text": "New York’s",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Times Square, New York"
       }
     },
@@ -1127,6 +1335,10 @@
         "precision_level": "address",
         "location_text": "Times Square",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York’s, New York"
       }
     },
@@ -1149,6 +1361,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York’s, Times Square"
       }
     },
@@ -1170,7 +1386,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1191,7 +1411,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1212,7 +1436,11 @@
         "mapped_location": "Jackson Heights-Roosevelt Av",
         "precision_level": "address",
         "location_text": "Jackson Heights-Roosevelt Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1233,7 +1461,11 @@
         "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
         "precision_level": "city",
         "location_text": "downtown Manhattan",
-        "confidence": 0.8
+        "confidence": 0.8,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1254,7 +1486,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1276,6 +1512,10 @@
         "precision_level": "address",
         "location_text": "the U.N. General Assembly",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -1298,6 +1538,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the U.N. General Assembly"
       }
     },
@@ -1319,7 +1563,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1340,7 +1588,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1361,7 +1613,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1382,7 +1638,11 @@
         "mapped_location": "Brooklyn Army Terminal",
         "precision_level": "address",
         "location_text": "Brooklyn Army Terminal",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1404,6 +1664,10 @@
         "precision_level": "address",
         "location_text": "Pearly Gates Park",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Zerega Avenue"
       }
     },
@@ -1426,6 +1690,10 @@
         "precision_level": "address",
         "location_text": "Zerega Avenue",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Pearly Gates Park"
       }
     },
@@ -1447,7 +1715,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1468,7 +1740,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1489,7 +1765,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1510,7 +1790,11 @@
         "mapped_location": "MDC Brooklyn",
         "precision_level": "address",
         "location_text": "MDC Brooklyn",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1531,7 +1815,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1552,7 +1840,11 @@
         "mapped_location": "Queens Plaza",
         "precision_level": "address",
         "location_text": "Queens Plaza",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1573,7 +1865,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1594,7 +1890,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1615,7 +1915,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1636,7 +1940,11 @@
         "mapped_location": "Queens Criminal Court",
         "precision_level": "address",
         "location_text": "Queens Criminal Court",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1657,7 +1965,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1678,7 +1990,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1700,6 +2016,10 @@
         "precision_level": "address",
         "location_text": "Shea Stadium",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City"
       }
     },
@@ -1722,6 +2042,10 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Shea Stadium"
       }
     },
@@ -1743,7 +2067,11 @@
         "mapped_location": "New York City -",
         "precision_level": "address",
         "location_text": "New York City -",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1765,6 +2093,10 @@
         "precision_level": "address",
         "location_text": "NYC Love",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -1787,6 +2119,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "NYC Love"
       }
     },
@@ -1809,6 +2145,10 @@
         "precision_level": "address",
         "location_text": "SHEA STADIUM",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "NEW YORK"
       }
     },
@@ -1831,6 +2171,10 @@
         "precision_level": "address",
         "location_text": "NEW YORK",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "SHEA STADIUM"
       }
     },
@@ -1852,7 +2196,11 @@
         "mapped_location": "NAB Show New York www.tvtechnology.com/platform/bro",
         "precision_level": "address",
         "location_text": "NAB Show New York www.tvtechnology.com/platform/bro",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1873,7 +2221,11 @@
         "mapped_location": "the new york times\"",
         "precision_level": "address",
         "location_text": "the new york times\"",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1894,7 +2246,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1915,7 +2271,11 @@
         "mapped_location": "new York",
         "precision_level": "address",
         "location_text": "new York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1936,7 +2296,11 @@
         "mapped_location": "Greenwich Village",
         "precision_level": "address",
         "location_text": "Greenwich Village",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1957,7 +2321,11 @@
         "mapped_location": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
         "precision_level": "address",
         "location_text": "Times Square\n\n https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1978,7 +2346,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -1999,7 +2371,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2021,6 +2397,10 @@
         "precision_level": "address",
         "location_text": "66 Steinway St, Astoria, NY",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
       }
     },
@@ -2043,6 +2423,10 @@
         "precision_level": "address",
         "location_text": "23-66 Steinway St, Astoria, NY",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
       }
     },
@@ -2065,6 +2449,10 @@
         "precision_level": "address",
         "location_text": "Steinway St, Astoria",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
       }
     },
@@ -2086,7 +2474,11 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2108,6 +2500,10 @@
         "precision_level": "address",
         "location_text": "66 Steinway St, Astoria, NY",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "23-66 Steinway St, Astoria, NY, Steinway St, Astoria"
       }
     },
@@ -2130,6 +2526,10 @@
         "precision_level": "address",
         "location_text": "23-66 Steinway St, Astoria, NY",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "66 Steinway St, Astoria, NY, Steinway St, Astoria"
       }
     },
@@ -2152,6 +2552,10 @@
         "precision_level": "address",
         "location_text": "Steinway St, Astoria",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "66 Steinway St, Astoria, NY, 23-66 Steinway St, Astoria, NY"
       }
     },
@@ -2173,7 +2577,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2194,7 +2602,11 @@
         "mapped_location": "the CUNY Graduate Center",
         "precision_level": "address",
         "location_text": "the CUNY Graduate Center",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2215,7 +2627,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2236,7 +2652,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2257,7 +2677,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2278,7 +2702,11 @@
         "mapped_location": "Brooklyn College",
         "precision_level": "address",
         "location_text": "Brooklyn College",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2299,7 +2727,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2320,7 +2752,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2341,7 +2777,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2362,7 +2802,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York City AI",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2383,7 +2827,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2404,7 +2852,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2425,7 +2877,11 @@
         "mapped_location": "the Leonard & Claire Tow Center",
         "precision_level": "address",
         "location_text": "the Leonard & Claire Tow Center",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2446,7 +2902,11 @@
         "mapped_location": "the Academy of Music",
         "precision_level": "address",
         "location_text": "the Academy of Music",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2467,7 +2927,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2488,7 +2952,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York City AI",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2509,7 +2977,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2530,7 +3002,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2551,7 +3027,11 @@
         "mapped_location": "the Brooklyn Bridge",
         "precision_level": "address",
         "location_text": "the Brooklyn Bridge",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2573,6 +3053,10 @@
         "precision_level": "address",
         "location_text": "the UN General Assembly",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -2595,6 +3079,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the UN General Assembly"
       }
     },
@@ -2616,7 +3104,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2637,7 +3129,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2659,6 +3155,10 @@
         "precision_level": "address",
         "location_text": "the UN General Assembly",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -2681,6 +3181,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the UN General Assembly"
       }
     },
@@ -2702,7 +3206,11 @@
         "mapped_location": "Queens College",
         "precision_level": "address",
         "location_text": "Queens College",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2723,7 +3231,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2744,7 +3256,11 @@
         "mapped_location": "SAINT VITUS\nBROOKLYN",
         "precision_level": "address",
         "location_text": "SAINT VITUS\nBROOKLYN",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2765,7 +3281,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2787,6 +3307,10 @@
         "precision_level": "address",
         "location_text": "New York City’s",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City’s Town Hall"
       }
     },
@@ -2809,6 +3333,10 @@
         "precision_level": "address",
         "location_text": "New York City’s Town Hall",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City’s"
       }
     },
@@ -2830,7 +3358,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2851,7 +3383,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2872,7 +3408,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2893,7 +3433,11 @@
         "mapped_location": "Evergreen Cemetery",
         "precision_level": "address",
         "location_text": "Evergreen Cemetery",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2914,7 +3458,11 @@
         "mapped_location": "Liberty State Park",
         "precision_level": "address",
         "location_text": "Liberty State Park",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2935,7 +3483,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2956,7 +3508,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -2978,6 +3534,10 @@
         "precision_level": "address",
         "location_text": "the New York Municipal Archives",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -3000,6 +3560,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the New York Municipal Archives"
       }
     },
@@ -3021,7 +3585,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3042,7 +3610,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York's",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3063,7 +3635,11 @@
         "mapped_location": "DeKalb Av",
         "precision_level": "address",
         "location_text": "DeKalb Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3084,7 +3660,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3105,7 +3685,11 @@
         "mapped_location": "City Winery NYC",
         "precision_level": "address",
         "location_text": "City Winery NYC",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3127,6 +3711,10 @@
         "precision_level": "address",
         "location_text": "Hudson County",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -3149,6 +3737,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Hudson County"
       }
     },
@@ -3170,7 +3762,11 @@
         "mapped_location": "Art #2099\n\nNew York",
         "precision_level": "address",
         "location_text": "Art #2099\n\nNew York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3191,7 +3787,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3212,7 +3812,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3234,6 +3838,10 @@
         "precision_level": "address",
         "location_text": "the U.N. General Assembly",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -3256,6 +3864,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the U.N. General Assembly"
       }
     },
@@ -3277,7 +3889,11 @@
         "mapped_location": "Steinway St.",
         "precision_level": "address",
         "location_text": "Steinway St.",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3298,7 +3914,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3319,7 +3939,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3340,7 +3964,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3361,7 +3989,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3382,7 +4014,11 @@
         "mapped_location": "Bay Ridge",
         "precision_level": "address",
         "location_text": "Bay Ridge",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3403,7 +4039,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3424,7 +4064,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3445,7 +4089,11 @@
         "mapped_location": "Queens ACC",
         "precision_level": "address",
         "location_text": "Queens ACC",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3466,7 +4114,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3487,7 +4139,11 @@
         "mapped_location": "Brooklyn Bridge Park",
         "precision_level": "address",
         "location_text": "Brooklyn Bridge Park",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3508,7 +4164,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3529,7 +4189,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3550,7 +4214,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3571,7 +4239,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3592,7 +4264,11 @@
         "mapped_location": "The New York Fed",
         "precision_level": "address",
         "location_text": "The New York Fed",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3613,7 +4289,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3634,7 +4314,11 @@
         "mapped_location": "the Brooklyn Fox 1964",
         "precision_level": "address",
         "location_text": "the Brooklyn Fox 1964",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3655,7 +4339,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3676,7 +4364,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3697,7 +4389,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3718,7 +4414,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3739,7 +4439,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3760,7 +4464,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3781,7 +4489,11 @@
         "mapped_location": "280 Broadway",
         "precision_level": "address",
         "location_text": "280 Broadway",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3802,7 +4514,11 @@
         "mapped_location": "Nitehawk Prospect Park",
         "precision_level": "address",
         "location_text": "Nitehawk Prospect Park",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3823,7 +4539,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3844,7 +4564,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3865,7 +4589,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3886,7 +4614,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3907,7 +4639,11 @@
         "mapped_location": "the UN General Assembly",
         "precision_level": "address",
         "location_text": "the UN General Assembly",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3928,7 +4664,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3949,7 +4689,11 @@
         "mapped_location": "Elder Av",
         "precision_level": "address",
         "location_text": "Elder Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3970,7 +4714,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -3991,7 +4739,11 @@
         "mapped_location": "the Hudson Theatre",
         "precision_level": "address",
         "location_text": "the Hudson Theatre",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4012,7 +4764,11 @@
         "mapped_location": "Lower Manhattan",
         "precision_level": "address",
         "location_text": "Lower Manhattan",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4033,7 +4789,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4054,7 +4814,11 @@
         "mapped_location": "2-way Borden Avenue",
         "precision_level": "address",
         "location_text": "2-way Borden Avenue",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4075,7 +4839,11 @@
         "mapped_location": "the NYC Ballet",
         "precision_level": "address",
         "location_text": "the NYC Ballet",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4096,7 +4864,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4117,7 +4889,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4138,7 +4914,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4159,7 +4939,11 @@
         "mapped_location": "Gusto\n\nNew York",
         "precision_level": "address",
         "location_text": "Gusto\n\nNew York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4181,6 +4965,10 @@
         "precision_level": "address",
         "location_text": "the Global Citizen Festival",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Central Park"
       }
     },
@@ -4203,6 +4991,10 @@
         "precision_level": "address",
         "location_text": "Central Park",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the Global Citizen Festival"
       }
     },
@@ -4224,7 +5016,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York’s",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4245,7 +5041,11 @@
         "mapped_location": "Partake NYC",
         "precision_level": "address",
         "location_text": "Partake NYC",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4266,7 +5066,11 @@
         "mapped_location": "new york city",
         "precision_level": "address",
         "location_text": "new york city",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4287,7 +5091,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "NYC &",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4308,7 +5116,11 @@
         "mapped_location": "New York City's Upper West Side",
         "precision_level": "address",
         "location_text": "New York City's Upper West Side",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4329,7 +5141,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4350,7 +5166,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4371,7 +5191,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4392,7 +5216,11 @@
         "mapped_location": "NYC’s Palladium",
         "precision_level": "address",
         "location_text": "NYC’s Palladium",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4413,7 +5241,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4434,7 +5266,11 @@
         "mapped_location": "Forest Hills",
         "precision_level": "address",
         "location_text": "Forest Hills",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4455,7 +5291,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4476,7 +5316,11 @@
         "mapped_location": "Lower Manhattan",
         "precision_level": "address",
         "location_text": "Lower Manhattan",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4497,7 +5341,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4518,7 +5366,11 @@
         "mapped_location": "Marble Hill",
         "precision_level": "address",
         "location_text": "Marble Hill",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4539,7 +5391,11 @@
         "mapped_location": "• 1400 Broadway",
         "precision_level": "address",
         "location_text": "• 1400 Broadway",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4560,7 +5416,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4581,7 +5441,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4602,7 +5466,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4623,7 +5491,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4644,7 +5516,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4665,7 +5541,11 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4686,7 +5566,11 @@
         "mapped_location": "the Brooklyn Bridge",
         "precision_level": "address",
         "location_text": "the Brooklyn Bridge",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4707,7 +5591,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4728,7 +5616,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4749,7 +5641,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4770,7 +5666,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4791,7 +5691,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4812,7 +5716,11 @@
         "mapped_location": "Madison Square Garden",
         "precision_level": "address",
         "location_text": "Madison Square Garden",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4833,7 +5741,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4855,6 +5767,10 @@
         "precision_level": "address",
         "location_text": "6th Avenue",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "7th Avenue"
       }
     },
@@ -4877,6 +5793,10 @@
         "precision_level": "address",
         "location_text": "7th Avenue",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "6th Avenue"
       }
     },
@@ -4898,7 +5818,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4919,7 +5843,11 @@
         "mapped_location": "Lower Manhattan",
         "precision_level": "address",
         "location_text": "Lower Manhattan",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4940,7 +5868,11 @@
         "mapped_location": "the Intrepid Museum",
         "precision_level": "address",
         "location_text": "the Intrepid Museum",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4961,7 +5893,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -4982,7 +5918,11 @@
         "mapped_location": "new york city",
         "precision_level": "address",
         "location_text": "new york city",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5003,7 +5943,11 @@
         "mapped_location": "Shea Stadium",
         "precision_level": "address",
         "location_text": "Shea Stadium",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5024,7 +5968,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5045,7 +5993,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5066,7 +6018,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5087,7 +6043,11 @@
         "mapped_location": "Nitehawk Prospect Park",
         "precision_level": "address",
         "location_text": "Nitehawk Prospect Park",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5108,7 +6068,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5129,7 +6093,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York's",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5150,7 +6118,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5171,7 +6143,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5193,6 +6169,10 @@
         "precision_level": "state",
         "location_text": "NYC Two",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Fifth Avenue, Times Square"
       }
     },
@@ -5215,6 +6195,10 @@
         "precision_level": "address",
         "location_text": "Fifth Avenue",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "NYC Two, Times Square"
       }
     },
@@ -5237,6 +6221,10 @@
         "precision_level": "address",
         "location_text": "Times Square",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "NYC Two, Fifth Avenue"
       }
     },
@@ -5258,7 +6246,11 @@
         "mapped_location": "West Village",
         "precision_level": "address",
         "location_text": "West Village",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5279,7 +6271,11 @@
         "mapped_location": "Manhattan, NYC, NY 🇺🇸",
         "precision_level": "address",
         "location_text": "Manhattan, NYC, NY 🇺🇸",
-        "confidence": 0.75
+        "confidence": 0.75,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5300,7 +6296,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5321,7 +6321,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5342,7 +6346,11 @@
         "mapped_location": "the Brooklyn Bridge",
         "precision_level": "address",
         "location_text": "the Brooklyn Bridge",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5363,7 +6371,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5384,7 +6396,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5405,7 +6421,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5426,7 +6446,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5447,7 +6471,11 @@
         "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
         "precision_level": "address",
         "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5468,7 +6496,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5489,7 +6521,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5510,7 +6546,11 @@
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York's",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5531,7 +6571,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5552,7 +6596,11 @@
         "mapped_location": "Central Park",
         "precision_level": "address",
         "location_text": "Central Park",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5573,7 +6621,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5595,6 +6647,10 @@
         "precision_level": "address",
         "location_text": "Madison Square Garden",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City"
       }
     },
@@ -5617,6 +6673,10 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Madison Square Garden"
       }
     },
@@ -5638,7 +6698,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5659,7 +6723,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5680,7 +6748,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5701,7 +6773,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5722,7 +6798,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5743,7 +6823,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5764,7 +6848,11 @@
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5785,7 +6873,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5806,7 +6898,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5827,7 +6923,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5848,7 +6948,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5869,7 +6973,11 @@
         "mapped_location": "Jackson Heights-Roosevelt Av",
         "precision_level": "address",
         "location_text": "Jackson Heights-Roosevelt Av",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5890,7 +6998,11 @@
         "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
         "precision_level": "address (clarified)",
         "location_text": "Times Square BEFORE",
-        "confidence": 0.85
+        "confidence": 0.85,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5911,7 +7023,11 @@
         "mapped_location": "the Jack Shainman Gallery",
         "precision_level": "address",
         "location_text": "the Jack Shainman Gallery",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5932,7 +7048,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5953,7 +7073,11 @@
         "mapped_location": "new York",
         "precision_level": "address",
         "location_text": "new York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5974,7 +7098,11 @@
         "mapped_location": "new york",
         "precision_level": "address",
         "location_text": "new york",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -5995,7 +7123,11 @@
         "mapped_location": "Madison Square Garden",
         "precision_level": "address",
         "location_text": "Madison Square Garden",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6016,7 +7148,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6037,7 +7173,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6059,6 +7199,10 @@
         "precision_level": "address",
         "location_text": "Chatham Square",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City"
       }
     },
@@ -6081,6 +7225,10 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Chatham Square"
       }
     },
@@ -6102,7 +7250,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6123,7 +7275,11 @@
         "mapped_location": "Chelsea Market",
         "precision_level": "address",
         "location_text": "Chelsea Market",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6144,7 +7300,11 @@
         "mapped_location": "Liberty St.",
         "precision_level": "address",
         "location_text": "Liberty St.",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6166,6 +7326,10 @@
         "precision_level": "address",
         "location_text": "Atlantic Avenue",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City’s"
       }
     },
@@ -6188,6 +7352,10 @@
         "precision_level": "address",
         "location_text": "New York City’s",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "Atlantic Avenue"
       }
     },
@@ -6209,7 +7377,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6230,7 +7402,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6252,6 +7428,10 @@
         "precision_level": "address",
         "location_text": "the United Nations General Assembly",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York"
       }
     },
@@ -6274,6 +7454,10 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "the United Nations General Assembly"
       }
     },
@@ -6295,7 +7479,11 @@
         "mapped_location": "Hostos Center",
         "precision_level": "address",
         "location_text": "Hostos Center",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6316,7 +7504,11 @@
         "mapped_location": "Brooklyn Bridge",
         "precision_level": "address",
         "location_text": "Brooklyn Bridge",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6337,7 +7529,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6359,6 +7555,10 @@
         "precision_level": "state",
         "location_text": "New York City's",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City"
       }
     },
@@ -6381,6 +7581,10 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null,
         "other_locations": "New York City's"
       }
     },
@@ -6402,7 +7606,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6423,7 +7631,11 @@
         "mapped_location": "Cobble Hill",
         "precision_level": "address",
         "location_text": "Cobble Hill",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6444,7 +7656,11 @@
         "mapped_location": "Jersey City",
         "precision_level": "address",
         "location_text": "Jersey City",
-        "confidence": 1.0
+        "confidence": 1.0,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6465,7 +7681,11 @@
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
       }
     },
     {
@@ -6486,7 +7706,261 @@
         "mapped_location": "Queens USA",
         "precision_level": "address",
         "location_text": "Queens USA",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "address_type": null,
+        "provenance": null,
+        "borough_conflict": false,
+        "specificity_score": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxsgp2vof524",
+        "handle": "porcellato.bsky.social",
+        "text": "Rare Nanotyrannus skeleton goes on display at NYC Sotheby’s before heading to historic auction https://ift.tt/U6R8dzZ",
+        "created_at": "2026-10-14T01:51:05+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxsgp2vof524",
+        "mapped_location": "NYC Sotheby’s",
+        "precision_level": "address",
+        "location_text": "NYC Sotheby’s",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3mdmbxmlkpuvzazbyvc7hcnt/app.bsky.feed.post/3mxsgp2omds2y",
+        "handle": "6happy.bsky.social",
+        "text": "Early Voting begins in New York, in 12 days on Saturday, October 24th. Vote the bums OUT!",
+        "created_at": "2026-10-14T01:51:05.587Z",
+        "source": "https://bsky.app/profile/6happy.bsky.social/post/3mxsgp2omds2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qu2p7mwyewihbz7x43qrnkyj/app.bsky.feed.post/3mxsgqezwhk2p",
+        "handle": "sailor-mom.bsky.social",
+        "text": "In the criminal justice system, sexually based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.",
+        "created_at": "2026-10-14T01:51:49.995Z",
+        "source": "https://bsky.app/profile/sailor-mom.bsky.social/post/3mxsgqezwhk2p",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3mxsgqopkqt23",
+        "handle": "weloveproduct.co",
+        "text": "Tech Holding is looking for a Product Manager | Contract | Hybrid, NYC in New York, United States\nhttps://weloveproduct.co/jobs/product-manager-or-contract-or-hybrid-nyc-tech-holding-348yus\n\n#productmanager #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-14T01:52:00.097Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3mxsgqopkqt23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:maimfazhqky2em275mbvddpi/app.bsky.feed.post/3mxsgsuea2c2v",
+        "handle": "paulinepark.bsky.social",
+        "text": "I passed through Washington Square Park in Manhattan five years ago yesterday (10.12.21) & found the fountain on & the Empire State Building clearly visible through the #WashingtonSquareArch, which was designed by #StanfordWhite & dedicated in 1895: \n\nen.wikipedia.org/wiki/Washing...",
+        "created_at": "2026-10-14T01:53:13.168Z",
+        "source": "https://bsky.app/profile/paulinepark.bsky.social/post/3mxsgsuea2c2v",
+        "mapped_location": "Washington Square Park",
+        "precision_level": "address",
+        "location_text": "Washington Square Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ksolpsjhv5bz3xzuixrbgae4/app.bsky.feed.post/3mxsgt4wv4c2g",
+        "handle": "mayorseidel.bsky.social",
+        "text": "Historians have no idea whether Samuel “Black Sam” Fraunces, the Jamaican man who owned the bar in New York the founders liked so much they planned the revolution and ran the government out of it, was Black or a white guy with black hair",
+        "created_at": "2026-10-14T01:53:22.174Z",
+        "source": "https://bsky.app/profile/mayorseidel.bsky.social/post/3mxsgt4wv4c2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qhj2u35vxkh7tiyqlgwd2kdx/app.bsky.feed.post/3mxsgv2j4lf2r",
+        "handle": "ctaalerts.bsky.social",
+        "text": "🚍 #62H Archer/Harlem and #63W West 63rd buses are temporarily rerouted in both directions due to street blockage near 63rd/76th Avenue.",
+        "created_at": "2026-10-14T01:54:26.679Z",
+        "source": "https://bsky.app/profile/ctaalerts.bsky.social/post/3mxsgv2j4lf2r",
+        "mapped_location": "63rd/76th Avenue",
+        "precision_level": "address",
+        "location_text": "63rd/76th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yskzf2l6rffwybtmqxmhswuk/app.bsky.feed.post/3mxsgwsc7752g",
+        "handle": "legitctaalerts.bsky.social",
+        "text": "[Minor Delays / Reroute] #62H Archer/Harlem and #63W West 63rd buses are temporarily rerouted in both directions due to street blockage near 63rd/76th Avenue.\n\nhttp://www.transitchicago.com/travel_information/alert_detail.aspx?AlertId=118076",
+        "created_at": "2026-10-14T01:55:24.781Z",
+        "source": "https://bsky.app/profile/legitctaalerts.bsky.social/post/3mxsgwsc7752g",
+        "mapped_location": "63rd/76th Avenue",
+        "precision_level": "address",
+        "location_text": "63rd/76th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ed67iqsguk3xkywmnjkd6bx3/app.bsky.feed.post/3mxsgx4teql2j",
+        "handle": "hermesvector.bsky.social",
+        "text": "Rare Nanotyrannus fossil goes on display at Sotheby's before auction\n\nA rare Nanotyrannus skeleton, a distant cousin of the T. rex, is displayed at Sotheby's in New York ahead of its Oct. 27 auction. The fossil is estimated to fetch between $6 and $9 million.",
+        "created_at": "2026-10-14T01:55:36.117Z",
+        "source": "https://bsky.app/profile/hermesvector.bsky.social/post/3mxsgx4teql2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sfp2txckre5l54qp73pacx4b/app.bsky.feed.post/3mxsgxycc322w",
+        "handle": "plicketyplunk.bsky.social",
+        "text": "I remember reading about him in New York magazine and Spy magazine. Spy called him a \"short fingered vulgarian\" and listed all the contractors he stiffed over the years. I could not believe anyone would vote for him.",
+        "created_at": "2026-10-14T01:56:05.077Z",
+        "source": "https://bsky.app/profile/plicketyplunk.bsky.social/post/3mxsgxycc322w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

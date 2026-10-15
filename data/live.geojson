@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-15T05:41:18.636531Z",
-    "total_pins": 433
+    "generated_at": "2026-10-15T10:26:38.410437Z",
+    "total_pins": 440
   },
   "features": [
     {
@@ -10911,6 +10911,185 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-15T10:20:35.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
+        "mapped_location": "6th Avenue",
+        "precision_level": "address",
+        "location_text": "6th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "7th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-15T10:20:35.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
+        "mapped_location": "7th Avenue",
+        "precision_level": "address",
+        "location_text": "7th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "6th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
+        "handle": "greendayitaly.bsky.social",
+        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
+        "created_at": "2026-10-15T10:21:41.250Z",
+        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
+        "mapped_location": "Irving Plaza",
+        "precision_level": "address",
+        "location_text": "Irving Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
+        "handle": "greendayitaly.bsky.social",
+        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
+        "created_at": "2026-10-15T10:21:41.250Z",
+        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Irving Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kmrb2hyoblhc35bvckxgsx6u/app.bsky.feed.post/3mxvtpdbxab2i",
+        "handle": "ai-models.bsky.social",
+        "text": "The Viral Politics of the 'Hot Girl' Campaign Trend in New York\n\nThe New York mayoral race has been transformed by a viral trend of grassroots 'Hot Girl' movements, pitting supporters of Zohran Mamdani against those backing Andrew Cuomo.\n\nRead more\n\n#NewYorkPolitics #ZohranMamdani #AndrewCuomo",
+        "created_at": "2026-10-15T10:21:51.094Z",
+        "source": "https://bsky.app/profile/ai-models.bsky.social/post/3mxvtpdbxab2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97425,
+          40.5896199
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxvttcmpzn62",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "F trains are running with delays in both directions while we address a mechanical problem on a train near Avenue X.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-15T10:22:00.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxvttcmpzn62",
+        "mapped_location": "Avenue X, Shell Road, Gravesend, Brooklyn, Kings County, New York, 11223, United States",
+        "precision_level": "unclassified",
+        "location_text": "Avenue X.",
+        "confidence": 0.8,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qui23rmxxqnod4pdbmdvf5rr/app.bsky.feed.post/3mxvtpozuek25",
+        "handle": "remonthisday.bsky.social",
+        "text": "On this day 20 years ago, Patti Smith played the final show at CBGB in New York City. On Halloween, it closed its doors after 33 years in business.",
+        "created_at": "2026-10-15T10:22:04.739Z",
+        "source": "https://bsky.app/profile/remonthisday.bsky.social/post/3mxvtpozuek25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

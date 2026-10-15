@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-14T22:46:30.473748Z",
-    "total_pins": 423
+    "generated_at": "2026-10-15T01:01:33.585538Z",
+    "total_pins": 433
   },
   "features": [
     {
@@ -10654,6 +10654,258 @@
         "mapped_location": "Chambers St.",
         "precision_level": "address",
         "location_text": "Chambers St.",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjwhq67b25ikeub4aoqm2p2a/app.bsky.feed.post/3mxutyu5xss2g",
+        "handle": "kennymathieson.bsky.social",
+        "text": "About to head home after 40 days in NYC.✈️\n\nTwo Broadway shows.\nFour concerts (photographed three of them).\nFour days photographing New York Comic Con.\nToured City Hall.\nToured the Woolworth Building.\nPhotographed skateboarders.\nPhotographed numerous sunsets. \n\njetBlue business class is VERY nice! 😎🥳",
+        "created_at": "2026-10-15T00:54:32.412Z",
+        "source": "https://bsky.app/profile/kennymathieson.bsky.social/post/3mxutyu5xss2g",
+        "mapped_location": "Toured City Hall",
+        "precision_level": "address",
+        "location_text": "Toured City Hall",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.753
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bxxvmt5burfpxvqrkyusbxhe/app.bsky.feed.post/3mxuu2g64vc2b",
+        "handle": "jessica-33095.bsky.social",
+        "text": "Pooh stories. I have a first edition \"Winnie the Pooh\"(1926) and later editions of \"When We Were Very Young\"(1924), \"Now We Are Six\"(1927) and \"The House on Pooh Corner\"(1928) and I've enjoyed them since I was little. The original toys are housed at the New York Library (I did not know this >>>",
+        "created_at": "2026-10-15T00:55:24.849Z",
+        "source": "https://bsky.app/profile/jessica-33095.bsky.social/post/3mxuu2g64vc2b",
+        "mapped_location": "the New York Library",
+        "precision_level": "address",
+        "location_text": "the New York Library",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zqk3p4rmcbtere5c5cqebcg4/app.bsky.feed.post/3mxuu4cgtnc23",
+        "handle": "nydeliveryguy.bsky.social",
+        "text": "If you ever in New York, I’d love to photograph you. Happy to send you some samples of my work if you’re interested",
+        "created_at": "2026-10-15T00:56:28.050Z",
+        "source": "https://bsky.app/profile/nydeliveryguy.bsky.social/post/3mxuu4cgtnc23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xiebgalasvum7uvfmciyolas/app.bsky.feed.post/3mxuu4f6ffk26",
+        "handle": "althewriternyc.bsky.social",
+        "text": "Went to @brooklynmuseum.org today and see the manga exhibition. Saw lots of good stuff. If you’re in the New York area check it out. \n#manga #art #comics",
+        "created_at": "2026-10-15T00:56:30.898Z",
+        "source": "https://bsky.app/profile/althewriternyc.bsky.social/post/3mxuu4f6ffk26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mxuu5c5ggh2c",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Uptown [2] trains are running with delays after we removed train in need of repair from service at Flatbush Av-Brooklyn College.",
+        "created_at": "2026-10-15T00:57:00.827Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mxuu5c5ggh2c",
+        "mapped_location": "Flatbush Av-Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Flatbush Av-Brooklyn College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwbj4us2hychxijd4bjbwigb/app.bsky.feed.post/3mxuu6coh672b",
+        "handle": "comicsandsnews.bsky.social",
+        "text": "Smallville star Tom Welling shared his excitement about being in New York City for New York Comic Con over the weekend—but the photo he posted captured more than just the view from his hotel room.",
+        "created_at": "2026-10-15T00:57:35.101Z",
+        "source": "https://bsky.app/profile/comicsandsnews.bsky.social/post/3mxuu6coh672b",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwbj4us2hychxijd4bjbwigb/app.bsky.feed.post/3mxuu6coh672b",
+        "handle": "comicsandsnews.bsky.social",
+        "text": "Smallville star Tom Welling shared his excitement about being in New York City for New York Comic Con over the weekend—but the photo he posted captured more than just the view from his hotel room.",
+        "created_at": "2026-10-15T00:57:35.101Z",
+        "source": "https://bsky.app/profile/comicsandsnews.bsky.social/post/3mxuu6coh672b",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxuu6w2c2r72",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 2 trains are running with delays after we removed train in need of repair from service at Flatbush Av-Brooklyn College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-15T00:57:53.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxuu6w2c2r72",
+        "mapped_location": "Flatbush Av-Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Flatbush Av-Brooklyn College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g7bwmiaavgfbt5ic54gfkyd3/app.bsky.feed.post/3mxuu77b3rg23",
+        "handle": "lightnews.app",
+        "text": "Wadephul meets Lavrov; talks collapse\n\nGerman Foreign Minister Johann Wadephul met Russia's Sergei Lavrov in New York to raise the Leipzig drone incident and grain deliveries; the talks produced no result and drew criticism.\n\nWith posts by 🎓Taras Kuzio, 🎓Scott Lucas.",
+        "created_at": "2026-10-15T00:58:04Z",
+        "source": "https://bsky.app/profile/lightnews.app/post/3mxuu77b3rg23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxuudqwtvno2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 1 trains are running with delays after NYPD conducted an investigation on a train at WTC Cortlandt.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-15T01:00:05.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxuudqwtvno2",
+        "mapped_location": "WTC Cortlandt",
+        "precision_level": "address",
+        "location_text": "WTC Cortlandt",
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-15T19:19:05.683911Z",
-    "total_pins": 17
+    "generated_at": "2026-10-15T22:27:28.001089Z",
+    "total_pins": 21
   },
   "features": [
     {
@@ -434,6 +434,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sn47ul5f5vprrmmi53qifztu/app.bsky.feed.post/3mxx3umto5s2z",
+        "handle": "jneuandcats.bsky.social",
+        "text": "Home fries in Florida and home fries in New York are two completely different foods.",
+        "created_at": "2026-10-15T22:20:39.927Z",
+        "source": "https://bsky.app/profile/jneuandcats.bsky.social/post/3mxx3umto5s2z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjmnwzpxbzehorgdc2motdcj/app.bsky.feed.post/3mxx437xbf72f",
+        "handle": "cbsnewyork.bsky.social",
+        "text": "Coach Jake and his boys' soccer team have won 21 public school city titles, which is more than any other school in New York City. Since the mid-1990s, the coach has been helping his kids not just succeed on the pitch but off it, too. Luis Miguel Echegaray reports.",
+        "created_at": "2026-10-15T22:24:21.248Z",
+        "source": "https://bsky.app/profile/cbsnewyork.bsky.social/post/3mxx437xbf72f",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mxx44bvn4k25",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌒 on Thursday, October 15, 2026 at 18:24 in New York City.\n\nCurrent conditions (via NOAA):\n🌞 Fair/clear\nTemperature: 0°",
+        "created_at": "2026-10-15T22:24:56.630Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mxx44bvn4k25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:beilpv3ekhl6hn25ya45vffn/app.bsky.feed.post/3mxx45mlikc22",
+        "handle": "context776.bsky.social",
+        "text": "Neurologist arrested for sexually abusing patients at East Village medical office\nDr. Tariq Lamki, 51, has been accused of molesting his patients, women aged 32 and 23, under the guise of giving them massages as they lay in a closed-door exam room at 14th Street Medical Arts in the East Village.",
+        "created_at": "2026-10-15T22:25:41.654Z",
+        "source": "https://bsky.app/profile/context776.bsky.social/post/3mxx45mlikc22",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-15T10:26:38.427562Z",
-    "total_pins": 7
+    "generated_at": "2026-10-15T15:20:28.970958Z",
+    "total_pins": 10
   },
   "features": [
     {
@@ -182,6 +182,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:co5wnr4bpvjjomc2jfezef5m/app.bsky.feed.post/3mxwe5eziyt2x",
+        "handle": "gayfansguide.com",
+        "text": "New York Magazine's Men's Style debut shoots Isaac Cole Powell and Brandon Flynn at the Russian & Turkish Baths. Brandon Flynn: \"It's like naked church.\" buff.ly/jiocvLQ",
+        "created_at": "2026-10-15T15:16:03.898Z",
+        "source": "https://bsky.app/profile/gayfansguide.com/post/3mxwe5eziyt2x",
+        "mapped_location": "the Russian & Turkish Baths",
+        "precision_level": "address",
+        "location_text": "the Russian & Turkish Baths",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lics2ozcj7cdorpk63mee2kb/app.bsky.feed.post/3mxwe5le3lk2a",
+        "handle": "ajit4g.bsky.social",
+        "text": "\"Deals cost lives.\" \n\nSupporters of Ukraine gathered in Times Square in New York to protest against trade deals with Moscow and the easing of sanctions against Russia. 😡",
+        "created_at": "2026-10-15T15:16:10.556Z",
+        "source": "https://bsky.app/profile/ajit4g.bsky.social/post/3mxwe5le3lk2a",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lics2ozcj7cdorpk63mee2kb/app.bsky.feed.post/3mxwe5le3lk2a",
+        "handle": "ajit4g.bsky.social",
+        "text": "\"Deals cost lives.\" \n\nSupporters of Ukraine gathered in Times Square in New York to protest against trade deals with Moscow and the easing of sanctions against Russia. 😡",
+        "created_at": "2026-10-15T15:16:10.556Z",
+        "source": "https://bsky.app/profile/ajit4g.bsky.social/post/3mxwe5le3lk2a",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Times Square"
       }
     }
   ]

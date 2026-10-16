@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-15T22:27:28.001089Z",
-    "total_pins": 21
+    "generated_at": "2026-10-16T00:41:29.497246Z",
+    "total_pins": 24
   },
   "features": [
     {
@@ -534,6 +534,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g2ooqbjnxuwatleytaxp5bk2/app.bsky.feed.post/3mxxdixnzqk24",
+        "handle": "mountgellert.bsky.social",
+        "text": "ignitenyc.github.io/2026/ if you have crowd who are in New York area or you are in New York area - you are warmly welcome to join! We have some Microsoft MVP presenters as well! Also food, discussions, and more! Did I mention it is free? And it's on November 16th! #IgniteNYC",
+        "created_at": "2026-10-16T00:37:18.560Z",
+        "source": "https://bsky.app/profile/mountgellert.bsky.social/post/3mxxdixnzqk24",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kb3hzw3g5abobjm6ulbwjduc/app.bsky.feed.post/3mxxdnyns6s23",
+        "handle": "bambooshooti.bsky.social",
+        "text": "Jackson abandoned poetry and spent months in New York City’s Astor Library, researching federal records. She wrote case studies detailing government betrayals, violence and forced relocations of seven Native American tribes. She published her work, A Century of Dishonor, in January 1881. /5",
+        "created_at": "2026-10-16T00:39:55.007Z",
+        "source": "https://bsky.app/profile/bambooshooti.bsky.social/post/3mxxdnyns6s23",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxxdnwuksw2x",
+        "handle": "laviezine.bsky.social",
+        "text": "‘The Only Living Pickpocket in New York’ Soundtrack Album Details\n\nhttps://www.laviezine.com/1663222/the-only-living-pickpocket-in-new-york-soundtrack-album-details/\n\nMilan Records will release a soundtrack album for the crime thriller The Only Living Pickpocket in New York. The album features …",
+        "created_at": "2026-10-16T00:40:03+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxxdnwuksw2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

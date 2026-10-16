@@ -1,185 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-16T18:30:06.903930Z",
-    "total_pins": 58
+    "generated_at": "2026-10-16T21:38:08.582708Z",
+    "total_pins": 53
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:usy35uemna7z3rnkyw4sjkpo/app.bsky.feed.post/3mxucb5vykk2s",
-        "handle": "blreview.bsky.social",
-        "text": "Please join us for BLR's 25th anniversary celebration on November 12 at the historic Century Club in NYC. 🎉 We will honor BLR’s 25 years as well as our extraordinary founder, Danielle Ofri, whose vision has helped shape BLR into the one-of-a-kind community it is today.\n\nblreview.org/gala/",
-        "created_at": "2026-10-14T19:37:03.689Z",
-        "source": "https://bsky.app/profile/blreview.bsky.social/post/3mxucb5vykk2s",
-        "mapped_location": "historic Century Club",
-        "precision_level": "address",
-        "location_text": "historic Century Club",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nilpzbecixhdw7tiwoorqkzf/app.bsky.feed.post/3mxuces7gik2t",
-        "handle": "hecatesgirl.bsky.social",
-        "text": "I wish it could be sooner, but still wonderful news. Horse-drawn carriages in New York City expected to be outlawed share.google/15BTMaLYnWs7...",
-        "created_at": "2026-10-14T19:39:05.637Z",
-        "source": "https://bsky.app/profile/hecatesgirl.bsky.social/post/3mxuces7gik2t",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:akrx2dz7tnr4vdzlolq3tsb4/app.bsky.feed.post/3mxuchzdaak2i",
-        "handle": "aafederation.bsky.social",
-        "text": "Last week, AAF Director of Programs Ahyoung Kim shared testimony during the People’s Hearing on Immigration Enforcement about how Asian immigrant small business owners and Asian communities have been impacted by ICE enforcement in New York.",
-        "created_at": "2026-10-14T19:40:53.794Z",
-        "source": "https://bsky.app/profile/aafederation.bsky.social/post/3mxuchzdaak2i",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.992,
-          40.693
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:d6g74ym7bykjmxoyhrzcmfjp/app.bsky.feed.post/3mxuci6i7k22h",
-        "handle": "pfracassi.bsky.social",
-        "text": "🚨 EVENT ALERT 🚨\n\nOn November 9th I'll be appearing with Victor LaValle at The Twisted Spine in Brooklyn, NY, to promote the paperback release of THE AUTUMN SPRINGS RETIREMENT HOME MASSACRE and the reissue of BEHOLD THE VOID.\n\nIf you're in the area, please come by!",
-        "created_at": "2026-10-14T19:40:59.200Z",
-        "source": "https://bsky.app/profile/pfracassi.bsky.social/post/3mxuci6i7k22h",
-        "mapped_location": "The Twisted Spine",
-        "precision_level": "address",
-        "location_text": "The Twisted Spine",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3mxucicz7d22i",
-        "handle": "usnewsbriefly.bsky.social",
-        "text": "Oscar Belgal, an ICE detainee, was shot by an ICE agent and is held in solitary confinement at MDC Brooklyn with alleged inadequate medical care.\n",
-        "created_at": "2026-10-14T19:41:03.736Z",
-        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3mxucicz7d22i",
-        "mapped_location": "MDC Brooklyn",
-        "precision_level": "address",
-        "location_text": "MDC Brooklyn",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l5iff6hthjnlc3eh5oizvnn4/app.bsky.feed.post/3mxucjbmf4r2k",
-        "handle": "leftwingbriefly.bsky.social",
-        "text": "Oscar Belgal, an ICE detainee, was shot by an ICE agent and is held in solitary confinement at MDC Brooklyn with alleged inadequate medical care.\n",
-        "created_at": "2026-10-14T19:41:35.962Z",
-        "source": "https://bsky.app/profile/leftwingbriefly.bsky.social/post/3mxucjbmf4r2k",
-        "mapped_location": "MDC Brooklyn",
-        "precision_level": "address",
-        "location_text": "MDC Brooklyn",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mxucjxbjtw22",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "Oscar Belgal, an ICE detainee, was shot by an ICE agent and is held in solitary confinement at MDC Brooklyn with alleged inadequate medical care.\n",
-        "created_at": "2026-10-14T19:41:58.529Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mxucjxbjtw22",
-        "mapped_location": "MDC Brooklyn",
-        "precision_level": "address",
-        "location_text": "MDC Brooklyn",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1461,6 +1286,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.726
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uwfo2v6bzhsigf7cbekv426n/app.bsky.feed.post/3mxzjmkh7322k",
+        "handle": "gmskarka.bsky.social",
+        "text": "I once worked at Mondo Kim’s in the East Village for about 4 hours… I found out it was shady as fuck (they wanted to pay me cash off the books, among other things).",
+        "created_at": "2026-10-16T21:32:00.851Z",
+        "source": "https://bsky.app/profile/gmskarka.bsky.social/post/3mxzjmkh7322k",
+        "mapped_location": "Mondo Kim’s",
+        "precision_level": "address",
+        "location_text": "Mondo Kim’s",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9550233,
+          40.775479
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fepht7jul2okcijt3z4jpsei/app.bsky.feed.post/3mxzjq2mbns26",
+        "handle": "uppereastsite.com",
+        "text": "Construction has begun on the specialty food market Pop Up Grocer's Upper East Side expansion with its opening timeline revealed. Full story on Upper East Site",
+        "created_at": "2026-10-16T21:33:58.453Z",
+        "source": "https://bsky.app/profile/uppereastsite.com/post/3mxzjq2mbns26",
+        "mapped_location": "Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+        "precision_level": "city",
+        "location_text": "Upper East Side",
+        "confidence": 0.95,
+        "address_type": "quarter",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-16T14:40:04.059596Z",
-    "total_pins": 10
+    "generated_at": "2026-10-16T18:30:06.906758Z",
+    "total_pins": 14
   },
   "features": [
     {
@@ -253,6 +253,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882,
+          40.864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hox66gu2ekeejpk7zo2q7ifu/app.bsky.feed.post/3mxz72hac4k2s",
+        "handle": "paminnyc.bsky.social",
+        "text": "Positive photo day 2403: We are nowhere near peak #FallFoliage but Van Cortlandt Park is looking pretty. #naturephotography (and some #ducks 🦆). #Bronx #NYC @vcpalliance.bsky.social",
+        "created_at": "2026-10-16T18:22:56.063Z",
+        "source": "https://bsky.app/profile/paminnyc.bsky.social/post/3mxz72hac4k2s",
+        "mapped_location": "Van Cortlandt Park",
+        "precision_level": "address",
+        "location_text": "Van Cortlandt Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6jeydvujiww5eseuwlxugcga/app.bsky.feed.post/3mxz7bs3v5c2t",
+        "handle": "nycindieff.bsky.social",
+        "text": "🎬 Meet Cat Nap at the 11th Annual NYC Short Comedy Film Festival!\n\nIvy (Meg Millane) is desperate to prove she can be a good friend—but going undercover takes on a whole new meaning! 😹👀\n\n🎬 Director & Writer: Carolyn Maher\n📅 Nov 8, 2026 | 📍 The Producers Club, NYC\n\n🎟️ Get tickets: nycscff.com/tickets/",
+        "created_at": "2026-10-16T18:27:02.353Z",
+        "source": "https://bsky.app/profile/nycindieff.bsky.social/post/3mxz7bs3v5c2t",
+        "mapped_location": "The Producers Club, NYC",
+        "precision_level": "address",
+        "location_text": "The Producers Club, NYC",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i7hqwmnvsjojn74352bzph6b/app.bsky.feed.post/3mxz7cwydkk22",
+        "handle": "mt1072.bsky.social",
+        "text": "If you're a ⚪ man, you have no credibility since you're not the loyal base of the Democrats party. Go work on the majority of ⚪voters who vote Rethuglikkkan every election instead of bashing Democrats who you likely can't even vote for unless you're in New York.",
+        "created_at": "2026-10-16T18:27:41.034Z",
+        "source": "https://bsky.app/profile/mt1072.bsky.social/post/3mxz7cwydkk22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:usshby5g7basoxzvlwjgpcqp/app.bsky.feed.post/3mxz7dthaxs2a",
+        "handle": "brunoborges.bsky.social",
+        "text": "Let's build an AI agent.\n\nJoin my hands-on workshop at AI DevCon New York City, organized by Tessl, November 2nd. We'll build a museum exhibit curator using the GitHub Copilot SDK, custom tools, and MCP.\n\ntessl.io/speaker/brun...",
+        "created_at": "2026-10-16T18:28:10.884Z",
+        "source": "https://bsky.app/profile/brunoborges.bsky.social/post/3mxz7dthaxs2a",
+        "mapped_location": "AI DevCon New York City",
+        "precision_level": "address",
+        "location_text": "AI DevCon New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

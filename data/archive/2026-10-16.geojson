@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-16T05:08:59.100054Z",
+    "total_pins": 6
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mnq3zflqpylic7ci5aswomtw/app.bsky.feed.post/3mxxscvs7vs2m",
+        "handle": "hart28.bsky.social",
+        "text": "👺Republican nominee for Congress in New York’s 21st Congressional District, Anthony Constantino, told a reporter to “Ask Grok” when questioned on if he knew what the largest city in his district was and said he doesn’t memorize things because “there’s a thing called SI now.”🇺🇸👺",
+        "created_at": "2026-10-16T05:02:21.403Z",
+        "source": "https://bsky.app/profile/hart28.bsky.social/post/3mxxscvs7vs2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.95,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7o4qpcy6xipivpeivurx7foc/app.bsky.feed.post/3mxxsgzsehy2h",
+        "handle": "hallucinati.bsky.social",
+        "text": "This hour on BlueSky: The Metropolitan Opera in New York playing the Ukrainian National Anthem, honoring Ukraine 🇺🇦. \nReaction ranges from emotional support for Ukraine to praise for the gesture by the Met Opera. \nMood: 🙌❤️🥺",
+        "created_at": "2026-10-16T05:04:39.764103+00:00",
+        "source": "https://bsky.app/profile/hallucinati.bsky.social/post/3mxxsgzsehy2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fooya4qjwagfm5nt2vvdfxum/app.bsky.feed.post/3mxxshekymru2",
+        "handle": "fbeyeee.zpravobot.news.ap.brid.gy",
+        "text": "Roman M🐦 𝕏🔁 @JPLindsley@twitter.com:\n\nThe Metropolitan Opera in New York asked its audience to stand in solidarity with Ukraine as the orchestra played the Ukrainian national anthem.\n\nHundreds rose together, and one voice in the crowd began singing along.",
+        "created_at": "2026-10-16T05:04:44.000Z",
+        "source": "https://bsky.app/profile/fbeyeee.zpravobot.news.ap.brid.gy/post/3mxxshekymru2",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:enby5moufejuzpozgx5jcju2/app.bsky.feed.post/3mxxsk4x7w62f",
+        "handle": "kazwan.bsky.social",
+        "text": "Boris Mizhen Appreciates Elon Musk’s Vision for Innovation\n\nOne of the aspects that Boris Mizhen admires most about the Elon Musk story is the way he chose his direction early in life. New York, NY, United States, October 16, 2026 -- If you start thinking of modern-day innovators and entrepreneurs,…",
+        "created_at": "2026-10-16T05:06:23Z",
+        "source": "https://bsky.app/profile/kazwan.bsky.social/post/3mxxsk4x7w62f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v7crtqtmlrnmsuyauvrrig2c/app.bsky.feed.post/3mxxsljdsyk22",
+        "handle": "solairevibes.bsky.social",
+        "text": "He's way too soft on the zionists in New York and I think the recent polling about how many Jewish voters are leaving the Dems has people spooked on the push. Too much money at stake not to mention the deal he made with Hochul. DSA gotta get better at pressuring him.",
+        "created_at": "2026-10-16T05:07:10.339Z",
+        "source": "https://bsky.app/profile/solairevibes.bsky.social/post/3mxxsljdsyk22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ic73wnpbo2wi6fdxm2spsml/app.bsky.feed.post/3mxxsloqcjk2g",
+        "handle": "stephseattle.bsky.social",
+        "text": "I can relate 😂 did it too this summer when i was in New York.",
+        "created_at": "2026-10-16T05:07:15.990Z",
+        "source": "https://bsky.app/profile/stephseattle.bsky.social/post/3mxxsloqcjk2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

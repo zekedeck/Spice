@@ -1,185 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-17T18:01:01.656481Z",
-    "total_pins": 55
+    "generated_at": "2026-10-17T20:16:47.513332Z",
+    "total_pins": 58
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxwrcsadb224",
-        "handle": "porcellato.bsky.social",
-        "text": "New York's Plaza Hotel to close at least 4 years for facade work\n https://ift.tt/JifXrIo",
-        "created_at": "2026-10-15T19:11:43+00:00",
-        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxwrcsadb224",
-        "mapped_location": "New York's Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "New York's Plaza Hotel",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3sv6fcfaqndsylahniftbkew/app.bsky.feed.post/3mxwrdj4cg22o",
-        "handle": "highmynameishi.bsky.social",
-        "text": "We will have Chinese troops in Hawaii and NATO in New York within like 24 hours of this scenario playing out.",
-        "created_at": "2026-10-15T19:12:08.177Z",
-        "source": "https://bsky.app/profile/highmynameishi.bsky.social/post/3mxwrdj4cg22o",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2ys35qzvc265dtaltqdmgxcm/app.bsky.feed.post/3mxwriniiqz2n",
-        "handle": "worldnewsbriefly.bsky.social",
-        "text": "Maduro and Cilia Flores denied newly unsealed torture charges in New York court; a not-guilty plea was entered and their trial is scheduled for June 14, 2027.\n",
-        "created_at": "2026-10-15T19:15:00.467Z",
-        "source": "https://bsky.app/profile/worldnewsbriefly.bsky.social/post/3mxwriniiqz2n",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3mxwriqbp772k",
-        "handle": "usnewsbriefly.bsky.social",
-        "text": "Maduro and Cilia Flores denied newly unsealed torture charges in New York court; a not-guilty plea was entered and their trial is scheduled for June 14, 2027.\n",
-        "created_at": "2026-10-15T19:15:03.388Z",
-        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3mxwriqbp772k",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vxfhlq5lqfyomecxeqidfuwh/app.bsky.feed.post/3mxwrl7atak2y",
-        "handle": "rainbowheightsclub.bsky.social",
-        "text": "Ernestine Eckstein was a leader in the New York chapter of Daughters of Bilitis, a lesbian civil rights organization, and used her\nwork and knowledge in the civil rights movement to\ninform her work in the lesbian and gay rights\nmovement.\n#SocialSupport #nysdoh #nysomh #nychealth #nycdfta",
-        "created_at": "2026-10-15T19:16:26.274Z",
-        "source": "https://bsky.app/profile/rainbowheightsclub.bsky.social/post/3mxwrl7atak2y",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ab6j4u3qbhkqyagbyt6uypok/app.bsky.feed.post/3mxwrmlkhis2s",
-        "handle": "dagmarfaye.bsky.social",
-        "text": "Yes! The first half are independent short stories, mostly set in New York. The second half is called “Eve in Hollywood” and is a novella of the adventures Evelyn from Rules of Civility has after she leaves New York. So, so good! ❤️",
-        "created_at": "2026-10-15T19:17:12.728Z",
-        "source": "https://bsky.app/profile/dagmarfaye.bsky.social/post/3mxwrmlkhis2s",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uioptydvz2htyobityudswxs/app.bsky.feed.post/3mxwrowr65k2z",
-        "handle": "hilarydavidson.bsky.social",
-        "text": "A Taste of Europe in New York City\nglutenfreeguidebook.substack.com/p/a-taste-of...",
-        "created_at": "2026-10-15T19:18:31.590Z",
-        "source": "https://bsky.app/profile/hilarydavidson.bsky.social/post/3mxwrowr65k2z",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1382,6 +1207,256 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ecfa4rkofmgddx6lhqovkynx/app.bsky.feed.post/3my3vi43vvs2e",
+        "handle": "progressivepatriot.bsky.social",
+        "text": "A few thousand at the NO KINGS March around Prospect Park, Brooklyn. \n#nokings #brooklyn",
+        "created_at": "2026-10-17T20:09:35.962Z",
+        "source": "https://bsky.app/profile/progressivepatriot.bsky.social/post/3my3vi43vvs2e",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nxrkdhilb5letnrj5mivvoqa/app.bsky.feed.post/3my3viqtees2c",
+        "handle": "grimesquare.bsky.social",
+        "text": "“Bushwick leaders are floating ways to manage the weekend party crowds on Wyckoff Avenue—which has pushed some longtime denizens to speak out about the abundance of trash, puke and late-night noise within earshot of residential blocks.”\n\ngrime-square.com/2026/10/06/h...",
+        "created_at": "2026-10-17T20:09:57.703Z",
+        "source": "https://bsky.app/profile/grimesquare.bsky.social/post/3my3viqtees2c",
+        "mapped_location": "Wyckoff Avenue",
+        "precision_level": "address",
+        "location_text": "Wyckoff Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rpgwvpx4kyvoikzvfwhhhuwh/app.bsky.feed.post/3my3vjvqjas2c",
+        "handle": "geekvibesnation.com",
+        "text": "‘The Only Living Pickpocket In New York’ Review – John Turturro Steals The Spotlight With His Best Performance Yet geekvibesnation.com/the-only-liv...",
+        "created_at": "2026-10-17T20:10:36.408Z",
+        "source": "https://bsky.app/profile/geekvibesnation.com/post/3my3vjvqjas2c",
+        "mapped_location": "New York’",
+        "precision_level": "address",
+        "location_text": "New York’",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:csjg6nizktgxvchjdmxfrrxq/app.bsky.feed.post/3my3vkvxkg22w",
+        "handle": "tisue.net",
+        "text": "I hear they followed him around the East Village like ducklings",
+        "created_at": "2026-10-17T20:11:10.190Z",
+        "source": "https://bsky.app/profile/tisue.net/post/3my3vkvxkg22w",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4jtscxgwt6ab4zatv4i2gnvt/app.bsky.feed.post/3my3vnlmwzk26",
+        "handle": "magussecundus.bsky.social",
+        "text": "It disappoints me every time when the employees of Autumn Leaves Used Bookstore on the Ithaca Commons in Ithaca, New York, must consult an online price list to offer me money for my books, even the highest quality science fiction and fantasy books.",
+        "created_at": "2026-10-17T20:12:40.022Z",
+        "source": "https://bsky.app/profile/magussecundus.bsky.social/post/3my3vnlmwzk26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dljeddfwyqao5xjwxedq53ll/app.bsky.feed.post/3my3vprf2r224",
+        "handle": "waterboysmusic.bsky.social",
+        "text": "#SteveEarle & #TheWaterboys will bring #FishermansBluesRevue to The Capitol Theatre in PORT CHESTER, New York on Dec 11. Net proceeds go to #TheKeswellSchool, a non-profit for children with Autism Spectrum Disorder. Tickets are on sale now at www.ticketmaster.com/event/1D0065...",
+        "created_at": "2026-10-17T20:13:53.154Z",
+        "source": "https://bsky.app/profile/waterboysmusic.bsky.social/post/3my3vprf2r224",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ufcloq6ty5lue4yvfkvrt73d/app.bsky.feed.post/3my3vq42jjc2k",
+        "handle": "cousey1951.bsky.social",
+        "text": "Just came from a rousing and well-attended NO KiNGS at Brooklyn's Prospect Park.",
+        "created_at": "2026-10-17T20:14:04.354Z",
+        "source": "https://bsky.app/profile/cousey1951.bsky.social/post/3my3vq42jjc2k",
+        "mapped_location": "Brooklyn's Prospect Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn's Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sqcdgoghgoo3jjptvqsr6loh/app.bsky.feed.post/3my3vqhndq226",
+        "handle": "myshkin24.bsky.social",
+        "text": "What state is  he from? In new york he would be eligible for Medicaid Waiver. Or was he on the waiver and had it taken away?\nWhatever, this is a total failure of meeting the needs of the most vulnerable. This is abominable shit!",
+        "created_at": "2026-10-17T20:14:16.504Z",
+        "source": "https://bsky.app/profile/myshkin24.bsky.social/post/3my3vqhndq226",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3my3vqqvqu222",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Police are searching for a suspect who shot and killed a man inside a Midtown Manhattan subway station, prompting train skips and road closures.\n",
+        "created_at": "2026-10-17T20:14:26.143Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3my3vqqvqu222",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3my3vrjzidn2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Police are searching for a suspect who shot and killed a man inside a Midtown Manhattan subway station, prompting train skips and road closures.\n",
+        "created_at": "2026-10-17T20:14:52.337Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3my3vrjzidn2s",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,189 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-17T07:55:09.192961Z",
-    "total_pins": 51
+    "generated_at": "2026-10-17T12:06:20.436995Z",
+    "total_pins": 52
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
-        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
-        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
-        "created_at": "2026-10-15T10:20:35.000Z",
-        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
-        "mapped_location": "6th Avenue",
-        "precision_level": "address",
-        "location_text": "6th Avenue",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "7th Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.991,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
-        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
-        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
-        "created_at": "2026-10-15T10:20:35.000Z",
-        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
-        "mapped_location": "7th Avenue",
-        "precision_level": "address",
-        "location_text": "7th Avenue",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "6th Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.73
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
-        "handle": "greendayitaly.bsky.social",
-        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
-        "created_at": "2026-10-15T10:21:41.250Z",
-        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
-        "mapped_location": "Irving Plaza",
-        "precision_level": "address",
-        "location_text": "Irving Plaza",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "New York City"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
-        "handle": "greendayitaly.bsky.social",
-        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
-        "created_at": "2026-10-15T10:21:41.250Z",
-        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1,
-        "other_locations": "Irving Plaza"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kmrb2hyoblhc35bvckxgsx6u/app.bsky.feed.post/3mxvtpdbxab2i",
-        "handle": "ai-models.bsky.social",
-        "text": "The Viral Politics of the 'Hot Girl' Campaign Trend in New York\n\nThe New York mayoral race has been transformed by a viral trend of grassroots 'Hot Girl' movements, pitting supporters of Zohran Mamdani against those backing Andrew Cuomo.\n\nRead more\n\n#NewYorkPolitics #ZohranMamdani #AndrewCuomo",
-        "created_at": "2026-10-15T10:21:51.094Z",
-        "source": "https://bsky.app/profile/ai-models.bsky.social/post/3mxvtpdbxab2i",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97425,
-          40.5896199
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxvttcmpzn62",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "F trains are running with delays in both directions while we address a mechanical problem on a train near Avenue X.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-15T10:22:00.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxvttcmpzn62",
-        "mapped_location": "Avenue X, Shell Road, Gravesend, Brooklyn, Kings County, New York, 11223, United States",
-        "precision_level": "unclassified",
-        "location_text": "Avenue X.",
-        "confidence": 0.8,
-        "address_type": "station",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qui23rmxxqnod4pdbmdvf5rr/app.bsky.feed.post/3mxvtpozuek25",
-        "handle": "remonthisday.bsky.social",
-        "text": "On this day 20 years ago, Patti Smith played the final show at CBGB in New York City. On Halloween, it closed its doors after 33 years in business.",
-        "created_at": "2026-10-15T10:22:04.739Z",
-        "source": "https://bsky.app/profile/remonthisday.bsky.social/post/3mxvtpozuek25",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1284,6 +1105,210 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:av53z3tav4kumnptg5a4xlbc/app.bsky.feed.post/3my3254z46i22",
+        "handle": "maketheroadny.bsky.social",
+        "text": "🧊 ICE has no place in our city. Full stop.\n\nThey have kidnapped 19,000 people in New York in the past year and a half. As New Yorkers, we will not let this continue. \n\nAdd your name to the pledge calling to defend our immigrant communities from ICE’s cruelty: win.newmode.net/abolishice",
+        "created_at": "2026-10-17T12:00:16.627Z",
+        "source": "https://bsky.app/profile/maketheroadny.bsky.social/post/3my3254z46i22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3my327wknxj26",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "He made classic American style something the whole world wanted to wear. Here’s to the designer behind so many timeless looks! 👏🏻❤️\n\nPost/video by Girlfromjerseycity\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-17T12:01:23.327Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3my327wknxj26",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d2wmrwpjqtum76usyewuywdi/app.bsky.feed.post/3my32bsxr4k2p",
+        "handle": "bongopirate067.bsky.social",
+        "text": "Ivana’s father, Miloš Zelníček, gave regular information to the local StB office about his daughter’s visits from the US and on his celebrity son-in-law’s career in New York.",
+        "created_at": "2026-10-17T12:02:54.004Z",
+        "source": "https://bsky.app/profile/bongopirate067.bsky.social/post/3my32bsxr4k2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.674
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
+        "handle": "mikimiki0010.bsky.social",
+        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
+        "created_at": "2026-10-17T12:04:03.418Z",
+        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
+        "mapped_location": "the Barclays Center",
+        "precision_level": "address",
+        "location_text": "the Barclays Center",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
+        "handle": "mikimiki0010.bsky.social",
+        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
+        "created_at": "2026-10-17T12:04:03.418Z",
+        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Barclays Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u666j2556rfao6n5mabwecpf/app.bsky.feed.post/3my32ewgs2a2q",
+        "handle": "thetonearm.com",
+        "text": "“the less than consistent levels of social control applied – leading rock stars busted in England, the Beats largely escaping attention in their haunts in New York and San Francisco, jazz musicians on both US coasts feeling the heat all too often and arguably disproportionately”\n\nDone and busted?:",
+        "created_at": "2026-10-17T12:04:37.887Z",
+        "source": "https://bsky.app/profile/thetonearm.com/post/3my32ewgs2a2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
+        "handle": "stratahistory.bsky.social",
+        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
+        "created_at": "2026-10-17T12:05:10.518Z",
+        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Worth and Baxter Streets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
+        "handle": "stratahistory.bsky.social",
+        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
+        "created_at": "2026-10-17T12:05:10.518Z",
+        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
+        "mapped_location": "Worth and Baxter Streets",
+        "precision_level": "address",
+        "location_text": "Worth and Baxter Streets",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City"
       }
     }
   ]

@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-18T04:40:26.123852Z",
+    "total_pins": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Van Cortland Park, Pelham Park\nTestify"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892,
+          40.867
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Van Cortland Park",
+        "precision_level": "address",
+        "location_text": "Van Cortland Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Prospect Park, Pelham Park\nTestify"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897,
+          40.843
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Pelham Park\nTestify",
+        "precision_level": "address",
+        "location_text": "Pelham Park\nTestify",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Prospect Park, Van Cortland Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z4fbrramovdg6rngl2eirsdi/app.bsky.feed.post/3my4rt2ujdk2d",
+        "handle": "theamericamadman.bsky.social",
+        "text": "If you believe in Trump's Bullshit, I have a Bridge to sell you in New York City.",
+        "created_at": "2026-10-18T04:36:48.541Z",
+        "source": "https://bsky.app/profile/theamericamadman.bsky.social/post/3my4rt2ujdk2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

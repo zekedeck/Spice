@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T13:24:42.641223Z",
-    "total_pins": 6
+    "generated_at": "2026-10-18T16:49:31.553634Z",
+    "total_pins": 9
   },
   "features": [
     {
@@ -152,6 +152,81 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ykmjpgoxxwuzrrz2e5teox/app.bsky.feed.post/3my62f75tnp2i",
+        "handle": "newyorkcitynews.bsky.social",
+        "text": "“Two Nights at Saint Vitus, the Metal Mecca of Brooklyn” — The New York Times\n\n#NewYorkCityNews #NewYorkCity #Brooklyn",
+        "created_at": "2026-10-18T16:42:46.645151+00:00",
+        "source": "https://bsky.app/profile/newyorkcitynews.bsky.social/post/3my62f75tnp2i",
+        "mapped_location": "Saint Vitus",
+        "precision_level": "address",
+        "location_text": "Saint Vitus",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qpqyay6mqatzyyet3jdgxiwi/app.bsky.feed.post/3my62fpcxy22x",
+        "handle": "sepinwall.bsky.social",
+        "text": "And on November 13, I’ll be at the Paley Center in Manhattan to talk with @jasonlynch.bsky.social www.paleycenter.org/events/conve...",
+        "created_at": "2026-10-18T16:43:03.639Z",
+        "source": "https://bsky.app/profile/sepinwall.bsky.social/post/3my62fpcxy22x",
+        "mapped_location": "the Paley Center",
+        "precision_level": "address",
+        "location_text": "the Paley Center",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3my62kxreem2i",
+        "handle": "weloveproduct.co",
+        "text": "Eulerity is looking for a AI Intern - Office of CEO & Head of Product in New York, United States\nhttps://weloveproduct.co/jobs/ai-intern-office-of-ceo-and-head-of-product-eulerity-xxx6wm\n\n#headofproduct #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-18T16:46:00.165Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3my62kxreem2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

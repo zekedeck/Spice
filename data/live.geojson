@@ -1,110 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T13:24:42.638553Z",
-    "total_pins": 60
+    "generated_at": "2026-10-18T16:49:31.544484Z",
+    "total_pins": 59
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4rdaxvvm5yrki5tvpcf3jtiy/app.bsky.feed.post/3mxyseprasv2b",
-        "handle": "wandnews.bsky.social",
-        "text": "Police in New York are searching for answers after a worker found a deceased baby girl in the recycling sorting area at a solid waste authority Wednesday. https://www.wandtv.com/2026/10/16/birth-mother-urged-come-forward-after-dead-infant-found-waste-facility/",
-        "created_at": "2026-10-16T14:36:01.872Z",
-        "source": "https://bsky.app/profile/wandnews.bsky.social/post/3mxyseprasv2b",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:a2mj7hi6j2rscrzuigygwr54/app.bsky.feed.post/3mxysgfmkim2m",
-        "handle": "uticaphoenix.bsky.social",
-        "text": "Dollar General must donate $1.875 million in goods and improve pricing at New York stores after an AG investigation.",
-        "created_at": "2026-10-16T14:36:20+00:00",
-        "source": "https://bsky.app/profile/uticaphoenix.bsky.social/post/3mxysgfmkim2m",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.075,
-          40.814
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ugoqmdaxl4utnj4csujswwlj/app.bsky.feed.post/3mxysfbkuie2q",
-        "handle": "athlonsports.bsky.social",
-        "text": "The New York Giants will get the chance to turn the tables on the New Orleans Saints on Sunday at MetLife Stadium.",
-        "created_at": "2026-10-16T14:36:20Z",
-        "source": "https://bsky.app/profile/athlonsports.bsky.social/post/3mxysfbkuie2q",
-        "mapped_location": "MetLife Stadium",
-        "precision_level": "address",
-        "location_text": "MetLife Stadium",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ex35jwrjvf2oq6lls665uae2/app.bsky.feed.post/3mxysklmux22g",
-        "handle": "judyblueeyes.bsky.social",
-        "text": "Come on, parking lot and garage owners in New York City. We ALL have a part to play in this battle!\n\nThis is literally life and death of children. This is our democracy. And, as we win the midterms, it's gonna get worse before it gets better. But it IS going to get better.\n\nIF WE ALL DO OUR PART! ￼",
-        "created_at": "2026-10-16T14:39:18.914Z",
-        "source": "https://bsky.app/profile/judyblueeyes.bsky.social/post/3mxysklmux22g",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1506,6 +1406,81 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ykmjpgoxxwuzrrz2e5teox/app.bsky.feed.post/3my62f75tnp2i",
+        "handle": "newyorkcitynews.bsky.social",
+        "text": "“Two Nights at Saint Vitus, the Metal Mecca of Brooklyn” — The New York Times\n\n#NewYorkCityNews #NewYorkCity #Brooklyn",
+        "created_at": "2026-10-18T16:42:46.645151+00:00",
+        "source": "https://bsky.app/profile/newyorkcitynews.bsky.social/post/3my62f75tnp2i",
+        "mapped_location": "Saint Vitus",
+        "precision_level": "address",
+        "location_text": "Saint Vitus",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qpqyay6mqatzyyet3jdgxiwi/app.bsky.feed.post/3my62fpcxy22x",
+        "handle": "sepinwall.bsky.social",
+        "text": "And on November 13, I’ll be at the Paley Center in Manhattan to talk with @jasonlynch.bsky.social www.paleycenter.org/events/conve...",
+        "created_at": "2026-10-18T16:43:03.639Z",
+        "source": "https://bsky.app/profile/sepinwall.bsky.social/post/3my62fpcxy22x",
+        "mapped_location": "the Paley Center",
+        "precision_level": "address",
+        "location_text": "the Paley Center",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3my62kxreem2i",
+        "handle": "weloveproduct.co",
+        "text": "Eulerity is looking for a AI Intern - Office of CEO & Head of Product in New York, United States\nhttps://weloveproduct.co/jobs/ai-intern-office-of-ceo-and-head-of-product-eulerity-xxx6wm\n\n#headofproduct #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-18T16:46:00.165Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3my62kxreem2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

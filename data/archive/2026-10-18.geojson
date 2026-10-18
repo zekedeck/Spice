@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T09:13:48.548702Z",
-    "total_pins": 5
+    "generated_at": "2026-10-18T13:24:42.641223Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -131,6 +131,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wj5koqhqdfs67j5hanfxqyd3/app.bsky.feed.post/3my5oy45zfs2n",
+        "handle": "jazzrat2000.bsky.social",
+        "text": "I haven't spent enough time in New York City and I'm not going to anymore but it sure seems like it's a lot more fun and eccentric than I thought it was when I was there for a few days",
+        "created_at": "2026-10-18T13:18:36.188Z",
+        "source": "https://bsky.app/profile/jazzrat2000.bsky.social/post/3my5oy45zfs2n",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T16:49:31.553634Z",
-    "total_pins": 9
+    "generated_at": "2026-10-18T19:05:51.777016Z",
+    "total_pins": 16
   },
   "features": [
     {
@@ -231,6 +231,181 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vwgobzbs5kih4tgs5gsxcbgl/app.bsky.feed.post/3my6byjl47k2t",
+        "handle": "eitang.bsky.social",
+        "text": "I've done the same before a concert at Central Park Summerstage, in the parking lot of Mount Rushmore*, outside the Lincoln Memorial, and during sunrise overlooking the rim of the Grand Canyon.",
+        "created_at": "2026-10-18T18:58:51.103Z",
+        "source": "https://bsky.app/profile/eitang.bsky.social/post/3my6byjl47k2t",
+        "mapped_location": "Central Park Summerstage",
+        "precision_level": "address",
+        "location_text": "Central Park Summerstage",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3my6byn62e72i",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "The luxury jet is rotting away after very little use.\n\nStory/Images by Supercar Blondie\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-18T18:58:54.611Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3my6byn62e72i",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ta7csnm2rodgz5q4wba4ovvn/app.bsky.feed.post/3my6c3267ob2l",
+        "handle": "nyamnews.bsky.social",
+        "text": "\"I refuse to move.\" Maria Granville on keeping Home to Harlem rooted on Lenox Avenue. #HomeToHarlem #Harlem",
+        "created_at": "2026-10-18T19:00:15.791Z",
+        "source": "https://bsky.app/profile/nyamnews.bsky.social/post/3my6c3267ob2l",
+        "mapped_location": "Lenox Avenue",
+        "precision_level": "address",
+        "location_text": "Lenox Avenue",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3my6c3tlj3z2g",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "today, sunny, with a high near 58. north wind 5 to 8 mph.\n(M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform...",
+        "created_at": "2026-10-18T19:00:42.426535+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3my6c3tlj3z2g",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fyduqs7dayxhjm2irkfvao47/app.bsky.feed.post/3my6c42khmk2j",
+        "handle": "nickiekaneforny.bsky.social",
+        "text": "Early voting in New York City begins Saturday, October 24, 2026! Make your voice heard and write in Nickie Kane for Congress in NY-10. Find your early voting polling site at\n\n vote.nyc/page/find-yo....\n\n#nyc #nycvotes #nycfoodie  #nycevents #nyclife",
+        "created_at": "2026-10-18T19:00:49.776Z",
+        "source": "https://bsky.app/profile/nickiekaneforny.bsky.social/post/3my6c42khmk2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwbpna4jtw66gj6c3pksbiad/app.bsky.feed.post/3my6c4srfxc2k",
+        "handle": "nymag.com",
+        "text": "Sarah Crichton and Len Berman, divorcés in their 70s, both maintain their own apartments in the same Brooklyn Heights co-op building. When people hear of their upstairs-downstairs arrangement, “everyone goes, ‘Oh my God, that’s just the most ideal situation,’” says Sarah. “And it is!”",
+        "created_at": "2026-10-18T19:01:14.686Z",
+        "source": "https://bsky.app/profile/nymag.com/post/3my6c4srfxc2k",
+        "mapped_location": "Brooklyn Heights",
+        "precision_level": "address",
+        "location_text": "Brooklyn Heights",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964,
+          40.671
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xtxy3slt55kgftbiozjswusk/app.bsky.feed.post/3my6c7m3ekc2w",
+        "handle": "ray-olsen.com",
+        "text": "Art of Manga exhibit at the Brooklyn Museum is very much worth it",
+        "created_at": "2026-10-18T19:02:48.844Z",
+        "source": "https://bsky.app/profile/ray-olsen.com/post/3my6c7m3ekc2w",
+        "mapped_location": "the Brooklyn Museum",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Museum",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

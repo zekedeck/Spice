@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:12:23.497682Z",
-    "total_pins": 79
+    "generated_at": "2026-10-19T20:28:23.588308Z",
+    "total_pins": 94
   },
   "features": [
     {
@@ -1996,6 +1996,387 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ueupkxocwl3jsexq72ycnorr/app.bsky.feed.post/3myawoljpg22z",
+        "handle": "angelsinvelvet.bsky.social",
+        "text": "They were executed by the federal government of the United States in 1953 using New York's state execution chamber in Sing Sing in Ossining, New York, becoming the first American civilians to be executed for such charges and the first to be executed during peacetime.",
+        "created_at": "2026-10-19T20:14:25.905Z",
+        "source": "https://bsky.app/profile/angelsinvelvet.bsky.social/post/3myawoljpg22z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ueupkxocwl3jsexq72ycnorr/app.bsky.feed.post/3myawoljpg22z",
+        "handle": "angelsinvelvet.bsky.social",
+        "text": "They were executed by the federal government of the United States in 1953 using New York's state execution chamber in Sing Sing in Ossining, New York, becoming the first American civilians to be executed for such charges and the first to be executed during peacetime.",
+        "created_at": "2026-10-19T20:14:25.905Z",
+        "source": "https://bsky.app/profile/angelsinvelvet.bsky.social/post/3myawoljpg22z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5jrg2kb4obrd7qzzwk2c332/app.bsky.feed.post/3myawoluoy22b",
+        "handle": "njms.bsky.social",
+        "text": "welcome to escape from new york",
+        "created_at": "2026-10-19T20:14:26.249Z",
+        "source": "https://bsky.app/profile/njms.bsky.social/post/3myawoluoy22b",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f54cq2i2edsh3vjz3fdg255m/app.bsky.feed.post/3myawtp4acc2d",
+        "handle": "democratsofa.bsky.social",
+        "text": "Toledo Ohio is named after Toledo, Spain. It must immediately become America, Ohio! Immediate prosperity! Same for Rome, Georgia! \nYork is a place in England, so New York must change its name too!\n\"New America, New America\" has a nice ring to it, don't you think?\n😆 🤣",
+        "created_at": "2026-10-19T20:17:17.423Z",
+        "source": "https://bsky.app/profile/democratsofa.bsky.social/post/3myawtp4acc2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sn74lrgzkisufdz4qocqf2rq/app.bsky.feed.post/3myawwiqjhc2q",
+        "handle": "malachydiscontent.bsky.social",
+        "text": "AMERICAN HORROR STORY COUNTDOWN TO HALLOWEEN: American Horror Story: 11: NYC takes place in 1980s New York City and focuses on a string of killings involving gay men and the emergence of a new virus.\n\n11 days until All Hallow's Eve, Samhain",
+        "created_at": "2026-10-19T20:18:51.400Z",
+        "source": "https://bsky.app/profile/malachydiscontent.bsky.social/post/3myawwiqjhc2q",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:34gprwwxiewrgnm46xivog4u/app.bsky.feed.post/3myax5a4kes2h",
+        "handle": "cyanescens.bsky.social",
+        "text": "I grew up gentile in the ‘80s, in a shitty small town & longed to be a rootless cosmopolitan intellectual in NYC like Woody Allen, who’s early stuff like Bananas & Sleeper I loved so much. Closest I came was doing an arts-focused semester in college in New York & wrote a term paper on the Forward",
+        "created_at": "2026-10-19T20:22:37.255Z",
+        "source": "https://bsky.app/profile/cyanescens.bsky.social/post/3myax5a4kes2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York &",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ciulhpzeoyar72bndyzaqjcg/app.bsky.feed.post/3myax5aiddc2r",
+        "handle": "wordalong.bsky.social",
+        "text": "wordalong.fun puzzles sometimes convey ideas expressed by different people over the years and this one is no exception. We took this statement from an article published in The New York Times in 1990 about Mario Cuomo who was Governor of New York at the time.",
+        "created_at": "2026-10-19T20:22:37.604Z",
+        "source": "https://bsky.app/profile/wordalong.bsky.social/post/3myax5aiddc2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3myax6vm6kp2w",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-19T20:23:32.805516Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3myax6vm6kp2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Manhattan School of Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3myax6vm6kp2w",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-19T20:23:32.805516Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3myax6vm6kp2w",
+        "mapped_location": "the Manhattan School of Music",
+        "precision_level": "address",
+        "location_text": "the Manhattan School of Music",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9755562,
+          40.6993266
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myax7q6lho24",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 19, 1926: “War! War! War! The Coast Guard will battle to the hilt to prevent Christmas hootch from getting into New York. These pictures show preparations at Navy Yard, where nine destroyers were being overhauled for the attack.” (New York Daily News)",
+        "created_at": "2026-10-19T20:24:01.195Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myax7q6lho24",
+        "mapped_location": "Brooklyn Navy Yard, 1, Brooklyn, Kings County, New York, 11205, United States",
+        "precision_level": "unclassified",
+        "location_text": "Navy Yard",
+        "confidence": 0.9,
+        "address_type": "industrial",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ngdd6z6ozqhwlbeckdzwirp7/app.bsky.feed.post/3myaxaqhxu52g",
+        "handle": "quant-hub.bsky.social",
+        "text": "🚨 $GME-WT\nAt 5:00 p.m., New York City time, on October 30, 2026, the warrants to purchase shares of Class A common stock, par value $0.001 per share , of GameStop Corp. , previously distributed on October 7, 2025 to holders of record of the Common Stock and holders of the Company’s 0.00% Converti...",
+        "created_at": "2026-10-19T20:24:33.230064+00:00",
+        "source": "https://bsky.app/profile/quant-hub.bsky.social/post/3myaxaqhxu52g",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3myaxc6q2tr2r",
+        "handle": "osna-fm.bsky.social",
+        "text": "The US stock exchanges showed mixed results on Monday. By the end of trading in New York, the Dow Jones Industrial Average closed down 0.1 percent, standing at... https://news.osna.fm/?p=68547  | #news #despite #economic #markets #mixed",
+        "created_at": "2026-10-19T20:25:22+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3myaxc6q2tr2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hnxeb47td5kiuaznmlioksyp/app.bsky.feed.post/3myaxenqpf22d",
+        "handle": "birdcpk.bsky.social",
+        "text": "An American Barn Owl perching at night on a building near its nest on Manhattan's Upper West Side. 🦉 🧡",
+        "created_at": "2026-10-19T20:26:46.422Z",
+        "source": "https://bsky.app/profile/birdcpk.bsky.social/post/3myaxenqpf22d",
+        "mapped_location": "Manhattan's Upper West Side",
+        "precision_level": "address",
+        "location_text": "Manhattan's Upper West Side",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vg7i5fzcwlf4lk2nfdisan3/app.bsky.feed.post/3myaxfdvg3s2q",
+        "handle": "yesfan1.bsky.social",
+        "text": "New York was New Amsterdam when that wonderful puffer Peter Stuyvesant got the whole area for a steal*\n\n*Erm literally.",
+        "created_at": "2026-10-19T20:27:09.652Z",
+        "source": "https://bsky.app/profile/yesfan1.bsky.social/post/3myaxfdvg3s2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vg7i5fzcwlf4lk2nfdisan3/app.bsky.feed.post/3myaxfdvg3s2q",
+        "handle": "yesfan1.bsky.social",
+        "text": "New York was New Amsterdam when that wonderful puffer Peter Stuyvesant got the whole area for a steal*\n\n*Erm literally.",
+        "created_at": "2026-10-19T20:27:09.652Z",
+        "source": "https://bsky.app/profile/yesfan1.bsky.social/post/3myaxfdvg3s2q",
+        "mapped_location": "New Amsterdam",
+        "precision_level": "address",
+        "location_text": "New Amsterdam",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
       }
     }
   ]

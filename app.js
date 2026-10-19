@@ -1006,6 +1006,41 @@
     return t.length > maxLen ? t.slice(0, maxLen).trim() + "…" : t;
   }
 
+  // Shown instead of openPanel() when a click resolves more than one
+  // distinct post at the same coordinate (see handlePinClick). Reuses the
+  // State Mentions sidebar's list-item markup/classes as-is -- same shape
+  // of data (handle, snippet, time), no new CSS needed. Picking an entry
+  // opens the normal single-post detail view in its place.
+  function openLocationPicker(features) {
+    selectedUri = null;
+    updateSelectedSource(null);
+    stopCameraRefresh();
+
+    var items = features.map(function (feature) {
+      var p = feature.properties;
+      return (
+        '<button type="button" class="state-mention-item">' +
+        '<span class="state-mention-handle">' + escapeHtml(p.handle || "unknown") + "</span>" +
+        '<span class="state-mention-snippet">' + escapeHtml(truncateSnippet(p.text, 80)) + "</span>" +
+        '<span class="state-mention-time">' + escapeHtml(timeAgo(p.created_at)) + "</span>" +
+        "</button>"
+      );
+    }).join("");
+
+    detailContent.innerHTML =
+      '<h2 id="detail-panel-title" class="detail-handle">' + features.length + " posts at this location</h2>" +
+      '<div class="state-panel-list">' + items + "</div>";
+
+    var buttons = detailContent.querySelectorAll(".state-mention-item");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener("click", (function (feature) {
+        return function () { openPanel(feature); };
+      })(features[i]));
+    }
+
+    detailPanel.setAttribute("aria-hidden", "false");
+  }
+
   // Renders the left-side "State mentions" sidebar list. Clicking an entry
   // opens the same right-side detail panel used for map pins.
   function renderStateMentions(features) {
@@ -1288,15 +1323,38 @@
 
       var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "camera-dots"];
 
+      // Multiple distinct posts can resolve to the identical coordinate
+      // (shared address, generic city-center point, etc. -- confirmed live
+      // with real data: up to 33 posts stacked on one point). A plain
+      // click only ever sees whichever one happens to be topmost at that
+      // pixel, silently hiding the rest with no way to reach them. Bound
+      // to pin-point only (every post has one, categorized or not, so it's
+      // the superset of pin-icons) and queried explicitly rather than
+      // trusting e.features[0], which returns every feature under that
+      // pixel across the whole layer, not just the first hit.
       function handlePinClick(e) {
-        if (e.features && e.features[0]) {
-          var feature = e.features[0];
-          map.easeTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
-          openPanel(feature);
+        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
+        if (!features.length) return;
+
+        var seenUris = {};
+        var uniqueFeatures = [];
+        for (var i = 0; i < features.length; i++) {
+          var uri = features[i].properties.post_uri;
+          if (!seenUris[uri]) {
+            seenUris[uri] = true;
+            uniqueFeatures.push(features[i]);
+          }
+        }
+
+        var target = uniqueFeatures[0];
+        map.easeTo({ center: target.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
+        if (uniqueFeatures.length === 1) {
+          openPanel(target);
+        } else {
+          openLocationPicker(uniqueFeatures);
         }
       }
       map.on("click", "pin-point", handlePinClick);
-      map.on("click", "pin-icons", handlePinClick);
 
       map.on("click", "camera-dots", function (e) {
         if (e.features && e.features[0]) openCameraPopup(e.features[0]);

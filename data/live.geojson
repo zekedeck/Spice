@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T18:58:37.334249Z",
-    "total_pins": 68
+    "generated_at": "2026-10-19T19:14:32.525425Z",
+    "total_pins": 73
   },
   "features": [
     {
@@ -1710,6 +1710,131 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gfatqnufdv6x6zzhcludb72r/app.bsky.feed.post/3myasrhpgdc2c",
+        "handle": "thomasmrobson.bsky.social",
+        "text": "I have never in my life been around a group of people so constitutionally incapable of walking intelligently as the students on my campus.\n\nAnd I say that as someone who has spent literally days of my life walking through Times Square and months walking through theme parks.",
+        "created_at": "2026-10-19T19:04:27.594Z",
+        "source": "https://bsky.app/profile/thomasmrobson.bsky.social/post/3myasrhpgdc2c",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgf5wkwvfaau4sbmkbuercdj/app.bsky.feed.post/3myasu2xdh22y",
+        "handle": "ebottcher.bsky.social",
+        "text": "And the work continues! On October 25, join the Lower East Side Ecology Center and me for a street tree care event at Verdi Square. Come get your hands dirty with us, and visit their website to learn about more volunteer opportunities! 🌳💚",
+        "created_at": "2026-10-19T19:04:53.520Z",
+        "source": "https://bsky.app/profile/ebottcher.bsky.social/post/3myasu2xdh22y",
+        "mapped_location": "Verdi Square",
+        "precision_level": "address",
+        "location_text": "Verdi Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chkh3qo3cdvmsycdvtoirih6/app.bsky.feed.post/3myasuca5kq22",
+        "handle": "whitehousewatchdog.bsky.social",
+        "text": "Anthony Constantino, CEO of Sticker Mule and creator of a pro-Trump rap album, faces challenges in securing Rep. Elise Stefanik's GOP seat in New York's 21st District.",
+        "created_at": "2026-10-19T19:06:02.385Z",
+        "source": "https://bsky.app/profile/whitehousewatchdog.bsky.social/post/3myasuca5kq22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ifbbyqk4lza42drb3qdb66o6/app.bsky.feed.post/3myat2fkq722n",
+        "handle": "kennyuong.bsky.social",
+        "text": "Haven’t had Soul food in a long time! Hopped off the C Train at 145th Street in Harlem and made my way to Charles Pan-Fried Chicken! 😋🚇",
+        "created_at": "2026-10-19T19:09:27.328Z",
+        "source": "https://bsky.app/profile/kennyuong.bsky.social/post/3myat2fkq722n",
+        "mapped_location": "145th Street",
+        "precision_level": "address",
+        "location_text": "145th Street",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jk6trzv23gfabyeodq75hiyk/app.bsky.feed.post/3myatcmhjif23",
+        "handle": "circleci.com",
+        "text": "Rob's speaking at AI DevCon NYC!\n\n\"Why Your CTO Is Suddenly Writing Code” is an honest account of what happens when a technical leader goes back into the workflow to understand how AI is changing software development.\n\nJoin us November 2-4: https://circle.ci/3VYZp7q",
+        "created_at": "2026-10-19T19:14:02.984575863Z",
+        "source": "https://bsky.app/profile/circleci.com/post/3myatcmhjif23",
+        "mapped_location": "AI DevCon NYC",
+        "precision_level": "address",
+        "location_text": "AI DevCon NYC",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T19:30:31.902464Z",
-    "total_pins": 85
+    "generated_at": "2026-10-19T19:46:44.782500Z",
+    "total_pins": 102
   },
   "features": [
     {
@@ -1163,6 +1163,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vzmnljt7otfbbgrmachtefxh/app.bsky.feed.post/3myauceh77x2u",
+        "handle": "news-flows-ir.bsky.social",
+        "text": "Sticker tycoon. Trump cheerleader. Rapper. Congressman?\n\nAnthony Constantino wants to fill Elise Stefanik’s seat in New York. But his lead in the formerly Trump-loving district is narrowingThe boss of a New York-based sticker company, whose staunch support for Donald Trump prompted him to...",
+        "created_at": "2026-10-19T10:00:06.000000Z",
+        "source": "https://bsky.app/profile/news-flows-ir.bsky.social/post/3myauceh77x2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -74.0060152,
           40.7127281
         ]
@@ -2141,6 +2166,408 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgf5wkwvfaau4sbmkbuercdj/app.bsky.feed.post/3myaucslsm22h",
+        "handle": "ebottcher.bsky.social",
+        "text": "One of my proudest moments serving on the New York City Council was sponsoring the street co-naming of West 47th Street in Times Square as “Lloyd Richards Way.” Unveiled in 2024, just steps from the theater where Richards made history directing A Raisin in the Sun,",
+        "created_at": "2026-10-19T19:31:44.025Z",
+        "source": "https://bsky.app/profile/ebottcher.bsky.social/post/3myaucslsm22h",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qguxysonthk2emfcunawd4jn/app.bsky.feed.post/3myaue3hefk2s",
+        "handle": "gateau.bsky.social",
+        "text": "Thank you so much! Doing this daily diary has really caused me to step it up and pull the nice stuff out of my closet, instead of what I did for most of the years I've lived in Not New York and threw on jeans and a sweater with one pair of sleeper earrings all the time",
+        "created_at": "2026-10-19T19:32:46.022Z",
+        "source": "https://bsky.app/profile/gateau.bsky.social/post/3myaue3hefk2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myauehe7r22n",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Romy ♾️ & My Brigitte Bardot 🇫🇷\n*\n*\n*\n\nStory/Images by stunning_romy\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-19T19:32:55.757Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myauehe7r22n",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oap25n4n76xrmtab3orhyly5/app.bsky.feed.post/3myaug5oso22y",
+        "handle": "normanshinebaum.bsky.social",
+        "text": "An internal party dispute over who can endorse whom is interesting, but the DSA label itself has real weight right now after Mamdani's win in New York. Where Raman and Bass actually differ: voicenews.app/la-mayor?c=9H",
+        "created_at": "2026-10-19T19:33:55.472Z",
+        "source": "https://bsky.app/profile/normanshinebaum.bsky.social/post/3myaug5oso22y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgvtvukggtsyn5ypke4gceuv/app.bsky.feed.post/3myauhzlqhk2r",
+        "handle": "themsunnydaez.bsky.social",
+        "text": "I was bein’ mostly sarcastic, but I really do like it, I live up around the Bronx area, I took almost all of the trains around the city and so far, all of them have been…mostly pleasant, especially the B and D, it’s amazing on the Manhattan Bridge",
+        "created_at": "2026-10-19T19:34:58.285Z",
+        "source": "https://bsky.app/profile/themsunnydaez.bsky.social/post/3myauhzlqhk2r",
+        "mapped_location": "the Manhattan Bridge",
+        "precision_level": "address",
+        "location_text": "the Manhattan Bridge",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:aak5mvjoe75z4bfj4xoiuh5a/app.bsky.feed.post/3myauk3zzi22e",
+        "handle": "artistsince05.bsky.social",
+        "text": "Zoo photos I took at the Bronx Zoo yesterday with my dad for Monday afternoon.\n\nHaven't shared any animal photography in a while so this should be fun.\n\n#photosofbluesky #photography #wildlife #bronxzoo",
+        "created_at": "2026-10-19T19:36:07.917Z",
+        "source": "https://bsky.app/profile/artistsince05.bsky.social/post/3myauk3zzi22e",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myaukgyagm2l",
+        "handle": "porcellato.bsky.social",
+        "text": "Vandalism attack at Upper East Side bank being investigated as possible hate crime: NYPD https://ift.tt/RO1xKvm",
+        "created_at": "2026-10-19T19:36:19+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myaukgyagm2l",
+        "mapped_location": "Upper East Side",
+        "precision_level": "address",
+        "location_text": "Upper East Side",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:okcespxny2ssszww7373rb4q/app.bsky.feed.post/3myaul56ov22l",
+        "handle": "jswatz.bsky.social",
+        "text": "“For decades, Brazil has been alternating between plundering the Amazon for resources or keeping it bucolic and green,” Salo Coslovsky, an expert on the Amazonian economy at New York University told me. “But neither option produces a stable outcome.” www.nytimes.com/2026/10/18/w...",
+        "created_at": "2026-10-19T19:36:42.716Z",
+        "source": "https://bsky.app/profile/jswatz.bsky.social/post/3myaul56ov22l",
+        "mapped_location": "New York University",
+        "precision_level": "address",
+        "location_text": "New York University",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:liccqrhkkoo4lhacauahuk6b/app.bsky.feed.post/3myaunffvuk2c",
+        "handle": "bfishbfish.bsky.social",
+        "text": "The only woman in New York who has not tried to get You Can See Everything tickets.",
+        "created_at": "2026-10-19T19:37:58.446Z",
+        "source": "https://bsky.app/profile/bfishbfish.bsky.social/post/3myaunffvuk2c",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:od5iiifrpwbslcf3lje7a5mq/app.bsky.feed.post/3myaurdnw5c2o",
+        "handle": "qwerty123212.bsky.social",
+        "text": "The MAGAts stood at the end of the world amid America's smokey ruins.\n\n\"Eating cats and dogs,\" they chanted in unison.\n\n\"...grab 'em by the pussy....\"\n\n\"...could shoot someone in Times Square...\"\n\nThe words, which had lost any meaning ages ago, echoed off the cliffside and into the abyss.",
+        "created_at": "2026-10-19T19:40:10.831Z",
+        "source": "https://bsky.app/profile/qwerty123212.bsky.social/post/3myaurdnw5c2o",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sotcy4v3r4jnuft4dgnxfwwk/app.bsky.feed.post/3myauublb22am",
+        "handle": "rawhead.bsky.social",
+        "text": "Also....America is literally the one place that would exclude a place name like \"New\" America. You know, like how New England isn't in England, New York is not York, etc.",
+        "created_at": "2026-10-19T19:41:49.312Z",
+        "source": "https://bsky.app/profile/rawhead.bsky.social/post/3myauublb22am",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myaux7ych223",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "NYPD Hate Crimes Task Force investigates Upper East Side Capital One vandalism with smashed windows and pro-Palestinian graffiti, including possible antisemitic hate-crime links.\n",
+        "created_at": "2026-10-19T19:43:28.231Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myaux7ych223",
+        "mapped_location": "Upper East Side Capital One",
+        "precision_level": "address",
+        "location_text": "Upper East Side Capital One",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ottofkbzucuystpjo4pd5hvn/app.bsky.feed.post/3myauxc4y7526",
+        "handle": "londonpolbriefly.bsky.social",
+        "text": "NYPD Hate Crimes Task Force investigates Upper East Side Capital One vandalism with smashed windows and pro-Palestinian graffiti, including possible antisemitic hate-crime links.\n",
+        "created_at": "2026-10-19T19:43:30.310Z",
+        "source": "https://bsky.app/profile/londonpolbriefly.bsky.social/post/3myauxc4y7526",
+        "mapped_location": "Upper East Side Capital One",
+        "precision_level": "address",
+        "location_text": "Upper East Side Capital One",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgvtvukggtsyn5ypke4gceuv/app.bsky.feed.post/3myav243pbk2r",
+        "handle": "themsunnydaez.bsky.social",
+        "text": "Gotta use it for commuting to college, I COULD take the Metro-North to Grand Central and take the shuttle to Times Square, take the 2 to Penn Station, head on to the LIRR and take it there like that, BUT I WANNA SAVE MONEY!",
+        "created_at": "2026-10-19T19:45:04.887Z",
+        "source": "https://bsky.app/profile/themsunnydaez.bsky.social/post/3myav243pbk2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t4bsavvfbjqi67v3xg5gph4f/app.bsky.feed.post/3myav2emsjs25",
+        "handle": "benjdillon.bsky.social",
+        "text": "Does Donald Trump --who was born in (check notes) New York City, New York -- understand the meaning of new?",
+        "created_at": "2026-10-19T19:45:13.835Z",
+        "source": "https://bsky.app/profile/benjdillon.bsky.social/post/3myav2emsjs25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t4bsavvfbjqi67v3xg5gph4f/app.bsky.feed.post/3myav2emsjs25",
+        "handle": "benjdillon.bsky.social",
+        "text": "Does Donald Trump --who was born in (check notes) New York City, New York -- understand the meaning of new?",
+        "created_at": "2026-10-19T19:45:13.835Z",
+        "source": "https://bsky.app/profile/benjdillon.bsky.social/post/3myav2emsjs25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
       }
     }
   ]

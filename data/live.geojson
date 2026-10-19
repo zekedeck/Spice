@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:20:23.229664Z",
-    "total_pins": 118
+    "generated_at": "2026-10-19T20:36:25.629432Z",
+    "total_pins": 134
   },
   "features": [
     {
@@ -2976,6 +2976,410 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:34gprwwxiewrgnm46xivog4u/app.bsky.feed.post/3myax5a4kes2h",
+        "handle": "cyanescens.bsky.social",
+        "text": "I grew up gentile in the ‘80s, in a shitty small town & longed to be a rootless cosmopolitan intellectual in NYC like Woody Allen, who’s early stuff like Bananas & Sleeper I loved so much. Closest I came was doing an arts-focused semester in college in New York & wrote a term paper on the Forward",
+        "created_at": "2026-10-19T20:22:37.255Z",
+        "source": "https://bsky.app/profile/cyanescens.bsky.social/post/3myax5a4kes2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York &",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ciulhpzeoyar72bndyzaqjcg/app.bsky.feed.post/3myax5aiddc2r",
+        "handle": "wordalong.bsky.social",
+        "text": "wordalong.fun puzzles sometimes convey ideas expressed by different people over the years and this one is no exception. We took this statement from an article published in The New York Times in 1990 about Mario Cuomo who was Governor of New York at the time.",
+        "created_at": "2026-10-19T20:22:37.604Z",
+        "source": "https://bsky.app/profile/wordalong.bsky.social/post/3myax5aiddc2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3myax6vm6kp2w",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-19T20:23:32.805516Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3myax6vm6kp2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Manhattan School of Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3myax6vm6kp2w",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-19T20:23:32.805516Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3myax6vm6kp2w",
+        "mapped_location": "the Manhattan School of Music",
+        "precision_level": "address",
+        "location_text": "the Manhattan School of Music",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9755562,
+          40.6993266
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myax7q6lho24",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 19, 1926: “War! War! War! The Coast Guard will battle to the hilt to prevent Christmas hootch from getting into New York. These pictures show preparations at Navy Yard, where nine destroyers were being overhauled for the attack.” (New York Daily News)",
+        "created_at": "2026-10-19T20:24:01.195Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myax7q6lho24",
+        "mapped_location": "Brooklyn Navy Yard, 1, Brooklyn, Kings County, New York, 11205, United States",
+        "precision_level": "unclassified",
+        "location_text": "Navy Yard",
+        "confidence": 0.9,
+        "address_type": "industrial",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ngdd6z6ozqhwlbeckdzwirp7/app.bsky.feed.post/3myaxaqhxu52g",
+        "handle": "quant-hub.bsky.social",
+        "text": "🚨 $GME-WT\nAt 5:00 p.m., New York City time, on October 30, 2026, the warrants to purchase shares of Class A common stock, par value $0.001 per share , of GameStop Corp. , previously distributed on October 7, 2025 to holders of record of the Common Stock and holders of the Company’s 0.00% Converti...",
+        "created_at": "2026-10-19T20:24:33.230064+00:00",
+        "source": "https://bsky.app/profile/quant-hub.bsky.social/post/3myaxaqhxu52g",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:herztenjlu2bxfu2y57y73oq/app.bsky.feed.post/3myaxc6q2tr2r",
+        "handle": "osna-fm.bsky.social",
+        "text": "The US stock exchanges showed mixed results on Monday. By the end of trading in New York, the Dow Jones Industrial Average closed down 0.1 percent, standing at... https://news.osna.fm/?p=68547  | #news #despite #economic #markets #mixed",
+        "created_at": "2026-10-19T20:25:22+00:00",
+        "source": "https://bsky.app/profile/osna-fm.bsky.social/post/3myaxc6q2tr2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hnxeb47td5kiuaznmlioksyp/app.bsky.feed.post/3myaxenqpf22d",
+        "handle": "birdcpk.bsky.social",
+        "text": "An American Barn Owl perching at night on a building near its nest on Manhattan's Upper West Side. 🦉 🧡",
+        "created_at": "2026-10-19T20:26:46.422Z",
+        "source": "https://bsky.app/profile/birdcpk.bsky.social/post/3myaxenqpf22d",
+        "mapped_location": "Manhattan's Upper West Side",
+        "precision_level": "address",
+        "location_text": "Manhattan's Upper West Side",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vg7i5fzcwlf4lk2nfdisan3/app.bsky.feed.post/3myaxfdvg3s2q",
+        "handle": "yesfan1.bsky.social",
+        "text": "New York was New Amsterdam when that wonderful puffer Peter Stuyvesant got the whole area for a steal*\n\n*Erm literally.",
+        "created_at": "2026-10-19T20:27:09.652Z",
+        "source": "https://bsky.app/profile/yesfan1.bsky.social/post/3myaxfdvg3s2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vg7i5fzcwlf4lk2nfdisan3/app.bsky.feed.post/3myaxfdvg3s2q",
+        "handle": "yesfan1.bsky.social",
+        "text": "New York was New Amsterdam when that wonderful puffer Peter Stuyvesant got the whole area for a steal*\n\n*Erm literally.",
+        "created_at": "2026-10-19T20:27:09.652Z",
+        "source": "https://bsky.app/profile/yesfan1.bsky.social/post/3myaxfdvg3s2q",
+        "mapped_location": "New Amsterdam",
+        "precision_level": "address",
+        "location_text": "New Amsterdam",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6nshktv7s7dsetryeo4l46pr/app.bsky.feed.post/3myaxj3lrf22z",
+        "handle": "did:plc:6nshktv7s7dsetryeo4l46pr",
+        "text": "This dumb fuck is literally from *New York*",
+        "created_at": "2026-10-19T20:29:15.165Z",
+        "source": "https://bsky.app/profile/did:plc:6nshktv7s7dsetryeo4l46pr/post/3myaxj3lrf22z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ksvqvnpiyzwjxfeqxfbpra4v/app.bsky.feed.post/3myaxjm6lpk2q",
+        "handle": "did:plc:ksvqvnpiyzwjxfeqxfbpra4v",
+        "text": "Joe Junior, still going strong just off Union Square. Walked past and had to stop in for a cheeseburger deluxe. Every bit as good today as it was 20 years ago. Oh the stories these great old NYC diners could tell about us, and we could tell about them—the days and nights and early mornings!",
+        "created_at": "2026-10-19T20:29:32.557Z",
+        "source": "https://bsky.app/profile/did:plc:ksvqvnpiyzwjxfeqxfbpra4v/post/3myaxjm6lpk2q",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wbdzpqqhcknmdrbvicm6bqie/app.bsky.feed.post/3myaxk56nnn2k",
+        "handle": "did:plc:wbdzpqqhcknmdrbvicm6bqie",
+        "text": "The first sizable wave of #Austrian immigrants tended to settle in the urbanized centers of the northeastern United States, especially in New York City",
+        "created_at": "2026-10-19T20:29:50.000Z",
+        "source": "https://bsky.app/profile/did:plc:wbdzpqqhcknmdrbvicm6bqie/post/3myaxk56nnn2k",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d3xdwqrzlior4xkb2dwz43mb/app.bsky.feed.post/3myaxmxedo225",
+        "handle": "did:plc:d3xdwqrzlior4xkb2dwz43mb",
+        "text": "He might want to take another look at New York",
+        "created_at": "2026-10-19T20:31:24.943Z",
+        "source": "https://bsky.app/profile/did:plc:d3xdwqrzlior4xkb2dwz43mb/post/3myaxmxedo225",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qz3sj5mjogcgw3noql5ownlo/app.bsky.feed.post/3myaxsafqhi2l",
+        "handle": "sanctuaryhour.bsky.social",
+        "text": "Right, both ends American. Ballantine brought it out in New York in 1953, and the edition it quietly cut was the school one, made for US classrooms. Its own house did the trimming at home, and for years only the trimmed text was printed. Bradbury found out in 1979, from readers.",
+        "created_at": "2026-10-19T20:34:21.890312Z",
+        "source": "https://bsky.app/profile/sanctuaryhour.bsky.social/post/3myaxsafqhi2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k2zndexkhjudhoa4my3luloz/app.bsky.feed.post/3myaxspyce22n",
+        "handle": "nyc118.bsky.social",
+        "text": "As when I am trying to enjoy reading in Brooklyn Bridge Park and I have intrusive thoughts of Clint Eastwood shooting at the helicopters shuttling the 0.01% to the airport/other homes/meetings.",
+        "created_at": "2026-10-19T20:34:38.537Z",
+        "source": "https://bsky.app/profile/nyc118.bsky.social/post/3myaxspyce22n",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

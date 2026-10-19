@@ -60,7 +60,18 @@ logger = logging.getLogger(__name__)
 #       the reasoning_format parameter is not supported" -- it's a
 #       Qwen/other-model-family parameter), and it is mutually exclusive
 #       with include_reasoning in the SDK regardless.
-MODEL_NAME = "openai/gpt-oss-20b"
+GROQ_MODEL_NAME = "openai/gpt-oss-20b"
+
+# Claude provider (config.LLM_PROVIDER = "claude", the default as of
+# 2026-10-19). claude-haiku-4-5 is Anthropic's current cheap/fast tier --
+# the same selection logic as the Groq pick above: this is a single-entity,
+# short-input, structured-JSON classification call running at high volume
+# (once per extracted entity per post), not a task that benefits from a
+# larger/slower/reasoning-heavy model. No `thinking` param is sent (Haiku
+# 4.5 runs with no extended thinking unless explicitly enabled), which
+# keeps latency and cost down the same way reasoning_effort="low" does for
+# the Groq path above.
+CLAUDE_MODEL_NAME = "claude-haiku-4-5"
 
 _VALID_ACTIONS = {"resolve", "query", "accept", "null"}
 
@@ -130,22 +141,42 @@ def _build_user_message(entity_text: str, label: str, post_text: str) -> str:
 
 
 def init_llm_client():
-    """Return a Groq client, or None if GROQ_API_KEY isn't set / client init fails.
+    """Return {"provider": ..., "client": ...} for config.LLM_PROVIDER, or
+    None if the matching API key isn't set / client init fails.
 
-    Fails gracefully so the pipeline can still run with the LLM layer disabled
-    in environments without the key.
+    Fails gracefully (returns None, never raises) so the pipeline can still
+    run with the LLM layer disabled -- e.g. in a dev environment without the
+    relevant key -- exactly as before this file supported more than one
+    provider.
     """
-    api_key = os.getenv("GROQ_API_KEY")
-    if not api_key:
-        logger.info("GROQ_API_KEY not set; LLM geotagging disabled")
-        return None
+    provider = config.LLM_PROVIDER
 
-    try:
-        from groq import Groq
-        return Groq(api_key=api_key)
-    except Exception as e:
-        logger.warning("Failed to initialize Groq client: %s", e)
-        return None
+    if provider == "claude":
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.info("ANTHROPIC_API_KEY not set; LLM geotagging disabled")
+            return None
+        try:
+            from anthropic import Anthropic
+            return {"provider": "claude", "client": Anthropic(api_key=api_key)}
+        except Exception as e:
+            logger.warning("Failed to initialize Claude client: %s", e)
+            return None
+
+    if provider == "groq":
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            logger.info("GROQ_API_KEY not set; LLM geotagging disabled")
+            return None
+        try:
+            from groq import Groq
+            return {"provider": "groq", "client": Groq(api_key=api_key)}
+        except Exception as e:
+            logger.warning("Failed to initialize Groq client: %s", e)
+            return None
+
+    logger.warning("Unknown LLM_PROVIDER %r; LLM geotagging disabled", provider)
+    return None
 
 
 def _validate_llm_response(data: dict) -> dict | None:
@@ -189,12 +220,60 @@ def _validate_llm_response(data: dict) -> dict | None:
     return None
 
 
-def resolve_entity_with_llm(client, entity_text: str, label: str, post_text: str, conn) -> dict | None:
-    """Resolve a single extracted entity via the Groq LLM layer.
+def _call_groq(client, user_message: str) -> str:
+    """Returns the raw (unparsed) JSON string from Groq. Raises on any
+    failure -- caller wraps this in the shared try/except."""
+    response = client.chat.completions.create(
+        model=GROQ_MODEL_NAME,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_message},
+        ],
+        response_format={"type": "json_object"},
+        temperature=0,
+        max_tokens=200,
+        reasoning_effort="low",
+        include_reasoning=False,
+        timeout=10,
+    )
+    return response.choices[0].message.content
+
+
+def _call_claude(client, user_message: str) -> str:
+    """Returns the raw (unparsed) text from Claude. Raises on any failure --
+    caller wraps this in the shared try/except.
+
+    No `thinking` param (Haiku 4.5 runs with no extended thinking unless
+    explicitly enabled -- the cheap/fast path we want here). JSON is
+    requested via SYSTEM_PROMPT's own instructions rather than a
+    provider-specific structured-output mode, matching the Groq path's
+    existing approach of prompt-level JSON + _validate_llm_response() doing
+    the real enforcement -- same fail-safe story on malformed output either
+    way (falls back to the rule-based path, never crashes the pipeline).
+    """
+    # No `temperature` -- confirmed by inspecting the installed SDK's
+    # messages.create() signature that it no longer accepts sampling
+    # params at all (removed, not model-specific; a leftover temperature=0
+    # here raised TypeError before the request even left the process).
+    response = client.with_options(timeout=10.0).messages.create(
+        model=CLAUDE_MODEL_NAME,
+        max_tokens=256,
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": user_message}],
+    )
+    return next((block.text for block in response.content if block.type == "text"), "")
+
+
+def resolve_entity_with_llm(client_info, entity_text: str, label: str, post_text: str, conn) -> dict | None:
+    """Resolve a single extracted entity via the configured LLM provider
+    (config.LLM_PROVIDER -- "claude" or "groq"; see init_llm_client()).
 
     Returns a dict with keys action/lat/lng/query/confidence on success, or
     None if the LLM is disabled/unavailable/failed/returned something invalid
-    — callers must treat None as "fall back to the rule-based path".
+    — callers must treat None as "fall back to the rule-based path". This
+    fail-safe contract, and the prompt-injection defenses in
+    _sanitize_post_text/_build_user_message plus the strict schema check in
+    _validate_llm_response below, apply identically to both providers.
     """
     cache_key = f"{label}:{entity_text.lower()}"
 
@@ -202,28 +281,21 @@ def resolve_entity_with_llm(client, entity_text: str, label: str, post_text: str
     if cached is not None:
         return cached
 
-    if client is None or not config.LLM_ENABLED:
+    if client_info is None or not config.LLM_ENABLED:
         return None
+
+    provider = client_info["provider"]
+    client = client_info["client"]
 
     try:
         user_message = _build_user_message(entity_text, label, post_text)
-        response = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_message},
-            ],
-            response_format={"type": "json_object"},
-            temperature=0,
-            max_tokens=200,
-            reasoning_effort="low",
-            include_reasoning=False,
-            timeout=10,
-        )
-        raw_content = response.choices[0].message.content
+        if provider == "claude":
+            raw_content = _call_claude(client, user_message)
+        else:
+            raw_content = _call_groq(client, user_message)
         parsed = json.loads(raw_content)
     except Exception as e:
-        logger.warning("LLM geotagging failed for entity %r (%s): %s", entity_text, label, e)
+        logger.warning("LLM geotagging failed for entity %r (%s) via %s: %s", entity_text, label, provider, e)
         return None
 
     validated = _validate_llm_response(parsed)

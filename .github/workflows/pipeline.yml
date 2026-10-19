@@ -66,6 +66,12 @@ jobs:
         run: python worker.py
         env:
           DB_PATH: data/raw/posts.db
+          # LLM_PROVIDER defaults to "claude" in config.py; set here too so
+          # it's visible/toggleable from the workflow without a code change.
+          # GROQ_API_KEY is left in place so flipping this back to "groq"
+          # needs only this one line edited, not a redeploy.
+          LLM_PROVIDER: claude
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       - name: Save DB to cache

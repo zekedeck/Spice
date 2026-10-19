@@ -71,14 +71,15 @@ def test_request_includes_low_reasoning_effort_and_hides_reasoning():
     """The exact fix under test: reasoning_effort="low" + include_reasoning=False
     must be present in the request payload sent to Groq."""
     stub = _StubGroqClient(json.dumps({"action": "accept", "confidence": 0.9}))
+    client_info = {"provider": "groq", "client": stub}
 
     with _patched(stub):
         result = llm_geotagging.resolve_entity_with_llm(
-            stub, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
         )
 
     assert stub.last_kwargs is not None, "client.chat.completions.create was never called"
-    assert stub.last_kwargs["model"] == llm_geotagging.MODEL_NAME
+    assert stub.last_kwargs["model"] == llm_geotagging.GROQ_MODEL_NAME
     assert stub.last_kwargs["reasoning_effort"] == "low"
     assert stub.last_kwargs["include_reasoning"] is False
     # Untouched by this fix:
@@ -104,10 +105,11 @@ def test_parsing_and_validation_path_unchanged_for_resolve_action():
     stub = _StubGroqClient(
         json.dumps({"action": "resolve", "lat": 40.7, "lng": -73.9, "confidence": 0.8})
     )
+    client_info = {"provider": "groq", "client": stub}
 
     with _patched(stub):
         result = llm_geotagging.resolve_entity_with_llm(
-            stub, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
         )
 
     assert result == {
@@ -124,10 +126,99 @@ def test_invalid_json_still_fails_safe_to_none():
     does not guarantee zero CoT tokens), the call must keep degrading to
     None rather than raising, exactly as before this change."""
     stub = _StubGroqClient("{not valid json")
+    client_info = {"provider": "groq", "client": stub}
 
     with _patched(stub):
         result = llm_geotagging.resolve_entity_with_llm(
-            stub, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+        )
+
+    assert result is None
+
+
+class _StubClaudeClient:
+    """Records the kwargs of the last messages.create() call and the
+    timeout passed to with_options(), and returns a canned response in
+    Claude's response.content == [block with .type/.text] shape."""
+
+    def __init__(self, content: str):
+        self.last_kwargs = None
+        self.last_timeout = None
+        self._content = content
+        self.messages = SimpleNamespace(create=self._create)
+
+    def with_options(self, timeout=None):
+        self.last_timeout = timeout
+        return self
+
+    def _create(self, **kwargs):
+        self.last_kwargs = kwargs
+        block = SimpleNamespace(type="text", text=self._content)
+        return SimpleNamespace(content=[block])
+
+
+def test_claude_request_shape_and_no_sampling_params():
+    """Claude path, mirroring the Groq request-shape test above. Also pins
+    down a real bug caught via a live smoke-test call against the actual
+    Anthropic endpoint: the installed anthropic SDK's messages.create() no
+    longer accepts `temperature` at all (TypeError, not a 400 from the
+    server) -- confirmed by inspecting the live method signature after the
+    first version of this code raised on it. This test guards against that
+    regressing back in."""
+    stub = _StubClaudeClient(json.dumps({"action": "accept", "confidence": 0.9}))
+    client_info = {"provider": "claude", "client": stub}
+
+    with _patched(stub):
+        result = llm_geotagging.resolve_entity_with_llm(
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+        )
+
+    assert stub.last_kwargs is not None, "messages.create was never called"
+    assert stub.last_kwargs["model"] == llm_geotagging.CLAUDE_MODEL_NAME
+    assert stub.last_kwargs["max_tokens"] == 256
+    assert stub.last_kwargs["system"] == llm_geotagging.SYSTEM_PROMPT
+    assert stub.last_kwargs["messages"] == [{"role": "user", "content": stub.last_kwargs["messages"][0]["content"]}]
+    assert "temperature" not in stub.last_kwargs
+    assert "top_p" not in stub.last_kwargs
+    assert "top_k" not in stub.last_kwargs
+    assert stub.last_timeout == 10.0
+
+    assert result == {
+        "action": "accept",
+        "lat": None,
+        "lng": None,
+        "query": None,
+        "confidence": 0.9,
+    }
+
+
+def test_claude_parsing_and_validation_path_for_resolve_action():
+    stub = _StubClaudeClient(
+        json.dumps({"action": "resolve", "lat": 40.7, "lng": -73.9, "confidence": 0.8})
+    )
+    client_info = {"provider": "claude", "client": stub}
+
+    with _patched(stub):
+        result = llm_geotagging.resolve_entity_with_llm(
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
+        )
+
+    assert result == {
+        "action": "resolve",
+        "lat": 40.7,
+        "lng": -73.9,
+        "query": None,
+        "confidence": 0.8,
+    }
+
+
+def test_claude_invalid_json_still_fails_safe_to_none():
+    stub = _StubClaudeClient("{not valid json")
+    client_info = {"provider": "claude", "client": stub}
+
+    with _patched(stub):
+        result = llm_geotagging.resolve_entity_with_llm(
+            client_info, "Prospect Park", "GPE", "chilling in prospect park rn", conn=object()
         )
 
     assert result is None

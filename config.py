@@ -22,6 +22,17 @@ ARCHIVE_DIR = "data/archive"
 # at a path restored from Actions cache between runs (no persistent server)
 DB_PATH = os.getenv("DB_PATH", "/data/raw/posts.db")
 
-# LLM geotagging kill switch — set to "false" to disable the Groq layer and
-# fall back entirely to the rule-based pipeline
+# LLM geotagging kill switch — set to "false" to disable the LLM layer
+# (whichever provider is selected below) and fall back entirely to the
+# rule-based pipeline
 LLM_ENABLED = os.getenv("LLM_ENABLED", "true").lower() == "true"
+
+# Which LLM provider backs the geotagging layer: "claude" (Anthropic) or
+# "groq". Both implementations live in pipeline/llm_geotagging.py behind the
+# same resolve_entity_with_llm() interface, so this is a one-line toggle,
+# not a code change, to switch back if needed. Requires the matching API key
+# env var (ANTHROPIC_API_KEY or GROQ_API_KEY) to actually be set — see
+# init_llm_client() in pipeline/llm_geotagging.py, which degrades to the
+# rule-based path (not a crash) if the key for the selected provider is
+# missing.
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "claude").lower()

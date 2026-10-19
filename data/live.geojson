@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T21:24:59.558285Z",
-    "total_pins": 141
+    "generated_at": "2026-10-19T23:19:17.384763Z",
+    "total_pins": 148
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3my44r3zkhy2j",
-        "handle": "travelingadvisor.bsky.social",
-        "text": "Did you know? Niagara Falls is a city in Niagara County, New York, United States.",
-        "created_at": "2026-10-17T22:19:54.336117+00:00",
-        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3my44r3zkhy2j",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hhw2y3kzda5a4kbjrco2wbn3/app.bsky.feed.post/3my44uhsbh22m",
-        "handle": "palmcat.bsky.social",
-        "text": "in New York, the hot topic of debate was whether Gilly or Rye-you was better. though there were always some out there defending Zan-geef or Saggat (pronounced in a way that rhymes with a slur).",
-        "created_at": "2026-10-17T22:21:47.077Z",
-        "source": "https://bsky.app/profile/palmcat.bsky.social/post/3my44uhsbh22m",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -3553,6 +3503,231 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ddcmdof4k5iklckr2almtwkm/app.bsky.feed.post/3mybamcsgjk2w",
+        "handle": "mattmurph24.bsky.social",
+        "text": "Per SNY's @sal_licata on Baseball Night in New York, Aaron Boone was not offered a contract extension.\n\nBoone is currently slated to manage the final guaranteed year of his contract in 2027 share.google/O5ZwLspOfbDu...",
+        "created_at": "2026-10-19T23:12:07.063Z",
+        "source": "https://bsky.app/profile/mattmurph24.bsky.social/post/3mybamcsgjk2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gplbgfulicl2gvhqcblymx6w/app.bsky.feed.post/3mybanxormv2w",
+        "handle": "faithfulamerica.bsky.social",
+        "text": "July 2026: 1,177 children arrested in one month. That's one child every 38 minutes. In February 2025, it was 164.\n\nThis isn't a border story. Children have been arrested in 48 states and DC. Arrests tripled in New York and New Jersey.",
+        "created_at": "2026-10-19T23:13:02.496Z",
+        "source": "https://bsky.app/profile/faithfulamerica.bsky.social/post/3mybanxormv2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tglui5ifhtggvkb3gfmn7sur/app.bsky.feed.post/3mybaoy2aks2f",
+        "handle": "savtasugarshub.bsky.social",
+        "text": "The fool was raised in Queens, named for a foreign monarch. Lived in New York, named for British Duke. Now lives in Florida. Is that not Spanish???",
+        "created_at": "2026-10-19T23:13:36.447Z",
+        "source": "https://bsky.app/profile/savtasugarshub.bsky.social/post/3mybaoy2aks2f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:guyywepkmbrxrvzkmhxc4om5/app.bsky.feed.post/3mybapxygjk2q",
+        "handle": "beiman-nancy.bsky.social",
+        "text": "of course. My absentee ballot was mailed the day I received it and acknowledged in New York 10 days later.",
+        "created_at": "2026-10-19T23:14:09.942Z",
+        "source": "https://bsky.app/profile/beiman-nancy.bsky.social/post/3mybapxygjk2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2id7ojpgao4mgotmmr3kkgbb/app.bsky.feed.post/3mybaq6wg222c",
+        "handle": "dukieboy2.bsky.social",
+        "text": "Imagine someone plotting to blow up a state capitol and kill lawmakers. The FBI says an ISIS supporter planned just that in New York. Here's the scary part: Terrorist ideology can cross oceans without a terrorist ever crossing our borders. #FBI #ISIS #HomelandSecurity www.cnn.com/2026/08/20/u...",
+        "created_at": "2026-10-19T23:14:17.216Z",
+        "source": "https://bsky.app/profile/dukieboy2.bsky.social/post/3mybaq6wg222c",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d4z6vtorfsj44d2czh5ejzve/app.bsky.feed.post/3mybarbmoec2g",
+        "handle": "cgillespie62.bsky.social",
+        "text": "coal miners daughter took place in new york, I think.",
+        "created_at": "2026-10-19T23:14:53.597Z",
+        "source": "https://bsky.app/profile/cgillespie62.bsky.social/post/3mybarbmoec2g",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mybarevrnq2o",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌔 on Monday, October 19, 2026 at 19:14 in New York City.\n\nCurrent conditions (via NOAA):\n🌞 Fair/clear\nTemperature: 16.1°\nRelative Humidity: 47.72%",
+        "created_at": "2026-10-19T23:14:56.644Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mybarevrnq2o",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d4z6vtorfsj44d2czh5ejzve/app.bsky.feed.post/3mybau6msos2g",
+        "handle": "cgillespie62.bsky.social",
+        "text": "levon helm was her dad and he lived in new york.",
+        "created_at": "2026-10-19T23:16:31.120Z",
+        "source": "https://bsky.app/profile/cgillespie62.bsky.social/post/3mybau6msos2g",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qmdzx4ay737f2zdrq2smcrsc/app.bsky.feed.post/3mybaui55gx2e",
+        "handle": "stumblealong.bsky.social",
+        "text": "Ladies and gentlemen, you coulda been anywhere in the world tonight, but you’re here with us in New York City",
+        "created_at": "2026-10-19T23:16:35.63264300Z",
+        "source": "https://bsky.app/profile/stumblealong.bsky.social/post/3mybaui55gx2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

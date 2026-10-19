@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T23:32:07.963001Z",
-    "total_pins": 153
+    "generated_at": "2026-10-19T23:48:08.026543Z",
+    "total_pins": 167
   },
   "features": [
     {
@@ -3857,6 +3857,356 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zdwhjlpxcy7m42evwgdbjsdh/app.bsky.feed.post/3mybbsz3odk2q",
+        "handle": "ghostpig2.bsky.social",
+        "text": "The Ghostbusters had an open position and only one person, in all of New York, applied.",
+        "created_at": "2026-10-19T23:33:45.499Z",
+        "source": "https://bsky.app/profile/ghostpig2.bsky.social/post/3mybbsz3odk2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ildz2334ner5bflbtxqueg5r/app.bsky.feed.post/3mybbu5sxpk2l",
+        "handle": "wiredsins.bsky.social",
+        "text": "the one time i went to new york i put up a slap that said kiss ur sister i wounder if anyone took a pic. stone cold sober in front of my tour group btw",
+        "created_at": "2026-10-19T23:34:24.013Z",
+        "source": "https://bsky.app/profile/wiredsins.bsky.social/post/3mybbu5sxpk2l",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vqmbyewgysxfo42im2yncmqx/app.bsky.feed.post/3mybbv4atrk2d",
+        "handle": "komatsu-hiroko.bsky.social",
+        "text": "ニューヨークのICPで開催中の「I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now」に参加しています。会期は2027年1月11日まで。\n\n—\n\nI am taking part in \"I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now,\" now on view at ICP, New York, through January 11, 2027.\n\n—",
+        "created_at": "2026-10-19T23:34:55.927Z",
+        "source": "https://bsky.app/profile/komatsu-hiroko.bsky.social/post/3mybbv4atrk2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zf7llidi5ktrqisfsvvafxhb/app.bsky.feed.post/3mybbvqrgjc2c",
+        "handle": "btimms1.bsky.social",
+        "text": "Steely Dan — Daddy Don’t Live in That New York City No More\n\nLucy still loves her coke and rum\nBut she sits alone\nCause her daddy can't come\n\nyoutu.be/ftmLDNt3ruM?...",
+        "created_at": "2026-10-19T23:35:17.436Z",
+        "source": "https://bsky.app/profile/btimms1.bsky.social/post/3mybbvqrgjc2c",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybbwqnyv7t2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running express from 125 St to Grand Central-42 St while we request medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:35:47.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybbwqnyv7t2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dfnzzphidrasmdw4abfxjcvb/app.bsky.feed.post/3mybbxavloc2x",
+        "handle": "philsustainability.bsky.social",
+        "text": "The NYC property tax formula is broken.\nLook at this disparity in Cobble Hill, Brooklyn:\n\n🏢 86 Congress St #202 (Condo)\n• Market value: ~$1.85M\n• Annual tax: $22,472\n\n🏡 83 Warren St (1-Family Townhouse)\n• Market value: ~$4.50M\n• Annual tax: $5,375",
+        "created_at": "2026-10-19T23:36:07.907Z",
+        "source": "https://bsky.app/profile/philsustainability.bsky.social/post/3mybbxavloc2x",
+        "mapped_location": "Cobble Hill",
+        "precision_level": "address",
+        "location_text": "Cobble Hill",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006978,
+          40.713282
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n7vkwzjygozb5rum2fsmtfw7/app.bsky.feed.post/3mybc7icr322v",
+        "handle": "repgray.bsky.social",
+        "text": "Vote early before Nov. 3!\n\nMon - Fri 8am - 5 pm \nSat 10am - 4 pm\nSun 12 - 4 pm\n\nAt Midtown Mall\n600 E. Northern Lights Blvd\n\nYou can also vote early at City Hall Mon-Fri 8-5\nSaturday Oct 24, 12-3\n\n#akleg #akgov",
+        "created_at": "2026-10-19T23:40:44.114Z",
+        "source": "https://bsky.app/profile/repgray.bsky.social/post/3mybc7icr322v",
+        "mapped_location": "City Hall, Broadway, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "unclassified",
+        "location_text": "City Hall Mon-Fri",
+        "confidence": 0.9,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybc7wbv7ci2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running with delays after we requested medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:40:57.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybc7wbv7ci2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ew33rlyw2inhr4scnjh3txs3/app.bsky.feed.post/3mybcdtqras2z",
+        "handle": "dracometeor.bsky.social",
+        "text": "I like how people are specifying that their “Mamdani, fix this” posts aren’t in New York, concerned that he might actually try to fix their issue",
+        "created_at": "2026-10-19T23:43:10.321Z",
+        "source": "https://bsky.app/profile/dracometeor.bsky.social/post/3mybcdtqras2z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybceit2qh72",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running express from 125 St to Grand Central-42 St while we request medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:43:30.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybceit2qh72",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rbgxd2ud5kit5zwmxggsorta/app.bsky.feed.post/3mybcge3e222b",
+        "handle": "mmtunligit.bsky.social",
+        "text": "Holy shit I live in new york",
+        "created_at": "2026-10-19T23:44:34.561Z",
+        "source": "https://bsky.app/profile/mmtunligit.bsky.social/post/3mybcge3e222b",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mybcgvthq22u",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Ginzai Yosef Kalish, 1305 Avenue R, Brooklyn, NY 11229",
+        "created_at": "2026-10-19T23:44:53.162Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mybcgvthq22u",
+        "mapped_location": "1305 Avenue R",
+        "precision_level": "address",
+        "location_text": "1305 Avenue R",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybci72hsjb2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown E, F trains are delayed while we address a door problem on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:45:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybci72hsjb2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cchbval6hwccxpxfrzw7pwug/app.bsky.feed.post/3mybcl3os522x",
+        "handle": "the-endgame.bsky.social",
+        "text": "\"The play HIROSHIMA, a tribute to the victims of the first atomic bomb, with music and singing by Yoko Ono, opened in New York this week.\n\nOne tearful Japanese survivor of the attack who attended the premiere called the play, quote, 'the most horrifying experience of my life.'\"",
+        "created_at": "2026-10-19T23:47:13.528Z",
+        "source": "https://bsky.app/profile/the-endgame.bsky.social/post/3mybcl3os522x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

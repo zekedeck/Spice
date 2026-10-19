@@ -13,6 +13,7 @@
   var CAMERA_RADIUS_M = 400; // nearby-camera lookup radius
   var CAMERA_MAX_COUNT = 3; // cap shown per pin so dense areas (Midtown) don't clutter the panel
   var CAMERA_REFRESH_MS = 1000; // how often open camera thumbnails re-fetch their snapshot
+  var CAMERA_DOT_MINZOOM = 14; // Webcams layer: only render dots once zoomed to ~neighborhood level
 
   var map = null;
   var mode = "live"; // "live" | "archive"
@@ -46,6 +47,10 @@
   var statePanelList = document.getElementById("state-panel-list");
   var statePanelCount = document.getElementById("state-panel-count");
   var statePanelEmpty = document.getElementById("state-panel-empty");
+  var toggleProtests = document.getElementById("toggle-protests");
+  var toggleCrime = document.getElementById("toggle-crime");
+  var togglePolice = document.getElementById("toggle-police");
+  var toggleWebcams = document.getElementById("toggle-webcams");
 
   function setStatus(msg) {
     statusLine.textContent = msg || "";
@@ -177,23 +182,38 @@
   }
 
   // ---------------------------------------------------------------------
-  // Boolean keyword search: AND / OR / NOT / "quoted phrases"
+  // Boolean keyword search: AND / OR / NOT / "quoted phrases" / (grouping)
   // Grammar (left-to-right, AND/NOT bind tighter than OR):
   //   expr   := andExpr (OR andExpr)*
   //   andExpr:= notTerm (AND? notTerm)*   -- AND is implicit if omitted
   //   notTerm:= NOT? primary
-  //   primary:= WORD | PHRASE
+  //   primary:= WORD | PHRASE | "(" expr ")"
+  //
+  // Term matching, decided per-term at parse time (buildTermNode):
+  //   - a term containing internal whitespace (a real multi-word phrase,
+  //     including an intentional leading space like " rally") is always a
+  //     literal, case-insensitive substring match.
+  //   - a single "word" (no whitespace, whether it arrived quoted or bare)
+  //     ending in "*" is a case-insensitive, word-prefix wildcard match
+  //     (protest* -> \bprotest\w*): matches protest/protests/protester/...
+  //   - a single word with no wildcard, <=5 chars, and ALL CAPS (ICE, NYPD)
+  //     is a case-SENSITIVE, whole-word match (\bICE\b against the
+  //     original-case text) -- this is what keeps "ICE" from colliding
+  //     with "iced coffee" / "nice" / "SPICE", etc.
+  //   - everything else is a case-insensitive substring match, as before.
   // ---------------------------------------------------------------------
 
   function tokenizeQuery(raw) {
     var tokens = [];
-    var re = /"([^"]*)"|(\S+)/g;
+    var re = /"([^"]*)"|([()])|([^\s()"]+)/g;
     var m;
     while ((m = re.exec(raw)) !== null) {
       if (m[1] !== undefined) {
         tokens.push({ type: "phrase", value: m[1] });
+      } else if (m[2] !== undefined) {
+        tokens.push({ type: "paren", value: m[2] });
       } else {
-        var word = m[2];
+        var word = m[3];
         var upper = word.toUpperCase();
         if (upper === "AND" || upper === "OR" || upper === "NOT") {
           tokens.push({ type: "op", value: upper });
@@ -203,6 +223,28 @@
       }
     }
     return tokens;
+  }
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  var ALL_CAPS_RE = /^[A-Z]+$/;
+
+  // Builds the term-matching node for a single parsed WORD/PHRASE value
+  // (original case preserved in `raw`). See the matching rules above.
+  function buildTermNode(raw) {
+    if (/\s/.test(raw)) {
+      return { kind: "term", mode: "substring", value: raw.toLowerCase() };
+    }
+    if (raw.length > 1 && raw.charAt(raw.length - 1) === "*") {
+      var prefix = raw.slice(0, -1).toLowerCase();
+      return { kind: "term", mode: "prefix", re: new RegExp("\\b" + escapeRegExp(prefix) + "\\w*") };
+    }
+    if (raw.length <= 5 && ALL_CAPS_RE.test(raw)) {
+      return { kind: "term", mode: "exact-case", re: new RegExp("\\b" + escapeRegExp(raw) + "\\b") };
+    }
+    return { kind: "term", mode: "substring", value: raw.toLowerCase() };
   }
 
   function parseBooleanQuery(raw) {
@@ -219,11 +261,20 @@
     function parsePrimary() {
       var t = peek();
       if (!t) return null;
+      if (t.type === "paren" && t.value === "(") {
+        next();
+        var inner = parseOr();
+        var close = peek();
+        if (close && close.type === "paren" && close.value === ")") {
+          next();
+        }
+        return inner;
+      }
       if (t.type === "word" || t.type === "phrase") {
         next();
-        return { kind: "term", value: t.value.toLowerCase() };
+        return buildTermNode(t.value);
       }
-      // Stray operator with nothing to bind to: skip it.
+      // Stray operator or unmatched paren with nothing to bind to: skip it.
       next();
       return null;
     }
@@ -246,6 +297,7 @@
         var t = peek();
         if (!t) break;
         if (t.type === "op" && t.value === "OR") break;
+        if (t.type === "paren" && t.value === ")") break; // closes an enclosing group
         if (t.type === "op" && t.value === "AND") next(); // explicit AND
         // otherwise: implicit AND, don't consume
         var right = parseNotTerm();
@@ -272,17 +324,19 @@
     return parseOr();
   }
 
-  function evalBooleanNode(node, lowerText) {
+  function evalBooleanNode(node, ctx) {
     if (!node) return true;
     switch (node.kind) {
       case "term":
-        return lowerText.indexOf(node.value) !== -1;
+        if (node.mode === "prefix") return node.re.test(ctx.lower);
+        if (node.mode === "exact-case") return node.re.test(ctx.original);
+        return ctx.lower.indexOf(node.value) !== -1;
       case "not":
-        return !evalBooleanNode(node.child, lowerText);
+        return !evalBooleanNode(node.child, ctx);
       case "and":
-        return evalBooleanNode(node.left, lowerText) && evalBooleanNode(node.right, lowerText);
+        return evalBooleanNode(node.left, ctx) && evalBooleanNode(node.right, ctx);
       case "or":
-        return evalBooleanNode(node.left, lowerText) || evalBooleanNode(node.right, lowerText);
+        return evalBooleanNode(node.left, ctx) || evalBooleanNode(node.right, ctx);
       default:
         return true;
     }
@@ -291,7 +345,37 @@
   function matchesSearch(feature, ast) {
     if (!ast) return true;
     var text = (feature.properties && feature.properties.text) || "";
-    return evalBooleanNode(ast, text.toLowerCase());
+    return evalBooleanNode(ast, { lower: text.toLowerCase(), original: text });
+  }
+
+  // ---------------------------------------------------------------------
+  // Category filters: four toggle switches reusing the boolean engine
+  // above. Queries are corpus-validated finalized strings -- not meant to
+  // be redesigned here. Parsed once at startup.
+  // ---------------------------------------------------------------------
+
+  var PROTEST_AST = parseBooleanQuery(
+    '"protest*" OR " rally" OR "rallies" OR "vigil" OR "no kings" OR ("march*" AND ("protest*" OR " rally" OR "rallies" OR "demonstrat*" OR "mobiliz*" OR "field call"))'
+  );
+  var CRIME_AST = parseBooleanQuery(
+    '((" shot" OR "shooting") AND ("gun" OR "ICE" OR "police" OR "NYPD" OR "agent*" OR "wound*" OR "injur*" OR "victim" OR "kill*" OR "arrest*" OR "federal")) OR "stabbed" OR "stabbing" OR ("assault*" AND ("arrest*" OR "charge*" OR "convict*" OR "sentenc*" OR "court" OR "custody" OR "police" OR "NYPD" OR "victim" OR "probation")) OR "arrest*"'
+  );
+  var POLICE_AST = parseBooleanQuery(
+    '("ICE" AND ("detain*" OR "arrest*" OR "grabbed" OR "shot" OR "shoot*" OR "wound*" OR "raid*" OR "deport*" OR "custody" OR "operation" OR "gunfire" OR "protest")) OR (("NYPD" OR "police") AND ("shot" OR "shooting" OR "arrest*" OR "wound*" OR "search*" OR "investigat*" OR "respond*" OR "pursuit" OR "custody" OR "raid*" OR "cyclist" OR "red light" OR "injur*" OR "gunmen" OR "shootout" OR "gang"))'
+  );
+
+  // Priority order when a post matches more than one category: Protests ->
+  // Crime -> Police Activity. Picks the first match, consistently, for the
+  // single icon a pin shows. Computed once per feature at annotate() time,
+  // independent of which toggles are currently active -- the toggles only
+  // control which pins are *visible*; a visible pin's icon always reflects
+  // this classification.
+  function classifyCategory(text) {
+    var fakeFeature = { properties: { text: text } };
+    if (matchesSearch(fakeFeature, PROTEST_AST)) return "protest";
+    if (matchesSearch(fakeFeature, CRIME_AST)) return "crime";
+    if (matchesSearch(fakeFeature, POLICE_AST)) return "police";
+    return "";
   }
 
   // ---------------------------------------------------------------------
@@ -317,6 +401,7 @@
       var props = features[i].properties || {};
       props.category = categorize(props);
       props.ageMinutes = computeAgeMinutes(props.created_at);
+      props.matchCategory = classifyCategory(props.text || "");
       features[i].properties = props;
     }
     return features;
@@ -349,10 +434,35 @@
     return parseBooleanQuery(raw);
   }
 
+  // Active category-toggle ASTs, OR'd together: a pin must match at least
+  // one active category to pass. With zero toggles active, there's no
+  // category restriction at all (matches everything) -- so turning on
+  // more toggles only ever adds pins back in, never removes any beyond
+  // what the free-text search already excluded.
+  function activeCategoryAsts() {
+    var asts = [];
+    if (toggleProtests && toggleProtests.checked) asts.push(PROTEST_AST);
+    if (toggleCrime && toggleCrime.checked) asts.push(CRIME_AST);
+    if (togglePolice && togglePolice.checked) asts.push(POLICE_AST);
+    return asts;
+  }
+
+  function matchesAnyAst(feature, asts) {
+    if (asts.length === 0) return true;
+    for (var i = 0; i < asts.length; i++) {
+      if (matchesSearch(feature, asts[i])) return true;
+    }
+    return false;
+  }
+
   function applyFilters() {
     var ast = currentAst();
-    var filteredPins = ast ? allFeatures.filter(function (f) { return matchesSearch(f, ast); }) : allFeatures.slice();
-    var filteredStateMentions = ast ? allStateMentions.filter(function (f) { return matchesSearch(f, ast); }) : allStateMentions.slice();
+    var categoryAsts = activeCategoryAsts();
+    function passes(f) {
+      return (ast ? matchesSearch(f, ast) : true) && matchesAnyAst(f, categoryAsts);
+    }
+    var filteredPins = allFeatures.filter(passes);
+    var filteredStateMentions = allStateMentions.filter(passes);
     clearSelection();
     var source = map.getSource("pins");
     if (source) {
@@ -655,11 +765,60 @@
       })
       .then(function (cameras) {
         nycCameras = Array.isArray(cameras) ? cameras : [];
+        renderCameraLayer();
       })
       .catch(function (err) {
         nycCameras = []; // feature degrades silently: no cameras shown
         console.error(err);
       });
+  }
+
+  // ---------------------------------------------------------------------
+  // Webcams map layer (standalone toggle, separate from the detail-panel
+  // nearby-camera feature above): plots all nyc_cameras.json points as a
+  // muted dot layer, below post pins in z-order, gated behind a minzoom so
+  // it only appears once zoomed in to roughly neighborhood level.
+  // ---------------------------------------------------------------------
+
+  function camerasToGeoJSON(cameras) {
+    var features = [];
+    for (var i = 0; i < cameras.length; i++) {
+      var c = cameras[i];
+      features.push({
+        type: "Feature",
+        properties: { id: c.id, name: c.name || "Traffic camera", area: c.area || "" },
+        geometry: { type: "Point", coordinates: [c.lng, c.lat] }
+      });
+    }
+    return { type: "FeatureCollection", features: features };
+  }
+
+  // Populates the "cameras" source once both the map style has loaded and
+  // the camera reference data has arrived -- whichever finishes second
+  // calls this; it's a no-op if either isn't ready yet.
+  function renderCameraLayer() {
+    if (!map || !map.getSource("cameras")) return;
+    map.getSource("cameras").setData(camerasToGeoJSON(nycCameras));
+  }
+
+  var cameraPopup = null;
+
+  function openCameraPopup(feature) {
+    var p = feature.properties;
+    var imgUrl = cameraImageUrl(p.id);
+    var html =
+      '<div class="camera-popup">' +
+      '<div class="camera-popup-name">' + escapeHtml(p.name) + (p.area ? " · " + escapeHtml(p.area) : "") + "</div>" +
+      '<a href="' + escapeHtml(imgUrl) + '" target="_blank" rel="noopener noreferrer">' +
+      '<img class="camera-popup-img" src="' + escapeHtml(imgUrl) + '" alt="' + escapeHtml(p.name) + '" />' +
+      "</a>" +
+      '<a class="camera-popup-link" href="' + escapeHtml(imgUrl) + '" target="_blank" rel="noopener noreferrer">Open full image</a>' +
+      "</div>";
+    if (cameraPopup) cameraPopup.remove();
+    cameraPopup = new maplibregl.Popup({ className: "camera-popup", closeButton: true, closeOnClick: true, maxWidth: "200px", offset: 10 })
+      .setLngLat(feature.geometry.coordinates)
+      .setHTML(html)
+      .addTo(map);
   }
 
   // Haversine distance in meters between two lat/lng points.
@@ -897,6 +1056,118 @@
     720, "#d94f4f"
   ];
 
+  // ---------------------------------------------------------------------
+  // Category + camera icon glyphs. Drawn as small vector pictograms on an
+  // offscreen canvas rather than relying on emoji/font glyph support (not
+  // guaranteed across browsers/headless renderers), then registered with
+  // MapLibre as images for symbol layers. Layered on top of the existing
+  // age-gradient pin coloring -- these never touch that color system.
+  // ---------------------------------------------------------------------
+
+  function roundRectPath(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function makeIconImageData(size, draw) {
+    var canvas = document.createElement("canvas");
+    canvas.width = size;
+    canvas.height = size;
+    var ctx = canvas.getContext("2d");
+    draw(ctx, size);
+    return ctx.getImageData(0, 0, size, size);
+  }
+
+  // Dark translucent circular backing so any glyph reads against every
+  // stop of the age-color gradient underneath it.
+  function drawIconBacking(ctx, s) {
+    ctx.clearRect(0, 0, s, s);
+    ctx.beginPath();
+    ctx.arc(s / 2, s / 2, s / 2 - 1, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(11, 14, 20, 0.82)";
+    ctx.fill();
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "rgba(255, 255, 255, 0.28)";
+    ctx.stroke();
+  }
+
+  function drawFistIcon(ctx, s) {
+    drawIconBacking(ctx, s);
+    var cx = s / 2;
+    ctx.fillStyle = "#ffffff";
+    var ky = s * 0.36, kr = s * 0.085;
+    [-0.20, -0.065, 0.065, 0.20].forEach(function (dx) {
+      ctx.beginPath();
+      ctx.arc(cx + dx * s, ky, kr, 0, Math.PI * 2);
+      ctx.fill();
+    });
+    ctx.beginPath();
+    ctx.moveTo(cx - s * 0.26, s * 0.42);
+    ctx.lineTo(cx + s * 0.26, s * 0.42);
+    ctx.lineTo(cx + s * 0.20, s * 0.74);
+    ctx.lineTo(cx - s * 0.20, s * 0.74);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(cx - s * 0.30, s * 0.52, s * 0.09, s * 0.13, -0.4, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  function drawExclamationIcon(ctx, s) {
+    drawIconBacking(ctx, s);
+    var cx = s / 2;
+    ctx.fillStyle = "#ffffff";
+    var barW = s * 0.14;
+    roundRectPath(ctx, cx - barW / 2, s * 0.20, barW, s * 0.38, barW / 2);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(cx, s * 0.72, barW * 0.62, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  function drawBadgeIcon(ctx, s) {
+    drawIconBacking(ctx, s);
+    var cx = s / 2;
+    ctx.fillStyle = "#ffffff";
+    ctx.beginPath();
+    ctx.moveTo(cx - s * 0.22, s * 0.24);
+    ctx.lineTo(cx + s * 0.22, s * 0.24);
+    ctx.quadraticCurveTo(cx + s * 0.26, s * 0.45, cx + s * 0.18, s * 0.62);
+    ctx.quadraticCurveTo(cx + s * 0.08, s * 0.76, cx, s * 0.80);
+    ctx.quadraticCurveTo(cx - s * 0.08, s * 0.76, cx - s * 0.18, s * 0.62);
+    ctx.quadraticCurveTo(cx - s * 0.26, s * 0.45, cx - s * 0.22, s * 0.24);
+    ctx.closePath();
+    ctx.fill();
+    ctx.fillStyle = "rgba(11, 14, 20, 0.85)";
+    ctx.beginPath();
+    ctx.arc(cx, s * 0.47, s * 0.065, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  // Small, muted, plain camera glyph -- deliberately not part of the
+  // age-gradient color system, so it reads as reference data, not a post.
+  function drawCameraGlyph(ctx, s) {
+    ctx.clearRect(0, 0, s, s);
+    ctx.fillStyle = "rgba(154, 163, 181, 0.95)";
+    roundRectPath(ctx, s * 0.16, s * 0.34, s * 0.68, s * 0.42, s * 0.06);
+    ctx.fill();
+    roundRectPath(ctx, s * 0.38, s * 0.22, s * 0.26, s * 0.14, s * 0.03);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(s * 0.5, s * 0.55, s * 0.17, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(11, 14, 20, 0.9)";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(s * 0.5, s * 0.55, s * 0.10, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(154, 163, 181, 0.95)";
+    ctx.fill();
+  }
+
   function initMap() {
     map = new maplibregl.Map({
       container: "map",
@@ -908,9 +1179,44 @@
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
 
     map.on("load", function () {
-      map.addSource("pins", {
+      // Register category + camera icon images before anything references
+      // them by name.
+      map.addImage("icon-protest", makeIconImageData(28, drawFistIcon));
+      map.addImage("icon-crime", makeIconImageData(28, drawExclamationIcon));
+      map.addImage("icon-police", makeIconImageData(28, drawBadgeIcon));
+      map.addImage("camera-glyph", makeIconImageData(24, drawCameraGlyph));
+
+      // --- Webcams (standalone layer, separate from the detail-panel
+      // nearby-camera feature). Added first so it renders BELOW post pins
+      // in z-order. Gated behind CAMERA_MINZOOM so city-wide zoom doesn't
+      // flood the map with all ~979 dots.
+      map.addSource("cameras", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] }
+      });
+
+      map.addLayer({
+        id: "camera-dots",
+        type: "symbol",
+        source: "cameras",
+        minzoom: CAMERA_DOT_MINZOOM,
+        layout: {
+          "icon-image": "camera-glyph",
+          "icon-size": 0.55,
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true,
+          "visibility": "none" // Webcams toggle starts off
+        }
+      });
+
+      // --- Post pins, clustered at lower zooms so overlapping pins group
+      // into a count bubble instead of stacking raw circles/icons.
+      map.addSource("pins", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] },
+        cluster: true,
+        clusterRadius: 50,
+        clusterMaxZoom: 14
       });
 
       map.addSource("selected-pin", {
@@ -918,11 +1224,43 @@
         data: { type: "FeatureCollection", features: [] }
       });
 
-      // Subtle always-on glow for unselected individual pins.
+      // Cluster bubbles (only rendered where points are grouped).
+      map.addLayer({
+        id: "pin-clusters",
+        type: "circle",
+        source: "pins",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#5b8cff",
+          "circle-opacity": 0.78,
+          "circle-stroke-width": 1.5,
+          "circle-stroke-color": "#0b0e14",
+          "circle-radius": ["step", ["get", "point_count"], 14, 10, 18, 25, 24, 50, 30]
+        }
+      });
+
+      map.addLayer({
+        id: "pin-cluster-count",
+        type: "symbol",
+        source: "pins",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-font": ["Noto Sans Regular"],
+          "text-size": 12
+        },
+        paint: {
+          "text-color": "#0b0e14"
+        }
+      });
+
+      // Subtle always-on glow for unselected individual pins (unclustered
+      // only -- clusters get their own bubble above).
       map.addLayer({
         id: "pin-halo",
         type: "circle",
         source: "pins",
+        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 14,
@@ -935,11 +1273,41 @@
         id: "pin-point",
         type: "circle",
         source: "pins",
+        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 6,
           "circle-stroke-width": 1.5,
           "circle-stroke-color": "#0b0e14"
+        }
+      });
+
+      // Category icons, layered on top of the age-colored dot. Priority
+      // order Protests -> Crime -> Police Activity is already baked into
+      // matchCategory (see classifyCategory), so this is a simple lookup.
+      map.addLayer({
+        id: "pin-icons",
+        type: "symbol",
+        source: "pins",
+        filter: [
+          "all",
+          ["!", ["has", "point_count"]],
+          ["any",
+            ["==", ["get", "matchCategory"], "protest"],
+            ["==", ["get", "matchCategory"], "crime"],
+            ["==", ["get", "matchCategory"], "police"]
+          ]
+        ],
+        layout: {
+          "icon-image": ["match", ["get", "matchCategory"],
+            "protest", "icon-protest",
+            "crime", "icon-crime",
+            "police", "icon-police",
+            "icon-protest"
+          ],
+          "icon-size": 0.85,
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true
         }
       });
 
@@ -956,23 +1324,45 @@
         }
       });
 
-      map.on("click", "pin-point", function (e) {
+      var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "pin-clusters", "camera-dots"];
+
+      function handlePinClick(e) {
         if (e.features && e.features[0]) {
           var feature = e.features[0];
           map.easeTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
           openPanel(feature);
         }
+      }
+      map.on("click", "pin-point", handlePinClick);
+      map.on("click", "pin-icons", handlePinClick);
+
+      map.on("click", "pin-clusters", function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-clusters"] });
+        if (!features.length) return;
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource("pins").getClusterExpansionZoom(clusterId, function (err, zoom) {
+          if (err) return;
+          map.easeTo({ center: features[0].geometry.coordinates, zoom: zoom });
+        });
       });
 
+      map.on("click", "camera-dots", function (e) {
+        if (e.features && e.features[0]) openCameraPopup(e.features[0]);
+      });
+
+      // Click elsewhere on the map (not on any interactive layer above)
+      // clears the open detail panel.
       map.on("click", function (e) {
-        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
+        var features = map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS });
         if (features.length === 0) clearSelection();
       });
 
-      ["pin-point"].forEach(function (layerId) {
+      PIN_INTERACTIVE_LAYERS.forEach(function (layerId) {
         map.on("mouseenter", layerId, function () { map.getCanvas().style.cursor = "pointer"; });
         map.on("mouseleave", layerId, function () { map.getCanvas().style.cursor = ""; });
       });
+
+      renderCameraLayer(); // in case loadCameras() already resolved
 
       loadLive().then(startLiveRefresh);
     });
@@ -989,6 +1379,17 @@
   searchInput.addEventListener("input", function () {
     applyFilters();
   });
+
+  [toggleProtests, toggleCrime, togglePolice].forEach(function (el) {
+    if (el) el.addEventListener("change", applyFilters);
+  });
+
+  if (toggleWebcams) {
+    toggleWebcams.addEventListener("change", function () {
+      if (!map || !map.getLayer("camera-dots")) return;
+      map.setLayoutProperty("camera-dots", "visibility", toggleWebcams.checked ? "visible" : "none");
+    });
+  }
 
   detailClose.addEventListener("click", clearSelection);
 

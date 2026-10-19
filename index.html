@@ -83,7 +83,49 @@
        change to how pins are hit-tested/rendered; out of scope for now. -->
   <div id="map"></div>
 
-  <p id="status-line" class="status-line" role="status" aria-live="polite"></p>
+  <div class="map-overlay-topleft">
+    <div class="category-panel" id="category-panel">
+      <p class="category-panel-title">Filters</p>
+
+      <label class="category-toggle-row">
+        <span class="category-toggle-label">Protests</span>
+        <span class="switch">
+          <input type="checkbox" id="toggle-protests" />
+          <span class="switch-track" aria-hidden="true"></span>
+          <span class="switch-thumb" aria-hidden="true"></span>
+        </span>
+      </label>
+
+      <label class="category-toggle-row">
+        <span class="category-toggle-label">Crime</span>
+        <span class="switch">
+          <input type="checkbox" id="toggle-crime" />
+          <span class="switch-track" aria-hidden="true"></span>
+          <span class="switch-thumb" aria-hidden="true"></span>
+        </span>
+      </label>
+
+      <label class="category-toggle-row">
+        <span class="category-toggle-label">Police Activity</span>
+        <span class="switch">
+          <input type="checkbox" id="toggle-police" />
+          <span class="switch-track" aria-hidden="true"></span>
+          <span class="switch-thumb" aria-hidden="true"></span>
+        </span>
+      </label>
+
+      <label class="category-toggle-row">
+        <span class="category-toggle-label">Webcams</span>
+        <span class="switch">
+          <input type="checkbox" id="toggle-webcams" />
+          <span class="switch-track" aria-hidden="true"></span>
+          <span class="switch-thumb" aria-hidden="true"></span>
+        </span>
+      </label>
+    </div>
+
+    <p id="status-line" class="status-line" role="status" aria-live="polite"></p>
+  </div>
 
   <div class="legend" aria-hidden="true">
     <div class="legend-gradient"></div>

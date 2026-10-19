@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T23:19:17.384763Z",
-    "total_pins": 148
+    "generated_at": "2026-10-19T23:40:04.070936Z",
+    "total_pins": 159
   },
   "features": [
     {
@@ -3732,6 +3732,281 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vzghuuecihbssig6eguc7hsq/app.bsky.feed.post/3mybbe3kkak26",
+        "handle": "ladee-fkn-da421.bsky.social",
+        "text": "This is a what a man of faith is doing in New York! Is this what they are calling \"Dangerous\" behavior? Vote 🗳💙 🌊",
+        "created_at": "2026-10-19T23:25:24.770Z",
+        "source": "https://bsky.app/profile/ladee-fkn-da421.bsky.social/post/3mybbe3kkak26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b5lzn7x33qnonyu52kfcw7v7/app.bsky.feed.post/3mybbepdqws2d",
+        "handle": "deafuncle.bsky.social",
+        "text": "That gray miniskirt dress with those red heels in Times Square? I'd take you somewhere private and show you my plans. 😍",
+        "created_at": "2026-10-19T23:25:45.519Z",
+        "source": "https://bsky.app/profile/deafuncle.bsky.social/post/3mybbepdqws2d",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.854,
+          40.895
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nznms43b6lfaluzc5kmgaxja/app.bsky.feed.post/3mybbfghlqk2r",
+        "handle": "underworldneo.bsky.social",
+        "text": "Clues\n\n1. 1759.7\nMen of Greek and Latin Letters academy of Catholic Church\n\n2. 312.7\nIn Rome God belief + DAY (LEO 14)\nin Rome Jehu + DAY (Dei Fili Dei)\nof Pergamum\nArch Angel Michael\ndogma of New York\n(claim Arch Angel Michael was reborn as Jesus)\n(claim that its leader determined the advent date)",
+        "created_at": "2026-10-19T23:26:09.763Z",
+        "source": "https://bsky.app/profile/underworldneo.bsky.social/post/3mybbfghlqk2r",
+        "mapped_location": "Saint Frances of Rome Catholic Church, 761, East 236th Street, Wakefield, The Bronx, Bronx County, New York, 10466, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Rome Jehu",
+        "confidence": 0.9,
+        "address_type": "place_of_worship",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kpoafi5odrkhxjj6mnxbmxpg/app.bsky.feed.post/3mybbnppwhp2l",
+        "handle": "queerhistorybot.bsky.social",
+        "text": "At ten years old, Sylvia Rivera was on her own in Times Square, eking out a living as a sex worker.\nShe once threw herself out of a moving police car to evade arrest.\nRivera was forced to live life on the margins because she refused to conform to the gender norms of her time. ",
+        "created_at": "2026-10-19T23:30:44.56029900Z",
+        "source": "https://bsky.app/profile/queerhistorybot.bsky.social/post/3mybbnppwhp2l",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3mybbnt5rwb2q",
+        "handle": "howardweiss.bsky.social",
+        "text": "NYC Right Now, 7:30 PM: 1 Report and New Events · Oct 19\n\n1 report in NYC before 7:30 PM: person with a gun (600 block of Gates Avenue, Bedford-Stuyvesant (East), Brooklyn). Details may change....",
+        "created_at": "2026-10-19T23:30:51Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3mybbnt5rwb2q",
+        "mapped_location": "Gates Avenue",
+        "precision_level": "address",
+        "location_text": "Gates Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zdwhjlpxcy7m42evwgdbjsdh/app.bsky.feed.post/3mybbsz3odk2q",
+        "handle": "ghostpig2.bsky.social",
+        "text": "The Ghostbusters had an open position and only one person, in all of New York, applied.",
+        "created_at": "2026-10-19T23:33:45.499Z",
+        "source": "https://bsky.app/profile/ghostpig2.bsky.social/post/3mybbsz3odk2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ildz2334ner5bflbtxqueg5r/app.bsky.feed.post/3mybbu5sxpk2l",
+        "handle": "wiredsins.bsky.social",
+        "text": "the one time i went to new york i put up a slap that said kiss ur sister i wounder if anyone took a pic. stone cold sober in front of my tour group btw",
+        "created_at": "2026-10-19T23:34:24.013Z",
+        "source": "https://bsky.app/profile/wiredsins.bsky.social/post/3mybbu5sxpk2l",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vqmbyewgysxfo42im2yncmqx/app.bsky.feed.post/3mybbv4atrk2d",
+        "handle": "komatsu-hiroko.bsky.social",
+        "text": "ニューヨークのICPで開催中の「I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now」に参加しています。会期は2027年1月11日まで。\n\n—\n\nI am taking part in \"I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now,\" now on view at ICP, New York, through January 11, 2027.\n\n—",
+        "created_at": "2026-10-19T23:34:55.927Z",
+        "source": "https://bsky.app/profile/komatsu-hiroko.bsky.social/post/3mybbv4atrk2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zf7llidi5ktrqisfsvvafxhb/app.bsky.feed.post/3mybbvqrgjc2c",
+        "handle": "btimms1.bsky.social",
+        "text": "Steely Dan — Daddy Don’t Live in That New York City No More\n\nLucy still loves her coke and rum\nBut she sits alone\nCause her daddy can't come\n\nyoutu.be/ftmLDNt3ruM?...",
+        "created_at": "2026-10-19T23:35:17.436Z",
+        "source": "https://bsky.app/profile/btimms1.bsky.social/post/3mybbvqrgjc2c",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybbwqnyv7t2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running express from 125 St to Grand Central-42 St while we request medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:35:47.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybbwqnyv7t2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dfnzzphidrasmdw4abfxjcvb/app.bsky.feed.post/3mybbxavloc2x",
+        "handle": "philsustainability.bsky.social",
+        "text": "The NYC property tax formula is broken.\nLook at this disparity in Cobble Hill, Brooklyn:\n\n🏢 86 Congress St #202 (Condo)\n• Market value: ~$1.85M\n• Annual tax: $22,472\n\n🏡 83 Warren St (1-Family Townhouse)\n• Market value: ~$4.50M\n• Annual tax: $5,375",
+        "created_at": "2026-10-19T23:36:07.907Z",
+        "source": "https://bsky.app/profile/philsustainability.bsky.social/post/3mybbxavloc2x",
+        "mapped_location": "Cobble Hill",
+        "precision_level": "address",
+        "location_text": "Cobble Hill",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

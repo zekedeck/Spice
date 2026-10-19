@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:03:08.216633Z",
-    "total_pins": 77
+    "generated_at": "2026-10-19T20:20:23.234624Z",
+    "total_pins": 84
   },
   "features": [
     {
@@ -1942,6 +1942,183 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:27lwvjlccbu2s3kszutf4l6a/app.bsky.feed.post/3myaw5nzbnk2x",
+        "handle": "alicedyeforme.bsky.social",
+        "text": "I mean there's Delia Ramirez in New York\n\ncan't think of anyone else offhand",
+        "created_at": "2026-10-19T20:04:58.087Z",
+        "source": "https://bsky.app/profile/alicedyeforme.bsky.social/post/3myaw5nzbnk2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3myawat2tbs2h",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Conservative Synagogue of Fifth Avenue, 11 E 11th St, New York, NY 10003",
+        "created_at": "2026-10-19T20:06:44.024Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3myawat2tbs2h",
+        "mapped_location": "Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "Fifth Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ueupkxocwl3jsexq72ycnorr/app.bsky.feed.post/3myawoljpg22z",
+        "handle": "angelsinvelvet.bsky.social",
+        "text": "They were executed by the federal government of the United States in 1953 using New York's state execution chamber in Sing Sing in Ossining, New York, becoming the first American civilians to be executed for such charges and the first to be executed during peacetime.",
+        "created_at": "2026-10-19T20:14:25.905Z",
+        "source": "https://bsky.app/profile/angelsinvelvet.bsky.social/post/3myawoljpg22z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ueupkxocwl3jsexq72ycnorr/app.bsky.feed.post/3myawoljpg22z",
+        "handle": "angelsinvelvet.bsky.social",
+        "text": "They were executed by the federal government of the United States in 1953 using New York's state execution chamber in Sing Sing in Ossining, New York, becoming the first American civilians to be executed for such charges and the first to be executed during peacetime.",
+        "created_at": "2026-10-19T20:14:25.905Z",
+        "source": "https://bsky.app/profile/angelsinvelvet.bsky.social/post/3myawoljpg22z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5jrg2kb4obrd7qzzwk2c332/app.bsky.feed.post/3myawoluoy22b",
+        "handle": "njms.bsky.social",
+        "text": "welcome to escape from new york",
+        "created_at": "2026-10-19T20:14:26.249Z",
+        "source": "https://bsky.app/profile/njms.bsky.social/post/3myawoluoy22b",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f54cq2i2edsh3vjz3fdg255m/app.bsky.feed.post/3myawtp4acc2d",
+        "handle": "democratsofa.bsky.social",
+        "text": "Toledo Ohio is named after Toledo, Spain. It must immediately become America, Ohio! Immediate prosperity! Same for Rome, Georgia! \nYork is a place in England, so New York must change its name too!\n\"New America, New America\" has a nice ring to it, don't you think?\n😆 🤣",
+        "created_at": "2026-10-19T20:17:17.423Z",
+        "source": "https://bsky.app/profile/democratsofa.bsky.social/post/3myawtp4acc2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sn74lrgzkisufdz4qocqf2rq/app.bsky.feed.post/3myawwiqjhc2q",
+        "handle": "malachydiscontent.bsky.social",
+        "text": "AMERICAN HORROR STORY COUNTDOWN TO HALLOWEEN: American Horror Story: 11: NYC takes place in 1980s New York City and focuses on a string of killings involving gay men and the emergence of a new virus.\n\n11 days until All Hallow's Eve, Samhain",
+        "created_at": "2026-10-19T20:18:51.400Z",
+        "source": "https://bsky.app/profile/malachydiscontent.bsky.social/post/3myawwiqjhc2q",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

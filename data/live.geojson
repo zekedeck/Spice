@@ -1,239 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T06:59:21.106699Z",
-    "total_pins": 61
+    "generated_at": "2026-10-19T13:38:31.362628Z",
+    "total_pins": 53
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uhsfnsmobsg5psev6xbkko4a/app.bsky.feed.post/3my2mcqqosk24",
-        "handle": "en-be.pds.netasgard.com",
-        "text": "Irish — Legal papers served in $50 million claim linked to yacht incident in New York #US #Irish #NewYork #News",
-        "created_at": "2026-10-17T07:52:52Z",
-        "source": "https://bsky.app/profile/en-be.pds.netasgard.com/post/3my2mcqqosk24",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:av53z3tav4kumnptg5a4xlbc/app.bsky.feed.post/3my3254z46i22",
-        "handle": "maketheroadny.bsky.social",
-        "text": "🧊 ICE has no place in our city. Full stop.\n\nThey have kidnapped 19,000 people in New York in the past year and a half. As New Yorkers, we will not let this continue. \n\nAdd your name to the pledge calling to defend our immigrant communities from ICE’s cruelty: win.newmode.net/abolishice",
-        "created_at": "2026-10-17T12:00:16.627Z",
-        "source": "https://bsky.app/profile/maketheroadny.bsky.social/post/3my3254z46i22",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3my327wknxj26",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "He made classic American style something the whole world wanted to wear. Here’s to the designer behind so many timeless looks! 👏🏻❤️\n\nPost/video by Girlfromjerseycity\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-10-17T12:01:23.327Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3my327wknxj26",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:d2wmrwpjqtum76usyewuywdi/app.bsky.feed.post/3my32bsxr4k2p",
-        "handle": "bongopirate067.bsky.social",
-        "text": "Ivana’s father, Miloš Zelníček, gave regular information to the local StB office about his daughter’s visits from the US and on his celebrity son-in-law’s career in New York.",
-        "created_at": "2026-10-17T12:02:54.004Z",
-        "source": "https://bsky.app/profile/bongopirate067.bsky.social/post/3my32bsxr4k2p",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.674
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
-        "handle": "mikimiki0010.bsky.social",
-        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
-        "created_at": "2026-10-17T12:04:03.418Z",
-        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
-        "mapped_location": "the Barclays Center",
-        "precision_level": "address",
-        "location_text": "the Barclays Center",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "New York City"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
-        "handle": "mikimiki0010.bsky.social",
-        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
-        "created_at": "2026-10-17T12:04:03.418Z",
-        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1,
-        "other_locations": "the Barclays Center"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:u666j2556rfao6n5mabwecpf/app.bsky.feed.post/3my32ewgs2a2q",
-        "handle": "thetonearm.com",
-        "text": "“the less than consistent levels of social control applied – leading rock stars busted in England, the Beats largely escaping attention in their haunts in New York and San Francisco, jazz musicians on both US coasts feeling the heat all too often and arguably disproportionately”\n\nDone and busted?:",
-        "created_at": "2026-10-17T12:04:37.887Z",
-        "source": "https://bsky.app/profile/thetonearm.com/post/3my32ewgs2a2q",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
-        "handle": "stratahistory.bsky.social",
-        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
-        "created_at": "2026-10-17T12:05:10.518Z",
-        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1,
-        "other_locations": "Worth and Baxter Streets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.992,
-          40.717
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
-        "handle": "stratahistory.bsky.social",
-        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
-        "created_at": "2026-10-17T12:05:10.518Z",
-        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
-        "mapped_location": "Worth and Baxter Streets",
-        "precision_level": "address",
-        "location_text": "Worth and Baxter Streets",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York City"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1533,6 +1304,31 @@
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ubse7fzy6g6nzpcsk6bhnnzk/app.bsky.feed.post/3myaad5lmv22g",
+        "handle": "plarp.baby",
+        "text": "[a voiceover soberly intones]: In the criminal justice system, diarrhea-based offenses are considered especially heinous.\n\nIn New York City, the dedicated pooptectives who investigate these vicious felonies are members of an elite squad known as the Fecal Victims Unit.\n\nThese are their stories.",
+        "created_at": "2026-10-19T13:34:19.868Z",
+        "source": "https://bsky.app/profile/plarp.baby/post/3myaad5lmv22g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95,
+        "address_type": "administrative",
+        "provenance": "rule",
         "borough_conflict": false,
         "specificity_score": 0.1
       }

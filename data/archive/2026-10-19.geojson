@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T13:38:31.365121Z",
-    "total_pins": 3
+    "generated_at": "2026-10-19T14:29:03.543555Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -70,6 +70,81 @@
         "text": "[a voiceover soberly intones]: In the criminal justice system, diarrhea-based offenses are considered especially heinous.\n\nIn New York City, the dedicated pooptectives who investigate these vicious felonies are members of an elite squad known as the Fecal Victims Unit.\n\nThese are their stories.",
         "created_at": "2026-10-19T13:34:19.868Z",
         "source": "https://bsky.app/profile/plarp.baby/post/3myaad5lmv22g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.95,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jwy6xilufnbywiwy36akruca/app.bsky.feed.post/3myad5bwheg22",
+        "handle": "fortune0-us.bsky.social",
+        "text": "📊 Best States for Lottery Winners Taxes: $100M Breakdown\n\nWin a $100M Powerball jackpot? Your take-home ranges from $29.8M in New York to $30M+ in Florida and Texas. See exact dollar figures by...\n\nhttps://mylottostats.com/blog/best-states-for-lottery-winners-taxes-2026-10-19\n\n#Lottery #LotteryStats",
+        "created_at": "2026-10-19T14:24:44.074Z",
+        "source": "https://bsky.app/profile/fortune0-us.bsky.social/post/3myad5bwheg22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:krcfhclveym7zfjy6gutgy5l/app.bsky.feed.post/3myadaypuvc2z",
+        "handle": "thebestbrian.bsky.social",
+        "text": "Kind of the inverse of people on 90 Day Fiance who think they're gonna live in New York City or Miami and then are stuck in Ohio or Nebraska.",
+        "created_at": "2026-10-19T14:26:48.878Z",
+        "source": "https://bsky.app/profile/thebestbrian.bsky.social/post/3myadaypuvc2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3myadcpary52j",
+        "handle": "travelingadvisor.bsky.social",
+        "text": "Did you know? The Metropolitan Museum of Art, colloquially referred to as the Met, is an encyclopedic art museum in New York City.",
+        "created_at": "2026-10-19T14:27:46.443961+00:00",
+        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3myadcpary52j",
         "mapped_location": "New York, United States",
         "precision_level": "state",
         "location_text": "New York City",

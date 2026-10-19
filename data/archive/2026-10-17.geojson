@@ -1,0 +1,863 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-18T00:17:08.622507Z",
+    "total_pins": 34
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uhsfnsmobsg5psev6xbkko4a/app.bsky.feed.post/3my2mcqqosk24",
+        "handle": "en-be.pds.netasgard.com",
+        "text": "Irish — Legal papers served in $50 million claim linked to yacht incident in New York #US #Irish #NewYork #News",
+        "created_at": "2026-10-17T07:52:52Z",
+        "source": "https://bsky.app/profile/en-be.pds.netasgard.com/post/3my2mcqqosk24",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:av53z3tav4kumnptg5a4xlbc/app.bsky.feed.post/3my3254z46i22",
+        "handle": "maketheroadny.bsky.social",
+        "text": "🧊 ICE has no place in our city. Full stop.\n\nThey have kidnapped 19,000 people in New York in the past year and a half. As New Yorkers, we will not let this continue. \n\nAdd your name to the pledge calling to defend our immigrant communities from ICE’s cruelty: win.newmode.net/abolishice",
+        "created_at": "2026-10-17T12:00:16.627Z",
+        "source": "https://bsky.app/profile/maketheroadny.bsky.social/post/3my3254z46i22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3my327wknxj26",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "He made classic American style something the whole world wanted to wear. Here’s to the designer behind so many timeless looks! 👏🏻❤️\n\nPost/video by Girlfromjerseycity\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-17T12:01:23.327Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3my327wknxj26",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d2wmrwpjqtum76usyewuywdi/app.bsky.feed.post/3my32bsxr4k2p",
+        "handle": "bongopirate067.bsky.social",
+        "text": "Ivana’s father, Miloš Zelníček, gave regular information to the local StB office about his daughter’s visits from the US and on his celebrity son-in-law’s career in New York.",
+        "created_at": "2026-10-17T12:02:54.004Z",
+        "source": "https://bsky.app/profile/bongopirate067.bsky.social/post/3my32bsxr4k2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.674
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
+        "handle": "mikimiki0010.bsky.social",
+        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
+        "created_at": "2026-10-17T12:04:03.418Z",
+        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
+        "mapped_location": "the Barclays Center",
+        "precision_level": "address",
+        "location_text": "the Barclays Center",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sirbicbytjxwd7hlohyph3dj/app.bsky.feed.post/3my32dv57vs23",
+        "handle": "mikimiki0010.bsky.social",
+        "text": "A video that Netanyahu does not want the world to see     \n\nLet the world know by sharing this  \n\nTens of thousands of anti-Zionist rabbis and Jews gathered in the Barclays Center in New York City to say that the Zionist regime is a criminal and occupying gang and does not represent the Jews.",
+        "created_at": "2026-10-17T12:04:03.418Z",
+        "source": "https://bsky.app/profile/mikimiki0010.bsky.social/post/3my32dv57vs23",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Barclays Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u666j2556rfao6n5mabwecpf/app.bsky.feed.post/3my32ewgs2a2q",
+        "handle": "thetonearm.com",
+        "text": "“the less than consistent levels of social control applied – leading rock stars busted in England, the Beats largely escaping attention in their haunts in New York and San Francisco, jazz musicians on both US coasts feeling the heat all too often and arguably disproportionately”\n\nDone and busted?:",
+        "created_at": "2026-10-17T12:04:37.887Z",
+        "source": "https://bsky.app/profile/thetonearm.com/post/3my32ewgs2a2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
+        "handle": "stratahistory.bsky.social",
+        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
+        "created_at": "2026-10-17T12:05:10.518Z",
+        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Worth and Baxter Streets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:24ajwjx7kkqtprmew53uy65m/app.bsky.feed.post/3my32fva72f22",
+        "handle": "stratahistory.bsky.social",
+        "text": "A historical dig was done at Columbus Park in New York City this week. What lies beneath: A youth gang formed from former bootblacks and newsboys operated from a theater at Worth and Baxter Streets from 1872 to 1887.\n\n#DarkOctober #NewYorkCity\nStrata on the App Store",
+        "created_at": "2026-10-17T12:05:10.518Z",
+        "source": "https://bsky.app/profile/stratahistory.bsky.social/post/3my32fva72f22",
+        "mapped_location": "Worth and Baxter Streets",
+        "precision_level": "address",
+        "location_text": "Worth and Baxter Streets",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d4z6zveh6n4qifdn223mj4uk/app.bsky.feed.post/3my3fjms6ds27",
+        "handle": "howranaterrellcsit.bsky.social",
+        "text": "Today is National Black Poetry Day! \n\nThis day was chosen in honor of Jupiter Hammon, who was born on this day in 1711. He was enslaved in Long Island, New York, where his captors taught him how to read the Bible and gave him access to their library.",
+        "created_at": "2026-10-17T15:24:07.154Z",
+        "source": "https://bsky.app/profile/howranaterrellcsit.bsky.social/post/3my3fjms6ds27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lf22esp6s42q6ysfvl3ywcgy/app.bsky.feed.post/3my3flcuekk2r",
+        "handle": "womantoday.bsky.social",
+        "text": "7/ Osaka has made efforts to overcome her natural shyness, while also becoming a leading activist in professional tennis. Her decision to withdraw from the 2020 Cincinnati Open in New York to raise awareness for the police shooting of Jacob Blake.",
+        "created_at": "2026-10-17T15:25:02.312Z",
+        "source": "https://bsky.app/profile/womantoday.bsky.social/post/3my3flcuekk2r",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o4w5oslexhpzwb2yc44pqsss/app.bsky.feed.post/3my3fno45f22v",
+        "handle": "robecallahan.bsky.social",
+        "text": "Florida is deep red MAGA country fronted by a Trump wannabe- DeSantis. They should be punished for what they are and who they support. Canadians should not spend one penny in that state. New York, Los Angeles, Chicago- they are still places here that adore our fine neighbors to the North.",
+        "created_at": "2026-10-17T15:26:22.748Z",
+        "source": "https://bsky.app/profile/robecallahan.bsky.social/post/3my3fno45f22v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lclbfg3a7vghtzukfogdyh2l/app.bsky.feed.post/3my3frhn3oc2g",
+        "handle": "bobjoseph.bsky.social",
+        "text": "COFFEE AND DONUTS: A great morning in Owego, New York.",
+        "created_at": "2026-10-17T15:28:30.174Z",
+        "source": "https://bsky.app/profile/bobjoseph.bsky.social/post/3my3frhn3oc2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.709
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bkrl2jdjxaxjj2adayjio7qv/app.bsky.feed.post/3my3obhh6pc2m",
+        "handle": "davidlewis61.bsky.social",
+        "text": "My wife worked in the Manhattan Surrogates (probate etc.) Court. At least, and you can’t always get it from them, the WSJ is telling the truth.",
+        "created_at": "2026-10-17T18:00:36.790Z",
+        "source": "https://bsky.app/profile/davidlewis61.bsky.social/post/3my3obhh6pc2m",
+        "mapped_location": "the Manhattan Surrogates",
+        "precision_level": "address",
+        "location_text": "the Manhattan Surrogates",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6xb27hvdldyjxtq5pb5gst5p/app.bsky.feed.post/3my3obrjh4s2d",
+        "handle": "40yearsago.bsky.social",
+        "text": "[October 17th, 1986] The Parkside East Historic District in Buffalo, New York was officially listed on the National Register of Historic Places",
+        "created_at": "2026-10-17T18:00:47.162Z",
+        "source": "https://bsky.app/profile/40yearsago.bsky.social/post/3my3obrjh4s2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ecfa4rkofmgddx6lhqovkynx/app.bsky.feed.post/3my3vi43vvs2e",
+        "handle": "progressivepatriot.bsky.social",
+        "text": "A few thousand at the NO KINGS March around Prospect Park, Brooklyn. \n#nokings #brooklyn",
+        "created_at": "2026-10-17T20:09:35.962Z",
+        "source": "https://bsky.app/profile/progressivepatriot.bsky.social/post/3my3vi43vvs2e",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nxrkdhilb5letnrj5mivvoqa/app.bsky.feed.post/3my3viqtees2c",
+        "handle": "grimesquare.bsky.social",
+        "text": "“Bushwick leaders are floating ways to manage the weekend party crowds on Wyckoff Avenue—which has pushed some longtime denizens to speak out about the abundance of trash, puke and late-night noise within earshot of residential blocks.”\n\ngrime-square.com/2026/10/06/h...",
+        "created_at": "2026-10-17T20:09:57.703Z",
+        "source": "https://bsky.app/profile/grimesquare.bsky.social/post/3my3viqtees2c",
+        "mapped_location": "Wyckoff Avenue",
+        "precision_level": "address",
+        "location_text": "Wyckoff Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rpgwvpx4kyvoikzvfwhhhuwh/app.bsky.feed.post/3my3vjvqjas2c",
+        "handle": "geekvibesnation.com",
+        "text": "‘The Only Living Pickpocket In New York’ Review – John Turturro Steals The Spotlight With His Best Performance Yet geekvibesnation.com/the-only-liv...",
+        "created_at": "2026-10-17T20:10:36.408Z",
+        "source": "https://bsky.app/profile/geekvibesnation.com/post/3my3vjvqjas2c",
+        "mapped_location": "New York’",
+        "precision_level": "address",
+        "location_text": "New York’",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:csjg6nizktgxvchjdmxfrrxq/app.bsky.feed.post/3my3vkvxkg22w",
+        "handle": "tisue.net",
+        "text": "I hear they followed him around the East Village like ducklings",
+        "created_at": "2026-10-17T20:11:10.190Z",
+        "source": "https://bsky.app/profile/tisue.net/post/3my3vkvxkg22w",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4jtscxgwt6ab4zatv4i2gnvt/app.bsky.feed.post/3my3vnlmwzk26",
+        "handle": "magussecundus.bsky.social",
+        "text": "It disappoints me every time when the employees of Autumn Leaves Used Bookstore on the Ithaca Commons in Ithaca, New York, must consult an online price list to offer me money for my books, even the highest quality science fiction and fantasy books.",
+        "created_at": "2026-10-17T20:12:40.022Z",
+        "source": "https://bsky.app/profile/magussecundus.bsky.social/post/3my3vnlmwzk26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dljeddfwyqao5xjwxedq53ll/app.bsky.feed.post/3my3vprf2r224",
+        "handle": "waterboysmusic.bsky.social",
+        "text": "#SteveEarle & #TheWaterboys will bring #FishermansBluesRevue to The Capitol Theatre in PORT CHESTER, New York on Dec 11. Net proceeds go to #TheKeswellSchool, a non-profit for children with Autism Spectrum Disorder. Tickets are on sale now at www.ticketmaster.com/event/1D0065...",
+        "created_at": "2026-10-17T20:13:53.154Z",
+        "source": "https://bsky.app/profile/waterboysmusic.bsky.social/post/3my3vprf2r224",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ufcloq6ty5lue4yvfkvrt73d/app.bsky.feed.post/3my3vq42jjc2k",
+        "handle": "cousey1951.bsky.social",
+        "text": "Just came from a rousing and well-attended NO KiNGS at Brooklyn's Prospect Park.",
+        "created_at": "2026-10-17T20:14:04.354Z",
+        "source": "https://bsky.app/profile/cousey1951.bsky.social/post/3my3vq42jjc2k",
+        "mapped_location": "Brooklyn's Prospect Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn's Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sqcdgoghgoo3jjptvqsr6loh/app.bsky.feed.post/3my3vqhndq226",
+        "handle": "myshkin24.bsky.social",
+        "text": "What state is  he from? In new york he would be eligible for Medicaid Waiver. Or was he on the waiver and had it taken away?\nWhatever, this is a total failure of meeting the needs of the most vulnerable. This is abominable shit!",
+        "created_at": "2026-10-17T20:14:16.504Z",
+        "source": "https://bsky.app/profile/myshkin24.bsky.social/post/3my3vqhndq226",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3my3vqqvqu222",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Police are searching for a suspect who shot and killed a man inside a Midtown Manhattan subway station, prompting train skips and road closures.\n",
+        "created_at": "2026-10-17T20:14:26.143Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3my3vqqvqu222",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3my3vrjzidn2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Police are searching for a suspect who shot and killed a man inside a Midtown Manhattan subway station, prompting train skips and road closures.\n",
+        "created_at": "2026-10-17T20:14:52.337Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3my3vrjzidn2s",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7fedaekbh6ovf3vwyh6zks3/app.bsky.feed.post/3my44r3zkhy2j",
+        "handle": "travelingadvisor.bsky.social",
+        "text": "Did you know? Niagara Falls is a city in Niagara County, New York, United States.",
+        "created_at": "2026-10-17T22:19:54.336117+00:00",
+        "source": "https://bsky.app/profile/travelingadvisor.bsky.social/post/3my44r3zkhy2j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hhw2y3kzda5a4kbjrco2wbn3/app.bsky.feed.post/3my44uhsbh22m",
+        "handle": "palmcat.bsky.social",
+        "text": "in New York, the hot topic of debate was whether Gilly or Rye-you was better. though there were always some out there defending Zan-geef or Saggat (pronounced in a way that rhymes with a slur).",
+        "created_at": "2026-10-17T22:21:47.077Z",
+        "source": "https://bsky.app/profile/palmcat.bsky.social/post/3my44uhsbh22m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:izpfw3iijgvegxjv7vmuwuua/app.bsky.feed.post/3my4cvf6u522j",
+        "handle": "pam-10.bsky.social",
+        "text": "Aww I was at that New York at Houston ball game! In my mind, we kicked their butt 😂. I thought today was a very exciting game despite missing 3s.",
+        "created_at": "2026-10-18T00:09:40.348Z",
+        "source": "https://bsky.app/profile/pam-10.bsky.social/post/3my4cvf6u522j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3d3c2t6ivzsg6ldzxtxm7uyb/app.bsky.feed.post/3my4cvugza22s",
+        "handle": "resistnow26.bsky.social",
+        "text": "10/15 Metropolitan Opera in New York asked its audience to stand in solidarity with Ukraine as the orchestra played the Ukrainian national anthem. Hundreds rose together, and one voice in the crowd began singing along.",
+        "created_at": "2026-10-18T00:09:56.344Z",
+        "source": "https://bsky.app/profile/resistnow26.bsky.social/post/3my4cvugza22s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lzx3kwwp5et2qcmi2dnrrggj/app.bsky.feed.post/3my4cw6pntr2f",
+        "handle": "clove823.bsky.social",
+        "text": "Today's weather.\n\nLocation: Tokyo\nweather: 🌤️\ndescription: few clouds\n\nLocation: New York\nweather: ☀️\ndescription: clear sky\n\nLocation: London\nweather: ⛅\ndescription: scattered clouds\n\nPosted this via OpenWeatherMap's WebAPI.",
+        "created_at": "2026-10-18T00:10:06.441Z",
+        "source": "https://bsky.app/profile/clove823.bsky.social/post/3my4cw6pntr2f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y3wyn2keqln5hdywt7btznbj/app.bsky.feed.post/3my4cwfkomk2w",
+        "handle": "dharmalee3.bsky.social",
+        "text": "We need to vote for our democracy.\" No Kings protesters in New York City tell MS NOW's Antonia Hylton why they showed up for today's demonstration.",
+        "created_at": "2026-10-18T00:10:14.291Z",
+        "source": "https://bsky.app/profile/dharmalee3.bsky.social/post/3my4cwfkomk2w",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6ifq3q3k3kenhwqvf6lxqnb7/app.bsky.feed.post/3my4cxe7lc22w",
+        "handle": "ifja.bsky.social",
+        "text": "John Turturro has slithery charisma as a doomed thief making his last moves in \"The Only Living Pickpocket in New York,\" a jazzy, minor-key thriller. Review by Christopher Lloyd. #filmsky 📽️",
+        "created_at": "2026-10-18T00:10:46.428Z",
+        "source": "https://bsky.app/profile/ifja.bsky.social/post/3my4cxe7lc22w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cioc6i3gzime4isd4ym6pi6a/app.bsky.feed.post/3my4cz6l36p2n",
+        "handle": "ladbibleireland.bsky.social",
+        "text": "Harry debuted a new song in New York in tribute to his late bandmate",
+        "created_at": "2026-10-18T00:11:47.242Z",
+        "source": "https://bsky.app/profile/ladbibleireland.bsky.social/post/3my4cz6l36p2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:au4dqedh46i4qs2qqar4rqce/app.bsky.feed.post/3my4d4x3lb22k",
+        "handle": "jakekaramol162.bsky.social",
+        "text": "#NoKings Vote Early parade in Bay Ridge with @bkindivisible.bsky.social and the @brassqueensnyc.bsky.social !",
+        "created_at": "2026-10-18T00:13:53.948Z",
+        "source": "https://bsky.app/profile/jakekaramol162.bsky.social/post/3my4d4x3lb22k",
+        "mapped_location": "Bay Ridge",
+        "precision_level": "address",
+        "location_text": "Bay Ridge",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

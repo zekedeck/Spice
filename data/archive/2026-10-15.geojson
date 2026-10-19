@@ -1,0 +1,615 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-16T00:41:29.497246Z",
+    "total_pins": 24
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-15T10:20:35.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
+        "mapped_location": "6th Avenue",
+        "precision_level": "address",
+        "location_text": "6th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "7th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mxvtnwuyeqo2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "West 51st Street between 6th Avenue and 7th Avenue. Even numbers\n\nVia https://digitalcollections.nypl.org/items/42c939a0-c5b2-012f-d4f2-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=West%2051st%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-15T10:20:35.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mxvtnwuyeqo2",
+        "mapped_location": "7th Avenue",
+        "precision_level": "address",
+        "location_text": "7th Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "6th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
+        "handle": "greendayitaly.bsky.social",
+        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
+        "created_at": "2026-10-15T10:21:41.250Z",
+        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
+        "mapped_location": "Irving Plaza",
+        "precision_level": "address",
+        "location_text": "Irving Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bvchuuxbwgai2na2kbcga2ig/app.bsky.feed.post/3mxvtoyltsk2u",
+        "handle": "greendayitaly.bsky.social",
+        "text": "Pinhead Gunpowder at Irving Plaza in New York City last night! Here’s the setlist from October 14. Were you at the show?\n\n#pinheadgunpowder",
+        "created_at": "2026-10-15T10:21:41.250Z",
+        "source": "https://bsky.app/profile/greendayitaly.bsky.social/post/3mxvtoyltsk2u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Irving Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kmrb2hyoblhc35bvckxgsx6u/app.bsky.feed.post/3mxvtpdbxab2i",
+        "handle": "ai-models.bsky.social",
+        "text": "The Viral Politics of the 'Hot Girl' Campaign Trend in New York\n\nThe New York mayoral race has been transformed by a viral trend of grassroots 'Hot Girl' movements, pitting supporters of Zohran Mamdani against those backing Andrew Cuomo.\n\nRead more\n\n#NewYorkPolitics #ZohranMamdani #AndrewCuomo",
+        "created_at": "2026-10-15T10:21:51.094Z",
+        "source": "https://bsky.app/profile/ai-models.bsky.social/post/3mxvtpdbxab2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97425,
+          40.5896199
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxvttcmpzn62",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "F trains are running with delays in both directions while we address a mechanical problem on a train near Avenue X.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-15T10:22:00.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxvttcmpzn62",
+        "mapped_location": "Avenue X, Shell Road, Gravesend, Brooklyn, Kings County, New York, 11223, United States",
+        "precision_level": "unclassified",
+        "location_text": "Avenue X.",
+        "confidence": 0.8,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qui23rmxxqnod4pdbmdvf5rr/app.bsky.feed.post/3mxvtpozuek25",
+        "handle": "remonthisday.bsky.social",
+        "text": "On this day 20 years ago, Patti Smith played the final show at CBGB in New York City. On Halloween, it closed its doors after 33 years in business.",
+        "created_at": "2026-10-15T10:22:04.739Z",
+        "source": "https://bsky.app/profile/remonthisday.bsky.social/post/3mxvtpozuek25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:co5wnr4bpvjjomc2jfezef5m/app.bsky.feed.post/3mxwe5eziyt2x",
+        "handle": "gayfansguide.com",
+        "text": "New York Magazine's Men's Style debut shoots Isaac Cole Powell and Brandon Flynn at the Russian & Turkish Baths. Brandon Flynn: \"It's like naked church.\" buff.ly/jiocvLQ",
+        "created_at": "2026-10-15T15:16:03.898Z",
+        "source": "https://bsky.app/profile/gayfansguide.com/post/3mxwe5eziyt2x",
+        "mapped_location": "the Russian & Turkish Baths",
+        "precision_level": "address",
+        "location_text": "the Russian & Turkish Baths",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lics2ozcj7cdorpk63mee2kb/app.bsky.feed.post/3mxwe5le3lk2a",
+        "handle": "ajit4g.bsky.social",
+        "text": "\"Deals cost lives.\" \n\nSupporters of Ukraine gathered in Times Square in New York to protest against trade deals with Moscow and the easing of sanctions against Russia. 😡",
+        "created_at": "2026-10-15T15:16:10.556Z",
+        "source": "https://bsky.app/profile/ajit4g.bsky.social/post/3mxwe5le3lk2a",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lics2ozcj7cdorpk63mee2kb/app.bsky.feed.post/3mxwe5le3lk2a",
+        "handle": "ajit4g.bsky.social",
+        "text": "\"Deals cost lives.\" \n\nSupporters of Ukraine gathered in Times Square in New York to protest against trade deals with Moscow and the easing of sanctions against Russia. 😡",
+        "created_at": "2026-10-15T15:16:10.556Z",
+        "source": "https://bsky.app/profile/ajit4g.bsky.social/post/3mxwe5le3lk2a",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mxwrcsadb224",
+        "handle": "porcellato.bsky.social",
+        "text": "New York's Plaza Hotel to close at least 4 years for facade work\n https://ift.tt/JifXrIo",
+        "created_at": "2026-10-15T19:11:43+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mxwrcsadb224",
+        "mapped_location": "New York's Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "New York's Plaza Hotel",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3sv6fcfaqndsylahniftbkew/app.bsky.feed.post/3mxwrdj4cg22o",
+        "handle": "highmynameishi.bsky.social",
+        "text": "We will have Chinese troops in Hawaii and NATO in New York within like 24 hours of this scenario playing out.",
+        "created_at": "2026-10-15T19:12:08.177Z",
+        "source": "https://bsky.app/profile/highmynameishi.bsky.social/post/3mxwrdj4cg22o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ys35qzvc265dtaltqdmgxcm/app.bsky.feed.post/3mxwriniiqz2n",
+        "handle": "worldnewsbriefly.bsky.social",
+        "text": "Maduro and Cilia Flores denied newly unsealed torture charges in New York court; a not-guilty plea was entered and their trial is scheduled for June 14, 2027.\n",
+        "created_at": "2026-10-15T19:15:00.467Z",
+        "source": "https://bsky.app/profile/worldnewsbriefly.bsky.social/post/3mxwriniiqz2n",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3mxwriqbp772k",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Maduro and Cilia Flores denied newly unsealed torture charges in New York court; a not-guilty plea was entered and their trial is scheduled for June 14, 2027.\n",
+        "created_at": "2026-10-15T19:15:03.388Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3mxwriqbp772k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vxfhlq5lqfyomecxeqidfuwh/app.bsky.feed.post/3mxwrl7atak2y",
+        "handle": "rainbowheightsclub.bsky.social",
+        "text": "Ernestine Eckstein was a leader in the New York chapter of Daughters of Bilitis, a lesbian civil rights organization, and used her\nwork and knowledge in the civil rights movement to\ninform her work in the lesbian and gay rights\nmovement.\n#SocialSupport #nysdoh #nysomh #nychealth #nycdfta",
+        "created_at": "2026-10-15T19:16:26.274Z",
+        "source": "https://bsky.app/profile/rainbowheightsclub.bsky.social/post/3mxwrl7atak2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ab6j4u3qbhkqyagbyt6uypok/app.bsky.feed.post/3mxwrmlkhis2s",
+        "handle": "dagmarfaye.bsky.social",
+        "text": "Yes! The first half are independent short stories, mostly set in New York. The second half is called “Eve in Hollywood” and is a novella of the adventures Evelyn from Rules of Civility has after she leaves New York. So, so good! ❤️",
+        "created_at": "2026-10-15T19:17:12.728Z",
+        "source": "https://bsky.app/profile/dagmarfaye.bsky.social/post/3mxwrmlkhis2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uioptydvz2htyobityudswxs/app.bsky.feed.post/3mxwrowr65k2z",
+        "handle": "hilarydavidson.bsky.social",
+        "text": "A Taste of Europe in New York City\nglutenfreeguidebook.substack.com/p/a-taste-of...",
+        "created_at": "2026-10-15T19:18:31.590Z",
+        "source": "https://bsky.app/profile/hilarydavidson.bsky.social/post/3mxwrowr65k2z",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sn47ul5f5vprrmmi53qifztu/app.bsky.feed.post/3mxx3umto5s2z",
+        "handle": "jneuandcats.bsky.social",
+        "text": "Home fries in Florida and home fries in New York are two completely different foods.",
+        "created_at": "2026-10-15T22:20:39.927Z",
+        "source": "https://bsky.app/profile/jneuandcats.bsky.social/post/3mxx3umto5s2z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjmnwzpxbzehorgdc2motdcj/app.bsky.feed.post/3mxx437xbf72f",
+        "handle": "cbsnewyork.bsky.social",
+        "text": "Coach Jake and his boys' soccer team have won 21 public school city titles, which is more than any other school in New York City. Since the mid-1990s, the coach has been helping his kids not just succeed on the pitch but off it, too. Luis Miguel Echegaray reports.",
+        "created_at": "2026-10-15T22:24:21.248Z",
+        "source": "https://bsky.app/profile/cbsnewyork.bsky.social/post/3mxx437xbf72f",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mxx44bvn4k25",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌒 on Thursday, October 15, 2026 at 18:24 in New York City.\n\nCurrent conditions (via NOAA):\n🌞 Fair/clear\nTemperature: 0°",
+        "created_at": "2026-10-15T22:24:56.630Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mxx44bvn4k25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:beilpv3ekhl6hn25ya45vffn/app.bsky.feed.post/3mxx45mlikc22",
+        "handle": "context776.bsky.social",
+        "text": "Neurologist arrested for sexually abusing patients at East Village medical office\nDr. Tariq Lamki, 51, has been accused of molesting his patients, women aged 32 and 23, under the guise of giving them massages as they lay in a closed-door exam room at 14th Street Medical Arts in the East Village.",
+        "created_at": "2026-10-15T22:25:41.654Z",
+        "source": "https://bsky.app/profile/context776.bsky.social/post/3mxx45mlikc22",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g2ooqbjnxuwatleytaxp5bk2/app.bsky.feed.post/3mxxdixnzqk24",
+        "handle": "mountgellert.bsky.social",
+        "text": "ignitenyc.github.io/2026/ if you have crowd who are in New York area or you are in New York area - you are warmly welcome to join! We have some Microsoft MVP presenters as well! Also food, discussions, and more! Did I mention it is free? And it's on November 16th! #IgniteNYC",
+        "created_at": "2026-10-16T00:37:18.560Z",
+        "source": "https://bsky.app/profile/mountgellert.bsky.social/post/3mxxdixnzqk24",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kb3hzw3g5abobjm6ulbwjduc/app.bsky.feed.post/3mxxdnyns6s23",
+        "handle": "bambooshooti.bsky.social",
+        "text": "Jackson abandoned poetry and spent months in New York City’s Astor Library, researching federal records. She wrote case studies detailing government betrayals, violence and forced relocations of seven Native American tribes. She published her work, A Century of Dishonor, in January 1881. /5",
+        "created_at": "2026-10-16T00:39:55.007Z",
+        "source": "https://bsky.app/profile/bambooshooti.bsky.social/post/3mxxdnyns6s23",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mxxdnwuksw2x",
+        "handle": "laviezine.bsky.social",
+        "text": "‘The Only Living Pickpocket in New York’ Soundtrack Album Details\n\nhttps://www.laviezine.com/1663222/the-only-living-pickpocket-in-new-york-soundtrack-album-details/\n\nMilan Records will release a soundtrack album for the crime thriller The Only Living Pickpocket in New York. The album features …",
+        "created_at": "2026-10-16T00:40:03+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mxxdnwuksw2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

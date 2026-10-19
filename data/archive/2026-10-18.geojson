@@ -1,0 +1,637 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-19T01:42:09.457790Z",
+    "total_pins": 25
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Van Cortland Park, Pelham Park\nTestify"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892,
+          40.867
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Van Cortland Park",
+        "precision_level": "address",
+        "location_text": "Van Cortland Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Prospect Park, Pelham Park\nTestify"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897,
+          40.843
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t3udvwphfgyzrrg3x53jkdtq/app.bsky.feed.post/3my4rpenjoc2s",
+        "handle": "celsogarcia80.bsky.social",
+        "text": "A casino in Central Park, Prospect Park, Van Cortland Park, Pelham Park\nTestify and let the Public Design Commission know it’s wrong link in comments luma.com/jcdj6hnq",
+        "created_at": "2026-10-18T04:34:44.579Z",
+        "source": "https://bsky.app/profile/celsogarcia80.bsky.social/post/3my4rpenjoc2s",
+        "mapped_location": "Pelham Park\nTestify",
+        "precision_level": "address",
+        "location_text": "Pelham Park\nTestify",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Prospect Park, Van Cortland Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z4fbrramovdg6rngl2eirsdi/app.bsky.feed.post/3my4rt2ujdk2d",
+        "handle": "theamericamadman.bsky.social",
+        "text": "If you believe in Trump's Bullshit, I have a Bridge to sell you in New York City.",
+        "created_at": "2026-10-18T04:36:48.541Z",
+        "source": "https://bsky.app/profile/theamericamadman.bsky.social/post/3my4rt2ujdk2d",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2az3hxnvqfd24qijjzwkorlm/app.bsky.feed.post/3my5axuxrrc2y",
+        "handle": "beatrixrated.bsky.social",
+        "text": "It’s really the other Chinese and Asian ladies in my life that scare the living sh*t out of me- from Chinese grade school / piano teachers, the waitresses, my Asian friends, to the badass grandmas in New York Chinatown. \n\nI’m sorry in advance I am wrong and you are right",
+        "created_at": "2026-10-18T09:07:56.227Z",
+        "source": "https://bsky.app/profile/beatrixrated.bsky.social/post/3my5axuxrrc2y",
+        "mapped_location": "New York Chinatown",
+        "precision_level": "address",
+        "location_text": "New York Chinatown",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wj5koqhqdfs67j5hanfxqyd3/app.bsky.feed.post/3my5oy45zfs2n",
+        "handle": "jazzrat2000.bsky.social",
+        "text": "I haven't spent enough time in New York City and I'm not going to anymore but it sure seems like it's a lot more fun and eccentric than I thought it was when I was there for a few days",
+        "created_at": "2026-10-18T13:18:36.188Z",
+        "source": "https://bsky.app/profile/jazzrat2000.bsky.social/post/3my5oy45zfs2n",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2ykmjpgoxxwuzrrz2e5teox/app.bsky.feed.post/3my62f75tnp2i",
+        "handle": "newyorkcitynews.bsky.social",
+        "text": "“Two Nights at Saint Vitus, the Metal Mecca of Brooklyn” — The New York Times\n\n#NewYorkCityNews #NewYorkCity #Brooklyn",
+        "created_at": "2026-10-18T16:42:46.645151+00:00",
+        "source": "https://bsky.app/profile/newyorkcitynews.bsky.social/post/3my62f75tnp2i",
+        "mapped_location": "Saint Vitus",
+        "precision_level": "address",
+        "location_text": "Saint Vitus",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qpqyay6mqatzyyet3jdgxiwi/app.bsky.feed.post/3my62fpcxy22x",
+        "handle": "sepinwall.bsky.social",
+        "text": "And on November 13, I’ll be at the Paley Center in Manhattan to talk with @jasonlynch.bsky.social www.paleycenter.org/events/conve...",
+        "created_at": "2026-10-18T16:43:03.639Z",
+        "source": "https://bsky.app/profile/sepinwall.bsky.social/post/3my62fpcxy22x",
+        "mapped_location": "the Paley Center",
+        "precision_level": "address",
+        "location_text": "the Paley Center",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bhxygagjarq64jsio7mey3ci/app.bsky.feed.post/3my62kxreem2i",
+        "handle": "weloveproduct.co",
+        "text": "Eulerity is looking for a AI Intern - Office of CEO & Head of Product in New York, United States\nhttps://weloveproduct.co/jobs/ai-intern-office-of-ceo-and-head-of-product-eulerity-xxx6wm\n\n#headofproduct #productjobs #jobs #jobsoffer #weloveproduct",
+        "created_at": "2026-10-18T16:46:00.165Z",
+        "source": "https://bsky.app/profile/weloveproduct.co/post/3my62kxreem2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vwgobzbs5kih4tgs5gsxcbgl/app.bsky.feed.post/3my6byjl47k2t",
+        "handle": "eitang.bsky.social",
+        "text": "I've done the same before a concert at Central Park Summerstage, in the parking lot of Mount Rushmore*, outside the Lincoln Memorial, and during sunrise overlooking the rim of the Grand Canyon.",
+        "created_at": "2026-10-18T18:58:51.103Z",
+        "source": "https://bsky.app/profile/eitang.bsky.social/post/3my6byjl47k2t",
+        "mapped_location": "Central Park Summerstage",
+        "precision_level": "address",
+        "location_text": "Central Park Summerstage",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3my6byn62e72i",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "The luxury jet is rotting away after very little use.\n\nStory/Images by Supercar Blondie\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-18T18:58:54.611Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3my6byn62e72i",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ta7csnm2rodgz5q4wba4ovvn/app.bsky.feed.post/3my6c3267ob2l",
+        "handle": "nyamnews.bsky.social",
+        "text": "\"I refuse to move.\" Maria Granville on keeping Home to Harlem rooted on Lenox Avenue. #HomeToHarlem #Harlem",
+        "created_at": "2026-10-18T19:00:15.791Z",
+        "source": "https://bsky.app/profile/nyamnews.bsky.social/post/3my6c3267ob2l",
+        "mapped_location": "Lenox Avenue",
+        "precision_level": "address",
+        "location_text": "Lenox Avenue",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3my6c3tlj3z2g",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "today, sunny, with a high near 58. north wind 5 to 8 mph.\n(M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform...",
+        "created_at": "2026-10-18T19:00:42.426535+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3my6c3tlj3z2g",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fyduqs7dayxhjm2irkfvao47/app.bsky.feed.post/3my6c42khmk2j",
+        "handle": "nickiekaneforny.bsky.social",
+        "text": "Early voting in New York City begins Saturday, October 24, 2026! Make your voice heard and write in Nickie Kane for Congress in NY-10. Find your early voting polling site at\n\n vote.nyc/page/find-yo....\n\n#nyc #nycvotes #nycfoodie  #nycevents #nyclife",
+        "created_at": "2026-10-18T19:00:49.776Z",
+        "source": "https://bsky.app/profile/nickiekaneforny.bsky.social/post/3my6c42khmk2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwbpna4jtw66gj6c3pksbiad/app.bsky.feed.post/3my6c4srfxc2k",
+        "handle": "nymag.com",
+        "text": "Sarah Crichton and Len Berman, divorcés in their 70s, both maintain their own apartments in the same Brooklyn Heights co-op building. When people hear of their upstairs-downstairs arrangement, “everyone goes, ‘Oh my God, that’s just the most ideal situation,’” says Sarah. “And it is!”",
+        "created_at": "2026-10-18T19:01:14.686Z",
+        "source": "https://bsky.app/profile/nymag.com/post/3my6c4srfxc2k",
+        "mapped_location": "Brooklyn Heights",
+        "precision_level": "address",
+        "location_text": "Brooklyn Heights",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964,
+          40.671
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xtxy3slt55kgftbiozjswusk/app.bsky.feed.post/3my6c7m3ekc2w",
+        "handle": "ray-olsen.com",
+        "text": "Art of Manga exhibit at the Brooklyn Museum is very much worth it",
+        "created_at": "2026-10-18T19:02:48.844Z",
+        "source": "https://bsky.app/profile/ray-olsen.com/post/3my6c7m3ekc2w",
+        "mapped_location": "the Brooklyn Museum",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Museum",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.742
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5x65fftirgidgmsq5ub56ehs/app.bsky.feed.post/3my6k6rqdfs2s",
+        "handle": "ziajd.blacksky.app",
+        "text": "Had a very Autumn in NYC day yesterday.\n\nChecked out Open House NY, lunch at Chelsea Market, strolled thru the Village down Bleeker, went to Governors Island, stopped by the UWS, had dinner downtown, went to a private Halloween preview party thing in the old Century 21 bldg (aka Mercer Labs).",
+        "created_at": "2026-10-18T21:25:31.161Z",
+        "source": "https://bsky.app/profile/ziajd.blacksky.app/post/3my6k6rqdfs2s",
+        "mapped_location": "Chelsea Market",
+        "precision_level": "address",
+        "location_text": "Chelsea Market",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rniozf4ahe6y2fdghkm4k3s3/app.bsky.feed.post/3my6kaxy7bm2o",
+        "handle": "physicalmediahub.bsky.social",
+        "text": "[USA] Deal Alert: Scream VI Blu-ray\n\nScream VI comes to Blu-ray with a digital copy, 1080p AVC video and English Dolby Atmos and TrueHD 7.1 audio. Four survivors leave Woodsboro for a fresh start in New York City, but a new killer soon puts their lives at risk. The listing shows C$24.25, down from…",
+        "created_at": "2026-10-18T21:26:44Z",
+        "source": "https://bsky.app/profile/physicalmediahub.bsky.social/post/3my6kaxy7bm2o",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4fsyjzrnrdyavklyly3jxgvr/app.bsky.feed.post/3my6kb7bgw22b",
+        "handle": "gutbucketblues.bsky.social",
+        "text": "Although there had been earlier attempts. Alexander Russell Webb built a mosque in New York City around 1893-1895.",
+        "created_at": "2026-10-18T21:26:52.464Z",
+        "source": "https://bsky.app/profile/gutbucketblues.bsky.social/post/3my6kb7bgw22b",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:36p6v2womnmummquiu3qoz4v/app.bsky.feed.post/3my6kehhxyk2m",
+        "handle": "bryceyoungquist.bsky.social",
+        "text": "your hatred of the scary ay-rab is not in doubt, friend.\n\nare you done hyperventilating about how Mamdani is going to do October 7th to each individual Jew in New York yet, or do we still have another few rounds of that to look forward to",
+        "created_at": "2026-10-18T21:28:41.731Z",
+        "source": "https://bsky.app/profile/bryceyoungquist.bsky.social/post/3my6kehhxyk2m",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xn5dvzsngm6xujubo2so5yns/app.bsky.feed.post/3my6r62ejkk2p",
+        "handle": "nolanews.bsky.social",
+        "text": "The Saints escaped a desperate 4th-quarter rally in New York to end their losing skid bit.ly/4yszHWi",
+        "created_at": "2026-10-18T23:30:22Z",
+        "source": "https://bsky.app/profile/nolanews.bsky.social/post/3my6r62ejkk2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4zjsmxdxirm6ixy5w4lrqano/app.bsky.feed.post/3my6rcueryk2d",
+        "handle": "albumartbot.bsky.social",
+        "text": "Sam Cooke — Live at the Harlem Square Club, 1963 (1985)\nhttps://musicbrainz.org/release/435ba046-bfd8-4907-8bdb-50be7b61a35b",
+        "created_at": "2026-10-18T23:33:04Z",
+        "source": "https://bsky.app/profile/albumartbot.bsky.social/post/3my6rcueryk2d",
+        "mapped_location": "the Harlem Square Club",
+        "precision_level": "address",
+        "location_text": "the Harlem Square Club",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:655wicnhak7t2jth2ostuc57/app.bsky.feed.post/3my6yc33rm225",
+        "handle": "roywoodjr.bsky.social",
+        "text": "New York City join us for an evening of laughs as we fight to end child poverty.@comicreliefus     www.comicrelief.org/live",
+        "created_at": "2026-10-19T01:37:54.020Z",
+        "source": "https://bsky.app/profile/roywoodjr.bsky.social/post/3my6yc33rm225",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:duetpykl3txvw2nal5zsxn7d/app.bsky.feed.post/3my6yggjxnc2z",
+        "handle": "britneysspear.bsky.social",
+        "text": "this was New York??THE WHOLE TIME?",
+        "created_at": "2026-10-19T01:40:20.242Z",
+        "source": "https://bsky.app/profile/britneysspear.bsky.social/post/3my6yggjxnc2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York??THE WHOLE TIME",
+        "confidence": 0.85,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2q4pdltlh25bolatpy4jwykj/app.bsky.feed.post/3my6yhpoubc2x",
+        "handle": "suasponte2023.bsky.social",
+        "text": "I practiced in an (off-)white shoe firm's trusts and estates department in midtown Manhattan for the first year of my realizing-I-didn't-want-to-be-a-lawyer saga.\n\nSmall world indeed.",
+        "created_at": "2026-10-19T01:41:03.394Z",
+        "source": "https://bsky.app/profile/suasponte2023.bsky.social/post/3my6yhpoubc2x",
+        "mapped_location": "midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "midtown Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

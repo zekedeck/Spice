@@ -13,7 +13,10 @@
   var CAMERA_RADIUS_M = 400; // nearby-camera lookup radius
   var CAMERA_MAX_COUNT = 3; // cap shown per pin so dense areas (Midtown) don't clutter the panel
   var CAMERA_REFRESH_MS = 1000; // how often open camera thumbnails re-fetch their snapshot
-  var CAMERA_DOT_MINZOOM = 14; // Webcams layer: only render dots once zoomed to ~neighborhood level
+  // Webcams filter is meant to show every camera on the map, not a
+  // zoomed-in subset -- no minzoom gate (previously 14, which hid all
+  // ~979 dots at the default citywide view; reported live as "shows
+  // nothing").
 
   var map = null;
   var mode = "live"; // "live" | "archive"
@@ -775,9 +778,10 @@
 
   // ---------------------------------------------------------------------
   // Webcams map layer (standalone toggle, separate from the detail-panel
-  // nearby-camera feature above): plots all nyc_cameras.json points as a
-  // muted dot layer, below post pins in z-order, gated behind a minzoom so
-  // it only appears once zoomed in to roughly neighborhood level.
+  // nearby-camera feature above): plots every nyc_cameras.json point as a
+  // muted dot layer, below post pins in z-order. Not tied to post
+  // geocoding at all -- static reference data, shown or hidden purely by
+  // the Webcams toggle, at any zoom.
   // ---------------------------------------------------------------------
 
   function camerasToGeoJSON(cameras) {
@@ -1096,27 +1100,24 @@
     ctx.stroke();
   }
 
-  function drawFistIcon(ctx, s) {
-    drawIconBacking(ctx, s);
-    var cx = s / 2;
-    ctx.fillStyle = "#ffffff";
-    var ky = s * 0.36, kr = s * 0.085;
-    [-0.20, -0.065, 0.065, 0.20].forEach(function (dx) {
-      ctx.beginPath();
-      ctx.arc(cx + dx * s, ky, kr, 0, Math.PI * 2);
-      ctx.fill();
-    });
-    ctx.beginPath();
-    ctx.moveTo(cx - s * 0.26, s * 0.42);
-    ctx.lineTo(cx + s * 0.26, s * 0.42);
-    ctx.lineTo(cx + s * 0.20, s * 0.74);
-    ctx.lineTo(cx - s * 0.20, s * 0.74);
-    ctx.closePath();
-    ctx.fill();
-    ctx.beginPath();
-    ctx.ellipse(cx - s * 0.30, s * 0.52, s * 0.09, s * 0.13, -0.4, 0, Math.PI * 2);
-    ctx.fill();
+  // The earlier vector fist drawing read as an unrecognizable white blob at
+  // actual pin size (reported live) -- a bold letter glyph on the same
+  // dark circular backing is legible at that scale, so Protests uses a
+  // plain "P" instead.
+  function drawLetterIcon(letter) {
+    return function (ctx, s) {
+      drawIconBacking(ctx, s);
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "700 " + Math.round(s * 0.56) + "px -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      // Baseline-based vertical centering reads slightly high for caps;
+      // nudge down a touch so the glyph sits visually centered in the disc.
+      ctx.fillText(letter, s / 2, s / 2 + s * 0.04);
+    };
   }
+
+  var drawFistIcon = drawLetterIcon("P");
 
   function drawExclamationIcon(ctx, s) {
     drawIconBacking(ctx, s);
@@ -1188,8 +1189,8 @@
 
       // --- Webcams (standalone layer, separate from the detail-panel
       // nearby-camera feature). Added first so it renders BELOW post pins
-      // in z-order. Gated behind CAMERA_MINZOOM so city-wide zoom doesn't
-      // flood the map with all ~979 dots.
+      // in z-order. No minzoom gate -- the Webcams toggle is meant to show
+      // every camera on the map at once ("a map of every webcam").
       map.addSource("cameras", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] }
@@ -1199,7 +1200,6 @@
         id: "camera-dots",
         type: "symbol",
         source: "cameras",
-        minzoom: CAMERA_DOT_MINZOOM,
         layout: {
           "icon-image": "camera-glyph",
           "icon-size": 0.55,
@@ -1209,14 +1209,13 @@
         }
       });
 
-      // --- Post pins, clustered at lower zooms so overlapping pins group
-      // into a count bubble instead of stacking raw circles/icons.
+      // Post pins. No clustering -- reported live as unwanted ("bird's eye
+      // view bubbles"); removed entirely rather than just visually
+      // suppressed, so there's no leftover cluster config to reintroduce
+      // the bubbles by accident later.
       map.addSource("pins", {
         type: "geojson",
-        data: { type: "FeatureCollection", features: [] },
-        cluster: true,
-        clusterRadius: 50,
-        clusterMaxZoom: 14
+        data: { type: "FeatureCollection", features: [] }
       });
 
       map.addSource("selected-pin", {
@@ -1224,43 +1223,11 @@
         data: { type: "FeatureCollection", features: [] }
       });
 
-      // Cluster bubbles (only rendered where points are grouped).
-      map.addLayer({
-        id: "pin-clusters",
-        type: "circle",
-        source: "pins",
-        filter: ["has", "point_count"],
-        paint: {
-          "circle-color": "#5b8cff",
-          "circle-opacity": 0.78,
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#0b0e14",
-          "circle-radius": ["step", ["get", "point_count"], 14, 10, 18, 25, 24, 50, 30]
-        }
-      });
-
-      map.addLayer({
-        id: "pin-cluster-count",
-        type: "symbol",
-        source: "pins",
-        filter: ["has", "point_count"],
-        layout: {
-          "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["Noto Sans Regular"],
-          "text-size": 12
-        },
-        paint: {
-          "text-color": "#0b0e14"
-        }
-      });
-
-      // Subtle always-on glow for unselected individual pins (unclustered
-      // only -- clusters get their own bubble above).
+      // Subtle always-on glow for unselected pins.
       map.addLayer({
         id: "pin-halo",
         type: "circle",
         source: "pins",
-        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 14,
@@ -1273,7 +1240,6 @@
         id: "pin-point",
         type: "circle",
         source: "pins",
-        filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": AGE_COLOR_EXPR,
           "circle-radius": 6,
@@ -1289,14 +1255,10 @@
         id: "pin-icons",
         type: "symbol",
         source: "pins",
-        filter: [
-          "all",
-          ["!", ["has", "point_count"]],
-          ["any",
-            ["==", ["get", "matchCategory"], "protest"],
-            ["==", ["get", "matchCategory"], "crime"],
-            ["==", ["get", "matchCategory"], "police"]
-          ]
+        filter: ["any",
+          ["==", ["get", "matchCategory"], "protest"],
+          ["==", ["get", "matchCategory"], "crime"],
+          ["==", ["get", "matchCategory"], "police"]
         ],
         layout: {
           "icon-image": ["match", ["get", "matchCategory"],
@@ -1324,7 +1286,7 @@
         }
       });
 
-      var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "pin-clusters", "camera-dots"];
+      var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "camera-dots"];
 
       function handlePinClick(e) {
         if (e.features && e.features[0]) {
@@ -1335,16 +1297,6 @@
       }
       map.on("click", "pin-point", handlePinClick);
       map.on("click", "pin-icons", handlePinClick);
-
-      map.on("click", "pin-clusters", function (e) {
-        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-clusters"] });
-        if (!features.length) return;
-        var clusterId = features[0].properties.cluster_id;
-        map.getSource("pins").getClusterExpansionZoom(clusterId, function (err, zoom) {
-          if (err) return;
-          map.easeTo({ center: features[0].geometry.coordinates, zoom: zoom });
-        });
-      });
 
       map.on("click", "camera-dots", function (e) {
         if (e.features && e.features[0]) openCameraPopup(e.features[0]);

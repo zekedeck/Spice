@@ -372,7 +372,7 @@ body {
 
 .state-panel-panel {
   position: absolute;
-  left: 0;
+  right: 0;
   top: calc(100% + 0.4rem);
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:44:18.009315Z",
-    "total_pins": 137
+    "generated_at": "2026-10-19T21:24:59.558285Z",
+    "total_pins": 141
   },
   "features": [
     {
@@ -3447,6 +3447,108 @@
         "text": "A packed house for the #FiPresents screening of ‘The Only Living Pickpocket in New York’ with writer/director Noah Segan, actors John Turturro and Tatiana Maslany, and moderator Adam Scott. 💳🔑🗽 In theaters this Friday. \n\n📸: Amanda Edwards/Getty Images",
         "created_at": "2026-10-19T20:42:11.4344214Z",
         "source": "https://bsky.app/profile/filmindependent.org/post/3myaya7z5xv2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hxzuvov7x46q4ddaiec647pm/app.bsky.feed.post/3myb2ahrsb22i",
+        "handle": "sunderedmarches.com",
+        "text": "had the spont. realization at how much US right-wing nationalists with any brain cells must hate the Statue of Liberty\n\n- French monument\n- To diverse immigration\n- Compassion for the underclasses\n- In New York",
+        "created_at": "2026-10-19T21:18:07.181Z",
+        "source": "https://bsky.app/profile/sunderedmarches.com/post/3myb2ahrsb22i",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hxzuvov7x46q4ddaiec647pm/app.bsky.feed.post/3myb2ahrsb22i",
+        "handle": "sunderedmarches.com",
+        "text": "had the spont. realization at how much US right-wing nationalists with any brain cells must hate the Statue of Liberty\n\n- French monument\n- To diverse immigration\n- Compassion for the underclasses\n- In New York",
+        "created_at": "2026-10-19T21:18:07.181Z",
+        "source": "https://bsky.app/profile/sunderedmarches.com/post/3myb2ahrsb22i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Statue of Liberty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:erlr24kyfukfbqnbwes77qaf/app.bsky.feed.post/3myb2hz3sqs2t",
+        "handle": "citylimitsnews.bsky.social",
+        "text": "The mayor urged private parking garage owners to stop allowing federal immigration agents to use their properties as staging areas, following a shooting in Marble Hill and recent reports of federal agents operating out of a parking lot in Queens. citylimits.org/mamdani-urge...",
+        "created_at": "2026-10-19T21:22:20.216Z",
+        "source": "https://bsky.app/profile/citylimitsnews.bsky.social/post/3myb2hz3sqs2t",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d27jqjy2o4qnzukatl3iufn5/app.bsky.feed.post/3myb2kvgbps2i",
+        "handle": "bobbygoode.bsky.social",
+        "text": "So I guess any of the \"news\" are in trouble: New York, New Jersey, New Hampshire? The entire region of New England?",
+        "created_at": "2026-10-19T21:23:57.028Z",
+        "source": "https://bsky.app/profile/bobbygoode.bsky.social/post/3myb2kvgbps2i",
         "mapped_location": "New York",
         "precision_level": "address",
         "location_text": "New York",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T23:40:04.070936Z",
-    "total_pins": 159
+    "generated_at": "2026-10-19T23:55:47.282862Z",
+    "total_pins": 168
   },
   "features": [
     {
@@ -4003,6 +4003,231 @@
         "precision_level": "address",
         "location_text": "Cobble Hill",
         "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006978,
+          40.713282
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n7vkwzjygozb5rum2fsmtfw7/app.bsky.feed.post/3mybc7icr322v",
+        "handle": "repgray.bsky.social",
+        "text": "Vote early before Nov. 3!\n\nMon - Fri 8am - 5 pm \nSat 10am - 4 pm\nSun 12 - 4 pm\n\nAt Midtown Mall\n600 E. Northern Lights Blvd\n\nYou can also vote early at City Hall Mon-Fri 8-5\nSaturday Oct 24, 12-3\n\n#akleg #akgov",
+        "created_at": "2026-10-19T23:40:44.114Z",
+        "source": "https://bsky.app/profile/repgray.bsky.social/post/3mybc7icr322v",
+        "mapped_location": "City Hall, Broadway, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+        "precision_level": "unclassified",
+        "location_text": "City Hall Mon-Fri",
+        "confidence": 0.9,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybc7wbv7ci2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running with delays after we requested medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:40:57.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybc7wbv7ci2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ew33rlyw2inhr4scnjh3txs3/app.bsky.feed.post/3mybcdtqras2z",
+        "handle": "dracometeor.bsky.social",
+        "text": "I like how people are specifying that their “Mamdani, fix this” posts aren’t in New York, concerned that he might actually try to fix their issue",
+        "created_at": "2026-10-19T23:43:10.321Z",
+        "source": "https://bsky.app/profile/dracometeor.bsky.social/post/3mybcdtqras2z",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybceit2qh72",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 6 trains are running express from 125 St to Grand Central-42 St while we request medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:43:30.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybceit2qh72",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rbgxd2ud5kit5zwmxggsorta/app.bsky.feed.post/3mybcge3e222b",
+        "handle": "mmtunligit.bsky.social",
+        "text": "Holy shit I live in new york",
+        "created_at": "2026-10-19T23:44:34.561Z",
+        "source": "https://bsky.app/profile/mmtunligit.bsky.social/post/3mybcge3e222b",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mybcgvthq22u",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Ginzai Yosef Kalish, 1305 Avenue R, Brooklyn, NY 11229",
+        "created_at": "2026-10-19T23:44:53.162Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mybcgvthq22u",
+        "mapped_location": "1305 Avenue R",
+        "precision_level": "address",
+        "location_text": "1305 Avenue R",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybci72hsjb2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown E, F trains are delayed while we address a door problem on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:45:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybci72hsjb2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cchbval6hwccxpxfrzw7pwug/app.bsky.feed.post/3mybcl3os522x",
+        "handle": "the-endgame.bsky.social",
+        "text": "\"The play HIROSHIMA, a tribute to the victims of the first atomic bomb, with music and singing by Yoko Ono, opened in New York this week.\n\nOne tearful Japanese survivor of the attack who attended the premiere called the play, quote, 'the most horrifying experience of my life.'\"",
+        "created_at": "2026-10-19T23:47:13.528Z",
+        "source": "https://bsky.app/profile/the-endgame.bsky.social/post/3mybcl3os522x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybcxza3zlt2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 6 trains are running with delays after we requested medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:54:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybcxza3zlt2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

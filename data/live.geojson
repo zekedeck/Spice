@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T19:38:36.034221Z",
-    "total_pins": 95
+    "generated_at": "2026-10-19T19:54:49.248207Z",
+    "total_pins": 110
   },
   "features": [
     {
@@ -2391,6 +2391,387 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:od5iiifrpwbslcf3lje7a5mq/app.bsky.feed.post/3myaurdnw5c2o",
+        "handle": "qwerty123212.bsky.social",
+        "text": "The MAGAts stood at the end of the world amid America's smokey ruins.\n\n\"Eating cats and dogs,\" they chanted in unison.\n\n\"...grab 'em by the pussy....\"\n\n\"...could shoot someone in Times Square...\"\n\nThe words, which had lost any meaning ages ago, echoed off the cliffside and into the abyss.",
+        "created_at": "2026-10-19T19:40:10.831Z",
+        "source": "https://bsky.app/profile/qwerty123212.bsky.social/post/3myaurdnw5c2o",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sotcy4v3r4jnuft4dgnxfwwk/app.bsky.feed.post/3myauublb22am",
+        "handle": "rawhead.bsky.social",
+        "text": "Also....America is literally the one place that would exclude a place name like \"New\" America. You know, like how New England isn't in England, New York is not York, etc.",
+        "created_at": "2026-10-19T19:41:49.312Z",
+        "source": "https://bsky.app/profile/rawhead.bsky.social/post/3myauublb22am",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myaux7ych223",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "NYPD Hate Crimes Task Force investigates Upper East Side Capital One vandalism with smashed windows and pro-Palestinian graffiti, including possible antisemitic hate-crime links.\n",
+        "created_at": "2026-10-19T19:43:28.231Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myaux7ych223",
+        "mapped_location": "Upper East Side Capital One",
+        "precision_level": "address",
+        "location_text": "Upper East Side Capital One",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ottofkbzucuystpjo4pd5hvn/app.bsky.feed.post/3myauxc4y7526",
+        "handle": "londonpolbriefly.bsky.social",
+        "text": "NYPD Hate Crimes Task Force investigates Upper East Side Capital One vandalism with smashed windows and pro-Palestinian graffiti, including possible antisemitic hate-crime links.\n",
+        "created_at": "2026-10-19T19:43:30.310Z",
+        "source": "https://bsky.app/profile/londonpolbriefly.bsky.social/post/3myauxc4y7526",
+        "mapped_location": "Upper East Side Capital One",
+        "precision_level": "address",
+        "location_text": "Upper East Side Capital One",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgvtvukggtsyn5ypke4gceuv/app.bsky.feed.post/3myav243pbk2r",
+        "handle": "themsunnydaez.bsky.social",
+        "text": "Gotta use it for commuting to college, I COULD take the Metro-North to Grand Central and take the shuttle to Times Square, take the 2 to Penn Station, head on to the LIRR and take it there like that, BUT I WANNA SAVE MONEY!",
+        "created_at": "2026-10-19T19:45:04.887Z",
+        "source": "https://bsky.app/profile/themsunnydaez.bsky.social/post/3myav243pbk2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t4bsavvfbjqi67v3xg5gph4f/app.bsky.feed.post/3myav2emsjs25",
+        "handle": "benjdillon.bsky.social",
+        "text": "Does Donald Trump --who was born in (check notes) New York City, New York -- understand the meaning of new?",
+        "created_at": "2026-10-19T19:45:13.835Z",
+        "source": "https://bsky.app/profile/benjdillon.bsky.social/post/3myav2emsjs25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t4bsavvfbjqi67v3xg5gph4f/app.bsky.feed.post/3myav2emsjs25",
+        "handle": "benjdillon.bsky.social",
+        "text": "Does Donald Trump --who was born in (check notes) New York City, New York -- understand the meaning of new?",
+        "created_at": "2026-10-19T19:45:13.835Z",
+        "source": "https://bsky.app/profile/benjdillon.bsky.social/post/3myav2emsjs25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.753
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oktvsyblisk3ftcdjfsa5nh2/app.bsky.feed.post/3myavbkgb3c2x",
+        "handle": "coyotetrail.bsky.social",
+        "text": "Common Yellowthroat outside New York Public Library. I wished I had some juicy morsel to drop. #birding #migration #newyork",
+        "created_at": "2026-10-19T19:49:14.782Z",
+        "source": "https://bsky.app/profile/coyotetrail.bsky.social/post/3myavbkgb3c2x",
+        "mapped_location": "New York Public Library",
+        "precision_level": "address",
+        "location_text": "New York Public Library",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myavcxga3o2k",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Forest Hills-bound [M] express from 21 St-Queensbridge to Jackson Heights. \nForest Hills-bound [R] express from Queens Plaza to Jackson Heights.",
+        "created_at": "2026-10-19T19:50:01.835Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myavcxga3o2k",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myavdoigz242",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Forest Hills-bound M, R express from 21 St-Queensbridge to Jackson Heights.\nForest Hills-bound express from Queens Plaza to Jackson Heights.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T19:50:19.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myavdoigz242",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:idpan7zoavmxgciqqeastadx/app.bsky.feed.post/3myavdk5xra2f",
+        "handle": "hfhr.bsky.social",
+        "text": "We were proud to help bring New Yorkers together at Union Square in solidarity with India’s youth-led movement for democracy.\n\nAs @nyunews reports, the message was clear: voting rights, peaceful protest and dissent are not privileges governments get to withdraw. buff.ly/fvG3lA6",
+        "created_at": "2026-10-19T19:50:20.953Z",
+        "source": "https://bsky.app/profile/hfhr.bsky.social/post/3myavdk5xra2f",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.865,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sul4nn35g5bdqd625nhlfn57/app.bsky.feed.post/3myavhe2rr22o",
+        "handle": "bobsmacbox.bsky.social",
+        "text": "Trump took over a public golf course then it cost $193 to $283 to play in the Bronx NY and the cost at Haines Point has hovered around $50.",
+        "created_at": "2026-10-19T19:52:29.451Z",
+        "source": "https://bsky.app/profile/bobsmacbox.bsky.social/post/3myavhe2rr22o",
+        "mapped_location": "the Bronx NY",
+        "precision_level": "address",
+        "location_text": "the Bronx NY",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Haines Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892,
+          40.856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sul4nn35g5bdqd625nhlfn57/app.bsky.feed.post/3myavhe2rr22o",
+        "handle": "bobsmacbox.bsky.social",
+        "text": "Trump took over a public golf course then it cost $193 to $283 to play in the Bronx NY and the cost at Haines Point has hovered around $50.",
+        "created_at": "2026-10-19T19:52:29.451Z",
+        "source": "https://bsky.app/profile/bobsmacbox.bsky.social/post/3myavhe2rr22o",
+        "mapped_location": "Haines Point",
+        "precision_level": "address",
+        "location_text": "Haines Point",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Bronx NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p6nd2xdlb3i3hls7of7mslfv/app.bsky.feed.post/3myavk4dtqr22",
+        "handle": "asianewstoday.bsky.social",
+        "text": "Diwali at Times Square 2026 Celebrating the 11th Edition of the festival at the Crossroads of the World-Times Square! #Diwali2026 #DiwaliAtTimesSquare #FestivalOfLights #NewYorkEvents #CelebrateHarmony",
+        "created_at": "2026-10-19T19:54:01Z",
+        "source": "https://bsky.app/profile/asianewstoday.bsky.social/post/3myavk4dtqr22",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square 2026 Celebrating",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Crossroads of the World-Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p6nd2xdlb3i3hls7of7mslfv/app.bsky.feed.post/3myavk4dtqr22",
+        "handle": "asianewstoday.bsky.social",
+        "text": "Diwali at Times Square 2026 Celebrating the 11th Edition of the festival at the Crossroads of the World-Times Square! #Diwali2026 #DiwaliAtTimesSquare #FestivalOfLights #NewYorkEvents #CelebrateHarmony",
+        "created_at": "2026-10-19T19:54:01Z",
+        "source": "https://bsky.app/profile/asianewstoday.bsky.social/post/3myavk4dtqr22",
+        "mapped_location": "the Crossroads of the World-Times Square",
+        "precision_level": "address",
+        "location_text": "the Crossroads of the World-Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square 2026 Celebrating"
       }
     }
   ]

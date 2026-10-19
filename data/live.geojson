@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T18:50:38.027771Z",
-    "total_pins": 60
+    "generated_at": "2026-10-19T19:06:36.459222Z",
+    "total_pins": 71
   },
   "features": [
     {
@@ -1508,6 +1508,283 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zcm3ycmqahhbzg27xuw5uyql/app.bsky.feed.post/3myas2sdbbc2k",
+        "handle": "rjgnyc.bsky.social",
+        "text": "Shoutout to Winner, the butcher shop in Park Slope that @nongebrokts.bsky.social and I go to for going full goblin mode over the types of sausage they’re making (picked up “Philly cheesesteak” and “bulgogi” flavored sausages).",
+        "created_at": "2026-10-19T18:51:46.975Z",
+        "source": "https://bsky.app/profile/rjgnyc.bsky.social/post/3myas2sdbbc2k",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6mgiqkco2khv7hzmf6hixvdy/app.bsky.feed.post/3myas3qs6js2g",
+        "handle": "elitegrifters.bsky.social",
+        "text": "What the actual piece says, as summed up in the last sentence: “Mamdani has discovered that socialism can succeed in New York through one simple trick: abandoning socialism.”\n\nOf course, the DSA’s propagandist didn’t link to the piece so people could see what it actually said.",
+        "created_at": "2026-10-19T18:52:18.922Z",
+        "source": "https://bsky.app/profile/elitegrifters.bsky.social/post/3myas3qs6js2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mfolr3wlhy7cfgupjpy6nlnz/app.bsky.feed.post/3myas4lrnfc2h",
+        "handle": "joeymagidson.bsky.social",
+        "text": "I ranked the best performances from John Turturro. Where does his work in The Only Living Pickpocket in New York land? Find out at Awards Radar:\n\nawardsradar.com/2026/10/19/r...",
+        "created_at": "2026-10-19T18:52:47.215Z",
+        "source": "https://bsky.app/profile/joeymagidson.bsky.social/post/3myas4lrnfc2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i2ecremi7tj45etyndmslqdi/app.bsky.feed.post/3myas6qughj2m",
+        "handle": "eternalsoundtrack.substack.com",
+        "text": "ON THIS DAY IN 1984... 'Stop Making Sense' opened at New York's 57th Street Playhouse. The Big Suit gets the attention, but watch the ensemble take shape, player by player. David Byrne may be at the front, bu the band are the focal point. #TalkingHeads",
+        "created_at": "2026-10-19T18:53:59.482Z",
+        "source": "https://bsky.app/profile/eternalsoundtrack.substack.com/post/3myas6qughj2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's 57th Street Playhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i2ecremi7tj45etyndmslqdi/app.bsky.feed.post/3myas6qughj2m",
+        "handle": "eternalsoundtrack.substack.com",
+        "text": "ON THIS DAY IN 1984... 'Stop Making Sense' opened at New York's 57th Street Playhouse. The Big Suit gets the attention, but watch the ensemble take shape, player by player. David Byrne may be at the front, bu the band are the focal point. #TalkingHeads",
+        "created_at": "2026-10-19T18:53:59.482Z",
+        "source": "https://bsky.app/profile/eternalsoundtrack.substack.com/post/3myas6qughj2m",
+        "mapped_location": "New York's 57th Street Playhouse",
+        "precision_level": "address",
+        "location_text": "New York's 57th Street Playhouse",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:62jnlcsohnkrvhybxe53gfux/app.bsky.feed.post/3myasay6yis2t",
+        "handle": "itstcg.blacksky.app",
+        "text": "You at the Waldorf Astoria now?",
+        "created_at": "2026-10-19T18:55:14.456Z",
+        "source": "https://bsky.app/profile/itstcg.blacksky.app/post/3myasay6yis2t",
+        "mapped_location": "the Waldorf Astoria",
+        "precision_level": "address",
+        "location_text": "the Waldorf Astoria",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ugoqmdaxl4utnj4csujswwlj/app.bsky.feed.post/3myasd4wnqs2w",
+        "handle": "athlonsports.bsky.social",
+        "text": "The New York Giants' defense left a lot to be desired in their 34-27 loss to the New Orleans Saints on Sunday at MetLife Stadium.",
+        "created_at": "2026-10-19T18:56:26Z",
+        "source": "https://bsky.app/profile/athlonsports.bsky.social/post/3myasd4wnqs2w",
+        "mapped_location": "MetLife Stadium",
+        "precision_level": "address",
+        "location_text": "MetLife Stadium",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:futsryvhk4s7ug35umty4p6a/app.bsky.feed.post/3myase7heqc2e",
+        "handle": "laracroftfrance.bsky.social",
+        "text": "EN | 📽️ | #AngelinaJolie attended a premiere of #WithoutBlood, which she directed, at Village East Cinema in New York on September 14, 2026. She was accompanied by her daughter Zahara and the film’s team, including Salma Hayek.",
+        "created_at": "2026-10-19T18:57:02.693Z",
+        "source": "https://bsky.app/profile/laracroftfrance.bsky.social/post/3myase7heqc2e",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gfatqnufdv6x6zzhcludb72r/app.bsky.feed.post/3myasrhpgdc2c",
+        "handle": "thomasmrobson.bsky.social",
+        "text": "I have never in my life been around a group of people so constitutionally incapable of walking intelligently as the students on my campus.\n\nAnd I say that as someone who has spent literally days of my life walking through Times Square and months walking through theme parks.",
+        "created_at": "2026-10-19T19:04:27.594Z",
+        "source": "https://bsky.app/profile/thomasmrobson.bsky.social/post/3myasrhpgdc2c",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bgf5wkwvfaau4sbmkbuercdj/app.bsky.feed.post/3myasu2xdh22y",
+        "handle": "ebottcher.bsky.social",
+        "text": "And the work continues! On October 25, join the Lower East Side Ecology Center and me for a street tree care event at Verdi Square. Come get your hands dirty with us, and visit their website to learn about more volunteer opportunities! 🌳💚",
+        "created_at": "2026-10-19T19:04:53.520Z",
+        "source": "https://bsky.app/profile/ebottcher.bsky.social/post/3myasu2xdh22y",
+        "mapped_location": "Verdi Square",
+        "precision_level": "address",
+        "location_text": "Verdi Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chkh3qo3cdvmsycdvtoirih6/app.bsky.feed.post/3myasuca5kq22",
+        "handle": "whitehousewatchdog.bsky.social",
+        "text": "Anthony Constantino, CEO of Sticker Mule and creator of a pro-Trump rap album, faces challenges in securing Rep. Elise Stefanik's GOP seat in New York's 21st District.",
+        "created_at": "2026-10-19T19:06:02.385Z",
+        "source": "https://bsky.app/profile/whitehousewatchdog.bsky.social/post/3myasuca5kq22",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

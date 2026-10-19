@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:03:08.216633Z",
-    "total_pins": 77
+    "generated_at": "2026-10-19T20:12:23.497682Z",
+    "total_pins": 79
   },
   "features": [
     {
@@ -1946,6 +1946,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:27lwvjlccbu2s3kszutf4l6a/app.bsky.feed.post/3myaw5nzbnk2x",
+        "handle": "alicedyeforme.bsky.social",
+        "text": "I mean there's Delia Ramirez in New York\n\ncan't think of anyone else offhand",
+        "created_at": "2026-10-19T20:04:58.087Z",
+        "source": "https://bsky.app/profile/alicedyeforme.bsky.social/post/3myaw5nzbnk2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3myawat2tbs2h",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Conservative Synagogue of Fifth Avenue, 11 E 11th St, New York, NY 10003",
+        "created_at": "2026-10-19T20:06:44.024Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3myawat2tbs2h",
+        "mapped_location": "Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "Fifth Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

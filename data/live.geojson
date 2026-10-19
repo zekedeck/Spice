@@ -1,110 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T20:03:08.211795Z",
-    "total_pins": 121
+    "generated_at": "2026-10-19T20:12:23.486999Z",
+    "total_pins": 119
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ecfa4rkofmgddx6lhqovkynx/app.bsky.feed.post/3my3vi43vvs2e",
-        "handle": "progressivepatriot.bsky.social",
-        "text": "A few thousand at the NO KINGS March around Prospect Park, Brooklyn. \n#nokings #brooklyn",
-        "created_at": "2026-10-17T20:09:35.962Z",
-        "source": "https://bsky.app/profile/progressivepatriot.bsky.social/post/3my3vi43vvs2e",
-        "mapped_location": "Prospect Park",
-        "precision_level": "address",
-        "location_text": "Prospect Park",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.921,
-          40.696
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nxrkdhilb5letnrj5mivvoqa/app.bsky.feed.post/3my3viqtees2c",
-        "handle": "grimesquare.bsky.social",
-        "text": "“Bushwick leaders are floating ways to manage the weekend party crowds on Wyckoff Avenue—which has pushed some longtime denizens to speak out about the abundance of trash, puke and late-night noise within earshot of residential blocks.”\n\ngrime-square.com/2026/10/06/h...",
-        "created_at": "2026-10-17T20:09:57.703Z",
-        "source": "https://bsky.app/profile/grimesquare.bsky.social/post/3my3viqtees2c",
-        "mapped_location": "Wyckoff Avenue",
-        "precision_level": "address",
-        "location_text": "Wyckoff Avenue",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rpgwvpx4kyvoikzvfwhhhuwh/app.bsky.feed.post/3my3vjvqjas2c",
-        "handle": "geekvibesnation.com",
-        "text": "‘The Only Living Pickpocket In New York’ Review – John Turturro Steals The Spotlight With His Best Performance Yet geekvibesnation.com/the-only-liv...",
-        "created_at": "2026-10-17T20:10:36.408Z",
-        "source": "https://bsky.app/profile/geekvibesnation.com/post/3my3vjvqjas2c",
-        "mapped_location": "New York’",
-        "precision_level": "address",
-        "location_text": "New York’",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.727
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:csjg6nizktgxvchjdmxfrrxq/app.bsky.feed.post/3my3vkvxkg22w",
-        "handle": "tisue.net",
-        "text": "I hear they followed him around the East Village like ducklings",
-        "created_at": "2026-10-17T20:11:10.190Z",
-        "source": "https://bsky.app/profile/tisue.net/post/3my3vkvxkg22w",
-        "mapped_location": "East Village",
-        "precision_level": "address",
-        "location_text": "East Village",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -3049,6 +2949,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:27lwvjlccbu2s3kszutf4l6a/app.bsky.feed.post/3myaw5nzbnk2x",
+        "handle": "alicedyeforme.bsky.social",
+        "text": "I mean there's Delia Ramirez in New York\n\ncan't think of anyone else offhand",
+        "created_at": "2026-10-19T20:04:58.087Z",
+        "source": "https://bsky.app/profile/alicedyeforme.bsky.social/post/3myaw5nzbnk2x",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3myawat2tbs2h",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Conservative Synagogue of Fifth Avenue, 11 E 11th St, New York, NY 10003",
+        "created_at": "2026-10-19T20:06:44.024Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3myawat2tbs2h",
+        "mapped_location": "Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "Fifth Avenue",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

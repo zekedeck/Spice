@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T23:36:34.544222Z",
-    "total_pins": 22
+    "generated_at": "2026-10-19T01:42:09.457790Z",
+    "total_pins": 25
   },
   "features": [
     {
@@ -551,6 +551,81 @@
         "mapped_location": "the Harlem Square Club",
         "precision_level": "address",
         "location_text": "the Harlem Square Club",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:655wicnhak7t2jth2ostuc57/app.bsky.feed.post/3my6yc33rm225",
+        "handle": "roywoodjr.bsky.social",
+        "text": "New York City join us for an evening of laughs as we fight to end child poverty.@comicreliefus     www.comicrelief.org/live",
+        "created_at": "2026-10-19T01:37:54.020Z",
+        "source": "https://bsky.app/profile/roywoodjr.bsky.social/post/3my6yc33rm225",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:duetpykl3txvw2nal5zsxn7d/app.bsky.feed.post/3my6yggjxnc2z",
+        "handle": "britneysspear.bsky.social",
+        "text": "this was New York??THE WHOLE TIME?",
+        "created_at": "2026-10-19T01:40:20.242Z",
+        "source": "https://bsky.app/profile/britneysspear.bsky.social/post/3my6yggjxnc2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York??THE WHOLE TIME",
+        "confidence": 0.85,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2q4pdltlh25bolatpy4jwykj/app.bsky.feed.post/3my6yhpoubc2x",
+        "handle": "suasponte2023.bsky.social",
+        "text": "I practiced in an (off-)white shoe firm's trusts and estates department in midtown Manhattan for the first year of my realizing-I-didn't-want-to-be-a-lawyer saga.\n\nSmall world indeed.",
+        "created_at": "2026-10-19T01:41:03.394Z",
+        "source": "https://bsky.app/profile/suasponte2023.bsky.social/post/3my6yhpoubc2x",
+        "mapped_location": "midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "midtown Manhattan",
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",

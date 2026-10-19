@@ -1,235 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-18T23:36:34.538994Z",
-    "total_pins": 66
+    "generated_at": "2026-10-19T01:42:09.454679Z",
+    "total_pins": 60
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:gmntgrssl5fxssfxk344nsxd/app.bsky.feed.post/3mxzrlel3f22r",
-        "handle": "janiceflux.bsky.social",
-        "text": "#spookyfilmfest! #12! A Lovecraft adaptation (in a Poe wrapper)! VINCENT PRICE! Frank Maxwell saying \"Cthulhu\" in a New York accent! A series of increasingly ridiculously immense sets! Evil portrait causes greenish skin tones! ROGER CORMAN! So much more!",
-        "created_at": "2026-10-16T23:54:31.062Z",
-        "source": "https://bsky.app/profile/janiceflux.bsky.social/post/3mxzrlel3f22r",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:delbcprjz2ce4jqe3zaqncsk/app.bsky.feed.post/3mxzro2riw22t",
-        "handle": "veeforward.bsky.social",
-        "text": "A college student drugged, raped, and killed a fellow student in New York City college dorm room.",
-        "created_at": "2026-10-16T23:56:01.457Z",
-        "source": "https://bsky.app/profile/veeforward.bsky.social/post/3mxzro2riw22t",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.904,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mxzrsoo3kkf2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Canarsie-Rockaway Pkwy-bound L trains are delayed while we request NYPD assistance for people being disruptive on a train at Lorimer St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-16T23:58:35.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mxzrsoo3kkf2",
-        "mapped_location": "Lorimer St.\n\nFor",
-        "precision_level": "address",
-        "location_text": "Lorimer St.\n\nFor",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6wbwxdejlddyrhyhwg5a66l/app.bsky.feed.post/3mxzru4wv222z",
-        "handle": "tpamedia.bsky.social",
-        "text": "🚨HOMAN WARNS NYC:\nBorder Czar Tom Homan put NYC Mayor Mamdani on notice: ICE is not backing down in New York City. Homan made clear that nothing coming out of City Hall will slow down deportation operations in NYC or any other sanctuary city.\nSource: The Patriot Oasis\nThePeoplesAdvertiser.com 🇺🇸",
-        "created_at": "2026-10-16T23:59:25.053Z",
-        "source": "https://bsky.app/profile/tpamedia.bsky.social/post/3mxzru4wv222z",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6wbwxdejlddyrhyhwg5a66l/app.bsky.feed.post/3mxzruxfpoc2p",
-        "handle": "tpamedia.bsky.social",
-        "text": "🚨HOMAN WARNS NYC:\nBorder Czar Tom Homan put NYC Mayor Mamdani on notice: ICE is not backing down in New York City. Homan made clear that nothing coming out of City Hall will slow down deportation operations in NYC or any other sanctuary city.\nSource: The Patriot Oasis\nThePeoplesAdvertiser.com 🇺🇸",
-        "created_at": "2026-10-16T23:59:52.805Z",
-        "source": "https://bsky.app/profile/tpamedia.bsky.social/post/3mxzruxfpoc2p",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6iumtlucr4oijgc47s2erzd4/app.bsky.feed.post/3mxzrvqppwg2m",
-        "handle": "annylon.bsky.social",
-        "text": "Prosecutor: FIT student died after being drugged, raped in dormitory – NBC New York\n\nTwo teenagers face federal charges in a disturbing case involving fentanyl and sexual assault that prosecutors say resulted in the death of a New York City college student at Manhattan's Fashion Institute of…",
-        "created_at": "2026-10-17T00:00:19Z",
-        "source": "https://bsky.app/profile/annylon.bsky.social/post/3mxzrvqppwg2m",
-        "mapped_location": "Manhattan's Fashion Institute of…",
-        "precision_level": "address",
-        "location_text": "Manhattan's Fashion Institute of…",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hgtggvtniq3cfadktplxvykh/app.bsky.feed.post/3mxzrvslm3p2r",
-        "handle": "jafifsd.bsky.social",
-        "text": "Prosecutor: FIT student died after being drugged, raped in dormitory – NBC New York\n\nTwo teenagers face federal charges in a disturbing case involving fentanyl and sexual assault that prosecutors say resulted in the death of a New York City college student at Manhattan's Fashion Institute of…",
-        "created_at": "2026-10-17T00:00:21Z",
-        "source": "https://bsky.app/profile/jafifsd.bsky.social/post/3mxzrvslm3p2r",
-        "mapped_location": "Manhattan's Fashion Institute of…",
-        "precision_level": "address",
-        "location_text": "Manhattan's Fashion Institute of…",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6nxrl3vwfoi5q4u2cxe7vnge/app.bsky.feed.post/3mxzrvujbuv2z",
-        "handle": "nationscopeusa.bsky.social",
-        "text": "Prosecutor: FIT student died after being drugged, raped in dormitory – NBC New York\n\nTwo teenagers face federal charges in a disturbing case involving fentanyl and sexual assault that prosecutors say resulted in the death of a New York City college student at Manhattan's Fashion Institute of…",
-        "created_at": "2026-10-17T00:00:23Z",
-        "source": "https://bsky.app/profile/nationscopeusa.bsky.social/post/3mxzrvujbuv2z",
-        "mapped_location": "Manhattan's Fashion Institute of…",
-        "precision_level": "address",
-        "location_text": "Manhattan's Fashion Institute of…",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7vrudpadksfyvx5rxq7jpllb/app.bsky.feed.post/3mxzrvw7gng2x",
-        "handle": "statesora.bsky.social",
-        "text": "Prosecutor: FIT student died after being drugged, raped in dormitory – NBC New York\n\nTwo teenagers face federal charges in a disturbing case involving fentanyl and sexual assault that prosecutors say resulted in the death of a New York City college student at Manhattan's Fashion Institute of…",
-        "created_at": "2026-10-17T00:00:24Z",
-        "source": "https://bsky.app/profile/statesora.bsky.social/post/3mxzrvw7gng2x",
-        "mapped_location": "Manhattan's Fashion Institute of…",
-        "precision_level": "address",
-        "location_text": "Manhattan's Fashion Institute of…",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1655,6 +1430,81 @@
         "mapped_location": "the Harlem Square Club",
         "precision_level": "address",
         "location_text": "the Harlem Square Club",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:655wicnhak7t2jth2ostuc57/app.bsky.feed.post/3my6yc33rm225",
+        "handle": "roywoodjr.bsky.social",
+        "text": "New York City join us for an evening of laughs as we fight to end child poverty.@comicreliefus     www.comicrelief.org/live",
+        "created_at": "2026-10-19T01:37:54.020Z",
+        "source": "https://bsky.app/profile/roywoodjr.bsky.social/post/3my6yc33rm225",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:duetpykl3txvw2nal5zsxn7d/app.bsky.feed.post/3my6yggjxnc2z",
+        "handle": "britneysspear.bsky.social",
+        "text": "this was New York??THE WHOLE TIME?",
+        "created_at": "2026-10-19T01:40:20.242Z",
+        "source": "https://bsky.app/profile/britneysspear.bsky.social/post/3my6yggjxnc2z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York??THE WHOLE TIME",
+        "confidence": 0.85,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2q4pdltlh25bolatpy4jwykj/app.bsky.feed.post/3my6yhpoubc2x",
+        "handle": "suasponte2023.bsky.social",
+        "text": "I practiced in an (off-)white shoe firm's trusts and estates department in midtown Manhattan for the first year of my realizing-I-didn't-want-to-be-a-lawyer saga.\n\nSmall world indeed.",
+        "created_at": "2026-10-19T01:41:03.394Z",
+        "source": "https://bsky.app/profile/suasponte2023.bsky.social/post/3my6yhpoubc2x",
+        "mapped_location": "midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "midtown Manhattan",
         "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",

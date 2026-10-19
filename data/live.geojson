@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T01:42:09.454679Z",
-    "total_pins": 60
+    "generated_at": "2026-10-19T06:59:21.106699Z",
+    "total_pins": 61
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6oqhlokqiycipzbrcjyvglfm/app.bsky.feed.post/3my24db2ja22m",
-        "handle": "meyhve.com",
-        "text": "\"interest not currently available in New York\" hmmm i wonder why\n\n(also lolll this is definitely a scam on some level with an APY that high 😭)",
-        "created_at": "2026-10-17T03:06:50.104Z",
-        "source": "https://bsky.app/profile/meyhve.com/post/3my24db2ja22m",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1510,6 +1485,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ea5keak5vnuvpdowxfumh4ni/app.bsky.feed.post/3my7jw5ceqc25",
+        "handle": "tokyo-ondo.bsky.social",
+        "text": "Excelsior Quartette - Good-Bye My Coney Island Baby\nrecorded in New York City, c. 22 March 1922\nwww.youtube.com/watch?v=o2HD...\n\nGoodbye, My Coney Island Baby - Wikipedia\nen.wikipedia.org/wiki/Goodbye...",
+        "created_at": "2026-10-19T06:53:21.038Z",
+        "source": "https://bsky.app/profile/tokyo-ondo.bsky.social/post/3my7jw5ceqc25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:szlummyt2qv2o6onnoikxw3q/app.bsky.feed.post/3my7k5z7noc2s",
+        "handle": "cmcd54.bsky.social",
+        "text": "The mobsters in New York brought him to his knees.\nIn the 80s .",
+        "created_at": "2026-10-19T06:57:45.189Z",
+        "source": "https://bsky.app/profile/cmcd54.bsky.social/post/3my7k5z7noc2s",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

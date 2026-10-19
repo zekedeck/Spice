@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T19:46:44.782500Z",
-    "total_pins": 102
+    "generated_at": "2026-10-19T20:03:08.211795Z",
+    "total_pins": 121
   },
   "features": [
     {
@@ -2568,6 +2568,487 @@
         "borough_conflict": false,
         "specificity_score": 0.1,
         "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.753
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oktvsyblisk3ftcdjfsa5nh2/app.bsky.feed.post/3myavbkgb3c2x",
+        "handle": "coyotetrail.bsky.social",
+        "text": "Common Yellowthroat outside New York Public Library. I wished I had some juicy morsel to drop. #birding #migration #newyork",
+        "created_at": "2026-10-19T19:49:14.782Z",
+        "source": "https://bsky.app/profile/coyotetrail.bsky.social/post/3myavbkgb3c2x",
+        "mapped_location": "New York Public Library",
+        "precision_level": "address",
+        "location_text": "New York Public Library",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myavcxga3o2k",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Forest Hills-bound [M] express from 21 St-Queensbridge to Jackson Heights. \nForest Hills-bound [R] express from Queens Plaza to Jackson Heights.",
+        "created_at": "2026-10-19T19:50:01.835Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myavcxga3o2k",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myavdoigz242",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Forest Hills-bound M, R express from 21 St-Queensbridge to Jackson Heights.\nForest Hills-bound express from Queens Plaza to Jackson Heights.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T19:50:19.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myavdoigz242",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:idpan7zoavmxgciqqeastadx/app.bsky.feed.post/3myavdk5xra2f",
+        "handle": "hfhr.bsky.social",
+        "text": "We were proud to help bring New Yorkers together at Union Square in solidarity with India’s youth-led movement for democracy.\n\nAs @nyunews reports, the message was clear: voting rights, peaceful protest and dissent are not privileges governments get to withdraw. buff.ly/fvG3lA6",
+        "created_at": "2026-10-19T19:50:20.953Z",
+        "source": "https://bsky.app/profile/hfhr.bsky.social/post/3myavdk5xra2f",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.865,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sul4nn35g5bdqd625nhlfn57/app.bsky.feed.post/3myavhe2rr22o",
+        "handle": "bobsmacbox.bsky.social",
+        "text": "Trump took over a public golf course then it cost $193 to $283 to play in the Bronx NY and the cost at Haines Point has hovered around $50.",
+        "created_at": "2026-10-19T19:52:29.451Z",
+        "source": "https://bsky.app/profile/bobsmacbox.bsky.social/post/3myavhe2rr22o",
+        "mapped_location": "the Bronx NY",
+        "precision_level": "address",
+        "location_text": "the Bronx NY",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Haines Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892,
+          40.856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sul4nn35g5bdqd625nhlfn57/app.bsky.feed.post/3myavhe2rr22o",
+        "handle": "bobsmacbox.bsky.social",
+        "text": "Trump took over a public golf course then it cost $193 to $283 to play in the Bronx NY and the cost at Haines Point has hovered around $50.",
+        "created_at": "2026-10-19T19:52:29.451Z",
+        "source": "https://bsky.app/profile/bobsmacbox.bsky.social/post/3myavhe2rr22o",
+        "mapped_location": "Haines Point",
+        "precision_level": "address",
+        "location_text": "Haines Point",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Bronx NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p6nd2xdlb3i3hls7of7mslfv/app.bsky.feed.post/3myavk4dtqr22",
+        "handle": "asianewstoday.bsky.social",
+        "text": "Diwali at Times Square 2026 Celebrating the 11th Edition of the festival at the Crossroads of the World-Times Square! #Diwali2026 #DiwaliAtTimesSquare #FestivalOfLights #NewYorkEvents #CelebrateHarmony",
+        "created_at": "2026-10-19T19:54:01Z",
+        "source": "https://bsky.app/profile/asianewstoday.bsky.social/post/3myavk4dtqr22",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square 2026 Celebrating",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Crossroads of the World-Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p6nd2xdlb3i3hls7of7mslfv/app.bsky.feed.post/3myavk4dtqr22",
+        "handle": "asianewstoday.bsky.social",
+        "text": "Diwali at Times Square 2026 Celebrating the 11th Edition of the festival at the Crossroads of the World-Times Square! #Diwali2026 #DiwaliAtTimesSquare #FestivalOfLights #NewYorkEvents #CelebrateHarmony",
+        "created_at": "2026-10-19T19:54:01Z",
+        "source": "https://bsky.app/profile/asianewstoday.bsky.social/post/3myavk4dtqr22",
+        "mapped_location": "the Crossroads of the World-Times Square",
+        "precision_level": "address",
+        "location_text": "the Crossroads of the World-Times Square",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square 2026 Celebrating"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ludb52xz4pkhvhsaqawpekuq/app.bsky.feed.post/3myavqpcxb22s",
+        "handle": "stefene.bsky.social",
+        "text": "oh, okay. i looked. that is so not me. i would be more courtney love in a billion dollar vintage boutique in new york. i sell old stuff - been doing it for thirty years but trump's war and policies have made it really bad for me now.",
+        "created_at": "2026-10-19T19:57:43.245Z",
+        "source": "https://bsky.app/profile/stefene.bsky.social/post/3myavqpcxb22s",
+        "mapped_location": "new york",
+        "precision_level": "address",
+        "location_text": "new york",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cbhnuflsctq2s7mu4iqcuauq/app.bsky.feed.post/3myavterm2c2l",
+        "handle": "jessehawken.bsky.social",
+        "text": "Escape From Welcome To New York",
+        "created_at": "2026-10-19T19:59:12.854Z",
+        "source": "https://bsky.app/profile/jessehawken.bsky.social/post/3myavterm2c2l",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p2h25xfejxcvtw6zeirnhjpn/app.bsky.feed.post/3myavtpynck2u",
+        "handle": "paulinto47.bsky.social",
+        "text": "These guys never got duped by Trump. He said what they wanted to hear so they played along.  Anybody who knows anything at all about Trump know he’s been a con man all the way back to the 1980s when he was a developer in New York.   \n\nRogan can F-right off.",
+        "created_at": "2026-10-19T19:59:24.610Z",
+        "source": "https://bsky.app/profile/paulinto47.bsky.social/post/3myavtpynck2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sjrjqhf4ymp3j6nam35mukbr/app.bsky.feed.post/3myavuyfexa2p",
+        "handle": "theatricalia.com",
+        "text": "New production added: Our Town, at Henry Miller’s Theatre, New York (now Stephen Sondheim Theatre) (4th – 12th February 1938) and Morosco Theatre, New York City (14th February – 19th November 1938). \nhttps://theatricalia.com/play/3sw/our-town/production/1jtn",
+        "created_at": "2026-10-19T20:00:06.859722+00:00",
+        "source": "https://bsky.app/profile/theatricalia.com/post/3myavuyfexa2p",
+        "mapped_location": "Henry Miller’s Theatre",
+        "precision_level": "address",
+        "location_text": "Henry Miller’s Theatre",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v2uzdn7p6litcqmjui5dxemm/app.bsky.feed.post/3myavv4g3532d",
+        "handle": "estarland.bsky.social",
+        "text": "ℹ️ This list highlights many of the Club Nintendo limited edition consoles, but is not a 100% comprehensive list. It excludes certain regional sweepstakes, one-off promo giveaways, and some shown at the Nintendo World Store in NYC.",
+        "created_at": "2026-10-19T20:00:11.182Z",
+        "source": "https://bsky.app/profile/estarland.bsky.social/post/3myavv4g3532d",
+        "mapped_location": "the Nintendo World Store",
+        "precision_level": "address",
+        "location_text": "the Nintendo World Store",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mk7w3rsw3jqjxoyr3uf5fvh4/app.bsky.feed.post/3myavvdmfuu2i",
+        "handle": "diagrammes.bsky.social",
+        "text": "He is also an Associate Member of the university’s School of Public Policy and a Senior Fellow at the Institute for New Economic Thinking in New York.",
+        "created_at": "2026-10-19T20:00:18.699Z",
+        "source": "https://bsky.app/profile/diagrammes.bsky.social/post/3myavvdmfuu2i",
+        "mapped_location": "the Institute for New Economic Thinking",
+        "precision_level": "address",
+        "location_text": "the Institute for New Economic Thinking",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mk7w3rsw3jqjxoyr3uf5fvh4/app.bsky.feed.post/3myavvdmfuu2i",
+        "handle": "diagrammes.bsky.social",
+        "text": "He is also an Associate Member of the university’s School of Public Policy and a Senior Fellow at the Institute for New Economic Thinking in New York.",
+        "created_at": "2026-10-19T20:00:18.699Z",
+        "source": "https://bsky.app/profile/diagrammes.bsky.social/post/3myavvdmfuu2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Institute for New Economic Thinking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3myavw7ewtd2c",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "this afternoon, sunny. high near 65, with temperatures falling to around 61 in the afternoon. northeast wind around 8 mph. (M): Forest Hills-bound M express from 21 St-Queensbridge to Jackson Heights. Forest Hills-bound R express from Queens Plaza to (1/2)",
+        "created_at": "2026-10-19T20:00:47.784067+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3myavw7ewtd2c",
+        "mapped_location": "Queens Plaza",
+        "precision_level": "address",
+        "location_text": "Queens Plaza",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:czox4e2vu7pjrrg4luigxr4e/app.bsky.feed.post/3myavy3lqj526",
+        "handle": "temphist.com",
+        "text": "Today in New York\n\n52°F. This is the coldest 19th October since 2022. Today is 3°F cooler than average for the time of year.\n\nAverage: 54.9°F · Trend: +0.55 ± 0.60 °F/decade\n\n#weather #NewYork",
+        "created_at": "2026-10-19T20:01:50.942084+00:00",
+        "source": "https://bsky.app/profile/temphist.com/post/3myavy3lqj526",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:czox4e2vu7pjrrg4luigxr4e/app.bsky.feed.post/3myavy5owoh2o",
+        "handle": "temphist.com",
+        "text": "This week in New York 🌡️📈\n\n66°F. This has been the warmest week ending 19th October on record. It was 9°F warmer than average.\n\nAverage: 56.5°F · Trend: +0.86 ± 0.34 °F/decade\n\n#weather #NewYork",
+        "created_at": "2026-10-19T20:01:53.145627+00:00",
+        "source": "https://bsky.app/profile/temphist.com/post/3myavy5owoh2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3myavzgmos32h",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Grizzly Bear: an American indie rock band formed in 2000 in New York City, emerged as a pioneering force in the genre with their intricate guitar work, layered harmonies, and genre-defying experimentation. Comprised of Noah Kahan, Chris Taylor, and Daniel Rossen, the group initially gained att...",
+        "created_at": "2026-10-19T20:02:34.539402Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3myavzgmos32h",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

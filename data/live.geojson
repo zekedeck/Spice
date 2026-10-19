@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T19:06:36.459222Z",
-    "total_pins": 71
+    "generated_at": "2026-10-19T19:22:27.565796Z",
+    "total_pins": 77
   },
   "features": [
     {
@@ -1785,6 +1785,158 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ifbbyqk4lza42drb3qdb66o6/app.bsky.feed.post/3myat2fkq722n",
+        "handle": "kennyuong.bsky.social",
+        "text": "Haven’t had Soul food in a long time! Hopped off the C Train at 145th Street in Harlem and made my way to Charles Pan-Fried Chicken! 😋🚇",
+        "created_at": "2026-10-19T19:09:27.328Z",
+        "source": "https://bsky.app/profile/kennyuong.bsky.social/post/3myat2fkq722n",
+        "mapped_location": "145th Street",
+        "precision_level": "address",
+        "location_text": "145th Street",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jk6trzv23gfabyeodq75hiyk/app.bsky.feed.post/3myatcmhjif23",
+        "handle": "circleci.com",
+        "text": "Rob's speaking at AI DevCon NYC!\n\n\"Why Your CTO Is Suddenly Writing Code” is an honest account of what happens when a technical leader goes back into the workflow to understand how AI is changing software development.\n\nJoin us November 2-4: https://circle.ci/3VYZp7q",
+        "created_at": "2026-10-19T19:14:02.984575863Z",
+        "source": "https://bsky.app/profile/circleci.com/post/3myatcmhjif23",
+        "mapped_location": "AI DevCon NYC",
+        "precision_level": "address",
+        "location_text": "AI DevCon NYC",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2d7ylnpz7qnd2cthmfkcx2am/app.bsky.feed.post/3myaths4vpk2b",
+        "handle": "shanecherry.bsky.social",
+        "text": "This week with yours truly! Tues at Atlas Social Club 8-1, Thotyssey NYC & I will be bringing you fierce Smash competition and social board games! Thurs we're over at The Spare Lounge at Frames with 2 Switches, retro games, karaoke, & $1 wings! And Sat we'll be at Rockbar 4-9 playing D&D B/X!",
+        "created_at": "2026-10-19T19:16:56.589Z",
+        "source": "https://bsky.app/profile/shanecherry.bsky.social/post/3myaths4vpk2b",
+        "mapped_location": "The Spare Lounge",
+        "precision_level": "address",
+        "location_text": "The Spare Lounge",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.842
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myatkt5sr2k2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Bedford Park Blvd-bound B, D and Norwood-205 St-bound trains are delayed while we address a door problem on a train at Kingsbridge Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T19:18:35.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myatkt5sr2k2",
+        "mapped_location": "Bedford Park Blvd",
+        "precision_level": "address",
+        "location_text": "Bedford Park Blvd",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Kingsbridge Rd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myatkt5sr2k2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Bedford Park Blvd-bound B, D and Norwood-205 St-bound trains are delayed while we address a door problem on a train at Kingsbridge Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T19:18:35.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myatkt5sr2k2",
+        "mapped_location": "Kingsbridge Rd",
+        "precision_level": "address",
+        "location_text": "Kingsbridge Rd",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bedford Park Blvd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:px7igiziewol5mom4kcxxd2z/app.bsky.feed.post/3myatlnytg32h",
+        "handle": "stuartmiller1.bsky.social",
+        "text": "\"@nyc_disabilities\n@nycmayorsoffice\n@disabilityprideparadenyc\n@nycgov\n\n#disabilitypride #nycdisabilitypride #disabilityrights #newyorkcity #inclusion\n\nIG acct:\nnewfacesny\nTop Photographer in New York",
+        "created_at": "2026-10-19T19:19:06.605Z",
+        "source": "https://bsky.app/profile/stuartmiller1.bsky.social/post/3myatlnytg32h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

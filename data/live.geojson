@@ -1,160 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T14:29:03.527878Z",
-    "total_pins": 56
+    "generated_at": "2026-10-19T18:58:37.334249Z",
+    "total_pins": 68
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:d4z6zveh6n4qifdn223mj4uk/app.bsky.feed.post/3my3fjms6ds27",
-        "handle": "howranaterrellcsit.bsky.social",
-        "text": "Today is National Black Poetry Day! \n\nThis day was chosen in honor of Jupiter Hammon, who was born on this day in 1711. He was enslaved in Long Island, New York, where his captors taught him how to read the Bible and gave him access to their library.",
-        "created_at": "2026-10-17T15:24:07.154Z",
-        "source": "https://bsky.app/profile/howranaterrellcsit.bsky.social/post/3my3fjms6ds27",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lf22esp6s42q6ysfvl3ywcgy/app.bsky.feed.post/3my3flcuekk2r",
-        "handle": "womantoday.bsky.social",
-        "text": "7/ Osaka has made efforts to overcome her natural shyness, while also becoming a leading activist in professional tennis. Her decision to withdraw from the 2020 Cincinnati Open in New York to raise awareness for the police shooting of Jacob Blake.",
-        "created_at": "2026-10-17T15:25:02.312Z",
-        "source": "https://bsky.app/profile/womantoday.bsky.social/post/3my3flcuekk2r",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o4w5oslexhpzwb2yc44pqsss/app.bsky.feed.post/3my3fno45f22v",
-        "handle": "robecallahan.bsky.social",
-        "text": "Florida is deep red MAGA country fronted by a Trump wannabe- DeSantis. They should be punished for what they are and who they support. Canadians should not spend one penny in that state. New York, Los Angeles, Chicago- they are still places here that adore our fine neighbors to the North.",
-        "created_at": "2026-10-17T15:26:22.748Z",
-        "source": "https://bsky.app/profile/robecallahan.bsky.social/post/3my3fno45f22v",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lclbfg3a7vghtzukfogdyh2l/app.bsky.feed.post/3my3frhn3oc2g",
-        "handle": "bobjoseph.bsky.social",
-        "text": "COFFEE AND DONUTS: A great morning in Owego, New York.",
-        "created_at": "2026-10-17T15:28:30.174Z",
-        "source": "https://bsky.app/profile/bobjoseph.bsky.social/post/3my3frhn3oc2g",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.013,
-          40.709
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bkrl2jdjxaxjj2adayjio7qv/app.bsky.feed.post/3my3obhh6pc2m",
-        "handle": "davidlewis61.bsky.social",
-        "text": "My wife worked in the Manhattan Surrogates (probate etc.) Court. At least, and you can’t always get it from them, the WSJ is telling the truth.",
-        "created_at": "2026-10-17T18:00:36.790Z",
-        "source": "https://bsky.app/profile/davidlewis61.bsky.social/post/3my3obhh6pc2m",
-        "mapped_location": "the Manhattan Surrogates",
-        "precision_level": "address",
-        "location_text": "the Manhattan Surrogates",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6xb27hvdldyjxtq5pb5gst5p/app.bsky.feed.post/3my3obrjh4s2d",
-        "handle": "40yearsago.bsky.social",
-        "text": "[October 17th, 1986] The Parkside East Historic District in Buffalo, New York was officially listed on the National Register of Historic Places",
-        "created_at": "2026-10-17T18:00:47.162Z",
-        "source": "https://bsky.app/profile/40yearsago.bsky.social/post/3my3obrjh4s2d",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1404,6 +1254,460 @@
         "confidence": 0.95,
         "address_type": "administrative",
         "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wma4kufmijo7ykvmx3lnyjat/app.bsky.feed.post/3myarmipqik2v",
+        "handle": "pyixus.bsky.social",
+        "text": "We made a stop in New York and the historical sign here is literally calling my native people hostile I’m yelling.",
+        "created_at": "2026-10-19T18:43:47.138Z",
+        "source": "https://bsky.app/profile/pyixus.bsky.social/post/3myarmipqik2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cxj7axe6owjqdv4nd6ofefi4/app.bsky.feed.post/3myarowfclc22",
+        "handle": "jasmine29.bsky.social",
+        "text": "#Cher  #VoteBlue💙 Early voting starts on Saturday, October 24th in New York.",
+        "created_at": "2026-10-19T18:45:08.586Z",
+        "source": "https://bsky.app/profile/jasmine29.bsky.social/post/3myarowfclc22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myarowzcng2h",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "Nicolas Cage stars in Martin Scorsese's BRINGING OUT THE DEAD 🚑\n\nUp next in BLANK CHECK SELECTS, screening on 35mm Tuesday 11/3 at Nitehawk Prospect Park with an intro by Griffin Newman & David Sims",
+        "created_at": "2026-10-19T18:45:09.222Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myarowzcng2h",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.842,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nhnniwgkedvphhfz4wakew6g/app.bsky.feed.post/3myarply4zk25",
+        "handle": "atqueens.bsky.social",
+        "text": "This year parks tried an approach of in-house planting of new trees and, presumably, care as well.  I don't know whether this was city-wide but I heard about it in a Queens Community Board 13 Parks committee meeting.  I believe this approach was used in Queens Village which got many trees last year.",
+        "created_at": "2026-10-19T18:45:31.222Z",
+        "source": "https://bsky.app/profile/atqueens.bsky.social/post/3myarply4zk25",
+        "mapped_location": "Queens Village",
+        "precision_level": "address",
+        "location_text": "Queens Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr4cft75d5yyfurquqoctgug/app.bsky.feed.post/3myarqxyt5k23",
+        "handle": "obcycler.bsky.social",
+        "text": "\"Cars don't drive on the sidewalk\"\n\nI've heard from big accounts on BSKY that this is especially true in New York where only ebikes put pedestrians in danger on the sidewalk.",
+        "created_at": "2026-10-19T18:46:17.379Z",
+        "source": "https://bsky.app/profile/obcycler.bsky.social/post/3myarqxyt5k23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ael2pktq6g5m3hdqpdsy7es5/app.bsky.feed.post/3myarr4b7fs26",
+        "handle": "elderman.bsky.social",
+        "text": "Sean Penn, Robert De Niro, and Danny Aiello photographed by David McGough in New York City, 1989.",
+        "created_at": "2026-10-19T18:46:21.851Z",
+        "source": "https://bsky.app/profile/elderman.bsky.social/post/3myarr4b7fs26",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.703
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jab4tdz2bwnnkd34gsmz3ul/app.bsky.feed.post/3myaru3evbx2i",
+        "handle": "solarchesapeake.bsky.social",
+        "text": "CHESSA is heading to DERVOS 2026! 📍 Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.\n\nRobin will be there and would love to connect, so reach out if you’re going. 🤝 And don’t miss CHESSA member Erin Kiel of Qcells, who will be speaking ☀️ \n\nMore: buff.ly/dhPsXjV",
+        "created_at": "2026-10-19T18:48:00.755Z",
+        "source": "https://bsky.app/profile/solarchesapeake.bsky.social/post/3myaru3evbx2i",
+        "mapped_location": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.",
+        "precision_level": "address",
+        "location_text": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Duggal Greenhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jab4tdz2bwnnkd34gsmz3ul/app.bsky.feed.post/3myaru3evbx2i",
+        "handle": "solarchesapeake.bsky.social",
+        "text": "CHESSA is heading to DERVOS 2026! 📍 Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.\n\nRobin will be there and would love to connect, so reach out if you’re going. 🤝 And don’t miss CHESSA member Erin Kiel of Qcells, who will be speaking ☀️ \n\nMore: buff.ly/dhPsXjV",
+        "created_at": "2026-10-19T18:48:00.755Z",
+        "source": "https://bsky.app/profile/solarchesapeake.bsky.social/post/3myaru3evbx2i",
+        "mapped_location": "Duggal Greenhouse",
+        "precision_level": "address",
+        "location_text": "Duggal Greenhouse",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vyjfvrkjsbbffb7xsu3hkqfb/app.bsky.feed.post/3myarucg4l62j",
+        "handle": "madonnamaterial.bsky.social",
+        "text": "Madonna - Confession ll - Live in Times Square CD Card-Sleeve+ Remix  #ad \r\n",
+        "created_at": "2026-10-19T18:48:06.849757Z",
+        "source": "https://bsky.app/profile/madonnamaterial.bsky.social/post/3myarucg4l62j",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ghyjgapkt7tboqrts3gppbmk/app.bsky.feed.post/3myarxo2cjn2d",
+        "handle": "talkingpicturestv.bsky.social",
+        "text": "Late night action with #GeneHackman in FRENCH CONNECTION II (1975) 9:50pm. Narcotics detective Doyle travels to France on the hunt for the ringleader who eluded him in New York. #TPTVsubtitles",
+        "created_at": "2026-10-19T18:50:01.806Z",
+        "source": "https://bsky.app/profile/talkingpicturestv.bsky.social/post/3myarxo2cjn2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zcm3ycmqahhbzg27xuw5uyql/app.bsky.feed.post/3myas2sdbbc2k",
+        "handle": "rjgnyc.bsky.social",
+        "text": "Shoutout to Winner, the butcher shop in Park Slope that @nongebrokts.bsky.social and I go to for going full goblin mode over the types of sausage they’re making (picked up “Philly cheesesteak” and “bulgogi” flavored sausages).",
+        "created_at": "2026-10-19T18:51:46.975Z",
+        "source": "https://bsky.app/profile/rjgnyc.bsky.social/post/3myas2sdbbc2k",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6mgiqkco2khv7hzmf6hixvdy/app.bsky.feed.post/3myas3qs6js2g",
+        "handle": "elitegrifters.bsky.social",
+        "text": "What the actual piece says, as summed up in the last sentence: “Mamdani has discovered that socialism can succeed in New York through one simple trick: abandoning socialism.”\n\nOf course, the DSA’s propagandist didn’t link to the piece so people could see what it actually said.",
+        "created_at": "2026-10-19T18:52:18.922Z",
+        "source": "https://bsky.app/profile/elitegrifters.bsky.social/post/3myas3qs6js2g",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mfolr3wlhy7cfgupjpy6nlnz/app.bsky.feed.post/3myas4lrnfc2h",
+        "handle": "joeymagidson.bsky.social",
+        "text": "I ranked the best performances from John Turturro. Where does his work in The Only Living Pickpocket in New York land? Find out at Awards Radar:\n\nawardsradar.com/2026/10/19/r...",
+        "created_at": "2026-10-19T18:52:47.215Z",
+        "source": "https://bsky.app/profile/joeymagidson.bsky.social/post/3myas4lrnfc2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i2ecremi7tj45etyndmslqdi/app.bsky.feed.post/3myas6qughj2m",
+        "handle": "eternalsoundtrack.substack.com",
+        "text": "ON THIS DAY IN 1984... 'Stop Making Sense' opened at New York's 57th Street Playhouse. The Big Suit gets the attention, but watch the ensemble take shape, player by player. David Byrne may be at the front, bu the band are the focal point. #TalkingHeads",
+        "created_at": "2026-10-19T18:53:59.482Z",
+        "source": "https://bsky.app/profile/eternalsoundtrack.substack.com/post/3myas6qughj2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 1.0,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's 57th Street Playhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i2ecremi7tj45etyndmslqdi/app.bsky.feed.post/3myas6qughj2m",
+        "handle": "eternalsoundtrack.substack.com",
+        "text": "ON THIS DAY IN 1984... 'Stop Making Sense' opened at New York's 57th Street Playhouse. The Big Suit gets the attention, but watch the ensemble take shape, player by player. David Byrne may be at the front, bu the band are the focal point. #TalkingHeads",
+        "created_at": "2026-10-19T18:53:59.482Z",
+        "source": "https://bsky.app/profile/eternalsoundtrack.substack.com/post/3myas6qughj2m",
+        "mapped_location": "New York's 57th Street Playhouse",
+        "precision_level": "address",
+        "location_text": "New York's 57th Street Playhouse",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:62jnlcsohnkrvhybxe53gfux/app.bsky.feed.post/3myasay6yis2t",
+        "handle": "itstcg.blacksky.app",
+        "text": "You at the Waldorf Astoria now?",
+        "created_at": "2026-10-19T18:55:14.456Z",
+        "source": "https://bsky.app/profile/itstcg.blacksky.app/post/3myasay6yis2t",
+        "mapped_location": "the Waldorf Astoria",
+        "precision_level": "address",
+        "location_text": "the Waldorf Astoria",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ugoqmdaxl4utnj4csujswwlj/app.bsky.feed.post/3myasd4wnqs2w",
+        "handle": "athlonsports.bsky.social",
+        "text": "The New York Giants' defense left a lot to be desired in their 34-27 loss to the New Orleans Saints on Sunday at MetLife Stadium.",
+        "created_at": "2026-10-19T18:56:26Z",
+        "source": "https://bsky.app/profile/athlonsports.bsky.social/post/3myasd4wnqs2w",
+        "mapped_location": "MetLife Stadium",
+        "precision_level": "address",
+        "location_text": "MetLife Stadium",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:futsryvhk4s7ug35umty4p6a/app.bsky.feed.post/3myase7heqc2e",
+        "handle": "laracroftfrance.bsky.social",
+        "text": "EN | 📽️ | #AngelinaJolie attended a premiere of #WithoutBlood, which she directed, at Village East Cinema in New York on September 14, 2026. She was accompanied by her daughter Zahara and the film’s team, including Salma Hayek.",
+        "created_at": "2026-10-19T18:57:02.693Z",
+        "source": "https://bsky.app/profile/laracroftfrance.bsky.social/post/3myase7heqc2e",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
       }

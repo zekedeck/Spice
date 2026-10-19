@@ -34,5 +34,9 @@ LLM_ENABLED = os.getenv("LLM_ENABLED", "true").lower() == "true"
 # env var (ANTHROPIC_API_KEY or GROQ_API_KEY) to actually be set — see
 # init_llm_client() in pipeline/llm_geotagging.py, which degrades to the
 # rule-based path (not a crash) if the key for the selected provider is
-# missing.
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "claude").lower()
+# missing. Default is "groq" -- the provider in place and working since
+# before Claude support was added as an (unrequested) option; keeps any
+# invocation path that doesn't set this env var explicitly (local runs,
+# etc.) on the known-working provider rather than silently landing on an
+# unconfigured one.
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq").lower()

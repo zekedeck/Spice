@@ -66,11 +66,17 @@ jobs:
         run: python worker.py
         env:
           DB_PATH: data/raw/posts.db
-          # LLM_PROVIDER defaults to "claude" in config.py; set here too so
-          # it's visible/toggleable from the workflow without a code change.
-          # GROQ_API_KEY is left in place so flipping this back to "groq"
-          # needs only this one line edited, not a redeploy.
-          LLM_PROVIDER: claude
+          # Claude support (pipeline/llm_geotagging.py) was added as an
+          # available provider but was never actually requested -- a
+          # mid-session request for "claude based ingestion every 6 min"
+          # meant restarting the session-driven collection trigger, not
+          # switching the geotagging LLM. Pinned back to "groq" (the
+          # known-working provider, in place since before this session)
+          # rather than left defaulting to "claude" with no
+          # ANTHROPIC_API_KEY set, which would otherwise leave the LLM
+          # layer silently inactive. ANTHROPIC_API_KEY stays here, unused,
+          # so flipping to "claude" later needs only this one line edited.
+          LLM_PROVIDER: groq
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 

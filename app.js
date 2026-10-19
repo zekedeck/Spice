@@ -10,6 +10,8 @@
 
   var ET_ZONE = "America/New_York";
   var LIVE_REFRESH_MS = 15 * 60 * 1000; // matches the pipeline's 15-min native cron cadence
+  var CAMERA_RADIUS_M = 400; // nearby-camera lookup radius
+  var CAMERA_MAX_COUNT = 3; // cap shown per pin so dense areas (Midtown) don't clutter the panel
 
   var map = null;
   var mode = "live"; // "live" | "archive"
@@ -17,6 +19,7 @@
   var allStateMentions = []; // currently loaded state/country-precision features (post-lookback, pre-search)
   var selectedUri = null;
   var liveRefreshTimer = null;
+  var nycCameras = []; // static NYC DOT traffic-camera reference data; loaded once, no network per-lookup
 
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
@@ -635,6 +638,89 @@
   }
 
   // ---------------------------------------------------------------------
+  // Nearby traffic cameras (NYC DOT, static reference data — see
+  // data/nyc_cameras.json). Loaded once at startup; the per-pin lookup below
+  // is a local distance calc with no network call, so opening the detail
+  // panel never blocks on a fetch. Only each camera's <img> thumbnail hits
+  // the network, lazily, once rendered.
+  // ---------------------------------------------------------------------
+
+  function loadCameras() {
+    return fetch("data/nyc_cameras.json", { cache: "force-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("nyc_cameras.json HTTP " + res.status);
+        return res.json();
+      })
+      .then(function (cameras) {
+        nycCameras = Array.isArray(cameras) ? cameras : [];
+      })
+      .catch(function (err) {
+        nycCameras = []; // feature degrades silently: no cameras shown
+        console.error(err);
+      });
+  }
+
+  // Haversine distance in meters between two lat/lng points.
+  function distanceMeters(lat1, lng1, lat2, lng2) {
+    var R = 6371000;
+    var toRad = Math.PI / 180;
+    var dLat = (lat2 - lat1) * toRad;
+    var dLng = (lng2 - lng1) * toRad;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(lat1 * toRad) * Math.cos(lat2 * toRad) *
+      Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  // Returns up to CAMERA_MAX_COUNT cameras within CAMERA_RADIUS_M of
+  // (lat, lng), nearest first. Pure local computation against the static
+  // camera list — no network access.
+  function findNearbyCameras(lat, lng) {
+    var withDistance = [];
+    for (var i = 0; i < nycCameras.length; i++) {
+      var cam = nycCameras[i];
+      var d = distanceMeters(lat, lng, cam.lat, cam.lng);
+      if (d <= CAMERA_RADIUS_M) {
+        withDistance.push({ camera: cam, distance: d });
+      }
+    }
+    withDistance.sort(function (a, b) { return a.distance - b.distance; });
+    return withDistance.slice(0, CAMERA_MAX_COUNT);
+  }
+
+  function cameraImageUrl(id) {
+    return "https://webcams.nyctmc.org/api/cameras/" + id + "/image";
+  }
+
+  // Renders the nearby-cameras block for the detail panel, or "" when none
+  // are in range (matches the rest of the panel's convention of simply
+  // omitting optional/absent fields rather than showing an empty state).
+  function renderNearbyCameras(lat, lng) {
+    var nearby = findNearbyCameras(lat, lng);
+    if (nearby.length === 0) return "";
+
+    var items = nearby.map(function (entry) {
+      var cam = entry.camera;
+      var imgUrl = cameraImageUrl(cam.id);
+      var distLabel = "~" + (Math.round(entry.distance / 10) * 10) + "m away";
+      var label = cam.name ? escapeHtml(cam.name) + " · " + distLabel : distLabel;
+      return (
+        '<a class="camera-thumb" href="' + escapeHtml(imgUrl) + '" target="_blank" rel="noopener noreferrer">' +
+        '<img class="camera-thumb-img" src="' + escapeHtml(imgUrl) + '" alt="' + escapeHtml(cam.name || "Traffic camera") + '" loading="lazy" onerror="this.classList.add(\'camera-thumb-broken\')" />' +
+        '<span class="camera-thumb-label">' + label + "</span>" +
+        "</a>"
+      );
+    }).join("");
+
+    return (
+      '<div class="detail-cameras">' +
+      '<div class="detail-cameras-title">Nearby traffic cameras</div>' +
+      '<div class="detail-cameras-list">' + items + "</div>" +
+      "</div>"
+    );
+  }
+
+  // ---------------------------------------------------------------------
   // Detail panel
   // ---------------------------------------------------------------------
 
@@ -645,6 +731,43 @@
       case "flagged": return "Low confidence";
       default: return "State / other";
     }
+  }
+
+  // Precision badges show "<categoryLabel> · <precision_level>" (e.g.
+  // "Address · address (clarified)"). For some category/precision_level
+  // pairs the two halves say the same thing in different casing ("Address"
+  // / "address", "City / neighborhood" / "city") and showing both reads as
+  // a forgotten template variable. For others, precision_level carries real
+  // information categoryLabel doesn't ("address (clarified)" vs "Address";
+  // or for the catch-all "region" bucket — categoryLabel "State / other" —
+  // precision_level pins down which of state / country / unclassified it
+  // actually is). This decides, per pin, whether the precision_level half
+  // is worth showing.
+  function precisionAddsInfo(category, label, precisionLevel) {
+    var lvl = (precisionLevel || "").trim();
+    if (!lvl) return false;
+    var lvlLower = lvl.toLowerCase();
+    var labelLower = label.toLowerCase();
+
+    // Split into a leading alphabetic core ("address") and any trailing
+    // qualifier (" (clarified)"). A non-empty qualifier is always real,
+    // additional information worth keeping.
+    var m = lvlLower.match(/^([a-z]+)(.*)$/);
+    var core = m ? m[1] : lvlLower;
+    var qualifier = m ? m[2].trim() : "";
+    if (qualifier) return true;
+
+    // "address" and "city" categories map to precision_level 1:1 (the only
+    // precision_level categorize() ever pairs with them is the bare word
+    // itself), so once there's no qualifier, showing it adds nothing
+    // beyond what categoryLabel already said. Every other category
+    // ("flagged", or the state/country/unclassified catch-all) can pair
+    // with several different precision_level values, so the specific word
+    // is genuinely informative there.
+    if (category !== "address" && category !== "city") return true;
+
+    var wordBoundary = new RegExp("\\b" + core + "\\b");
+    return !wordBoundary.test(labelLower);
   }
 
   function escapeHtml(str) {
@@ -663,6 +786,11 @@
 
     var pct = Math.round((typeof p.confidence === "number" ? p.confidence : 0) * 100);
     var badgeClass = "badge-" + p.category;
+    var coords = feature.geometry && feature.geometry.coordinates;
+    var camerasHtml = coords ? renderNearbyCameras(coords[1], coords[0]) : "";
+    var precisionLabel = categoryLabel(p.category);
+    var precisionBadge = escapeHtml(precisionLabel) +
+      (precisionAddsInfo(p.category, precisionLabel, p.precision_level) ? " · " + escapeHtml(p.precision_level) : "");
 
     detailContent.innerHTML =
       '<h2 id="detail-panel-title" class="detail-handle">' + escapeHtml(p.handle || "unknown") + "</h2>" +
@@ -670,12 +798,13 @@
       '<p class="detail-text">' + escapeHtml(p.text || "") + "</p>" +
       '<dl class="detail-meta">' +
       "<dt>Location</dt><dd>" + escapeHtml(p.mapped_location || p.location_text || "Unknown") + "</dd>" +
-      '<dt>Precision</dt><dd><span class="detail-badge ' + badgeClass + '">' + escapeHtml(categoryLabel(p.category)) + " · " + escapeHtml(p.precision_level || "") + "</span></dd>" +
+      '<dt>Precision</dt><dd><span class="detail-badge ' + badgeClass + '">' + precisionBadge + "</span></dd>" +
       "<dt>Confidence</dt><dd>" + pct + "%</dd>" +
       "</dl>" +
       (typeof p.source === "string" && /^https:\/\//i.test(p.source)
         ? '<a class="detail-link" href="' + escapeHtml(p.source) + '" target="_blank" rel="noopener noreferrer">View on Bluesky</a>'
-        : "");
+        : "") +
+      camerasHtml;
 
     detailPanel.setAttribute("aria-hidden", "false");
   }
@@ -854,4 +983,5 @@
 
   initLookbackBounds();
   initMap();
+  loadCameras();
 })();

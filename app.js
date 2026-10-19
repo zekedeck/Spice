@@ -12,6 +12,7 @@
   var LIVE_REFRESH_MS = 15 * 60 * 1000; // matches the pipeline's 15-min native cron cadence
   var CAMERA_RADIUS_M = 400; // nearby-camera lookup radius
   var CAMERA_MAX_COUNT = 3; // cap shown per pin so dense areas (Midtown) don't clutter the panel
+  var CAMERA_REFRESH_MS = 1000; // how often open camera thumbnails re-fetch their snapshot
 
   var map = null;
   var mode = "live"; // "live" | "archive"
@@ -20,6 +21,7 @@
   var selectedUri = null;
   var liveRefreshTimer = null;
   var nycCameras = []; // static NYC DOT traffic-camera reference data; loaded once, no network per-lookup
+  var cameraRefreshTimer = null; // re-fetches open camera thumbnails on a tick; see startCameraRefresh()
 
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
@@ -706,7 +708,7 @@
       var label = cam.name ? escapeHtml(cam.name) + " · " + distLabel : distLabel;
       return (
         '<a class="camera-thumb" href="' + escapeHtml(imgUrl) + '" target="_blank" rel="noopener noreferrer">' +
-        '<img class="camera-thumb-img" src="' + escapeHtml(imgUrl) + '" alt="' + escapeHtml(cam.name || "Traffic camera") + '" loading="lazy" onerror="this.classList.add(\'camera-thumb-broken\')" />' +
+        '<img class="camera-thumb-img" src="' + escapeHtml(imgUrl) + '" data-camera-id="' + escapeHtml(String(cam.id)) + '" alt="' + escapeHtml(cam.name || "Traffic camera") + '" loading="lazy" onerror="this.classList.add(\'camera-thumb-broken\')" />' +
         '<span class="camera-thumb-label">' + label + "</span>" +
         "</a>"
       );
@@ -718,6 +720,32 @@
       '<div class="detail-cameras-list">' + items + "</div>" +
       "</div>"
     );
+  }
+
+  // Re-fetches each open camera thumbnail's snapshot on a fixed tick, so
+  // the images stay live-ish while the detail panel is open. The DOT
+  // endpoint returns the same URL for every frame, so a plain src
+  // reassignment would hit cache and never actually refresh -- a
+  // cache-busting query param forces a real re-fetch each tick. Only
+  // touches the <img> src (not innerHTML), so it doesn't disturb layout,
+  // scroll position, or any other part of the open panel.
+  function startCameraRefresh() {
+    stopCameraRefresh();
+    var imgs = detailContent.querySelectorAll(".camera-thumb-img[data-camera-id]");
+    if (imgs.length === 0) return;
+    cameraRefreshTimer = setInterval(function () {
+      imgs.forEach(function (img) {
+        img.classList.remove("camera-thumb-broken");
+        img.src = cameraImageUrl(img.getAttribute("data-camera-id")) + "?t=" + Date.now();
+      });
+    }, CAMERA_REFRESH_MS);
+  }
+
+  function stopCameraRefresh() {
+    if (cameraRefreshTimer !== null) {
+      clearInterval(cameraRefreshTimer);
+      cameraRefreshTimer = null;
+    }
   }
 
   // ---------------------------------------------------------------------
@@ -807,6 +835,7 @@
       camerasHtml;
 
     detailPanel.setAttribute("aria-hidden", "false");
+    startCameraRefresh();
   }
 
   function truncateSnippet(text, maxLen) {
@@ -842,6 +871,7 @@
     selectedUri = null;
     detailPanel.setAttribute("aria-hidden", "true");
     updateSelectedSource(null);
+    stopCameraRefresh();
   }
 
   function updateSelectedSource(feature) {

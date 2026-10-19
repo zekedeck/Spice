@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T14:29:03.543555Z",
-    "total_pins": 6
+    "generated_at": "2026-10-19T18:50:38.034320Z",
+    "total_pins": 16
   },
   "features": [
     {
@@ -151,6 +151,258 @@
         "confidence": 0.95,
         "address_type": "administrative",
         "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wma4kufmijo7ykvmx3lnyjat/app.bsky.feed.post/3myarmipqik2v",
+        "handle": "pyixus.bsky.social",
+        "text": "We made a stop in New York and the historical sign here is literally calling my native people hostile I’m yelling.",
+        "created_at": "2026-10-19T18:43:47.138Z",
+        "source": "https://bsky.app/profile/pyixus.bsky.social/post/3myarmipqik2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cxj7axe6owjqdv4nd6ofefi4/app.bsky.feed.post/3myarowfclc22",
+        "handle": "jasmine29.bsky.social",
+        "text": "#Cher  #VoteBlue💙 Early voting starts on Saturday, October 24th in New York.",
+        "created_at": "2026-10-19T18:45:08.586Z",
+        "source": "https://bsky.app/profile/jasmine29.bsky.social/post/3myarowfclc22",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myarowzcng2h",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "Nicolas Cage stars in Martin Scorsese's BRINGING OUT THE DEAD 🚑\n\nUp next in BLANK CHECK SELECTS, screening on 35mm Tuesday 11/3 at Nitehawk Prospect Park with an intro by Griffin Newman & David Sims",
+        "created_at": "2026-10-19T18:45:09.222Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myarowzcng2h",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.842,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nhnniwgkedvphhfz4wakew6g/app.bsky.feed.post/3myarply4zk25",
+        "handle": "atqueens.bsky.social",
+        "text": "This year parks tried an approach of in-house planting of new trees and, presumably, care as well.  I don't know whether this was city-wide but I heard about it in a Queens Community Board 13 Parks committee meeting.  I believe this approach was used in Queens Village which got many trees last year.",
+        "created_at": "2026-10-19T18:45:31.222Z",
+        "source": "https://bsky.app/profile/atqueens.bsky.social/post/3myarply4zk25",
+        "mapped_location": "Queens Village",
+        "precision_level": "address",
+        "location_text": "Queens Village",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr4cft75d5yyfurquqoctgug/app.bsky.feed.post/3myarqxyt5k23",
+        "handle": "obcycler.bsky.social",
+        "text": "\"Cars don't drive on the sidewalk\"\n\nI've heard from big accounts on BSKY that this is especially true in New York where only ebikes put pedestrians in danger on the sidewalk.",
+        "created_at": "2026-10-19T18:46:17.379Z",
+        "source": "https://bsky.app/profile/obcycler.bsky.social/post/3myarqxyt5k23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ael2pktq6g5m3hdqpdsy7es5/app.bsky.feed.post/3myarr4b7fs26",
+        "handle": "elderman.bsky.social",
+        "text": "Sean Penn, Robert De Niro, and Danny Aiello photographed by David McGough in New York City, 1989.",
+        "created_at": "2026-10-19T18:46:21.851Z",
+        "source": "https://bsky.app/profile/elderman.bsky.social/post/3myarr4b7fs26",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.703
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jab4tdz2bwnnkd34gsmz3ul/app.bsky.feed.post/3myaru3evbx2i",
+        "handle": "solarchesapeake.bsky.social",
+        "text": "CHESSA is heading to DERVOS 2026! 📍 Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.\n\nRobin will be there and would love to connect, so reach out if you’re going. 🤝 And don’t miss CHESSA member Erin Kiel of Qcells, who will be speaking ☀️ \n\nMore: buff.ly/dhPsXjV",
+        "created_at": "2026-10-19T18:48:00.755Z",
+        "source": "https://bsky.app/profile/solarchesapeake.bsky.social/post/3myaru3evbx2i",
+        "mapped_location": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.",
+        "precision_level": "address",
+        "location_text": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Duggal Greenhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jab4tdz2bwnnkd34gsmz3ul/app.bsky.feed.post/3myaru3evbx2i",
+        "handle": "solarchesapeake.bsky.social",
+        "text": "CHESSA is heading to DERVOS 2026! 📍 Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC.\n\nRobin will be there and would love to connect, so reach out if you’re going. 🤝 And don’t miss CHESSA member Erin Kiel of Qcells, who will be speaking ☀️ \n\nMore: buff.ly/dhPsXjV",
+        "created_at": "2026-10-19T18:48:00.755Z",
+        "source": "https://bsky.app/profile/solarchesapeake.bsky.social/post/3myaru3evbx2i",
+        "mapped_location": "Duggal Greenhouse",
+        "precision_level": "address",
+        "location_text": "Duggal Greenhouse",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Nov 5 at the Duggal Greenhouse, Brooklyn Navy Yard, NYC."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vyjfvrkjsbbffb7xsu3hkqfb/app.bsky.feed.post/3myarucg4l62j",
+        "handle": "madonnamaterial.bsky.social",
+        "text": "Madonna - Confession ll - Live in Times Square CD Card-Sleeve+ Remix  #ad \r\n",
+        "created_at": "2026-10-19T18:48:06.849757Z",
+        "source": "https://bsky.app/profile/madonnamaterial.bsky.social/post/3myarucg4l62j",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ghyjgapkt7tboqrts3gppbmk/app.bsky.feed.post/3myarxo2cjn2d",
+        "handle": "talkingpicturestv.bsky.social",
+        "text": "Late night action with #GeneHackman in FRENCH CONNECTION II (1975) 9:50pm. Narcotics detective Doyle travels to France on the hunt for the ringleader who eluded him in New York. #TPTVsubtitles",
+        "created_at": "2026-10-19T18:50:01.806Z",
+        "source": "https://bsky.app/profile/talkingpicturestv.bsky.social/post/3myarxo2cjn2d",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
       }

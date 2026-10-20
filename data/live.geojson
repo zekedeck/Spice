@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-20T00:43:55.280454Z",
-    "total_pins": 186
+    "generated_at": "2026-10-20T01:00:06.363126Z",
+    "total_pins": 198
   },
   "features": [
     {
@@ -4686,6 +4686,308 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mybfz2qjni2v",
+        "handle": "porcellato.bsky.social",
+        "text": "Applying to High School in New York City Is a Soul-Destroying Nightmare https://ift.tt/K9o4bU6",
+        "created_at": "2026-10-20T00:48:43+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mybfz2qjni2v",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvwisthr27g3lje3ggc4mmhk/app.bsky.feed.post/3mybfzdwnxk2z",
+        "handle": "elizabeth11432.bsky.social",
+        "text": "The Unrelenting Nightmare of Applying to High School in New York City. #bluecrew #newyorkcity www.nytimes.com/2026/10/19/o...",
+        "created_at": "2026-10-20T00:48:53.165Z",
+        "source": "https://bsky.app/profile/elizabeth11432.bsky.social/post/3mybfzdwnxk2z",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kb3hzw3g5abobjm6ulbwjduc/app.bsky.feed.post/3mybg4242c223",
+        "handle": "bambooshooti.bsky.social",
+        "text": "After cementing her legacy on that 21,079-foot peak, Peck retired from world-class glaciated mountaineering. She published her first major book, followed by multiple analytical textbooks on travel and economic policy. She marched in New York suffrage parades, using her fame to draw crowds. /8",
+        "created_at": "2026-10-20T00:50:06.423Z",
+        "source": "https://bsky.app/profile/bambooshooti.bsky.social/post/3mybg4242c223",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sn74lrgzkisufdz4qocqf2rq/app.bsky.feed.post/3mybgabvlvs25",
+        "handle": "malachydiscontent.bsky.social",
+        "text": "AMERICAN HORROR STORY COUNTDOWN TO HALLOWEEN: American Horror Story: 11: NYC takes place in 1980s New York City and focuses on a string of killings involving gay men and the emergence of a new virus.\n\n11 days until All Hallow's Eve, Samhain",
+        "created_at": "2026-10-20T00:52:45.897Z",
+        "source": "https://bsky.app/profile/malachydiscontent.bsky.social/post/3mybgabvlvs25",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3bx6dweiy4lppxw5enkek35i/app.bsky.feed.post/3mybgalsems2f",
+        "handle": "filmaddictdavid.bsky.social",
+        "text": "Between this (The Only Living Pickpocket in New York) and the underrated Blood Relatives, Noah Segan is 2 for 2",
+        "created_at": "2026-10-20T00:52:56.294Z",
+        "source": "https://bsky.app/profile/filmaddictdavid.bsky.social/post/3mybgalsems2f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.044,
+          40.594
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7aunvqwyi6q6hi6adsdaiu6k/app.bsky.feed.post/3mybgaronc72u",
+        "handle": "programminginsider.bsky.social",
+        "text": "⚾️ October 19, 2006: New York Mets’ Endy Chavez leapt above the Shea Stadium left field wall to rob St. Louis Cardinals’ Scott Rolen of a 2-run homer in the 6th inning of Game 7 of the National League Championship Series.",
+        "created_at": "2026-10-20T00:53:02+00:00",
+        "source": "https://bsky.app/profile/programminginsider.bsky.social/post/3mybgaronc72u",
+        "mapped_location": "the Shea Stadium",
+        "precision_level": "address",
+        "location_text": "the Shea Stadium",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h45kmyasak7bs2hypjmdjnxo/app.bsky.feed.post/3mybgayb2gs2v",
+        "handle": "quokkafella.bsky.social",
+        "text": "Tell them Cornell’s in New York, not Washington. \n🙄",
+        "created_at": "2026-10-20T00:53:09.360Z",
+        "source": "https://bsky.app/profile/quokkafella.bsky.social/post/3mybgayb2gs2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z4jzyk3xwwt2de3di6roqpmv/app.bsky.feed.post/3mybgcx5ppk2i",
+        "handle": "cindyb5.bsky.social",
+        "text": "Taika Waititi attends the special screening of \"Klara and the Sun\" at the Crosby Street Hotel on Monday, Oct. 19, 2026, in New York.\nEvan Agostini - Invision via: gazettextra com",
+        "created_at": "2026-10-20T00:54:15.304Z",
+        "source": "https://bsky.app/profile/cindyb5.bsky.social/post/3mybgcx5ppk2i",
+        "mapped_location": "the Crosby Street Hotel",
+        "precision_level": "address",
+        "location_text": "the Crosby Street Hotel",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z4jzyk3xwwt2de3di6roqpmv/app.bsky.feed.post/3mybgcx5ppk2i",
+        "handle": "cindyb5.bsky.social",
+        "text": "Taika Waititi attends the special screening of \"Klara and the Sun\" at the Crosby Street Hotel on Monday, Oct. 19, 2026, in New York.\nEvan Agostini - Invision via: gazettextra com",
+        "created_at": "2026-10-20T00:54:15.304Z",
+        "source": "https://bsky.app/profile/cindyb5.bsky.social/post/3mybgcx5ppk2i",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Crosby Street Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iyesgokmq6bw5ijvwsyu5tys/app.bsky.feed.post/3mybghqx4n52f",
+        "handle": "camonhudson.moacir.com",
+        "text": "🌔 on Monday, October 19, 2026 at 20:56 in New York City.\n\nCurrent conditions (via NOAA):\n🌞 Fair/clear\nTemperature: 16.1°\nRelative Humidity: 47.72%",
+        "created_at": "2026-10-20T00:56:56.295Z",
+        "source": "https://bsky.app/profile/camonhudson.moacir.com/post/3mybghqx4n52f",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2iskfs45sr4hf4untwum45f4/app.bsky.feed.post/3mybgihvj2s2y",
+        "handle": "unionjobs.bsky.social",
+        "text": "The Northeast Nurses Association seeks an Organizer to be based in New York, Pennsylvania, Massachusetts, or Rhode Island (extensive travel throughout the Northeast). Details can be found at: www.unionjobs.com/listing/3156... #1u #UnionStrong",
+        "created_at": "2026-10-20T00:57:20.640Z",
+        "source": "https://bsky.app/profile/unionjobs.bsky.social/post/3mybgihvj2s2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:623st67kkthivj4c6icvkqnq/app.bsky.feed.post/3mybgkpauh22n",
+        "handle": "ens0.me",
+        "text": "Went to a special pre-release shoeing it THE ONLY LIVING PICKPOCKET IN NEW YORK. John Turturro is always a gem. Solid film overall. Felt a little hokey in the last 15 min. But a worthy indie crime thriller for sure.",
+        "created_at": "2026-10-20T00:58:35.453Z",
+        "source": "https://bsky.app/profile/ens0.me/post/3mybgkpauh22n",
+        "mapped_location": "NEW YORK",
+        "precision_level": "address",
+        "location_text": "NEW YORK",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

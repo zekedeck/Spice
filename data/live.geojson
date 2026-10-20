@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-20T01:23:49.321668Z",
-    "total_pins": 208
+    "generated_at": "2026-10-20T01:32:53.745369Z",
+    "total_pins": 211
   },
   "features": [
     {
@@ -5238,6 +5238,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ny5mscvguz4r636nekozpqac/app.bsky.feed.post/3mybi4xe5pk2u",
+        "handle": "nytpitchbot.bsky.social",
+        "text": "Michigan senate polls show Abdul El-Sayed in the lead, but they are under-sampling Free Press subscribers in New York, Austin, and Washington, DC. \n\nby Jeremy Peters and Bari Weiss",
+        "created_at": "2026-10-20T01:26:41.679Z",
+        "source": "https://bsky.app/profile/nytpitchbot.bsky.social/post/3mybi4xe5pk2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wbdzpqqhcknmdrbvicm6bqie/app.bsky.feed.post/3mybibbdelu2e",
+        "handle": "equalisource.bsky.social",
+        "text": "The first religious leader in the #Estonian American community was the Reverend Hans Rebane, who arrived in New York in 1896",
+        "created_at": "2026-10-20T01:29:06.000Z",
+        "source": "https://bsky.app/profile/equalisource.bsky.social/post/3mybibbdelu2e",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cxj7axe6owjqdv4nd6ofefi4/app.bsky.feed.post/3mybicoasuk22",
+        "handle": "jasmine29.bsky.social",
+        "text": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸\nREMEMBER:\nEARLY VOTING IN ♥️NEW YORK♥️\nSTARTS ON SATURDAY, OCTOBER 24th\n#VoteBlueToSaveAmerica💙💙💙💙💙",
+        "created_at": "2026-10-20T01:29:53.455Z",
+        "source": "https://bsky.app/profile/jasmine29.bsky.social/post/3mybicoasuk22",
+        "mapped_location": "️NEW YORK",
+        "precision_level": "address",
+        "location_text": "️NEW YORK",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

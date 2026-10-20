@@ -357,8 +357,14 @@
   // be redesigned here. Parsed once at startup.
   // ---------------------------------------------------------------------
 
+  // "rally"/"rallies" guarded against sports-comeback usage ("4th-quarter
+  // rally", "rally from a deficit") via a NOT-exclusion rather than
+  // requiring a co-occurring protest word -- that would also drop genuine
+  // standalone rally posts with no other protest-shaped word nearby.
+  // Corpus-validated: kills both a real NFL and a real NBA false positive,
+  // adds zero new matches, every other query unchanged.
   var PROTEST_AST = parseBooleanQuery(
-    '"protest*" OR " rally" OR "rallies" OR "vigil" OR "no kings" OR ("march*" AND ("protest*" OR " rally" OR "rallies" OR "demonstrat*" OR "mobiliz*" OR "field call"))'
+    '"protest*" OR ((" rally" OR "rallies") NOT ("quarter" OR " inning" OR "deficit" OR "losing skid" OR "comeback" OR "playoff" OR "halftime" OR "overtime" OR "touchdown")) OR "vigil" OR "no kings" OR ("march*" AND ("protest*" OR " rally" OR "rallies" OR "demonstrat*" OR "mobiliz*" OR "field call"))'
   );
   var CRIME_AST = parseBooleanQuery(
     '((" shot" OR "shooting") AND ("gun" OR "ICE" OR "police" OR "NYPD" OR "agent*" OR "wound*" OR "injur*" OR "victim" OR "kill*" OR "arrest*" OR "federal")) OR "stabbed" OR "stabbing" OR ("assault*" AND ("arrest*" OR "charge*" OR "convict*" OR "sentenc*" OR "court" OR "custody" OR "police" OR "NYPD" OR "victim" OR "probation")) OR "arrest*"'
@@ -1099,8 +1105,17 @@
   // Category + camera icon glyphs. Drawn as small vector pictograms on an
   // offscreen canvas rather than relying on emoji/font glyph support (not
   // guaranteed across browsers/headless renderers), then registered with
-  // MapLibre as images for symbol layers. Layered on top of the existing
-  // age-gradient pin coloring -- these never touch that color system.
+  // MapLibre as images for symbol layers.
+  //
+  // The three category glyphs (protest/crime/police) ARE part of the
+  // age-gradient color system: they're registered as SDF ("sdf: true")
+  // images, which MapLibre recolors as a flat tint from the image's alpha
+  // channel at paint time via icon-color/icon-halo-* -- the RGB baked in
+  // here is discarded, only alpha (shape coverage) matters. So each glyph
+  // is drawn as a single opaque silhouette (black) on a transparent
+  // background, with no color or backing-circle logic baked into the
+  // pixels; the pin-icons layer's paint block applies AGE_COLOR_EXPR as
+  // icon-color plus a dark halo for legibility against the map tiles.
   // ---------------------------------------------------------------------
 
   function roundRectPath(ctx, x, y, w, h, r) {
@@ -1122,32 +1137,19 @@
     return ctx.getImageData(0, 0, size, size);
   }
 
-  // Dark translucent circular backing so any glyph reads against every
-  // stop of the age-color gradient underneath it.
-  function drawIconBacking(ctx, s) {
-    ctx.clearRect(0, 0, s, s);
-    ctx.beginPath();
-    ctx.arc(s / 2, s / 2, s / 2 - 1, 0, Math.PI * 2);
-    ctx.fillStyle = "rgba(11, 14, 20, 0.82)";
-    ctx.fill();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "rgba(255, 255, 255, 0.28)";
-    ctx.stroke();
-  }
-
   // The earlier vector fist drawing read as an unrecognizable white blob at
-  // actual pin size (reported live) -- a bold letter glyph on the same
-  // dark circular backing is legible at that scale, so Protests uses a
-  // plain "P" instead.
+  // actual pin size (reported live) -- a bold letter glyph is legible at
+  // that scale, so Protests uses a plain "P" instead. Drawn as a flat
+  // black silhouette on transparent, per the SDF convention above.
   function drawLetterIcon(letter) {
     return function (ctx, s) {
-      drawIconBacking(ctx, s);
-      ctx.fillStyle = "#ffffff";
+      ctx.clearRect(0, 0, s, s);
+      ctx.fillStyle = "#000000";
       ctx.font = "700 " + Math.round(s * 0.56) + "px -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif";
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
       // Baseline-based vertical centering reads slightly high for caps;
-      // nudge down a touch so the glyph sits visually centered in the disc.
+      // nudge down a touch so the glyph sits visually centered.
       ctx.fillText(letter, s / 2, s / 2 + s * 0.04);
     };
   }
@@ -1155,9 +1157,9 @@
   var drawFistIcon = drawLetterIcon("P");
 
   function drawExclamationIcon(ctx, s) {
-    drawIconBacking(ctx, s);
+    ctx.clearRect(0, 0, s, s);
     var cx = s / 2;
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#000000";
     var barW = s * 0.14;
     roundRectPath(ctx, cx - barW / 2, s * 0.20, barW, s * 0.38, barW / 2);
     ctx.fill();
@@ -1167,9 +1169,9 @@
   }
 
   function drawBadgeIcon(ctx, s) {
-    drawIconBacking(ctx, s);
+    ctx.clearRect(0, 0, s, s);
     var cx = s / 2;
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#000000";
     ctx.beginPath();
     ctx.moveTo(cx - s * 0.22, s * 0.24);
     ctx.lineTo(cx + s * 0.22, s * 0.24);
@@ -1179,10 +1181,15 @@
     ctx.quadraticCurveTo(cx - s * 0.26, s * 0.45, cx - s * 0.22, s * 0.24);
     ctx.closePath();
     ctx.fill();
-    ctx.fillStyle = "rgba(11, 14, 20, 0.85)";
+    // Punch a transparent hole for the badge's center emblem instead of a
+    // baked-in dark circle -- an SDF image is recolored as one flat tint,
+    // so a two-tone cutout has to be an actual hole in the alpha channel,
+    // not a second fill color.
+    ctx.globalCompositeOperation = "destination-out";
     ctx.beginPath();
     ctx.arc(cx, s * 0.47, s * 0.065, 0, Math.PI * 2);
     ctx.fill();
+    ctx.globalCompositeOperation = "source-over";
   }
 
   // Small, muted, plain camera glyph -- deliberately not part of the
@@ -1217,9 +1224,9 @@
     map.on("load", function () {
       // Register category + camera icon images before anything references
       // them by name.
-      map.addImage("icon-protest", makeIconImageData(28, drawFistIcon));
-      map.addImage("icon-crime", makeIconImageData(28, drawExclamationIcon));
-      map.addImage("icon-police", makeIconImageData(28, drawBadgeIcon));
+      map.addImage("icon-protest", makeIconImageData(28, drawFistIcon), { sdf: true });
+      map.addImage("icon-crime", makeIconImageData(28, drawExclamationIcon), { sdf: true });
+      map.addImage("icon-police", makeIconImageData(28, drawBadgeIcon), { sdf: true });
       map.addImage("camera-glyph", makeIconImageData(24, drawCameraGlyph));
 
       // --- Webcams (standalone layer, separate from the detail-panel
@@ -1305,6 +1312,16 @@
           "icon-size": 0.85,
           "icon-allow-overlap": true,
           "icon-ignore-placement": true
+        },
+        paint: {
+          // SDF icons recolored to track the same age gradient as the
+          // dot beneath them, with a dark halo (matching pin-point's own
+          // stroke color) so the glyph stays legible even at the palest
+          // (brand-new) stop of the gradient against the dark map tiles.
+          "icon-color": AGE_COLOR_EXPR,
+          "icon-halo-color": "#0b0e14",
+          "icon-halo-width": 1.1,
+          "icon-halo-blur": 0.3
         }
       });
 

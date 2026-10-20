@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T23:48:08.026543Z",
-    "total_pins": 167
+    "generated_at": "2026-10-20T00:03:48.324133Z",
+    "total_pins": 171
   },
   "features": [
     {
@@ -4203,6 +4203,106 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybcxza3zlt2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 6 trains are running with delays after we requested medical assistance for someone in need at 68 St-Hunter College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-19T23:54:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybcxza3zlt2",
+        "mapped_location": "68 St-Hunter College",
+        "precision_level": "address",
+        "location_text": "68 St-Hunter College",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyv7jpb7mrrlblk4jpnjhbvc/app.bsky.feed.post/3mybdenq6uo2h",
+        "handle": "crossvol.bsky.social",
+        "text": "At Monday's New York close, options on the US listed Japan ETF, proxy for Japan's Nikkei, price a 1.52% day. 30 day IV at 24.1% sits 7.7 vol points over 20 day realized of 16.4%, so options price bigger moves than that window delivered.\n\n#volatility #derivatives #quant",
+        "created_at": "2026-10-20T00:01:31.000Z",
+        "source": "https://bsky.app/profile/crossvol.bsky.social/post/3mybdenq6uo2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3mybdfwez64v2",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-20T00:01:37.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3mybdfwez64v2",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6hz3mi5qlt3kwioydadw57lr/app.bsky.feed.post/3mybdg4hsbc23",
+        "handle": "ramblingfilm.bsky.social",
+        "text": "#NowWatching The Only Living Pickpocket in New York",
+        "created_at": "2026-10-20T00:02:20.320Z",
+        "source": "https://bsky.app/profile/ramblingfilm.bsky.social/post/3mybdg4hsbc23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

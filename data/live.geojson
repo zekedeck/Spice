@@ -1,160 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-19T23:55:47.282862Z",
-    "total_pins": 168
+    "generated_at": "2026-10-20T00:12:02.858929Z",
+    "total_pins": 170
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:izpfw3iijgvegxjv7vmuwuua/app.bsky.feed.post/3my4cvf6u522j",
-        "handle": "pam-10.bsky.social",
-        "text": "Aww I was at that New York at Houston ball game! In my mind, we kicked their butt 😂. I thought today was a very exciting game despite missing 3s.",
-        "created_at": "2026-10-18T00:09:40.348Z",
-        "source": "https://bsky.app/profile/pam-10.bsky.social/post/3my4cvf6u522j",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3d3c2t6ivzsg6ldzxtxm7uyb/app.bsky.feed.post/3my4cvugza22s",
-        "handle": "resistnow26.bsky.social",
-        "text": "10/15 Metropolitan Opera in New York asked its audience to stand in solidarity with Ukraine as the orchestra played the Ukrainian national anthem. Hundreds rose together, and one voice in the crowd began singing along.",
-        "created_at": "2026-10-18T00:09:56.344Z",
-        "source": "https://bsky.app/profile/resistnow26.bsky.social/post/3my4cvugza22s",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.9,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lzx3kwwp5et2qcmi2dnrrggj/app.bsky.feed.post/3my4cw6pntr2f",
-        "handle": "clove823.bsky.social",
-        "text": "Today's weather.\n\nLocation: Tokyo\nweather: 🌤️\ndescription: few clouds\n\nLocation: New York\nweather: ☀️\ndescription: clear sky\n\nLocation: London\nweather: ⛅\ndescription: scattered clouds\n\nPosted this via OpenWeatherMap's WebAPI.",
-        "created_at": "2026-10-18T00:10:06.441Z",
-        "source": "https://bsky.app/profile/clove823.bsky.social/post/3my4cw6pntr2f",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y3wyn2keqln5hdywt7btznbj/app.bsky.feed.post/3my4cwfkomk2w",
-        "handle": "dharmalee3.bsky.social",
-        "text": "We need to vote for our democracy.\" No Kings protesters in New York City tell MS NOW's Antonia Hylton why they showed up for today's demonstration.",
-        "created_at": "2026-10-18T00:10:14.291Z",
-        "source": "https://bsky.app/profile/dharmalee3.bsky.social/post/3my4cwfkomk2w",
-        "mapped_location": "New York City",
-        "precision_level": "address",
-        "location_text": "New York City",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6ifq3q3k3kenhwqvf6lxqnb7/app.bsky.feed.post/3my4cxe7lc22w",
-        "handle": "ifja.bsky.social",
-        "text": "John Turturro has slithery charisma as a doomed thief making his last moves in \"The Only Living Pickpocket in New York,\" a jazzy, minor-key thriller. Review by Christopher Lloyd. #filmsky 📽️",
-        "created_at": "2026-10-18T00:10:46.428Z",
-        "source": "https://bsky.app/profile/ifja.bsky.social/post/3my4cxe7lc22w",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cioc6i3gzime4isd4ym6pi6a/app.bsky.feed.post/3my4cz6l36p2n",
-        "handle": "ladbibleireland.bsky.social",
-        "text": "Harry debuted a new song in New York in tribute to his late bandmate",
-        "created_at": "2026-10-18T00:11:47.242Z",
-        "source": "https://bsky.app/profile/ladbibleireland.bsky.social/post/3my4cz6l36p2n",
-        "mapped_location": "New York",
-        "precision_level": "address",
-        "location_text": "New York",
-        "confidence": 0.8,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -4232,6 +4082,208 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyv7jpb7mrrlblk4jpnjhbvc/app.bsky.feed.post/3mybdenq6uo2h",
+        "handle": "crossvol.bsky.social",
+        "text": "At Monday's New York close, options on the US listed Japan ETF, proxy for Japan's Nikkei, price a 1.52% day. 30 day IV at 24.1% sits 7.7 vol points over 20 day realized of 16.4%, so options price bigger moves than that window delivered.\n\n#volatility #derivatives #quant",
+        "created_at": "2026-10-20T00:01:31.000Z",
+        "source": "https://bsky.app/profile/crossvol.bsky.social/post/3mybdenq6uo2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3mybdfwez64v2",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-20T00:01:37.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3mybdfwez64v2",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6hz3mi5qlt3kwioydadw57lr/app.bsky.feed.post/3mybdg4hsbc23",
+        "handle": "ramblingfilm.bsky.social",
+        "text": "#NowWatching The Only Living Pickpocket in New York",
+        "created_at": "2026-10-20T00:02:20.320Z",
+        "source": "https://bsky.app/profile/ramblingfilm.bsky.social/post/3mybdg4hsbc23",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ls72dypg6ln4dwkrqojfkhzk/app.bsky.feed.post/3mybdldhqmc2y",
+        "handle": "lovethemetsbot.bsky.social",
+        "text": "@SNY_Mets tweeted\nWhat influence might Steve Cohen have in the Mets' pursuit of Tarik Skubal?\n\n@chelsea_janes discusses on Baseball Night in New York https://t.co/9eNL6xNpM6",
+        "created_at": "2026-10-20T00:05:15.152017+00:00",
+        "source": "https://bsky.app/profile/lovethemetsbot.bsky.social/post/3mybdldhqmc2y",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3mybdoypdty2t",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-20T00:07:17.835302Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3mybdoypdty2t",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Manhattan School of Music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3mybdoypdty2t",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ Sophie B. Hawkins: born Sophie Ballantine Hawkins on November 1, 1964, in New York City, emerged as a pioneering singer-songwriter and painter, blending emotive storytelling with genre-blending styles. After studying percussion at the Manhattan School of Music, she launched her career in 1992...",
+        "created_at": "2026-10-20T00:07:17.835302Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3mybdoypdty2t",
+        "mapped_location": "the Manhattan School of Music",
+        "precision_level": "address",
+        "location_text": "the Manhattan School of Music",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lzx3kwwp5et2qcmi2dnrrggj/app.bsky.feed.post/3mybdu22tb42w",
+        "handle": "clove823.bsky.social",
+        "text": "Today's weather.\n\nLocation: Tokyo\nweather: ☁️\ndescription: broken clouds\n\nLocation: New York\nweather: ☀️\ndescription: clear sky\n\nLocation: London\nweather: ☁️\ndescription: overcast clouds\n\nPosted this via OpenWeatherMap's WebAPI.",
+        "created_at": "2026-10-20T00:10:06.820Z",
+        "source": "https://bsky.app/profile/clove823.bsky.social/post/3mybdu22tb42w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3nysgyurk3lihminqor65t4o/app.bsky.feed.post/3mybdvq2jhk2g",
+        "handle": "michaelpacholek.bsky.social",
+        "text": "October 19, 1986, 40 years ago: Having lost Game 1 of the World Series to the Boston Red Sox, 1-0, the Mets lose Game 2, 9-3. Both games were played at Shea Stadium. The New York Daily News prints a classic headline, reflecting the Red Sox’ home in “Beantown.”",
+        "created_at": "2026-10-20T00:11:04.170Z",
+        "source": "https://bsky.app/profile/michaelpacholek.bsky.social/post/3mybdvq2jhk2g",
+        "mapped_location": "Shea Stadium",
+        "precision_level": "address",
+        "location_text": "Shea Stadium",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

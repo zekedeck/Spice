@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-20T00:36:00.514146Z",
-    "total_pins": 183
+    "generated_at": "2026-10-20T00:52:01.348545Z",
+    "total_pins": 189
   },
   "features": [
     {
@@ -4607,6 +4607,156 @@
         "precision_level": "address",
         "location_text": "New York City",
         "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ccfh4uoxqro6jd3t3tzdrync/app.bsky.feed.post/3mybfdpokrk2f",
+        "handle": "ryanhassett.bsky.social",
+        "text": "One reason it feels like there are a lot of police in New York is because, for the US, there are.\n\nNew York State has the second highest proportion of state and local law enforcement per capita, with about 50% more than the the United States as a whole.\nbjs.ojp.gov/document/csl...",
+        "created_at": "2026-10-20T00:36:47.281Z",
+        "source": "https://bsky.app/profile/ryanhassett.bsky.social/post/3mybfdpokrk2f",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mybfmse4fs62",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown D, N trains are running with delays while we address a switch problem near DeKalb Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-20T00:41:49.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mybfmse4fs62",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mybfphgbks2z",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Wednesday at The Crown:\n\nWatersports by Domina Margaux (📲 IG: @belongtomargaux) — a workshop on all types of showers, with an emphasis on golden showers.\n\n🗓️ Wednesday, 10/21\n🕰️ 8:30 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: goldenshowers.eventbrite.com",
+        "created_at": "2026-10-20T00:43:21.276Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mybfphgbks2z",
+        "mapped_location": "The Crown, Bushwick",
+        "precision_level": "address",
+        "location_text": "The Crown, Bushwick",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3mybfz2qjni2v",
+        "handle": "porcellato.bsky.social",
+        "text": "Applying to High School in New York City Is a Soul-Destroying Nightmare https://ift.tt/K9o4bU6",
+        "created_at": "2026-10-20T00:48:43+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3mybfz2qjni2v",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvwisthr27g3lje3ggc4mmhk/app.bsky.feed.post/3mybfzdwnxk2z",
+        "handle": "elizabeth11432.bsky.social",
+        "text": "The Unrelenting Nightmare of Applying to High School in New York City. #bluecrew #newyorkcity www.nytimes.com/2026/10/19/o...",
+        "created_at": "2026-10-20T00:48:53.165Z",
+        "source": "https://bsky.app/profile/elizabeth11432.bsky.social/post/3mybfzdwnxk2z",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kb3hzw3g5abobjm6ulbwjduc/app.bsky.feed.post/3mybg4242c223",
+        "handle": "bambooshooti.bsky.social",
+        "text": "After cementing her legacy on that 21,079-foot peak, Peck retired from world-class glaciated mountaineering. She published her first major book, followed by multiple analytical textbooks on travel and economic policy. She marched in New York suffrage parades, using her fame to draw crowds. /8",
+        "created_at": "2026-10-20T00:50:06.423Z",
+        "source": "https://bsky.app/profile/bambooshooti.bsky.social/post/3mybg4242c223",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

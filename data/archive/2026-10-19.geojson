@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-20T00:20:01.481533Z",
-    "total_pins": 151
+    "generated_at": "2026-10-20T00:36:00.527372Z",
+    "total_pins": 158
   },
   "features": [
     {
@@ -3800,6 +3800,181 @@
         "text": "Ooh, there's that projection again.  Elon takes 38 Billion in government subsidies and kickbacks, compared to Mamdani living on his salary and improving the lives of every person living in New York City.  Who's the taker here?",
         "created_at": "2026-10-20T00:19:01.932Z",
         "source": "https://bsky.app/profile/drkyre.bsky.social/post/3mybedxoizs2c",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:giyodtvxtitp5h7obqvil76j/app.bsky.feed.post/3mybei4q65k2w",
+        "handle": "melancholytheclown.bsky.social",
+        "text": "The finest man alive just liked me on this app and I almost forgot that I don't fuck straight men but he's in NEW YORK 😭\n\nGirl, I just might 😭",
+        "created_at": "2026-10-20T00:21:21.445Z",
+        "source": "https://bsky.app/profile/melancholytheclown.bsky.social/post/3mybei4q65k2w",
+        "mapped_location": "NEW YORK",
+        "precision_level": "address",
+        "location_text": "NEW YORK",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mybej5lp6v2h",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "The debate heats up as school board members grapple with critical resolutions on nonpartisan elections and the future of universal prekindergarten in New York. \n\nLearn more here!\n\n#NY #NewYorkSchoolBoards #CitizenPortal #CivicEngagement #LegislativeReform #EducationPolicy",
+        "created_at": "2026-10-20T00:21:55.708Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mybej5lp6v2h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ddtqq5jvlc42x54vk2nn76z/app.bsky.feed.post/3mybeklqmdx2q",
+        "handle": "whizzenlisten.bsky.social",
+        "text": "🎙️ The National: an American alternative rock band formed in Brooklyn, New York, in 1999 and originating from Cincinnati, Ohio, United States, evolved from their lo-fi garage band roots to become pioneers of atmospheric, lyric-driven rock. Their debut album *The National* (2001) on Brassland Reco...",
+        "created_at": "2026-10-20T00:22:41.831688Z",
+        "source": "https://bsky.app/profile/whizzenlisten.bsky.social/post/3mybeklqmdx2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zqk3p4rmcbtere5c5cqebcg4/app.bsky.feed.post/3mybers3bn22k",
+        "handle": "nydeliveryguy.bsky.social",
+        "text": "Hey, if you ever in New York City, I’m a photographer here and I’d love to photograph you. shoot me a DM and I can send you some samples of my work.",
+        "created_at": "2026-10-20T00:26:45.818Z",
+        "source": "https://bsky.app/profile/nydeliveryguy.bsky.social/post/3mybers3bn22k",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3mybevkamfx2k",
+        "handle": "qncnews.bsky.social",
+        "text": "Cam Skattebo Accepts Punishment After Zero Touch Game in Giants Loss to Saints\n\nNew York Giants running back Cam Skattebo accepted his fate after one of the quietest games of his young NFL career on Sunday at MetLife Stadium. Skattebo played just six offensive snaps and finished with zero touches…",
+        "created_at": "2026-10-20T00:28:51Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3mybevkamfx2k",
+        "mapped_location": "MetLife Stadium",
+        "precision_level": "address",
+        "location_text": "MetLife Stadium",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cqyj344xqevxmziubtrn5oou/app.bsky.feed.post/3mybeztpabk2h",
+        "handle": "maybeitskeith.bsky.social",
+        "text": "Went to the Microsoft store in Times Square and my 12 y/o set the best time of the day on their Forza 6 simulator with a '22 Acura NSX",
+        "created_at": "2026-10-20T00:31:15.954Z",
+        "source": "https://bsky.app/profile/maybeitskeith.bsky.social/post/3mybeztpabk2h",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:alvj6rdoafmvccnovk5lczyn/app.bsky.feed.post/3mybf5m6dkk2n",
+        "handle": "nycitymouse.bsky.social",
+        "text": "We've got a barn owl family nesting on the Upper West Side in New York City.",
+        "created_at": "2026-10-20T00:33:22.282Z",
+        "source": "https://bsky.app/profile/nycitymouse.bsky.social/post/3mybf5m6dkk2n",
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",

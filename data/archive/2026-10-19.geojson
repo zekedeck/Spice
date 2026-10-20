@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-20T01:07:59.238611Z",
-    "total_pins": 175
+    "generated_at": "2026-10-20T01:23:49.332133Z",
+    "total_pins": 183
   },
   "features": [
     {
@@ -4402,6 +4402,206 @@
         "text": "We are an international club.\n\nWe are a cosmopolitan club.\n\nAnd we are proud to play in New York City.\n\n🦁💚🇲🇽",
         "created_at": "2026-10-20T01:07:18.627Z",
         "source": "https://bsky.app/profile/nyintfc.bsky.social/post/3mybh2c6wj22u",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vpprttxmscewx5hjjjun4wqs/app.bsky.feed.post/3mybhcsy2k225",
+        "handle": "cullensart.bsky.social",
+        "text": "Watching my partner play Control 2: Mold in New York",
+        "created_at": "2026-10-20T01:12:04.671Z",
+        "source": "https://bsky.app/profile/cullensart.bsky.social/post/3mybhcsy2k225",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:74qgwhxco3qrckzrh6rplozq/app.bsky.feed.post/3mybhcvf3f22q",
+        "handle": "psinei.bsky.social",
+        "text": "[Psi’s Unhelpful Movie Reviews]\n\nThe Only Living Pickpocket in New York\n\nSo…you’re going to give me a bevy of actors I love, in a gorgeously-shot area (with one literally parallel from earlier memories of mine), with a precise runtime with all the verve and build of a 70’s thriller in modern day?!",
+        "created_at": "2026-10-20T01:12:07.193Z",
+        "source": "https://bsky.app/profile/psinei.bsky.social/post/3mybhcvf3f22q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndl7zzzfmj7pnvilg3y7wspf/app.bsky.feed.post/3mybhdax7qi2y",
+        "handle": "fnyt.bsky.social",
+        "text": "Opinion | Applying to High School in New York City Is a Soul-Destroying Nightmare (Gift Article)\nf the nyt",
+        "created_at": "2026-10-20T01:12:19.284Z",
+        "source": "https://bsky.app/profile/fnyt.bsky.social/post/3mybhdax7qi2y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zjn4y7jbl4jcm4ulnpwnyqo3/app.bsky.feed.post/3mybhm3ile22h",
+        "handle": "paroxiteen.bsky.social",
+        "text": "When he finally keels over there will be celebrations the likes of which we’ve never seen. It’ll be like that Times Square scene at the end of WWII.",
+        "created_at": "2026-10-20T01:17:15.593Z",
+        "source": "https://bsky.app/profile/paroxiteen.bsky.social/post/3mybhm3ile22h",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5vckishucusranmz5wpyra6q/app.bsky.feed.post/3mybho4rf5k2l",
+        "handle": "blue2play.bsky.social",
+        "text": "Jared Kushner's company once owned the property at 666 Fith Avenue, in NYC. Pretty biblically decisive as to which side that family represents.",
+        "created_at": "2026-10-20T01:18:24.039Z",
+        "source": "https://bsky.app/profile/blue2play.bsky.social/post/3mybho4rf5k2l",
+        "mapped_location": "666 Fith Avenue",
+        "precision_level": "address",
+        "location_text": "666 Fith Avenue",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uvossjidkoqjaf2mrwo76nyw/app.bsky.feed.post/3mybhpevntc2l",
+        "handle": "larryferlazzo.bsky.social",
+        "text": "The Unrelenting Nightmare of Applying to High School in New York City  www.nytimes.com/2026/10/19/o...",
+        "created_at": "2026-10-20T01:19:06.119Z",
+        "source": "https://bsky.app/profile/larryferlazzo.bsky.social/post/3mybhpevntc2l",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3mybhrc4azb2y",
+        "handle": "laviezine.bsky.social",
+        "text": "Dishoom Is Opening in NYC in March 2027\n\nhttps://www.laviezine.com/1666374/dishoom-is-opening-in-nyc-in-march-2027/\n\nLondon restaurants are in love with New York City: Just this month, butter chef Thomas Straker opened his namesake restaurant in Soho; earlier this year, Punjabi-leaning and …",
+        "created_at": "2026-10-20T01:20:07+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3mybhrc4azb2y",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rdbcvqy3jaup7i6kcu3433ev/app.bsky.feed.post/3mybhraveik2v",
+        "handle": "threetwoeephus.bsky.social",
+        "text": "But tonight? ToNIGHT, however??? Tonight I am in a hotel, because my company is doing a newsletter summit in New York City. I'm watching the same commericals as you tonight. \n\nCan't wait to see this unholy Biberty abomination you've all been talking about.",
+        "created_at": "2026-10-20T01:20:09.027Z",
+        "source": "https://bsky.app/profile/threetwoeephus.bsky.social/post/3mybhraveik2v",
         "mapped_location": "New York City",
         "precision_level": "address",
         "location_text": "New York City",

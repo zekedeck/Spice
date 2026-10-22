@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T16:41:06.174736Z",
-    "total_pins": 84
+    "generated_at": "2026-10-22T16:59:12.507318Z",
+    "total_pins": 85
   },
   "features": [
     {
@@ -2109,6 +2109,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008,
+          40.719
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyangposwu24ochdbnssohx3/app.bsky.feed.post/3myi4xoz3hs2y",
+        "handle": "photokenarts.bsky.social",
+        "text": "Daily Random #896\nPrince Street Station at Broadway\nSoHo/Manhattan NYC 2012\n#pinhole #photography #blackandwhitephotography\n\nPhoto essays & slideshows\nphotokenarts.substack.com",
+        "created_at": "2026-10-22T16:55:32.152Z",
+        "source": "https://bsky.app/profile/photokenarts.bsky.social/post/3myi4xoz3hs2y",
+        "mapped_location": "#896\nPrince Street Station",
+        "precision_level": "address",
+        "location_text": "#896\nPrince Street Station",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

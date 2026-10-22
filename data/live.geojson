@@ -1,10 +1,35 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:32:51.519363Z",
-    "total_pins": 47
+    "generated_at": "2026-10-22T14:41:28.667053Z",
+    "total_pins": 51
   },
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2pcjoeylzg3uqk4aricwh5jo/app.bsky.feed.post/5gmmlzfo77flk",
+        "handle": "nytimes-news.bsky.social",
+        "text": "He Couldn’t Say No to a Job in New York. Which Home Did the Family Choose?",
+        "created_at": "2026-10-22T11:38:12-03:00",
+        "source": "https://bsky.app/profile/nytimes-news.bsky.social/post/5gmmlzfo77flk",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -1182,6 +1207,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpaus374xipigufn5vcvrljs/app.bsky.feed.post/3myhv37fouk27",
+        "handle": "adorabirb.bsky.social",
+        "text": "Times Square do be where the chaos happens.",
+        "created_at": "2026-10-22T14:34:20.082Z",
+        "source": "https://bsky.app/profile/adorabirb.bsky.social/post/3myhv37fouk27",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cmblhorgqgtmfpzczfisptpi/app.bsky.feed.post/3myhv3dpjys2k",
+        "handle": "ancalagontheblack.bsky.social",
+        "text": "That collective toll, if you will, exceeds by 75 percent the $58 million they’ve paid in New York congestion charges (including surcharges on cab rides) since congestion pricing commenced in early 2025",
+        "created_at": "2026-10-22T14:34:24.599Z",
+        "source": "https://bsky.app/profile/ancalagontheblack.bsky.social/post/3myhv3dpjys2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myhvenply72n",
+        "handle": "porcellato.bsky.social",
+        "text": "Embark on the trick-or-treat trail at Queens Botanical Garden https://ift.tt/kbzR5HB",
+        "created_at": "2026-10-22T14:39:36+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myhvenply72n",
+        "mapped_location": "Queens Botanical Garden",
+        "precision_level": "address",
+        "location_text": "Queens Botanical Garden",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

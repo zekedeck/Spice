@@ -448,6 +448,117 @@
     return { pins: pins, stateMentions: stateMentions };
   }
 
+  // ---------------------------------------------------------------------
+  // Same-coordinate stack splitting.
+  //
+  // Multiple posts routinely resolve to the exact same coordinate (shared
+  // address, generic landmark point, etc.) -- handlePinClick/
+  // openLocationPicker already handle that case by querying every feature
+  // under the clicked pixel and offering a picker list, so no post is ever
+  // silently hidden. But visually, a stack of 2 or 18 posts still renders
+  // as a single dot, which flattens real signal: several independent posts
+  // corroborating the same event at the same spot look identical to one
+  // lone mention.
+  //
+  // Splitting it visually is only warranted when the stack is actually
+  // reporting DIFFERENT things, i.e. 2+ distinct matchCategory values
+  // (classifyCategory()'s "protest"/"crime"/"police"/"" -- "no category"
+  // counts as one of the distinct values same as any other). A stack that's
+  // entirely one category stays exactly as it renders today: one dot, full
+  // list still reachable via the click picker.
+  //
+  // When a coordinate's stack DOES mix categories, each category gets its
+  // own small offset point (not each individual post) -- so e.g. 3 "protest"
+  // + 2 "crime" posts at one spot become two dots, one per category, each
+  // still stacked internally and still resolved via the picker if that
+  // category's subgroup has more than one member. This keeps
+  // handlePinClick's queryRenderedFeatures-at-the-click-pixel dedup logic
+  // correct unchanged: a same-category subgroup stays at one exact point
+  // (picker still needed), a now-separated category pin is its own point
+  // (no picker needed once it's down to one post there).
+  //
+  // Operates on whatever feature array is about to become the "pins"
+  // source's GeoJSON (see applyFilters()) -- it does NOT mutate the
+  // underlying objects in allFeatures, so re-filtering always starts from
+  // the true, un-offset coordinates rather than compounding drift.
+  // ---------------------------------------------------------------------
+
+  var STACK_OFFSET_CATEGORY_ORDER = ["protest", "crime", "police", ""];
+  var STACK_OFFSET_METERS = 50; // target minimum distance between adjacent offset points
+
+  // Small-distance equirectangular approximation -- plenty accurate at the
+  // tens-of-meters scale these offsets operate at.
+  function metersToLngLatDelta(lat, bearingRad, meters) {
+    var dLat = (meters * Math.cos(bearingRad)) / 111320;
+    var dLng = (meters * Math.sin(bearingRad)) / (111320 * Math.cos((lat * Math.PI) / 180));
+    return [dLng, dLat];
+  }
+
+  function withStackOffsets(features) {
+    var groups = {};
+    var groupOrder = [];
+    for (var i = 0; i < features.length; i++) {
+      var coords = features[i].geometry.coordinates;
+      var key = coords[0] + "," + coords[1];
+      if (!groups[key]) {
+        groups[key] = [];
+        groupOrder.push(key);
+      }
+      groups[key].push(features[i]);
+    }
+
+    var output = [];
+    for (var g = 0; g < groupOrder.length; g++) {
+      var members = groups[groupOrder[g]];
+
+      var byCategory = {};
+      var categoriesPresent = [];
+      for (var j = 0; j < members.length; j++) {
+        var cat = (members[j].properties && members[j].properties.matchCategory) || "";
+        if (!byCategory[cat]) {
+          byCategory[cat] = [];
+          categoriesPresent.push(cat);
+        }
+        byCategory[cat].push(members[j]);
+      }
+
+      if (categoriesPresent.length <= 1) {
+        // Entirely one category (or entirely uncategorized) -- leave
+        // untouched, stays a single visual dot.
+        for (var k = 0; k < members.length; k++) output.push(members[k]);
+        continue;
+      }
+
+      // 2+ distinct categories at this coordinate: give each category its
+      // own offset point on a small circle. Fixed ordering keeps the
+      // arrangement deterministic regardless of array/object-key order.
+      var orderedCats = STACK_OFFSET_CATEGORY_ORDER.filter(function (c) {
+        return categoriesPresent.indexOf(c) !== -1;
+      });
+      var n = orderedCats.length;
+      var baseCoords = members[0].geometry.coordinates;
+      var radius = STACK_OFFSET_METERS / (2 * Math.sin(Math.PI / n));
+
+      for (var c = 0; c < n; c++) {
+        var bearing = (2 * Math.PI * c) / n;
+        var delta = metersToLngLatDelta(baseCoords[1], bearing, radius);
+        var catMembers = byCategory[orderedCats[c]];
+        for (var m = 0; m < catMembers.length; m++) {
+          var original = catMembers[m];
+          output.push({
+            type: "Feature",
+            properties: original.properties,
+            geometry: {
+              type: "Point",
+              coordinates: [baseCoords[0] + delta[0], baseCoords[1] + delta[1]]
+            }
+          });
+        }
+      }
+    }
+    return output;
+  }
+
   function currentAst() {
     var raw = searchInput.value.trim();
     if (!raw) return null;
@@ -498,7 +609,7 @@
     clearSelection();
     var source = map.getSource("pins");
     if (source) {
-      source.setData({ type: "FeatureCollection", features: filteredPins });
+      source.setData({ type: "FeatureCollection", features: withStackOffsets(filteredPins) });
     }
     renderStateMentions(filteredStateMentions);
     setStatus(filteredPins.length + " pin" + (filteredPins.length === 1 ? "" : "s") + " shown");

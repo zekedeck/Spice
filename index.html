@@ -25,8 +25,25 @@
   </form>
 
   <details class="lookback" id="lookback-details" name="topbar-panel">
-    <summary>Lookback <span id="lookback-summary-text">Live (last 48h)</span></summary>
+    <summary>Lookback <span id="lookback-summary-text">Live (last 24h)</span></summary>
     <div class="lookback-panel">
+      <fieldset class="live-window-fieldset" id="live-window-fieldset">
+        <legend>Live window</legend>
+        <div class="lookback-row">
+          <label for="live-window-slider">Showing last <strong id="live-window-value">24h</strong></label>
+          <input
+            type="range"
+            id="live-window-slider"
+            name="live-window-slider"
+            min="1"
+            max="24"
+            step="1"
+            value="24"
+          />
+        </div>
+        <p class="lookback-hint">Narrows the live view client-side, up to the 24h cap. Doesn't apply once a date range below is applied.</p>
+      </fieldset>
+
       <fieldset>
         <legend>Date range (Eastern Time)</legend>
 

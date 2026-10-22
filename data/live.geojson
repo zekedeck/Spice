@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:49:27.368064Z",
-    "total_pins": 61
+    "generated_at": "2026-10-22T15:05:58.230261Z",
+    "total_pins": 68
   },
   "features": [
     {
@@ -1532,6 +1532,181 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ituyfq7lklxce2do3trp7owl/app.bsky.feed.post/3myhvxcrjx22e",
+        "handle": "langurlover.bsky.social",
+        "text": "1903: Curly Howard [Jerome Lester Horwitz], American vaudevillian actor and comedian (The Three Stooges), born in Brooklyn New York (d. 1952)",
+        "created_at": "2026-10-22T14:50:03.141Z",
+        "source": "https://bsky.app/profile/langurlover.bsky.social/post/3myhvxcrjx22e",
+        "mapped_location": "Brooklyn New York",
+        "precision_level": "address",
+        "location_text": "Brooklyn New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882,
+          40.864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v2i25uvial3o2j33yozcv6ot/app.bsky.feed.post/3myhvxssf3c24",
+        "handle": "tiffanyleigh.northsky.social",
+        "text": "We're neighbors! I'm as far north NYC as you can get (Bx near Van Cortlandt Park and just south of Yonkers)",
+        "created_at": "2026-10-22T14:50:19.946Z",
+        "source": "https://bsky.app/profile/tiffanyleigh.northsky.social/post/3myhvxssf3c24",
+        "mapped_location": "Van Cortlandt Park",
+        "precision_level": "address",
+        "location_text": "Van Cortlandt Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myhwbbz3gb2f",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:55:37.800Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myhwbbz3gb2f",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5iff6hthjnlc3eh5oizvnn4/app.bsky.feed.post/3myhwbeorlx24",
+        "handle": "leftwingbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:55:40.607Z",
+        "source": "https://bsky.app/profile/leftwingbriefly.bsky.social/post/3myhwbeorlx24",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3myhwd475kc2f",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:56:38.680Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3myhwd475kc2f",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myhwj4wq2s27",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Associate, Process Optimization at Oscar Health\n📍 New York, New York, United States\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-22T15:00:00.957Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myhwj4wq2s27",
+        "mapped_location": "New York, New York, United States",
+        "precision_level": "address",
+        "location_text": "New York, New York, United States",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.745
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kfranbmsguiecpf4tybxhar5/app.bsky.feed.post/3myhwl4pwyc2o",
+        "handle": "bruesselbach.com",
+        "text": "Sketches from Queens Drink & Draw at LIC-A Factory Art Space on Tuesday with model Gio as a wizard\nNext one Nov 17th!",
+        "created_at": "2026-10-22T15:01:07.668Z",
+        "source": "https://bsky.app/profile/bruesselbach.com/post/3myhwl4pwyc2o",
+        "mapped_location": "LIC-A Factory Art Space",
+        "precision_level": "address",
+        "location_text": "LIC-A Factory Art Space",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

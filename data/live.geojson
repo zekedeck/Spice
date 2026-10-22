@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T17:22:46.360405Z",
-    "total_pins": 89
+    "generated_at": "2026-10-22T17:59:40.706735Z",
+    "total_pins": 94
   },
   "features": [
     {
@@ -2229,6 +2229,134 @@
         "mapped_location": "The Golden Unicorn",
         "precision_level": "address",
         "location_text": "The Golden Unicorn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.596
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
+        "handle": "danieltrubman.bsky.social",
+        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
+        "created_at": "2026-10-22T17:53:01.680Z",
+        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
+        "mapped_location": "Marine Park, Brooklyn",
+        "precision_level": "address",
+        "location_text": "Marine Park, Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Long Island, Marine Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.753,
+          40.737
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
+        "handle": "danieltrubman.bsky.social",
+        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
+        "created_at": "2026-10-22T17:53:01.680Z",
+        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
+        "mapped_location": "Long Island Motor Parkway, Queens, Queens County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Long Island",
+        "confidence": 0.445,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": true,
+        "specificity_score": 0.3,
+        "other_locations": "Marine Park, Brooklyn, Marine Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.596
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
+        "handle": "danieltrubman.bsky.social",
+        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
+        "created_at": "2026-10-22T17:53:01.680Z",
+        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
+        "mapped_location": "Marine Park",
+        "precision_level": "address",
+        "location_text": "Marine Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Marine Park, Brooklyn, Long Island"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5t7gno3xiuxjdkmj2iiwg2m/app.bsky.feed.post/3myiadh4ujc2k",
+        "handle": "hectorarbuckle.bsky.social",
+        "text": "newyorkyimby.com/2026/10/560-...\n\nIncredible that a 27-story building pencils out in Astoria even with 25% of its units being income-restricted to 60% AMI.",
+        "created_at": "2026-10-22T17:55:47.776Z",
+        "source": "https://bsky.app/profile/hectorarbuckle.bsky.social/post/3myiadh4ujc2k",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:36rhtsvuwsyyvhg2zaffbhwl/app.bsky.feed.post/3myiaehumtk2m",
+        "handle": "dizzyreader95.bsky.social",
+        "text": "Chuck posted on 16 October 2024 that he’d just done a Burbank event with CJ Leede and was now heading to New York for Comic Con, which ran 17 to 20 October. On 18 October 2024, Daniel posted a photo with CJ from the Stonewall Inn, a short subway ride from the convention. #DizzyInterjections  😂",
+        "created_at": "2026-10-22T17:56:22.108Z",
+        "source": "https://bsky.app/profile/dizzyreader95.bsky.social/post/3myiaehumtk2m",
+        "mapped_location": "the Stonewall Inn",
+        "precision_level": "address",
+        "location_text": "the Stonewall Inn",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

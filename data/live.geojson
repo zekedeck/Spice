@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T17:59:40.706735Z",
-    "total_pins": 94
+    "generated_at": "2026-10-22T18:18:08.604106Z",
+    "total_pins": 96
   },
   "features": [
     {
@@ -2357,6 +2357,56 @@
         "mapped_location": "the Stonewall Inn",
         "precision_level": "address",
         "location_text": "the Stonewall Inn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5gy3v7opwo3bfoa7dojkfhvp/app.bsky.feed.post/3myibbjemhc2h",
+        "handle": "helenkennedy.com",
+        "text": "Naturally, Trump opposes banning carriage horses in Central Park. Naturally. But it's kinda weird that he posted twice about it in one minute.",
+        "created_at": "2026-10-22T18:12:36.754Z",
+        "source": "https://bsky.app/profile/helenkennedy.com/post/3myibbjemhc2h",
+        "mapped_location": "Central Park",
+        "precision_level": "address",
+        "location_text": "Central Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dgpi4iy4acfydneg3zma5up3/app.bsky.feed.post/3myibgtv6p62k",
+        "handle": "productionlist.bsky.social",
+        "text": "New York Theatre Workshop stages Blood Be Sweet, a poetic ritual drama directed by Obie winner Awoye Timpo, running March–June 2027 in NYC's East Village.",
+        "created_at": "2026-10-22T18:15:35.522Z",
+        "source": "https://bsky.app/profile/productionlist.bsky.social/post/3myibgtv6p62k",
+        "mapped_location": "NYC's East Village",
+        "precision_level": "address",
+        "location_text": "NYC's East Village",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

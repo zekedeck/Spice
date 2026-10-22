@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:00:44.925341Z",
-    "total_pins": 19
+    "generated_at": "2026-10-22T14:16:57.854866Z",
+    "total_pins": 37
   },
   "features": [
     {
@@ -480,6 +480,458 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yrogfnhbtkr7shg72gfnlszz/app.bsky.feed.post/3myhta4rx4r2t",
+        "handle": "vera.org",
+        "text": "What does it take to build safer communities?\n\nVera and John Jay College are bringing together leaders and advocates from across the country for #AllInForSafety, a national summit on the future of public safety.\n\nRegister to join us in New York City on 11/17: https://verajohnjay.regfox.com/all-in",
+        "created_at": "2026-10-22T14:01:16.789558135Z",
+        "source": "https://bsky.app/profile/vera.org/post/3myhta4rx4r2t",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5gy3v7opwo3bfoa7dojkfhvp/app.bsky.feed.post/3myhthrdeqk2r",
+        "handle": "helenkennedy.com",
+        "text": "One of the little perks of being a reporter in New York City is getting to interview people who interest you. I got to talk to Walter Lord in his apartment just before he died. He had a fish tank with a little Titanic at the bottom of it!",
+        "created_at": "2026-10-22T14:05:34.051Z",
+        "source": "https://bsky.app/profile/helenkennedy.com/post/3myhthrdeqk2r",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr46zb3vfvjzjhmjb43zlqwx/app.bsky.feed.post/3myhtlap7cf25",
+        "handle": "tattoosreddit.bsky.social",
+        "text": "Peachy snail by me (Mike Boyd) at Good Luck NYC in New York",
+        "created_at": "2026-10-22T14:07:01.902Z",
+        "source": "https://bsky.app/profile/tattoosreddit.bsky.social/post/3myhtlap7cf25",
+        "mapped_location": "Good Luck NYC",
+        "precision_level": "address",
+        "location_text": "Good Luck NYC",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr46zb3vfvjzjhmjb43zlqwx/app.bsky.feed.post/3myhtlap7cf25",
+        "handle": "tattoosreddit.bsky.social",
+        "text": "Peachy snail by me (Mike Boyd) at Good Luck NYC in New York",
+        "created_at": "2026-10-22T14:07:01.902Z",
+        "source": "https://bsky.app/profile/tattoosreddit.bsky.social/post/3myhtlap7cf25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Good Luck NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dawci6skpmelnlja3lygz3p7/app.bsky.feed.post/3myhtm6ilsk2e",
+        "handle": "statnews.com",
+        "text": "Just one week after being granted the authority to kick providers off of federal health care programs, U.S. health officials are using it on adult day care centers in New York City they say are committing fraud. https://www.statnews.com/2026/10/21/cms-medicaid-fraud-nyc-adult-daycare-operators/",
+        "created_at": "2026-10-22T14:08:02.056805222Z",
+        "source": "https://bsky.app/profile/statnews.com/post/3myhtm6ilsk2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a2bbf6sagz67e4uneanokc5z/app.bsky.feed.post/3myhtrlqrlk2p",
+        "handle": "solomonchertok.bsky.social",
+        "text": "I’m looking forward to seeing “The Only Living Pickpocket in New York.”\n\nHere is when me and Dave DeCicco dressed as Trevor met Giancarlo Esposito at a convention, a few years ago.",
+        "created_at": "2026-10-22T14:11:03.734Z",
+        "source": "https://bsky.app/profile/solomonchertok.bsky.social/post/3myhtrlqrlk2p",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:om3z5v4xl6tvwvumqbncfv6k/app.bsky.feed.post/3myhtsk77a22t",
+        "handle": "timdonnelly.com",
+        "text": "Hundreds of people have been lining up for @mayor.nyc.gov's new jobs center in lower Manhattan since it opened two weeks ago. I talked to a bunch of them about their desperation, and hope, of getting a city job nygroove.nyc/jobs-nyc-mam...",
+        "created_at": "2026-10-22T14:11:35.673Z",
+        "source": "https://bsky.app/profile/timdonnelly.com/post/3myhtsk77a22t",
+        "mapped_location": "lower Manhattan",
+        "precision_level": "address",
+        "location_text": "lower Manhattan",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3myhtxixjno2c",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "Multiple LGBTQ+ themed events in New York City offer cabaret, kink, fantasy nights, tango lessons, storytelling, drag, and weekly dance parties across Oct 23–24.\n",
+        "created_at": "2026-10-22T14:14:22.069Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3myhtxixjno2c",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4m2hvjzvxvjqitpyrfv567h4/app.bsky.feed.post/3myhtxyxq6224",
+        "handle": "bigtimeyyc.bsky.social",
+        "text": "Correct, none in the East Village area at all. Just the one heading westbound before the Peace bridge.",
+        "created_at": "2026-10-22T14:14:38.928Z",
+        "source": "https://bsky.app/profile/bigtimeyyc.bsky.social/post/3myhtxyxq6224",
+        "mapped_location": "East Village",
+        "precision_level": "address",
+        "location_text": "East Village",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fwnjwpdilci5qqhwpm3wg3t6/app.bsky.feed.post/3myhty2uikq2o",
+        "handle": "diningbriefly.bsky.social",
+        "text": "Time Out Market Union Square at Zero Irving offers self-service communal dining, bar access, and an outdoor terrace for flexible, low-pressure Manhattan meals.\n",
+        "created_at": "2026-10-22T14:14:40.841Z",
+        "source": "https://bsky.app/profile/diningbriefly.bsky.social/post/3myhty2uikq2o",
+        "mapped_location": "Zero Irving",
+        "precision_level": "address",
+        "location_text": "Zero Irving",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kw6nwhkguyj2lxczj7wimlnu/app.bsky.feed.post/3myhty5hjqe2a",
+        "handle": "londonfoodbriefly.bsky.social",
+        "text": "Time Out Market Union Square at Zero Irving offers self-service communal dining, bar access, and an outdoor terrace for flexible, low-pressure Manhattan meals.\n",
+        "created_at": "2026-10-22T14:14:43.561Z",
+        "source": "https://bsky.app/profile/londonfoodbriefly.bsky.social/post/3myhty5hjqe2a",
+        "mapped_location": "Zero Irving",
+        "precision_level": "address",
+        "location_text": "Zero Irving",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euvgxz6c5qkgt3rp4w2dmudf/app.bsky.feed.post/3myhtyeryns23",
+        "handle": "stacyhorn.bsky.social",
+        "text": "My favorite free NYC thing to do: Bach@1 at Trinity Church.  The Trinity choir and orchestra are world class. This picture was taken after the concert, because trust me, there isn’t an available seat once the music begins.  This is free!  Blows my mind every time.",
+        "created_at": "2026-10-22T14:14:51.321Z",
+        "source": "https://bsky.app/profile/stacyhorn.bsky.social/post/3myhtyeryns23",
+        "mapped_location": "Trinity Church",
+        "precision_level": "address",
+        "location_text": "Trinity Church",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.596
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2eona5g37yso6t5c5hotjl25/app.bsky.feed.post/3myhtyo5ozs2i",
+        "handle": "opencongressnyc.bsky.social",
+        "text": "🗳️ The City Council passed LU 0142-2026 — Zoning, 1455 Coney Island Avenue Rezoning, Brooklyn (C 220449 ZMK) (11–0).\nhttps://nyc.opencongress.app/votes/443622",
+        "created_at": "2026-10-22T14:15:00Z",
+        "source": "https://bsky.app/profile/opencongressnyc.bsky.social/post/3myhtyo5ozs2i",
+        "mapped_location": "1455 Coney Island Avenue Rezoning,",
+        "precision_level": "address",
+        "location_text": "1455 Coney Island Avenue Rezoning,",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2eona5g37yso6t5c5hotjl25/app.bsky.feed.post/3myhtyqnrep23",
+        "handle": "opencongressnyc.bsky.social",
+        "text": "🗳️ The City Council passed LU 0144-2026 — Zoning, 135-27 Sapphire Street Rezoning, Queens (C 250329 ZMQ) (11–0).\nhttps://nyc.opencongress.app/votes/443624",
+        "created_at": "2026-10-22T14:15:03Z",
+        "source": "https://bsky.app/profile/opencongressnyc.bsky.social/post/3myhtyqnrep23",
+        "mapped_location": "135-27 Sapphire Street Rezoning, Queens (C 250329 ZMQ",
+        "precision_level": "address",
+        "location_text": "135-27 Sapphire Street Rezoning, Queens (C 250329 ZMQ",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.767
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2eona5g37yso6t5c5hotjl25/app.bsky.feed.post/3myhtyr4cjy27",
+        "handle": "opencongressnyc.bsky.social",
+        "text": "🗳️ The City Council passed LU 0145-2026 — Zoning, 135-27 Sapphire Street Rezoning, Queens (N 250330 ZRQ) (11–0).\nhttps://nyc.opencongress.app/votes/443625",
+        "created_at": "2026-10-22T14:15:04Z",
+        "source": "https://bsky.app/profile/opencongressnyc.bsky.social/post/3myhtyr4cjy27",
+        "mapped_location": "135-27 Sapphire Street Rezoning, Queens",
+        "precision_level": "address",
+        "location_text": "135-27 Sapphire Street Rezoning, Queens",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.596
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2eona5g37yso6t5c5hotjl25/app.bsky.feed.post/3myhtyrldrh22",
+        "handle": "opencongressnyc.bsky.social",
+        "text": "🗳️ The City Council passed LU 0143-2026 — Zoning, 1455 Coney Island Avenue Rezoning, Brooklyn (N 220450 ZRK) (11–0).\nhttps://nyc.opencongress.app/votes/443623",
+        "created_at": "2026-10-22T14:15:04Z",
+        "source": "https://bsky.app/profile/opencongressnyc.bsky.social/post/3myhtyrldrh22",
+        "mapped_location": "1455 Coney Island Avenue Rezoning,",
+        "precision_level": "address",
+        "location_text": "1455 Coney Island Avenue Rezoning,",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s46ljretv3jpnjmgnp2chwh6/app.bsky.feed.post/3myhtz6sjbs2j",
+        "handle": "mercurie80.bsky.social",
+        "text": "Today in 1947 Forever Amber, based on the novel by Kathleen Winsor and starring Linda Darnell and Cornel Wilde, premiered in New York City.",
+        "created_at": "2026-10-22T14:15:18.604Z",
+        "source": "https://bsky.app/profile/mercurie80.bsky.social/post/3myhtz6sjbs2j",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ta7csnm2rodgz5q4wba4ovvn/app.bsky.feed.post/3myhtzh26uc2d",
+        "handle": "nyamnews.bsky.social",
+        "text": "Farragut Houses residents testified at Borough Hall about towers planned across the street: new school, new apartments, and fear of displacement. #Brooklyn #Housing",
+        "created_at": "2026-10-22T14:15:27.193Z",
+        "source": "https://bsky.app/profile/nyamnews.bsky.social/post/3myhtzh26uc2d",
+        "mapped_location": "Borough Hall",
+        "precision_level": "address",
+        "location_text": "Borough Hall",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

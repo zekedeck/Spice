@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:41:28.667053Z",
-    "total_pins": 51
+    "generated_at": "2026-10-22T14:57:21.479372Z",
+    "total_pins": 66
   },
   "features": [
     {
@@ -1278,6 +1278,381 @@
         "precision_level": "address",
         "location_text": "Queens Botanical Garden",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myhvggo7hvx2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown B trains are delayed while we remove a train from service and request NYPD assistance at Newkirk Plaza.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-22T14:40:32.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myhvggo7hvx2",
+        "mapped_location": "Newkirk Plaza",
+        "precision_level": "address",
+        "location_text": "Newkirk Plaza",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ijaisnuk6xem2sbfqfaqaj3q/app.bsky.feed.post/3myhvjirogk2q",
+        "handle": "ray3473.bsky.social",
+        "text": "Squad up and answer the call on the cloud.\nActivision and Infinity Ward’s Call of Duty: Modern Warfare 4 launches today on GeForce NOW. Members can drop into the trenches in Korea, close-quarter combat in New York.\n#GeForceNow #GFNshare #RTX5080 #NVIDIABlackwellRTX #ad \nyoutu.be/yLFRQaQT0qM?...",
+        "created_at": "2026-10-22T14:42:19.674Z",
+        "source": "https://bsky.app/profile/ray3473.bsky.social/post/3myhvjirogk2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kwxpje5qog6wwndagwbssatp/app.bsky.feed.post/3myhvjjbchs2u",
+        "handle": "avclub.com",
+        "text": "In a new profile in The New York Times, John Turturro discussed his training with \"sleight-of-hand artist\" Apollo Robbins to play Harry, the lead cutpurse in Noah Segan's The Only Living Pickpocket In New York.\ntinyurl.com/mr34u5ya",
+        "created_at": "2026-10-22T14:42:20.169Z",
+        "source": "https://bsky.app/profile/avclub.com/post/3myhvjjbchs2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6wfnj54hmvfdy2kdvpn6t3px/app.bsky.feed.post/3myhvlhtksc2w",
+        "handle": "silive.com",
+        "text": "The poll surveyed 1,167 likely voters in New York state between Oct. 15 and Oct. 19.",
+        "created_at": "2026-10-22T14:43:24.997Z",
+        "source": "https://bsky.app/profile/silive.com/post/3myhvlhtksc2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:37jn73sbusuae3gu7c2cnsb5/app.bsky.feed.post/3myhvnyp6fs2e",
+        "handle": "terlalu.bsky.social",
+        "text": "Wikipedia says the Boulevard of Linden _terminates_ in Brooklyn, so…. partial credit?",
+        "created_at": "2026-10-22T14:44:50.586Z",
+        "source": "https://bsky.app/profile/terlalu.bsky.social/post/3myhvnyp6fs2e",
+        "mapped_location": "the Boulevard of Linden",
+        "precision_level": "address",
+        "location_text": "the Boulevard of Linden",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myhvoyzrui22",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "The Irish folk horror FRÉWAKA screens Tuesday 10/27 at Nitehawk Williamsburg, presented by @thefofif.bsky.social",
+        "created_at": "2026-10-22T14:45:24.429Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myhvoyzrui22",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4qv3mh4lvzohconfosc2g255/app.bsky.feed.post/3myhvqfagff26",
+        "handle": "eastbayfoodbriefly.bsky.social",
+        "text": "Norte opens October 29, 2026 in Manhattan’s Flatiron District, offering northern Mexican live-fire prime steaks, seafood, tortillas, and limited French Dip Barbacoa.\n",
+        "created_at": "2026-10-22T14:46:10.760Z",
+        "source": "https://bsky.app/profile/eastbayfoodbriefly.bsky.social/post/3myhvqfagff26",
+        "mapped_location": "Manhattan’s Flatiron District",
+        "precision_level": "address",
+        "location_text": "Manhattan’s Flatiron District",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gxna3q4ri67de3n6qfiajlay/app.bsky.feed.post/3myhvsw6uw22k",
+        "handle": "lccoftheisland.bsky.social",
+        "text": "Fun fact:  my husband was in New York to deliver a talk at a legal conference and went to the Waldorf for lunch.\n\nThey did not have Waldorf Salad on the menu. He was horribly disappointed.",
+        "created_at": "2026-10-22T14:47:35.729Z",
+        "source": "https://bsky.app/profile/lccoftheisland.bsky.social/post/3myhvsw6uw22k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xl4kfhwugs2denwbit76d7xk/app.bsky.feed.post/3myhvuc4z2r2p",
+        "handle": "foodndrinkbriefly.bsky.social",
+        "text": "Norte opens October 29, 2026 in Manhattan’s Flatiron District, offering northern Mexican live-fire prime steaks, seafood, tortillas, and limited French Dip Barbacoa.\n",
+        "created_at": "2026-10-22T14:48:21.560Z",
+        "source": "https://bsky.app/profile/foodndrinkbriefly.bsky.social/post/3myhvuc4z2r2p",
+        "mapped_location": "Manhattan’s Flatiron District",
+        "precision_level": "address",
+        "location_text": "Manhattan’s Flatiron District",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jnswabkfbojdsve6w7gddltu/app.bsky.feed.post/3myhvvgxmtc2w",
+        "handle": "harforddudebum.bsky.social",
+        "text": "Some people decided that it was not important that a candidate for President had been convicted of over 30 fraud charges in a New York court, which  conviction was upheld on appeal. Donald J. Trump--first FELON to serve as POTUS, thanks to Republican Party that took no notice of this!",
+        "created_at": "2026-10-22T14:49:00.425Z",
+        "source": "https://bsky.app/profile/harforddudebum.bsky.social/post/3myhvvgxmtc2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ituyfq7lklxce2do3trp7owl/app.bsky.feed.post/3myhvxcrjx22e",
+        "handle": "langurlover.bsky.social",
+        "text": "1903: Curly Howard [Jerome Lester Horwitz], American vaudevillian actor and comedian (The Three Stooges), born in Brooklyn New York (d. 1952)",
+        "created_at": "2026-10-22T14:50:03.141Z",
+        "source": "https://bsky.app/profile/langurlover.bsky.social/post/3myhvxcrjx22e",
+        "mapped_location": "Brooklyn New York",
+        "precision_level": "address",
+        "location_text": "Brooklyn New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882,
+          40.864
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v2i25uvial3o2j33yozcv6ot/app.bsky.feed.post/3myhvxssf3c24",
+        "handle": "tiffanyleigh.northsky.social",
+        "text": "We're neighbors! I'm as far north NYC as you can get (Bx near Van Cortlandt Park and just south of Yonkers)",
+        "created_at": "2026-10-22T14:50:19.946Z",
+        "source": "https://bsky.app/profile/tiffanyleigh.northsky.social/post/3myhvxssf3c24",
+        "mapped_location": "Van Cortlandt Park",
+        "precision_level": "address",
+        "location_text": "Van Cortlandt Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myhwbbz3gb2f",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:55:37.800Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myhwbbz3gb2f",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5iff6hthjnlc3eh5oizvnn4/app.bsky.feed.post/3myhwbeorlx24",
+        "handle": "leftwingbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:55:40.607Z",
+        "source": "https://bsky.app/profile/leftwingbriefly.bsky.social/post/3myhwbeorlx24",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3myhwd475kc2f",
+        "handle": "portlandbriefly.bsky.social",
+        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
+        "created_at": "2026-10-22T14:56:38.680Z",
+        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3myhwd475kc2f",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

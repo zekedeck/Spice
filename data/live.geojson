@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:57:21.479372Z",
-    "total_pins": 66
+    "generated_at": "2026-10-22T15:14:16.243502Z",
+    "total_pins": 70
   },
   "features": [
     {
@@ -1657,6 +1657,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myhwj4wq2s27",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Associate, Process Optimization at Oscar Health\n📍 New York, New York, United States\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-22T15:00:00.957Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myhwj4wq2s27",
+        "mapped_location": "New York, New York, United States",
+        "precision_level": "address",
+        "location_text": "New York, New York, United States",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.745
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kfranbmsguiecpf4tybxhar5/app.bsky.feed.post/3myhwl4pwyc2o",
+        "handle": "bruesselbach.com",
+        "text": "Sketches from Queens Drink & Draw at LIC-A Factory Art Space on Tuesday with model Gio as a wizard\nNext one Nov 17th!",
+        "created_at": "2026-10-22T15:01:07.668Z",
+        "source": "https://bsky.app/profile/bruesselbach.com/post/3myhwl4pwyc2o",
+        "mapped_location": "LIC-A Factory Art Space",
+        "precision_level": "address",
+        "location_text": "LIC-A Factory Art Space",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e63gp4dllijio5u7lqeanxwg/app.bsky.feed.post/3myhww25y6k2a",
+        "handle": "shipmanagency.bsky.social",
+        "text": "Client Ilya Kaminsky is participating in a World Poetry Salon with Carrie Erving, Chris Loxley, and Patricio Ferrari on Wednesday, November 4 at the Stavros Niarchos Foundation Library in NYC! More details here: www.nypl.org/events/progr...",
+        "created_at": "2026-10-22T15:07:14.297Z",
+        "source": "https://bsky.app/profile/shipmanagency.bsky.social/post/3myhww25y6k2a",
+        "mapped_location": "the Stavros Niarchos Foundation Library",
+        "precision_level": "address",
+        "location_text": "the Stavros Niarchos Foundation Library",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtswhxurm7x5rgd4i3eonesl/app.bsky.feed.post/3myhxap456k2c",
+        "handle": "vesnewyork.bsky.social",
+        "text": "TONIGHT OCT 22nd! 🍻 Unwind after NAB New York at our Post NAB Industry Mixer on Thursday, Oct 22nd from 6:30 PM - 10:00 PM!\n\nJoin us at Crompton Ale House to grab a drink and talk shop with the NYC VFX community. Open to all members and non-members!\n\nRSVP at vesglobal.org 👀🎬 #VESNY #VFX",
+        "created_at": "2026-10-22T15:13:11.795Z",
+        "source": "https://bsky.app/profile/vesnewyork.bsky.social/post/3myhxap456k2c",
+        "mapped_location": "Crompton Ale House",
+        "precision_level": "address",
+        "location_text": "Crompton Ale House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

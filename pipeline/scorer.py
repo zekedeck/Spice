@@ -1,46 +1,55 @@
 import logging
-from pipeline.nlp import has_emoji
+from pipeline.geocoder import _ADDRESS_TYPES, _CITY_TYPES, _STATE_TYPES
 
 logger = logging.getLogger(__name__)
 
-PREPOSITION_SIGNALS = {"at", "in", "near", "outside", "visiting", "from", "to", "around", "inside"}
+CONFIDENCE_THRESHOLD = 0.40
 
-CONFIDENCE_THRESHOLD = 0.6
+_GROUNDED_PROVENANCE = {"rule", "llm_accept", "llm_query"}
 
 
-def score_candidate(candidate, post_text: str, all_entity_pairs: list) -> float:
-    score = 0.5
-
-    # Entity length — 2+ words is a strong signal
-    tokens = candidate.text.split()
-    if len(tokens) >= 2:
-        score += 0.2
+def score_candidate(candidate, post_text: str = None, all_entity_pairs: list = None) -> float:
+    # 1. Provenance: was this candidate ever checked against a real
+    #    gazetteer, or is it a bare LLM claim with nothing behind it?
+    #    "rule"/"llm_accept"/"llm_query" all still call Nominatim -- only
+    #    "llm_resolve" invents coordinates with no lookup at all.
+    if candidate.provenance in _GROUNDED_PROVENANCE:
+        score = 0.55
+    elif candidate.provenance == "llm_resolve":
+        score = 0.35
     else:
-        score -= 0.3
+        score = 0.45  # unknown/legacy provenance -- conservative, not a bet either way
 
-    # Emoji in entity string
-    if has_emoji(candidate.text):
-        score -= 0.2
+    # 2. Address type: the raw Nominatim classification, only meaningful
+    #    when grounded (empty for llm_resolve, which never queries it).
+    #    Reuses the pipeline's own existing tiers rather than inventing new
+    #    ones -- these are the same sets assign_precision() already uses.
+    at = (candidate.address_type or "").lower()
+    if at in _ADDRESS_TYPES:
+        score += 0.25      # a real venue/POI result
+    elif at in _CITY_TYPES:
+        score += 0.15      # a real but informal area (neighbourhood, borough...)
+    elif at in _STATE_TYPES or at == "country":
+        score -= 0.15      # grounded, but just a jurisdiction match
+    # else empty/unclassified: no adjustment -- specificity carries the
+    # full weight below, since there's nothing else to check against.
 
-    # Nominatim importance score
-    if candidate.importance > 0.5:
-        score += 0.15
+    # 3. Specificity: the linguistic signal built earlier this project,
+    #    available for every candidate regardless of provenance. This is
+    #    what tells "New York" apart from "Union Square" -- raw word count
+    #    never did, and that was the single largest lever in the old formula.
+    score += (candidate.specificity_score or 0.0) * 0.3
 
-    # Preposition window — scan 3 words before entity in post text
-    lower_text = post_text.lower()
-    entity_lower = candidate.text.lower()
-    idx = lower_text.find(entity_lower)
-    if idx > 0:
-        window = lower_text[max(0, idx - 40):idx].split()
-        if any(w in PREPOSITION_SIGNALS for w in window[-3:]):
-            score += 0.1
-
-    # Co-occurrence — other geo entities in the same post reinforce confidence
-    if len(all_entity_pairs) > 1:
-        score += 0.1
+    # 4. Borough conflict: an already-detected contradiction between
+    #    another place named in the same post and where this candidate
+    #    resolved. A real internal inconsistency check, not a guess.
+    if candidate.borough_conflict:
+        score *= 0.5
 
     final = round(min(1.0, max(0.0, score)), 3)
-    logger.debug("Score for '%s': %.3f", candidate.text, final)
+    logger.debug("Score for '%s': %.3f (provenance=%s address_type=%s specificity=%s)",
+                 candidate.text, final, candidate.provenance, candidate.address_type,
+                 candidate.specificity_score)
     return final
 
 
@@ -51,5 +60,5 @@ def apply_confidence_threshold(candidates: list, post_text: str, all_entity_pair
         if c.confidence >= CONFIDENCE_THRESHOLD:
             scored.append(c)
         else:
-            logger.debug("Dropped '%s' — confidence %.3f below threshold %.1f", c.text, c.confidence, CONFIDENCE_THRESHOLD)
+            logger.debug("Dropped '%s' — confidence %.3f below threshold %.2f", c.text, c.confidence, CONFIDENCE_THRESHOLD)
     return scored

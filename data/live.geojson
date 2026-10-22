@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T22:21:42.986908Z",
-    "total_pins": 102
+    "generated_at": "2026-10-22T23:14:35.888494Z",
+    "total_pins": 103
   },
   "features": [
     {
@@ -2559,6 +2559,31 @@
         "mapped_location": "Flatbush Av-Brooklyn College",
         "precision_level": "address",
         "location_text": "Flatbush Av-Brooklyn College",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myis4bwyxvq2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Forest Hills-71 Av-bound M, R trains are delayed while NYPD responds to a person being disruptive on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-22T23:13:52.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myis4bwyxvq2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

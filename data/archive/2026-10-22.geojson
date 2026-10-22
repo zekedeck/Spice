@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T13:52:35.819284Z",
-    "total_pins": 9
+    "generated_at": "2026-10-22T14:08:45.868833Z",
+    "total_pins": 24
   },
   "features": [
     {
@@ -224,6 +224,385 @@
         "precision_level": "address",
         "location_text": "New York",
         "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dhq2c7oslxogu6yfdh4ig6ij/app.bsky.feed.post/3myhsrkgktc2o",
+        "handle": "matt600000.bsky.social",
+        "text": "Invented at the Waldorf Hotel in New York, this classic salad is over 100 years old and still going strong.  It's perfect in autumn when apples are in season. This version from James Martin adds chicken and has the walnuts caramelised. #food #foodsky #goodlunch",
+        "created_at": "2026-10-22T13:53:08.608Z",
+        "source": "https://bsky.app/profile/matt600000.bsky.social/post/3myhsrkgktc2o",
+        "mapped_location": "the Waldorf Hotel",
+        "precision_level": "address",
+        "location_text": "the Waldorf Hotel",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dhq2c7oslxogu6yfdh4ig6ij/app.bsky.feed.post/3myhsrkgktc2o",
+        "handle": "matt600000.bsky.social",
+        "text": "Invented at the Waldorf Hotel in New York, this classic salad is over 100 years old and still going strong.  It's perfect in autumn when apples are in season. This version from James Martin adds chicken and has the walnuts caramelised. #food #foodsky #goodlunch",
+        "created_at": "2026-10-22T13:53:08.608Z",
+        "source": "https://bsky.app/profile/matt600000.bsky.social/post/3myhsrkgktc2o",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "the Waldorf Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jranjmjwsswb7t4qhbofyrbf/app.bsky.feed.post/3myhss7v3lc2j",
+        "handle": "deftestleftist.bsky.social",
+        "text": "Another seasonal stoop, in Park Slope.\n📷 🪴 🎃 #photography",
+        "created_at": "2026-10-22T13:53:31.110Z",
+        "source": "https://bsky.app/profile/deftestleftist.bsky.social/post/3myhss7v3lc2j",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nz23agutse2qdn44yvgodiez/app.bsky.feed.post/3myhsve32g22h",
+        "handle": "techjobsforgood.bsky.social",
+        "text": "Help the criminal justice system end mass incarceration, increase community re-entry success, and make communities safer! Recidiviz is hiring! \n\nRole: Senior Policy Data Analyst\nLocation: New York, NY / Oakland, CA / Remote (US)\nLearn more 👉 techjobsforgood.com/companies/re...\n\n#TechForGood",
+        "created_at": "2026-10-22T13:55:15.964Z",
+        "source": "https://bsky.app/profile/techjobsforgood.bsky.social/post/3myhsve32g22h",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yl7wmj2cz6dxgexblhrlore6/app.bsky.feed.post/3myhswuuwuk2a",
+        "handle": "skullfaceproject.bsky.social",
+        "text": "On this day in 1980, the Dead began an eight night residency at Radio City Music Hall in NYC.",
+        "created_at": "2026-10-22T13:56:07.333Z",
+        "source": "https://bsky.app/profile/skullfaceproject.bsky.social/post/3myhswuuwuk2a",
+        "mapped_location": "Radio City Music Hall",
+        "precision_level": "address",
+        "location_text": "Radio City Music Hall",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lhmpbtpbg63krztwnmsslygd/app.bsky.feed.post/3myht22atkk25",
+        "handle": "notnyrangers.bsky.social",
+        "text": "The New York Rangers organization mourns the loss of Ron Duguay, one of the most popular players in franchise history. Ron's signature skating style - with his hair flowing as he moved down the ice - captivated The Garden Faithful, and his skill, tenacity, and charisma earned him the--",
+        "created_at": "2026-10-22T13:57:53.634Z",
+        "source": "https://bsky.app/profile/notnyrangers.bsky.social/post/3myht22atkk25",
+        "mapped_location": "ice - captivated The Garden Faithful",
+        "precision_level": "address",
+        "location_text": "ice - captivated The Garden Faithful",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myht2bigyq2m",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Brighton Beach-bound [B] and Coney Island-Stillwell Av-bound [Q] trains are delayed while we get medical help for someone at Prospect Park.",
+        "created_at": "2026-10-22T13:58:01.120Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myht2bigyq2m",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myht3vxw3kq2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Brighton Beach-bound B, Q and Coney Island-Stillwell Av-bound trains are delayed while we get medical help for someone at Prospect Park.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-22T13:58:47.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myht3vxw3kq2",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lfjzh2pusu4bvgccigefao2d/app.bsky.feed.post/3myht3xlzt22b",
+        "handle": "thatharper.bsky.social",
+        "text": "Nuh uh!! I'm in New York.",
+        "created_at": "2026-10-22T13:58:57.972Z",
+        "source": "https://bsky.app/profile/thatharper.bsky.social/post/3myht3xlzt22b",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ngqde3jrhksmhu3rjlxcolkh/app.bsky.feed.post/3myht5sw6zs25",
+        "handle": "forzabahab.bsky.social",
+        "text": "And crucially these people are now winning. Mamdani is crushing it in New York and that is the blueprint now. Be a human being, no culture wars, do stuff that helps working people.",
+        "created_at": "2026-10-22T14:00:00.172Z",
+        "source": "https://bsky.app/profile/forzabahab.bsky.social/post/3myht5sw6zs25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yrogfnhbtkr7shg72gfnlszz/app.bsky.feed.post/3myhta4rx4r2t",
+        "handle": "vera.org",
+        "text": "What does it take to build safer communities?\n\nVera and John Jay College are bringing together leaders and advocates from across the country for #AllInForSafety, a national summit on the future of public safety.\n\nRegister to join us in New York City on 11/17: https://verajohnjay.regfox.com/all-in",
+        "created_at": "2026-10-22T14:01:16.789558135Z",
+        "source": "https://bsky.app/profile/vera.org/post/3myhta4rx4r2t",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5gy3v7opwo3bfoa7dojkfhvp/app.bsky.feed.post/3myhthrdeqk2r",
+        "handle": "helenkennedy.com",
+        "text": "One of the little perks of being a reporter in New York City is getting to interview people who interest you. I got to talk to Walter Lord in his apartment just before he died. He had a fish tank with a little Titanic at the bottom of it!",
+        "created_at": "2026-10-22T14:05:34.051Z",
+        "source": "https://bsky.app/profile/helenkennedy.com/post/3myhthrdeqk2r",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr46zb3vfvjzjhmjb43zlqwx/app.bsky.feed.post/3myhtlap7cf25",
+        "handle": "tattoosreddit.bsky.social",
+        "text": "Peachy snail by me (Mike Boyd) at Good Luck NYC in New York",
+        "created_at": "2026-10-22T14:07:01.902Z",
+        "source": "https://bsky.app/profile/tattoosreddit.bsky.social/post/3myhtlap7cf25",
+        "mapped_location": "Good Luck NYC",
+        "precision_level": "address",
+        "location_text": "Good Luck NYC",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tr46zb3vfvjzjhmjb43zlqwx/app.bsky.feed.post/3myhtlap7cf25",
+        "handle": "tattoosreddit.bsky.social",
+        "text": "Peachy snail by me (Mike Boyd) at Good Luck NYC in New York",
+        "created_at": "2026-10-22T14:07:01.902Z",
+        "source": "https://bsky.app/profile/tattoosreddit.bsky.social/post/3myhtlap7cf25",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Good Luck NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dawci6skpmelnlja3lygz3p7/app.bsky.feed.post/3myhtm6ilsk2e",
+        "handle": "statnews.com",
+        "text": "Just one week after being granted the authority to kick providers off of federal health care programs, U.S. health officials are using it on adult day care centers in New York City they say are committing fraud. https://www.statnews.com/2026/10/21/cms-medicaid-fraud-nyc-adult-daycare-operators/",
+        "created_at": "2026-10-22T14:08:02.056805222Z",
+        "source": "https://bsky.app/profile/statnews.com/post/3myhtm6ilsk2e",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.9,
         "address_type": "",
         "provenance": "llm_resolve",
         "borough_conflict": false,

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T15:05:58.230261Z",
-    "total_pins": 68
+    "generated_at": "2026-10-22T15:22:36.222465Z",
+    "total_pins": 71
   },
   "features": [
     {
@@ -1707,6 +1707,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e63gp4dllijio5u7lqeanxwg/app.bsky.feed.post/3myhww25y6k2a",
+        "handle": "shipmanagency.bsky.social",
+        "text": "Client Ilya Kaminsky is participating in a World Poetry Salon with Carrie Erving, Chris Loxley, and Patricio Ferrari on Wednesday, November 4 at the Stavros Niarchos Foundation Library in NYC! More details here: www.nypl.org/events/progr...",
+        "created_at": "2026-10-22T15:07:14.297Z",
+        "source": "https://bsky.app/profile/shipmanagency.bsky.social/post/3myhww25y6k2a",
+        "mapped_location": "the Stavros Niarchos Foundation Library",
+        "precision_level": "address",
+        "location_text": "the Stavros Niarchos Foundation Library",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dtswhxurm7x5rgd4i3eonesl/app.bsky.feed.post/3myhxap456k2c",
+        "handle": "vesnewyork.bsky.social",
+        "text": "TONIGHT OCT 22nd! 🍻 Unwind after NAB New York at our Post NAB Industry Mixer on Thursday, Oct 22nd from 6:30 PM - 10:00 PM!\n\nJoin us at Crompton Ale House to grab a drink and talk shop with the NYC VFX community. Open to all members and non-members!\n\nRSVP at vesglobal.org 👀🎬 #VESNY #VFX",
+        "created_at": "2026-10-22T15:13:11.795Z",
+        "source": "https://bsky.app/profile/vesnewyork.bsky.social/post/3myhxap456k2c",
+        "mapped_location": "Crompton Ale House",
+        "precision_level": "address",
+        "location_text": "Crompton Ale House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5uqqrnp7usssqvmcqwh4fuzw/app.bsky.feed.post/3myhxl3mhg227",
+        "handle": "nyvgcc.bsky.social",
+        "text": "The New York Game Awards return Jan 19 at 7PM at SVA Theatre with two new hosts!\n\nPlease welcome Lara Lunardi and @ardaocal.bsky.social to the stage!\n\nGet Tickets: events.humanitix.com/nygameawards16",
+        "created_at": "2026-10-22T15:19:00.464Z",
+        "source": "https://bsky.app/profile/nyvgcc.bsky.social/post/3myhxl3mhg227",
+        "mapped_location": "SVA Theatre",
+        "precision_level": "address",
+        "location_text": "SVA Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

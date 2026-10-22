@@ -183,6 +183,40 @@ body {
   padding: 0 0 0.5rem 0;
 }
 
+.live-window-fieldset {
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.live-window-fieldset .lookback-row label {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-primary);
+}
+
+.live-window-fieldset .lookback-row label strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.live-window-fieldset input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.live-window-fieldset .lookback-hint {
+  margin: 0.3rem 0 0 0;
+}
+
+/* Grayed-out, non-interactive while a date-range lookback is active --
+   the slider only ever filters the live dataset, so it has nothing to do
+   once we're showing an archive range instead. */
+.live-window-fieldset.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .lookback-row {
   display: flex;
   flex-direction: column;

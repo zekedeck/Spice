@@ -10,6 +10,14 @@
 
   var ET_ZONE = "America/New_York";
   var LIVE_REFRESH_MS = 15 * 60 * 1000; // matches the pipeline's 15-min native cron cadence
+  // Live-window slider: purely client-side narrowing of the already-loaded
+  // live dataset, capped at 24h. The server-side window (config.py's
+  // LIVE_WINDOW_HOURS = 48, baked into data/live.geojson by worker.py) is
+  // already wider than this cap, so every slider position just filters
+  // what's already loaded -- no refetch, no backend change.
+  var LIVE_WINDOW_MIN_HOURS = 1;
+  var LIVE_WINDOW_MAX_HOURS = 24;
+  var liveWindowHours = LIVE_WINDOW_MAX_HOURS; // default: the max, i.e. no extra narrowing
   var CAMERA_RADIUS_M = 400; // nearby-camera lookup radius
   var CAMERA_MAX_COUNT = 3; // cap shown per pin so dense areas (Midtown) don't clutter the panel
   var CAMERA_REFRESH_MS = 1000; // how often open camera thumbnails re-fetch their snapshot
@@ -42,6 +50,9 @@
   var lookbackError = document.getElementById("lookback-error");
   var lookbackSummaryText = document.getElementById("lookback-summary-text");
   var lookbackDetails = document.getElementById("lookback-details");
+  var liveWindowFieldset = document.getElementById("live-window-fieldset");
+  var liveWindowSlider = document.getElementById("live-window-slider");
+  var liveWindowValueEl = document.getElementById("live-window-value");
   var calendarGrid = document.getElementById("calendar-grid");
   var calendarMonthLabel = document.getElementById("calendar-month-label");
   var calendarPrevBtn = document.getElementById("calendar-prev");
@@ -464,11 +475,23 @@
     return false;
   }
 
+  // Live-window slider only applies in "live" mode -- an archive lookback
+  // range is a deliberate, already-bounded historical selection, so the
+  // slider's hours-ago cap doesn't mean anything there (and its fieldset is
+  // disabled in the UI while archive mode is active; see
+  // setLiveWindowControlEnabled()).
+  function passesLiveWindow(f) {
+    if (mode !== "live") return true;
+    var age = f.properties ? f.properties.ageMinutes : undefined;
+    if (typeof age !== "number" || isNaN(age)) return true;
+    return age <= liveWindowHours * 60;
+  }
+
   function applyFilters() {
     var ast = currentAst();
     var categoryAsts = activeCategoryAsts();
     function passes(f) {
-      return (ast ? matchesSearch(f, ast) : true) && matchesAnyAst(f, categoryAsts);
+      return (ast ? matchesSearch(f, ast) : true) && matchesAnyAst(f, categoryAsts) && passesLiveWindow(f);
     }
     var filteredPins = allFeatures.filter(passes);
     var filteredStateMentions = allStateMentions.filter(passes);
@@ -485,9 +508,19 @@
   // Data loading
   // ---------------------------------------------------------------------
 
+  function liveWindowLabel() {
+    return "Live (last " + liveWindowHours + "h)";
+  }
+
+  function setLiveWindowControlEnabled(enabled) {
+    if (liveWindowSlider) liveWindowSlider.disabled = !enabled;
+    if (liveWindowFieldset) liveWindowFieldset.classList.toggle("is-disabled", !enabled);
+  }
+
   function loadLive() {
     mode = "live";
-    lookbackSummaryText.textContent = "Live (last 48h)";
+    setLiveWindowControlEnabled(true);
+    lookbackSummaryText.textContent = liveWindowLabel();
     return fetch("data/live.geojson", { cache: "no-store" })
       .then(function (res) {
         if (!res.ok) throw new Error("live.geojson HTTP " + res.status);
@@ -522,6 +555,7 @@
 
   function loadArchiveRange(fromUtc, toUtc) {
     mode = "archive";
+    setLiveWindowControlEnabled(false);
     var days = etDaySpan(fromUtc, toUtc);
     setStatus("Loading " + days.length + " day" + (days.length === 1 ? "" : "s") + "…");
     return Promise.all(days.map(fetchArchiveDay)).then(function (dayFeatureLists) {
@@ -1114,9 +1148,36 @@
   // here is discarded, only alpha (shape coverage) matters. So each glyph
   // is drawn as a single opaque silhouette (black) on a transparent
   // background, with no color or backing-circle logic baked into the
-  // pixels; the pin-icons layer's paint block applies AGE_COLOR_EXPR as
-  // icon-color plus a dark halo for legibility against the map tiles.
+  // pixels; the pin-icons layer's paint block now renders the glyph itself
+  // fixed white (icon-color) and drives AGE_COLOR_EXPR through
+  // icon-halo-color instead, as a colored glow around the glyph.
   // ---------------------------------------------------------------------
+
+  // A real SDF halo needs distance information to extend into (see
+  // toSignedDistanceField below for the full story -- short version:
+  // MapLibre's SDF shader reads a fixed ~6 source-bitmap-px band around the
+  // glyph's edge as the halo's distance gradient). The draw*Icon functions
+  // below were tuned to fill most of a 28px canvas with almost no margin,
+  // which was fine for the old 1.1px contrast outline but leaves no room
+  // for that band. Register glyphs on a larger canvas with the same glyph
+  // drawn at its original 28px scale, centered with real padding on all
+  // sides, so there's bitmap space for the halo to actually fade into.
+  // icon-size (0.85, set where pin-icons is defined below) is unchanged
+  // from before this padding was added -- see the comment there for why
+  // that still renders the glyph at its original on-map pixel size.
+  var ICON_GLYPH_PX = 28; // the scale draw*Icon's internal fractions (s * 0.x) are tuned at
+  var ICON_CANVAS_PX = 48; // registered bitmap size: glyph + padding for the halo to bleed into
+  var ICON_PAD_PX = (ICON_CANVAS_PX - ICON_GLYPH_PX) / 2;
+
+  function withIconPadding(draw) {
+    return function (ctx, canvasSize) {
+      ctx.clearRect(0, 0, canvasSize, canvasSize);
+      ctx.save();
+      ctx.translate(ICON_PAD_PX, ICON_PAD_PX);
+      draw(ctx, ICON_GLYPH_PX);
+      ctx.restore();
+    };
+  }
 
   function roundRectPath(ctx, x, y, w, h, r) {
     ctx.beginPath();
@@ -1135,6 +1196,74 @@
     var ctx = canvas.getContext("2d");
     draw(ctx, size);
     return ctx.getImageData(0, 0, size, size);
+  }
+
+  // MapLibre's SDF icon/text shader (confirmed by reading the shipped
+  // shader source, symbolSDF) does NOT generate a distance field from a
+  // plain alpha mask on its own -- for `sdf: true` images it samples the
+  // image's alpha channel directly as an already-computed signed distance,
+  // calibrated to a fixed convention: the shape boundary sits at alpha
+  // byte 192 (0.75 = (256-64)/256), and the full 0..255 alpha range spans
+  // exactly SDF_PX (8) source-bitmap pixels of distance either side (a
+  // `#define SDF_PX 8.0` constant baked into the shader, not configurable
+  // per image). A plain binary 0/255 mask -- which is what
+  // makeIconImageData above produces -- has none of that gradient, so any
+  // icon-halo-width/-blur wide enough to be visible saturates instantly:
+  // the whole "outside the glyph" region reads as the same flat distance
+  // value, and the halo floods out to the bitmap's own padding edge rather
+  // than fading into a soft glow (this is exactly what a hard-edged
+  // clipped-square halo turned out to be, found while tuning icon-halo-*
+  // below). This converts a drawn glyph's binary alpha mask into a real
+  // distance field matching that exact calibration, via a brute-force
+  // nearest-opposite-pixel search bounded to SDF_SEARCH_RADIUS (plenty,
+  // since the shader clamps anything past 6px outside / 2px inside to
+  // 0/255 anyway) -- icons are tiny (tens of px) so this is cheap and only
+  // runs once at startup per glyph.
+  var SDF_EDGE_BYTE = 192; // 0.75 * 256 -- MapLibre's fixed glyph-boundary alpha threshold
+  var SDF_PX = 8; // MapLibre's fixed alpha-to-distance scale, in source bitmap px
+  var SDF_SEARCH_RADIUS = 9; // bitmap px; true distances beyond this always clamp to 0/255 anyway
+
+  function toSignedDistanceField(imageData, size) {
+    var srcAlpha = imageData.data;
+    var inside = new Uint8Array(size * size);
+    for (var i = 0; i < size * size; i++) inside[i] = srcAlpha[i * 4 + 3] >= 128 ? 1 : 0;
+    var out = new Uint8ClampedArray(size * size);
+    for (var y = 0; y < size; y++) {
+      var minY = Math.max(0, y - SDF_SEARCH_RADIUS);
+      var maxY = Math.min(size - 1, y + SDF_SEARCH_RADIUS);
+      for (var x = 0; x < size; x++) {
+        var idx = y * size + x;
+        var self = inside[idx];
+        var minX = Math.max(0, x - SDF_SEARCH_RADIUS);
+        var maxX = Math.min(size - 1, x + SDF_SEARCH_RADIUS);
+        var bestSq = Infinity;
+        for (var ny = minY; ny <= maxY; ny++) {
+          var rowOffset = ny * size;
+          for (var nx = minX; nx <= maxX; nx++) {
+            if (inside[rowOffset + nx] !== self) {
+              var dy = ny - y, dx = nx - x;
+              var dSq = dx * dx + dy * dy;
+              if (dSq < bestSq) bestSq = dSq;
+            }
+          }
+        }
+        var dist = bestSq === Infinity ? SDF_SEARCH_RADIUS : Math.sqrt(bestSq);
+        var signedDist = self ? dist : -dist;
+        out[idx] = Math.round(SDF_EDGE_BYTE + signedDist * (256 / SDF_PX));
+      }
+    }
+    for (var j = 0; j < size * size; j++) {
+      var o = j * 4;
+      imageData.data[o] = 255;
+      imageData.data[o + 1] = 255;
+      imageData.data[o + 2] = 255;
+      imageData.data[o + 3] = out[j];
+    }
+    return imageData;
+  }
+
+  function makeSdfIconImageData(size, draw) {
+    return toSignedDistanceField(makeIconImageData(size, draw), size);
   }
 
   // The earlier vector fist drawing read as an unrecognizable white blob at
@@ -1224,9 +1353,9 @@
     map.on("load", function () {
       // Register category + camera icon images before anything references
       // them by name.
-      map.addImage("icon-protest", makeIconImageData(28, drawFistIcon), { sdf: true });
-      map.addImage("icon-crime", makeIconImageData(28, drawExclamationIcon), { sdf: true });
-      map.addImage("icon-police", makeIconImageData(28, drawBadgeIcon), { sdf: true });
+      map.addImage("icon-protest", makeSdfIconImageData(ICON_CANVAS_PX, withIconPadding(drawFistIcon)), { sdf: true });
+      map.addImage("icon-crime", makeSdfIconImageData(ICON_CANVAS_PX, withIconPadding(drawExclamationIcon)), { sdf: true });
+      map.addImage("icon-police", makeSdfIconImageData(ICON_CANVAS_PX, withIconPadding(drawBadgeIcon)), { sdf: true });
       map.addImage("camera-glyph", makeIconImageData(24, drawCameraGlyph));
 
       // --- Webcams (standalone layer, separate from the detail-panel
@@ -1309,19 +1438,43 @@
             "police", "icon-police",
             "icon-protest"
           ],
+          // The glyph occupies the same ICON_GLYPH_PX/ICON_CANVAS_PX
+          // fraction of the (now-padded) bitmap regardless of icon-size,
+          // so 0.85 -- originally tuned against the old unpadded 28px
+          // bitmap, where the glyph WAS the whole canvas -- still renders
+          // the glyph itself at the same on-map pixel size as before. What
+          // changed is only the canvas has real margin around it now.
           "icon-size": 0.85,
           "icon-allow-overlap": true,
           "icon-ignore-placement": true
         },
         paint: {
-          // SDF icons recolored to track the same age gradient as the
-          // dot beneath them, with a dark halo (matching pin-point's own
-          // stroke color) so the glyph stays legible even at the palest
-          // (brand-new) stop of the gradient against the dark map tiles.
-          "icon-color": AGE_COLOR_EXPR,
-          "icon-halo-color": "#0b0e14",
-          "icon-halo-width": 1.1,
-          "icon-halo-blur": 0.3
+          // Reverted from a fully age-colored glyph (reported live as
+          // reading poorly -- "just a color blob", shape no longer
+          // legible): the glyph itself is fixed white so it stays crisp
+          // against the dark map tiles at every age, and AGE_COLOR_EXPR
+          // instead drives a wide colored halo/glow around it -- same
+          // gradient the dot and its own halo already use, just applied
+          // to the icon's edge instead of its fill.
+          // icon-halo-width has a hard architectural ceiling here: MapLibre's
+          // SDF shader (symbolSDF) encodes distance over a fixed 8-texture-px
+          // span per the full alpha range, so the maximum halo distance this
+          // image format can represent before it saturates/floods is
+          // ~6 bitmap px, i.e. ~6 * icon-size CSS px (icon-size is 0.85
+          // above) -- about 5.1px. 4 stays safely inside that.
+          // icon-halo-blur deliberately kept small: the halo's softness
+          // already comes from the generated SDF's own ~6px distance ramp
+          // (see toSignedDistanceField), and the shader mixes halo-blur in
+          // as an ADDITIVE smoothstep half-width around the halo edge --
+          // past about 0.5-0.6 here (worked out against halo-width 4 and
+          // fontScale 0.85) that smoothstep's lower bound dips below zero
+          // and leaks a faint uniform tint across the icon's ENTIRE padded
+          // bitmap, reading as a flat colored square behind the glow
+          // instead of a clean fade (found while tuning this value).
+          "icon-color": "#ffffff",
+          "icon-halo-color": AGE_COLOR_EXPR,
+          "icon-halo-width": 4,
+          "icon-halo-blur": 0.4
         }
       });
 
@@ -1422,6 +1575,20 @@
 
   lookbackApply.addEventListener("click", handleLookbackApply);
   lookbackReset.addEventListener("click", handleLookbackReset);
+
+  if (liveWindowSlider) {
+    liveWindowSlider.addEventListener("input", function () {
+      var parsed = parseInt(liveWindowSlider.value, 10);
+      liveWindowHours = isNaN(parsed)
+        ? LIVE_WINDOW_MAX_HOURS
+        : Math.min(LIVE_WINDOW_MAX_HOURS, Math.max(LIVE_WINDOW_MIN_HOURS, parsed));
+      if (liveWindowValueEl) liveWindowValueEl.textContent = liveWindowHours + "h";
+      if (mode === "live") {
+        lookbackSummaryText.textContent = liveWindowLabel();
+        applyFilters();
+      }
+    });
+  }
 
   // Browsers throttle setInterval timers on backgrounded tabs, which can
   // stall the live poll. When the tab becomes visible again after actually

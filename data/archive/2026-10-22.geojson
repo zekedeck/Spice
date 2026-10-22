@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-22T13:52:35.819284Z",
+    "total_pins": 9
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3myhsdhme5s2v",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/22/2000 \n\nWilliam Regal defeated Naked Mideon to retain the European Championship at No Mercy from the Pepsi Arena in Albany, New York. \n\n#WWF #WWE #NoMercy #WilliamRegal #NakedMideon #Mideon #DennisKnight #PhineasGodwinn #EuropeanChampionship",
+        "created_at": "2026-10-22T13:45:15.900Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3myhsdhme5s2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3myhsdyhg5s2v",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/22/2000  \n\nThe Right to Censor defeated Billy Gunn & Chyna at No Mercy from the Pepsi Arena in Albany, New York.  \n\n#WWF #WWE #NoMercy #RightToCensor #StevieRichards #ValVenis #BillyGunn #Chyna #DX #DGenerationX",
+        "created_at": "2026-10-22T13:45:33.564Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3myhsdyhg5s2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3myhseihc222v",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/22/2000  \n\nChris Jericho defeated X-Pac in a Steel Cage Match at No Mercy from the Pepsi Arena in Albany, New York.  \n\n#WWF #WWE #NoMercy #ChrisJericho #Y2J #Lionheart #XPac #123Kid #SeanWaltman #SteelCageMatch",
+        "created_at": "2026-10-22T13:45:50.337Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3myhseihc222v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3myhsfg4qu22v",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/22/2000  \n\nThe APA & Lita vs. T & A, & Trish Stratus ended in a No Contest at No Mercy from the Pepsi Arena in Albany, New York.  \n\n#WWF #WWE #NoMercy #TheAPA #Bradshaw #JBL #JohnBradshawLayfield #Faarooq #RonSimmons #Lita #TAndA #Test #Albert #ATrain #MattBloom #TrishStratus",
+        "created_at": "2026-10-22T13:46:21.448Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3myhsfg4qu22v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cm5peg2exye2aiyzgzpfd6sg/app.bsky.feed.post/3myhsfssxus2v",
+        "handle": "wrestlehist.bsky.social",
+        "text": "10/22/2000  \n\nThe Dudley Boyz won the Dudley's Tag Team Elimination Table Invitational at No Mercy from the Pepsi Arena in Albany, New York.  \n\n#WWF #WWE #NoMercy #TheDudleyBoyz #BubbaRayDudley #DVonDudley #RightToCensor #TheGoodfather #BullBuchanan #LoDown #DLoBrown #Chaz #Mosh #TooCool",
+        "created_at": "2026-10-22T13:46:34.760Z",
+        "source": "https://bsky.app/profile/wrestlehist.bsky.social/post/3myhsfssxus2v",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rlmtjsdeybegq4o34kuzugru/app.bsky.feed.post/3myhshfzsb22t",
+        "handle": "alyvalerie.bsky.social",
+        "text": "Healthcare systems in New York City claim to support the genders of transgender men & women and intersex individuals, yet, have begun behaving this way: youtube.com/shorts/UVjZD...",
+        "created_at": "2026-10-22T13:47:28.456Z",
+        "source": "https://bsky.app/profile/alyvalerie.bsky.social/post/3myhshfzsb22t",
+        "mapped_location": "New York City",
+        "precision_level": "address",
+        "location_text": "New York City",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wev3krjakmbin5yyl57fmriw/app.bsky.feed.post/3myhshofnkc2t",
+        "handle": "julianes.bsky.social",
+        "text": "Born and raised there. My huge catholic family are rabid Trump supporters. The KKK held regular rallies in Times Square. They tried a museum director on criminal charges for an exhibit. A county sheriff required all women to wear skirts to the office. Got death/rape threats for showing a movie. Etc",
+        "created_at": "2026-10-22T13:47:37.236Z",
+        "source": "https://bsky.app/profile/julianes.bsky.social/post/3myhshofnkc2t",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qocdxh2zoecj5y4qyhzco3ie/app.bsky.feed.post/3myhsklgjcs2h",
+        "handle": "charleyphogg.bsky.social",
+        "text": "Good morning Sherry \nHeading to The Bronx today to help out my brother in law \nMy favorite borough \nManhattan second",
+        "created_at": "2026-10-22T13:49:14.784Z",
+        "source": "https://bsky.app/profile/charleyphogg.bsky.social/post/3myhsklgjcs2h",
+        "mapped_location": "My favorite borough \nManhattan",
+        "precision_level": "address",
+        "location_text": "My favorite borough \nManhattan",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lf5ba6xmm4kn26ohvcrxparx/app.bsky.feed.post/3myhsm5doos27",
+        "handle": "ethansacks.bsky.social",
+        "text": "If you live in New York, please sign!",
+        "created_at": "2026-10-22T13:50:07.119Z",
+        "source": "https://bsky.app/profile/ethansacks.bsky.social/post/3myhsm5doos27",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

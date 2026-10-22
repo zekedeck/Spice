@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T21:52:11.496792Z",
-    "total_pins": 97
+    "generated_at": "2026-10-22T22:21:42.997945Z",
+    "total_pins": 102
   },
   "features": [
     {
@@ -2437,6 +2437,133 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myiotqwoaob2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Leonard Street between Church Street and Broadway Odd numbers\n\nVia https://digitalcollections.nypl.org/items/54e00cf0-c5ae-012f-a6b6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Leonard%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-22T22:15:25.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myiotqwoaob2",
+        "mapped_location": "Leonard Street",
+        "precision_level": "address",
+        "location_text": "Leonard Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myiotqwoaob2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Leonard Street between Church Street and Broadway Odd numbers\n\nVia https://digitalcollections.nypl.org/items/54e00cf0-c5ae-012f-a6b6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Leonard%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-22T22:15:25.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myiotqwoaob2",
+        "mapped_location": "Church Street",
+        "precision_level": "address",
+        "location_text": "Church Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Leonard Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882,
+          40.772
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gszz5w5a7axn3dg7x5zn4kjv/app.bsky.feed.post/3myioywkisc2h",
+        "handle": "jooltman.bsky.social",
+        "text": "Just as Hilton did during the occupation of Minneapolis, their hotels appear to be allowing ICE to stay at their properties and stage in their parking lots in NYC, today at LaGuardia Hampton Inn. Please don’t stay at Hilton properties, and let them know what you think.",
+        "created_at": "2026-10-22T22:18:20.977Z",
+        "source": "https://bsky.app/profile/jooltman.bsky.social/post/3myioywkisc2h",
+        "mapped_location": "LaGuardia Hampton Inn",
+        "precision_level": "address",
+        "location_text": "LaGuardia Hampton Inn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fyduqs7dayxhjm2irkfvao47/app.bsky.feed.post/3myiozmcm6s2u",
+        "handle": "nickiekaneforny.bsky.social",
+        "text": "While Brad Lander spent this week harvesting olives in the West Bank, I’ve been in Cobble Hill talking with voters about housing and the rising cost of living...👇\n\n#nyc #bradlander #gaza #freepalesti̇ne #OliveHarvest",
+        "created_at": "2026-10-22T22:18:43.769Z",
+        "source": "https://bsky.app/profile/nickiekaneforny.bsky.social/post/3myiozmcm6s2u",
+        "mapped_location": "Cobble Hill",
+        "precision_level": "address",
+        "location_text": "Cobble Hill",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myip3vx7wn2a",
+        "handle": "mtaalerts.bsky.social",
+        "text": "[2][5] trains are running with delays in both directions due to an investigation at Flatbush Av-Brooklyn College.",
+        "created_at": "2026-10-22T22:20:00.841Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myip3vx7wn2a",
+        "mapped_location": "Flatbush Av-Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Flatbush Av-Brooklyn College",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

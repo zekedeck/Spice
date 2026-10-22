@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T15:30:50.529138Z",
-    "total_pins": 73
+    "generated_at": "2026-10-22T15:47:00.342005Z",
+    "total_pins": 77
   },
   "features": [
     {
@@ -1832,6 +1832,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:obbqix54x6u37ztxjfiftqvx/app.bsky.feed.post/3myhyfvlyks2w",
+        "handle": "drmarkpbarry.bsky.social",
+        "text": "In Korea, New York Times publisher A.G. Sulzberger warns of press threats and AI theft www.koreajoongangdaily.com/korea/origin...",
+        "created_at": "2026-10-22T15:34:00.128Z",
+        "source": "https://bsky.app/profile/drmarkpbarry.bsky.social/post/3myhyfvlyks2w",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vax23oilyd4ui2kmqkzupio5/app.bsky.feed.post/3myhyqo2oaq2o",
+        "handle": "thatericalper.com",
+        "text": "Sudbury’s Ron Duguay skated helmetless with flowing curls, scored 40 goals in a season for the Rangers and sang on “Hockey Sock Rock” in disco-era New York. The former NHL All-Star centre has died at 69.  zurl.co/SHggp",
+        "created_at": "2026-10-22T15:40:00.266Z",
+        "source": "https://bsky.app/profile/thatericalper.com/post/3myhyqo2oaq2o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "disco-era New York",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968,
+          40.865
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tmiavehpo5fucd2o27qmciy7/app.bsky.feed.post/3myhyx4ed5y2m",
+        "handle": "gbcnewsroom.bsky.social",
+        "text": "Construction works linked to Westview’s proposed land reclamation project affect parking near Westview Park\n\nhttps://gbc.gi/news/55-parking-spaces-at-midtown-car-park-available-free-to-zone-4-permit-holders-from-friday",
+        "created_at": "2026-10-22T15:43:37.467Z",
+        "source": "https://bsky.app/profile/gbcnewsroom.bsky.social/post/3myhyx4ed5y2m",
+        "mapped_location": "Westview Place Park, Linwood, Fort Lee, Bergen County, New Jersey, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Westview Park",
+        "confidence": 1.0,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:onx4cwz6nzsxpfh4i2xvx237/app.bsky.feed.post/3myhyzpynpk2j",
+        "handle": "fox5ny.bsky.social",
+        "text": "Victor Romero, 62, faces murder charges in the fatal GW Bridge road rage shooting. The retired NYPD detective was previously wounded in a 2000 shootout at his family's Brooklyn laundromat.",
+        "created_at": "2026-10-22T15:45:05Z",
+        "source": "https://bsky.app/profile/fox5ny.bsky.social/post/3myhyzpynpk2j",
+        "mapped_location": "GW Bridge",
+        "precision_level": "address",
+        "location_text": "GW Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

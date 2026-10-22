@@ -1628,7 +1628,10 @@
         }
 
         var target = uniqueFeatures[0];
-        map.easeTo({ center: target.geometry.coordinates, zoom: Math.max(map.getZoom(), 15) });
+        // Slow, gentle ease rather than MapLibre's default (fast enough to
+        // feel jarring/nauseating when jumping several zoom levels at once,
+        // e.g. from a city-wide view straight to street level).
+        map.easeTo({ center: target.geometry.coordinates, zoom: Math.max(map.getZoom(), 15), duration: 1400 });
         if (uniqueFeatures.length === 1) {
           openPanel(target);
         } else {

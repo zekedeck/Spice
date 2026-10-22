@@ -1,10 +1,35 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T14:32:51.522047Z",
-    "total_pins": 47
+    "generated_at": "2026-10-22T14:49:27.371320Z",
+    "total_pins": 61
   },
   "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2pcjoeylzg3uqk4aricwh5jo/app.bsky.feed.post/5gmmlzfo77flk",
+        "handle": "nytimes-news.bsky.social",
+        "text": "He Couldn’t Say No to a Job in New York. Which Home Did the Family Choose?",
+        "created_at": "2026-10-22T11:38:12-03:00",
+        "source": "https://bsky.app/profile/nytimes-news.bsky.social/post/5gmmlzfo77flk",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
     {
       "type": "Feature",
       "geometry": {
@@ -1182,6 +1207,331 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpaus374xipigufn5vcvrljs/app.bsky.feed.post/3myhv37fouk27",
+        "handle": "adorabirb.bsky.social",
+        "text": "Times Square do be where the chaos happens.",
+        "created_at": "2026-10-22T14:34:20.082Z",
+        "source": "https://bsky.app/profile/adorabirb.bsky.social/post/3myhv37fouk27",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.7,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cmblhorgqgtmfpzczfisptpi/app.bsky.feed.post/3myhv3dpjys2k",
+        "handle": "ancalagontheblack.bsky.social",
+        "text": "That collective toll, if you will, exceeds by 75 percent the $58 million they’ve paid in New York congestion charges (including surcharges on cab rides) since congestion pricing commenced in early 2025",
+        "created_at": "2026-10-22T14:34:24.599Z",
+        "source": "https://bsky.app/profile/ancalagontheblack.bsky.social/post/3myhv3dpjys2k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myhvenply72n",
+        "handle": "porcellato.bsky.social",
+        "text": "Embark on the trick-or-treat trail at Queens Botanical Garden https://ift.tt/kbzR5HB",
+        "created_at": "2026-10-22T14:39:36+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myhvenply72n",
+        "mapped_location": "Queens Botanical Garden",
+        "precision_level": "address",
+        "location_text": "Queens Botanical Garden",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myhvggo7hvx2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown B trains are delayed while we remove a train from service and request NYPD assistance at Newkirk Plaza.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-22T14:40:32.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myhvggo7hvx2",
+        "mapped_location": "Newkirk Plaza",
+        "precision_level": "address",
+        "location_text": "Newkirk Plaza",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ijaisnuk6xem2sbfqfaqaj3q/app.bsky.feed.post/3myhvjirogk2q",
+        "handle": "ray3473.bsky.social",
+        "text": "Squad up and answer the call on the cloud.\nActivision and Infinity Ward’s Call of Duty: Modern Warfare 4 launches today on GeForce NOW. Members can drop into the trenches in Korea, close-quarter combat in New York.\n#GeForceNow #GFNshare #RTX5080 #NVIDIABlackwellRTX #ad \nyoutu.be/yLFRQaQT0qM?...",
+        "created_at": "2026-10-22T14:42:19.674Z",
+        "source": "https://bsky.app/profile/ray3473.bsky.social/post/3myhvjirogk2q",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kwxpje5qog6wwndagwbssatp/app.bsky.feed.post/3myhvjjbchs2u",
+        "handle": "avclub.com",
+        "text": "In a new profile in The New York Times, John Turturro discussed his training with \"sleight-of-hand artist\" Apollo Robbins to play Harry, the lead cutpurse in Noah Segan's The Only Living Pickpocket In New York.\ntinyurl.com/mr34u5ya",
+        "created_at": "2026-10-22T14:42:20.169Z",
+        "source": "https://bsky.app/profile/avclub.com/post/3myhvjjbchs2u",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6wfnj54hmvfdy2kdvpn6t3px/app.bsky.feed.post/3myhvlhtksc2w",
+        "handle": "silive.com",
+        "text": "The poll surveyed 1,167 likely voters in New York state between Oct. 15 and Oct. 19.",
+        "created_at": "2026-10-22T14:43:24.997Z",
+        "source": "https://bsky.app/profile/silive.com/post/3myhvlhtksc2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:37jn73sbusuae3gu7c2cnsb5/app.bsky.feed.post/3myhvnyp6fs2e",
+        "handle": "terlalu.bsky.social",
+        "text": "Wikipedia says the Boulevard of Linden _terminates_ in Brooklyn, so…. partial credit?",
+        "created_at": "2026-10-22T14:44:50.586Z",
+        "source": "https://bsky.app/profile/terlalu.bsky.social/post/3myhvnyp6fs2e",
+        "mapped_location": "the Boulevard of Linden",
+        "precision_level": "address",
+        "location_text": "the Boulevard of Linden",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myhvoyzrui22",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "The Irish folk horror FRÉWAKA screens Tuesday 10/27 at Nitehawk Williamsburg, presented by @thefofif.bsky.social",
+        "created_at": "2026-10-22T14:45:24.429Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myhvoyzrui22",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4qv3mh4lvzohconfosc2g255/app.bsky.feed.post/3myhvqfagff26",
+        "handle": "eastbayfoodbriefly.bsky.social",
+        "text": "Norte opens October 29, 2026 in Manhattan’s Flatiron District, offering northern Mexican live-fire prime steaks, seafood, tortillas, and limited French Dip Barbacoa.\n",
+        "created_at": "2026-10-22T14:46:10.760Z",
+        "source": "https://bsky.app/profile/eastbayfoodbriefly.bsky.social/post/3myhvqfagff26",
+        "mapped_location": "Manhattan’s Flatiron District",
+        "precision_level": "address",
+        "location_text": "Manhattan’s Flatiron District",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gxna3q4ri67de3n6qfiajlay/app.bsky.feed.post/3myhvsw6uw22k",
+        "handle": "lccoftheisland.bsky.social",
+        "text": "Fun fact:  my husband was in New York to deliver a talk at a legal conference and went to the Waldorf for lunch.\n\nThey did not have Waldorf Salad on the menu. He was horribly disappointed.",
+        "created_at": "2026-10-22T14:47:35.729Z",
+        "source": "https://bsky.app/profile/lccoftheisland.bsky.social/post/3myhvsw6uw22k",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xl4kfhwugs2denwbit76d7xk/app.bsky.feed.post/3myhvuc4z2r2p",
+        "handle": "foodndrinkbriefly.bsky.social",
+        "text": "Norte opens October 29, 2026 in Manhattan’s Flatiron District, offering northern Mexican live-fire prime steaks, seafood, tortillas, and limited French Dip Barbacoa.\n",
+        "created_at": "2026-10-22T14:48:21.560Z",
+        "source": "https://bsky.app/profile/foodndrinkbriefly.bsky.social/post/3myhvuc4z2r2p",
+        "mapped_location": "Manhattan’s Flatiron District",
+        "precision_level": "address",
+        "location_text": "Manhattan’s Flatiron District",
+        "confidence": 0.9,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jnswabkfbojdsve6w7gddltu/app.bsky.feed.post/3myhvvgxmtc2w",
+        "handle": "harforddudebum.bsky.social",
+        "text": "Some people decided that it was not important that a candidate for President had been convicted of over 30 fraud charges in a New York court, which  conviction was upheld on appeal. Donald J. Trump--first FELON to serve as POTUS, thanks to Republican Party that took no notice of this!",
+        "created_at": "2026-10-22T14:49:00.425Z",
+        "source": "https://bsky.app/profile/harforddudebum.bsky.social/post/3myhvvgxmtc2w",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.8,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

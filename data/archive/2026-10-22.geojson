@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T15:54:58.782601Z",
-    "total_pins": 77
+    "generated_at": "2026-10-22T16:08:45.349709Z",
+    "total_pins": 80
   },
   "features": [
     {
@@ -1927,6 +1927,81 @@
         "mapped_location": "GW Bridge",
         "precision_level": "address",
         "location_text": "GW Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rwp6t67rcnrdwioi6nvfjmcv/app.bsky.feed.post/3myhzyfq7nt2j",
+        "handle": "out.com",
+        "text": "This story originally appeared on Them.Oscar winner and famously gender-bending performer Tilda Swinton is set to reprise her role as a cross-dressing character named Ella/Max in an off-Broadway production of Manfred Karge’s Man to Man at New York City’s Lucille Lortel Theatre in February 2027.As...",
+        "created_at": "2026-10-22T16:02:13.216Z",
+        "source": "https://bsky.app/profile/out.com/post/3myhzyfq7nt2j",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947,
+          40.812
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b6i7yz3ucws556xbrawiptkf/app.bsky.feed.post/3myi22vdjaj2g",
+        "handle": "weact4ej.bsky.social",
+        "text": "Our 2027 Environmental Health and Justice Leadership Training cohort is open! Join us in person in Harlem on Tuesdays, Jan. 19-Mar. 2, to build skills in advocacy, organizing, and research. Dinner provided. Spots are limited, so sign up soon: forms.gle/Df5DsuEo8CRJ...",
+        "created_at": "2026-10-22T16:03:38.195Z",
+        "source": "https://bsky.app/profile/weact4ej.bsky.social/post/3myi22vdjaj2g",
+        "mapped_location": "Harlem",
+        "precision_level": "address",
+        "location_text": "Harlem",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myi2cnmood2b",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Happy Saturday vibes! 🕺🔥\nIt's time for K-dance Machine!!\nI’m the best dancing Chihuahua! 🐶🔥💃\n\n#chihuahua #higgsfieldai #happy #장모치와와 #saturday\n\nPost/video by harang_iya32\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-22T16:07:32.001Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myi2cnmood2b",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

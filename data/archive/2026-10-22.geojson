@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-22T16:59:12.515270Z",
-    "total_pins": 85
+    "generated_at": "2026-10-22T17:22:46.363392Z",
+    "total_pins": 89
   },
   "features": [
     {
@@ -2134,6 +2134,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xcygc4wejb7srod3zrcxivcw/app.bsky.feed.post/3myi5rfezt22m",
+        "handle": "romcnm.bsky.social",
+        "text": "NEW YORKERS… Don’t miss see FIRST WE BOMBED NEW MEXICO\n\nNew York Premiere at the Village East by Angelika Oct 23 - 29!",
+        "created_at": "2026-10-22T17:09:54.478Z",
+        "source": "https://bsky.app/profile/romcnm.bsky.social/post/3myi5rfezt22m",
+        "mapped_location": "the Village East",
+        "precision_level": "address",
+        "location_text": "the Village East",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tz6uzs6gfzh75ehheeg7uab3/app.bsky.feed.post/3myi5tuc3lc2c",
+        "handle": "tessatnt.bsky.social",
+        "text": "On October 22, 1938, Chester Carlson and his assistant Otto Kornei made the first xerographic copy in a rented room in Astoria, Queens.",
+        "created_at": "2026-10-22T17:11:17.225Z",
+        "source": "https://bsky.app/profile/tessatnt.bsky.social/post/3myi5tuc3lc2c",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j53elsjlcag3iuran5ezcy32/app.bsky.feed.post/3myi5xszizc2v",
+        "handle": "gregpak.net",
+        "text": "I interviewed @mikedecillis.bsky.social in Bay Ridge yesterday, and here's why you support him as he runs to flip NY-11 from red to blue! \n\ntl,dr: This is our chance to knock out the only Republican US rep in NYC!!!",
+        "created_at": "2026-10-22T17:13:30.113Z",
+        "source": "https://bsky.app/profile/gregpak.net/post/3myi5xszizc2v",
+        "mapped_location": "Bay Ridge",
+        "precision_level": "address",
+        "location_text": "Bay Ridge",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cwz6nlfcewefu3wvynan3z2j/app.bsky.feed.post/3myi6dm5ygc27",
+        "handle": "chiptunekitsune.bsky.social",
+        "text": "For our last full day, we ended up in Chinatown for a late brunch at The Golden Unicorn. NYC dim sum on a rainy day just hits differently… 🤤❤️",
+        "created_at": "2026-10-22T17:19:52.269Z",
+        "source": "https://bsky.app/profile/chiptunekitsune.bsky.social/post/3myi6dm5ygc27",
+        "mapped_location": "The Golden Unicorn",
+        "precision_level": "address",
+        "location_text": "The Golden Unicorn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

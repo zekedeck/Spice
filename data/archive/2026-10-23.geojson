@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-23T11:17:07.506530Z",
-    "total_pins": 6
+    "generated_at": "2026-10-23T15:53:39.374215Z",
+    "total_pins": 11
   },
   "features": [
     {
@@ -155,6 +155,131 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "96th Street and Broadway, New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.75
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3nd42gc3s6xwvq3dia3wyb5q/app.bsky.feed.post/3mykjo7aclc2x",
+        "handle": "ejh54.bsky.social",
+        "text": "October 23, 1946 \nThe first United Nations General Assembly, with 51 members, convened in New York City for the first time, continuing a session that had been adjourned in London in February. President Harry Truman opened the Assembly at its temporary home in Flushing Meadows",
+        "created_at": "2026-10-23T15:48:11.753Z",
+        "source": "https://bsky.app/profile/ejh54.bsky.social/post/3mykjo7aclc2x",
+        "mapped_location": "Flushing Meadows",
+        "precision_level": "address",
+        "location_text": "Flushing Meadows",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lm7qr3eg7qtqxnufvolcmcba/app.bsky.feed.post/3mykjogodrc2w",
+        "handle": "georgiosmasman.bsky.social",
+        "text": "#ChanMarshall recorded Dear Sir in December 1994 in a small basement studio near Mott Street in NYC at the same time she recorded Myra Lee (1996) w/guitarist #TimFoljahn & Sonic Youth drummer #SteveShelley  \n\n#OnThisDay October 23, 1995 #CATPOWER released her debut album Dear Sir.",
+        "created_at": "2026-10-23T15:48:19.552Z",
+        "source": "https://bsky.app/profile/georgiosmasman.bsky.social/post/3mykjogodrc2w",
+        "mapped_location": "Mott Street",
+        "precision_level": "address",
+        "location_text": "Mott Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a2xmnf73yb5c4l6ztmqha2hh/app.bsky.feed.post/3mykjqcbh4c2d",
+        "handle": "thomasfloyd.bsky.social",
+        "text": "Julia Louis-Dreyfus and Billy Crystal are among the stars shining on Broadway stages. But my favorite NYC show of the fall thus far? That’s the enchanting adaptation of “The Curious Case of Benjamin Button” at the Public Theater.",
+        "created_at": "2026-10-23T15:49:22.043Z",
+        "source": "https://bsky.app/profile/thomasfloyd.bsky.social/post/3mykjqcbh4c2d",
+        "mapped_location": "the Public Theater",
+        "precision_level": "address",
+        "location_text": "the Public Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.753
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:smdkfx7db3pbvkdfwidns4rv/app.bsky.feed.post/3mykjrswudf2i",
+        "handle": "discover.sinkan.net",
+        "text": "2026年 『Vivi A-Z at the New York Public Library』 Angela Classi (GLOBE PEQUOT PR) [Book] https://sinkan.net/isbn/9781493092857 #新刊情報 #sinkan",
+        "created_at": "2026-10-23T15:50:12.895565Z",
+        "source": "https://bsky.app/profile/discover.sinkan.net/post/3mykjrswudf2i",
+        "mapped_location": "the New York Public Library",
+        "precision_level": "address",
+        "location_text": "the New York Public Library",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.575
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyangposwu24ochdbnssohx3/app.bsky.feed.post/3mykjukhpxc2z",
+        "handle": "photokenarts.bsky.social",
+        "text": "Daily Random #897\nParachute Jump\nRiegelmann Boardwalk/Coney Island 2007\n(native vertical panorama)\n#PlaygroundOfTheWorld #Photography #ParachuteJump\n\nPhoto essays & slideshows\nphotokenarts.substack.com",
+        "created_at": "2026-10-23T15:51:44.852Z",
+        "source": "https://bsky.app/profile/photokenarts.bsky.social/post/3mykjukhpxc2z",
+        "mapped_location": "#897\nParachute Jump\nRiegelmann Boardwalk/Coney Island",
+        "precision_level": "address",
+        "location_text": "#897\nParachute Jump\nRiegelmann Boardwalk/Coney Island",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

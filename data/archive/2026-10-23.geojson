@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-23T05:55:27.694305Z",
-    "total_pins": 2
+    "generated_at": "2026-10-23T11:17:07.506530Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -53,6 +53,108 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wwbpna4jtw66gj6c3pksbiad/app.bsky.feed.post/3myk24ql5n72d",
+        "handle": "nymag.com",
+        "text": "The best NYC apartment listings available for rent (plus a few for sale) this week in neighborhoods including Bedford-Stuyvesant, Hudson Heights, Cobble Hill, Crown Heights, Noho, and the Upper West Side.",
+        "created_at": "2026-10-23T11:09:59.818Z",
+        "source": "https://bsky.app/profile/nymag.com/post/3myk24ql5n72d",
+        "mapped_location": "Bedford-Stuyvesant",
+        "precision_level": "address",
+        "location_text": "Bedford-Stuyvesant",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eriqemwys4j3kredfagzwqmi/app.bsky.feed.post/3myk26rssyd2a",
+        "handle": "curbed.com",
+        "text": "The best NYC apartment listings available for rent (plus a few for sale) this week in neighborhoods including Bedford-Stuyvesant, Hudson Heights, Cobble Hill, Crown Heights, Noho, and the Upper West Side.",
+        "created_at": "2026-10-23T11:11:08.196Z",
+        "source": "https://bsky.app/profile/curbed.com/post/3myk26rssyd2a",
+        "mapped_location": "Bedford-Stuyvesant",
+        "precision_level": "address",
+        "location_text": "Bedford-Stuyvesant",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.792
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xkwershectzm45pmoyo2ssx4/app.bsky.feed.post/3myk2gslgvk2k",
+        "handle": "riseandresist.bsky.social",
+        "text": "‼️“SAY THEIR NAMES” \n📆 Fridays\n⏰ 5-6 PM\n📍 96th Street and Broadway, New York City \n📣Join us!\nThe Rise and Resist “Say Their Names” Group will publicly read aloud the names of those killed by ICE, or in ICE custody, along with the circumstances of their deaths.",
+        "created_at": "2026-10-23T11:15:37.470Z",
+        "source": "https://bsky.app/profile/riseandresist.bsky.social/post/3myk2gslgvk2k",
+        "mapped_location": "96th Street and Broadway, New York City",
+        "precision_level": "address",
+        "location_text": "96th Street and Broadway, New York City",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "96th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9719996,
+          40.7943793
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xkwershectzm45pmoyo2ssx4/app.bsky.feed.post/3myk2gslgvk2k",
+        "handle": "riseandresist.bsky.social",
+        "text": "‼️“SAY THEIR NAMES” \n📆 Fridays\n⏰ 5-6 PM\n📍 96th Street and Broadway, New York City \n📣Join us!\nThe Rise and Resist “Say Their Names” Group will publicly read aloud the names of those killed by ICE, or in ICE custody, along with the circumstances of their deaths.",
+        "created_at": "2026-10-23T11:15:37.470Z",
+        "source": "https://bsky.app/profile/riseandresist.bsky.social/post/3myk2gslgvk2k",
+        "mapped_location": "96th Street, Broadway, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+        "precision_level": "unclassified",
+        "location_text": "96th Street",
+        "confidence": 0.64,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "96th Street and Broadway, New York City"
       }
     }
   ]

@@ -2,6 +2,8 @@ import sqlite3
 import logging
 import datetime
 
+from models import IngestedPost
+
 logger = logging.getLogger(__name__)
 
 
@@ -11,6 +13,28 @@ def init_db(db_path: str) -> sqlite3.Connection:
     conn.execute("PRAGMA busy_timeout=5000")
     conn.row_factory = sqlite3.Row
 
+    init_posts_table(conn)
+    init_geocode_cache_table(conn)
+    init_pins_table(conn)
+    init_llm_cache_table(conn)
+
+    conn.commit()
+    return conn
+
+
+# Columns added after the original posts table shipped. Same convention as
+# _PINS_MIGRATION_COLUMNS below: (column_name, SQL type/default) as passed
+# to "ALTER TABLE posts ADD COLUMN". The posts table lives in a SQLite DB
+# that persists ONLY via a GitHub Actions cache (never committed) across
+# pipeline runs, so a DB cached from a run before one of these columns
+# existed must still open cleanly -- this list, applied via
+# _migrate_posts_table, is what makes that migration-safe.
+_POSTS_MIGRATION_COLUMNS = [
+    ("source", "TEXT"),
+]
+
+
+def init_posts_table(conn) -> None:
     conn.execute("""
         CREATE TABLE IF NOT EXISTS posts (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -21,19 +45,30 @@ def init_db(db_path: str) -> sqlite3.Connection:
             text TEXT NOT NULL,
             created_at TEXT NOT NULL,
             collected_at TEXT NOT NULL,
-            processed INTEGER DEFAULT 0
+            processed INTEGER DEFAULT 0,
+            source TEXT
         )
     """)
+
+    _migrate_posts_table(conn)
 
     conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_processed ON posts (processed)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_created_at ON posts (created_at)")
 
-    init_geocode_cache_table(conn)
-    init_pins_table(conn)
-    init_llm_cache_table(conn)
 
-    conn.commit()
-    return conn
+def _migrate_posts_table(conn) -> None:
+    """Add any columns in _POSTS_MIGRATION_COLUMNS that are missing from an
+    already-existing (possibly pre-migration) posts table.
+
+    Same PRAGMA-table_info-then-ALTER-TABLE guard as _migrate_pins_table
+    below -- SQLite has no "ADD COLUMN IF NOT EXISTS", so this checks what
+    already exists and only ALTERs for what's missing, which never raises
+    against a DB cached from a prior run / older schema.
+    """
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(posts)").fetchall()}
+    for column_name, column_type in _POSTS_MIGRATION_COLUMNS:
+        if column_name not in existing:
+            conn.execute(f"ALTER TABLE posts ADD COLUMN {column_name} {column_type}")
 
 
 def init_geocode_cache_table(conn) -> None:
@@ -122,15 +157,31 @@ def _migrate_pins_table(conn) -> None:
             conn.execute(f"ALTER TABLE pins ADD COLUMN {column_name} {column_type}")
 
 
-def insert_post(conn, did, handle, post_uri, post_url, text, created_at) -> bool:
+def insert_post(conn, post: IngestedPost) -> bool:
+    """Insert a post via the IngestedPost ingestion contract (models.py).
+
+    Every collector module -- pipeline/collector.py, pipeline/
+    collector_accountlist.py, or any future source -- should construct an
+    IngestedPost and pass it here rather than poking at the posts table
+    directly. This is the one place that maps the contract's generic
+    field names (author_id) onto the posts table's columns (did, kept for
+    backward compatibility with already-cached DBs and downstream readers
+    that key off post["did"]).
+
+    Dedup is INSERT OR IGNORE against the posts.post_uri UNIQUE
+    constraint, same as before this contract existed -- a second insert
+    of a post_uri already in the table is a silent no-op, and this
+    returns False so callers can tell new vs. already-seen.
+    """
     collected_at = datetime.datetime.utcnow().isoformat()
     cursor = conn.execute(
         """
         INSERT OR IGNORE INTO posts
-            (did, handle, post_uri, post_url, text, created_at, collected_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+            (did, handle, post_uri, post_url, text, created_at, collected_at, source)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """,
-        (did, handle, post_uri, post_url, text, created_at, collected_at),
+        (post.author_id, post.handle, post.post_uri, post.post_url, post.text,
+         post.created_at, collected_at, post.source),
     )
     conn.commit()
     return cursor.rowcount > 0

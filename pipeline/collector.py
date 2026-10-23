@@ -7,6 +7,9 @@ from atproto import CAR, Client, FirehoseSubscribeReposClient, parse_subscribe_r
 
 from pipeline.database import init_db, insert_post, delete_post
 from config import DB_PATH, BSKY_HANDLE, BSKY_APP_PASSWORD
+from models import IngestedPost
+
+SOURCE_NAME = "bluesky_firehose"
 
 logger = logging.getLogger(__name__)
 
@@ -142,15 +145,16 @@ def run_collector(duration_seconds: int = 180) -> None:
 
                 post_url = build_post_url(handle, uri)
 
-                inserted = insert_post(
-                    conn,
-                    did=did,
+                ingested = IngestedPost(
+                    source=SOURCE_NAME,
+                    author_id=did,
                     handle=handle,
                     post_uri=uri,
                     post_url=post_url,
                     text=text,
                     created_at=created_at,
                 )
+                inserted = insert_post(conn, ingested)
                 if inserted:
                     logger.info("Inserted: %s", post_url)
                     post_count += 1

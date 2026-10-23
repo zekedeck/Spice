@@ -62,6 +62,23 @@ jobs:
           # minutes are unlimited and the longer run costs nothing.
           COLLECTOR_DURATION_SECONDS: "420"
 
+      - name: Run account-list collector
+        # Separate, short-lived step: pipeline/collector_accountlist.py
+        # polls config.ACCOUNT_LIST (a fixed list of handles) via a
+        # handful of quick getAuthorFeed REST calls instead of the
+        # firehose -- no multi-minute hold needed. ACCOUNT_LIST defaults
+        # to [] until the owner finalizes the real list, in which case
+        # this step is a clean no-op (logs "ACCOUNT_LIST is empty" and
+        # exits 0, no login attempted). worker.py doesn't care which
+        # collector(s) ran -- it just processes whatever's unprocessed in
+        # the posts table -- so this can run before or after "Run
+        # collector" as long as it's before "Run worker".
+        run: python -m pipeline.collector_accountlist
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          DB_PATH: data/raw/posts.db
+
       - name: Run worker
         run: python worker.py
         env:

@@ -33,6 +33,52 @@ class LocationCandidate:
 
 
 @dataclass
+class IngestedPost:
+    """The ingestion contract every collector module writes through.
+
+    A collector module (pipeline/collector.py's firehose listener,
+    pipeline/collector_accountlist.py's REST poller, or any future
+    source) builds one of these per candidate post and hands it to
+    pipeline.database.insert_post(). Nothing downstream of the `posts`
+    table -- pipeline/nlp.py, geocoder.py, llm_geotagging.py, scorer.py,
+    worker.py -- cares which collector produced a row; they all operate
+    purely on `text` and entities extracted from it. A new collector
+    module only ever needs to conform to this contract; it never needs to
+    touch downstream code.
+
+    Fields:
+      source: short string identifying which collector module wrote this
+        row, e.g. "bluesky_firehose", "bluesky_accountlist". Stored
+        verbatim in posts.source.
+      author_id: a collector-module-specific stable identifier for the
+        account that made the post (e.g. a Bluesky DID). Opaque to
+        everything downstream -- never parsed or assumed to have any
+        particular format by anything outside the collector that set it.
+        Stored in posts.did (that column's name predates this generic
+        contract; it is not Bluesky-specific in meaning).
+      handle: human-readable handle/username for the author, used for
+        display and for building post_url.
+      post_uri: a collector-module-specific stable identifier for the
+        post itself. Must be unique per post *within that source* --
+        posts.post_uri is UNIQUE across the whole table. Does not need to
+        be an AT-URI for non-Bluesky sources, just stable and unique.
+      post_url: human-clickable URL for the post.
+      text: the post's text content -- the only field anything
+        downstream of the posts table actually reads.
+      created_at: ISO-8601 timestamp string of when the post was
+        created (not when it was collected).
+    """
+
+    source: str
+    author_id: str
+    handle: str
+    post_uri: str
+    post_url: str
+    text: str
+    created_at: str
+
+
+@dataclass
 class GeoPost:
     post_uri: str
     handle: str

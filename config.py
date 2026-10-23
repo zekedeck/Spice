@@ -6,6 +6,17 @@ load_dotenv()
 BSKY_HANDLE = os.getenv("BSKY_HANDLE")
 BSKY_APP_PASSWORD = os.getenv("BSKY_APP_PASSWORD")
 
+# Bluesky account-list poller (pipeline/collector_accountlist.py) -- a
+# fixed list of account handles (or DIDs) to poll via the AT Protocol REST
+# API (getAuthorFeed) instead of the firehose. Left empty by default: the
+# owner hasn't finalized the real account list yet. With an empty list the
+# poller module is fully built and wired into the GitHub Actions workflow,
+# but stays functionally inert -- it logs that the list is empty and exits
+# cleanly without even logging in, rather than erroring. To activate it,
+# populate this with real handles, e.g.:
+#   ACCOUNT_LIST = ["someaccount.bsky.social", "another.bsky.social"]
+ACCOUNT_LIST = []
+
 # Rolling window — how many days of posts to keep in the database
 ROLLING_WINDOW_DAYS = 30
 

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-23T15:53:39.364723Z",
-    "total_pins": 115
+    "generated_at": "2026-10-23T19:57:27.292062Z",
+    "total_pins": 117
   },
   "features": [
     {
@@ -2891,6 +2891,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hmpywdrszq4ven4pavxjnme2/app.bsky.feed.post/3mykx7vop4o2c",
+        "handle": "gothamist.com",
+        "text": "Inside the Midtown Bus Terminal rebuild: Decks over Lincoln Tunnel approach, a new park gothamist.com/news/inside-...",
+        "created_at": "2026-10-23T19:50:43.169805Z",
+        "source": "https://bsky.app/profile/gothamist.com/post/3mykx7vop4o2c",
+        "mapped_location": "the Midtown Bus Terminal",
+        "precision_level": "address",
+        "location_text": "the Midtown Bus Terminal",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zfgfr6uldtlzu5kue5icou3p/app.bsky.feed.post/3mykxhmgslk2g",
+        "handle": "catlynwrites.bsky.social",
+        "text": "Can we get that here? I suggest Times Square. And please include tomatoes to throw at him.",
+        "created_at": "2026-10-23T19:55:03.091Z",
+        "source": "https://bsky.app/profile/catlynwrites.bsky.social/post/3mykxhmgslk2g",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

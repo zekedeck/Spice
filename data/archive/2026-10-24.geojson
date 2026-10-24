@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-24T14:53:56.513120Z",
-    "total_pins": 8
+    "generated_at": "2026-10-24T18:02:47.535035Z",
+    "total_pins": 14
   },
   "features": [
     {
@@ -203,6 +203,158 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3tfx3tmujqoc62w6uiqajfb/app.bsky.feed.post/3mynbdw676s2e",
+        "handle": "ratherodd.bsky.social",
+        "text": "The Joker ringing the opening bell at the New York Stock Exchange.",
+        "created_at": "2026-10-24T17:57:15.980Z",
+        "source": "https://bsky.app/profile/ratherodd.bsky.social/post/3mynbdw676s2e",
+        "mapped_location": "the New York Stock Exchange",
+        "precision_level": "address",
+        "location_text": "the New York Stock Exchange",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
+        "handle": "milanpaurich.bsky.social",
+        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
+        "created_at": "2026-10-24T17:58:04.515Z",
+        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "NYC's Paris Theater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
+        "handle": "milanpaurich.bsky.social",
+        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
+        "created_at": "2026-10-24T17:58:04.515Z",
+        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
+        "mapped_location": "NYC's Paris Theater",
+        "precision_level": "address",
+        "location_text": "NYC's Paris Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mynbj5lb2a27",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "today, partly sunny, with a high near 63. northwest wind around 5 mph. (M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (L): L trains are running with (1/2)",
+        "created_at": "2026-10-24T18:00:11.444209+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mynbj5lb2a27",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jgs7d5u46w36ziq7gngbcmlb/app.bsky.feed.post/3mynblsd5sc26",
+        "handle": "ukraine-evidence.org",
+        "text": "📅 Mon 26 Oct: where Ukraine is on the agenda\nCommission of Inquiry on Ukraine: press briefing at UN Headquarters — UN Human Rights Council, New York. Announced at the noon briefing of 23 Oct: the Chair, Erik Møse (by video from…\n\nSources and the full record: ukraine-evidence.org",
+        "created_at": "2026-10-24T18:01:39.107Z",
+        "source": "https://bsky.app/profile/ukraine-evidence.org/post/3mynblsd5sc26",
+        "mapped_location": "UN Headquarters",
+        "precision_level": "address",
+        "location_text": "UN Headquarters",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.861
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tndmw4qtrgb6tflinxfsvr22/app.bsky.feed.post/3mynblrp26o2k",
+        "handle": "node801.bsky.social",
+        "text": "Ruby-throated Hummingbird Archilochus colubris\nObserver: alexmwang1992\n#FtTryonParkNYCbiodiversity #NYC #WaHi #iNat\nwww.inaturalist.org/observations...\nvia Fort Tryon Park: #Biodiversity and Ecology #iNaturalist Project.\nwww.inaturalist.org/projects/for...",
+        "created_at": "2026-10-24T18:01:39.706Z",
+        "source": "https://bsky.app/profile/node801.bsky.social/post/3mynblrp26o2k",
+        "mapped_location": "Fort Tryon Park",
+        "precision_level": "address",
+        "location_text": "Fort Tryon Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

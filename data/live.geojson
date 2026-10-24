@@ -1,790 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-24T14:53:56.342634Z",
-    "total_pins": 66
+    "generated_at": "2026-10-24T18:02:47.532781Z",
+    "total_pins": 41
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myhwbbz3gb2f",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
-        "created_at": "2026-10-22T14:55:37.800Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myhwbbz3gb2f",
-        "mapped_location": "the Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l5iff6hthjnlc3eh5oizvnn4/app.bsky.feed.post/3myhwbeorlx24",
-        "handle": "leftwingbriefly.bsky.social",
-        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
-        "created_at": "2026-10-22T14:55:40.607Z",
-        "source": "https://bsky.app/profile/leftwingbriefly.bsky.social/post/3myhwbeorlx24",
-        "mapped_location": "the Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cimtnpntuzrl5eknqgwqtks5/app.bsky.feed.post/3myhwd475kc2f",
-        "handle": "portlandbriefly.bsky.social",
-        "text": "A daredevil climate activist climbed the Brooklyn Bridge to hang a banner urging voters to prioritize nature in the upcoming election.\n",
-        "created_at": "2026-10-22T14:56:38.680Z",
-        "source": "https://bsky.app/profile/portlandbriefly.bsky.social/post/3myhwd475kc2f",
-        "mapped_location": "the Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myhwj4wq2s27",
-        "handle": "spotdhire.bsky.social",
-        "text": "💼 Associate, Process Optimization at Oscar Health\n📍 New York, New York, United States\n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
-        "created_at": "2026-10-22T15:00:00.957Z",
-        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myhwj4wq2s27",
-        "mapped_location": "New York, New York, United States",
-        "precision_level": "address",
-        "location_text": "New York, New York, United States",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975,
-          40.745
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kfranbmsguiecpf4tybxhar5/app.bsky.feed.post/3myhwl4pwyc2o",
-        "handle": "bruesselbach.com",
-        "text": "Sketches from Queens Drink & Draw at LIC-A Factory Art Space on Tuesday with model Gio as a wizard\nNext one Nov 17th!",
-        "created_at": "2026-10-22T15:01:07.668Z",
-        "source": "https://bsky.app/profile/bruesselbach.com/post/3myhwl4pwyc2o",
-        "mapped_location": "LIC-A Factory Art Space",
-        "precision_level": "address",
-        "location_text": "LIC-A Factory Art Space",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.754
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:e63gp4dllijio5u7lqeanxwg/app.bsky.feed.post/3myhww25y6k2a",
-        "handle": "shipmanagency.bsky.social",
-        "text": "Client Ilya Kaminsky is participating in a World Poetry Salon with Carrie Erving, Chris Loxley, and Patricio Ferrari on Wednesday, November 4 at the Stavros Niarchos Foundation Library in NYC! More details here: www.nypl.org/events/progr...",
-        "created_at": "2026-10-22T15:07:14.297Z",
-        "source": "https://bsky.app/profile/shipmanagency.bsky.social/post/3myhww25y6k2a",
-        "mapped_location": "the Stavros Niarchos Foundation Library",
-        "precision_level": "address",
-        "location_text": "the Stavros Niarchos Foundation Library",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dtswhxurm7x5rgd4i3eonesl/app.bsky.feed.post/3myhxap456k2c",
-        "handle": "vesnewyork.bsky.social",
-        "text": "TONIGHT OCT 22nd! 🍻 Unwind after NAB New York at our Post NAB Industry Mixer on Thursday, Oct 22nd from 6:30 PM - 10:00 PM!\n\nJoin us at Crompton Ale House to grab a drink and talk shop with the NYC VFX community. Open to all members and non-members!\n\nRSVP at vesglobal.org 👀🎬 #VESNY #VFX",
-        "created_at": "2026-10-22T15:13:11.795Z",
-        "source": "https://bsky.app/profile/vesnewyork.bsky.social/post/3myhxap456k2c",
-        "mapped_location": "Crompton Ale House",
-        "precision_level": "address",
-        "location_text": "Crompton Ale House",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.731
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5uqqrnp7usssqvmcqwh4fuzw/app.bsky.feed.post/3myhxl3mhg227",
-        "handle": "nyvgcc.bsky.social",
-        "text": "The New York Game Awards return Jan 19 at 7PM at SVA Theatre with two new hosts!\n\nPlease welcome Lara Lunardi and @ardaocal.bsky.social to the stage!\n\nGet Tickets: events.humanitix.com/nygameawards16",
-        "created_at": "2026-10-22T15:19:00.464Z",
-        "source": "https://bsky.app/profile/nyvgcc.bsky.social/post/3myhxl3mhg227",
-        "mapped_location": "SVA Theatre",
-        "precision_level": "address",
-        "location_text": "SVA Theatre",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.008,
-          40.717
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hsj33sc7sbevkabeypqw6jz5/app.bsky.feed.post/3myhxtterzk2q",
-        "handle": "nicolewski.bsky.social",
-        "text": "If anyone is based in NYC and would like to see him this Saturday in Tribeca from 6-8p, I have tickets I very sadly can’t use. It’s going to be tapped.",
-        "created_at": "2026-10-22T15:23:53.810Z",
-        "source": "https://bsky.app/profile/nicolewski.bsky.social/post/3myhxtterzk2q",
-        "mapped_location": "Tribeca",
-        "precision_level": "address",
-        "location_text": "Tribeca",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.748,
-          40.595
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2eona5g37yso6t5c5hotjl25/app.bsky.feed.post/3myhy6tkem32r",
-        "handle": "opencongressnyc.bsky.social",
-        "text": "🗳️ The City Council passed Int 0927-2026 — Renaming one thoroughfare and public place in the Borough of Queens, Edgemere Avenue, and to amend the offici… (11–0).\nhttps://nyc.opencongress.app/votes/443638",
-        "created_at": "2026-10-22T15:30:03Z",
-        "source": "https://bsky.app/profile/opencongressnyc.bsky.social/post/3myhy6tkem32r",
-        "mapped_location": "Edgemere Avenue",
-        "precision_level": "address",
-        "location_text": "Edgemere Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.755
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:obbqix54x6u37ztxjfiftqvx/app.bsky.feed.post/3myhyfvlyks2w",
-        "handle": "drmarkpbarry.bsky.social",
-        "text": "In Korea, New York Times publisher A.G. Sulzberger warns of press threats and AI theft www.koreajoongangdaily.com/korea/origin...",
-        "created_at": "2026-10-22T15:34:00.128Z",
-        "source": "https://bsky.app/profile/drmarkpbarry.bsky.social/post/3myhyfvlyks2w",
-        "mapped_location": "New York Times",
-        "precision_level": "address",
-        "location_text": "New York Times",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vax23oilyd4ui2kmqkzupio5/app.bsky.feed.post/3myhyqo2oaq2o",
-        "handle": "thatericalper.com",
-        "text": "Sudbury’s Ron Duguay skated helmetless with flowing curls, scored 40 goals in a season for the Rangers and sang on “Hockey Sock Rock” in disco-era New York. The former NHL All-Star centre has died at 69.  zurl.co/SHggp",
-        "created_at": "2026-10-22T15:40:00.266Z",
-        "source": "https://bsky.app/profile/thatericalper.com/post/3myhyqo2oaq2o",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "disco-era New York",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.968,
-          40.865
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tmiavehpo5fucd2o27qmciy7/app.bsky.feed.post/3myhyx4ed5y2m",
-        "handle": "gbcnewsroom.bsky.social",
-        "text": "Construction works linked to Westview’s proposed land reclamation project affect parking near Westview Park\n\nhttps://gbc.gi/news/55-parking-spaces-at-midtown-car-park-available-free-to-zone-4-permit-holders-from-friday",
-        "created_at": "2026-10-22T15:43:37.467Z",
-        "source": "https://bsky.app/profile/gbcnewsroom.bsky.social/post/3myhyx4ed5y2m",
-        "mapped_location": "Westview Place Park, Linwood, Fort Lee, Bergen County, New Jersey, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Westview Park",
-        "confidence": 1.0,
-        "address_type": "park",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.953,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:onx4cwz6nzsxpfh4i2xvx237/app.bsky.feed.post/3myhyzpynpk2j",
-        "handle": "fox5ny.bsky.social",
-        "text": "Victor Romero, 62, faces murder charges in the fatal GW Bridge road rage shooting. The retired NYPD detective was previously wounded in a 2000 shootout at his family's Brooklyn laundromat.",
-        "created_at": "2026-10-22T15:45:05Z",
-        "source": "https://bsky.app/profile/fox5ny.bsky.social/post/3myhyzpynpk2j",
-        "mapped_location": "GW Bridge",
-        "precision_level": "address",
-        "location_text": "GW Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rwp6t67rcnrdwioi6nvfjmcv/app.bsky.feed.post/3myhzyfq7nt2j",
-        "handle": "out.com",
-        "text": "This story originally appeared on Them.Oscar winner and famously gender-bending performer Tilda Swinton is set to reprise her role as a cross-dressing character named Ella/Max in an off-Broadway production of Manfred Karge’s Man to Man at New York City’s Lucille Lortel Theatre in February 2027.As...",
-        "created_at": "2026-10-22T16:02:13.216Z",
-        "source": "https://bsky.app/profile/out.com/post/3myhzyfq7nt2j",
-        "mapped_location": "New York City’s",
-        "precision_level": "address",
-        "location_text": "New York City’s",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.947,
-          40.812
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:b6i7yz3ucws556xbrawiptkf/app.bsky.feed.post/3myi22vdjaj2g",
-        "handle": "weact4ej.bsky.social",
-        "text": "Our 2027 Environmental Health and Justice Leadership Training cohort is open! Join us in person in Harlem on Tuesdays, Jan. 19-Mar. 2, to build skills in advocacy, organizing, and research. Dinner provided. Spots are limited, so sign up soon: forms.gle/Df5DsuEo8CRJ...",
-        "created_at": "2026-10-22T16:03:38.195Z",
-        "source": "https://bsky.app/profile/weact4ej.bsky.social/post/3myi22vdjaj2g",
-        "mapped_location": "Harlem",
-        "precision_level": "address",
-        "location_text": "Harlem",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myi2cnmood2b",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "Happy Saturday vibes! 🕺🔥\nIt's time for K-dance Machine!!\nI’m the best dancing Chihuahua! 🐶🔥💃\n\n#chihuahua #higgsfieldai #happy #장모치와와 #saturday\n\nPost/video by harang_iya32\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-10-22T16:07:32.001Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myi2cnmood2b",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0054913,
-          40.727486
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myi2yofrtws2",
-        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
-        "text": "Canal Street between Varick Street and Hudson Street. Odd numbers\n\nVia https://digitalcollections.nypl.org/items/dd048620-c5b0-012f-6737-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Canal%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
-        "created_at": "2026-10-22T16:20:15.000Z",
-        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myi2yofrtws2",
-        "mapped_location": "Varick Street, Hudson Square, Manhattan, New York County, New York, 10014, United States",
-        "precision_level": "unclassified",
-        "location_text": "Varick Street",
-        "confidence": 0.64,
-        "address_type": "primary",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Hudson Street"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.007,
-          40.721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myi2yofrtws2",
-        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
-        "text": "Canal Street between Varick Street and Hudson Street. Odd numbers\n\nVia https://digitalcollections.nypl.org/items/dd048620-c5b0-012f-6737-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Canal%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
-        "created_at": "2026-10-22T16:20:15.000Z",
-        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myi2yofrtws2",
-        "mapped_location": "Hudson Street",
-        "precision_level": "address",
-        "location_text": "Hudson Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Varick Street"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jg3j3srkhmv4zh4v2fnmowsc/app.bsky.feed.post/3myi33v2ews2w",
-        "handle": "naturalareasnyc.bsky.social",
-        "text": "The Natural Areas Conservancy is over the moon that the American Planning Association awarded the #UrbanForestPlan the APA 2026 Resilience & Sustainability Award!\n\nCongrats to our partners at the Mayor's Office of Climate and Environmental Justice, @nycparks.bsky.social, and City Parks Foundation.",
-        "created_at": "2026-10-22T16:22:05.229Z",
-        "source": "https://bsky.app/profile/naturalareasnyc.bsky.social/post/3myi33v2ews2w",
-        "mapped_location": "the Mayor's Office of Climate and Environmental Justice",
-        "precision_level": "address",
-        "location_text": "the Mayor's Office of Climate and Environmental Justice",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ubejallcrvneojxjwovlzsud/app.bsky.feed.post/3myi36ma6es2j",
-        "handle": "ghgoodridge.bsky.social",
-        "text": "We’re slandering the founding fathers today? \n\nBet. \n\nI’d dog walk James Madison if we ran the fade. He was worried the climate in Williamsburg would make him sick.\n\nWeak constitution having ass.",
-        "created_at": "2026-10-22T16:23:36.643Z",
-        "source": "https://bsky.app/profile/ghgoodridge.bsky.social/post/3myi36ma6es2j",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.008,
-          40.719
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dyangposwu24ochdbnssohx3/app.bsky.feed.post/3myi4xoz3hs2y",
-        "handle": "photokenarts.bsky.social",
-        "text": "Daily Random #896\nPrince Street Station at Broadway\nSoHo/Manhattan NYC 2012\n#pinhole #photography #blackandwhitephotography\n\nPhoto essays & slideshows\nphotokenarts.substack.com",
-        "created_at": "2026-10-22T16:55:32.152Z",
-        "source": "https://bsky.app/profile/photokenarts.bsky.social/post/3myi4xoz3hs2y",
-        "mapped_location": "#896\nPrince Street Station",
-        "precision_level": "address",
-        "location_text": "#896\nPrince Street Station",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.727
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xcygc4wejb7srod3zrcxivcw/app.bsky.feed.post/3myi5rfezt22m",
-        "handle": "romcnm.bsky.social",
-        "text": "NEW YORKERS… Don’t miss see FIRST WE BOMBED NEW MEXICO\n\nNew York Premiere at the Village East by Angelika Oct 23 - 29!",
-        "created_at": "2026-10-22T17:09:54.478Z",
-        "source": "https://bsky.app/profile/romcnm.bsky.social/post/3myi5rfezt22m",
-        "mapped_location": "the Village East",
-        "precision_level": "address",
-        "location_text": "the Village East",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tz6uzs6gfzh75ehheeg7uab3/app.bsky.feed.post/3myi5tuc3lc2c",
-        "handle": "tessatnt.bsky.social",
-        "text": "On October 22, 1938, Chester Carlson and his assistant Otto Kornei made the first xerographic copy in a rented room in Astoria, Queens.",
-        "created_at": "2026-10-22T17:11:17.225Z",
-        "source": "https://bsky.app/profile/tessatnt.bsky.social/post/3myi5tuc3lc2c",
-        "mapped_location": "Astoria",
-        "precision_level": "address",
-        "location_text": "Astoria",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.004,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:j53elsjlcag3iuran5ezcy32/app.bsky.feed.post/3myi5xszizc2v",
-        "handle": "gregpak.net",
-        "text": "I interviewed @mikedecillis.bsky.social in Bay Ridge yesterday, and here's why you support him as he runs to flip NY-11 from red to blue! \n\ntl,dr: This is our chance to knock out the only Republican US rep in NYC!!!",
-        "created_at": "2026-10-22T17:13:30.113Z",
-        "source": "https://bsky.app/profile/gregpak.net/post/3myi5xszizc2v",
-        "mapped_location": "Bay Ridge",
-        "precision_level": "address",
-        "location_text": "Bay Ridge",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.715
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cwz6nlfcewefu3wvynan3z2j/app.bsky.feed.post/3myi6dm5ygc27",
-        "handle": "chiptunekitsune.bsky.social",
-        "text": "For our last full day, we ended up in Chinatown for a late brunch at The Golden Unicorn. NYC dim sum on a rainy day just hits differently… 🤤❤️",
-        "created_at": "2026-10-22T17:19:52.269Z",
-        "source": "https://bsky.app/profile/chiptunekitsune.bsky.social/post/3myi6dm5ygc27",
-        "mapped_location": "The Golden Unicorn",
-        "precision_level": "address",
-        "location_text": "The Golden Unicorn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.921,
-          40.596
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
-        "handle": "danieltrubman.bsky.social",
-        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
-        "created_at": "2026-10-22T17:53:01.680Z",
-        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
-        "mapped_location": "Marine Park, Brooklyn",
-        "precision_level": "address",
-        "location_text": "Marine Park, Brooklyn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Long Island, Marine Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.753,
-          40.737
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
-        "handle": "danieltrubman.bsky.social",
-        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
-        "created_at": "2026-10-22T17:53:01.680Z",
-        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
-        "mapped_location": "Long Island Motor Parkway, Queens, Queens County, New York, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Long Island",
-        "confidence": 0.445,
-        "address_type": "park",
-        "provenance": "llm_query",
-        "borough_conflict": true,
-        "specificity_score": 0.3,
-        "other_locations": "Marine Park, Brooklyn, Marine Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.596
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:shb7iwcfqmiiogzexbqekao7/app.bsky.feed.post/3myia6iqqtc2g",
-        "handle": "danieltrubman.bsky.social",
-        "text": "People get defensive about it, but a huge portion of NYC is genuinely suburban. This isn't Long Island or Westchester—it's right inside the city limits.\n\n📍 Marine Park, Brooklyn",
-        "created_at": "2026-10-22T17:53:01.680Z",
-        "source": "https://bsky.app/profile/danieltrubman.bsky.social/post/3myia6iqqtc2g",
-        "mapped_location": "Marine Park",
-        "precision_level": "address",
-        "location_text": "Marine Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Marine Park, Brooklyn, Long Island"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l5t7gno3xiuxjdkmj2iiwg2m/app.bsky.feed.post/3myiadh4ujc2k",
-        "handle": "hectorarbuckle.bsky.social",
-        "text": "newyorkyimby.com/2026/10/560-...\n\nIncredible that a 27-story building pencils out in Astoria even with 25% of its units being income-restricted to 60% AMI.",
-        "created_at": "2026-10-22T17:55:47.776Z",
-        "source": "https://bsky.app/profile/hectorarbuckle.bsky.social/post/3myiadh4ujc2k",
-        "mapped_location": "Astoria",
-        "precision_level": "address",
-        "location_text": "Astoria",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.717
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:36rhtsvuwsyyvhg2zaffbhwl/app.bsky.feed.post/3myiaehumtk2m",
-        "handle": "dizzyreader95.bsky.social",
-        "text": "Chuck posted on 16 October 2024 that he’d just done a Burbank event with CJ Leede and was now heading to New York for Comic Con, which ran 17 to 20 October. On 18 October 2024, Daniel posted a photo with CJ from the Stonewall Inn, a short subway ride from the convention. #DizzyInterjections  😂",
-        "created_at": "2026-10-22T17:56:22.108Z",
-        "source": "https://bsky.app/profile/dizzyreader95.bsky.social/post/3myiaehumtk2m",
-        "mapped_location": "the Stonewall Inn",
-        "precision_level": "address",
-        "location_text": "the Stonewall Inn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1662,6 +882,158 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3tfx3tmujqoc62w6uiqajfb/app.bsky.feed.post/3mynbdw676s2e",
+        "handle": "ratherodd.bsky.social",
+        "text": "The Joker ringing the opening bell at the New York Stock Exchange.",
+        "created_at": "2026-10-24T17:57:15.980Z",
+        "source": "https://bsky.app/profile/ratherodd.bsky.social/post/3mynbdw676s2e",
+        "mapped_location": "the New York Stock Exchange",
+        "precision_level": "address",
+        "location_text": "the New York Stock Exchange",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
+        "handle": "milanpaurich.bsky.social",
+        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
+        "created_at": "2026-10-24T17:58:04.515Z",
+        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "NYC's Paris Theater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
+        "handle": "milanpaurich.bsky.social",
+        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
+        "created_at": "2026-10-24T17:58:04.515Z",
+        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
+        "mapped_location": "NYC's Paris Theater",
+        "precision_level": "address",
+        "location_text": "NYC's Paris Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mynbj5lb2a27",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "today, partly sunny, with a high near 63. northwest wind around 5 mph. (M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (L): L trains are running with (1/2)",
+        "created_at": "2026-10-24T18:00:11.444209+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mynbj5lb2a27",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jgs7d5u46w36ziq7gngbcmlb/app.bsky.feed.post/3mynblsd5sc26",
+        "handle": "ukraine-evidence.org",
+        "text": "📅 Mon 26 Oct: where Ukraine is on the agenda\nCommission of Inquiry on Ukraine: press briefing at UN Headquarters — UN Human Rights Council, New York. Announced at the noon briefing of 23 Oct: the Chair, Erik Møse (by video from…\n\nSources and the full record: ukraine-evidence.org",
+        "created_at": "2026-10-24T18:01:39.107Z",
+        "source": "https://bsky.app/profile/ukraine-evidence.org/post/3mynblsd5sc26",
+        "mapped_location": "UN Headquarters",
+        "precision_level": "address",
+        "location_text": "UN Headquarters",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.861
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tndmw4qtrgb6tflinxfsvr22/app.bsky.feed.post/3mynblrp26o2k",
+        "handle": "node801.bsky.social",
+        "text": "Ruby-throated Hummingbird Archilochus colubris\nObserver: alexmwang1992\n#FtTryonParkNYCbiodiversity #NYC #WaHi #iNat\nwww.inaturalist.org/observations...\nvia Fort Tryon Park: #Biodiversity and Ecology #iNaturalist Project.\nwww.inaturalist.org/projects/for...",
+        "created_at": "2026-10-24T18:01:39.706Z",
+        "source": "https://bsky.app/profile/node801.bsky.social/post/3mynblrp26o2k",
+        "mapped_location": "Fort Tryon Park",
+        "precision_level": "address",
+        "location_text": "Fort Tryon Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

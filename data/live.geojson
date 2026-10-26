@@ -1,135 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-26T19:37:41.342669Z",
-    "total_pins": 24
+    "generated_at": "2026-10-26T23:25:30.642431Z",
+    "total_pins": 21
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.946,
-          40.812
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ce644vo7klub2256fzmjsac7/app.bsky.feed.post/3mynjpe6fmu2v",
-        "handle": "eternal-spotlight.bsky.social",
-        "text": "Raised in Harlem, New York, Rashaun graduated from Pace University and dreamed of becoming a television host. Adventurous and ambitious from an early age, she pursued media, relationships and entrepreneurship with enthusiasm.",
-        "created_at": "2026-10-24T20:26:47.646Z",
-        "source": "https://bsky.app/profile/eternal-spotlight.bsky.social/post/3mynjpe6fmu2v",
-        "mapped_location": "Harlem",
-        "precision_level": "address",
-        "location_text": "Harlem",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.968,
-          40.785
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:axgzlb37ybir4yek4wkcezbk/app.bsky.feed.post/3mynrbqxvlk23",
-        "handle": "mollybangles.bsky.social",
-        "text": "🪾👀\n\nRuby-crowned Kinglet in Central Park, October 2026 #birds",
-        "created_at": "2026-10-24T22:42:23.293Z",
-        "source": "https://bsky.app/profile/mollybangles.bsky.social/post/3mynrbqxvlk23",
-        "mapped_location": "Central Park",
-        "precision_level": "address",
-        "location_text": "Central Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3mynrcw7a2n22",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "the Ferrari V8 Miata\n\nPost/video by NoPlans\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-10-24T22:42:54.763Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3mynrcw7a2n22",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mynrhdxize2s",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "BEGOTTEN transforms bodies, landscape, darkness, light and grain into a physical world with its own laws \n\nThe new 4K restoration of BEGOTTEN screens 10/30 & 10/31 at midnite at Nitehawk Williamsburg",
-        "created_at": "2026-10-24T22:45:30.956Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mynrhdxize2s",
-        "mapped_location": "Nitehawk Williamsburg",
-        "precision_level": "address",
-        "location_text": "Nitehawk Williamsburg",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hrjczpe42st6khgdn5gloqi4/app.bsky.feed.post/3mynrjy5kqs2d",
-        "handle": "wordlewoman.bsky.social",
-        "text": "I lived in NYC & saw RR exit a taxi \non the upper East side. \nI was across the street. \nHe reached into the trunk, \ngot his suitcase, \nturned & walked down the sidewalk\n… and breathed the same air as the rest of us mortals…\n… sigh … 😍",
-        "created_at": "2026-10-24T22:46:59.256Z",
-        "source": "https://bsky.app/profile/wordlewoman.bsky.social/post/3mynrjy5kqs2d",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC &",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -603,6 +478,58 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ce644vo7klub2256fzmjsac7/app.bsky.feed.post/3mysujf4k652z",
+        "handle": "eternal-spotlight.bsky.social",
+        "text": "Born in Chicago to Russian Jewish immigrants and raised in Manhattan's Inwood neighborhood, Walter Koenig studied pre-med at Grinnell College, earned a psychology degree from UCLA, then trained at New York's Neighborhood Playhouse alongside Christopher Lloyd and James Caan.",
+        "created_at": "2026-10-26T23:23:37.735Z",
+        "source": "https://bsky.app/profile/eternal-spotlight.bsky.social/post/3mysujf4k652z",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's Neighborhood Playhouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ce644vo7klub2256fzmjsac7/app.bsky.feed.post/3mysujf4k652z",
+        "handle": "eternal-spotlight.bsky.social",
+        "text": "Born in Chicago to Russian Jewish immigrants and raised in Manhattan's Inwood neighborhood, Walter Koenig studied pre-med at Grinnell College, earned a psychology degree from UCLA, then trained at New York's Neighborhood Playhouse alongside Christopher Lloyd and James Caan.",
+        "created_at": "2026-10-26T23:23:37.735Z",
+        "source": "https://bsky.app/profile/eternal-spotlight.bsky.social/post/3mysujf4k652z",
+        "mapped_location": "New York's Neighborhood Playhouse",
+        "precision_level": "address",
+        "location_text": "New York's Neighborhood Playhouse",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's"
       }
     }
   ]

@@ -1,237 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-26T13:25:24.670189Z",
-    "total_pins": 29
+    "generated_at": "2026-10-26T19:37:41.342669Z",
+    "total_pins": 24
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.011,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tfuuipymuho37dloqwcd4ihp/app.bsky.feed.post/3mymww3ezec2h",
-        "handle": "fitchburgline.bsky.social",
-        "text": "yes, both better at financing massive capital investments (for better or worse re AI) and better at winning 0sum trading games (Indian options market stupidity could have made $$$ for anyone on earth, but the rents accrued in lower Manhattan)",
-        "created_at": "2026-10-24T14:50:34.270Z",
-        "source": "https://bsky.app/profile/fitchburgline.bsky.social/post/3mymww3ezec2h",
-        "mapped_location": "lower Manhattan",
-        "precision_level": "address",
-        "location_text": "lower Manhattan",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3mymwx3ioea2i",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "these are some crazy fails!! lol #fyp #explore #comedy #cars #fail\n\nPost/video by stickshiftracing\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-10-24T14:50:53.766Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3mymwx3ioea2i",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.002,
-          40.733
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jrupramacab432rcry2m7ude/app.bsky.feed.post/3mymx32xdpr2w",
-        "handle": "ebrealestbriefly.bsky.social",
-        "text": "A Greenwich Village carriage house at 9 MacDougal Alley is listed for $7,995,000 and features Pollock and Krasner studio history.\n",
-        "created_at": "2026-10-24T14:53:21.523Z",
-        "source": "https://bsky.app/profile/ebrealestbriefly.bsky.social/post/3mymx32xdpr2w",
-        "mapped_location": "9 MacDougal Alley",
-        "precision_level": "address",
-        "location_text": "9 MacDougal Alley",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.011,
-          40.707
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l3tfx3tmujqoc62w6uiqajfb/app.bsky.feed.post/3mynbdw676s2e",
-        "handle": "ratherodd.bsky.social",
-        "text": "The Joker ringing the opening bell at the New York Stock Exchange.",
-        "created_at": "2026-10-24T17:57:15.980Z",
-        "source": "https://bsky.app/profile/ratherodd.bsky.social/post/3mynbdw676s2e",
-        "mapped_location": "the New York Stock Exchange",
-        "precision_level": "address",
-        "location_text": "the New York Stock Exchange",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
-        "handle": "milanpaurich.bsky.social",
-        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
-        "created_at": "2026-10-24T17:58:04.515Z",
-        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1,
-        "other_locations": "NYC's Paris Theater"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zxywme6l3fcadilmibl436bs/app.bsky.feed.post/3mynbfehaqk2q",
-        "handle": "milanpaurich.bsky.social",
-        "text": "Amazing that the original (\"Cousin, Cousin\") played for nearly at NYC's Paris Theater back in the day when that theater was the king of Manhattan arthouses.",
-        "created_at": "2026-10-24T17:58:04.515Z",
-        "source": "https://bsky.app/profile/milanpaurich.bsky.social/post/3mynbfehaqk2q",
-        "mapped_location": "NYC's Paris Theater",
-        "precision_level": "address",
-        "location_text": "NYC's Paris Theater",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "NYC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.971,
-          40.714
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mynbj5lb2a27",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "today, partly sunny, with a high near 63. northwest wind around 5 mph. (M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (L): L trains are running with (1/2)",
-        "created_at": "2026-10-24T18:00:11.444209+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mynbj5lb2a27",
-        "mapped_location": "Myrtle Av",
-        "precision_level": "address",
-        "location_text": "Myrtle Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jgs7d5u46w36ziq7gngbcmlb/app.bsky.feed.post/3mynblsd5sc26",
-        "handle": "ukraine-evidence.org",
-        "text": "📅 Mon 26 Oct: where Ukraine is on the agenda\nCommission of Inquiry on Ukraine: press briefing at UN Headquarters — UN Human Rights Council, New York. Announced at the noon briefing of 23 Oct: the Chair, Erik Møse (by video from…\n\nSources and the full record: ukraine-evidence.org",
-        "created_at": "2026-10-24T18:01:39.107Z",
-        "source": "https://bsky.app/profile/ukraine-evidence.org/post/3mynblsd5sc26",
-        "mapped_location": "UN Headquarters",
-        "precision_level": "address",
-        "location_text": "UN Headquarters",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.861
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tndmw4qtrgb6tflinxfsvr22/app.bsky.feed.post/3mynblrp26o2k",
-        "handle": "node801.bsky.social",
-        "text": "Ruby-throated Hummingbird Archilochus colubris\nObserver: alexmwang1992\n#FtTryonParkNYCbiodiversity #NYC #WaHi #iNat\nwww.inaturalist.org/observations...\nvia Fort Tryon Park: #Biodiversity and Ecology #iNaturalist Project.\nwww.inaturalist.org/projects/for...",
-        "created_at": "2026-10-24T18:01:39.706Z",
-        "source": "https://bsky.app/profile/node801.bsky.social/post/3mynblrp26o2k",
-        "mapped_location": "Fort Tryon Park",
-        "precision_level": "address",
-        "location_text": "Fort Tryon Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -725,6 +498,106 @@
         "mapped_location": "the United Nations General Assembly",
         "precision_level": "address",
         "location_text": "the United Nations General Assembly",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pq7de7yztfxr2ynu7nvllxpc/app.bsky.feed.post/3myshi4hstk2b",
+        "handle": "travelbokke.bsky.social",
+        "text": "Times Square, in our HQ ❣️",
+        "created_at": "2026-10-26T19:30:17.949Z",
+        "source": "https://bsky.app/profile/travelbokke.bsky.social/post/3myshi4hstk2b",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d6ynivwe4gjqjlhf7johxtzz/app.bsky.feed.post/3myshi3uzr52c",
+        "handle": "gamerant.bsky.social",
+        "text": "The #SaveMassEffect petition now has a billboard in Times Square. The ad plays for 15 seconds every hour at the 35-minute mark. What's the first Mass Effect game you played?bit.ly/4zmNxuA",
+        "created_at": "2026-10-26T19:30:17Z",
+        "source": "https://bsky.app/profile/gamerant.bsky.social/post/3myshi3uzr52c",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:32nlwi2go3bna7kgju6wuxmd/app.bsky.feed.post/3myshjs2f2c23",
+        "handle": "meiss5.bsky.social",
+        "text": "(I see they’re also playing at Brooklyn Bowl in November but is hella sold out unless someone wants to sell me their tickets for face 🙂)",
+        "created_at": "2026-10-26T19:31:14.133Z",
+        "source": "https://bsky.app/profile/meiss5.bsky.social/post/3myshjs2f2c23",
+        "mapped_location": "Brooklyn Bowl",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bowl",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ci3kby2gcxnvkzoph7zhvo3p/app.bsky.feed.post/3myshudmsrs2e",
+        "handle": "socialistmajority.com",
+        "text": "After more than 6,200 (!!) ballots were cast, SMC emerges with 153 of 437 delegate seats at NYC-DSA City Convention 2026!\n\nThank you to EVERYONE who chipped in, reached out, and made this incredible effort possible.",
+        "created_at": "2026-10-26T19:37:08.100Z",
+        "source": "https://bsky.app/profile/socialistmajority.com/post/3myshudmsrs2e",
+        "mapped_location": "NYC-DSA City Convention 2026",
+        "precision_level": "address",
+        "location_text": "NYC-DSA City Convention 2026",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

@@ -1,135 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-26T06:22:51.133554Z",
-    "total_pins": 26
+    "generated_at": "2026-10-26T13:25:24.670189Z",
+    "total_pins": 29
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dib2gk7wnbovrfv5owuzgb6a/app.bsky.feed.post/3mymlk4pjzf2g",
-        "handle": "rockmusicassoc.bsky.social",
-        "text": "In The Rock 10/24/2005: Cream kick off a three night, sold out stand at Madison Square Garden, in NYC, their first concerts in the U.S. in thirty-seven years. #Cream #MSG #RockHonorRoll",
-        "created_at": "2026-10-24T11:27:01.831Z",
-        "source": "https://bsky.app/profile/rockmusicassoc.bsky.social/post/3mymlk4pjzf2g",
-        "mapped_location": "Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.008,
-          40.717
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qm33xph2ud3lf2rovodetfem/app.bsky.feed.post/3mymllnd4bk23",
-        "handle": "tds10.bsky.social",
-        "text": "It’s in Tribeca. I normally stay in nomad so it’s a bit of a different vibe",
-        "created_at": "2026-10-24T11:27:52.821Z",
-        "source": "https://bsky.app/profile/tds10.bsky.social/post/3mymllnd4bk23",
-        "mapped_location": "Tribeca",
-        "precision_level": "address",
-        "location_text": "Tribeca",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2blmkr4sjr4q6fxkpujeii7j/app.bsky.feed.post/3mymln3rgw52t",
-        "handle": "bigsmokebroke.bsky.social",
-        "text": "Madison Avenue insists emotionally exploiting humans has been proprietary technology since somebody first sold soap\r\nNEW YORK -  Researchers warning that superintelligent artificial intelligence mightsomeday manipulate human beliefs and behavior encountered unexpected opposi\nhttps://prat.uk/?p=50612",
-        "created_at": "2026-10-24T11:28:40Z",
-        "source": "https://bsky.app/profile/bigsmokebroke.bsky.social/post/3mymln3rgw52t",
-        "mapped_location": "Madison Avenue",
-        "precision_level": "address",
-        "location_text": "Madison Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2ntynvlrz6pwch2c2vpb6lze/app.bsky.feed.post/3mymlnbnsbp2k",
-        "handle": "shoreditchuk.bsky.social",
-        "text": "Madison Avenue insists emotionally exploiting humans has been proprietary technology since somebody first sold soap\r\nNEW YORK -  Researchers warning that superintelligent artificial intelligence mightsomeday manipulate human beliefs and behavior encountered unexpected opposi\nhttps://prat.uk/?p=50612",
-        "created_at": "2026-10-24T11:28:46Z",
-        "source": "https://bsky.app/profile/shoreditchuk.bsky.social/post/3mymlnbnsbp2k",
-        "mapped_location": "Madison Avenue",
-        "precision_level": "address",
-        "location_text": "Madison Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wrvzqi5w4rwpvu65fjv5yza4/app.bsky.feed.post/3mymlnlgiyg2t",
-        "handle": "londonprat.bsky.social",
-        "text": "Madison Avenue insists emotionally exploiting humans has been proprietary technology since somebody first sold soap\r\nNEW YORK -  Researchers warning that superintelligent artificial intelligence mightsomeday manipulate human beliefs and behavior encountered unexpected opposi\nhttps://prat.uk/?p=50612",
-        "created_at": "2026-10-24T11:28:56Z",
-        "source": "https://bsky.app/profile/londonprat.bsky.social/post/3mymlnlgiyg2t",
-        "mapped_location": "Madison Avenue",
-        "precision_level": "address",
-        "location_text": "Madison Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -650,6 +525,206 @@
         "mapped_location": "The Mudd Club",
         "precision_level": "address",
         "location_text": "The Mudd Club",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kkud2kx3qgcy4sypmgfg5y4/app.bsky.feed.post/3myrsqzwshs2l",
+        "handle": "famolledo.bsky.social",
+        "text": "apnews.com/video/diwali... celebration drums and dancing fill New York’s Times Square",
+        "created_at": "2026-10-26T13:19:28.704Z",
+        "source": "https://bsky.app/profile/famolledo.bsky.social/post/3myrsqzwshs2l",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wmho6q2uiyktkam3jsvrms3s/app.bsky.feed.post/3myrsscjeor2y",
+        "handle": "nbcnews.com",
+        "text": "A woman was sexually assaulted at knifepoint in New York City’s Central Park over the weekend, police say. The victim was taken to a hospital and  was stable.",
+        "created_at": "2026-10-26T13:20:11Z",
+        "source": "https://bsky.app/profile/nbcnews.com/post/3myrsscjeor2y",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7pycdzg5nl4effudeyocyiw4/app.bsky.feed.post/3myrssddtjh2e",
+        "handle": "timesunion.com",
+        "text": "Candidates in New York's 2026 elections blame a variety of culprits for the state's high utility costs.",
+        "created_at": "2026-10-26T13:20:12Z",
+        "source": "https://bsky.app/profile/timesunion.com/post/3myrssddtjh2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myrsxhni7gv2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "M, R trains are delayed in both directions while we request NYPD assistance for someone being disruptive on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-26T13:22:58.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myrsxhni7gv2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrsyj4t6k2u",
+        "handle": "sherifmnsour.bsky.social",
+        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
+        "created_at": "2026-10-26T13:23:39.515Z",
+        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrsyj4t6k2u",
+        "mapped_location": "the United Nations General Assembly",
+        "precision_level": "address",
+        "location_text": "the United Nations General Assembly",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrsz2cb7k2u",
+        "handle": "sherifmnsour.bsky.social",
+        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
+        "created_at": "2026-10-26T13:23:57.518Z",
+        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrsz2cb7k2u",
+        "mapped_location": "the United Nations General Assembly",
+        "precision_level": "address",
+        "location_text": "the United Nations General Assembly",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrszfvh5c2u",
+        "handle": "sherifmnsour.bsky.social",
+        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
+        "created_at": "2026-10-26T13:24:09.681Z",
+        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrszfvh5c2u",
+        "mapped_location": "the United Nations General Assembly",
+        "precision_level": "address",
+        "location_text": "the United Nations General Assembly",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrszpu3gk2u",
+        "handle": "sherifmnsour.bsky.social",
+        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
+        "created_at": "2026-10-26T13:24:20.123Z",
+        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrszpu3gk2u",
+        "mapped_location": "the United Nations General Assembly",
+        "precision_level": "address",
+        "location_text": "the United Nations General Assembly",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

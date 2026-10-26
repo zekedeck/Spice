@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-26T01:11:00.005460Z",
-    "total_pins": 27
+    "generated_at": "2026-10-26T06:22:51.133554Z",
+    "total_pins": 26
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.8
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3mylka55oyu25",
-        "handle": "howardweiss.bsky.social",
-        "text": "NYC Right Now, 9:30 PM: 1 Report and New Events · Oct 23\n\n1 report in NYC before 9:30 PM: stabbing / knife (East 116Th Street and Park Avenue, East Harlem (North)). Details may change....",
-        "created_at": "2026-10-24T01:30:53Z",
-        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3mylka55oyu25",
-        "mapped_location": "Park Avenue",
-        "precision_level": "address",
-        "location_text": "Park Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {

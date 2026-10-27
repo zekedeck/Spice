@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T16:27:09.628591Z",
-    "total_pins": 42
+    "generated_at": "2026-10-27T16:43:13.188908Z",
+    "total_pins": 55
   },
   "features": [
     {
@@ -1061,6 +1061,339 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunq7kyjs2n",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:27:31.563Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunq7kyjs2n",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunuzfj222v",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:30:12.862Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunuzfj222v",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "28-43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zb7ro65w46ff3chvylabi7oi/app.bsky.feed.post/3myuo2uzyls2x",
+        "handle": "kernelkorn420.bsky.social",
+        "text": "There is in NYC, I haven't come across any in NJ yet myself but I wouldn't be shocked",
+        "created_at": "2026-10-27T16:33:29.619Z",
+        "source": "https://bsky.app/profile/kernelkorn420.bsky.social/post/3myuo2uzyls2x",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
+        "handle": "kimiwei.bsky.social",
+        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
+        "created_at": "2026-10-27T16:37:40.410Z",
+        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
+        "handle": "kimiwei.bsky.social",
+        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
+        "created_at": "2026-10-27T16:37:40.410Z",
+        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
+        "mapped_location": "New York's Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "New York's Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuodexnnrk2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Euclid Av-bound C trains are delayed while we request NYPD assistance for someone being disruptive on a train at Kingston-Throop Avs.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T16:38:13.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuodexnnrk2",
+        "mapped_location": "Kingston-Throop Avs",
+        "precision_level": "address",
+        "location_text": "Kingston-Throop Avs",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6f4ltpf7z6e6mb7yp6khlvs6/app.bsky.feed.post/3myuogg6ohc2t",
+        "handle": "krazytheealaskan.bsky.social",
+        "text": "From a little bakery in lower Manhattan. I can taste it now🤤",
+        "created_at": "2026-10-27T16:39:56.698Z",
+        "source": "https://bsky.app/profile/krazytheealaskan.bsky.social/post/3myuogg6ohc2t",
+        "mapped_location": "lower Manhattan",
+        "precision_level": "address",
+        "location_text": "lower Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "Bryant Park",
+        "precision_level": "address",
+        "location_text": "Bryant Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "42nd Street, Fifth Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "42nd Street",
+        "precision_level": "address",
+        "location_text": "42nd Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bryant Park, Fifth Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "Fifth Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bryant Park, 42nd Street"
       }
     }
   ]

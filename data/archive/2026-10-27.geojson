@@ -1,8 +1,109 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T08:22:26.927057Z",
-    "total_pins": 0
+    "generated_at": "2026-10-27T14:46:18.303060Z",
+    "total_pins": 4
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9855319,
+          40.7579554
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sz5b6gf5ochtvzntue76x6x4/app.bsky.feed.post/3myuhoe7xwc2o",
+        "handle": "crankybear.net",
+        "text": "I was walking in a rainy Manhattan when a woman popped out of a stage door and clearly didn’t expect the rain. A car was waiting and the driver had the door open, but had no umbrella. I did so I walked her the 5 or so yards to the car. She turned, smiled, and said thank you.",
+        "created_at": "2026-10-27T14:39:06.886Z",
+        "source": "https://bsky.app/profile/crankybear.net/post/3myuhoe7xwc2o",
+        "mapped_location": "Manhattan, New York County, New York, United States",
+        "precision_level": "state",
+        "location_text": "rainy Manhattan",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z7csykghgpgjy6bovcxzypg3/app.bsky.feed.post/3myuhrk4ewk26",
+        "handle": "albumartworkheaven.bsky.social",
+        "text": "Holland Andrews x Methods Body — REMAIN (2026). A black panther stretches across watercolor textures, yellow eyes and pink tongue bared. Fully improvised, recorded live at Figure 8 Studios, Brooklyn. methodsbody.bandcamp.com/album/remain #AlbumCover #Experimental #Jazz",
+        "created_at": "2026-10-27T14:40:53.719Z",
+        "source": "https://bsky.app/profile/albumartworkheaven.bsky.social/post/3myuhrk4ewk26",
+        "mapped_location": "Figure 8 Studios",
+        "precision_level": "address",
+        "location_text": "Figure 8 Studios",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gdoelijdpwngph4fzqsenwuz/app.bsky.feed.post/3myuhzqbldj25",
+        "handle": "musicbriefly.bsky.social",
+        "text": "JO1 delivered a sold-out Webster Hall performance in New York City, strengthening their ongoing connection with the city through high-energy music and choreography.\n",
+        "created_at": "2026-10-27T14:45:28.549Z",
+        "source": "https://bsky.app/profile/musicbriefly.bsky.social/post/3myuhzqbldj25",
+        "mapped_location": "Webster Hall",
+        "precision_level": "address",
+        "location_text": "Webster Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myuhzrwuwg2c",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "You’ve never seen a Dracula movie like this one!\n\nDRACULA’S ANGEL screens Wednesday 11/4 at Nitehawk Williamsburg, followed by a Q&A with director Bryan Beasley",
+        "created_at": "2026-10-27T14:45:30.348Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myuhzrwuwg2c",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
 }

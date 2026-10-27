@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T18:42:38.627762Z",
-    "total_pins": 74
+    "generated_at": "2026-10-27T19:14:14.217660Z",
+    "total_pins": 78
   },
   "features": [
     {
@@ -1871,6 +1871,108 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ikzgv57aw4svgjcnhgcihkub/app.bsky.feed.post/3myuwqv7vt722",
+        "handle": "ginsburglights.bsky.social",
+        "text": "Date: 10/27/2026\nEvent: NYC Subway opens (https://en.wikipedia.org/wiki/New_York_City_Subway)\nDescription: The subway opened in 1904; it now has 472 stations. Each trunk line has a colour: red Broadway–Seventh Avenue, green Lexington, blue Eighth, orange Sixth, yellow Broadway, purple Flushing.",
+        "created_at": "2026-10-27T19:08:57.889Z",
+        "source": "https://bsky.app/profile/ginsburglights.bsky.social/post/3myuwqv7vt722",
+        "mapped_location": "NYC Subway",
+        "precision_level": "address",
+        "location_text": "NYC Subway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Seventh Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ikzgv57aw4svgjcnhgcihkub/app.bsky.feed.post/3myuwqv7vt722",
+        "handle": "ginsburglights.bsky.social",
+        "text": "Date: 10/27/2026\nEvent: NYC Subway opens (https://en.wikipedia.org/wiki/New_York_City_Subway)\nDescription: The subway opened in 1904; it now has 472 stations. Each trunk line has a colour: red Broadway–Seventh Avenue, green Lexington, blue Eighth, orange Sixth, yellow Broadway, purple Flushing.",
+        "created_at": "2026-10-27T19:08:57.889Z",
+        "source": "https://bsky.app/profile/ginsburglights.bsky.social/post/3myuwqv7vt722",
+        "mapped_location": "Seventh Avenue",
+        "precision_level": "address",
+        "location_text": "Seventh Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "NYC Subway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mjkdikqebpmgwzgymdby7wf2/app.bsky.feed.post/3myuwrjjgml2z",
+        "handle": "max-miam.bsky.social",
+        "text": "https://miam-buzz.blogspot.com/2026/10/a-new-chapter-lasting-legacy-inside.html\n\nA New Chapter, a Lasting Legacy: Inside the Studio Museum in Harlem’s Annual Gala #showbiz #sports #celebrities #lifestyle",
+        "created_at": "2026-10-27T19:09:18.134Z",
+        "source": "https://bsky.app/profile/max-miam.bsky.social/post/3myuwrjjgml2z",
+        "mapped_location": "the Studio Museum",
+        "precision_level": "address",
+        "location_text": "the Studio Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuwvmimeuk2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown Q trains are delayed while we remove a train with a mechanical problem from service at Cortelyou Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T19:11:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuwvmimeuk2",
+        "mapped_location": "Cortelyou Rd",
+        "precision_level": "address",
+        "location_text": "Cortelyou Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T19:14:14.209576Z",
-    "total_pins": 94
+    "generated_at": "2026-10-27T19:34:34.785567Z",
+    "total_pins": 99
   },
   "features": [
     {
@@ -2370,6 +2370,131 @@
         "mapped_location": "Cortelyou Rd",
         "precision_level": "address",
         "location_text": "Cortelyou Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuxrshwkxe2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown B, Q trains are delayed while we remove a train with a mechanical problem from service at Cortelyou Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T19:27:18.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuxrshwkxe2",
+        "mapped_location": "Cortelyou Rd",
+        "precision_level": "address",
+        "location_text": "Cortelyou Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy2aikirkfy7agx6axspmsbg/app.bsky.feed.post/3myuxtoqkuh2q",
+        "handle": "hiringradarjobs.com",
+        "text": "✨ Executive Assistant - REMOTE — Molina Healthcare\n\n✨ Call Center Assistant Operations Manager — Teleperformance\n📍 Remote (US)\n\n✨ Senior Administrative Assistant... — Capital One\n📍 New York, NY\n\n🔗 See all recommendations:\nhttps://hiringradarjobs.com/careers/administrative/",
+        "created_at": "2026-10-27T19:28:25.540789+00:00",
+        "source": "https://bsky.app/profile/hiringradarjobs.com/post/3myuxtoqkuh2q",
+        "mapped_location": "New York, NY",
+        "precision_level": "address",
+        "location_text": "New York, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iaugekhphtvplklq55mp3ugq/app.bsky.feed.post/3myuxx7ulx22u",
+        "handle": "jschofieldvo.bsky.social",
+        "text": "IGN.com News: Following EA's closure of BioWare, Mass Effect fans have purchased a massive #SaveMassEffect billboard in Times Square, with plans to keep pushing to save the franchise. #MassEffect #Gaming",
+        "created_at": "2026-10-27T19:30:23.969Z",
+        "source": "https://bsky.app/profile/jschofieldvo.bsky.social/post/3myuxx7ulx22u",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sd7k4uthx35couai2rnoj5tg/app.bsky.feed.post/3myuxxaooyx2d",
+        "handle": "firstelder.bsky.social",
+        "text": "A 2,000-year-old marble torso of a Roman emperor sold for $34.26 million at Sotheby’s in New York on 21 October, setting an auction record for a Roman antiquity. The sculpture previously sold for $7.36 million in 2010.\n#Auction #Antiques\ntinyurl.com/4zacvz5a",
+        "created_at": "2026-10-27T19:30:24.848Z",
+        "source": "https://bsky.app/profile/firstelder.bsky.social/post/3myuxxaooyx2d",
+        "mapped_location": "Sotheby’s",
+        "precision_level": "address",
+        "location_text": "Sotheby’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myuxygl7i62p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
+        "created_at": "2026-10-27T19:31:03.135Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myuxygl7i62p",
+        "mapped_location": "Newsroom, LIC",
+        "precision_level": "address",
+        "location_text": "Newsroom, LIC",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

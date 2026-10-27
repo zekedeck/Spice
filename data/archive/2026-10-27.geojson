@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T14:46:18.303060Z",
-    "total_pins": 4
+    "generated_at": "2026-10-27T15:29:00.282641Z",
+    "total_pins": 7
   },
   "features": [
     {
@@ -103,6 +103,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gzqwvjit3l56v7ua6zaf3csb/app.bsky.feed.post/3myukafmt2k2r",
+        "handle": "graemerowland.bsky.social",
+        "text": "\"The report offered new information from Beatrice Keul, a former Miss Switzerland, who says Trump used a pageant at the Plaza Hotel in New York City as a “hunting ground” to prey on young victims and that Trump raped her there in 1993, leaving her bleeding and bruised.\" Heather Cox Richardson",
+        "created_at": "2026-10-27T15:24:59.819Z",
+        "source": "https://bsky.app/profile/graemerowland.bsky.social/post/3myukafmt2k2r",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2qy7iv5lhkflay3rvgbsjugw/app.bsky.feed.post/3myuketpnrw2u",
+        "handle": "readjunk.bsky.social",
+        "text": "Meshuggah return to North America in 2027, celebrating the groundbreaking band’s fortieth anniversary with an extensive tour that sees the genre-defying Swedes make their debut at Red Rocks Amphitheatre and includes outings at the Brooklyn Paramount.\n\nRead More: readjunk.com/news/mu...",
+        "created_at": "2026-10-27T15:27:28.000Z",
+        "source": "https://bsky.app/profile/readjunk.bsky.social/post/3myuketpnrw2u",
+        "mapped_location": "the Brooklyn Paramount",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Paramount",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ewcbilo4r7vq357rsz4hl2yy/app.bsky.feed.post/3myukftoli22u",
+        "handle": "porcupunk.eurosky.social",
+        "text": "I think in the US in depends on the timing and location of our arrival so to speak. I am sure that in NYC with a large community it was drastically different than in my tiny NJ suburban town where I was literally 3rd kid from the USSR and I was weird and yes, Russian.",
+        "created_at": "2026-10-27T15:28:02.329Z",
+        "source": "https://bsky.app/profile/porcupunk.eurosky.social/post/3myukftoli22u",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

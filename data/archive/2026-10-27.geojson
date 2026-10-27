@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T19:43:14.139691Z",
-    "total_pins": 83
+    "generated_at": "2026-10-27T19:59:04.942618Z",
+    "total_pins": 91
   },
   "features": [
     {
@@ -2098,6 +2098,208 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3myuyqnvxxs23",
+        "handle": "nysoccerjournal.com",
+        "text": "Breel Embolo is finding his scoring form, but Atlanta isn’t getting consistent goalkeeping or defensive play, and focus is now on who should stay/who should go in 2027. Ahead of ATL vs NYC at Citi Field, caught up with @scarvesandspikes.com’s @shwrites.bsky.social for more on Atlanta United",
+        "created_at": "2026-10-27T19:44:37.758Z",
+        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3myuyqnvxxs23",
+        "mapped_location": "Citi Field",
+        "precision_level": "address",
+        "location_text": "Citi Field",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ekweknsavwbhsms2gb4yxp3s/app.bsky.feed.post/3myuyqo5pzc2s",
+        "handle": "michaeltrimboli.bsky.social",
+        "text": "“It’ll be popular in my zip code.”\n\nJust say you live in Bushwick, sir.",
+        "created_at": "2026-10-27T19:44:38.017Z",
+        "source": "https://bsky.app/profile/michaeltrimboli.bsky.social/post/3myuyqo5pzc2s",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hevgvsufpmc4yewhw2bkrot2/app.bsky.feed.post/3myuyw42l7k2v",
+        "handle": "orion64.bsky.social",
+        "text": "I grew up in Brooklyn, New York. We have our had, a mall, Kings Plaza. After I saw Dawn of the Dead (and before I wrote my zombie novels & anthology) I used to eyeball it, wondering if it too, could be blocked off like in the movie!",
+        "created_at": "2026-10-27T19:47:40.366Z",
+        "source": "https://bsky.app/profile/orion64.bsky.social/post/3myuyw42l7k2v",
+        "mapped_location": "Kings Plaza",
+        "precision_level": "address",
+        "location_text": "Kings Plaza",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euedffsufmliorbvc5fpe5cg/app.bsky.feed.post/3myuyw5lzak2h",
+        "handle": "fuzym.bsky.social",
+        "text": "Trump Accused of Brutally Raping Former Miss Switzerland at Plaza Hotel in 1993. \n\nBeatrice Keul, a former model and Miss Switzerland contestant, alleged to congressional staff that Donald Trump raped her in a suite at the Plaza Hotel in Manhattan in November 1993.",
+        "created_at": "2026-10-27T19:47:41.986Z",
+        "source": "https://bsky.app/profile/fuzym.bsky.social/post/3myuyw5lzak2h",
+        "mapped_location": "Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euedffsufmliorbvc5fpe5cg/app.bsky.feed.post/3myuyw5lzak2h",
+        "handle": "fuzym.bsky.social",
+        "text": "Trump Accused of Brutally Raping Former Miss Switzerland at Plaza Hotel in 1993. \n\nBeatrice Keul, a former model and Miss Switzerland contestant, alleged to congressional staff that Donald Trump raped her in a suite at the Plaza Hotel in Manhattan in November 1993.",
+        "created_at": "2026-10-27T19:47:41.986Z",
+        "source": "https://bsky.app/profile/fuzym.bsky.social/post/3myuyw5lzak2h",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ac2ouzqymr32xttu35cszvyh/app.bsky.feed.post/3myuyzo44ek2k",
+        "handle": "sassysister27.bsky.social",
+        "text": "🆘 Is Will a forgotten dog?\n\nDespite his sweetness, intelligence & charm this playful pup has been overlooked time & again!\n\nWill has been here over 239 days!\nHe’s currently the LONGEST-stay pup at Manhattan ACC.\n\nThis social & affectionate boy has\na lot of enthusiasm & a gentle heart.\n\n🙏Pls Share me",
+        "created_at": "2026-10-27T19:49:39.954Z",
+        "source": "https://bsky.app/profile/sassysister27.bsky.social/post/3myuyzo44ek2k",
+        "mapped_location": "Manhattan ACC",
+        "precision_level": "address",
+        "location_text": "Manhattan ACC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:as6mo7wfho432wdp7qikxgus/app.bsky.feed.post/3myuz2vwwdg25",
+        "handle": "spotwatch.bsky.social",
+        "text": "Brew Watches shows Metric Chrono Taxi at WindUp NYC\n\nNEW VIDEO Brew Watches shows Metric Chrono Taxi at WindUp NYC Brew Watches published its WindUp NYC recap…...",
+        "created_at": "2026-10-27T19:50:21Z",
+        "source": "https://bsky.app/profile/spotwatch.bsky.social/post/3myuz2vwwdg25",
+        "mapped_location": "WindUp NYC Brew Watches",
+        "precision_level": "address",
+        "location_text": "WindUp NYC Brew Watches",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:go43sbggjo2lwj26fq34pfqq/app.bsky.feed.post/3myuzcno66s2f",
+        "handle": "jeremydauber.bsky.social",
+        "text": "their tribe, of a sort. Times Square is recast not as a menace, but as a source of, let's call it, wholesome dirtbag energy. Even Tim Curry, a kind of watching godfather, approves; and the two girls, while not ending up together exactly, manage to maintain a kind of (cinematically enforced platonic)",
+        "created_at": "2026-10-27T19:54:41.488Z",
+        "source": "https://bsky.app/profile/jeremydauber.bsky.social/post/3myuzcno66s2f",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

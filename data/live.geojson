@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T20:40:35.975402Z",
-    "total_pins": 114
+    "generated_at": "2026-10-27T20:57:08.692786Z",
+    "total_pins": 116
   },
   "features": [
     {
@@ -2877,6 +2877,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:soal4g4wnurb73t2ydbfplxz/app.bsky.feed.post/3myv4m5hpl22a",
+        "handle": "brokwindsor.bsky.social",
+        "text": "I lived in NYC for 20 years in  Greenwich and I would probably see him 2-3 times a year at Cafe Reggio, which was my favourite coffee joint.",
+        "created_at": "2026-10-27T20:53:41.269Z",
+        "source": "https://bsky.app/profile/brokwindsor.bsky.social/post/3myv4m5hpl22a",
+        "mapped_location": "Cafe Reggio",
+        "precision_level": "address",
+        "location_text": "Cafe Reggio",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:72qwv7uxncdxh3slkdm7ioso/app.bsky.feed.post/3myv4pjm2222c",
+        "handle": "angelasfeathers.bsky.social",
+        "text": "time.com/article/2026...\n\nKeul, former Miss Switzerland,  said Trump raped her at Plaza Hotel in New York City in November 1993 & left bruised & bleeding & rape was brutal .  At Donald J. Trump American Dream Pageant, Keul participated as a contestant.\nTrump promised a U.S. visa",
+        "created_at": "2026-10-27T20:55:34.655Z",
+        "source": "https://bsky.app/profile/angelasfeathers.bsky.social/post/3myv4pjm2222c",
+        "mapped_location": "Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

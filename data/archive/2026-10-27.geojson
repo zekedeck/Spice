@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T16:02:05.653627Z",
-    "total_pins": 24
+    "generated_at": "2026-10-27T16:18:45.334354Z",
+    "total_pins": 29
   },
   "features": [
     {
@@ -603,6 +603,131 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3myumbxd7x5j2",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-27T16:01:26.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3myumbxd7x5j2",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2lt3t6u6e7wqgb2vhpkmfdvu/app.bsky.feed.post/3myumjgq5g72f",
+        "handle": "univpressofkansas.bsky.social",
+        "text": "Discover the lasting legacy of Julia Gardiner Tyler at Turn the Page Bookshop in Williamsburg, Virginia, on Friday, November 6, at 6PM EST. The event will include an author discussion, Q&A, and book signing.\n\nLearn more about \"Presidentess\": https://kansaspress.ku.edu/9780700642670/\n\n#UPKansas",
+        "created_at": "2026-10-27T16:05:49.385987066Z",
+        "source": "https://bsky.app/profile/univpressofkansas.bsky.social/post/3myumjgq5g72f",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uayeidmvjjwhipnmvtbn7kwl/app.bsky.feed.post/3myumnceivs2x",
+        "handle": "ekshelton.bsky.social",
+        "text": "Looks pricey, but fabulous. On Orchard Street, NYC.",
+        "created_at": "2026-10-27T16:08:00.088Z",
+        "source": "https://bsky.app/profile/ekshelton.bsky.social/post/3myumnceivs2x",
+        "mapped_location": "Orchard Street",
+        "precision_level": "address",
+        "location_text": "Orchard Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dfpzrp4ef6vs2gtzruarsgql/app.bsky.feed.post/3myumpbkb722h",
+        "handle": "dolphan39.bsky.social",
+        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to Judiciary Committee staff that she was raped by Trump in a Plaza Hotel suite in Manhattan when she was 24. \n\nwww.yahoo.com/news/politic...",
+        "created_at": "2026-10-27T16:09:06.340Z",
+        "source": "https://bsky.app/profile/dolphan39.bsky.social/post/3myumpbkb722h",
+        "mapped_location": "a Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "a Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tdufebaafwb2zhmvdk6gw7bx/app.bsky.feed.post/3myun3vmrks2n",
+        "handle": "bronsays.bsky.social",
+        "text": "The report offered new information from Beatrice Keul, a former Miss Switzerland, who says Trump used a pageant at the Plaza Hotel in New York City as a “hunting ground” to prey on young victims and that Trump raped her there in 1993, leaving her bleeding and bruised.\n\n#Epstein The #GOP own this!",
+        "created_at": "2026-10-27T16:16:10.048Z",
+        "source": "https://bsky.app/profile/bronsays.bsky.social/post/3myun3vmrks2n",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

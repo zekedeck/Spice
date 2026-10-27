@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T16:51:26.123382Z",
-    "total_pins": 59
+    "generated_at": "2026-10-27T17:23:13.612646Z",
+    "total_pins": 65
   },
   "features": [
     {
@@ -1492,6 +1492,156 @@
         "confidence": 0.49,
         "address_type": "administrative",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lapueehwikkodx2szs3r7gei/app.bsky.feed.post/3myuq2h7irs2v",
+        "handle": "blurbette.blacksky.app",
+        "text": "So this mofo called me on my Nokia with the slide keyboard whilst on our way to Times Square because his bank was alerting him to her every purchase. \n\n“Jocelyn, I can literally map your locations from the bank alerts. Get my card back from her!”\n\nAcross from the Disney store and H&M? 😂😂 see pic/txt",
+        "created_at": "2026-10-27T17:09:02.601Z",
+        "source": "https://bsky.app/profile/blurbette.blacksky.app/post/3myuq2h7irs2v",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97,
+          40.58
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ddo2sqibuwq4kqufq37ktwxj/app.bsky.feed.post/3myuq3jzy2p2j",
+        "handle": "samfisher90.bsky.social",
+        "text": "Mamdani celebrates $2 million investment in the New York Aquarium with Pickles the seal",
+        "created_at": "2026-10-27T17:09:39Z",
+        "source": "https://bsky.app/profile/samfisher90.bsky.social/post/3myuq3jzy2p2j",
+        "mapped_location": "the New York Aquarium with Pickles",
+        "precision_level": "address",
+        "location_text": "the New York Aquarium with Pickles",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4e56qnaqzwpwg4b2hs6uo2de/app.bsky.feed.post/3myuq54izaq26",
+        "handle": "tekthrill.bsky.social",
+        "text": "An $89K humanoid robot loose in a NYC park 🤖🌳\n\nFaraday Future's robot sang to kids in Brooklyn Bridge Park, steered by remote. The goal: a future babysitter, teacher or companion.\n\n▶️ https://youtube.com/shorts/eFqeL_ZYHp0\n#Robot #AI",
+        "created_at": "2026-10-27T17:10:31.000Z",
+        "source": "https://bsky.app/profile/tekthrill.bsky.social/post/3myuq54izaq26",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2hf2oy7klxldmtznuz2zdpvm/app.bsky.feed.post/3myuqeb7d2k2f",
+        "handle": "diandramae.com",
+        "text": "Yeah, that's pretty much where I am, too. 😭 Like, we can't even really mail in postcards anymore to promote ourselves (thank god my agency is in NYC & hosts events), and conferences are so expensive. Social media & a website (+newsletters) are what we're stuck with. 🙃",
+        "created_at": "2026-10-27T17:14:31.844Z",
+        "source": "https://bsky.app/profile/diandramae.com/post/3myuqeb7d2k2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC &",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e55sdg7avbg2ab6ia3xpvlth/app.bsky.feed.post/3myuqjmohwc2b",
+        "handle": "bklyndigitalmedia.bsky.social",
+        "text": "Thanks again for signing my copy before the After Hours screening at the Alamo Drafthouse in Brooklyn five years ago.",
+        "created_at": "2026-10-27T17:17:31.648Z",
+        "source": "https://bsky.app/profile/bklyndigitalmedia.bsky.social/post/3myuqjmohwc2b",
+        "mapped_location": "the Alamo Drafthouse",
+        "precision_level": "address",
+        "location_text": "the Alamo Drafthouse",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ehmnhygqp3wlwxx27o6qxo2r/app.bsky.feed.post/3myuqq6s27s26",
+        "handle": "katiestereo.bsky.social",
+        "text": "Peak social media right now: New Yorkers emotionally processing a functioning Van Wyck",
+        "created_at": "2026-10-27T17:21:11.968Z",
+        "source": "https://bsky.app/profile/katiestereo.bsky.social/post/3myuqq6s27s26",
+        "mapped_location": "functioning Van Wyck",
+        "precision_level": "address",
+        "location_text": "functioning Van Wyck",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

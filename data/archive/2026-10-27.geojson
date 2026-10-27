@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T15:29:00.282641Z",
-    "total_pins": 7
+    "generated_at": "2026-10-27T15:45:19.114626Z",
+    "total_pins": 13
   },
   "features": [
     {
@@ -178,6 +178,156 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8283132,
+          40.7135078
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3ed3w7yseqgyyyphiuqadwb/app.bsky.feed.post/3myukluulev2c",
+        "handle": "quzusmart.bsky.social",
+        "text": "Halloween is Saturday 🎃 Your doorbell is about to get busy.\n\nA smart video doorbell shows you who's at the door on your phone, before you open it.\n\nQuzuSmart installs Ring doorbells in Queens & NYC.\nFree estimate: quzusmart.com · 929-336-8714\n#QueensSecurity",
+        "created_at": "2026-10-27T15:31:24.656Z",
+        "source": "https://bsky.app/profile/quzusmart.bsky.social/post/3myukluulev2c",
+        "mapped_location": "Queens, Queens County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Queens & NYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f3w3jqso2iomtxk2cethm4kl/app.bsky.feed.post/3myuknav4ws26",
+        "handle": "settersnick19.bsky.social",
+        "text": "Back at Times Square #MULTIVERSEAU #HALLOWEEN2026",
+        "created_at": "2026-10-27T15:32:11.047Z",
+        "source": "https://bsky.app/profile/settersnick19.bsky.social/post/3myuknav4ws26",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square #",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hjbpeg5qby5kidhxy5uqodx6/app.bsky.feed.post/3myukrjfd622d",
+        "handle": "rememberxyz.bsky.social",
+        "text": "Mitchell, born in Chicago and Smith, born in Boston, were in their twenties when they first arrived in New York - Mitchell in 1949 and Smith around the same time. Mitchell and Smith both debuted their paintings in the landmark 1951 Ninth Street Show at the New Gallery.",
+        "created_at": "2026-10-27T15:34:34.193Z",
+        "source": "https://bsky.app/profile/rememberxyz.bsky.social/post/3myukrjfd622d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York - Mitchell",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:65b3kbil47einb4qjb232cot/app.bsky.feed.post/5lobwdnnfm32g",
+        "handle": "illustration-jobs.com",
+        "text": "✨ New job: Paid Gig: Live Dog Sketch Artist for a Birthday Party 🐾 ($250 + Tacos, Margs & Cupcakes) ✨\n\n💼 Freelance / Contract\n📍 Williamsburg, NY, United States",
+        "created_at": "2026-10-27T15:35:12.565Z",
+        "source": "https://bsky.app/profile/illustration-jobs.com/post/5lobwdnnfm32g",
+        "mapped_location": "Williamsburg, NY, United States",
+        "precision_level": "address",
+        "location_text": "Williamsburg, NY, United States",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6fx2zgj6vbfno37n7nuq2rl/app.bsky.feed.post/3myul3n7oae2n",
+        "handle": "charlotteobserver.com",
+        "text": "The fast-casual restaurant debuts at Queensbridge Collective — and its founder already has her eye on a second Charlotte neighborhood.",
+        "created_at": "2026-10-27T15:40:13Z",
+        "source": "https://bsky.app/profile/charlotteobserver.com/post/3myul3n7oae2n",
+        "mapped_location": "Queensbridge Collective",
+        "precision_level": "address",
+        "location_text": "Queensbridge Collective",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9614554,
+          40.7961299
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hj355d7how56vuuq5m4wwfy3/app.bsky.feed.post/3myul3yv6zc2j",
+        "handle": "theoff-keybard.bsky.social",
+        "text": "🚇 Oct. 27, 1904: NYC's first permanent subway opened, stretching 9.1 miles across 28 stations for a nickel a ride.   \n\n🚦 The Mayor's Joyride: Mayor George B. McClellan Jr. took the controls for the ceremonial start, and kept driving all the way to 103rd Street.",
+        "created_at": "2026-10-27T15:40:25.986Z",
+        "source": "https://bsky.app/profile/theoff-keybard.bsky.social/post/3myul3yv6zc2j",
+        "mapped_location": "103rd Street, Central Park West, Manhattan Community Board 7, Manhattan, New York County, New York, 11025, United States",
+        "precision_level": "unclassified",
+        "location_text": "103rd Street",
+        "confidence": 0.64,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

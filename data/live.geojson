@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T17:15:14.279733Z",
-    "total_pins": 81
+    "generated_at": "2026-10-27T17:31:13.259214Z",
+    "total_pins": 86
   },
   "features": [
     {
@@ -2046,6 +2046,133 @@
         "provenance": "llm_accept",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e55sdg7avbg2ab6ia3xpvlth/app.bsky.feed.post/3myuqjmohwc2b",
+        "handle": "bklyndigitalmedia.bsky.social",
+        "text": "Thanks again for signing my copy before the After Hours screening at the Alamo Drafthouse in Brooklyn five years ago.",
+        "created_at": "2026-10-27T17:17:31.648Z",
+        "source": "https://bsky.app/profile/bklyndigitalmedia.bsky.social/post/3myuqjmohwc2b",
+        "mapped_location": "the Alamo Drafthouse",
+        "precision_level": "address",
+        "location_text": "the Alamo Drafthouse",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ehmnhygqp3wlwxx27o6qxo2r/app.bsky.feed.post/3myuqq6s27s26",
+        "handle": "katiestereo.bsky.social",
+        "text": "Peak social media right now: New Yorkers emotionally processing a functioning Van Wyck",
+        "created_at": "2026-10-27T17:21:11.968Z",
+        "source": "https://bsky.app/profile/katiestereo.bsky.social/post/3myuqq6s27s26",
+        "mapped_location": "functioning Van Wyck",
+        "precision_level": "address",
+        "location_text": "functioning Van Wyck",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hleqckmxi73f7bravwbyc5jj/app.bsky.feed.post/3myur2w34ok2m",
+        "handle": "alte.klezmor.im",
+        "text": "stuck at home w/ a cold again today, so poking around online to find more about him (Max Thaler, Buenos Aires born klezmer musician played for Galician landsmanshaftn in NYC 1940s-60s). figured out that his dad Elias Thaler (1884–1938) was a fruit peddler in NY probably born in Lviv.",
+        "created_at": "2026-10-27T17:27:11.925Z",
+        "source": "https://bsky.app/profile/alte.klezmor.im/post/3myur2w34ok2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
+        "handle": "hops45.bsky.social",
+        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
+        "created_at": "2026-10-27T17:30:17.327Z",
+        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
+        "mapped_location": "the Ed Koch Queensboro Bridge",
+        "precision_level": "address",
+        "location_text": "the Ed Koch Queensboro Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the FDR Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
+        "handle": "hops45.bsky.social",
+        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
+        "created_at": "2026-10-27T17:30:17.327Z",
+        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
+        "mapped_location": "the FDR Drive",
+        "precision_level": "address",
+        "location_text": "the FDR Drive",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Ed Koch Queensboro Bridge"
       }
     }
   ]

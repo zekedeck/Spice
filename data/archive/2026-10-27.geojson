@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T17:31:13.262507Z",
-    "total_pins": 68
+    "generated_at": "2026-10-27T17:40:05.321493Z",
+    "total_pins": 70
   },
   "features": [
     {
@@ -1721,6 +1721,56 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "the Ed Koch Queensboro Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v3tnp2x6agum47nllsbpcnu5/app.bsky.feed.post/3myurnhfxrs2d",
+        "handle": "achronalart.bsky.social",
+        "text": "A dear old relative of mine lived in Brighton Beach for many decades and after a while it definitely had that reputation in NYC too.",
+        "created_at": "2026-10-27T17:37:34.091Z",
+        "source": "https://bsky.app/profile/achronalart.bsky.social/post/3myurnhfxrs2d",
+        "mapped_location": "Brighton Beach",
+        "precision_level": "address",
+        "location_text": "Brighton Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oh5xyaecmavvwfdj52exwwry/app.bsky.feed.post/3myuroiszqk2c",
+        "handle": "eternaleyeroll.bsky.social",
+        "text": "Of course there are Jews in Brighton Beach, but if any New Yorker says that the 1st word to come to mind is anything other than “Russian” they’re full of shit.",
+        "created_at": "2026-10-27T17:38:09.110Z",
+        "source": "https://bsky.app/profile/eternaleyeroll.bsky.social/post/3myuroiszqk2c",
+        "mapped_location": "Brighton Beach",
+        "precision_level": "address",
+        "location_text": "Brighton Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T16:18:45.331625Z",
-    "total_pins": 47
+    "generated_at": "2026-10-27T16:35:09.757402Z",
+    "total_pins": 66
   },
   "features": [
     {
@@ -1180,6 +1180,492 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pexamkyvzuvnv2ajakvxv7jz/app.bsky.feed.post/3myuncfri5c2h",
+        "handle": "bloomer0422.bsky.social",
+        "text": "Lee Krasner is a key figure in American art, whose energetic work reflects the spirit of possibility in post-war New York.\n\nAbstract No. 2, 1947 \nPollock-Krasner\nFoundation\nLee Krasner • 1947/1947\nBarbican Centre\n#OctoberBirthdayArtistParty",
+        "created_at": "2026-10-27T16:19:48.301Z",
+        "source": "https://bsky.app/profile/bloomer0422.bsky.social/post/3myuncfri5c2h",
+        "mapped_location": "post-war New York",
+        "precision_level": "address",
+        "location_text": "post-war New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3myundfyf3z24",
+        "handle": "qncnews.bsky.social",
+        "text": "Nanotyrannus Skeleton Jodi Heads to Sotheby’s With $6m Estimate\n\nJodi, a mounted Nanotyrannus once mistaken for a young T. rex, goes on sale at Sotheby's New York with an estimate of $6 million to $9 million.",
+        "created_at": "2026-10-27T16:20:21Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3myundfyf3z24",
+        "mapped_location": "Sotheby's New York",
+        "precision_level": "address",
+        "location_text": "Sotheby's New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:52fsavypoiclkoutdszxo6gc/app.bsky.feed.post/3myuneqyfms2g",
+        "handle": "akatzel.bsky.social",
+        "text": "There is only one cheesecake factory. \n\nIt is called Junior’s. And it is located on Flatbush Avenue in Brooklyn.",
+        "created_at": "2026-10-27T16:21:07.173Z",
+        "source": "https://bsky.app/profile/akatzel.bsky.social/post/3myuneqyfms2g",
+        "mapped_location": "Flatbush Avenue",
+        "precision_level": "address",
+        "location_text": "Flatbush Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myuney5m6h2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:21:14.616Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myuney5m6h2s",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myuney5m6h2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:21:14.616Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myuney5m6h2s",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myunifnobke2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "East 96th Street between 2nd Avenue and 3rd Avenue Even numbers\n\nVia https://digitalcollections.nypl.org/items/3510a510-c5ae-012f-4ee6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=East%2096th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-27T16:22:27.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myunifnobke2",
+        "mapped_location": "2nd Avenue",
+        "precision_level": "address",
+        "location_text": "2nd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "3rd Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myunifnobke2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "East 96th Street between 2nd Avenue and 3rd Avenue Even numbers\n\nVia https://digitalcollections.nypl.org/items/3510a510-c5ae-012f-4ee6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=East%2096th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-27T16:22:27.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myunifnobke2",
+        "mapped_location": "3rd Avenue",
+        "precision_level": "address",
+        "location_text": "3rd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "2nd Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6e6du2mhjdqqgbvdhd3ttyho/app.bsky.feed.post/3myunivcn6u2z",
+        "handle": "mulaneymirror.bsky.social",
+        "text": "Tickets on sale now for Mulaney Takes Manhattan, January 11 at The Music Box Theatre. Tickets at and\n\nOriginal post",
+        "created_at": "2026-10-27T16:23:25.731Z",
+        "source": "https://bsky.app/profile/mulaneymirror.bsky.social/post/3myunivcn6u2z",
+        "mapped_location": "The Music Box Theatre",
+        "precision_level": "address",
+        "location_text": "The Music Box Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
+        "handle": "lawbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:29.352Z",
+        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
+        "handle": "lawbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:29.352Z",
+        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:31.963Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:31.963Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:547tkow4s7l2xxbvobt2rpt3/app.bsky.feed.post/3myunk5b5tc2c",
+        "handle": "ezraabrams.bsky.social",
+        "text": "you all may not know this but the 3 story pink marble clad atrium of Trump Tower, in NYC, is *exactly this esthetic\n\nand one can even go back to Trump Village, Trump Sr housing near Coney Island, and look at the lobbys to see similar",
+        "created_at": "2026-10-27T16:24:07.817Z",
+        "source": "https://bsky.app/profile/ezraabrams.bsky.social/post/3myunk5b5tc2c",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunq7kyjs2n",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:27:31.563Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunq7kyjs2n",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunuzfj222v",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:30:12.862Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunuzfj222v",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "28-43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zb7ro65w46ff3chvylabi7oi/app.bsky.feed.post/3myuo2uzyls2x",
+        "handle": "kernelkorn420.bsky.social",
+        "text": "There is in NYC, I haven't come across any in NJ yet myself but I wouldn't be shocked",
+        "created_at": "2026-10-27T16:33:29.619Z",
+        "source": "https://bsky.app/profile/kernelkorn420.bsky.social/post/3myuo2uzyls2x",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

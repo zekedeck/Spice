@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T21:24:13.978805Z",
-    "total_pins": 102
+    "generated_at": "2026-10-27T21:40:10.111382Z",
+    "total_pins": 104
   },
   "features": [
     {
@@ -2570,6 +2570,56 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p2tpkccfd7p4a4c47zwnz2oe/app.bsky.feed.post/3myv6sa57o225",
+        "handle": "thedowntown500.bsky.social",
+        "text": "They know Christian's and Jews in fact the Jewish cops and th help each other and know eachother cause they used to sell drugs in nyc too. I guess they paid her bills or all's the women and made a fleet of sucide jihadist in cars trucks planes in the United Nations and in the street, this is who",
+        "created_at": "2026-10-27T21:32:52.868Z",
+        "source": "https://bsky.app/profile/thedowntown500.bsky.social/post/3myv6sa57o225",
+        "mapped_location": "the United Nations",
+        "precision_level": "address",
+        "location_text": "the United Nations",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999,
+          40.703
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myv757xnus25",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 27, 1926: The laying of the keel for the cruiser Pensacola at the Brooklyn Navy Yard. American Federation of Labor chief William Green (marked by a 1) is given the honor of driving the first rivet, standing at the side of Rear Adm. Charles Plunkett (2).",
+        "created_at": "2026-10-27T21:39:01.779Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myv757xnus25",
+        "mapped_location": "the Brooklyn Navy Yard.",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Navy Yard.",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

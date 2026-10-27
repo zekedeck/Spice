@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T20:10:36.882777Z",
-    "total_pins": 112
+    "generated_at": "2026-10-27T20:40:35.975402Z",
+    "total_pins": 114
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5bniifpv6vyhuu2esrrwb7sd/app.bsky.feed.post/3myq2p2yqg22v",
-        "handle": "nytupelo7.bsky.social",
-        "text": "They were wrongfully convicted of the 1989 rape & assault of a female jogger, Trisha Meili, in New York City's Central Park.",
-        "created_at": "2026-10-25T20:36:13.166Z",
-        "source": "https://bsky.app/profile/nytupelo7.bsky.social/post/3myq2p2yqg22v",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York City's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -2827,6 +2802,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ccscygoww4uf76s5eyu7pqut/app.bsky.feed.post/3myv3antma22q",
+        "handle": "michaelwarburton.bsky.social",
+        "text": "WILLEM DAFOE’s lived in the same SoHo loft for 46yrs.\n\nDespite 4 decades of super-stardom, he walks everywhere, takes the subway, and moves around the ‘Big Apple’ like any other New Yorker.",
+        "created_at": "2026-10-27T20:29:22.041Z",
+        "source": "https://bsky.app/profile/michaelwarburton.bsky.social/post/3myv3antma22q",
+        "mapped_location": "the ‘Big Apple",
+        "precision_level": "address",
+        "location_text": "the ‘Big Apple",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ib3ohbmp3f2bgspqyuzlfjrn/app.bsky.feed.post/3myv3mb4nlk2s",
+        "handle": "morganpaul69.bsky.social",
+        "text": "Didn’t Trump say, that as president, he could shoot someone in Times Square and get away with it?  Maybe he should finally admit to something. He’s going to pardon himself anyway so…",
+        "created_at": "2026-10-27T20:35:51.357Z",
+        "source": "https://bsky.app/profile/morganpaul69.bsky.social/post/3myv3mb4nlk2s",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myv3r5hj7bp2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "L trains are running with delays in both directions while we address a signal problem near Canarsie-Rockaway Pkwy.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T20:38:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myv3r5hj7bp2",
+        "mapped_location": "Canarsie-Rockaway Pkwy",
+        "precision_level": "address",
+        "location_text": "Canarsie-Rockaway Pkwy",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

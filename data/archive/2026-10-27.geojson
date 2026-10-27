@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T17:40:05.321493Z",
-    "total_pins": 70
+    "generated_at": "2026-10-27T17:57:29.066110Z",
+    "total_pins": 73
   },
   "features": [
     {
@@ -1766,6 +1766,81 @@
         "mapped_location": "Brighton Beach",
         "precision_level": "address",
         "location_text": "Brighton Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myusgbxf3pu2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "‌Forest Hills-bound M, R trains are running with delays after we requested NYPD assistance for people being disruptive on a train at Jackson Heights-Roosevelt Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T17:51:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myusgbxf3pu2",
+        "mapped_location": "Jackson Heights-Roosevelt Av",
+        "precision_level": "address",
+        "location_text": "Jackson Heights-Roosevelt Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myusmpi52b2c",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 27, 1926: Junior, the first giraffe born at the Bronx Zoo in many years, alongside mother Jenny.",
+        "created_at": "2026-10-27T17:55:02.719Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myusmpi52b2c",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ko2uqsroewewbp7hkpwyjk62/app.bsky.feed.post/3myuspl7eu22l",
+        "handle": "weirderisgood.bsky.social",
+        "text": "Several years ago at a Halloween party at the original NYC Hard Rock.",
+        "created_at": "2026-10-27T17:56:38.920Z",
+        "source": "https://bsky.app/profile/weirderisgood.bsky.social/post/3myuspl7eu22l",
+        "mapped_location": "original NYC Hard Rock",
+        "precision_level": "address",
+        "location_text": "original NYC Hard Rock",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

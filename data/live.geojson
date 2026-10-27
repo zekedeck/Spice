@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-27T19:59:04.937900Z",
-    "total_pins": 107
+    "generated_at": "2026-10-27T20:10:36.882777Z",
+    "total_pins": 112
   },
   "features": [
     {
@@ -2697,6 +2697,131 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3myuzs7dp5p2h",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
+        "created_at": "2026-10-27T20:03:22.750Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3myuzs7dp5p2h",
+        "mapped_location": "Newsroom, LIC",
+        "precision_level": "address",
+        "location_text": "Newsroom, LIC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mppcaswhfcxgw6xeb5ponnqn/app.bsky.feed.post/3myuzxc5k7s2t",
+        "handle": "riverdaleboy.bsky.social",
+        "text": "\"they're not sending the best. They're not sending you, they're sending people that have lots of problems and they're bringing those problems,\" Trump said in a speech at Trump Tower in New York.",
+        "created_at": "2026-10-27T20:06:14.052Z",
+        "source": "https://bsky.app/profile/riverdaleboy.bsky.social/post/3myuzxc5k7s2t",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lt7eqlk3l7u5pncvfgmcfjem/app.bsky.feed.post/3myuzxna6u222",
+        "handle": "taliajane.bsky.social",
+        "text": "Grand jury just decided to indict retired NYPD Victor Romero with second-degree murder in the George Washington Bridge shooting of Koran Irvine.\n\nMurder is harder to prove because it requires intent, which is likely why Manhattan DA opted for the lesser manslaughter charge.",
+        "created_at": "2026-10-27T20:06:25.654Z",
+        "source": "https://bsky.app/profile/taliajane.bsky.social/post/3myuzxna6u222",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.058,
+          40.833
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5m3ztlfb5emucvfci334um6n/app.bsky.feed.post/3myv22fsmys2y",
+        "handle": "menendez.house.gov",
+        "text": "📍Celebrating Halloween with our seniors in West New York \n\n🎃 Always great to be with Mayor Albio Sires and our favorite residents at the WNY Halloween celebration! Thank you to Mayor Sires and the WNY commissioners for making this such a special event every year!",
+        "created_at": "2026-10-27T20:07:58.544Z",
+        "source": "https://bsky.app/profile/menendez.house.gov/post/3myv22fsmys2y",
+        "mapped_location": "West New York",
+        "precision_level": "address",
+        "location_text": "West New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tdivwf36ztuafasc525lpduq/app.bsky.feed.post/3myv22l2dgq25",
+        "handle": "gmf-world.bsky.social",
+        "text": "https://gmf-mag.blogspot.com/2026/10/a-new-chapter-lasting-legacy-inside.html\n\nA New Chapter, a Lasting Legacy: Inside the Studio Museum in Harlem’s Annual Gala #showbiz #sports #celebrities #lifestyle",
+        "created_at": "2026-10-27T20:08:02.479Z",
+        "source": "https://bsky.app/profile/gmf-world.bsky.social/post/3myv22l2dgq25",
+        "mapped_location": "the Studio Museum",
+        "precision_level": "address",
+        "location_text": "the Studio Museum",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

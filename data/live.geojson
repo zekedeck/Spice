@@ -1,210 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T11:33:58.753652Z",
-    "total_pins": 177
+    "generated_at": "2026-10-28T15:45:25.901194Z",
+    "total_pins": 180
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5kkud2kx3qgcy4sypmgfg5y4/app.bsky.feed.post/3myrsqzwshs2l",
-        "handle": "famolledo.bsky.social",
-        "text": "apnews.com/video/diwali... celebration drums and dancing fill New York’s Times Square",
-        "created_at": "2026-10-26T13:19:28.704Z",
-        "source": "https://bsky.app/profile/famolledo.bsky.social/post/3myrsqzwshs2l",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wmho6q2uiyktkam3jsvrms3s/app.bsky.feed.post/3myrsscjeor2y",
-        "handle": "nbcnews.com",
-        "text": "A woman was sexually assaulted at knifepoint in New York City’s Central Park over the weekend, police say. The victim was taken to a hospital and  was stable.",
-        "created_at": "2026-10-26T13:20:11Z",
-        "source": "https://bsky.app/profile/nbcnews.com/post/3myrsscjeor2y",
-        "mapped_location": "New York City’s",
-        "precision_level": "address",
-        "location_text": "New York City’s",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7pycdzg5nl4effudeyocyiw4/app.bsky.feed.post/3myrssddtjh2e",
-        "handle": "timesunion.com",
-        "text": "Candidates in New York's 2026 elections blame a variety of culprits for the state's high utility costs.",
-        "created_at": "2026-10-26T13:20:12Z",
-        "source": "https://bsky.app/profile/timesunion.com/post/3myrssddtjh2e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.876,
-          40.651
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myrsxhni7gv2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "M, R trains are delayed in both directions while we request NYPD assistance for someone being disruptive on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-26T13:22:58.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myrsxhni7gv2",
-        "mapped_location": "Forest Hills-71 Av",
-        "precision_level": "address",
-        "location_text": "Forest Hills-71 Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrsyj4t6k2u",
-        "handle": "sherifmnsour.bsky.social",
-        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
-        "created_at": "2026-10-26T13:23:39.515Z",
-        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrsyj4t6k2u",
-        "mapped_location": "the United Nations General Assembly",
-        "precision_level": "address",
-        "location_text": "the United Nations General Assembly",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrsz2cb7k2u",
-        "handle": "sherifmnsour.bsky.social",
-        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
-        "created_at": "2026-10-26T13:23:57.518Z",
-        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrsz2cb7k2u",
-        "mapped_location": "the United Nations General Assembly",
-        "precision_level": "address",
-        "location_text": "the United Nations General Assembly",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrszfvh5c2u",
-        "handle": "sherifmnsour.bsky.social",
-        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
-        "created_at": "2026-10-26T13:24:09.681Z",
-        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrszfvh5c2u",
-        "mapped_location": "the United Nations General Assembly",
-        "precision_level": "address",
-        "location_text": "the United Nations General Assembly",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w5qll4gmyhn3vvh2wf7egpse/app.bsky.feed.post/3myrszpu3gk2u",
-        "handle": "sherifmnsour.bsky.social",
-        "text": "READ THE REPORT\n\n🔗 docs.un.org/A/81/249. Available in all official UN Languages.\n\nFOLLOW THE PRESENTATION\n\nTODAY Monday 26th October, 3PM New York Time, at the United Nations General Assembly.\n\nLIVESTREAM - webtv.un.org/en/asset/k19...",
-        "created_at": "2026-10-26T13:24:20.123Z",
-        "source": "https://bsky.app/profile/sherifmnsour.bsky.social/post/3myrszpu3gk2u",
-        "mapped_location": "the United Nations General Assembly",
-        "precision_level": "address",
-        "location_text": "the United Nations General Assembly",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -4459,6 +4259,285 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xkwershectzm45pmoyo2ssx4/app.bsky.feed.post/3myx33u54v22u",
+        "handle": "riseandresist.bsky.social",
+        "text": "📆Sat, November 7, 2026\n📍Times Sq, NYC\n⏰ 12PM\nOn Sat, Nov 7, 2026 we are gathering for a mass march to celebrate our democracy—and to fight to defend it. No matter what post-election scenario we'll face, we need to be ready to make sure every vote is counted, because every vote counts.\nbit.ly/4yJQuEo",
+        "created_at": "2026-10-28T15:32:00.344Z",
+        "source": "https://bsky.app/profile/riseandresist.bsky.social/post/3myx33u54v22u",
+        "mapped_location": "Times Sq, NYC",
+        "precision_level": "address",
+        "location_text": "Times Sq, NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r73kjlwfdyge5x2laitip3pc/app.bsky.feed.post/cb3qu4rfvowfb",
+        "handle": "uspol.skyfleet.blue",
+        "text": "'If this is what you want': East Village board halts vote on Tompkins Square overhaul",
+        "created_at": "2026-10-28T15:32:25.734Z",
+        "source": "https://bsky.app/profile/uspol.skyfleet.blue/post/cb3qu4rfvowfb",
+        "mapped_location": "Tompkins Square",
+        "precision_level": "address",
+        "location_text": "Tompkins Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
+        "handle": "tenaciouseye.bsky.social",
+        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
+        "created_at": "2026-10-28T15:33:17.325Z",
+        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Union Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
+        "handle": "tenaciouseye.bsky.social",
+        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
+        "created_at": "2026-10-28T15:33:17.325Z",
+        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.779
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nmmicroocy4wtrz5tfrb7lid/app.bsky.feed.post/3myx36sqpp22s",
+        "handle": "maureenflaherty.bsky.social",
+        "text": "Right now at NY Historical society is a super cool exhibition: you should be dancing. They have Grandmaster Flash’s turntables & his records with beat sections marked. !!!!!\n\nIt’s up til April, but if you go now, you can do a leaf-peeping stroll in Central Park. 🍁 \n\nwww.nyhistory.org/exhibitions/...",
+        "created_at": "2026-10-28T15:33:39.554Z",
+        "source": "https://bsky.app/profile/maureenflaherty.bsky.social/post/3myx36sqpp22s",
+        "mapped_location": "NY Historical",
+        "precision_level": "address",
+        "location_text": "NY Historical",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3myx37knto32y",
+        "handle": "wmur9.bsky.social",
+        "text": "On Oct. 28, 1886, the Statue of Liberty was dedicated in New York Harbor by President Grover Cleveland.",
+        "created_at": "2026-10-28T15:34:04.603Z",
+        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3myx37knto32y",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.69
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myx3izlrl342",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 2, 3 trains are delayed while we address a mechanical problem on a train at Atlantic Av-Barclays Ctr.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T15:39:19.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myx3izlrl342",
+        "mapped_location": "Atlantic Av-Barclays Ctr",
+        "precision_level": "address",
+        "location_text": "Atlantic Av-Barclays Ctr",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cusw7aggr4jwnrnethxwgtzy/app.bsky.feed.post/3myx3k7gf6y2m",
+        "handle": "naswny.bsky.social",
+        "text": "💙 **Brooklyn Division Meeting Tonight!**\n\n📍 **Location:** Sharlene’s  \n353 Flatbush Avenue  \nBrooklyn, NY 11248\n\nRSVP HERE: https://loom.ly/lghp15U\n\nWe look forward to seeing you there! 🤝\n\n#NASWNY #BrooklynSocialWorkers #SocialWorkCommunity #Networking",
+        "created_at": "2026-10-28T15:40:01Z",
+        "source": "https://bsky.app/profile/naswny.bsky.social/post/3myx3k7gf6y2m",
+        "mapped_location": "**Location:** Sharlene’s",
+        "precision_level": "address",
+        "location_text": "**Location:** Sharlene’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "353 Flatbush Avenue  \nBrooklyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cusw7aggr4jwnrnethxwgtzy/app.bsky.feed.post/3myx3k7gf6y2m",
+        "handle": "naswny.bsky.social",
+        "text": "💙 **Brooklyn Division Meeting Tonight!**\n\n📍 **Location:** Sharlene’s  \n353 Flatbush Avenue  \nBrooklyn, NY 11248\n\nRSVP HERE: https://loom.ly/lghp15U\n\nWe look forward to seeing you there! 🤝\n\n#NASWNY #BrooklynSocialWorkers #SocialWorkCommunity #Networking",
+        "created_at": "2026-10-28T15:40:01Z",
+        "source": "https://bsky.app/profile/naswny.bsky.social/post/3myx3k7gf6y2m",
+        "mapped_location": "353 Flatbush Avenue  \nBrooklyn",
+        "precision_level": "address",
+        "location_text": "353 Flatbush Avenue  \nBrooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "**Location:** Sharlene’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:37pnz5vf72yb46x5cdpldwnq/app.bsky.feed.post/3myx3pa6jos2o",
+        "handle": "bradradio.bsky.social",
+        "text": "Toured Radio City Music Hall yesterday, \"The Showplace of the Nation,\" and walked through Rockefeller Center on my last day in New York. \n\nWe even met a real Rockette! #nyc",
+        "created_at": "2026-10-28T15:42:50.492Z",
+        "source": "https://bsky.app/profile/bradradio.bsky.social/post/3myx3pa6jos2o",
+        "mapped_location": "Rockefeller Center",
+        "precision_level": "address",
+        "location_text": "Rockefeller Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ewskzi3q66y3itvm76o3dmum/app.bsky.feed.post/3myx3sgzk6s2k",
+        "handle": "leftwingmusicfrank.bsky.social",
+        "text": "Painfully Low Sights at The New York Times Editorial Board \npaulstreet.substack.com/p/painfully-...",
+        "created_at": "2026-10-28T15:44:38.352Z",
+        "source": "https://bsky.app/profile/leftwingmusicfrank.bsky.social/post/3myx3sgzk6s2k",
+        "mapped_location": "The New York Times Editorial Board",
+        "precision_level": "address",
+        "location_text": "The New York Times Editorial Board",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

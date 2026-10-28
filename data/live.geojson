@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T00:49:31.037935Z",
-    "total_pins": 148
+    "generated_at": "2026-10-28T01:05:23.194666Z",
+    "total_pins": 150
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4monngaerpuydlmue2ereiou/app.bsky.feed.post/3myqjlvgux224",
-        "handle": "jimveg22.bsky.social",
-        "text": "Heard Dance With Me from Lords of the New Church today on Sirius and I was reminded of a night I pseudo-quasi remember at    The Mudd Club in NYC in the early 80s.  I mean I really sorta kinda remember it. But not really.",
-        "created_at": "2026-10-26T01:02:52.804Z",
-        "source": "https://bsky.app/profile/jimveg22.bsky.social/post/3myqjlvgux224",
-        "mapped_location": "The Mudd Club",
-        "precision_level": "address",
-        "location_text": "The Mudd Club",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -3729,6 +3704,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881,
+          40.862
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3myvkerd2w72b",
+        "handle": "allforgardening.bsky.social",
+        "text": "What Is A Fruit? – Science Talk Archive\n\nhttps://www.allforgardening.com/1947169/what-is-a-fruit-science-talk-archive/\n\nPosted in Interesting Plant Stories, Uncategorized on August 6, 2014 by Lawrence Kelly Lawrence M. Kelly, Ph.D., is Director of Graduate Studies at The New York Botanical …",
+        "created_at": "2026-10-28T01:00:03+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3myvkerd2w72b",
+        "mapped_location": "The New York Botanical",
+        "precision_level": "address",
+        "location_text": "The New York Botanical",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6lhbmhkczga5xv5cerojf267/app.bsky.feed.post/3myvki7hnu72u",
+        "handle": "pai-playbook.bsky.social",
+        "text": "🚶 Faraday Future's Futurist humanoid mingles w/ crowds in NYC\nThe $89K teleoperated bot spent time in Brooklyn Bridge Park gathering real-world interaction data, eyeing future roles like companionship. (Oct 25-27)\nhttps://www.ibtimes.co.uk/faraday-future-humanoid-robot-new-york-debut-1827750",
+        "created_at": "2026-10-28T01:02:01.476956Z",
+        "source": "https://bsky.app/profile/pai-playbook.bsky.social/post/3myvki7hnu72u",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h4cbb7x5snyfbc5rib5c2xuj/app.bsky.feed.post/3myvkmv5urc22",
+        "handle": "garyhershorn.bsky.social",
+        "text": "A 95 percent illuminated waning gibbous moon rises behind the Chrysler Building in New York City, Tuesday evening.",
+        "created_at": "2026-10-28T01:04:38.490Z",
+        "source": "https://bsky.app/profile/garyhershorn.bsky.social/post/3myvkmv5urc22",
+        "mapped_location": "the Chrysler Building",
+        "precision_level": "address",
+        "location_text": "the Chrysler Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

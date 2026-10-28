@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T21:11:25.794324Z",
-    "total_pins": 207
+    "generated_at": "2026-10-28T21:28:23.143117Z",
+    "total_pins": 217
   },
   "features": [
     {
@@ -5223,6 +5223,264 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myxocylsug2i",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Uptown [6] [6X] trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.",
+        "created_at": "2026-10-28T21:16:00.781Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myxocylsug2i",
+        "mapped_location": "Brooklyn Bridge-City Hall",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge-City Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Bleecker St."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.722
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myxocylsug2i",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Uptown [6] [6X] trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.",
+        "created_at": "2026-10-28T21:16:00.781Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myxocylsug2i",
+        "mapped_location": "Bleecker St.",
+        "precision_level": "address",
+        "location_text": "Bleecker St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Brooklyn Bridge-City Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.721
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxofi745bl2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 6, 6 express trains are delayed while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T21:17:22.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxofi745bl2",
+        "mapped_location": "Bleecker St.\n\nFor",
+        "precision_level": "address",
+        "location_text": "Bleecker St.\n\nFor",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5t7gno3xiuxjdkmj2iiwg2m/app.bsky.feed.post/3myxoofjl422j",
+        "handle": "hectorarbuckle.bsky.social",
+        "text": "I'm just like - are people unaware of this? You gotta be nice to others!\n\nHmm, maybe it's because so many people are posting under false handles. I feel like everything I write here is so obviously traceable to myself, I should treat it as if I am writing this on a billboard on Times Square.",
+        "created_at": "2026-10-28T21:22:23.657Z",
+        "source": "https://bsky.app/profile/hectorarbuckle.bsky.social/post/3myxoofjl422j",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxosnafqn72",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 6, 6 express‌ trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T21:24:42.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxosnafqn72",
+        "mapped_location": "Brooklyn Bridge-City Hall",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge-City Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Bleecker St.\n\nFor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.721
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxosnafqn72",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 6, 6 express‌ trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T21:24:42.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxosnafqn72",
+        "mapped_location": "Bleecker St.\n\nFor",
+        "precision_level": "address",
+        "location_text": "Bleecker St.\n\nFor",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Brooklyn Bridge-City Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fmuwnxdfzj7gmwz26so4vxkq/app.bsky.feed.post/3myxotpihct2d",
+        "handle": "nycfoodbriefly.bsky.social",
+        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
+        "created_at": "2026-10-28T21:25:21.649Z",
+        "source": "https://bsky.app/profile/nycfoodbriefly.bsky.social/post/3myxotpihct2d",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Brooklyn Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fmuwnxdfzj7gmwz26so4vxkq/app.bsky.feed.post/3myxotpihct2d",
+        "handle": "nycfoodbriefly.bsky.social",
+        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
+        "created_at": "2026-10-28T21:25:21.649Z",
+        "source": "https://bsky.app/profile/nycfoodbriefly.bsky.social/post/3myxotpihct2d",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Brooklyn Bridge Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxoukjlrm2d",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
+        "created_at": "2026-10-28T21:25:49.997Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxoukjlrm2d",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Brooklyn Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxoukjlrm2d",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
+        "created_at": "2026-10-28T21:25:49.997Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxoukjlrm2d",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Brooklyn Bridge Park"
       }
     }
   ]

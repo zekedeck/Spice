@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T16:44:59.510717Z",
-    "total_pins": 29
+    "generated_at": "2026-10-28T19:56:57.180332Z",
+    "total_pins": 34
   },
   "features": [
     {
@@ -729,6 +729,131 @@
         "mapped_location": "Brooklyn Bridge",
         "precision_level": "address",
         "location_text": "Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9792543,
+          40.7379577
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3cbu2tr56nbpspt5yc7tmwkb/app.bsky.feed.post/3myxjjljj7l2m",
+        "handle": "bnd.com",
+        "text": "Editor's note: Portions of this article are excerpted from a larger story about businesses at MidTown Plaza.",
+        "created_at": "2026-10-28T19:50:13Z",
+        "source": "https://bsky.app/profile/bnd.com/post/3myxjjljj7l2m",
+        "mapped_location": "East Midtown Plaza, Manhattan Community Board 6, Manhattan, New York County, New York, United States",
+        "precision_level": "unclassified",
+        "location_text": "MidTown Plaza",
+        "confidence": 0.82,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2q7tzozj7fnj6sayunuyhj7a/app.bsky.feed.post/3myxjkd3wlc2m",
+        "handle": "chiles101.bsky.social",
+        "text": "Just watched Gillian Anderson and Billy Crudup act the hell out of Who’s Afraid of Virginia Woolf? at Soho Place in London. #playsky",
+        "created_at": "2026-10-28T19:50:38.157Z",
+        "source": "https://bsky.app/profile/chiles101.bsky.social/post/3myxjkd3wlc2m",
+        "mapped_location": "Soho Place",
+        "precision_level": "address",
+        "location_text": "Soho Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myxjlvr6532l",
+        "handle": "porcellato.bsky.social",
+        "text": "Lawyers, diplomats tell NYC Bar that Special Tribunal for Ukraine offers ‘historic moment’ to prosecute war crimes https://ift.tt/qC2RKro",
+        "created_at": "2026-10-28T19:51:31+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myxjlvr6532l",
+        "mapped_location": "NYC Bar",
+        "precision_level": "address",
+        "location_text": "NYC Bar",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rs2ozvrudgn2xohhpl7lyxup/app.bsky.feed.post/3myxjr3lxts2q",
+        "handle": "jcmartinofba.bsky.social",
+        "text": "Miss Switzerland, Beatrice Keul, was raped by Donald Trump in November, 1993 at the Plaza Hotel in Manhattan, NYC when she was 24 years old.\n\nShe said that the rape was \"brutal\" and it left her bleeding, bruised and with a torn dress. He told her to remain silent or \"bad things can happen\".",
+        "created_at": "2026-10-28T19:54:25.201Z",
+        "source": "https://bsky.app/profile/jcmartinofba.bsky.social/post/3myxjr3lxts2q",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myxjryyiyv23",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "NYC in the '80s: subways covered inside and out in paint, Times Square glowing under neon ads, and a black Trans Am with the gold bird parked under the Brooklyn elevated train.\n\nStory/Images by 80s.lives",
+        "created_at": "2026-10-28T19:54:54.306Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myxjryyiyv23",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

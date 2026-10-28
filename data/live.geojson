@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T01:05:23.194666Z",
-    "total_pins": 150
+    "generated_at": "2026-10-28T01:21:22.121634Z",
+    "total_pins": 152
   },
   "features": [
     {
@@ -3774,6 +3774,56 @@
         "mapped_location": "the Chrysler Building",
         "precision_level": "address",
         "location_text": "the Chrysler Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.712
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjmnwzpxbzehorgdc2motdcj/app.bsky.feed.post/3myvkv7zjxd23",
+        "handle": "cbsnewyork.bsky.social",
+        "text": "A man is facing charges after allegedly vandalizing the 9/11 Memorial in Lower Manhattan on Monday evening.\n",
+        "created_at": "2026-10-28T01:09:18.276Z",
+        "source": "https://bsky.app/profile/cbsnewyork.bsky.social/post/3myvkv7zjxd23",
+        "mapped_location": "the 9/11 Memorial",
+        "precision_level": "address",
+        "location_text": "the 9/11 Memorial",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:beilpv3ekhl6hn25ya45vffn/app.bsky.feed.post/3myvlh5bfa22n",
+        "handle": "context776.bsky.social",
+        "text": "According to her account, cited in the congressional report, Keul met Trump during a press luncheon at the Plaza Hotel, which was then owned by him. Trump allegedly approached her and offered to help her secure a visa and admission to New York University.",
+        "created_at": "2026-10-28T01:19:19.416Z",
+        "source": "https://bsky.app/profile/context776.bsky.social/post/3myvlh5bfa22n",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

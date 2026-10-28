@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T09:00:07.702976Z",
-    "total_pins": 2
+    "generated_at": "2026-10-28T10:08:01.980747Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -48,6 +48,106 @@
         "mapped_location": "the Statue of Liberty",
         "precision_level": "address",
         "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5ag7dzksi2evwyuhwpzzhai/app.bsky.feed.post/3mywihetalk25",
+        "handle": "jjlhawk.bsky.social",
+        "text": "Sitting On A Park Bench\nWashington Square Park, NYC\n\n#nycphotographer \n#nycphotography \n#newyorkcityphotography\n#nycstreetphotagraphy \n\n#streetphotography #urbanphotography #streetscene #cityscape #streetphoto #street #urbangaze #streetsnap \n#nyc\n\n#photography \n#photographyisart\n#photooftheday",
+        "created_at": "2026-10-28T09:58:25.819Z",
+        "source": "https://bsky.app/profile/jjlhawk.bsky.social/post/3mywihetalk25",
+        "mapped_location": "Park Bench\nWashington Square Park",
+        "precision_level": "address",
+        "location_text": "Park Bench\nWashington Square Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9686981,
+          40.7963122
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z67ehvg56yvugvv2f5lxih3c/app.bsky.feed.post/3mywihfl67k2g",
+        "handle": "huismarseille.nl",
+        "text": "As seen in @financialtimes.com \n\nAdolphe de Meyer became Vogue’s first full-time photographer. A pioneer of photographic experimentation, his “spellbinding tricks” would influence photographers from New York to Paris. \n\nThe Substance of a Venetian Dream, now on view at Huis Marseille in Amsterdam",
+        "created_at": "2026-10-28T09:58:26.630Z",
+        "source": "https://bsky.app/profile/huismarseille.nl/post/3mywihfl67k2g",
+        "mapped_location": "Amsterdam Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+        "precision_level": "unclassified",
+        "location_text": "Amsterdam",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a6f5oqxkc5wgqqkv54aa6wp6/app.bsky.feed.post/3mywimdnt772z",
+        "handle": "maskmanblade.bsky.social",
+        "text": "Today in history: On October 28, 1886, the Statue of Liberty was dedicated in New York Harbor, accompanied by the first ticker-tape parade. \n#Todayinhistory #AIart #nudeart #aigirl #aiphotography #ainude #synthart",
+        "created_at": "2026-10-28T10:01:12.218Z",
+        "source": "https://bsky.app/profile/maskmanblade.bsky.social/post/3mywimdnt772z",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.856,
+          40.844
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zw64pmwh45o75o4uuc7g576q/app.bsky.feed.post/3mywirlus3t2j",
+        "handle": "documentedny.bsky.social",
+        "text": "After decades of growth in Van Nest and Morris Park, the Bronx’s Yemeni community won state recognition despite months of opposition that left some residents feeling targeted by anti-Muslim rhetoric.\n",
+        "created_at": "2026-10-28T10:04:08.550832301Z",
+        "source": "https://bsky.app/profile/documentedny.bsky.social/post/3mywirlus3t2j",
+        "mapped_location": "Van Nest",
+        "precision_level": "address",
+        "location_text": "Van Nest",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

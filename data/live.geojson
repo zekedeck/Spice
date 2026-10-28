@@ -1,62 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T23:13:39.240036Z",
+    "generated_at": "2026-10-28T23:59:54.817981Z",
     "total_pins": 228
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ce644vo7klub2256fzmjsac7/app.bsky.feed.post/3mysujf4k652z",
-        "handle": "eternal-spotlight.bsky.social",
-        "text": "Born in Chicago to Russian Jewish immigrants and raised in Manhattan's Inwood neighborhood, Walter Koenig studied pre-med at Grinnell College, earned a psychology degree from UCLA, then trained at New York's Neighborhood Playhouse alongside Christopher Lloyd and James Caan.",
-        "created_at": "2026-10-26T23:23:37.735Z",
-        "source": "https://bsky.app/profile/eternal-spotlight.bsky.social/post/3mysujf4k652z",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York's Neighborhood Playhouse"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.754
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ce644vo7klub2256fzmjsac7/app.bsky.feed.post/3mysujf4k652z",
-        "handle": "eternal-spotlight.bsky.social",
-        "text": "Born in Chicago to Russian Jewish immigrants and raised in Manhattan's Inwood neighborhood, Walter Koenig studied pre-med at Grinnell College, earned a psychology degree from UCLA, then trained at New York's Neighborhood Playhouse alongside Christopher Lloyd and James Caan.",
-        "created_at": "2026-10-26T23:23:37.735Z",
-        "source": "https://bsky.app/profile/eternal-spotlight.bsky.social/post/3mysujf4k652z",
-        "mapped_location": "New York's Neighborhood Playhouse",
-        "precision_level": "address",
-        "location_text": "New York's Neighborhood Playhouse",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York's"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5756,6 +5704,58 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zp5p2zwq5kx4x67obogi7xpn/app.bsky.feed.post/3myxxcpdirk2t",
+        "handle": "tinylion.bsky.social",
+        "text": "@mayor.nyc.gov Please take a look at the scaffolding that takes up almost the entire sidewalk from Irving Place to 3rd Avenue on 14th Street. It has been there for years and has become a homeless encampment.",
+        "created_at": "2026-10-28T23:56:54.966Z",
+        "source": "https://bsky.app/profile/tinylion.bsky.social/post/3myxxcpdirk2t",
+        "mapped_location": "3rd Avenue",
+        "precision_level": "address",
+        "location_text": "3rd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "14th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zp5p2zwq5kx4x67obogi7xpn/app.bsky.feed.post/3myxxcpdirk2t",
+        "handle": "tinylion.bsky.social",
+        "text": "@mayor.nyc.gov Please take a look at the scaffolding that takes up almost the entire sidewalk from Irving Place to 3rd Avenue on 14th Street. It has been there for years and has become a homeless encampment.",
+        "created_at": "2026-10-28T23:56:54.966Z",
+        "source": "https://bsky.app/profile/tinylion.bsky.social/post/3myxxcpdirk2t",
+        "mapped_location": "14th Street",
+        "precision_level": "address",
+        "location_text": "14th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "3rd Avenue"
       }
     }
   ]

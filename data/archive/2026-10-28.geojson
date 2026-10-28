@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T15:54:19.455925Z",
-    "total_pins": 24
+    "generated_at": "2026-10-28T16:29:21.955483Z",
+    "total_pins": 26
   },
   "features": [
     {
@@ -607,6 +607,58 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uxgzvyuvqmrktiaqesy7ok2s/app.bsky.feed.post/3myx62tuqc22e",
+        "handle": "jamhubb.bsky.social",
+        "text": "That's how I met Outkast at the Virgin Records in Union Square in NYC. They also performed a few songs for us!",
+        "created_at": "2026-10-28T16:25:07.745Z",
+        "source": "https://bsky.app/profile/jamhubb.bsky.social/post/3myx62tuqc22e",
+        "mapped_location": "the Virgin Records",
+        "precision_level": "address",
+        "location_text": "the Virgin Records",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Union Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uxgzvyuvqmrktiaqesy7ok2s/app.bsky.feed.post/3myx62tuqc22e",
+        "handle": "jamhubb.bsky.social",
+        "text": "That's how I met Outkast at the Virgin Records in Union Square in NYC. They also performed a few songs for us!",
+        "created_at": "2026-10-28T16:25:07.745Z",
+        "source": "https://bsky.app/profile/jamhubb.bsky.social/post/3myx62tuqc22e",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Virgin Records"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T00:41:28.837208Z",
-    "total_pins": 144
+    "generated_at": "2026-10-28T00:57:25.774614Z",
+    "total_pins": 148
   },
   "features": [
     {
@@ -3624,6 +3624,106 @@
         "mapped_location": "Columbia University",
         "precision_level": "address",
         "location_text": "Columbia University",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7tqdgkq5p4owzcwam2udt3bn/app.bsky.feed.post/3myvjfuf5m22b",
+        "handle": "mostlytruenews.bsky.social",
+        "text": "Did the former Miss Switzerland accuse Trump of Rape?\n\n                                      Yes. \n\nBeatrice Keul stated that Trump raped her inside a suite at the Plaza Hotel in New York City in November 1993.",
+        "created_at": "2026-10-28T00:42:49.065Z",
+        "source": "https://bsky.app/profile/mostlytruenews.bsky.social/post/3myvjfuf5m22b",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jmdzslitmjvmo4l2c6dvqhaw/app.bsky.feed.post/3myvjkjopgs2c",
+        "handle": "delevant.bsky.social",
+        "text": "In New York America? Geeze, I thought it was a flashback of Hitler’s Gestapo in 1930’s Germany.",
+        "created_at": "2026-10-28T00:45:25.615Z",
+        "source": "https://bsky.app/profile/delevant.bsky.social/post/3myvjkjopgs2c",
+        "mapped_location": "New York America",
+        "precision_level": "address",
+        "location_text": "New York America",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbf6udiblnsa3n6cuilnkemb/app.bsky.feed.post/3myvjmz4cik25",
+        "handle": "meghanclare.bsky.social",
+        "text": "It does but it can be very satisfying and maybe that just bc when I worked at a NJ shore restaurant that gave soup and salad w every dinner we were allowed to eat free soup and salad so my dinner was Manhattan clam and salad w blue cheese and vinegar and the whole thing feels “end of shift”",
+        "created_at": "2026-10-28T00:46:48.898Z",
+        "source": "https://bsky.app/profile/meghanclare.bsky.social/post/3myvjmz4cik25",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.719
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:miolu4miqfm6yzsiz7benfbb/app.bsky.feed.post/3myvjq7xjtc2x",
+        "handle": "bethwallace37.bsky.social",
+        "text": "I am so tired of reading posts about this. The map was of current immigrant enclaves in NYC, not historic. There are no Italian immigrants in Little Italy nor have there been for years. Most of its historic area is now Chinatown (which today still has a large population of Chinese immigrants).",
+        "created_at": "2026-10-28T00:48:36.746Z",
+        "source": "https://bsky.app/profile/bethwallace37.bsky.social/post/3myvjq7xjtc2x",
+        "mapped_location": "Little Italy",
+        "precision_level": "address",
+        "location_text": "Little Italy",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

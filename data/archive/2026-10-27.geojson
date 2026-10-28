@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T02:30:16.066316Z",
-    "total_pins": 150
+    "generated_at": "2026-10-28T03:22:33.858601Z",
+    "total_pins": 152
   },
   "features": [
     {
@@ -3780,6 +3780,58 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myvrymph5i2m",
+        "handle": "porcellato.bsky.social",
+        "text": "Today in History: October 28, Statue of Liberty dedicated in New York\n https://ift.tt/eMZIRkw",
+        "created_at": "2026-10-28T03:16:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myvrymph5i2m",
+        "mapped_location": "Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York\n https://ift.tt/eMZIRkw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myvrymph5i2m",
+        "handle": "porcellato.bsky.social",
+        "text": "Today in History: October 28, Statue of Liberty dedicated in New York\n https://ift.tt/eMZIRkw",
+        "created_at": "2026-10-28T03:16:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myvrymph5i2m",
+        "mapped_location": "New York\n https://ift.tt/eMZIRkw",
+        "precision_level": "address",
+        "location_text": "New York\n https://ift.tt/eMZIRkw",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Statue of Liberty"
       }
     }
   ]

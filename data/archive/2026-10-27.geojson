@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T02:17:18.907192Z",
-    "total_pins": 148
+    "generated_at": "2026-10-28T02:30:16.066316Z",
+    "total_pins": 150
   },
   "features": [
     {
@@ -3727,6 +3727,56 @@
         "location_text": "NJ",
         "confidence": 0.58,
         "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4govg4z5u2lqtyno2pkj4zm/app.bsky.feed.post/3myvp3puj2s2r",
+        "handle": "leaftilde.bsky.social",
+        "text": "Okay describing a building as \"the large building\" when the story is explicitly taking place in downtown Manhattan is objectively a funny bit.\n\nAh, yes. THAT large building. I know it well.",
+        "created_at": "2026-10-28T02:24:31.100Z",
+        "source": "https://bsky.app/profile/leaftilde.bsky.social/post/3myvp3puj2s2r",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "unclassified",
+        "location_text": "downtown Manhattan",
+        "confidence": 0.64,
+        "address_type": "pier",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3o733zemy5oma43nweefbjf7/app.bsky.feed.post/3myvpe2bsn227",
+        "handle": "obrienp.bsky.social",
+        "text": "trump likes to talk about fictional children & what never happened to them‼️\n\nBut he WON’T talk about these children‼️ \n⬇️\n\n“Epstein introduced me to Trump at age 14”, Maxwell accuser says. \n\nTestifying at NYC trial, the woman said she was introduced to former president in 90s at his Mar-a-Lago resort.",
+        "created_at": "2026-10-28T02:29:10.589Z",
+        "source": "https://bsky.app/profile/obrienp.bsky.social/post/3myvpe2bsn227",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1

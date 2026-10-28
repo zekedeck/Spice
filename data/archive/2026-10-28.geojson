@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T16:29:21.955483Z",
-    "total_pins": 26
+    "generated_at": "2026-10-28T16:44:59.510717Z",
+    "total_pins": 29
   },
   "features": [
     {
@@ -659,6 +659,81 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "the Virgin Records"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.844
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j37zetcnytvnfjlk4ca3d2yv/app.bsky.feed.post/3myx6dj5qss2v",
+        "handle": "newyorkstateag.bsky.social",
+        "text": "This morning, we lost an 11-year-old child after a horrible fire at the Patterson Houses in the Bronx. \n \nMy heart is with this child's family and their entire community, and I’m praying for the four individuals who are currently critically injured.",
+        "created_at": "2026-10-28T16:29:58.495Z",
+        "source": "https://bsky.app/profile/newyorkstateag.bsky.social/post/3myx6dj5qss2v",
+        "mapped_location": "the Patterson Houses",
+        "precision_level": "address",
+        "location_text": "the Patterson Houses",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3n5yokdsn3k6zksnujakfu4b/app.bsky.feed.post/3myx6if6w2s2u",
+        "handle": "iakhan13.bsky.social",
+        "text": "apnews.com/today-in-his... \n🗽🕊️Today in History: October 28, Statue of Liberty dedicated in New York🕊️🗽",
+        "created_at": "2026-10-28T16:32:42.104Z",
+        "source": "https://bsky.app/profile/iakhan13.bsky.social/post/3myx6if6w2s2u",
+        "mapped_location": "Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bfpsgdmnyrlydsmng5guwwyy/app.bsky.feed.post/3myx6sdmans2a",
+        "handle": "pogranny.bsky.social",
+        "text": "Protesters block Brooklyn Bridge to STOP ICE SHOOTING SPREE.\nNo Justice, No Peace.\nwww.youtube.com/live/Av0TEhx...",
+        "created_at": "2026-10-28T16:38:15.995Z",
+        "source": "https://bsky.app/profile/pogranny.bsky.social/post/3myx6sdmans2a",
+        "mapped_location": "Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

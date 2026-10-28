@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T20:31:22.340125Z",
-    "total_pins": 41
+    "generated_at": "2026-10-28T20:58:16.305163Z",
+    "total_pins": 50
   },
   "features": [
     {
@@ -1036,6 +1036,237 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4zxvvwpwdaikqiw72vgicucq/app.bsky.feed.post/3myxn2b5mbs2t",
+        "handle": "nerdist.bsky.social",
+        "text": "This is Commander Shepard's favorite Times Square billboard.",
+        "created_at": "2026-10-28T20:53:14.088Z",
+        "source": "https://bsky.app/profile/nerdist.bsky.social/post/3myxn2b5mbs2t",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i7k22mrne7tdnlmfmp3mq44k/app.bsky.feed.post/3myxn2wwtlk2r",
+        "handle": "sonntag54.bsky.social",
+        "text": "\"In a few years, 5,000 low-income New Yorkers will have found homes at Innovative Urban Village. A handsome and promising housing development, it is rising on the nearly 11-acre site of a megachurch parking lot in East New York, Brooklyn.\"\nwww.nytimes.com/2026/10/28/a...",
+        "created_at": "2026-10-28T20:53:37.085Z",
+        "source": "https://bsky.app/profile/sonntag54.bsky.social/post/3myxn2wwtlk2r",
+        "mapped_location": "East New York",
+        "precision_level": "address",
+        "location_text": "East New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wykznveerxycnplm7snu5n2v/app.bsky.feed.post/3myxn4ontas2v",
+        "handle": "thesaltyraven.bsky.social",
+        "text": "Today in Astoria, Oregon",
+        "created_at": "2026-10-28T20:54:35.501Z",
+        "source": "https://bsky.app/profile/thesaltyraven.bsky.social/post/3myxn4ontas2v",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "Oregon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.087321,
+          40.5955374
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wykznveerxycnplm7snu5n2v/app.bsky.feed.post/3myxn4ontas2v",
+        "handle": "thesaltyraven.bsky.social",
+        "text": "Today in Astoria, Oregon",
+        "created_at": "2026-10-28T20:54:35.501Z",
+        "source": "https://bsky.app/profile/thesaltyraven.bsky.social/post/3myxn4ontas2v",
+        "mapped_location": "Oregon Road, Old Town Station, Staten Island, Richmond County, New York, 10305, United States",
+        "precision_level": "unclassified",
+        "location_text": "Oregon",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxn4warcm2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
+        "created_at": "2026-10-28T20:54:43.240Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxn4warcm2s",
+        "mapped_location": "Gramercy Park",
+        "precision_level": "address",
+        "location_text": "Gramercy Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "18 Gramercy Park South"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxn4warcm2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
+        "created_at": "2026-10-28T20:54:43.240Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxn4warcm2s",
+        "mapped_location": "18 Gramercy Park South",
+        "precision_level": "address",
+        "location_text": "18 Gramercy Park South",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Gramercy Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966,
+          40.772
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w7m3sivk75rzkh2ci7mrbts2/app.bsky.feed.post/3myxn6ajgou2b",
+        "handle": "luizsantosmusic.bsky.social",
+        "text": "Gustav Klimt's Portrait of Adele Bloch-Bauer I (completed between 1903 and 1907) is located at the Neue Galerie New York in New York City, United States. \n#art #arts #finearts ",
+        "created_at": "2026-10-28T20:55:26.000Z",
+        "source": "https://bsky.app/profile/luizsantosmusic.bsky.social/post/3myxn6ajgou2b",
+        "mapped_location": "the Neue Galerie New York",
+        "precision_level": "address",
+        "location_text": "the Neue Galerie New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jrupramacab432rcry2m7ude/app.bsky.feed.post/3myxn6o3f2d2w",
+        "handle": "ebrealestbriefly.bsky.social",
+        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
+        "created_at": "2026-10-28T20:55:41.791Z",
+        "source": "https://bsky.app/profile/ebrealestbriefly.bsky.social/post/3myxn6o3f2d2w",
+        "mapped_location": "Gramercy Park",
+        "precision_level": "address",
+        "location_text": "Gramercy Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "18 Gramercy Park South"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jrupramacab432rcry2m7ude/app.bsky.feed.post/3myxn6o3f2d2w",
+        "handle": "ebrealestbriefly.bsky.social",
+        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
+        "created_at": "2026-10-28T20:55:41.791Z",
+        "source": "https://bsky.app/profile/ebrealestbriefly.bsky.social/post/3myxn6o3f2d2w",
+        "mapped_location": "18 Gramercy Park South",
+        "precision_level": "address",
+        "location_text": "18 Gramercy Park South",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Gramercy Park"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T02:00:59.957828Z",
-    "total_pins": 161
+    "generated_at": "2026-10-28T02:17:18.900240Z",
+    "total_pins": 162
   },
   "features": [
     {
@@ -4057,6 +4057,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4a6aksonxgbiaqouqxljvxj3/app.bsky.feed.post/3myvobvoekk27",
+        "handle": "annmariepisano.bsky.social",
+        "text": "Living on the Hudson River cliffs in NJ (the ones you can see if you look across the river from Manhattan) I was convinced that a massive tidal wave would sweep up the Hudson like in a cartoon and wipe out our whole town. Which was atop a very tall cliff. Obviously.",
+        "created_at": "2026-10-28T02:10:04.906Z",
+        "source": "https://bsky.app/profile/annmariepisano.bsky.social/post/3myvobvoekk27",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

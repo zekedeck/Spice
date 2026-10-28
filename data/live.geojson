@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T03:22:33.852038Z",
-    "total_pins": 166
+    "generated_at": "2026-10-28T09:00:07.694641Z",
+    "total_pins": 168
   },
   "features": [
     {
@@ -4184,6 +4184,56 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "Statue of Liberty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vax23oilyd4ui2kmqkzupio5/app.bsky.feed.post/3mywevyljrw2b",
+        "handle": "thatericalper.com",
+        "text": "The music. The movie. The legend. 'Rocky' celebrates 50 years with Sylvester Stallone and composer Bill Conti at Brooklyn's Kings Theatre, followed by the 1976 classic accompanied by a live orchestra. zurl.co/nRwdQ",
+        "created_at": "2026-10-28T08:55:00.788Z",
+        "source": "https://bsky.app/profile/thatericalper.com/post/3mywevyljrw2b",
+        "mapped_location": "Brooklyn's Kings Theatre",
+        "precision_level": "address",
+        "location_text": "Brooklyn's Kings Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lcxdn7fcxeec4lw454ihzair/app.bsky.feed.post/3mywf26e2s22c",
+        "handle": "lronlacy.bsky.social",
+        "text": "‘On a rainy October 28, 1886, the Statue of Liberty was officially unveiled in the United States. Organized by the Franco-American Union & the City of New York, the dedication ceremonies celebrated the Statue’s creators & contributors, the people of France & the United States ➡️",
+        "created_at": "2026-10-28T08:57:19.961Z",
+        "source": "https://bsky.app/profile/lronlacy.bsky.social/post/3mywf26e2s22c",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

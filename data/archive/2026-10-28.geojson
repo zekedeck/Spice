@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T11:33:58.759409Z",
-    "total_pins": 11
+    "generated_at": "2026-10-28T15:37:27.450169Z",
+    "total_pins": 17
   },
   "features": [
     {
@@ -278,6 +278,158 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xkwershectzm45pmoyo2ssx4/app.bsky.feed.post/3myx33u54v22u",
+        "handle": "riseandresist.bsky.social",
+        "text": "📆Sat, November 7, 2026\n📍Times Sq, NYC\n⏰ 12PM\nOn Sat, Nov 7, 2026 we are gathering for a mass march to celebrate our democracy—and to fight to defend it. No matter what post-election scenario we'll face, we need to be ready to make sure every vote is counted, because every vote counts.\nbit.ly/4yJQuEo",
+        "created_at": "2026-10-28T15:32:00.344Z",
+        "source": "https://bsky.app/profile/riseandresist.bsky.social/post/3myx33u54v22u",
+        "mapped_location": "Times Sq, NYC",
+        "precision_level": "address",
+        "location_text": "Times Sq, NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r73kjlwfdyge5x2laitip3pc/app.bsky.feed.post/cb3qu4rfvowfb",
+        "handle": "uspol.skyfleet.blue",
+        "text": "'If this is what you want': East Village board halts vote on Tompkins Square overhaul",
+        "created_at": "2026-10-28T15:32:25.734Z",
+        "source": "https://bsky.app/profile/uspol.skyfleet.blue/post/cb3qu4rfvowfb",
+        "mapped_location": "Tompkins Square",
+        "precision_level": "address",
+        "location_text": "Tompkins Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
+        "handle": "tenaciouseye.bsky.social",
+        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
+        "created_at": "2026-10-28T15:33:17.325Z",
+        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Union Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
+        "handle": "tenaciouseye.bsky.social",
+        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
+        "created_at": "2026-10-28T15:33:17.325Z",
+        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
+        "mapped_location": "Union Square",
+        "precision_level": "address",
+        "location_text": "Union Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.779
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nmmicroocy4wtrz5tfrb7lid/app.bsky.feed.post/3myx36sqpp22s",
+        "handle": "maureenflaherty.bsky.social",
+        "text": "Right now at NY Historical society is a super cool exhibition: you should be dancing. They have Grandmaster Flash’s turntables & his records with beat sections marked. !!!!!\n\nIt’s up til April, but if you go now, you can do a leaf-peeping stroll in Central Park. 🍁 \n\nwww.nyhistory.org/exhibitions/...",
+        "created_at": "2026-10-28T15:33:39.554Z",
+        "source": "https://bsky.app/profile/maureenflaherty.bsky.social/post/3myx36sqpp22s",
+        "mapped_location": "NY Historical",
+        "precision_level": "address",
+        "location_text": "NY Historical",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3myx37knto32y",
+        "handle": "wmur9.bsky.social",
+        "text": "On Oct. 28, 1886, the Statue of Liberty was dedicated in New York Harbor by President Grover Cleveland.",
+        "created_at": "2026-10-28T15:34:04.603Z",
+        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3myx37knto32y",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

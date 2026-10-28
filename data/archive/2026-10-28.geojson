@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T22:17:27.689611Z",
-    "total_pins": 70
+    "generated_at": "2026-10-28T23:13:39.247922Z",
+    "total_pins": 74
   },
   "features": [
     {
@@ -1770,6 +1770,106 @@
         "mapped_location": "Mott Haven",
         "precision_level": "address",
         "location_text": "Mott Haven",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3myxulqsvx22i",
+        "handle": "nysoccerjournal.com",
+        "text": "BREAKING: As announced on MLS Countdown, New York City FC will host Red Bull New York on Decision Day for the 2027 Sprint Season. The Hudson River Derby will also be the final #NYCFC regular season match at Yankee Stadium.\n\nArticle by @battista.bsky.social: www.nysoccerjournal.com/nycfc-vs-red...",
+        "created_at": "2026-10-28T23:08:17.281Z",
+        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3myxulqsvx22i",
+        "mapped_location": "Yankee Stadium",
+        "precision_level": "address",
+        "location_text": "Yankee Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ihe5ujziqrf64dcehi26zrj5/app.bsky.feed.post/3myxun3i7fk25",
+        "handle": "seamusaloysius.bsky.social",
+        "text": "October 28, 2014: The Allman Brothers Band played their final show at The Beacon Theatre in New York City.  \n📷: from ABB",
+        "created_at": "2026-10-28T23:09:02.023Z",
+        "source": "https://bsky.app/profile/seamusaloysius.bsky.social/post/3myxun3i7fk25",
+        "mapped_location": "The Beacon Theatre",
+        "precision_level": "address",
+        "location_text": "The Beacon Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:poe4ckqtr7m6l75k2llezyq4/app.bsky.feed.post/3myxupg47g22q",
+        "handle": "dbeeler.bsky.social",
+        "text": "Veeck as in Wreck, The Bronx Zoo, anything by Roger Angell.",
+        "created_at": "2026-10-28T23:10:20.250Z",
+        "source": "https://bsky.app/profile/dbeeler.bsky.social/post/3myxupg47g22q",
+        "mapped_location": "The Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "The Bronx Zoo",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.781
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lwxbuuxrd6nq7reg6eqr77sx/app.bsky.feed.post/3myxuu4mflc2a",
+        "handle": "elizdanjou.bsky.social",
+        "text": "This is very niche, but as a kid, I lived in NYC, and when visiting the Museum of Natural History, which featured a life-sized replica blue whale. I refused to walk under the whale. Just seemed unwise.",
+        "created_at": "2026-10-28T23:12:58.090Z",
+        "source": "https://bsky.app/profile/elizdanjou.bsky.social/post/3myxuu4mflc2a",
+        "mapped_location": "the Museum of Natural History",
+        "precision_level": "address",
+        "location_text": "the Museum of Natural History",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

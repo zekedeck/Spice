@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T21:28:23.154569Z",
-    "total_pins": 63
+    "generated_at": "2026-10-28T21:46:34.661829Z",
+    "total_pins": 66
   },
   "features": [
     {
@@ -1600,6 +1600,81 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "Brooklyn Bridge Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mwmgztvcqncl3be3zzqnv46v/app.bsky.feed.post/3myxpsecre22a",
+        "handle": "yourbluefriendo.bsky.social",
+        "text": "🗽 On this day in 1886, President Grover Cleveland threw a massive party to welcome the Statue of Liberty to New York. France dropped the ultimate gift: a giant copper lady with a skeleton built by the Eiffel Tower guy. 140 years later, she's still holding the torch\nvid: @amexperiencepbs.bsky.social",
+        "created_at": "2026-10-28T21:42:30.344Z",
+        "source": "https://bsky.app/profile/yourbluefriendo.bsky.social/post/3myxpsecre22a",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.109079,
+          40.581087
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y63pgzqmgls3ra5wjy2kdqrx/app.bsky.feed.post/3myxpth25ci22",
+        "handle": "footballanalyticss.bsky.social",
+        "text": "⚽ Clash alert! New England Revolution take on New York Red Bulls tonight at 23:30 Lisbon time. Back New England or draw at 2.22 — they own a massive 90% chance of staking a point or better! Don’t sleep on this double chance magic! 🎯",
+        "created_at": "2026-10-28T21:43:07.174Z",
+        "source": "https://bsky.app/profile/footballanalyticss.bsky.social/post/3myxpth25ci22",
+        "mapped_location": "Lisbon Place, Grant City, Staten Island, Richmond County, New York, 10306, United States",
+        "precision_level": "unclassified",
+        "location_text": "23:30 Lisbon",
+        "confidence": 0.64,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oj2tfjysfe7quvz5av456p3t/app.bsky.feed.post/3myxpvzfqoc2b",
+        "handle": "tygergyrl17.bsky.social",
+        "text": "2. promoted by international organizations, including the United Nations. Violations of those laws can carry penalties of up to 20 years in prison and $1 million in fines! \n\nLawler is facing Democrat Cait Conley in New York’s highly competitive 17th Congressional District",
+        "created_at": "2026-10-28T21:44:33.125Z",
+        "source": "https://bsky.app/profile/tygergyrl17.bsky.social/post/3myxpvzfqoc2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

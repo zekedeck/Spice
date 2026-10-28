@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T20:20:38.208457Z",
-    "total_pins": 192
+    "generated_at": "2026-10-28T20:31:22.325719Z",
+    "total_pins": 195
   },
   "features": [
     {
@@ -4842,6 +4842,81 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "PETITE, Chelsea, NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xutiallhqatm5gtoinxcpvwl/app.bsky.feed.post/3myxlmwf43c26",
+        "handle": "rieckhoff.bsky.social",
+        "text": "From Alaska to Nebraska to Idaho to Times Square. \n\nAnd from NewsNation to MSNow to CNN. \n\nNow is especially a time to STAY VIGILANT!\n🚨🇺🇸🎙️🗳️🐺",
+        "created_at": "2026-10-28T20:27:53.000Z",
+        "source": "https://bsky.app/profile/rieckhoff.bsky.social/post/3myxlmwf43c26",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9056,
+          40.8224194
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3kelnt5tm3zzanzk7y64wan3/app.bsky.feed.post/3myxlqdfmvc24",
+        "handle": "godstreetwine.bsky.social",
+        "text": "And away we go...\nHope to see you in NYC and Woodstock this weekend!\n\n🎟️ linktr.ee/godstreetwine \n\n#GodStreetWine #GSW #Winos #LiveMusic #Wetlands #NewMusic #TheMethod",
+        "created_at": "2026-10-28T20:29:47.308Z",
+        "source": "https://bsky.app/profile/godstreetwine.bsky.social/post/3myxlqdfmvc24",
+        "mapped_location": "Woodstock Terrace Co-op, South Bronx, The Bronx, Bronx County, New York, United States",
+        "precision_level": "unclassified",
+        "location_text": "Woodstock",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:elrgg7pvt5b33m2yixm477db/app.bsky.feed.post/3myxls2upw42p",
+        "handle": "gaofnyc.bsky.social",
+        "text": "Happy 140th Anniversary to the Statue of Liberty. \n\nThis amazing sculpture in the NY Harbor has been welcoming people into NYC for 140 years. If you would like to see her up close, the best way is with a Guide. Find a guide at www.ganyc.org/hire-guide\n\n#statueofliberty #statuecruises #libertyisland",
+        "created_at": "2026-10-28T20:30:45.436Z",
+        "source": "https://bsky.app/profile/gaofnyc.bsky.social/post/3myxls2upw42p",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

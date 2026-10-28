@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T10:08:01.980747Z",
-    "total_pins": 6
+    "generated_at": "2026-10-28T11:33:58.759409Z",
+    "total_pins": 11
   },
   "features": [
     {
@@ -153,6 +153,131 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mywmzg5tbd2x",
+        "handle": "allforgardening.bsky.social",
+        "text": "Check out this new secret backyard garden in Williamsburg\n\nhttps://www.allforgardening.com/1947242/check-out-this-new-secret-backyard-garden-in-williamsburg/\n\nWe’ve got a new secret backyard garden for you to visit this weekend, courtesy of Williamsburg eatery and bar Maracuja. \r Photograph: …",
+        "created_at": "2026-10-28T11:20:03+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mywmzg5tbd2x",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mywn3h3svxb2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "8 Av-bound L trains are delayed while we investigate why a train's brakes activated at Wilson Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T11:21:09.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mywn3h3svxb2",
+        "mapped_location": "Wilson Av",
+        "precision_level": "address",
+        "location_text": "Wilson Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:d7aypgjlw7svu7haeta7x63h/app.bsky.feed.post/3mywnb5sgpk2x",
+        "handle": "mjk4mj.bsky.social",
+        "text": "Would be nice if they got out of NYC. And take the racist garbage NY Post with them. \nAvenue of the Americas behind them.\n2023: \"... Mayor’s Office of Immigrant Affairs ... Full Restoration of National Medallions Along Avenue of the Americas\" www.nyc.gov/html/dot/htm...",
+        "created_at": "2026-10-28T11:24:25.871Z",
+        "source": "https://bsky.app/profile/mjk4mj.bsky.social/post/3mywnb5sgpk2x",
+        "mapped_location": "Avenue of the Americas",
+        "precision_level": "address",
+        "location_text": "Avenue of the Americas",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:enby5moufejuzpozgx5jcju2/app.bsky.feed.post/3mywnbqptx32y",
+        "handle": "kazwan.bsky.social",
+        "text": "Meantio Makes Short Drama Creation as Simple as Shooting a Video: Every Story Meant to be Seen\n\nTimes Square Halloween Event Brings Together Influencers, Live Performances, Audience Interaction, Surprise Gifts, and Online Livestream Los Angeles, California, United States, October 28, 2026 -- Short…",
+        "created_at": "2026-10-28T11:24:45Z",
+        "source": "https://bsky.app/profile/kazwan.bsky.social/post/3mywnbqptx32y",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832,
+          40.701
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ak4kua2hi5orbqpdnemal23/app.bsky.feed.post/3mywnjgjnss2i",
+        "handle": "scotlander.bsky.social",
+        "text": "the destruction of the Bonwit Teller freizes to the demolition of the Rose Garden, the East Wing and more, and also the fraud surrounding the old Biltmore building and decades of worsening fraud and criminal acts.\nNew Yorkers knew DonOLD from his earliest days and he is NOT a favorite son.",
+        "created_at": "2026-10-28T11:29:03.446Z",
+        "source": "https://bsky.app/profile/scotlander.bsky.social/post/3mywnjgjnss2i",
+        "mapped_location": "Rose Garden, Queens, Queens County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "the Rose Garden",
+        "confidence": 1.0,
+        "address_type": "garden",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

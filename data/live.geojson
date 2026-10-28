@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-28T00:25:49.990828Z",
-    "total_pins": 137
+    "generated_at": "2026-10-28T00:41:28.837208Z",
+    "total_pins": 144
   },
   "features": [
     {
@@ -3452,6 +3452,183 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2cuorfzsdbjz76ahbmgt4kkt/app.bsky.feed.post/3myviqdemuk2h",
+        "handle": "mascschoolcomm.bsky.social",
+        "text": "Our Public Policy Report from today's Board of Elementary and Secondary Education meeting, held in Williamsburg, is now available. \n\nPictured below: the Anne T. Dunphy School, which hosted the meeting. \n\nwww.masc.org/public-polic...",
+        "created_at": "2026-10-28T00:30:46.578Z",
+        "source": "https://bsky.app/profile/mascschoolcomm.bsky.social/post/3myviqdemuk2h",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9686981,
+          40.7963122
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5mqnvnklvzguvme2yfkanyd/app.bsky.feed.post/3myviymfkjc2s",
+        "handle": "cripsociologist.bsky.social",
+        "text": "this was me trying to go to school in nyc in 2019 when i lived at 2090 amsterdam ave and my housing/family shit fell apart. 5th floor of a wall up but it rocked. right by the L and C. never carded. i’ll get back one day youtu.be/FT-KOE9lRQY?...",
+        "created_at": "2026-10-28T00:35:24.481Z",
+        "source": "https://bsky.app/profile/cripsociologist.bsky.social/post/3myviymfkjc2s",
+        "mapped_location": "Amsterdam Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+        "precision_level": "unclassified",
+        "location_text": "amsterdam",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964,
+          40.671
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ax643o5lcgdtqzhqk374uqgg/app.bsky.feed.post/3myvizcb5ac2a",
+        "handle": "kinographer.bsky.social",
+        "text": "Can we please step up enforcement in tandem? At Brooklyn Museum alone I regularly encounter:\n- tow vehicles driving on the sidewalk \n- carts left unattended/stored overnight \n- carts in bus stop\n- illegally parked food trucks \n- food trucks with defaced plates, opaque windows",
+        "created_at": "2026-10-28T00:35:47.404Z",
+        "source": "https://bsky.app/profile/kinographer.bsky.social/post/3myvizcb5ac2a",
+        "mapped_location": "Brooklyn Museum",
+        "precision_level": "address",
+        "location_text": "Brooklyn Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3myvj2dkqts2a",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday at The Crown:\n\nForced Bi by @thedommekat.com — man-on-man fetish with the guidance of a welcoming Domina. Curated, enthusiastic, consensual: an intimate room where the Subs are led through their ultimate fantasy.\n\n🗓️ Sun, 11/1\n🕰️ 7:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: forcedbi.eventbrite.com",
+        "created_at": "2026-10-28T00:36:22.320Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3myvj2dkqts2a",
+        "mapped_location": "The Crown, Bushwick",
+        "precision_level": "address",
+        "location_text": "The Crown, Bushwick",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3myvj2dkqts2a",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday at The Crown:\n\nForced Bi by @thedommekat.com — man-on-man fetish with the guidance of a welcoming Domina. Curated, enthusiastic, consensual: an intimate room where the Subs are led through their ultimate fantasy.\n\n🗓️ Sun, 11/1\n🕰️ 7:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: forcedbi.eventbrite.com",
+        "created_at": "2026-10-28T00:36:22.320Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3myvj2dkqts2a",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "The Crown, Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kng5k4qpshmkymg6beqbictr/app.bsky.feed.post/3myvj7bsroc25",
+        "handle": "carolinehooton.bsky.social",
+        "text": "Went to see Gillian Anderson and Billy Crudup in Who’s Afraid of Virginia Woolf at SoHo Place this evening. Very good production - Billy Crudup was the standout for me but all the cast is excellent.",
+        "created_at": "2026-10-28T00:39:08.259Z",
+        "source": "https://bsky.app/profile/carolinehooton.bsky.social/post/3myvj7bsroc25",
+        "mapped_location": "SoHo Place",
+        "precision_level": "address",
+        "location_text": "SoHo Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yjy3gatfao2dggjx3k3ibbz5/app.bsky.feed.post/3myvjbzinr22i",
+        "handle": "chadpbown.com",
+        "text": "HOW TO WIN A TRADE WAR… at Columbia University!!!\n\n@soumayakeynes.ft.com  and I had a super fun conversation with a lively audience due to the deft moderation by the very great @jesseschreger.bsky.social.\n\nThanks, New York!!!",
+        "created_at": "2026-10-28T00:40:40.202Z",
+        "source": "https://bsky.app/profile/chadpbown.com/post/3myvjbzinr22i",
+        "mapped_location": "Columbia University",
+        "precision_level": "address",
+        "location_text": "Columbia University",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

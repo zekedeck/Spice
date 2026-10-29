@@ -378,8 +378,14 @@
       parseInt(startStr.slice(8, 10), 10)
     ));
     var endStr = etDateString(toDate);
+    // guard is a runaway-loop backstop, not a real range limit -- the loop
+    // always breaks on reaching endStr. 3660 (10 years) comfortably covers
+    // the normal 30-day live Lookback range AND a one-time historical
+    // import (e.g. IMPORT_MODE) spanning well over a year -- a prior 31-day
+    // guard silently truncated any longer range instead of erroring, which
+    // is why an import's full date range wasn't loading.
     var guard = 0;
-    while (guard < 31) {
+    while (guard < 3660) {
       var curStr = cursor.getUTCFullYear() + "-" + pad2(cursor.getUTCMonth() + 1) + "-" + pad2(cursor.getUTCDate());
       days.push(curStr);
       if (curStr === endStr) break;

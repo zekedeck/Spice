@@ -137,6 +137,22 @@
   var RADIUS_EARTH_MILES = 3958.8;
   var MILES_TO_METERS = 1609.344;
   var RADIUS_CIRCLE_POINTS = 64;
+  // Explicit select-then-drag affordance for an existing circle (replaces
+  // the old silent hover-grab-cursor-only hint): a plain click highlights
+  // the circle with a thicker, distinctly-colored border -- the amber here
+  // is --pin-address from style.css's palette, reused rather than inventing
+  // a new color -- and only while that highlight is showing does dragging
+  // the interior move it. See the mousedown/mousemove/mouseup trio in
+  // initMap() and updateCircleSelectedVisual() below.
+  var RADIUS_CIRCLE_LINE_COLOR = "#5b8cff";
+  var RADIUS_CIRCLE_LINE_COLOR_SELECTED = "#f2b84b";
+  var RADIUS_CIRCLE_LINE_WIDTH = 2;
+  var RADIUS_CIRCLE_LINE_WIDTH_SELECTED = 4;
+  var RADIUS_CIRCLE_FILL_OPACITY = 0.12;
+  var RADIUS_CIRCLE_FILL_OPACITY_SELECTED = 0.24;
+  // Pixel distance a mousedown-on-the-circle has to travel before it's
+  // treated as a drag (move) rather than a plain click (select/toggle).
+  var CIRCLE_MOVE_DRAG_THRESHOLD_PX = 3;
 
   var map = null;
   var mode = "live"; // "live" | "archive"
@@ -161,6 +177,13 @@
   var isMovingCircle = false;
   var moveDragStartLngLat = null; // [lng, lat] where the move-drag began
   var moveDragStartCenter = null; // radiusCenter at the moment the drag began
+  // Select-then-drag state (see the mousedown/mousemove/mouseup trio in
+  // initMap()). circleSelected drives the highlighted-border paint via
+  // updateCircleSelectedVisual(); circleMouseDownPoint is the mousedown
+  // pixel used only to tell a plain click on the circle's interior apart
+  // from the start of a drag, before isMovingCircle itself gets set.
+  var circleSelected = false;
+  var circleMouseDownPoint = null; // [x, y] in pixels, or null
 
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
@@ -750,6 +773,27 @@
     if (source) source.setData(radiusCircleGeoJSON());
   }
 
+  // Paints the explicit "selected" highlight -- thicker amber border plus
+  // a denser fill -- on the circle, purely driven by circleSelected. This
+  // is the obvious-at-a-glance affordance the select-then-drag interaction
+  // relies on, replacing the old hover-cursor-only hint as the primary cue
+  // (the cursor hint still runs too, just as a secondary nicety now).
+  function updateCircleSelectedVisual() {
+    if (!map || !map.getLayer("radius-circle-line")) return;
+    map.setPaintProperty("radius-circle-line", "line-color",
+      circleSelected ? RADIUS_CIRCLE_LINE_COLOR_SELECTED : RADIUS_CIRCLE_LINE_COLOR);
+    map.setPaintProperty("radius-circle-line", "line-width",
+      circleSelected ? RADIUS_CIRCLE_LINE_WIDTH_SELECTED : RADIUS_CIRCLE_LINE_WIDTH);
+    map.setPaintProperty("radius-circle-fill", "fill-opacity",
+      circleSelected ? RADIUS_CIRCLE_FILL_OPACITY_SELECTED : RADIUS_CIRCLE_FILL_OPACITY);
+  }
+
+  function setCircleSelected(selected) {
+    if (circleSelected === selected) return;
+    circleSelected = selected;
+    updateCircleSelectedVisual();
+  }
+
   // One decimal place, trailing ".0" stripped (so a whole number like 5
   // still reads "5 mi" rather than "5.0 mi") -- radiusMiles itself stays a
   // full-precision float; this is purely a display format.
@@ -814,6 +858,7 @@
   function clearRadiusFilter() {
     radiusCenter = null;
     isDrawingDrag = false;
+    setCircleSelected(false);
     radiusMiles = RADIUS_DEFAULT_MILES;
     if (radiusSlider) radiusSlider.value = String(RADIUS_DEFAULT_MILES);
     updateRadiusValueLabel();
@@ -1774,7 +1819,7 @@
         source: "radius-circle",
         paint: {
           "fill-color": "#5b8cff",
-          "fill-opacity": 0.12
+          "fill-opacity": RADIUS_CIRCLE_FILL_OPACITY
         }
       });
 
@@ -1783,8 +1828,8 @@
         type: "line",
         source: "radius-circle",
         paint: {
-          "line-color": "#5b8cff",
-          "line-width": 2,
+          "line-color": RADIUS_CIRCLE_LINE_COLOR,
+          "line-width": RADIUS_CIRCLE_LINE_WIDTH,
           "line-opacity": 0.85
         }
       });
@@ -1955,6 +2000,15 @@
         if (drawModeActive || isMovingCircle) return;
         var features = map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS });
         if (features.length === 0) clearSelection();
+        // Deselect the geofence circle too, but only when the click lands
+        // on neither a pin/camera dot NOR the circle's own interior -- a
+        // plain click on the circle is a select, handled by the
+        // mousedown/mouseup trio below, and must not be immediately
+        // undone by this same-interaction's trailing "click" event.
+        if (features.length === 0 && radiusCenter &&
+            !map.queryRenderedFeatures(e.point, { layers: ["radius-circle-fill"] }).length) {
+          setCircleSelected(false);
+        }
       });
 
       PIN_INTERACTIVE_LAYERS.forEach(function (layerId) {
@@ -1962,23 +2016,35 @@
         map.on("mouseleave", layerId, function () { if (!drawModeActive && !isMovingCircle) map.getCanvas().style.cursor = ""; });
       });
 
-      // --- Geofence draw/move-circle interaction ---------------------------
-      // Two distinct drag modes share the same mousedown/mousemove/mouseup
-      // plumbing, kept mutually exclusive (drawModeActive always wins):
+      // --- Geofence draw/select/move-circle interaction ---------------------
+      // Three distinct interactions share the same mousedown/mousemove/
+      // mouseup plumbing, kept mutually exclusive (drawModeActive always
+      // wins, then isMovingCircle, then a plain select click):
       //
       //   1. Draw a NEW circle (drawModeActive): mousedown sets the fixed
       //      center; mousemove live-updates the radius to the cursor's
       //      current real-world (haversine) distance from that center;
       //      mouseup finalizes.
-      //   2. MOVE an existing circle (isMovingCircle): mousedown on the
-      //      filled interior of an already-drawn circle (and not on top of
-      //      a pin/camera dot, which keep their own click-to-open behavior)
-      //      grabs it; mousemove translates radiusCenter by the same
-      //      lng/lat delta the cursor has moved since the grab, keeping the
-      //      grabbed point under the cursor rather than re-centering on it;
-      //      mouseup finalizes. Radius stays fixed throughout.
+      //   2. SELECT an existing circle: a plain mousedown-then-mouseup (no
+      //      significant movement in between) on the filled interior of an
+      //      already-drawn circle -- and not on top of a pin/camera dot,
+      //      which keep their own click-to-open behavior -- puts it into an
+      //      explicit "selected" state (thicker amber border; see
+      //      updateCircleSelectedVisual()), the same obvious affordance a
+      //      selected image gets in a word processor. Clicking elsewhere on
+      //      the map (not the circle, not a pin) clears it -- see the
+      //      "click" handler above.
+      //   3. MOVE an existing circle (isMovingCircle): once a mousedown on
+      //      the interior travels more than CIRCLE_MOVE_DRAG_THRESHOLD_PX
+      //      pixels, it's a drag rather than a plain click -- this also
+      //      selects the circle (dragging it should look identical to
+      //      having clicked it first) and starts moving it: mousemove
+      //      translates radiusCenter by the same lng/lat delta the cursor
+      //      has moved since the mousedown, keeping the grabbed point under
+      //      the cursor rather than re-centering on it; mouseup finalizes.
+      //      Radius stays fixed throughout.
       //
-      // Both bound on the map generally rather than a specific layer -- the
+      // All bound on the map generally rather than a specific layer -- the
       // center/interior can legally overlap a pin, and this interaction
       // takes priority over the normal pin-click handling above (guarded
       // via the drawModeActive / isMovingCircle checks there).
@@ -1988,6 +2054,7 @@
           isDrawingDrag = true;
           radiusCenter = [e.lngLat.lng, e.lngLat.lat];
           radiusMiles = RADIUS_MIN_MILES;
+          setCircleSelected(false); // a brand-new circle; any previous selection no longer applies
           if (radiusSlider) radiusSlider.value = String(radiusMiles);
           updateRadiusValueLabel();
           updateRadiusActiveUi();
@@ -1999,15 +2066,19 @@
         if (!radiusCenter) return;
         // A pin/camera dot sitting inside the circle keeps its own
         // click-to-open behavior -- only an empty patch of the circle's
-        // interior starts a move.
+        // interior starts a select/move.
         if (map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS }).length) return;
         if (!map.queryRenderedFeatures(e.point, { layers: ["radius-circle-fill"] }).length) return;
         e.preventDefault();
-        isMovingCircle = true;
+        // Don't commit to a move yet -- record where this mousedown landed
+        // and let mousemove below decide whether it turns into a drag or
+        // stays a plain click. dragPan is disabled immediately either way
+        // so the map doesn't pan out from under an ambiguous press-and-hold
+        // on the circle.
+        circleMouseDownPoint = [e.point.x, e.point.y];
         moveDragStartLngLat = [e.lngLat.lng, e.lngLat.lat];
         moveDragStartCenter = radiusCenter.slice();
         map.dragPan.disable();
-        map.getCanvas().style.cursor = "grabbing";
       });
 
       map.on("mousemove", function (e) {
@@ -2038,11 +2109,41 @@
           return;
         }
 
+        // A mousedown landed on the circle's interior and the button is
+        // still down (circleMouseDownPoint set, finishPointerDrag hasn't
+        // run yet) -- waiting to see if this turns into a drag. Promote to
+        // an actual move once the cursor has traveled more than a few
+        // pixels; a plain click (mouseup before crossing this threshold) is
+        // instead handled as a select in finishPointerDrag below.
+        if (circleMouseDownPoint) {
+          var dx = e.point.x - circleMouseDownPoint[0];
+          var dy = e.point.y - circleMouseDownPoint[1];
+          if (Math.sqrt(dx * dx + dy * dy) > CIRCLE_MOVE_DRAG_THRESHOLD_PX) {
+            isMovingCircle = true;
+            // Dragging it also selects it -- same as dragging an unselected
+            // image in a word processor, which grabs/selects it in one
+            // motion rather than requiring a separate prior click.
+            setCircleSelected(true);
+            map.getCanvas().style.cursor = "grabbing";
+            // Apply this same mousemove's share of the translation right
+            // away rather than waiting for the next tick.
+            radiusCenter = [
+              moveDragStartCenter[0] + (e.lngLat.lng - moveDragStartLngLat[0]),
+              moveDragStartCenter[1] + (e.lngLat.lat - moveDragStartLngLat[1])
+            ];
+            updateRadiusCircleLayer();
+            applyFilters();
+          }
+          return;
+        }
+
         // Idle hover: a "grab" affordance over the circle's interior, so
-        // the move-circle interaction is discoverable without instructions.
-        // Skipped over a pin/camera dot -- those already set their own
-        // "pointer" cursor via the mouseenter/mouseleave bindings above,
-        // and this runs on every mousemove so it must not fight that.
+        // the select/move interaction is discoverable without instructions
+        // -- now a secondary hint alongside the explicit selected-border
+        // affordance above, not the sole one. Skipped over a pin/camera
+        // dot -- those already set their own "pointer" cursor via the
+        // mouseenter/mouseleave bindings above, and this runs on every
+        // mousemove so it must not fight that.
         if (!radiusCenter) return;
         if (map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS }).length) return;
         var overCircle = map.queryRenderedFeatures(e.point, { layers: ["radius-circle-fill"] }).length > 0;
@@ -2058,12 +2159,25 @@
           map.dragPan.enable();
           map.getCanvas().style.cursor = "";
           applyFilters();
+          circleMouseDownPoint = null;
           // Deferred rather than cleared immediately: the trailing "click"
           // event for this same mousedown-drag-mouseup interaction fires
           // synchronously right after this handler, and the pin/camera/
           // clear-on-click handlers above need to still see isMovingCircle
           // as true to know to ignore that click (see their guards).
           setTimeout(function () { isMovingCircle = false; }, 0);
+          return;
+        }
+        if (circleMouseDownPoint) {
+          // Mouse went down on the circle's interior and came back up
+          // without ever crossing the drag threshold above -- a plain
+          // click. Select it (idempotent if already selected -- a second
+          // click on an already-selected circle just keeps it selected;
+          // deselection is owned entirely by the "click elsewhere" handler
+          // above, not by re-clicking the circle itself).
+          map.dragPan.enable();
+          setCircleSelected(true);
+          circleMouseDownPoint = null;
         }
       }
       map.on("mouseup", finishPointerDrag);

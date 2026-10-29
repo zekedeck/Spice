@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:09:22.417333Z",
-    "total_pins": 283
+    "generated_at": "2026-10-29T15:25:45.340607Z",
+    "total_pins": 291
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:gzqwvjit3l56v7ua6zaf3csb/app.bsky.feed.post/3myukafmt2k2r",
-        "handle": "graemerowland.bsky.social",
-        "text": "\"The report offered new information from Beatrice Keul, a former Miss Switzerland, who says Trump used a pageant at the Plaza Hotel in New York City as a “hunting ground” to prey on young victims and that Trump raped her there in 1993, leaving her bleeding and bruised.\" Heather Cox Richardson",
-        "created_at": "2026-10-27T15:24:59.819Z",
-        "source": "https://bsky.app/profile/graemerowland.bsky.social/post/3myukafmt2k2r",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7134,6 +7109,234 @@
         "mapped_location": "Ocean Parkway",
         "precision_level": "address",
         "location_text": "Ocean Parkway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.842,
+          40.634
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nncunxa2liwsgvedpuvblbhi/app.bsky.feed.post/3myzkdtn3vr2l",
+        "handle": "nytransitmuseum.bsky.social",
+        "text": "1. R32 train in mid-air during lift onto tracks of the IND Rockaway Line at the intersection of Hawtree Street and Pitkin Avenue in Ozone Park, Queens.\n\n2. Boat astride on Metro-North Railroad tracks in Ossining, NY. Metro-North crews used a crane to remove the obstacle.",
+        "created_at": "2026-10-29T15:10:13.854Z",
+        "source": "https://bsky.app/profile/nytransitmuseum.bsky.social/post/3myzkdtn3vr2l",
+        "mapped_location": "Hawtree Street",
+        "precision_level": "address",
+        "location_text": "Hawtree Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Pitkin Avenue, Ozone Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.794,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nncunxa2liwsgvedpuvblbhi/app.bsky.feed.post/3myzkdtn3vr2l",
+        "handle": "nytransitmuseum.bsky.social",
+        "text": "1. R32 train in mid-air during lift onto tracks of the IND Rockaway Line at the intersection of Hawtree Street and Pitkin Avenue in Ozone Park, Queens.\n\n2. Boat astride on Metro-North Railroad tracks in Ossining, NY. Metro-North crews used a crane to remove the obstacle.",
+        "created_at": "2026-10-29T15:10:13.854Z",
+        "source": "https://bsky.app/profile/nytransitmuseum.bsky.social/post/3myzkdtn3vr2l",
+        "mapped_location": "Pitkin Avenue",
+        "precision_level": "address",
+        "location_text": "Pitkin Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Hawtree Street, Ozone Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.629
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nncunxa2liwsgvedpuvblbhi/app.bsky.feed.post/3myzkdtn3vr2l",
+        "handle": "nytransitmuseum.bsky.social",
+        "text": "1. R32 train in mid-air during lift onto tracks of the IND Rockaway Line at the intersection of Hawtree Street and Pitkin Avenue in Ozone Park, Queens.\n\n2. Boat astride on Metro-North Railroad tracks in Ossining, NY. Metro-North crews used a crane to remove the obstacle.",
+        "created_at": "2026-10-29T15:10:13.854Z",
+        "source": "https://bsky.app/profile/nytransitmuseum.bsky.social/post/3myzkdtn3vr2l",
+        "mapped_location": "Ozone Park",
+        "precision_level": "address",
+        "location_text": "Ozone Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Hawtree Street, Pitkin Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gzdw53g2cycjycnv2xapdvzc/app.bsky.feed.post/3myzkew5v6226",
+        "handle": "nysdvs.bsky.social",
+        "text": "🇺🇸 NYSDVS is on the move for Veterans!\n\n👏 Elaina Ferguson supported student Veterans at Pace University and helped distribute 158 FreshConnect Checks packets in Queens!\n\nCatrina James also led Veterans Power Hour on Long Island!\n\n💜 Serving All Who Served!\n\n#NewYorkVeterans",
+        "created_at": "2026-10-29T15:10:50.059Z",
+        "source": "https://bsky.app/profile/nysdvs.bsky.social/post/3myzkew5v6226",
+        "mapped_location": "Pace University",
+        "precision_level": "address",
+        "location_text": "Pace University",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nnzsyixcbmdv7kzzo2bpggmu/app.bsky.feed.post/3myzkjrigz5l2",
+        "handle": "apocalypsesoon.mastodon.social.ap.brid.gy",
+        "text": "A Joyful Tour Inside Balloon Saloon, A Historic Novelty Shop in Tribeca | Lori Dorn for Laughing Squid (@LaughingSquid)\nhttps://laughingsquid.com/new-york-city-balloon-saloon-tour/",
+        "created_at": "2026-10-29T15:13:27.000Z",
+        "source": "https://bsky.app/profile/apocalypsesoon.mastodon.social.ap.brid.gy/post/3myzkjrigz5l2",
+        "mapped_location": "Tribeca",
+        "precision_level": "address",
+        "location_text": "Tribeca",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:idfozrgxosvj6clz5ssugc33/app.bsky.feed.post/3myzknvq2vc2t",
+        "handle": "nateschenkkan.bsky.social",
+        "text": "Two-way lane, mostly barrier-protected, otherwise parking-protected that takes you all the way down with *almost* no tricky moments to the entrance to the Manhattan Bridge. \n\nNight and day compared to Smith-Jay-Fulton insanity",
+        "created_at": "2026-10-29T15:15:51.586Z",
+        "source": "https://bsky.app/profile/nateschenkkan.bsky.social/post/3myzknvq2vc2t",
+        "mapped_location": "the Manhattan Bridge",
+        "precision_level": "address",
+        "location_text": "the Manhattan Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3myzkudhp5pt2",
+        "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+        "text": "📰 **A new wave of electric ferries is here in the US. Some even fly**\n\nReplacing diesel-powered ferries with electric vessels could reduce emissions and improve air quality Cutting through New York Harbor in the shadow of the Statue of Liberty, the […] \n\n[Original post on igeek.gamer-geek-news.com]",
+        "created_at": "2026-10-29T15:15:56.000Z",
+        "source": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3myzkudhp5pt2",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xvmzhfvnlix2admr7ioaf6ht/app.bsky.feed.post/3myzktakbtk2q",
+        "handle": "tag24.com",
+        "text": "Double the billboards, double the fun! 🗽❤️\n\nTAG24 NEWS took over Times Square with TWO billboards, making our mark in the heart of NYC! 🇺🇸✨\n\nHit that follow button and come along for the ride! 📲\n#TAG24 #TimesSquare #NYC #NewYorkCity #News",
+        "created_at": "2026-10-29T15:18:50.711Z",
+        "source": "https://bsky.app/profile/tag24.com/post/3myzktakbtk2q",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7wshcme2yqbii5sctzbo5t7i/app.bsky.feed.post/3myzkthf3vy2o",
+        "handle": "americabites.bsky.social",
+        "text": "Thursday brunch in NYC 🥐🇫🇷 Buvette on tree-lined Grove St in the West Village bro, Chef Jody Williams' old-world French café since 2011. Croque madame w/ ham, gruyère & sunny egg, Jambon Cru eggs w/ prosciutto, buttermilk waffles, tarte tatin. Open 8am-midnight fr #FoodSky #NYC",
+        "created_at": "2026-10-29T15:18:54.287463Z",
+        "source": "https://bsky.app/profile/americabites.bsky.social/post/3myzkthf3vy2o",
+        "mapped_location": "West Village",
+        "precision_level": "address",
+        "location_text": "West Village",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

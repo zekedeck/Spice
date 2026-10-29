@@ -1,114 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T02:28:17.321450Z",
-    "total_pins": 5
+    "generated_at": "2026-10-29T03:27:33.367341Z",
+    "total_pins": 1
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9618325,
-          40.7725908
-        ]
-      },
-      "properties": {
-        "post_uri": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "handle": "stopyourliesnyt",
-        "text": "📣 ACTION ANNOUNCEMENT: DOWN WITH CORPORATE MEDIA CRAWL \n\n🗓️ Thursday, July 30\n⏱️3:30-7:30pm \n📍Midtown Manhattan \n\n🌹Join us for the almost 2 year anniversary of israel’s assassination of Palestinian journalists Ismail al Ghoul and Sami Al-Rifi (glory to them) on 7/31/2024 as we demand justice, accountability, and call out western media’s racist war-mongering and genocide propaganda. \n\nCorporate mainstream media has blood on its hands! For decades they have manufactured consent for “Israel”’s occupation and genocide of Palestine. And today they continue to whitewash the atrocities the U.S. and “Israel” are committing in Gaza, the West Bank, Lebanon, and Iran. Join us in a Midtown media crawl to call out these institutions’ lies!\n\nDetails Below:\n\nMeet Up at 3:30 PM at NBC (Comcast Building, Rockefeller Plaza)\nThen marching to the following rallying points:\n4:30 PM NewsCorp \n5:30 PM Times Square Red Stairs\n6:30 PM New York Times \n\nBring flags and noisemakers! We will have signs to borrow. Please share this flyer and see you there 🇵🇸🇱🇧🇮🇷✊",
-        "created_at": "2026-07-24T22:17:03.000Z",
-        "source": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
-        "precision_level": "address",
-        "location_text": "israel",
-        "confidence": 0.845,
-        "address_type": "place_of_worship",
-        "provenance": "rule",
-        "borough_conflict": false,
-        "specificity_score": 0.15,
-        "other_locations": "Israel, Palestine, Lebanon, Rockefeller Plaza"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9618325,
-          40.7725908
-        ]
-      },
-      "properties": {
-        "post_uri": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "handle": "stopyourliesnyt",
-        "text": "📣 ACTION ANNOUNCEMENT: DOWN WITH CORPORATE MEDIA CRAWL \n\n🗓️ Thursday, July 30\n⏱️3:30-7:30pm \n📍Midtown Manhattan \n\n🌹Join us for the almost 2 year anniversary of israel’s assassination of Palestinian journalists Ismail al Ghoul and Sami Al-Rifi (glory to them) on 7/31/2024 as we demand justice, accountability, and call out western media’s racist war-mongering and genocide propaganda. \n\nCorporate mainstream media has blood on its hands! For decades they have manufactured consent for “Israel”’s occupation and genocide of Palestine. And today they continue to whitewash the atrocities the U.S. and “Israel” are committing in Gaza, the West Bank, Lebanon, and Iran. Join us in a Midtown media crawl to call out these institutions’ lies!\n\nDetails Below:\n\nMeet Up at 3:30 PM at NBC (Comcast Building, Rockefeller Plaza)\nThen marching to the following rallying points:\n4:30 PM NewsCorp \n5:30 PM Times Square Red Stairs\n6:30 PM New York Times \n\nBring flags and noisemakers! We will have signs to borrow. Please share this flyer and see you there 🇵🇸🇱🇧🇮🇷✊",
-        "created_at": "2026-07-24T22:17:03.000Z",
-        "source": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
-        "precision_level": "address",
-        "location_text": "Israel",
-        "confidence": 0.845,
-        "address_type": "place_of_worship",
-        "provenance": "rule",
-        "borough_conflict": false,
-        "specificity_score": 0.15,
-        "other_locations": "israel, Palestine, Lebanon, Rockefeller Plaza"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.1619473,
-          40.8973301
-        ]
-      },
-      "properties": {
-        "post_uri": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "handle": "stopyourliesnyt",
-        "text": "📣 ACTION ANNOUNCEMENT: DOWN WITH CORPORATE MEDIA CRAWL \n\n🗓️ Thursday, July 30\n⏱️3:30-7:30pm \n📍Midtown Manhattan \n\n🌹Join us for the almost 2 year anniversary of israel’s assassination of Palestinian journalists Ismail al Ghoul and Sami Al-Rifi (glory to them) on 7/31/2024 as we demand justice, accountability, and call out western media’s racist war-mongering and genocide propaganda. \n\nCorporate mainstream media has blood on its hands! For decades they have manufactured consent for “Israel”’s occupation and genocide of Palestine. And today they continue to whitewash the atrocities the U.S. and “Israel” are committing in Gaza, the West Bank, Lebanon, and Iran. Join us in a Midtown media crawl to call out these institutions’ lies!\n\nDetails Below:\n\nMeet Up at 3:30 PM at NBC (Comcast Building, Rockefeller Plaza)\nThen marching to the following rallying points:\n4:30 PM NewsCorp \n5:30 PM Times Square Red Stairs\n6:30 PM New York Times \n\nBring flags and noisemakers! We will have signs to borrow. Please share this flyer and see you there 🇵🇸🇱🇧🇮🇷✊",
-        "created_at": "2026-07-24T22:17:03.000Z",
-        "source": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
-        "precision_level": "unclassified",
-        "location_text": "Palestine",
-        "confidence": 0.595,
-        "address_type": "primary",
-        "provenance": "rule",
-        "borough_conflict": false,
-        "specificity_score": 0.15,
-        "other_locations": "israel, Israel, Lebanon, Rockefeller Plaza"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9941398,
-          40.6941998
-        ]
-      },
-      "properties": {
-        "post_uri": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "handle": "stopyourliesnyt",
-        "text": "📣 ACTION ANNOUNCEMENT: DOWN WITH CORPORATE MEDIA CRAWL \n\n🗓️ Thursday, July 30\n⏱️3:30-7:30pm \n📍Midtown Manhattan \n\n🌹Join us for the almost 2 year anniversary of israel’s assassination of Palestinian journalists Ismail al Ghoul and Sami Al-Rifi (glory to them) on 7/31/2024 as we demand justice, accountability, and call out western media’s racist war-mongering and genocide propaganda. \n\nCorporate mainstream media has blood on its hands! For decades they have manufactured consent for “Israel”’s occupation and genocide of Palestine. And today they continue to whitewash the atrocities the U.S. and “Israel” are committing in Gaza, the West Bank, Lebanon, and Iran. Join us in a Midtown media crawl to call out these institutions’ lies!\n\nDetails Below:\n\nMeet Up at 3:30 PM at NBC (Comcast Building, Rockefeller Plaza)\nThen marching to the following rallying points:\n4:30 PM NewsCorp \n5:30 PM Times Square Red Stairs\n6:30 PM New York Times \n\nBring flags and noisemakers! We will have signs to borrow. Please share this flyer and see you there 🇵🇸🇱🇧🇮🇷✊",
-        "created_at": "2026-07-24T22:17:03.000Z",
-        "source": "https://www.instagram.com/p/DbMRhDspuHg/",
-        "mapped_location": "Our Lady of Lebanon Roman Catholic Church, 109, Remsen Street, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
-        "precision_level": "address",
-        "location_text": "Lebanon",
-        "confidence": 0.845,
-        "address_type": "place_of_worship",
-        "provenance": "rule",
-        "borough_conflict": false,
-        "specificity_score": 0.15,
-        "other_locations": "israel, Israel, Palestine, Rockefeller Plaza"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -131,8 +27,7 @@
         "address_type": "pedestrian",
         "provenance": "rule",
         "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "israel, Israel, Palestine, Lebanon"
+        "specificity_score": 0.9
       }
     }
   ]

@@ -84,8 +84,15 @@ def is_venue_mention(entity_text: str, post_text: str, entity_label: str, doc=No
         logger.debug("Media-context signal suppressed: %r", entity_text)
         return False
 
-    # Hard venue signal → accept
-    if any(sig in window for sig in VENUE_SIGNALS):
+    # Hard venue signal → accept. Excludes GPE (country/state/city names):
+    # these signals are checked over a wide ±150-char window, not tied to
+    # THIS specific entity, so a post organizing a real protest ("📍 outside
+    # the NYT building") would otherwise bless every other entity mentioned
+    # nearby too -- including a country name used only in political
+    # commentary in the same short post (e.g. "Israel is starving the
+    # people of Gaza" next to an unrelated "📍" pointing at the actual venue
+    # elsewhere). GPE instead falls through to the stricter checks below.
+    if entity_label != "GPE" and any(sig in window for sig in VENUE_SIGNALS):
         return True
 
     # Subject signal — check same sentence first (stronger penalty) via doc
@@ -103,7 +110,17 @@ def is_venue_mention(entity_text: str, post_text: str, entity_label: str, doc=No
         return True
 
     if entity_label == "GPE":
-        # Accept GPE if a spatial preposition appears directly before the entity
+        if match:
+            # A country/state/city name used possessively ("Israel's
+            # genocide", "Russia's military") is a political-actor
+            # reference, not a place being visited -- reject regardless of
+            # any preposition nearby, before the preposition check below
+            # gets a chance to wrongly accept it via "...role IN Israel's...".
+            after = post_text[match.end():match.end() + 3]
+            if after[:1] in ("'", "’") and after[1:2].lower() == "s":
+                return False
+        # Otherwise accept GPE if a spatial preposition appears directly
+        # before the entity (e.g. "protest at Times Square").
         SPATIAL_PREPS = {"at", "in", "near", "outside", "visiting", "around", "inside"}
         if match:
             pre_window = post_text[max(0, match.start() - 40):match.start()].lower().split()

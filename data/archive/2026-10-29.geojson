@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T23:15:17.147245Z",
-    "total_pins": 166
+    "generated_at": "2026-10-29T23:35:08.235769Z",
+    "total_pins": 173
   },
   "features": [
     {
@@ -4183,6 +4183,183 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lqkdo4yebpdmkf7v2fovxdc7/app.bsky.feed.post/3mz2fq7xxx22e",
+        "handle": "sherilyn.bsky.social",
+        "text": "Magazine advert for Patrick Stewart starring in George C. Wolfe's production of The Tempest in the New York Shakespeare Festival at the Broadhurst Theatre, October 10-December 31, 1995.",
+        "created_at": "2026-10-29T23:20:20.480Z",
+        "source": "https://bsky.app/profile/sherilyn.bsky.social/post/3mz2fq7xxx22e",
+        "mapped_location": "the Broadhurst Theatre",
+        "precision_level": "address",
+        "location_text": "the Broadhurst Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:or5jhlzw46ha45doumorqt6e/app.bsky.feed.post/3mz2frv3pkc24",
+        "handle": "swfong.bsky.social",
+        "text": "No one on Twitter had ever done this, bike to Yankee Stadium. I was passing triple parked cars in bike lanes, and yes Bronx drivers aren't very nice. The only time I felt safe was the No Vehicle zone 10 blocks from the park.",
+        "created_at": "2026-10-29T23:21:16.181Z",
+        "source": "https://bsky.app/profile/swfong.bsky.social/post/3mz2frv3pkc24",
+        "mapped_location": "Yankee Stadium",
+        "precision_level": "address",
+        "location_text": "Yankee Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1249133,
+          40.7439002
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pgkb5sbhrpkxa24uqd7pmkxa/app.bsky.feed.post/3mz2fypyppc2b",
+        "handle": "rip-cusslick.bsky.social",
+        "text": "my weekend in NYC via AmTrak, lots from atlas obscura:\n\n-the Cloisters\n-friday night at the Whitney\n-Dream House\n-MoMath\n-Brooklyn Transit Museum\n-Holographic Studios\n\nplus of course a floppy slice of pizza and bodega breakfast sandwich along the way.\n\nstaying in chelsea, suggestions welcome!",
+        "created_at": "2026-10-29T23:25:05.722Z",
+        "source": "https://bsky.app/profile/rip-cusslick.bsky.social/post/3mz2fypyppc2b",
+        "mapped_location": "Amtrak Bridge No. 7.80, New Jersey Turnpike Western Spur, Kearny, Hudson County, New Jersey, 07032, United States",
+        "precision_level": "unclassified",
+        "location_text": "AmTrak",
+        "confidence": 0.595,
+        "address_type": "bridge",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "the Whitney\n-Dream House"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009,
+          40.739
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pgkb5sbhrpkxa24uqd7pmkxa/app.bsky.feed.post/3mz2fypyppc2b",
+        "handle": "rip-cusslick.bsky.social",
+        "text": "my weekend in NYC via AmTrak, lots from atlas obscura:\n\n-the Cloisters\n-friday night at the Whitney\n-Dream House\n-MoMath\n-Brooklyn Transit Museum\n-Holographic Studios\n\nplus of course a floppy slice of pizza and bodega breakfast sandwich along the way.\n\nstaying in chelsea, suggestions welcome!",
+        "created_at": "2026-10-29T23:25:05.722Z",
+        "source": "https://bsky.app/profile/rip-cusslick.bsky.social/post/3mz2fypyppc2b",
+        "mapped_location": "the Whitney\n-Dream House",
+        "precision_level": "address",
+        "location_text": "the Whitney\n-Dream House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "AmTrak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mz2ge2yolm2z",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "👻🖤 TONIGHT: THE HAUNTED HOTEL at PETITE NYC! Get ready for a spooky Thursday night filled with Halloween vibes, music, and unforgettable nightlife energy. 🎃✨ Grab your crew and join the party!\n\n📍 PETITE NYC\n🎟️ Get your tickets now!\n\n#TheHauntedHotel #HalloweenNYC #PetiteNYC #NYCNightlife",
+        "created_at": "2026-10-29T23:31:25.070Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mz2ge2yolm2z",
+        "mapped_location": "PETITE NYC",
+        "precision_level": "address",
+        "location_text": "PETITE NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:r5qqbgz6n5huvcsvzzm6fsit/app.bsky.feed.post/3mz2gew6vd22k",
+        "handle": "stereogum.com",
+        "text": "Flower Face has been previewing some ‘Kill The Muse’ songs on tour, and next week in Brooklyn, Stereogum will present her sold-out show at Public Records.",
+        "created_at": "2026-10-29T23:31:53.955Z",
+        "source": "https://bsky.app/profile/stereogum.com/post/3mz2gew6vd22k",
+        "mapped_location": "Public Records",
+        "precision_level": "address",
+        "location_text": "Public Records",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iev3jzckw4zxmyj3nmyuiq5d/app.bsky.feed.post/3mz2ghfycck2h",
+        "handle": "favor55.bsky.social",
+        "text": "Jesus lit up the massive billboards in Times Square as thousands gathered to witness it in the heart of NYC.\n\nMaybe New York isn’t lost after all.\n\nThe mainstream media censored this... Let's make it go viral!",
+        "created_at": "2026-10-29T23:33:18.538Z",
+        "source": "https://bsky.app/profile/favor55.bsky.social/post/3mz2ghfycck2h",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

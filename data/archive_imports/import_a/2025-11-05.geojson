@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.312512Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9895127,
+          40.6970288
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DQqBT-9EXrv/",
+        "handle": "tehreer.o.tasweer",
+        "text": "For over two years, Western mainstream media and cultural institutions have been disseminating propaganda to manufacture consent for Israel’s genocide of Palestine. Every institution that remained silent is complicit, and every apologist is an accomplice to Israel and the U.S.’s genocidal campaign.\n\nPieces from the powerful artwork created by over 100 international artists/activists was brought to the door step of complicit institutions.\n@quilt_for_palestine \n\nNew York City is the core of the Zionist cultural propaganda machine in the United States. Rally started at Museum of Modern Art to call out their silencing of pro-Palestinian voices in the art world. Then, the media outlets of 6th Ave (CBS, NBC, NewsCorp/Fox News) who have spread Israeli disinformation for decades; Times Square – the epitome of American capitalism, greed, and distraction which drives Israel’s genocide; and finally, the New York Times – the crown jewel of Western liberal Zionist propaganda.\n\nIsrael is violating the ceasefire. Gaza is still under blockade and siege. The West Bank is being terrorized by Israeli settlers. Yet, the Palestinian people are still resisting and we must too!",
+        "created_at": "2025-11-05T01:36:34.000Z",
+        "source": "https://www.instagram.com/p/DQqBT-9EXrv/",
+        "mapped_location": "Theodore Roosevelt United States Courthouse, 225, Cadman Plaza East, Dumbo, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "unclassified",
+        "location_text": "the United States",
+        "confidence": 0.64,
+        "address_type": "courthouse",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9858998,
+          40.7572614
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DQqBT-9EXrv/",
+        "handle": "tehreer.o.tasweer",
+        "text": "For over two years, Western mainstream media and cultural institutions have been disseminating propaganda to manufacture consent for Israel’s genocide of Palestine. Every institution that remained silent is complicit, and every apologist is an accomplice to Israel and the U.S.’s genocidal campaign.\n\nPieces from the powerful artwork created by over 100 international artists/activists was brought to the door step of complicit institutions.\n@quilt_for_palestine \n\nNew York City is the core of the Zionist cultural propaganda machine in the United States. Rally started at Museum of Modern Art to call out their silencing of pro-Palestinian voices in the art world. Then, the media outlets of 6th Ave (CBS, NBC, NewsCorp/Fox News) who have spread Israeli disinformation for decades; Times Square – the epitome of American capitalism, greed, and distraction which drives Israel’s genocide; and finally, the New York Times – the crown jewel of Western liberal Zionist propaganda.\n\nIsrael is violating the ceasefire. Gaza is still under blockade and siege. The West Bank is being terrorized by Israeli settlers. Yet, the Palestinian people are still resisting and we must too!",
+        "created_at": "2025-11-05T01:36:34.000Z",
+        "source": "https://www.instagram.com/p/DQqBT-9EXrv/",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the United States"
+      }
+    }
+  ]
+}

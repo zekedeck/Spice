@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.322035Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.765966,
+          40.753991
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DbeGCI3AMFw/",
+        "handle": "port.of.elizabeth.movement",
+        "text": "On Friday, October 3rd, 2025 at 5:30 AM, protesters blockaded the Elizabeth Marine Terminal, one of Maersk and ZIM’s largest export ports on the East Coast shipping weapons to Israel for use in its US-backed genocide in Gaza. Port Authority Police arrested four protesters and also impounded 12 cars of protesters parked at a nearby shopping mall.\n\nMaersk and ZIM are the targets of the #MaskOffMaersk international pressure campaign spearheaded by the Palestinian Youth Movement (PYM). According to PYM, “Maersk fulfills part of its Indefinite Delivery, Indefinite Quantity (IDIQ) contract with the U.S. Department of Defense by transporting military cargo…Maersk does not just support the Zionist genocide through outbound\nshipping of military cargo from the U.S. to Israel…Maersk ships also carry military cargo to arms manufacturers in the US in order for these weapons companies to assemble the weapons that murder our people…Targeting Maersk directly disrupts the flow of military cargo in the supply chain of death used to genocide Palestinians.”\n\nThis protest was organized in solidarity with port protests in Oakland, CA; Dublin, Ireland; and at ports in Spain, Italy, France, Sweden, and Greece as well as with the Global Sumud Flotilla. \nThe October Port Elizabeth 4 are now facing charges for disrupting shipments where roughly 1,000 tons of military cargo are transported to Israel weekly.\nThe most effective non violent way to stop a Genocide is by stopping the shipments of weapons. \n\nSupport them in Court! \n\n📆 Wednesday, August 5th, 10 AM\n📢 Press Conference at 9:30 AM\n📍 1 Police Plaza, Elizabeth, NJ\n🔗 Link in our bio for our fundraiser through Non-violence International and for more info! \n\n🎥 credit: @princeton4palestine",
+        "created_at": "2026-07-31T20:18:05.000Z",
+        "source": "https://www.instagram.com/p/DbeGCI3AMFw/",
+        "mapped_location": "Oakland Gardens, Queens, Queens County, New York, 11364, United States",
+        "precision_level": "city",
+        "location_text": "Oakland",
+        "confidence": 0.745,
+        "address_type": "neighbourhood",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Italy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9982152,
+          40.7192728
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DbeGCI3AMFw/",
+        "handle": "port.of.elizabeth.movement",
+        "text": "On Friday, October 3rd, 2025 at 5:30 AM, protesters blockaded the Elizabeth Marine Terminal, one of Maersk and ZIM’s largest export ports on the East Coast shipping weapons to Israel for use in its US-backed genocide in Gaza. Port Authority Police arrested four protesters and also impounded 12 cars of protesters parked at a nearby shopping mall.\n\nMaersk and ZIM are the targets of the #MaskOffMaersk international pressure campaign spearheaded by the Palestinian Youth Movement (PYM). According to PYM, “Maersk fulfills part of its Indefinite Delivery, Indefinite Quantity (IDIQ) contract with the U.S. Department of Defense by transporting military cargo…Maersk does not just support the Zionist genocide through outbound\nshipping of military cargo from the U.S. to Israel…Maersk ships also carry military cargo to arms manufacturers in the US in order for these weapons companies to assemble the weapons that murder our people…Targeting Maersk directly disrupts the flow of military cargo in the supply chain of death used to genocide Palestinians.”\n\nThis protest was organized in solidarity with port protests in Oakland, CA; Dublin, Ireland; and at ports in Spain, Italy, France, Sweden, and Greece as well as with the Global Sumud Flotilla. \nThe October Port Elizabeth 4 are now facing charges for disrupting shipments where roughly 1,000 tons of military cargo are transported to Israel weekly.\nThe most effective non violent way to stop a Genocide is by stopping the shipments of weapons. \n\nSupport them in Court! \n\n📆 Wednesday, August 5th, 10 AM\n📢 Press Conference at 9:30 AM\n📍 1 Police Plaza, Elizabeth, NJ\n🔗 Link in our bio for our fundraiser through Non-violence International and for more info! \n\n🎥 credit: @princeton4palestine",
+        "created_at": "2026-07-31T20:18:05.000Z",
+        "source": "https://www.instagram.com/p/DbeGCI3AMFw/",
+        "mapped_location": "Little Italy, Lower Manhattan, Manhattan, New York County, New York, 10013, United States",
+        "precision_level": "city",
+        "location_text": "Italy",
+        "confidence": 0.745,
+        "address_type": "neighbourhood",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Oakland"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.306806Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0182958,
+          40.6922457
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DL_t_cfN0Jn/",
+        "handle": "stopyourliesnyt",
+        "text": "On July 11th, 2025 Israeli settlers in the Occupied West Bank beat Sayfollah Musallet, a 23 year old Palestinian-American to death. They also shot and killed Mohammed al-Shalabi. Where is the NYT’s coverage of this horrific slaughter? Shamefully and hypocritically non-existent. If the roles had been reversed, how many articles do you think the NYT would have written by now? \n\nSayfollah Musallet was described as sweet and gentle by his relatives & helped run his family’s recently opened ice cream shop in Tampa, Florida. His father said “He was a beautiful and loving son- a beautiful soul.” Israeli settlers beat Sayfollah unconscious then prevented ambulances from reaching him for hours. By the time Sayfollah was able to be brought to a hospital he had already passed away. (TRT World, Washington Post) \n\nThe NYT is a disgraceful, racist paper that knows exactly what it is doing when it fails to report on Israel’s continuous horrific war cr!mes. Shame on them. \n\nStop paying for lies and propaganda: Unsubscribe from the NYT now & tell your friends. ⚠️‼️ #RetractYourLiesNYT",
+        "created_at": "2025-07-12T05:14:04.000Z",
+        "source": "https://www.instagram.com/p/DL_t_cfN0Jn/",
+        "mapped_location": "Tampa Road, Nolan Park, Colonels Row, Manhattan, New York County, New York, 10004, United States",
+        "precision_level": "unclassified",
+        "location_text": "Tampa",
+        "confidence": 0.595,
+        "address_type": "pedestrian",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Florida"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0573789,
+          40.5984462
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DL_t_cfN0Jn/",
+        "handle": "stopyourliesnyt",
+        "text": "On July 11th, 2025 Israeli settlers in the Occupied West Bank beat Sayfollah Musallet, a 23 year old Palestinian-American to death. They also shot and killed Mohammed al-Shalabi. Where is the NYT’s coverage of this horrific slaughter? Shamefully and hypocritically non-existent. If the roles had been reversed, how many articles do you think the NYT would have written by now? \n\nSayfollah Musallet was described as sweet and gentle by his relatives & helped run his family’s recently opened ice cream shop in Tampa, Florida. His father said “He was a beautiful and loving son- a beautiful soul.” Israeli settlers beat Sayfollah unconscious then prevented ambulances from reaching him for hours. By the time Sayfollah was able to be brought to a hospital he had already passed away. (TRT World, Washington Post) \n\nThe NYT is a disgraceful, racist paper that knows exactly what it is doing when it fails to report on Israel’s continuous horrific war cr!mes. Shame on them. \n\nStop paying for lies and propaganda: Unsubscribe from the NYT now & tell your friends. ⚠️‼️ #RetractYourLiesNYT",
+        "created_at": "2025-07-12T05:14:04.000Z",
+        "source": "https://www.instagram.com/p/DL_t_cfN0Jn/",
+        "mapped_location": "USS Florida Court, Staten Island, Richmond County, New York, 10305, United States",
+        "precision_level": "unclassified",
+        "location_text": "Florida",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Tampa"
+      }
+    }
+  ]
+}

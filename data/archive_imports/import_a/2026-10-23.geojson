@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.323560Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/De2PCH7Cdeh/",
+        "handle": "stopyourliesnyt",
+        "text": "NYT has entered its 4th year of Gaza genocide denial and complicity #Shame \n\nOn October 20th people of conscience rallied outside NYT’s headquarters condemning the paper’s criminal lies and complicity in the genocide of the Palestinian people. Heartfelt speeches were met with tears from passerbyers, children joined in pro-Palestine chants, and activists waved flags and handed out educational materials. \n\n❌ Refuse to fund lies. Unsubscribe from NYT\n\n🎥 See the truth with your own eyes. Follow @nahed_hajjaj99 @wizard_bisan1 @haniabuishaiba on the ground in Palestine",
+        "created_at": "2026-10-23T18:46:52.000Z",
+        "source": "https://www.instagram.com/p/De2PCH7Cdeh/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

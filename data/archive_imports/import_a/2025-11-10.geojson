@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.313023Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9787812,
+          40.7612541
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DQ5RbRZDlaP/",
+        "handle": "jakedietrich",
+        "text": "On November 4th activists marched through midtown Manhattan, visiting CBS, NBC, Fox, and The New York Times to demand honest coverage of the ongoing genøcide in Palestine",
+        "created_at": "2025-11-10T23:45:59.000Z",
+        "source": "https://www.instagram.com/p/DQ5RbRZDlaP/",
+        "mapped_location": "CBS Building, 51, West 52nd Street, Theater District, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+        "precision_level": "unclassified",
+        "location_text": "CBS",
+        "confidence": 0.595,
+        "address_type": "commercial",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Palestine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DQ5RbRZDlaP/",
+        "handle": "jakedietrich",
+        "text": "On November 4th activists marched through midtown Manhattan, visiting CBS, NBC, Fox, and The New York Times to demand honest coverage of the ongoing genøcide in Palestine",
+        "created_at": "2025-11-10T23:45:59.000Z",
+        "source": "https://www.instagram.com/p/DQ5RbRZDlaP/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "CBS"
+      }
+    }
+  ]
+}

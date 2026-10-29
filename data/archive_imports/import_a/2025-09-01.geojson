@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.308468Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DOCtakLjc-Q/",
+        "handle": "stopyourliesnyt",
+        "text": "The #NewYorkTimes is COMPLICIT in the gen/ cide of the Palestinian people. This is not hyperbole or overestimation — by manufacturing the American’s public’s consent for the crimes Israel is committing in Palestine, NYT’s actions have had a material consequence on how long the genocide has continued, and how many more hundreds of Palestinians are being killed because of it.\n\nNYT has spread deliberate PROPAGANDA for nearly two years. Their biased articles aim to dehumanize Palestinians (particularly Palestinian men), paint Israel as reasonable and justified, and downplay the horrific devastation that’s Israel’s gen/ cide has caused.\n\nThis is not just journalistic malpractice — it is CRIMINAL. N@zi propagandists who manufactured consent for the gen/ cide of Jews and other populations during WW2 were tried at the Hague. The propagandists at the New York Times also must answer for their crimes.\n\n🛑 Stop funding this complicit institution — whether through their news, their magazines, or their games. Cancel your subscriptions today! #Unsubscribe",
+        "created_at": "2025-09-01T02:09:32.000Z",
+        "source": "https://www.instagram.com/p/DOCtakLjc-Q/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Hague"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0463505,
+          40.756713
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DOCtakLjc-Q/",
+        "handle": "stopyourliesnyt",
+        "text": "The #NewYorkTimes is COMPLICIT in the gen/ cide of the Palestinian people. This is not hyperbole or overestimation — by manufacturing the American’s public’s consent for the crimes Israel is committing in Palestine, NYT’s actions have had a material consequence on how long the genocide has continued, and how many more hundreds of Palestinians are being killed because of it.\n\nNYT has spread deliberate PROPAGANDA for nearly two years. Their biased articles aim to dehumanize Palestinians (particularly Palestinian men), paint Israel as reasonable and justified, and downplay the horrific devastation that’s Israel’s gen/ cide has caused.\n\nThis is not just journalistic malpractice — it is CRIMINAL. N@zi propagandists who manufactured consent for the gen/ cide of Jews and other populations during WW2 were tried at the Hague. The propagandists at the New York Times also must answer for their crimes.\n\n🛑 Stop funding this complicit institution — whether through their news, their magazines, or their games. Cancel your subscriptions today! #Unsubscribe",
+        "created_at": "2025-09-01T02:09:32.000Z",
+        "source": "https://www.instagram.com/p/DOCtakLjc-Q/",
+        "mapped_location": "Hague Street, Jersey City, Hudson County, New Jersey, 07307, United States",
+        "precision_level": "unclassified",
+        "location_text": "Hague",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Palestine"
+      }
+    }
+  ]
+}

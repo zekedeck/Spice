@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.316650Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DUmpP2-jT51/",
+        "handle": "stopyourliesnyt",
+        "text": "In its systematic campaign to devalue Palestinian lives, the NYT refuses to report on Palestinian political prisoner #LeqaaKordia. \n\n33 year-old Kordia, who has lost over 200 of her relatives since the start of israel’s genocidal assualt on Gaza, was abducted by ICE on March 13, 2025 at her routine immigration questioning in New Jersey. There she was thrown into an unmarked van, taken to an ICE detention center in Texas, and has been suffering since under ICE’s inhumane conditions where she recently needed to be hospitalized. \n\nThe NYT is complicit in Leqqa Kordia’s illegal detention and the deterioration of her health. \n\nFree Leqaa Kordia. Free our political prisoners. Free Palestine, Congo, Sudan. Abolish ICE. \n\n🍉 Follow @freeleqaakordia to stay informed and join the fight for her freedom \n\n#UnsubscribefromtheNYT",
+        "created_at": "2026-02-11T04:14:09.000Z",
+        "source": "https://www.instagram.com/p/DUmpP2-jT51/",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "New Jersey",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

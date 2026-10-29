@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.322732Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618325,
+          40.7725908
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/Db3rjRdCVvl/",
+        "handle": "stopyourliesnyt",
+        "text": "🚨RALLY FOR ANAS AL-SHARIF AND THE JOURNALISTS OF GAZA🚨\n🗓️ Monday, August 10th | 5 PM\n📍 New York Times, 620 8th Ave, NY, NY\n\nToday marks one year since Israel’s deliberate killing of Journalists Anas Al-Sharif, alongside his colleagues Mohammed Qreiqeh, Ibrahim Zaher, Mohammed Noufal, Momen Aliwa, and Mohammed al-Khalidi.\n\nIsrael’s targeting of journalists is an intentional policy to suppress coverage of its war crimes. Mainstream media outlets like the New York Times have actively enabled this policy, manufacturing consent for this genocide from the beginning.\n\nAnas left us with a final message and a charge, “I entrust you with Palestine…be bridges toward the liberation of its land and its people”. Join us today August 10th to carry Anas’ call forward and denounce western media for their role in his assasination. \n@nycpym \n\n#AnasalSharif #FreePalestine #NYTLiesGazaDies",
+        "created_at": "2026-08-10T18:41:07.000Z",
+        "source": "https://www.instagram.com/p/Db3rjRdCVvl/",
+        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+        "precision_level": "address",
+        "location_text": "Israel",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Palestine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/Db3rjRdCVvl/",
+        "handle": "stopyourliesnyt",
+        "text": "🚨RALLY FOR ANAS AL-SHARIF AND THE JOURNALISTS OF GAZA🚨\n🗓️ Monday, August 10th | 5 PM\n📍 New York Times, 620 8th Ave, NY, NY\n\nToday marks one year since Israel’s deliberate killing of Journalists Anas Al-Sharif, alongside his colleagues Mohammed Qreiqeh, Ibrahim Zaher, Mohammed Noufal, Momen Aliwa, and Mohammed al-Khalidi.\n\nIsrael’s targeting of journalists is an intentional policy to suppress coverage of its war crimes. Mainstream media outlets like the New York Times have actively enabled this policy, manufacturing consent for this genocide from the beginning.\n\nAnas left us with a final message and a charge, “I entrust you with Palestine…be bridges toward the liberation of its land and its people”. Join us today August 10th to carry Anas’ call forward and denounce western media for their role in his assasination. \n@nycpym \n\n#AnasalSharif #FreePalestine #NYTLiesGazaDies",
+        "created_at": "2026-08-10T18:41:07.000Z",
+        "source": "https://www.instagram.com/p/Db3rjRdCVvl/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Israel"
+      }
+    }
+  ]
+}

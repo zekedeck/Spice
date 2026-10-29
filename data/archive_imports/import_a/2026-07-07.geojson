@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.320957Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/Dafh0dRFfNL/",
+        "handle": "stopyourliesnyt",
+        "text": "‼️ALL OUT TO THE UN TODAY‼️ \n\n🗓️ Tuesday, July 7th | 4PM\n📍 Dag Hammarskjöld Plaza\n\nWhile #BenGvir is no longer coming to New York, the work to hold the bloodthirsty war criminal accountable is nowhere near done, and the rally organized by @nycpym will continue. \n\nWe call on Attorney General Letita James to follow through on @hindrajabfoundation and @ccrjustice demands of investigating and arresting Ben-Gvir.\n\nBen-Gvir is a primary architect and driver of Israel’s genocide in Gaza, the continued torture in Israeli prisons, and the illegal settlement of the West Bank.\nBen-Gvir is openly genocidal, showing no regard for human life and has overseen the escalation of torture against Palestinians in the prison system. The victims of this torture have included US citizens and New York residents.\n\n📝 Add your name to the open letter to the NY AG at stopbengvir.com demanding accountability for Ben-Gvir’s war crimes \n\n🇵🇸 Join the protest today! \n\nSlides via: @nycpym @palestinianyouthmovement",
+        "created_at": "2026-07-07T13:02:55.000Z",
+        "source": "https://www.instagram.com/p/Dafh0dRFfNL/",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

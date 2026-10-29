@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.316891Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9941398,
+          40.6941998
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DUwEGEwifwU/",
+        "handle": "stopyourliesnyt",
+        "text": "In a completely unwanted Valentine’s Day surprise, the NYT #burdens the world with more of its lies and sorry excuses for journalism.\n\nThe Times defies the most simple rules of logic to attempt to convince readers that there is a “ceasefire” in Lebanon while in the same sentence saying “the war never really ended”. \n\n❓How DOES the NYT keep up with their own mental gymnastics? Not only are they Nuremberg-worthy genocidal war mongerers, they must also be very dizzy trying to keep up with their never-ending fabricated false narratives. \n\n🛑 Lies cost lives. Unsubscribe from the NYT. Delete their apps. Unfollow on all platforms. \n\n✊Long live Palestine and Lebanon. 🇵🇸🇱🇧",
+        "created_at": "2026-02-14T20:01:54.000Z",
+        "source": "https://www.instagram.com/p/DUwEGEwifwU/",
+        "mapped_location": "Our Lady of Lebanon Roman Catholic Church, 109, Remsen Street, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "address",
+        "location_text": "Lebanon",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

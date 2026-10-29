@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.317975Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DXDLhBSDZc6/",
+        "handle": "stopyourliesnyt",
+        "text": "The NYT has no problem painting anti-genocide university students or protesters of stolen Palestinian land sales as anti-semitic, but the word anti-semitic is nowhere in sight for the NYT when israeli-american forces destroy an Iranian synagogue, just “collateral damage”. \n\nHouses of worship are supposed to be protected under international law, but israel has been striking and destroying houses of worship in Palestine for the past 2.5 years, and due to lack of accountability believe they have impunity to expand their war crimes to other countries. The IOF have destroyed over 1,000 mosques in Gaza alone. (Gaza’s Ministry of Awqaf and Religious Affairs, February 2025) \n\n✂️ Cut ties with media that hides the truth. Unsubscribe from the NYT\n\nSlides via: Photo on slide 1: @palestinechron , @aljazeeraenglish (3), @msnownews (4), @middleeastmonitor (5)",
+        "created_at": "2026-04-12T23:15:07.000Z",
+        "source": "https://www.instagram.com/p/DXDLhBSDZc6/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

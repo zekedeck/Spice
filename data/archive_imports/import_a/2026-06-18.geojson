@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.320312Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DZtQX-hp3hg/",
+        "handle": "stopyourliesnyt",
+        "text": "📣 ACTION ANNOUNCEMENT: NO PEACE FOR GENOCIDE PROPAGANDISTS \n\n📆: Thursday, June 25\n⏰: 5:30pm\n📍: NYT Building (620 8th Ave)\n\nThe New York Times is still pretending there is a “ceasefire” in Palestine and Lebanon meanwhile the genocidal settler colony of Israel is slaughtering little girls, assassinating medical workers and journalists, and expanding their zionist reign of terror through occupation and ethnic cleansing. \n\nThe imperialist propaganda machine of lies and dehumanization has not stopped — and neither will we. Join us to stand in solidarity with the people of 🇵🇸🇱🇧🇮🇷 and show NYT that people of conscience will not stand for their lies and zionist propaganda as we shout the voice of #truth to the streets of New York City. \n\nBring signs, flags, drums, and see you there. ❤️‍🔥🥁\n\n#EndTheOccupation #FreePalestine #MediaAccountabilityNow \n\n🎥 Follow @haniabuishaiba from Gaza,  showing the truth #TheNewYorkTimes hides",
+        "created_at": "2026-06-18T00:31:22.000Z",
+        "source": "https://www.instagram.com/p/DZtQX-hp3hg/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Lebanon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9941398,
+          40.6941998
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DZtQX-hp3hg/",
+        "handle": "stopyourliesnyt",
+        "text": "📣 ACTION ANNOUNCEMENT: NO PEACE FOR GENOCIDE PROPAGANDISTS \n\n📆: Thursday, June 25\n⏰: 5:30pm\n📍: NYT Building (620 8th Ave)\n\nThe New York Times is still pretending there is a “ceasefire” in Palestine and Lebanon meanwhile the genocidal settler colony of Israel is slaughtering little girls, assassinating medical workers and journalists, and expanding their zionist reign of terror through occupation and ethnic cleansing. \n\nThe imperialist propaganda machine of lies and dehumanization has not stopped — and neither will we. Join us to stand in solidarity with the people of 🇵🇸🇱🇧🇮🇷 and show NYT that people of conscience will not stand for their lies and zionist propaganda as we shout the voice of #truth to the streets of New York City. \n\nBring signs, flags, drums, and see you there. ❤️‍🔥🥁\n\n#EndTheOccupation #FreePalestine #MediaAccountabilityNow \n\n🎥 Follow @haniabuishaiba from Gaza,  showing the truth #TheNewYorkTimes hides",
+        "created_at": "2026-06-18T00:31:22.000Z",
+        "source": "https://www.instagram.com/p/DZtQX-hp3hg/",
+        "mapped_location": "Our Lady of Lebanon Roman Catholic Church, 109, Remsen Street, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
+        "precision_level": "address",
+        "location_text": "Lebanon",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Palestine"
+      }
+    }
+  ]
+}

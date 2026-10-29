@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.317766Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DVzuxeCjuWz/",
+        "handle": "saltwater_elk",
+        "text": "Under the cover of a liberal veneer, the NYT stealthily acts as a mouthpiece for the Epstein class and the broader Zionist system of fascist supremacy, theft, destruction, and genocide. However revolting, Epstein is the personification of less than 1% of the great evil that is Zionism. The released portions of the Epstein files alone demonstrate how deep and wide his entrenchment with Israel was. He and Israel’s former prime minister Ehud Barak talked about additional mass European settlement in Palestine, prioritizing racial selectivity. Barak discussed with Epstein the demographic benefits brought about by the 1 million Russian Jews who went to Israel after the fall of the Soviet Union, and how the prime minister later incessantly pleaded with Putin for more Russian Jews that would include “young, handsome girls, tall, thin.” Epstein also hosted in his house at least one Israeli spy for extended periods. Epstein’s girlfriend Ghislaine Maxwell was the daughter of Robert Maxwell, widely believed to have been an Israeli intelligence super spy. Epstein was represented by Alan Dershowitz, who also has deep ties with Israel and its intelligence services. Epstein fled to Israel the first time he was charged with sex crimes. His wealth was largely acquired through his relationship with Les Wexner, a rabid material supporter of all things Israel. And that’s just scratching the surface of what is already known. Israel is a manufactured entity constructed through decades of theft, ethno-supremacy, ethnic cleansing, apartheid, and genocide, all funded in great part by US and European taxpayers. This is what one is supporting if one supports Israel. This is what one is normalizing if one speaks of Israel as a normal country doing terrible things. Any level of normalization, much less support, of Israel makes one a Zionist, a fascist, and a hypocrite who might claim to champion equal rights on all other issues. Release the files, ALL OF THEM. #epsteinfiles #nyt",
+        "created_at": "2026-03-13T02:46:53.000Z",
+        "source": "https://www.instagram.com/p/DVzuxeCjuWz/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

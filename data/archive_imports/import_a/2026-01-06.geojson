@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.314784Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DTJ3YrADYmM/",
+        "handle": "stopyourliesnyt",
+        "text": "📢 ACTION ANNOUNCEMENT: HOLD THE NYT ACCOUNTABLE FOR CRIMES AGAINST HUMANITY‼️\n\n🗓️: Thursday, January 8\n🕐: 5:00PM - 7:30PM\n📍: The NYT Building, 620 8th Ave\n\n🇵🇸There is no ceasefire in Gaza. The zionist entity continues its extermination of Gaza, killing Palestinians and blocking desperately needed food and aid. Now as of January 1st israel has banned crucial relief agencies such as Doctors Without Borders, who support 20% of hosptial beds and 33% of births in the strip, from entering. (Siasat)\n\n🌡️The winter in Gaza has been brutal. Families freeze to death every day in flooded tents as israel blocks shelter materials. They die of israeli-inflicted starvation, unable to afford food. Now Palestinians in Gaza are dying from rapidly spreading flu and coronavirus which has swept over more than 40% of Gaza’s population. (Mahmoud Al Bayaa) \n\n💊Israel is so merciless that they prevent Palestinians from procuring desperately needed basic over the counter medications like Tylenol and Aspirin. With the full protection of western mainstream media like the #NYT israel knows they can keep Palestinians in a perpetual state of brutal, miserable suffering and prolonged genocide. \n\n🇻🇪 Meanwhile the U.S. tramples all over Latin America, killing hundreds of civilians in an unprovoked act of war on Venezuela, criminally kidnapping a sovereign leader and illegally detaining him and his wife in New York City. The New York Times even had a key role in allowing the violent military coup to happen: they were aware of the Trump administration’s plans to invade Venezuela, but stayed silent in #complicity.  \n\n⌨️ In 2025 the NYT published some of their most egregious genocide denial propaganda. Now in 2026 they’ve picked up right where they left off as an imperialist stenographer for the U.S. and israel, protecting them through every grotesque, genocidal, neo-colonial action. (Continued)",
+        "created_at": "2026-01-06T03:28:19.000Z",
+        "source": "https://www.instagram.com/p/DTJ3YrADYmM/",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

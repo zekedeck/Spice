@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.315150Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DTYIVSgDeNp/",
+        "handle": "stopyourliesnyt",
+        "text": "1/9 To detract attention from the fact that Yeshivas and Synagogues in New York City host events to sell STOLEN PALESTINIAN LAND and RECRUIT IOF TERRORISTS the NYT spun the story into yet another fake antisemitism crisis. \n\nIn this deceiving article the NYT immediately quoted 4 politicians’ condemnation of anti-colonization protesters, continued its systematic campaign to whitewash israel’s crimes such as refusing to call Jerusalem “Occupied”, failed to quote any of the horrendous threats made by “pro-Israel demonstrators” against young women, and more. \n\n🩸This article was written by Liam Stack and Nate Schweber. Remember these names for the death and destruction they cause. \n\nMayor Zohran Mamdani also defied @bds.movement to collaborate with the New York Times. #Shame \n\n⚠️ Lies don’t survive without subscribers. Unsubscribe from and unfollow the #NYT \n\n📲 Follow @/palawda to stay informed on upcoming stolen land sale protests \n\nSlide 6 via: @this.photograph.is.proof \nSlide 7 via: @_iamblakeley on X",
+        "created_at": "2026-01-11T16:25:46.000Z",
+        "source": "https://www.instagram.com/p/DTYIVSgDeNp/",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    }
+  ]
+}

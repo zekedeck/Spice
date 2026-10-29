@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.322982Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618325,
+          40.7725908
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/Db6uogbiYOX/",
+        "handle": "stopyourliesnyt",
+        "text": "New York Times knows exactly what they are doing when they portray Jewish Americans as the pleading victims in israel’s genocide of the Palestinian people. \n\nPalestinians have been martyred by israel by the hundreds of thousands. Zionist Rabbis in New York are far from the victims. Anti-genocidal state messaging should actually be turned up if we want to live in a world without genocide.\n\nHOW ABOUT THE NEW YORK TIMES POSTS AN ARTICLE ABOUT “PALESTINIAN/LEBANESE/IRANIAN AMERICANS PLEAD WITH CHUCK SCHUMER TO STOP BOMBING, KILLING, AND STARVING THEIR FAMILIES”???!!!! OR “IMAMS PLEAD WITH U.S. GOVERNMENT TO STOP TERRORIZING AND INCITING VIOLENCE AGAINST THE MUSLIM COMMUNITY” ???!! \n\nWould the writers of “Rabbis Plead with Mamdani to Tone Down His Anti-Israel Messaging”, Dana Rubinstein and Emma Goldberg, ever do that? Would zionist NYT executive editor Joe Kahn ever approve of that? Would NYT owner and Epstein associate A.G. Sulzberger ever allow that? How many Palestinians have to be killed before NYT even calls israel’s actions what they are- GENOCIDE? \n\n⚠️ Stop paying for lies. Unsubscribe from the New York Times now!",
+        "created_at": "2026-08-11T23:05:46.000Z",
+        "source": "https://www.instagram.com/p/Db6uogbiYOX/",
+        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+        "precision_level": "address",
+        "location_text": "israel",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

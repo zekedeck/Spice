@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.302107Z",
+    "total_pins": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618325,
+          40.7725908
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DJ-88wYNZ7I/",
+        "handle": "stopyourliesnyt",
+        "text": "Israel is starving the people of Gaza and the NYT is barely reporting on it. Shame on them. #StopHidingTheTruth #IsraelIsStarvingGaza \n\n📍The New York Times Building, Times Square\n🗓️: May 22nd, 2025",
+        "created_at": "2025-05-23T05:15:55.000Z",
+        "source": "https://www.instagram.com/p/DJ-88wYNZ7I/",
+        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+        "precision_level": "address",
+        "location_text": "Israel",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9858998,
+          40.7572614
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DJ-88wYNZ7I/",
+        "handle": "stopyourliesnyt",
+        "text": "Israel is starving the people of Gaza and the NYT is barely reporting on it. Shame on them. #StopHidingTheTruth #IsraelIsStarvingGaza \n\n📍The New York Times Building, Times Square\n🗓️: May 22nd, 2025",
+        "created_at": "2025-05-23T05:15:55.000Z",
+        "source": "https://www.instagram.com/p/DJ-88wYNZ7I/",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Israel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618325,
+          40.7725908
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DJ_1IU-tzmQ/",
+        "handle": "stopyourliesnyt",
+        "text": "New York Times to The Hague. \n\nThis independently created zine highlights the NYT’s complicity in genocide, shares educational resources, amplifies voices from Gaza, and shows the genocide in numbers and how much of our taxpayer $ goes to weapons for israel, and was distributed outside the NYT on 5/22. \n\n#NewYorkTimesToTheHague #EveryTimeTheMediaLiesANeighborhoodinGazaDies #RetractYourLiesNYT",
+        "created_at": "2025-05-23T13:13:39.000Z",
+        "source": "https://www.instagram.com/p/DJ_1IU-tzmQ/",
+        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+        "precision_level": "address",
+        "location_text": "israel",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

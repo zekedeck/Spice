@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.297256Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DJqnZvpAHMo/",
+        "handle": "stopyourliesnyt",
+        "text": "On May 13th 2025, israel martyred world renowned Palestinian journalist Hassan Eslayeh. \n\nHassan was targeted and assassinated while in his hospital bed in Nasser Medical Complex as he was recovering from a previous israeli assassination attempt on his life. 💔\n\nLike every Palestinian journalist, Hassan Elsayeh is more than a number and his legacy will live on forever. 🇵🇸\n\nOn May 14th, pro-Palestine activists held banners in front of the New York Times building which read “200+ Journalists Killed By Israel. NYT, Where’s Your Headline?”\n\nAs people of conscience and we stand with Palestinian journalists and will not back down in holding The New York Times accountable for manufacturing consent for the genocide in Palestine and failing to report on israel’s war crimes, including its targeted assassination of Hassan because he dared show the world the truth. \n\nSources: @trtworld @nowinpalestine",
+        "created_at": "2025-05-15T07:29:39.000Z",
+        "source": "https://www.instagram.com/p/DJqnZvpAHMo/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    }
+  ]
+}

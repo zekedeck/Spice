@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-29T02:28:17.310973Z",
+    "total_pins": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618325,
+          40.7725908
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DPfPjs8jbPI/",
+        "handle": "stopyourliesnyt",
+        "text": "The media, including the NYT, has spent these two years lying and manufacturing consent for genocide, dehumanizing Palestinians over and over. Hundreds of Palestinian journalists who livestreamed the truth and humanized their people were killed by israel. Honoring the martyrs means putting their names and stories right in front of the news outlets that erased them and forcing the truth into the spotlight they tried to bury.\n\nHonor the martyrs of Gaza and all of Palestine. For 77 years israel has waged genocide against the Palestinian people, and for the past two years Gaza has endured a new stage of that genocide while the world has watched it unfold live on our screens.\n\n🚨 Flood New York City For Gaza 🇵🇸 \n📅 Tuesday, October 7th\n⏰ 4:30 PM\n📍 Newscorp - 1211 6th Avenue \n📣 Call out of work, walkout of school, and take the streets! \n\nFor more protests and updates:\nX: @wolpalestine\nTelegram: t.me/wolprotest",
+        "created_at": "2025-10-07T00:40:41.000Z",
+        "source": "https://www.instagram.com/p/DPfPjs8jbPI/",
+        "mapped_location": "Temple Israel, 112, East 75th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+        "precision_level": "address",
+        "location_text": "israel",
+        "confidence": 0.845,
+        "address_type": "place_of_worship",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "Palestine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1619473,
+          40.8973301
+        ]
+      },
+      "properties": {
+        "post_uri": "https://www.instagram.com/p/DPfPjs8jbPI/",
+        "handle": "stopyourliesnyt",
+        "text": "The media, including the NYT, has spent these two years lying and manufacturing consent for genocide, dehumanizing Palestinians over and over. Hundreds of Palestinian journalists who livestreamed the truth and humanized their people were killed by israel. Honoring the martyrs means putting their names and stories right in front of the news outlets that erased them and forcing the truth into the spotlight they tried to bury.\n\nHonor the martyrs of Gaza and all of Palestine. For 77 years israel has waged genocide against the Palestinian people, and for the past two years Gaza has endured a new stage of that genocide while the world has watched it unfold live on our screens.\n\n🚨 Flood New York City For Gaza 🇵🇸 \n📅 Tuesday, October 7th\n⏰ 4:30 PM\n📍 Newscorp - 1211 6th Avenue \n📣 Call out of work, walkout of school, and take the streets! \n\nFor more protests and updates:\nX: @wolpalestine\nTelegram: t.me/wolprotest",
+        "created_at": "2025-10-07T00:40:41.000Z",
+        "source": "https://www.instagram.com/p/DPfPjs8jbPI/",
+        "mapped_location": "Palestine Way/Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+        "precision_level": "unclassified",
+        "location_text": "Palestine",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "israel"
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T06:37:37.707926Z",
-    "total_pins": 1
+    "generated_at": "2026-10-29T13:22:16.156762Z",
+    "total_pins": 5
   },
   "features": [
     {
@@ -28,6 +28,108 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myze2dtaxk2q",
+        "handle": "44lights.bsky.social",
+        "text": "The @nytimes.com failed to mention THE TRUMP RAPE ACCUSATION from Miss Switzerland 1993 at The Plaza Hotel in NYC.\n\nIt was everywhere yesterday.",
+        "created_at": "2026-10-29T13:17:32.842Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myze2dtaxk2q",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jdufbpbyehvfz6jlinexojob/app.bsky.feed.post/3myze2insbk2f",
+        "handle": "sidfinancy.bsky.social",
+        "text": "On the anniversary of Superstorm Sandy slamming into New York, here’s an amazing picture from my balcony in lower Manhattan in the aftermath, showing no lights all the way to 34th Street (except for some car headlights lining up for the Holland Tunnel).",
+        "created_at": "2026-10-29T13:17:37.906Z",
+        "source": "https://bsky.app/profile/sidfinancy.bsky.social/post/3myze2insbk2f",
+        "mapped_location": "lower Manhattan",
+        "precision_level": "address",
+        "location_text": "lower Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "34th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jdufbpbyehvfz6jlinexojob/app.bsky.feed.post/3myze2insbk2f",
+        "handle": "sidfinancy.bsky.social",
+        "text": "On the anniversary of Superstorm Sandy slamming into New York, here’s an amazing picture from my balcony in lower Manhattan in the aftermath, showing no lights all the way to 34th Street (except for some car headlights lining up for the Holland Tunnel).",
+        "created_at": "2026-10-29T13:17:37.906Z",
+        "source": "https://bsky.app/profile/sidfinancy.bsky.social/post/3myze2insbk2f",
+        "mapped_location": "34th Street",
+        "precision_level": "address",
+        "location_text": "34th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "lower Manhattan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zxa6ruxp43gseb33mbk35w2m/app.bsky.feed.post/3myzealqfx226",
+        "handle": "welldwellingwoman.bsky.social",
+        "text": "So that's a pair of Cyberoptics, each with Colour Shift (for the light effects) and// not the <baseline> Times Square Marquee but the TimesSquare Plus from [Chromebook 1 pg.38] (which actually takes 3/4 cyberoptic option spaces, huh).\nSo for eyes alone: 2,600eb and 4D6+5 Humanity Cost",
+        "created_at": "2026-10-29T13:21:02.469Z",
+        "source": "https://bsky.app/profile/welldwellingwoman.bsky.social/post/3myzealqfx226",
+        "mapped_location": "<baseline> Times Square Marquee",
+        "precision_level": "address",
+        "location_text": "<baseline> Times Square Marquee",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -2153,6 +2153,13 @@
       function finishPointerDrag() {
         if (isDrawingDrag) {
           isDrawingDrag = false;
+          // Drawing a circle is a one-shot action, not a mode the user has
+          // to remember to exit -- leaving drawModeActive armed after a
+          // successful draw meant every next click on the map started a
+          // brand-new circle instead of selecting/moving the one just
+          // drawn (drawModeActive takes priority over move-handling), so
+          // the circle appeared "unmovable" immediately after drawing it.
+          setDrawModeActive(false);
           applyFilters();
         }
         if (isMovingCircle) {

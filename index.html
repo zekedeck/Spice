@@ -9,6 +9,31 @@
 </head>
 <body>
 
+<!-- Password gate: a casual-visitor deterrent only, not real access
+     control (GitHub Pages has no server-side enforcement -- see the gate
+     comment block at the top of app.js for the full threat-model note).
+     CSS hides .topbar/main by default (see style.css) so nothing behind
+     this overlay renders until app.js adds "gate-unlocked" to <body>, and
+     app.js's data-loading bootstrap (initMap/loadLive, loadCameras) does
+     not run until that same unlock happens either. -->
+<div id="gate-overlay" class="gate-overlay">
+  <form id="gate-form" class="gate-panel">
+    <h1 class="gate-title">Spice <span class="brand-sub">NYC</span></h1>
+    <p class="gate-sub">Enter the password to continue.</p>
+    <label for="gate-password-input" class="visually-hidden">Password</label>
+    <input
+      type="password"
+      id="gate-password-input"
+      name="gate-password"
+      placeholder="Password"
+      autocomplete="off"
+      autofocus
+    />
+    <button type="submit">Unlock</button>
+    <p class="gate-error" id="gate-error" role="alert" hidden></p>
+  </form>
+</div>
+
 <header class="topbar">
   <h1 class="brand">Spice <span class="brand-sub">NYC</span></h1>
 
@@ -90,6 +115,35 @@
       <div id="state-panel-list" class="state-panel-list"></div>
     </div>
   </details>
+
+  <details class="geofence" id="geofence-details" name="topbar-panel">
+    <summary>Geofence <span id="geofence-summary-text"></span></summary>
+    <div class="geofence-panel">
+      <div class="radius-panel-header">
+        <p class="radius-panel-title">Geofence</p>
+        <button type="button" id="radius-clear" class="radius-clear-btn" aria-label="Clear geofence filter" hidden>&times;</button>
+      </div>
+
+      <button type="button" id="radius-draw-toggle" class="radius-draw-toggle" aria-pressed="false">
+        Draw circle
+      </button>
+
+      <div class="radius-slider-row">
+        <input
+          type="range"
+          id="radius-slider"
+          name="radius-slider"
+          min="1"
+          max="25"
+          step="0.1"
+          value="5"
+        />
+        <span id="radius-value" class="radius-value">5 mi</span>
+      </div>
+
+      <p class="lookback-hint">Drag the circle on the map to move it once it's drawn.</p>
+    </div>
+  </details>
 </header>
 
 <main>
@@ -139,30 +193,6 @@
           <span class="switch-thumb" aria-hidden="true"></span>
         </span>
       </label>
-    </div>
-
-    <div class="radius-panel" id="radius-panel">
-      <div class="radius-panel-header">
-        <p class="radius-panel-title">Radius filter</p>
-        <button type="button" id="radius-clear" class="radius-clear-btn" aria-label="Clear radius filter" hidden>&times;</button>
-      </div>
-
-      <button type="button" id="radius-draw-toggle" class="radius-draw-toggle" aria-pressed="false">
-        Draw circle
-      </button>
-
-      <div class="radius-slider-row">
-        <input
-          type="range"
-          id="radius-slider"
-          name="radius-slider"
-          min="1"
-          max="25"
-          step="1"
-          value="5"
-        />
-        <span id="radius-value" class="radius-value">5 mi</span>
-      </div>
     </div>
 
     <p id="status-line" class="status-line" role="status" aria-live="polite"></p>

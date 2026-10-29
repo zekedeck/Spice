@@ -54,6 +54,13 @@
   var radiusMiles = RADIUS_DEFAULT_MILES;
   var drawModeActive = false;
   var isDrawingDrag = false;
+  // Move-existing-circle state: separate from the draw-a-new-circle state
+  // above. Active whenever a mousedown lands inside an already-drawn
+  // circle's filled interior (and not on a pin/camera dot) while
+  // drawModeActive is false -- see the map "mousedown" handler below.
+  var isMovingCircle = false;
+  var moveDragStartLngLat = null; // [lng, lat] where the move-drag began
+  var moveDragStartCenter = null; // radiusCenter at the moment the drag began
 
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
@@ -85,7 +92,12 @@
   var toggleCrime = document.getElementById("toggle-crime");
   var togglePolice = document.getElementById("toggle-police");
   var toggleWebcams = document.getElementById("toggle-webcams");
-  var radiusPanel = document.getElementById("radius-panel");
+  // radiusPanel: the whole Geofence <details> element itself (not just its
+  // inner panel body) -- is-filtering gets toggled on this so the topbar
+  // tab shows an active state even while its panel is closed.
+  var radiusPanel = document.getElementById("geofence-details");
+  var geofenceDetails = radiusPanel;
+  var geofenceSummaryText = document.getElementById("geofence-summary-text");
   var radiusDrawToggle = document.getElementById("radius-draw-toggle");
   var radiusSlider = document.getElementById("radius-slider");
   var radiusValueEl = document.getElementById("radius-value");
@@ -638,8 +650,22 @@
     if (source) source.setData(radiusCircleGeoJSON());
   }
 
+  // One decimal place, trailing ".0" stripped (so a whole number like 5
+  // still reads "5 mi" rather than "5.0 mi") -- radiusMiles itself stays a
+  // full-precision float; this is purely a display format.
+  function formatMiles(miles) {
+    var rounded = Math.round(miles * 10) / 10;
+    return (rounded % 1 === 0 ? rounded.toFixed(0) : rounded.toFixed(1)) + " mi";
+  }
+
   function updateRadiusValueLabel() {
-    if (radiusValueEl) radiusValueEl.textContent = radiusMiles + " mi";
+    var label = formatMiles(radiusMiles);
+    if (radiusValueEl) radiusValueEl.textContent = label;
+    // Mirrors the label into the always-visible topbar summary too, since
+    // the Geofence <details> panel itself gets closed while actively
+    // drawing/resizing (see setDrawModeActive()) -- this is the only live
+    // feedback visible at that point.
+    if (geofenceSummaryText) geofenceSummaryText.textContent = radiusCenter ? label : "";
   }
 
   function updateRadiusActiveUi() {
@@ -664,6 +690,14 @@
       radiusDrawToggle.setAttribute("aria-pressed", active ? "true" : "false");
       radiusDrawToggle.textContent = active ? "Click + drag on map…" : "Draw circle";
     }
+    // Arming draw mode closes the Geofence topbar panel: the actual
+    // drawing happens by click-and-dragging on the MAP, not inside the
+    // panel, and closing it up front avoids the panel's own dropdown box
+    // sitting on top of (and blocking clicks on) whatever part of the map
+    // the user wants to draw on. The topbar summary itself (via
+    // updateRadiusValueLabel()) keeps showing the live radius while
+    // drawing, so nothing is lost by closing it.
+    if (active && geofenceDetails) geofenceDetails.open = false;
     if (map) {
       // Disabling dragPan while drawing keeps mousedown-drag from panning
       // the map instead of sizing the circle.
@@ -1780,8 +1814,10 @@
       function handlePinClick(e) {
         // Draw mode takes priority: setting the circle's center is the
         // whole point of clicking the map right now, even if a pin happens
-        // to be under the cursor.
-        if (drawModeActive) return;
+        // to be under the cursor. Same for a just-finished circle-move drag
+        // (isMovingCircle) -- its trailing click shouldn't also act on
+        // whatever happens to be under the cursor at the drop point.
+        if (drawModeActive || isMovingCircle) return;
         var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
         if (!features.length) return;
 
@@ -1809,65 +1845,132 @@
       map.on("click", "pin-point", handlePinClick);
 
       map.on("click", "camera-dots", function (e) {
-        if (drawModeActive) return;
+        if (drawModeActive || isMovingCircle) return;
         if (e.features && e.features[0]) openCameraPopup(e.features[0]);
       });
 
       // Click elsewhere on the map (not on any interactive layer above)
       // clears the open detail panel.
       map.on("click", function (e) {
-        if (drawModeActive) return;
+        if (drawModeActive || isMovingCircle) return;
         var features = map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS });
         if (features.length === 0) clearSelection();
       });
 
       PIN_INTERACTIVE_LAYERS.forEach(function (layerId) {
-        map.on("mouseenter", layerId, function () { if (!drawModeActive) map.getCanvas().style.cursor = "pointer"; });
-        map.on("mouseleave", layerId, function () { if (!drawModeActive) map.getCanvas().style.cursor = ""; });
+        map.on("mouseenter", layerId, function () { if (!drawModeActive && !isMovingCircle) map.getCanvas().style.cursor = "pointer"; });
+        map.on("mouseleave", layerId, function () { if (!drawModeActive && !isMovingCircle) map.getCanvas().style.cursor = ""; });
       });
 
-      // --- Radius-filter draw-circle interaction --------------------------
-      // mousedown (while draw mode is active) sets the fixed center;
-      // mousemove live-updates the radius to the cursor's current
-      // real-world (haversine) distance from that center, re-rendering the
-      // circle source on every tick; mouseup finalizes. Bound on the map
-      // generally rather than a specific layer -- the center can legally
-      // land on top of a pin, and draw mode takes priority over the normal
-      // pin-click handling above (guarded via the drawModeActive checks
-      // there).
+      // --- Geofence draw/move-circle interaction ---------------------------
+      // Two distinct drag modes share the same mousedown/mousemove/mouseup
+      // plumbing, kept mutually exclusive (drawModeActive always wins):
+      //
+      //   1. Draw a NEW circle (drawModeActive): mousedown sets the fixed
+      //      center; mousemove live-updates the radius to the cursor's
+      //      current real-world (haversine) distance from that center;
+      //      mouseup finalizes.
+      //   2. MOVE an existing circle (isMovingCircle): mousedown on the
+      //      filled interior of an already-drawn circle (and not on top of
+      //      a pin/camera dot, which keep their own click-to-open behavior)
+      //      grabs it; mousemove translates radiusCenter by the same
+      //      lng/lat delta the cursor has moved since the grab, keeping the
+      //      grabbed point under the cursor rather than re-centering on it;
+      //      mouseup finalizes. Radius stays fixed throughout.
+      //
+      // Both bound on the map generally rather than a specific layer -- the
+      // center/interior can legally overlap a pin, and this interaction
+      // takes priority over the normal pin-click handling above (guarded
+      // via the drawModeActive / isMovingCircle checks there).
       map.on("mousedown", function (e) {
-        if (!drawModeActive) return;
+        if (drawModeActive) {
+          e.preventDefault();
+          isDrawingDrag = true;
+          radiusCenter = [e.lngLat.lng, e.lngLat.lat];
+          radiusMiles = RADIUS_MIN_MILES;
+          if (radiusSlider) radiusSlider.value = String(radiusMiles);
+          updateRadiusValueLabel();
+          updateRadiusActiveUi();
+          updateRadiusCircleLayer();
+          applyFilters();
+          return;
+        }
+
+        if (!radiusCenter) return;
+        // A pin/camera dot sitting inside the circle keeps its own
+        // click-to-open behavior -- only an empty patch of the circle's
+        // interior starts a move.
+        if (map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS }).length) return;
+        if (!map.queryRenderedFeatures(e.point, { layers: ["radius-circle-fill"] }).length) return;
         e.preventDefault();
-        isDrawingDrag = true;
-        radiusCenter = [e.lngLat.lng, e.lngLat.lat];
-        radiusMiles = RADIUS_MIN_MILES;
-        if (radiusSlider) radiusSlider.value = String(radiusMiles);
-        updateRadiusValueLabel();
-        updateRadiusActiveUi();
-        updateRadiusCircleLayer();
-        applyFilters();
+        isMovingCircle = true;
+        moveDragStartLngLat = [e.lngLat.lng, e.lngLat.lat];
+        moveDragStartCenter = radiusCenter.slice();
+        map.dragPan.disable();
+        map.getCanvas().style.cursor = "grabbing";
       });
 
       map.on("mousemove", function (e) {
-        if (!drawModeActive || !isDrawingDrag || !radiusCenter) return;
-        var dist = haversineMiles(radiusCenter[1], radiusCenter[0], e.lngLat.lat, e.lngLat.lng);
-        radiusMiles = Math.round(Math.min(RADIUS_MAX_MILES, Math.max(RADIUS_MIN_MILES, dist)));
-        if (radiusSlider) radiusSlider.value = String(radiusMiles);
-        updateRadiusValueLabel();
-        updateRadiusCircleLayer();
-        applyFilters();
+        if (drawModeActive) {
+          if (!isDrawingDrag || !radiusCenter) return;
+          var dist = haversineMiles(radiusCenter[1], radiusCenter[0], e.lngLat.lat, e.lngLat.lng);
+          radiusMiles = Math.min(RADIUS_MAX_MILES, Math.max(RADIUS_MIN_MILES, dist));
+          // The slider mirrors radiusMiles for display/sync purposes only --
+          // rounded to one decimal here just to avoid stuffing a long
+          // floating-point string into the input's value attribute on
+          // every tick. radiusMiles itself (driving the circle polygon and
+          // passesRadius()) stays the full-precision value; see
+          // formatMiles() for the separate, rounded-for-display label.
+          if (radiusSlider) radiusSlider.value = String(Math.round(radiusMiles * 10) / 10);
+          updateRadiusValueLabel();
+          updateRadiusCircleLayer();
+          applyFilters();
+          return;
+        }
+
+        if (isMovingCircle) {
+          radiusCenter = [
+            moveDragStartCenter[0] + (e.lngLat.lng - moveDragStartLngLat[0]),
+            moveDragStartCenter[1] + (e.lngLat.lat - moveDragStartLngLat[1])
+          ];
+          updateRadiusCircleLayer();
+          applyFilters();
+          return;
+        }
+
+        // Idle hover: a "grab" affordance over the circle's interior, so
+        // the move-circle interaction is discoverable without instructions.
+        // Skipped over a pin/camera dot -- those already set their own
+        // "pointer" cursor via the mouseenter/mouseleave bindings above,
+        // and this runs on every mousemove so it must not fight that.
+        if (!radiusCenter) return;
+        if (map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS }).length) return;
+        var overCircle = map.queryRenderedFeatures(e.point, { layers: ["radius-circle-fill"] }).length > 0;
+        map.getCanvas().style.cursor = overCircle ? "grab" : "";
       });
 
-      function finishDrawingDrag() {
-        if (!isDrawingDrag) return;
-        isDrawingDrag = false;
-        applyFilters();
+      function finishPointerDrag() {
+        if (isDrawingDrag) {
+          isDrawingDrag = false;
+          applyFilters();
+        }
+        if (isMovingCircle) {
+          map.dragPan.enable();
+          map.getCanvas().style.cursor = "";
+          applyFilters();
+          // Deferred rather than cleared immediately: the trailing "click"
+          // event for this same mousedown-drag-mouseup interaction fires
+          // synchronously right after this handler, and the pin/camera/
+          // clear-on-click handlers above need to still see isMovingCircle
+          // as true to know to ignore that click (see their guards).
+          setTimeout(function () { isMovingCircle = false; }, 0);
+        }
       }
-      map.on("mouseup", finishDrawingDrag);
+      map.on("mouseup", finishPointerDrag);
       // MapLibre's own "mouseup" only fires for releases over the canvas --
       // catch releases that end outside the map too, so a drag can't get
       // stuck "active" with no way to finalize it.
-      document.addEventListener("mouseup", finishDrawingDrag);
+      document.addEventListener("mouseup", finishPointerDrag);
 
       renderCameraLayer(); // in case loadCameras() already resolved
 
@@ -1915,7 +2018,12 @@
 
   if (radiusSlider) {
     radiusSlider.addEventListener("input", function () {
-      var parsed = parseInt(radiusSlider.value, 10);
+      // parseFloat (not parseInt): the slider's step is 0.1, matching the
+      // continuous, unrounded radius the draw-circle drag now produces
+      // (see the mousemove handler above) -- both paths should feel
+      // equally smooth, not have the slider snap to whole miles while
+      // dragging is continuous.
+      var parsed = parseFloat(radiusSlider.value);
       radiusMiles = isNaN(parsed)
         ? RADIUS_DEFAULT_MILES
         : Math.min(RADIUS_MAX_MILES, Math.max(RADIUS_MIN_MILES, parsed));

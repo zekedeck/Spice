@@ -90,6 +90,87 @@ input[type="time"] {
   outline-offset: 2px;
 }
 
+/* ===== Password gate =====
+   Casual-visitor deterrent only -- see app.js's gate comment block for the
+   full threat-model note (this is NOT real access control; GitHub Pages
+   has no server-side enforcement regardless of what this CSS/JS does).
+   .topbar and main are hidden by default (not merely covered) so nothing
+   behind the overlay renders pre-unlock; app.js adds "gate-unlocked" to
+   <body> only after a correct password, restoring them and kicking off
+   the map/data-loading bootstrap at the same time. */
+
+.topbar,
+main {
+  display: none;
+}
+
+body.gate-unlocked .topbar {
+  display: flex;
+}
+
+body.gate-unlocked main {
+  display: block;
+}
+
+body.gate-unlocked .gate-overlay {
+  display: none;
+}
+
+.gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.gate-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 280px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.gate-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.gate-sub {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.gate-panel input[type="password"] {
+  background: var(--bg);
+  color: var(--text-primary);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 0.6rem 0.7rem;
+}
+
+.gate-panel button {
+  width: 100%;
+}
+
+.gate-error {
+  margin: 0;
+  color: var(--pin-flagged);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
 /* ===== Layout ===== */
 
 body {
@@ -429,6 +510,54 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+/* ===== Geofence (header dropdown) =====
+   Same recipe as .lookback / .state-panel right above: a topbar <details>
+   whose <summary> is always visible and whose panel expands below it,
+   mutually exclusive with the other topbar-panel details via name=. */
+
+.geofence {
+  position: relative;
+}
+
+.geofence > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.geofence > summary::-webkit-details-marker {
+  display: none;
+}
+
+#geofence-summary-text {
+  color: var(--text-secondary);
+  margin-left: 0.4rem;
+}
+
+/* Filter actually active right now (vs. just sitting at its default,
+   unused) -- highlights the tab itself so this is visible even while
+   the panel is closed. */
+.geofence.is-filtering > summary {
+  border-color: var(--accent);
+}
+
+.geofence-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.9rem;
+  width: 260px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  z-index: 20;
 }
 
 .state-mention-item {
@@ -789,20 +918,8 @@ main {
   outline-offset: 2px;
 }
 
-/* ===== Radius-filter panel (overlay, top-left) =====
-   Same recipe as .category-panel right above it: --panel-bg / --panel-border,
-   8px radius, same drop shadow -- stacked below it in .map-overlay-topleft's
-   flex column. */
-
-.radius-panel {
-  background: var(--panel-bg);
-  border: 1px solid var(--panel-border);
-  border-radius: 8px;
-  padding: 0.65rem 0.8rem;
-  width: 188px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-  pointer-events: auto;
-}
+/* ===== Geofence panel contents (inside .geofence-panel, the topbar
+   dropdown) ===== */
 
 .radius-panel-header {
   display: flex;
@@ -868,7 +985,7 @@ main {
   gap: 0.5rem;
 }
 
-.radius-panel input[type="range"] {
+.geofence-panel input[type="range"] {
   flex: 1;
   min-width: 0;
   accent-color: var(--accent);
@@ -881,12 +998,6 @@ main {
   min-width: 3em;
   text-align: right;
   flex-shrink: 0;
-}
-
-/* A circle is actually active as a filter right now (vs. the slider just
-   sitting at its default, unused). */
-.radius-panel.is-filtering {
-  border-color: var(--accent);
 }
 
 /* ===== Webcam popup (map layer -- lighter than the full detail panel) ===== */
@@ -959,6 +1070,16 @@ main {
     width: calc(100vw - 2rem);
   }
 
+  .geofence {
+    order: 5;
+  }
+
+  .geofence-panel {
+    left: auto;
+    right: 0;
+    width: calc(100vw - 2rem);
+  }
+
   #detail-panel {
     width: 100%;
     max-width: 100%;
@@ -979,16 +1100,15 @@ main {
 
   .legend {
     bottom: auto;
-    /* Clears the category-filter + radius-filter panels, which (like the
-       status line) also anchor top-left on mobile -- without this they'd
-       overlap, since all three now live in the top strip above the map. */
-    top: 18rem;
+    /* Clears the category-filter panel + status line, which still anchor
+       top-left on mobile (the geofence panel moved into the topbar, so
+       it's no longer part of this stack). */
+    top: 13rem;
     left: auto;
     right: 0.6rem;
   }
 
-  .category-panel,
-  .radius-panel {
+  .category-panel {
     width: 170px;
   }
 }

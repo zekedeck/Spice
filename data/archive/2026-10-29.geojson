@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T13:22:16.156762Z",
-    "total_pins": 5
+    "generated_at": "2026-10-29T13:38:01.550244Z",
+    "total_pins": 9
   },
   "features": [
     {
@@ -125,6 +125,106 @@
         "mapped_location": "<baseline> Times Square Marquee",
         "precision_level": "address",
         "location_text": "<baseline> Times Square Marquee",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gyi57dc4ehevwrglogc4noad/app.bsky.feed.post/3myzetx3mjt2p",
+        "handle": "wittmanwatch.bsky.social",
+        "text": "Big event in Williamsburg on Monday, hosted by HTDems: meet Shannon Taylor and whip up energy to greet and meet voters! Sign up here…\n\nwww.mobilize.us/shannontaylo...",
+        "created_at": "2026-10-29T13:31:51.724Z",
+        "source": "https://bsky.app/profile/wittmanwatch.bsky.social/post/3myzetx3mjt2p",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.087321,
+          40.5955374
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fm64gu32e2tg2ujnxdwqthgo/app.bsky.feed.post/3myzewqwfxc2v",
+        "handle": "setecastronomy.bsky.social",
+        "text": "At least new york has “every movie made in the 70s and 80s” as a reason why people think like this. I get worse reactions to my living in Portland, Oregon and it’s the softest medium sized city to ever exist. \n\nAnd none of them have even seen Drugstore Cowboy.",
+        "created_at": "2026-10-29T13:33:26.105Z",
+        "source": "https://bsky.app/profile/setecastronomy.bsky.social/post/3myzewqwfxc2v",
+        "mapped_location": "Oregon Road, Old Town Station, Staten Island, Richmond County, New York, 10305, United States",
+        "precision_level": "unclassified",
+        "location_text": "Oregon",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:udrc5pn5sookejymxm5ak6rc/app.bsky.feed.post/3myzf2lh2vc2m",
+        "handle": "brian-losinsjoe.bsky.social",
+        "text": "Theatre programme of the day 344: LUCKY GUY by Willard Beckham.\n\nDirector: Willard Beckham. With: Leslie Jordan, Kyle Dean Massey, Jen Colella, Jim Newman, Varla Jean Merman a.o.\n\nAt the Little Shubert Theatre in New York.\n\nDate: 15 May 2011. Seat: Orch P2. Rating: ⭐️⭐️⭐️1/2",
+        "created_at": "2026-10-29T13:35:34.565Z",
+        "source": "https://bsky.app/profile/brian-losinsjoe.bsky.social/post/3myzf2lh2vc2m",
+        "mapped_location": "the Little Shubert Theatre",
+        "precision_level": "address",
+        "location_text": "the Little Shubert Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5rsmmsehu6ibfmgszhmeikkb/app.bsky.feed.post/3myzf4ktiof2y",
+        "handle": "thestoopnyc.bsky.social",
+        "text": "Restaurant and supper club under construction at Buddha-Bar space\n\nvia Tribeca Citizen\n\nthestoop.net | #NYC #LocalNews #NewYork",
+        "created_at": "2026-10-29T13:36:40.987086+00:00",
+        "source": "https://bsky.app/profile/thestoopnyc.bsky.social/post/3myzf4ktiof2y",
+        "mapped_location": "Buddha-Bar",
+        "precision_level": "address",
+        "location_text": "Buddha-Bar",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

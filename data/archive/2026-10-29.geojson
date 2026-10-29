@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T13:30:05.076116Z",
-    "total_pins": 5
+    "generated_at": "2026-10-29T13:46:11.763881Z",
+    "total_pins": 15
   },
   "features": [
     {
@@ -130,6 +130,256 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gyi57dc4ehevwrglogc4noad/app.bsky.feed.post/3myzetx3mjt2p",
+        "handle": "wittmanwatch.bsky.social",
+        "text": "Big event in Williamsburg on Monday, hosted by HTDems: meet Shannon Taylor and whip up energy to greet and meet voters! Sign up here…\n\nwww.mobilize.us/shannontaylo...",
+        "created_at": "2026-10-29T13:31:51.724Z",
+        "source": "https://bsky.app/profile/wittmanwatch.bsky.social/post/3myzetx3mjt2p",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.087321,
+          40.5955374
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fm64gu32e2tg2ujnxdwqthgo/app.bsky.feed.post/3myzewqwfxc2v",
+        "handle": "setecastronomy.bsky.social",
+        "text": "At least new york has “every movie made in the 70s and 80s” as a reason why people think like this. I get worse reactions to my living in Portland, Oregon and it’s the softest medium sized city to ever exist. \n\nAnd none of them have even seen Drugstore Cowboy.",
+        "created_at": "2026-10-29T13:33:26.105Z",
+        "source": "https://bsky.app/profile/setecastronomy.bsky.social/post/3myzewqwfxc2v",
+        "mapped_location": "Oregon Road, Old Town Station, Staten Island, Richmond County, New York, 10305, United States",
+        "precision_level": "unclassified",
+        "location_text": "Oregon",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:udrc5pn5sookejymxm5ak6rc/app.bsky.feed.post/3myzf2lh2vc2m",
+        "handle": "brian-losinsjoe.bsky.social",
+        "text": "Theatre programme of the day 344: LUCKY GUY by Willard Beckham.\n\nDirector: Willard Beckham. With: Leslie Jordan, Kyle Dean Massey, Jen Colella, Jim Newman, Varla Jean Merman a.o.\n\nAt the Little Shubert Theatre in New York.\n\nDate: 15 May 2011. Seat: Orch P2. Rating: ⭐️⭐️⭐️1/2",
+        "created_at": "2026-10-29T13:35:34.565Z",
+        "source": "https://bsky.app/profile/brian-losinsjoe.bsky.social/post/3myzf2lh2vc2m",
+        "mapped_location": "the Little Shubert Theatre",
+        "precision_level": "address",
+        "location_text": "the Little Shubert Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5rsmmsehu6ibfmgszhmeikkb/app.bsky.feed.post/3myzf4ktiof2y",
+        "handle": "thestoopnyc.bsky.social",
+        "text": "Restaurant and supper club under construction at Buddha-Bar space\n\nvia Tribeca Citizen\n\nthestoop.net | #NYC #LocalNews #NewYork",
+        "created_at": "2026-10-29T13:36:40.987086+00:00",
+        "source": "https://bsky.app/profile/thestoopnyc.bsky.social/post/3myzf4ktiof2y",
+        "mapped_location": "Buddha-Bar",
+        "precision_level": "address",
+        "location_text": "Buddha-Bar",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3myzfcht3fb26",
+        "handle": "newsen.bsky.social",
+        "text": "TEAM NEXT: Running with Purpose in the 2026 TCS New York City Marathon #United_States #New_York #NEXT_for_AUTISM #TCS_Marathon #Team_NEXT",
+        "created_at": "2026-10-29T13:39:57Z",
+        "source": "https://bsky.app/profile/newsen.bsky.social/post/3myzfcht3fb26",
+        "mapped_location": "2026 TCS New York City Marathon",
+        "precision_level": "address",
+        "location_text": "2026 TCS New York City Marathon",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myzfeyj66a2z",
+        "handle": "porcellato.bsky.social",
+        "text": "14 arrested after protesters block Brooklyn Bridge ramp, demand ICE abolition https://ift.tt/WH8kbfr",
+        "created_at": "2026-10-29T13:41:23+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myzfeyj66a2z",
+        "mapped_location": "Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy7qly7kvjo2rvkuqr5rm62r/app.bsky.feed.post/3myzfii7eid2x",
+        "handle": "stevebarnes.bsky.social",
+        "text": "In New York she rose to draper in the garment trade and became an activist in Local 25 of the International Ladies' Garment Workers Union. In 1915 she married Noah London. He trained as an engineer at Cooper Union and was the first labor editor of Freiheit, the US Communist Party's Yiddish daily.",
+        "created_at": "2026-10-29T13:43:20.504Z",
+        "source": "https://bsky.app/profile/stevebarnes.bsky.social/post/3myzfii7eid2x",
+        "mapped_location": "Cooper Union",
+        "precision_level": "address",
+        "location_text": "Cooper Union",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ewuhw6c3iwwupzehhd62o7ks/app.bsky.feed.post/3myzfita4l22y",
+        "handle": "claireviolet.cv",
+        "text": "I really enjoy seeing the work of photographers who become obsessed with this property of certain locations. Recently one photographed a particular street corner in midtown Manhattan daily for a year or so, and caught similar expressions on the same people, months apart, only differing by clothes.",
+        "created_at": "2026-10-29T13:43:32.500Z",
+        "source": "https://bsky.app/profile/claireviolet.cv/post/3myzfita4l22y",
+        "mapped_location": "midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "midtown Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:metzg6nhrcxeq5siifw4esay/app.bsky.feed.post/3myzfkceeak2o",
+        "handle": "arxivofourminds.bsky.social",
+        "text": "Democratic Alaska Senate candidate Mary Peltola responds to the billionaire oligopoly's hit piece in their New York Times rag. \n\nmarypeltola.com",
+        "created_at": "2026-10-29T13:44:21.921Z",
+        "source": "https://bsky.app/profile/arxivofourminds.bsky.social/post/3myzfkceeak2o",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2pfvv2luumy3h4aujg6wiqbc/app.bsky.feed.post/3myzflinp6k2r",
+        "handle": "thedcxxxv.bsky.social",
+        "text": "Ahmed Best nearly stepped off the Brooklyn Bridge because everyone loved Jar Jar and The Phantom Menace... wait... no... that other thing.. \n\nwww.youtube.com/watch?v=qfNi...",
+        "created_at": "2026-10-29T13:45:02.074Z",
+        "source": "https://bsky.app/profile/thedcxxxv.bsky.social/post/3myzflinp6k2r",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

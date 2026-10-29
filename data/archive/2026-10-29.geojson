@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:52:54.047975Z",
-    "total_pins": 45
+    "generated_at": "2026-10-29T15:09:22.432155Z",
+    "total_pins": 53
   },
   "features": [
     {
@@ -1132,6 +1132,208 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7qaeiq5fnvuwbfqfm72i27ki/app.bsky.feed.post/3myzjfxrb422d",
+        "handle": "okieyank.bsky.social",
+        "text": "It was hard for him since he's never seen these animals outside of the Bronx Zoo when he was a kid.",
+        "created_at": "2026-10-29T14:53:31.561Z",
+        "source": "https://bsky.app/profile/okieyank.bsky.social/post/3myzjfxrb422d",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hengvoaq3tkjopvjnzc7zdjd/app.bsky.feed.post/3myzjpaeyud2j",
+        "handle": "wmmajors.bsky.social",
+        "text": "The TCS New York City Marathon Expo presented by New Balance is open!\n\nYou'll find us at stand #604 in the main hall of the Javits Center and we'll be here today until 8PM.\n\nStop by and say hello! 👋 ",
+        "created_at": "2026-10-29T14:58:42.570484715Z",
+        "source": "https://bsky.app/profile/wmmajors.bsky.social/post/3myzjpaeyud2j",
+        "mapped_location": "the Javits Center",
+        "precision_level": "address",
+        "location_text": "the Javits Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzjrhib4ad2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown N, Q‌ trains are running with delays after we moved a train that had its brakes activated near DeKalb Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T14:59:54.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzjrhib4ad2",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myzjrkqfgp22",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Part-Time Producer, Create or Destroy  at Vox Media\n📍 New York, NY \n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-29T15:00:00.452Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myzjrkqfgp22",
+        "mapped_location": "New York, NY",
+        "precision_level": "address",
+        "location_text": "New York, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Vox Media"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myzjrkqfgp22",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Part-Time Producer, Create or Destroy  at Vox Media\n📍 New York, NY \n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-29T15:00:00.452Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myzjrkqfgp22",
+        "mapped_location": "Vox Media",
+        "precision_level": "address",
+        "location_text": "Vox Media",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myzjrlelaw2c",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Coney Island-Stillwell Av-bound [N][Q]  trains are running with delays after we moved a train that had its brakes activated near DeKalb Av.",
+        "created_at": "2026-10-29T15:00:00.957Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myzjrlelaw2c",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:37cu4u7i3foeggy5yakwdqyn/app.bsky.feed.post/3myzjwtfe7c24",
+        "handle": "spicycurry.bsky.social",
+        "text": "You’re still upper middle class! You’re  just consuming a very expensive luxury good (“living in downtown manhattan”)",
+        "created_at": "2026-10-29T15:02:57.402Z",
+        "source": "https://bsky.app/profile/spicycurry.bsky.social/post/3myzjwtfe7c24",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "unclassified",
+        "location_text": "downtown manhattan",
+        "confidence": 0.64,
+        "address_type": "pier",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hmpywdrszq4ven4pavxjnme2/app.bsky.feed.post/3myzjxjqekm2e",
+        "handle": "gothamist.com",
+        "text": "Ocean Parkway was designed in the late 19th century as a peaceful, idyllic promenade stretching 5.5 miles from Prospect Park to Coney Island in Brooklyn. These days, it’s a six-lane highway known for reckless driving. gothamist.visitlink.me/vj8nfG",
+        "created_at": "2026-10-29T15:03:20.078093Z",
+        "source": "https://bsky.app/profile/gothamist.com/post/3myzjxjqekm2e",
+        "mapped_location": "Ocean Parkway",
+        "precision_level": "address",
+        "location_text": "Ocean Parkway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

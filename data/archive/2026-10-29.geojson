@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T21:40:22.650295Z",
-    "total_pins": 157
+    "generated_at": "2026-10-29T22:26:17.056054Z",
+    "total_pins": 160
   },
   "features": [
     {
@@ -3958,6 +3958,81 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "The Statue Of Liberty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pjzh6ycskkvvi56nzch7tbhb/app.bsky.feed.post/3mz2cnddt5o2i",
+        "handle": "theanimalvoters.bsky.social",
+        "text": "🐾 Voters For Animal Rights is proud to endorse Micah Lasher for U.S. House of Representatives in District 12 — covering Manhattan from 14th Street to 96th Street! 🗳️\n\n📅 Early voting continues through Nov. 1\n🗓️ Election Day is Tuesday, November 3\n🗳️ Full Animal Rights Voter Guide at vfar.org/voterguide",
+        "created_at": "2026-10-29T22:25:02.114Z",
+        "source": "https://bsky.app/profile/theanimalvoters.bsky.social/post/3mz2cnddt5o2i",
+        "mapped_location": "14th Street",
+        "precision_level": "address",
+        "location_text": "14th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3erhvarv3foexobhhhswv2rv/app.bsky.feed.post/3mz2cotxscp26",
+        "handle": "themedia24.bsky.social",
+        "text": "Bleecker Street CEO on social media ad fired ‘Musk’\n\nElon Musk has given $276 million to Republican groups and his super PAC since this July ahead of the midterm elections, the New York Times recently reported. But \"Musk,\" Alex Gibney's documentary about the world's first trillionaire, is not a…",
+        "created_at": "2026-10-29T22:25:52Z",
+        "source": "https://bsky.app/profile/themedia24.bsky.social/post/3mz2cotxscp26",
+        "mapped_location": "Bleecker Street",
+        "precision_level": "address",
+        "location_text": "Bleecker Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:puwlrsq4rh64x6qupwv7rtt7/app.bsky.feed.post/3mz2covdgmc2l",
+        "handle": "infomedia24.bsky.social",
+        "text": "Bleecker Street CEO on social media ad fired ‘Musk’\n\nElon Musk has given $276 million to Republican groups and his super PAC since this July ahead of the midterm elections, the New York Times recently reported. But \"Musk,\" Alex Gibney's documentary about the world's first trillionaire, is not a…",
+        "created_at": "2026-10-29T22:25:54Z",
+        "source": "https://bsky.app/profile/infomedia24.bsky.social/post/3mz2covdgmc2l",
+        "mapped_location": "Bleecker Street",
+        "precision_level": "address",
+        "location_text": "Bleecker Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

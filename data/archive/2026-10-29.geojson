@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:34:01.939606Z",
-    "total_pins": 65
+    "generated_at": "2026-10-29T15:50:19.773680Z",
+    "total_pins": 72
   },
   "features": [
     {
@@ -1634,6 +1634,181 @@
         "location_text": "Times Square Ends",
         "confidence": 0.89,
         "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gkdec5wg2pkobahcdal3itu2/app.bsky.feed.post/3myzlsuhf5k2w",
+        "handle": "sibeltaycimen.bsky.social",
+        "text": "Now onto the second part of my NYC stay: archival research at the Center for Jewish History",
+        "created_at": "2026-10-29T15:36:31.775Z",
+        "source": "https://bsky.app/profile/sibeltaycimen.bsky.social/post/3myzlsuhf5k2w",
+        "mapped_location": "the Center for Jewish History",
+        "precision_level": "address",
+        "location_text": "the Center for Jewish History",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myzltu7nj726",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A sanitation truck driver fatally struck a 30-year-old woman while turning onto Bay Parkway in Brooklyn.\n",
+        "created_at": "2026-10-29T15:37:04.855Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myzltu7nj726",
+        "mapped_location": "Bay Parkway",
+        "precision_level": "address",
+        "location_text": "Bay Parkway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6hgx4pzt3hqazmnjizp63d62/app.bsky.feed.post/3myzlw2ehnc2i",
+        "handle": "colinsmith.bsky.social",
+        "text": "The west side of Broadway between West Fourty-seventh & West Fourty-eight streets, c.1937, uncredited, New York Public Library.\n\nThere’s so much AI pollution when it comes to old, or supposedly old, photos. It breaks my heart. So I tend to opt, as here, for shots from reliable archives & old books.",
+        "created_at": "2026-10-29T15:38:18.638Z",
+        "source": "https://bsky.app/profile/colinsmith.bsky.social/post/3myzlw2ehnc2i",
+        "mapped_location": "West Fourty-seventh & West Fourty-eight",
+        "precision_level": "address",
+        "location_text": "West Fourty-seventh & West Fourty-eight",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7okctbqmsj4irjw774hvw2pk/app.bsky.feed.post/3myzlyhbzbm2l",
+        "handle": "thewonderbooks.bsky.social",
+        "text": "Brooklyn Bridge (New York City, USA — 1883) — read it free, with a painting on every page.\n\nJohn A. Roebling, the visionary engineer, stood before his nearly completed masterpiece, the Brooklyn Bridge, in 1883. The bridge, a marvel of 19th-century engineering, stretched…",
+        "created_at": "2026-10-29T15:39:38.970Z",
+        "source": "https://bsky.app/profile/thewonderbooks.bsky.social/post/3myzlyhbzbm2l",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:skmtn4z4d3v5g4zbjqrt3dif/app.bsky.feed.post/3myzm72ixck2g",
+        "handle": "youpay.me",
+        "text": "Girls just want to have fun(ds!) 💸 \n\nHot creators, good champagne, and 100% chargeback protection… three things we think are worth celebrating! \n\nThanks for joining us at the NYC YouPay Cocktail Club 🪩🖤🍸✨",
+        "created_at": "2026-10-29T15:43:20.777Z",
+        "source": "https://bsky.app/profile/youpay.me/post/3myzm72ixck2g",
+        "mapped_location": "the NYC YouPay Cocktail Club",
+        "precision_level": "address",
+        "location_text": "the NYC YouPay Cocktail Club",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6vclg75je5soq3cxipnlqn2n/app.bsky.feed.post/3myzmazbjps2p",
+        "handle": "itsinqueens.bsky.social",
+        "text": "The Bukharian Ikat Arts Festival is in Astoria on Nov. 1. More: tinyurl.com/3tdvtz4f",
+        "created_at": "2026-10-29T15:44:26.595Z",
+        "source": "https://bsky.app/profile/itsinqueens.bsky.social/post/3myzmazbjps2p",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fck7wsgqbs6yrpaw6nirucek/app.bsky.feed.post/3myzme7hvan2h",
+        "handle": "us-political-news.bsky.social",
+        "text": "This Nail-Biter House Race Is All About Bogeymen In New York’s 17th congressional district, the battle between Cait Conley and Mike Lawler is focused on Donald Trump—and Zohran Mamdani. ...",
+        "created_at": "2026-10-29T15:46:10Z",
+        "source": "https://bsky.app/profile/us-political-news.bsky.social/post/3myzme7hvan2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3

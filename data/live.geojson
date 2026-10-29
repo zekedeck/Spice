@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:27:06.877675Z",
-    "total_pins": 267
+    "generated_at": "2026-10-29T14:44:47.132184Z",
+    "total_pins": 274
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9855319,
-          40.7579554
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sz5b6gf5ochtvzntue76x6x4/app.bsky.feed.post/3myuhoe7xwc2o",
-        "handle": "crankybear.net",
-        "text": "I was walking in a rainy Manhattan when a woman popped out of a stage door and clearly didn’t expect the rain. A car was waiting and the driver had the door open, but had no umbrella. I did so I walked her the 5 or so yards to the car. She turned, smiled, and said thank you.",
-        "created_at": "2026-10-27T14:39:06.886Z",
-        "source": "https://bsky.app/profile/crankybear.net/post/3myuhoe7xwc2o",
-        "mapped_location": "Manhattan, New York County, New York, United States",
-        "precision_level": "state",
-        "location_text": "rainy Manhattan",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:z7csykghgpgjy6bovcxzypg3/app.bsky.feed.post/3myuhrk4ewk26",
-        "handle": "albumartworkheaven.bsky.social",
-        "text": "Holland Andrews x Methods Body — REMAIN (2026). A black panther stretches across watercolor textures, yellow eyes and pink tongue bared. Fully improvised, recorded live at Figure 8 Studios, Brooklyn. methodsbody.bandcamp.com/album/remain #AlbumCover #Experimental #Jazz",
-        "created_at": "2026-10-27T14:40:53.719Z",
-        "source": "https://bsky.app/profile/albumartworkheaven.bsky.social/post/3myuhrk4ewk26",
-        "mapped_location": "Figure 8 Studios",
-        "precision_level": "address",
-        "location_text": "Figure 8 Studios",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6735,6 +6685,233 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.794,
+          40.914
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dv5spjpqtyui6kpqktnsfh57/app.bsky.feed.post/3myzi4broot2g",
+        "handle": "washingtonsun.com",
+        "text": "The FBI’s Video Surveillance Unit is installing antennas on the roofs of Trump Plaza in New Rochelle, New York, and Trump World Tower in New York City, according to previously unreported federal contracting documents.",
+        "created_at": "2026-10-29T14:30:12.640676173Z",
+        "source": "https://bsky.app/profile/washingtonsun.com/post/3myzi4broot2g",
+        "mapped_location": "Trump Plaza",
+        "precision_level": "address",
+        "location_text": "Trump Plaza",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New Rochelle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.789,
+          40.914
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dv5spjpqtyui6kpqktnsfh57/app.bsky.feed.post/3myzi4broot2g",
+        "handle": "washingtonsun.com",
+        "text": "The FBI’s Video Surveillance Unit is installing antennas on the roofs of Trump Plaza in New Rochelle, New York, and Trump World Tower in New York City, according to previously unreported federal contracting documents.",
+        "created_at": "2026-10-29T14:30:12.640676173Z",
+        "source": "https://bsky.app/profile/washingtonsun.com/post/3myzi4broot2g",
+        "mapped_location": "New Rochelle",
+        "precision_level": "address",
+        "location_text": "New Rochelle",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Trump Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mks3xxlpszzz3v3v7d4e2jhf/app.bsky.feed.post/3myzi5qcze22n",
+        "handle": "tymmoss.bsky.social",
+        "text": "I love these 2 so much\n\nRiqi Vélez &\nI.Den.t.T ( James Young)\n\nThey both showed up with incredible performances for the fundraiser for Project TRANSCEND at Industry Bar sponsored by The Imperial Court of New York\n\nI love and admire you both soooo much! Thank you for turning it up and turning it out!",
+        "created_at": "2026-10-29T14:31:01.570Z",
+        "source": "https://bsky.app/profile/tymmoss.bsky.social/post/3myzi5qcze22n",
+        "mapped_location": "Industry Bar",
+        "precision_level": "address",
+        "location_text": "Industry Bar",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:an3gbmel5ornh77wzqdknjya/app.bsky.feed.post/3myzi5u6uak2o",
+        "handle": "publius24.bsky.social",
+        "text": "I’m talking in terms of job prospects. Personally, it was far easier to advance my career once I moved to D.C. I’m now living in New York’s blue-collar suburbs after the DOGE layoffs, and establishing a new network (in New York City, where most of my network would be) is challenging.",
+        "created_at": "2026-10-29T14:31:05.634Z",
+        "source": "https://bsky.app/profile/publius24.bsky.social/post/3myzi5u6uak2o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l6vmgrw34iydvtvktkym2zhm/app.bsky.feed.post/3myzil3guh22w",
+        "handle": "avareavesimages.bsky.social",
+        "text": "Ahh, after weeks of planning my  photo trip to NYC, now cancelled due to predicted rain that will ruin my shoot for glassy waters in Central Park & the East river. I will save that plane ticket for maybe Charleston, next spring. A wee bit disappointed, yet great weather in my area for photography.",
+        "created_at": "2026-10-29T14:38:29.445Z",
+        "source": "https://bsky.app/profile/avareavesimages.bsky.social/post/3myzil3guh22w",
+        "mapped_location": "Central Park, New York County, New York, 11025, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Central Park &",
+        "confidence": 1.0,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nztbvvo2gl4227zuxjf7gog3/app.bsky.feed.post/3myzinsjq522p",
+        "handle": "ddayen.bsky.social",
+        "text": ".@jamesjbaratta.bsky.social was in New York's tightest, most contentious and most expensive House district, where Blue Dog Democrat Cait Conley spent the final week pitching to get corporate money out of politics and impose term limits on Supreme Court justices.\nprospect.org/2026/10/29/c...",
+        "created_at": "2026-10-29T14:40:00.765Z",
+        "source": "https://bsky.app/profile/ddayen.bsky.social/post/3myzinsjq522p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n6ug3m3yqz35c2dmyhlksh22/app.bsky.feed.post/3myziqregic2r",
+        "handle": "buddhistyou.bsky.social",
+        "text": "I also know those streets well. Particularly in the 1970s, when I was in Greenwich Village (and other parts of the city) all the time. BTW, love the movie Pope of Greenwich Village. Underrated great one.",
+        "created_at": "2026-10-29T14:41:40.205Z",
+        "source": "https://bsky.app/profile/buddhistyou.bsky.social/post/3myziqregic2r",
+        "mapped_location": "Greenwich Village",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uqa5fa2owfli5jci3sxsgtad/app.bsky.feed.post/3myzisvdpuc2k",
+        "handle": "indivisible-inco.bsky.social",
+        "text": "Let’s encourage the last batch of voters to vote at a pop-up rally on Friday! We’ll have Voting and other signs.Let’s get together to encourage voters to vote!\n START TIME is 11:30.\nGET OUT THE VOTE RALLY\nFriday, October 30\n11:30 - 12:30 \n16th street east, on the south side of Marine Drive, Astoria",
+        "created_at": "2026-10-29T14:42:51.479Z",
+        "source": "https://bsky.app/profile/indivisible-inco.bsky.social/post/3myzisvdpuc2k",
+        "mapped_location": "12:30 \n16th street east",
+        "precision_level": "address",
+        "location_text": "12:30 \n16th street east",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9095353,
+          40.806938
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndl7zzzfmj7pnvilg3y7wspf/app.bsky.feed.post/3myziu77n3w2w",
+        "handle": "fnyt.bsky.social",
+        "text": "Bronx Fire Caused by E-Bike Battery Kills Boy (Gift Article) (yesterday)\nf the nyt",
+        "created_at": "2026-10-29T14:43:35.351Z",
+        "source": "https://bsky.app/profile/fnyt.bsky.social/post/3myziu77n3w2w",
+        "mapped_location": "Bronx Borough Jail, The Bronx, Bronx County, New York, United States",
+        "precision_level": "unclassified",
+        "location_text": "Bronx Fire",
+        "confidence": 0.64,
+        "address_type": "construction",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

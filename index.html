@@ -141,6 +141,30 @@
       </label>
     </div>
 
+    <div class="radius-panel" id="radius-panel">
+      <div class="radius-panel-header">
+        <p class="radius-panel-title">Radius filter</p>
+        <button type="button" id="radius-clear" class="radius-clear-btn" aria-label="Clear radius filter" hidden>&times;</button>
+      </div>
+
+      <button type="button" id="radius-draw-toggle" class="radius-draw-toggle" aria-pressed="false">
+        Draw circle
+      </button>
+
+      <div class="radius-slider-row">
+        <input
+          type="range"
+          id="radius-slider"
+          name="radius-slider"
+          min="1"
+          max="25"
+          step="1"
+          value="5"
+        />
+        <span id="radius-value" class="radius-value">5 mi</span>
+      </div>
+    </div>
+
     <p id="status-line" class="status-line" role="status" aria-live="polite"></p>
   </div>
 

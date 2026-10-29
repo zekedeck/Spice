@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:17:41.822086Z",
-    "total_pins": 59
+    "generated_at": "2026-10-29T15:34:01.939606Z",
+    "total_pins": 65
   },
   "features": [
     {
@@ -1487,6 +1487,156 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m2yuqynl2cttvi4k5453yegh/app.bsky.feed.post/3myzkudhp5pt2",
+        "handle": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+        "text": "📰 **A new wave of electric ferries is here in the US. Some even fly**\n\nReplacing diesel-powered ferries with electric vessels could reduce emissions and improve air quality Cutting through New York Harbor in the shadow of the Statue of Liberty, the […] \n\n[Original post on igeek.gamer-geek-news.com]",
+        "created_at": "2026-10-29T15:15:56.000Z",
+        "source": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3myzkudhp5pt2",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xvmzhfvnlix2admr7ioaf6ht/app.bsky.feed.post/3myzktakbtk2q",
+        "handle": "tag24.com",
+        "text": "Double the billboards, double the fun! 🗽❤️\n\nTAG24 NEWS took over Times Square with TWO billboards, making our mark in the heart of NYC! 🇺🇸✨\n\nHit that follow button and come along for the ride! 📲\n#TAG24 #TimesSquare #NYC #NewYorkCity #News",
+        "created_at": "2026-10-29T15:18:50.711Z",
+        "source": "https://bsky.app/profile/tag24.com/post/3myzktakbtk2q",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7wshcme2yqbii5sctzbo5t7i/app.bsky.feed.post/3myzkthf3vy2o",
+        "handle": "americabites.bsky.social",
+        "text": "Thursday brunch in NYC 🥐🇫🇷 Buvette on tree-lined Grove St in the West Village bro, Chef Jody Williams' old-world French café since 2011. Croque madame w/ ham, gruyère & sunny egg, Jambon Cru eggs w/ prosciutto, buttermilk waffles, tarte tatin. Open 8am-midnight fr #FoodSky #NYC",
+        "created_at": "2026-10-29T15:18:54.287463Z",
+        "source": "https://bsky.app/profile/americabites.bsky.social/post/3myzkthf3vy2o",
+        "mapped_location": "West Village",
+        "precision_level": "address",
+        "location_text": "West Village",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u52zg6zh5wq3rwcflnfxe3q2/app.bsky.feed.post/3myzlconook2j",
+        "handle": "spiritu.bsky.social",
+        "text": "If you’re a New Yorker & you think posting this correction is appreciated by people from the Midwest let me reassure you that you’re all so wonderful you should have your city as its own little country, as a treat.\n\n3 socialist mayors.\nNew-Deal-President-adjacent.\nTrump.\nGreat NYC political legacy!",
+        "created_at": "2026-10-29T15:27:28.826Z",
+        "source": "https://bsky.app/profile/spiritu.bsky.social/post/3myzlconook2j",
+        "mapped_location": "Great NYC",
+        "precision_level": "address",
+        "location_text": "Great NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.729
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ol4qbdyehw2f2hhtsepjip4k/app.bsky.feed.post/3myzlhxxpn22v",
+        "handle": "malin1.bsky.social",
+        "text": "“The details of the allegations include how Trump assured Keul he’d be able to arrange a visa for her, and guaranteed her a place at New York University (NYU).”\nvt.co/news/us/mode...",
+        "created_at": "2026-10-29T15:30:26.363Z",
+        "source": "https://bsky.app/profile/malin1.bsky.social/post/3myzlhxxpn22v",
+        "mapped_location": "New York University",
+        "precision_level": "address",
+        "location_text": "New York University",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wjatbj4hiinxfqaeixaw2bcp/app.bsky.feed.post/3myzlklbzpm22",
+        "handle": "realtuckfrumper.bsky.social",
+        "text": "Punk Band’s Guerrilla Concert in Times Square Ends in Chaos as NYPD Shuts It Down #Vice",
+        "created_at": "2026-10-29T15:31:50.000Z",
+        "source": "https://bsky.app/profile/realtuckfrumper.bsky.social/post/3myzlklbzpm22",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square Ends",
+        "confidence": 0.89,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

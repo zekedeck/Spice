@@ -1,310 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:50:19.760701Z",
-    "total_pins": 292
+    "generated_at": "2026-10-29T16:06:27.351484Z",
+    "total_pins": 287
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:m2wazjxhvknmeco5jiwk2lti/app.bsky.feed.post/3myulokq7p22c",
-        "handle": "ogsaigonbond.bsky.social",
-        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to House Judiciary Committee staff that she was raped in 1993 by Trump in a Plaza Hotel suite in Manhattan when she was 24.\n\ntime.com/article/2026...",
-        "created_at": "2026-10-27T15:50:48.672Z",
-        "source": "https://bsky.app/profile/ogsaigonbond.bsky.social/post/3myulokq7p22c",
-        "mapped_location": "a Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "a Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myulsivpxp2c",
-        "handle": "mtaalerts.bsky.social",
-        "text": "Broad St-bound [J] and Forest Hills-71 Av-bound [M] trains are running with delays while the FDNY investigates a report of smoke near Flushing Av.",
-        "created_at": "2026-10-27T15:53:00.925Z",
-        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myulsivpxp2c",
-        "mapped_location": "Flushing Av",
-        "precision_level": "address",
-        "location_text": "Flushing Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t2pkk7ojz4rpn5vunrvkqgm5/app.bsky.feed.post/3myum2ubf5c2t",
-        "handle": "lawsononstage.bsky.social",
-        "text": "THIS SUNDAY! 11am! I am performing on Gather NYC! The classical music concert with a storytelling set in the middle (That’s where I come in). I’m excited to perform on Gather’s second ever show at their new home venue: Jazzcultural. 349 West 46th Street.",
-        "created_at": "2026-10-27T15:57:41.313Z",
-        "source": "https://bsky.app/profile/lawsononstage.bsky.social/post/3myum2ubf5c2t",
-        "mapped_location": "Gather NYC",
-        "precision_level": "address",
-        "location_text": "Gather NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hjdxvrq7rh43z5umtt3mucxw/app.bsky.feed.post/3myum3gy5cc25",
-        "handle": "sixdettmar.bsky.social",
-        "text": "I feel pretty much the opposite of these ghouls with their Times Square billboard: I want BioWare back, and if it’s not them I want you to leave Mass Effect the fuck alone. kotaku.com/mass-effect-...",
-        "created_at": "2026-10-27T15:58:00.949Z",
-        "source": "https://bsky.app/profile/sixdettmar.bsky.social/post/3myum3gy5cc25",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wjw22njhp4krdq2wyqifzjyo/app.bsky.feed.post/3myum6fafsk2r",
-        "handle": "longnecklupin.bsky.social",
-        "text": "at the new york aquarium rn",
-        "created_at": "2026-10-27T15:59:39.785Z",
-        "source": "https://bsky.app/profile/longnecklupin.bsky.social/post/3myum6fafsk2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "the new york",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3j4wggf6dku34ocpulowakcd/app.bsky.feed.post/3myum6ql76k2m",
-        "handle": "norahwoodsey.com",
-        "text": "Prospect Park in the fall",
-        "created_at": "2026-10-27T15:59:51.661Z",
-        "source": "https://bsky.app/profile/norahwoodsey.com/post/3myum6ql76k2m",
-        "mapped_location": "Prospect Park",
-        "precision_level": "address",
-        "location_text": "Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3poh33llgoaraxhtqakz7m3i/app.bsky.feed.post/3myum7d542s2f",
-        "handle": "canozamer.bsky.social",
-        "text": "This together with Trump's indisputable history as a violent sexual predator, the 28 women who have accused Trump of  sexual assault including Beatrice Keul who alleges Trump raped her at the Plaza Hotel in New York City in November 1993, demand Trump is charged. \n\npeople.com/former-miss-...",
-        "created_at": "2026-10-27T16:00:11.134Z",
-        "source": "https://bsky.app/profile/canozamer.bsky.social/post/3myum7d542s2f",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3myum7lxjys2u",
-        "handle": "allforgardening.bsky.social",
-        "text": "Celebrating the fall season at the New York Botanical Garden\n\nhttps://www.allforgardening.com/1947047/celebrating-the-fall-season-at-the-new-york-botanical-garden/\n\nThe ofrenda is a key part of Día de los Muertos, also known as the Day of the Dead holiday. It is the offerings placed on an altar …",
-        "created_at": "2026-10-27T16:00:17+00:00",
-        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3myum7lxjys2u",
-        "mapped_location": "the New York Botanical Garden",
-        "precision_level": "address",
-        "location_text": "the New York Botanical Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3myumarqm7w2x",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "report of smoke near Flushing Av... (L): L trains are running with delays in both directions while we conduct track maintenance along the line in Brooklyn... (L): In Brooklyn, L runs every 16 minutes between Canarsie-Rockaway Pkwy and Broadway (2/3)",
-        "created_at": "2026-10-27T16:00:59.954866+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3myumarqm7w2x",
-        "mapped_location": "Flushing Av",
-        "precision_level": "address",
-        "location_text": "Flushing Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.755
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:443arya3g7jvqz5jyr75555x/app.bsky.feed.post/3myumbfpwlk26",
-        "handle": "mike-umbkm.bsky.social",
-        "text": "Donald Trump's Justice Department has charged former FBI Director James Comey for the third time, this time for allegedly leaking classified information that ended up in a New York Times story. \n\nComey responded by saying it was an “appalling abuse” of the DOJ and that he’s “still innocent.”",
-        "created_at": "2026-10-27T16:01:20.958Z",
-        "source": "https://bsky.app/profile/mike-umbkm.bsky.social/post/3myumbfpwlk26",
-        "mapped_location": "New York Times",
-        "precision_level": "address",
-        "location_text": "New York Times",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3myumbxd7x5j2",
-        "handle": "nycviews.stefanbohacek.online",
-        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
-        "created_at": "2026-10-27T16:01:26.000Z",
-        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3myumbxd7x5j2",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2lt3t6u6e7wqgb2vhpkmfdvu/app.bsky.feed.post/3myumjgq5g72f",
-        "handle": "univpressofkansas.bsky.social",
-        "text": "Discover the lasting legacy of Julia Gardiner Tyler at Turn the Page Bookshop in Williamsburg, Virginia, on Friday, November 6, at 6PM EST. The event will include an author discussion, Q&A, and book signing.\n\nLearn more about \"Presidentess\": https://kansaspress.ku.edu/9780700642670/\n\n#UPKansas",
-        "created_at": "2026-10-27T16:05:49.385987066Z",
-        "source": "https://bsky.app/profile/univpressofkansas.bsky.social/post/3myumjgq5g72f",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7365,6 +7065,184 @@
         "confidence": 0.49,
         "address_type": "administrative",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:haekwbhk7lxoqlbiiw6fcqqw/app.bsky.feed.post/3myzmqr4zuk26",
+        "handle": "aicaution.ca",
+        "text": "Re-wording slop so it sounds less sloppy has little educational merit.\n\nWhen we allow AI into schools these are the kinds of pointless tasks that end up happening.\n\nHere in BC we are still petitioning for a pause in AI in K-12. NYC and LA have paused AI, we can too.\nactionnetwork.org/petitions/pa...",
+        "created_at": "2026-10-29T15:53:14.899Z",
+        "source": "https://bsky.app/profile/aicaution.ca/post/3myzmqr4zuk26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g6zrpwmibpkb6nkfweuns3mr/app.bsky.feed.post/3myzmstv5k52p",
+        "handle": "newrepublic.com",
+        "text": "In New York’s 17th congressional district, the battle between Cait Conley and Mike Lawler is focused on Donald Trump—and Zohran Mamdani. trib.al/f4odBfu",
+        "created_at": "2026-10-29T15:54:24.877963Z",
+        "source": "https://bsky.app/profile/newrepublic.com/post/3myzmstv5k52p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "PEN America",
+        "precision_level": "address",
+        "location_text": "PEN America",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "NYC, NYC's P&T Knitwear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "PEN America, NYC's P&T Knitwear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "NYC's P&T Knitwear",
+        "precision_level": "address",
+        "location_text": "NYC's P&T Knitwear",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "PEN America, NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:effuh6qbrkdwp4rwyrlbyvyt/app.bsky.feed.post/3myzn5ltn322c",
+        "handle": "cuny.edu",
+        "text": "Dr. Ramona Hernández, the director of CUNY’s Dominican Studies Institute, appeared on NY1’s “In Focus” to discuss a new public art and mural initiative in Washington Heights and plans for a Dominican museum.",
+        "created_at": "2026-10-29T16:00:25.000379829Z",
+        "source": "https://bsky.app/profile/cuny.edu/post/3myzn5ltn322c",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:knm7kos7a7k2dayzkhh2wxl5/app.bsky.feed.post/3myzn6nsgt52j",
+        "handle": "thenerdsofcolor.bsky.social",
+        "text": "‘The Gilded Age’ Red Carpet Dazzles in New York\n\nNikita and Swara hit the red carpet premiere of The Gilded Age Season 4 in New York, talking colorism, classism, and hopes for the season with the cast and EP/writer Sonja Warfield....",
+        "created_at": "2026-10-29T16:01:00Z",
+        "source": "https://bsky.app/profile/thenerdsofcolor.bsky.social/post/3myzn6nsgt52j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

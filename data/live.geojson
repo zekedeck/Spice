@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:19:08.821181Z",
-    "total_pins": 266
+    "generated_at": "2026-10-29T14:35:43.612290Z",
+    "total_pins": 271
   },
   "features": [
     {
@@ -6708,6 +6708,133 @@
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bcimmblf3ali6jkoevrwxjhv/app.bsky.feed.post/3myzhoi22dc2m",
+        "handle": "blr1a1.bsky.social",
+        "text": "New York City, US\nA protester is detained by NYPD officers for blocking the Brooklyn Bridge in a demonstration for Oscar Belgal, a man shot by ICE\nPhotograph: Adam Gray/Getty Images",
+        "created_at": "2026-10-29T14:22:29.446Z",
+        "source": "https://bsky.app/profile/blr1a1.bsky.social/post/3myzhoi22dc2m",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.794,
+          40.914
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dv5spjpqtyui6kpqktnsfh57/app.bsky.feed.post/3myzi4broot2g",
+        "handle": "washingtonsun.com",
+        "text": "The FBI’s Video Surveillance Unit is installing antennas on the roofs of Trump Plaza in New Rochelle, New York, and Trump World Tower in New York City, according to previously unreported federal contracting documents.",
+        "created_at": "2026-10-29T14:30:12.640676173Z",
+        "source": "https://bsky.app/profile/washingtonsun.com/post/3myzi4broot2g",
+        "mapped_location": "Trump Plaza",
+        "precision_level": "address",
+        "location_text": "Trump Plaza",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New Rochelle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.789,
+          40.914
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dv5spjpqtyui6kpqktnsfh57/app.bsky.feed.post/3myzi4broot2g",
+        "handle": "washingtonsun.com",
+        "text": "The FBI’s Video Surveillance Unit is installing antennas on the roofs of Trump Plaza in New Rochelle, New York, and Trump World Tower in New York City, according to previously unreported federal contracting documents.",
+        "created_at": "2026-10-29T14:30:12.640676173Z",
+        "source": "https://bsky.app/profile/washingtonsun.com/post/3myzi4broot2g",
+        "mapped_location": "New Rochelle",
+        "precision_level": "address",
+        "location_text": "New Rochelle",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Trump Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mks3xxlpszzz3v3v7d4e2jhf/app.bsky.feed.post/3myzi5qcze22n",
+        "handle": "tymmoss.bsky.social",
+        "text": "I love these 2 so much\n\nRiqi Vélez &\nI.Den.t.T ( James Young)\n\nThey both showed up with incredible performances for the fundraiser for Project TRANSCEND at Industry Bar sponsored by The Imperial Court of New York\n\nI love and admire you both soooo much! Thank you for turning it up and turning it out!",
+        "created_at": "2026-10-29T14:31:01.570Z",
+        "source": "https://bsky.app/profile/tymmoss.bsky.social/post/3myzi5qcze22n",
+        "mapped_location": "Industry Bar",
+        "precision_level": "address",
+        "location_text": "Industry Bar",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:an3gbmel5ornh77wzqdknjya/app.bsky.feed.post/3myzi5u6uak2o",
+        "handle": "publius24.bsky.social",
+        "text": "I’m talking in terms of job prospects. Personally, it was far easier to advance my career once I moved to D.C. I’m now living in New York’s blue-collar suburbs after the DOGE layoffs, and establishing a new network (in New York City, where most of my network would be) is challenging.",
+        "created_at": "2026-10-29T14:31:05.634Z",
+        "source": "https://bsky.app/profile/publius24.bsky.social/post/3myzi5u6uak2o",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T00:14:29.406023Z",
-    "total_pins": 230
+    "generated_at": "2026-10-29T00:42:01.652158Z",
+    "total_pins": 232
   },
   "features": [
     {
@@ -5801,6 +5801,56 @@
         "mapped_location": "1780 East Tremont Avenue",
         "precision_level": "address",
         "location_text": "1780 East Tremont Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tz7mjvor7gjmglqsggkc5cn6/app.bsky.feed.post/3myxzjmxkgk2r",
+        "handle": "andreachalupa.com",
+        "text": "I want everyone to know that New York Magazine was just pitched an article about how Dimes Square is incel rape culture with young women survivors risking everything to bring criminal cases, and they turned it down. \n\nRethink that pitch, @tomiobaro.bsky.social",
+        "created_at": "2026-10-29T00:36:34.842Z",
+        "source": "https://bsky.app/profile/andreachalupa.com/post/3myxzjmxkgk2r",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Dimes Square",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3edx4vfvies45p4txgtqcm77/app.bsky.feed.post/3myxzrqqpre2k",
+        "handle": "unitedlegal.bsky.social",
+        "text": "Barbara Barrie Cause of Death: What Is Known About Her Final Illness\n\nThe Barbara Barrie cause of death has drawn attention following reports that the Oscar-nominated actress died at age 95 on October 28, 2026. According to reports citing her daughter, Jane Harnick, Barrie died at her Manhattan…",
+        "created_at": "2026-10-29T00:41:07Z",
+        "source": "https://bsky.app/profile/unitedlegal.bsky.social/post/3myxzrqqpre2k",
+        "mapped_location": "her Manhattan",
+        "precision_level": "address",
+        "location_text": "her Manhattan",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

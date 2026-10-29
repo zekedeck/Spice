@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T20:16:51.857025Z",
-    "total_pins": 275
+    "generated_at": "2026-10-29T20:33:03.608034Z",
+    "total_pins": 283
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ccscygoww4uf76s5eyu7pqut/app.bsky.feed.post/3myv3antma22q",
-        "handle": "michaelwarburton.bsky.social",
-        "text": "WILLEM DAFOE’s lived in the same SoHo loft for 46yrs.\n\nDespite 4 decades of super-stardom, he walks everywhere, takes the subway, and moves around the ‘Big Apple’ like any other New Yorker.",
-        "created_at": "2026-10-27T20:29:22.041Z",
-        "source": "https://bsky.app/profile/michaelwarburton.bsky.social/post/3myv3antma22q",
-        "mapped_location": "the ‘Big Apple",
-        "precision_level": "address",
-        "location_text": "the ‘Big Apple",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6935,6 +6910,233 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mks3xxlpszzz3v3v7d4e2jhf/app.bsky.feed.post/3mz23mfsio223",
+        "handle": "tymmoss.bsky.social",
+        "text": "It was wonderful to share the stage with\n\nIris Pier \n\nAt Appolonia Cruz '  Bronx Pride Thank You Party at BAAD! Bronx Academy of Arts and Dance .  \n\nAlways such a pleasure to see iris and see her perform\n\n#bronxpride #thankyouparty #lifeoftym #gaymoviestar #lgbtactivists #nycentertainers \n\nTym Moss",
+        "created_at": "2026-10-29T20:19:14.955Z",
+        "source": "https://bsky.app/profile/tymmoss.bsky.social/post/3mz23mfsio223",
+        "mapped_location": "Bronx Academy of Arts and Dance",
+        "precision_level": "address",
+        "location_text": "Bronx Academy of Arts and Dance",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:afxhr6sv4e3fyqt6lvob65hh/app.bsky.feed.post/3mz23poqxek2h",
+        "handle": "sudro2.bsky.social",
+        "text": "I was privileged to see him play Prospero in The Tempest at the Public Theater in NYC in '95. His command of Shakespeare was unparalleled. British actors often have a way of rendering Shakespeare's language into common speech that American actors just can't match. Stewart was among the best.",
+        "created_at": "2026-10-29T20:21:04.517Z",
+        "source": "https://bsky.app/profile/sudro2.bsky.social/post/3mz23poqxek2h",
+        "mapped_location": "the Public Theater",
+        "precision_level": "address",
+        "location_text": "the Public Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g3e42pz4ps5dthob6fhyenjx/app.bsky.feed.post/3mz23r7ufis2f",
+        "handle": "calico.bsky.social",
+        "text": "I met him so many times in the early '90s at NYC cons, he was a pretty nice guy despite the fact I was never the biggest Star Trek fan. \n\nHe also was funny if you caught him in the right mood at panels. :3\n\nThey took the wrong 80something year old, someone fire the grim reaper please.",
+        "created_at": "2026-10-29T20:21:56.504Z",
+        "source": "https://bsky.app/profile/calico.bsky.social/post/3mz23r7ufis2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h3jiga26erl3pzbwfr63cfeg/app.bsky.feed.post/3mz23usdhbk2h",
+        "handle": "strikerobi.bsky.social",
+        "text": "I saw Patrick Stewart as Scrooge in A Christmas Carol at the Winter Garden Theater in NYC as a kid. Didn't realize it at the time, but probably one of the coolest things I ever got to do. RIP to an absolute legend.",
+        "created_at": "2026-10-29T20:23:56.535Z",
+        "source": "https://bsky.app/profile/strikerobi.bsky.social/post/3mz23usdhbk2h",
+        "mapped_location": "the Winter Garden Theater",
+        "precision_level": "address",
+        "location_text": "the Winter Garden Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hvv2bp2cwl2rddf4a77uksib/app.bsky.feed.post/3mz23ydwaqs2j",
+        "handle": "rustyeire.bsky.social",
+        "text": "Sad, sad news. My wife & I saw him onstage as Macbeth at the BAM Harvey Theater in Brooklyn in 2008. Brilliant performance. The production was later filmed (elsewhere) & is available on PBS. My precarious mortality is shoved at me lately, nearly daily. RIP, Sir Patrick. He was one of the greats.",
+        "created_at": "2026-10-29T20:25:55.639Z",
+        "source": "https://bsky.app/profile/rustyeire.bsky.social/post/3mz23ydwaqs2j",
+        "mapped_location": "the BAM Harvey Theater",
+        "precision_level": "address",
+        "location_text": "the BAM Harvey Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ljg7ztixeioloyluesj4xryo/app.bsky.feed.post/3mz24a722b22w",
+        "handle": "sir-eccles.bsky.social",
+        "text": "I was privileged to see Patrick Stewart on stage once. Macbeth at the Brooklyn Academy of Music. An amazing contemporary styled production with a minimalist set. I vividly remember one scene, a monologue by Stewart as Macbeth as he made and ate a sandwich. He made it look so natural and real.",
+        "created_at": "2026-10-29T20:30:18.956Z",
+        "source": "https://bsky.app/profile/sir-eccles.bsky.social/post/3mz24a722b22w",
+        "mapped_location": "the Brooklyn Academy of Music",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Academy of Music",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9806873,
+          40.781591
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mqzqvdivnlza4ut52vhzxxps/app.bsky.feed.post/3mz24aweditih",
+        "handle": "heyday.news",
+        "text": "A water tower near West 76th Street and Central Park West in Manhattan has lost its roof after housing a rare barn owl nest. The birds’ and nest’s condition remains unknown.\n\n#UpperWestSide #BarnOwls",
+        "created_at": "2026-10-29T20:30:42.905746Z",
+        "source": "https://bsky.app/profile/heyday.news/post/3mz24aweditih",
+        "mapped_location": "West 76th Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+        "precision_level": "unclassified",
+        "location_text": "West 76th Street",
+        "confidence": 0.64,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.776
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mz24axghdg2b",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃 TONIGHT at VYBZ! 💃🔥 Ladies drink FREE, everyone gets FREE entry, plus live DJs & costume prizes! 👻 Grab your crew and celebrate Halloween in Astoria! 🖤\n\n📍 VYBZ, Astoria\n🎟️ FREE ENTRY!\n\n#HalloweenAstoria #LadiesNight #VYBZAstoria",
+        "created_at": "2026-10-29T20:30:43.105Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mz24axghdg2b",
+        "mapped_location": "VYBZ, Astoria",
+        "precision_level": "address",
+        "location_text": "VYBZ, Astoria",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3mz24axghdg2b",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃 TONIGHT at VYBZ! 💃🔥 Ladies drink FREE, everyone gets FREE entry, plus live DJs & costume prizes! 👻 Grab your crew and celebrate Halloween in Astoria! 🖤\n\n📍 VYBZ, Astoria\n🎟️ FREE ENTRY!\n\n#HalloweenAstoria #LadiesNight #VYBZAstoria",
+        "created_at": "2026-10-29T20:30:43.105Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3mz24axghdg2b",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "VYBZ, Astoria"
       }
     }
   ]

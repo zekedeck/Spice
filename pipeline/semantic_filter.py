@@ -47,8 +47,8 @@ VENUE_SIGNALS = [
 GPE_POLITICAL_CONTEXT_SIGNALS = [
     "genocide", "war crime", "war criminal", "crimes against",
     "ethnic cleansing", "apartheid", "complicit", "complicity",
-    "accountability", "atrocit", "massacre", "occupation", "occupied",
-    "colonial", "propagand", "ceasefire", "zionist",
+    "accountability", "atrocit", "massacr", "occup",
+    "colonial", "propagand", "ceasefire", "zionist", "settler",
 ]
 
 SUBJECT_SIGNALS = [

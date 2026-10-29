@@ -1,135 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:42:20.333584Z",
-    "total_pins": 290
+    "generated_at": "2026-10-29T15:58:19.409757Z",
+    "total_pins": 293
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3xstdohbcw5fmvxyexadpvrt/app.bsky.feed.post/3myulhbji3c23",
-        "handle": "billycamou.bsky.social",
-        "text": "www.telegraph.co.uk/us/news/2026...\nFormer Miss Switzerland accuses Donald Trump of rape\nBeatrice Keul’s allegation she was assaulted at New York’s Plaza Hotel in 1993",
-        "created_at": "2026-10-27T15:46:44.137Z",
-        "source": "https://bsky.app/profile/billycamou.bsky.social/post/3myulhbji3c23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York’s",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:m2wazjxhvknmeco5jiwk2lti/app.bsky.feed.post/3myulokq7p22c",
-        "handle": "ogsaigonbond.bsky.social",
-        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to House Judiciary Committee staff that she was raped in 1993 by Trump in a Plaza Hotel suite in Manhattan when she was 24.\n\ntime.com/article/2026...",
-        "created_at": "2026-10-27T15:50:48.672Z",
-        "source": "https://bsky.app/profile/ogsaigonbond.bsky.social/post/3myulokq7p22c",
-        "mapped_location": "a Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "a Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myulsivpxp2c",
-        "handle": "mtaalerts.bsky.social",
-        "text": "Broad St-bound [J] and Forest Hills-71 Av-bound [M] trains are running with delays while the FDNY investigates a report of smoke near Flushing Av.",
-        "created_at": "2026-10-27T15:53:00.925Z",
-        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myulsivpxp2c",
-        "mapped_location": "Flushing Av",
-        "precision_level": "address",
-        "location_text": "Flushing Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t2pkk7ojz4rpn5vunrvkqgm5/app.bsky.feed.post/3myum2ubf5c2t",
-        "handle": "lawsononstage.bsky.social",
-        "text": "THIS SUNDAY! 11am! I am performing on Gather NYC! The classical music concert with a storytelling set in the middle (That’s where I come in). I’m excited to perform on Gather’s second ever show at their new home venue: Jazzcultural. 349 West 46th Street.",
-        "created_at": "2026-10-27T15:57:41.313Z",
-        "source": "https://bsky.app/profile/lawsononstage.bsky.social/post/3myum2ubf5c2t",
-        "mapped_location": "Gather NYC",
-        "precision_level": "address",
-        "location_text": "Gather NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hjdxvrq7rh43z5umtt3mucxw/app.bsky.feed.post/3myum3gy5cc25",
-        "handle": "sixdettmar.bsky.social",
-        "text": "I feel pretty much the opposite of these ghouls with their Times Square billboard: I want BioWare back, and if it’s not them I want you to leave Mass Effect the fuck alone. kotaku.com/mass-effect-...",
-        "created_at": "2026-10-27T15:58:00.949Z",
-        "source": "https://bsky.app/profile/sixdettmar.bsky.social/post/3myum3gy5cc25",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7317,6 +7192,209 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:skmtn4z4d3v5g4zbjqrt3dif/app.bsky.feed.post/3myzm72ixck2g",
+        "handle": "youpay.me",
+        "text": "Girls just want to have fun(ds!) 💸 \n\nHot creators, good champagne, and 100% chargeback protection… three things we think are worth celebrating! \n\nThanks for joining us at the NYC YouPay Cocktail Club 🪩🖤🍸✨",
+        "created_at": "2026-10-29T15:43:20.777Z",
+        "source": "https://bsky.app/profile/youpay.me/post/3myzm72ixck2g",
+        "mapped_location": "the NYC YouPay Cocktail Club",
+        "precision_level": "address",
+        "location_text": "the NYC YouPay Cocktail Club",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6vclg75je5soq3cxipnlqn2n/app.bsky.feed.post/3myzmazbjps2p",
+        "handle": "itsinqueens.bsky.social",
+        "text": "The Bukharian Ikat Arts Festival is in Astoria on Nov. 1. More: tinyurl.com/3tdvtz4f",
+        "created_at": "2026-10-29T15:44:26.595Z",
+        "source": "https://bsky.app/profile/itsinqueens.bsky.social/post/3myzmazbjps2p",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fck7wsgqbs6yrpaw6nirucek/app.bsky.feed.post/3myzme7hvan2h",
+        "handle": "us-political-news.bsky.social",
+        "text": "This Nail-Biter House Race Is All About Bogeymen In New York’s 17th congressional district, the battle between Cait Conley and Mike Lawler is focused on Donald Trump—and Zohran Mamdani. ...",
+        "created_at": "2026-10-29T15:46:10Z",
+        "source": "https://bsky.app/profile/us-political-news.bsky.social/post/3myzme7hvan2h",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:haekwbhk7lxoqlbiiw6fcqqw/app.bsky.feed.post/3myzmqr4zuk26",
+        "handle": "aicaution.ca",
+        "text": "Re-wording slop so it sounds less sloppy has little educational merit.\n\nWhen we allow AI into schools these are the kinds of pointless tasks that end up happening.\n\nHere in BC we are still petitioning for a pause in AI in K-12. NYC and LA have paused AI, we can too.\nactionnetwork.org/petitions/pa...",
+        "created_at": "2026-10-29T15:53:14.899Z",
+        "source": "https://bsky.app/profile/aicaution.ca/post/3myzmqr4zuk26",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:g6zrpwmibpkb6nkfweuns3mr/app.bsky.feed.post/3myzmstv5k52p",
+        "handle": "newrepublic.com",
+        "text": "In New York’s 17th congressional district, the battle between Cait Conley and Mike Lawler is focused on Donald Trump—and Zohran Mamdani. trib.al/f4odBfu",
+        "created_at": "2026-10-29T15:54:24.877963Z",
+        "source": "https://bsky.app/profile/newrepublic.com/post/3myzmstv5k52p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "PEN America",
+        "precision_level": "address",
+        "location_text": "PEN America",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "NYC, NYC's P&T Knitwear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "PEN America, NYC's P&T Knitwear"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cb2rfvyr2zasxtzn4ihmhedi/app.bsky.feed.post/3myzmwqsm4y2k",
+        "handle": "penamerica.bsky.social",
+        "text": "Tia Williams — bestselling author of The Accidental Diva, It Chicks, The Perfect Find, and The Missed Connection — shared a few of her reading recommendations at a recent PEN America event at NYC's P&T Knitwear. Read more about the event at: https://pen.org/tia-williams-and-kristina-forest/",
+        "created_at": "2026-10-29T15:56:35.882204063Z",
+        "source": "https://bsky.app/profile/penamerica.bsky.social/post/3myzmwqsm4y2k",
+        "mapped_location": "NYC's P&T Knitwear",
+        "precision_level": "address",
+        "location_text": "NYC's P&T Knitwear",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "PEN America, NYC"
       }
     }
   ]

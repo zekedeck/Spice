@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T13:53:59.002707Z",
-    "total_pins": 18
+    "generated_at": "2026-10-29T14:11:07.913935Z",
+    "total_pins": 28
   },
   "features": [
     {
@@ -453,6 +453,256 @@
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:by2kjyqdqrjwkmozzulnlfhj/app.bsky.feed.post/3myzg6myyoj26",
+        "handle": "broker-wise.bsky.social",
+        "text": "Cyber-Aware Operations for Modern Brokerages in New York\n\nIn New York, real estate brokerages face a variety of cyber threats, including risks from shadow AI agents, unmanaged agents, and excessive privilege. These issues can significantly impact operational efficiency and security, leading to pot",
+        "created_at": "2026-10-29T13:55:43Z",
+        "source": "https://bsky.app/profile/broker-wise.bsky.social/post/3myzg6myyoj26",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.581
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myzg6oujod2z",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A pedestrian died after being struck by a DSNY garbage truck in Bath Beach, Brooklyn, and NYPD is investigating with DSNY assistance.\n",
+        "created_at": "2026-10-29T13:55:45.893Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myzg6oujod2z",
+        "mapped_location": "Bath Beach",
+        "precision_level": "address",
+        "location_text": "Bath Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.581
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fscesytji4j5xookwdn5n7mm/app.bsky.feed.post/3myzg6scrfg2h",
+        "handle": "californiabriefly.bsky.social",
+        "text": "A pedestrian died after being struck by a DSNY garbage truck in Bath Beach, Brooklyn, and NYPD is investigating with DSNY assistance.\n",
+        "created_at": "2026-10-29T13:55:49.497Z",
+        "source": "https://bsky.app/profile/californiabriefly.bsky.social/post/3myzg6scrfg2h",
+        "mapped_location": "Bath Beach",
+        "precision_level": "address",
+        "location_text": "Bath Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gqebbn6jslhtcf3hi22f4u7j/app.bsky.feed.post/3myzgbxprh22u",
+        "handle": "gaylekate.bsky.social",
+        "text": "So desperate he's sh*tting his pants...\n\nTrump said Peltola should drop out of the Alaska Senate race and face criminal charges over allegations raised in a New York Times report\n\nground.news/article/alas...",
+        "created_at": "2026-10-29T13:57:36.067Z",
+        "source": "https://bsky.app/profile/gaylekate.bsky.social/post/3myzgbxprh22u",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ghcs5ttljpmur4q27kuktw3z/app.bsky.feed.post/3myzgg7rcwc2e",
+        "handle": "1024daily.atiny.social",
+        "text": "[📢] Drown in the D-r-i-p 💧\n\nThese cities are decked out in ATEEZ Drip\nPull up and snap a pic if you spot one!\n\n📍 NYC, US\n📍 Los Angeles, US\n📍 Berlin, Germany\n📍 Mexico City, Mexico\n\n#ATEEZ #에이티즈\n#GOLDENHOUR #GOLDENHOUR_Part6 #Drip",
+        "created_at": "2026-10-29T13:59:58.713Z",
+        "source": "https://bsky.app/profile/1024daily.atiny.social/post/3myzgg7rcwc2e",
+        "mapped_location": "NYC, US",
+        "precision_level": "address",
+        "location_text": "NYC, US",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:73n5do2fe67m43zk6du73qsm/app.bsky.feed.post/3myzgn7pexn2x",
+        "handle": "insidepractice.bsky.social",
+        "text": "In two weeks time: Legal AI New York returns to 3 Times Square on November 11–12 - V. limited places available.\n\nProgram and registration: https://www.insidepractice.com/legal-ai-new-york\n\n#LegalAI #LegalInnovation #artificialintelligence ",
+        "created_at": "2026-10-29T14:03:53Z",
+        "source": "https://bsky.app/profile/insidepractice.bsky.social/post/3myzgn7pexn2x",
+        "mapped_location": "3 Times Square",
+        "precision_level": "address",
+        "location_text": "3 Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.147,
+          40.618
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ttlde4zjc7hoovsbqjjkm7rz/app.bsky.feed.post/3myzgnjimss2u",
+        "handle": "zoraoneill.com",
+        "text": "St. Gourd is the weak link. I feel bad for Staten Island sometimes, the token effort at inclusion really showing here. (But do I know any other place name in Staten besides St. George? No, no I do not.)",
+        "created_at": "2026-10-29T14:04:03.808Z",
+        "source": "https://bsky.app/profile/zoraoneill.com/post/3myzgnjimss2u",
+        "mapped_location": "St. George",
+        "precision_level": "address",
+        "location_text": "St. George",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mgspmtvkts5fgvj2bcvcomsy/app.bsky.feed.post/3myzgqpceuc2s",
+        "handle": "0215madman.bsky.social",
+        "text": "#403. Gorillaz: Demon Days Live in Harlem at Apollo Theater - 8/10\n\nNeeded more of 2-D and Murdoc doing Statler and Waldorf commentary",
+        "created_at": "2026-10-29T14:05:50.552Z",
+        "source": "https://bsky.app/profile/0215madman.bsky.social/post/3myzgqpceuc2s",
+        "mapped_location": "Apollo Theater - 8/10",
+        "precision_level": "address",
+        "location_text": "Apollo Theater - 8/10",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5huw7bebxh32yozvnpff3pk/app.bsky.feed.post/3myzgu5iygc2t",
+        "handle": "metalinjection.bsky.social",
+        "text": "Watch: NYPD Breaks Up Haywire Show In Times Square\nmetalinjection.net/news/watch-n...",
+        "created_at": "2026-10-29T14:07:46.118Z",
+        "source": "https://bsky.app/profile/metalinjection.bsky.social/post/3myzgu5iygc2t",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:om3z5v4xl6tvwvumqbncfv6k/app.bsky.feed.post/3myzguhxqdk2f",
+        "handle": "timdonnelly.com",
+        "text": "This week's @nygroove.nyc issue is out now and we've got stories on how to bust a ghost in New York City + the city's alt-comedy history, click it! Subscribe!  nygroove.nyc/email/9364dc...",
+        "created_at": "2026-10-29T14:07:57.085Z",
+        "source": "https://bsky.app/profile/timdonnelly.com/post/3myzguhxqdk2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City +",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

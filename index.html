@@ -144,6 +144,15 @@
       <p class="lookback-hint">Drag the circle on the map to move it once it's drawn.</p>
     </div>
   </details>
+
+  <!-- 3D toggle: pitches the map and shows building + pin-column
+       extrusions. Plain button, not a <details> dropdown -- there's no
+       panel content, just an on/off switch -- styled after the Geofence
+       tab's pill chrome so it reads as part of the same topbar-tab family.
+       See app.js's set3DActive(). -->
+  <button type="button" id="toggle-3d" class="toggle-3d-btn" aria-pressed="false">
+    3D
+  </button>
 </header>
 
 <main>

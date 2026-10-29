@@ -517,6 +517,32 @@ body {
   gap: 0.5rem;
 }
 
+/* ===== 3D toggle (plain topbar button, not a dropdown) =====
+   Same pill chrome as .lookback/.geofence > summary, but a real <button>
+   since there's no panel content -- just pitches the map and flips the
+   building/pin-column extrusion layers on or off. is-active mirrors
+   .radius-draw-toggle.is-active's accent-fill treatment. */
+
+.toggle-3d-btn {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-primary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.toggle-3d-btn:hover {
+  border-color: var(--accent);
+}
+
+.toggle-3d-btn.is-active {
+  background: var(--accent);
+  color: #0b0e14;
+  border-color: var(--accent);
+}
+
 /* ===== Geofence (header dropdown) =====
    Same recipe as .lookback / .state-panel right above: a topbar <details>
    whose <summary> is always visible and whose panel expands below it,
@@ -1083,6 +1109,10 @@ main {
     left: auto;
     right: 0;
     width: calc(100vw - 2rem);
+  }
+
+  .toggle-3d-btn {
+    order: 6;
   }
 
   #detail-panel {

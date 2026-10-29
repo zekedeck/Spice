@@ -219,6 +219,12 @@
   var circleSelected = false;
   var circleMouseDownPoint = null; // [x, y] in pixels, or null
 
+  // 3D toggle state: pitches the map and shows the buildings-3d /
+  // pin-extrusions layers (both hidden, pitch 0, by default -- see
+  // set3DActive() near initMap()). Purely a view toggle, no effect on
+  // which pins/features pass the filters above.
+  var is3DActive = false;
+
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
   var detailContent = document.getElementById("detail-content");
@@ -259,6 +265,7 @@
   var radiusSlider = document.getElementById("radius-slider");
   var radiusValueEl = document.getElementById("radius-value");
   var radiusClearBtn = document.getElementById("radius-clear");
+  var toggle3dBtn = document.getElementById("toggle-3d");
 
   function setStatus(msg) {
     statusLine.textContent = msg || "";
@@ -369,6 +376,11 @@
 
   // Returns the list of ET calendar-day strings ("YYYY-MM-DD") spanned by
   // two UTC instants, inclusive.
+  // guard is a runaway-loop backstop, not a real range limit -- the loop
+  // always breaks on reaching endStr. 3660 (10 years) comfortably covers
+  // the normal 30-day live Lookback range AND a one-time historical import
+  // (e.g. IMPORT_MODE) spanning well over a year, while still catching a
+  // malformed/reversed date pair instead of hanging.
   function etDaySpan(fromDate, toDate) {
     var days = [];
     var startStr = etDateString(fromDate);
@@ -768,6 +780,66 @@
   }
 
   // ---------------------------------------------------------------------
+  // 3D pin-column footprints.
+  //
+  // fill-extrusion requires polygon geometry, so each pin gets a tiny
+  // regular-polygon "footprint" (approximates a ~18m-diameter circle)
+  // centered on its FINAL rendered coordinate -- i.e. built from
+  // withStackOffsets(...)'s output, same as the "pins" source itself, so a
+  // stacked/offset pin's column lines up with its dot rather than the
+  // pre-offset original coordinate. Kept in sync with every filter pass by
+  // being rebuilt alongside the "pins" source's setData() call in
+  // applyFilters() -- see there.
+  // ---------------------------------------------------------------------
+
+  var PIN_EXTRUSION_RADIUS_M = 9; // ~18m-diameter footprint per column
+  var PIN_EXTRUSION_RING_POINTS = 8;
+
+  function pinExtrusionRing(lng, lat) {
+    var ring = [];
+    for (var i = 0; i <= PIN_EXTRUSION_RING_POINTS; i++) {
+      var bearing = (2 * Math.PI * i) / PIN_EXTRUSION_RING_POINTS;
+      var delta = metersToLngLatDelta(lat, bearing, PIN_EXTRUSION_RADIUS_M);
+      ring.push([lng + delta[0], lat + delta[1]]);
+    }
+    return ring;
+  }
+
+  // Shallow-copies `props` plus whatever extra keys `extra` adds, rather
+  // than mutating the original properties object in place -- that object
+  // is shared by reference with the "pins" source's own features (see
+  // withStackOffsets), so writing onto it directly would leak the
+  // extrusion-only __lng/__lat fields onto the 2D pin too.
+  function extendProps(props, extra) {
+    var out = {};
+    var k;
+    for (k in props) { if (props.hasOwnProperty(k)) out[k] = props[k]; }
+    for (k in extra) { if (extra.hasOwnProperty(k)) out[k] = extra[k]; }
+    return out;
+  }
+
+  // Builds the "pin-extrusions" source's FeatureCollection from the same
+  // post-offset feature array that just went into the "pins" source.
+  // __lng/__lat preserve the original point coordinate on each polygon
+  // feature's properties -- queryRenderedFeatures against a polygon layer
+  // returns Polygon geometry, not the point handlePinClick/openPanel
+  // expect, so these let it reconstruct an equivalent point feature on
+  // click (see handlePinClick).
+  function pinsToExtrusionFeatureCollection(offsetFeatures) {
+    var features = [];
+    for (var i = 0; i < offsetFeatures.length; i++) {
+      var f = offsetFeatures[i];
+      var coords = f.geometry.coordinates;
+      features.push({
+        type: "Feature",
+        properties: extendProps(f.properties, { __lng: coords[0], __lat: coords[1] }),
+        geometry: { type: "Polygon", coordinates: [pinExtrusionRing(coords[0], coords[1])] }
+      });
+    }
+    return { type: "FeatureCollection", features: features };
+  }
+
+  // ---------------------------------------------------------------------
   // Radius filter
   // ---------------------------------------------------------------------
 
@@ -968,9 +1040,19 @@
     var filteredPins = allFeatures.filter(passes);
     var filteredStateMentions = allStateMentions.filter(passes);
     clearSelection();
+    var offsetPins = withStackOffsets(filteredPins);
     var source = map.getSource("pins");
     if (source) {
-      source.setData({ type: "FeatureCollection", features: withStackOffsets(filteredPins) });
+      source.setData({ type: "FeatureCollection", features: offsetPins });
+    }
+    // 3D pin-column footprints, kept in sync with the same offset pins the
+    // 2D source above just got -- see pinsToExtrusionFeatureCollection().
+    // Harmless to update even while the 3D toggle is off: the layer is
+    // hidden (visibility: none) in that case, so this has no visible
+    // effect on default 2D mode.
+    var extrusionSource = map.getSource("pin-extrusions");
+    if (extrusionSource) {
+      extrusionSource.setData(pinsToExtrusionFeatureCollection(offsetPins));
     }
     renderStateMentions(filteredStateMentions);
     setStatus(filteredPins.length + " pin" + (filteredPins.length === 1 ? "" : "s") + " shown");
@@ -1893,6 +1975,35 @@
         }
       });
 
+      // 3D buildings (Task 1 of the 3D toggle -- see set3DActive()).
+      // Sourced from the SAME vector source/source-layer the style's own
+      // flat "building" fill layer already uses (confirmed against this
+      // specific style's style.json: source id "openmaptiles", OpenMapTiles
+      // schema, source-layer "building") -- no new tile source needed, the
+      // render_height/render_min_height properties are already being
+      // fetched, just not drawn by the style itself. Hidden and pitch-0 by
+      // default; inserted just before "camera-dots" so every pin/circle/
+      // camera layer added below (all already on top of the base map's own
+      // layers, per the comment above) draws over it rather than under it.
+      // minzoom 13: buildings aren't present in the tiles below that anyway
+      // (style's own "building" layer starts at 12; 13 keeps this one from
+      // popping in a zoom level before there's much to see, per the task's
+      // 13-14 guidance).
+      map.addLayer({
+        id: "buildings-3d",
+        type: "fill-extrusion",
+        source: "openmaptiles",
+        "source-layer": "building",
+        minzoom: 13,
+        layout: { visibility: "none" },
+        paint: {
+          "fill-extrusion-color": "#3b4a63", // muted blue-gray, reads against the dark basemap's near-black (#0b0e14/rgb(10,10,10)) building fill without glowing
+          "fill-extrusion-height": ["to-number", ["coalesce", ["get", "render_height"], 8]],
+          "fill-extrusion-base": ["to-number", ["coalesce", ["get", "render_min_height"], 0]],
+          "fill-extrusion-opacity": 0.7
+        }
+      }, "camera-dots");
+
       // Radius-filter circle. Added before "pins" so it renders below the
       // pin layers in z-order (translucent fill + visible border, pins
       // stay legible on top). Empty FeatureCollection until a circle
@@ -2021,6 +2132,41 @@
         }
       });
 
+      // 3D pin columns (Task 2 of the 3D toggle). Separate polygon source
+      // from "pins" -- fill-extrusion requires polygon geometry, not the
+      // point geometry pin-halo/pin-point/pin-icons use -- kept in sync by
+      // applyFilters() alongside the "pins" source's own setData() call.
+      // Hidden by default. Inserted just before "pin-halo" so the existing
+      // dot+icon (drawn after/on top, per the chosen design -- see
+      // handlePinClick/set3DActive comments) reads as the base marker with
+      // the column rising up behind/around it, not the other way around.
+      map.addSource("pin-extrusions", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] }
+      });
+
+      map.addLayer({
+        id: "pin-extrusions",
+        type: "fill-extrusion",
+        source: "pin-extrusions",
+        layout: { visibility: "none" },
+        paint: {
+          // Reuses the same age-recency gradient the 2D dot/halo/icon-glow
+          // already use, so the 3D columns stay visually consistent with
+          // 2D mode rather than inventing a separate color scheme.
+          "fill-extrusion-color": AGE_COLOR_EXPR,
+          // height_meters = 20 + confidence * 150: even a flagged/
+          // low-confidence pin (confidence near 0) shows a small ~20m nub;
+          // a high-confidence pin (confidence near 1) reads as a clearly
+          // taller ~170m column. to-number/coalesce guard against a
+          // missing/non-numeric confidence the same way categorize() does
+          // for the 2D flagged-category cutoff.
+          "fill-extrusion-height": ["+", 20, ["*", ["to-number", ["coalesce", ["get", "confidence"], 1]], 150]],
+          "fill-extrusion-base": 0,
+          "fill-extrusion-opacity": 0.85
+        }
+      }, "pin-halo");
+
       // Stronger glow for the selected pin, drawn above everything else.
       map.addLayer({
         id: "selected-halo",
@@ -2034,7 +2180,12 @@
         }
       });
 
-      var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "camera-dots"];
+      // pin-extrusions included here even though it's only ever rendered
+      // (and thus only ever returned by queryRenderedFeatures) while the 3D
+      // toggle is on -- in 2D mode this is a no-op, exactly like
+      // camera-dots being included here even while the Webcams toggle is
+      // off and that layer is hidden.
+      var PIN_INTERACTIVE_LAYERS = ["pin-point", "pin-icons", "pin-extrusions", "camera-dots"];
 
       // Multiple distinct posts can resolve to the identical coordinate
       // (shared address, generic city-center point, etc. -- confirmed live
@@ -2045,6 +2196,18 @@
       // the superset of pin-icons) and queried explicitly rather than
       // trusting e.features[0], which returns every feature under that
       // pixel across the whole layer, not just the first hit.
+      // Queried against both "pin-point" (the 2D dot, always present) and
+      // "pin-extrusions" (the 3D column, only ever rendered -- and thus
+      // only ever hit -- while the 3D toggle is on): a pitched click can
+      // land on the raised/angled part of a column at a screen pixel whose
+      // ground-level ray doesn't pass through that same pin's flat dot, so
+      // pin-point alone would miss those clicks once pitched. pin-extrusions
+      // features carry Polygon geometry, not the Point geometry
+      // openPanel/openLocationPicker/updateSelectedSource expect, so a hit
+      // there gets rebuilt into an equivalent point feature using the
+      // __lng/__lat properties pinsToExtrusionFeatureCollection() stashed on
+      // it -- same post_uri-based dedup as before handles a pin whose dot
+      // AND column both happen to be under the same click pixel.
       function handlePinClick(e) {
         // Draw mode takes priority: setting the circle's center is the
         // whole point of clicking the map right now, even if a pin happens
@@ -2052,16 +2215,24 @@
         // (isMovingCircle) -- its trailing click shouldn't also act on
         // whatever happens to be under the cursor at the drop point.
         if (drawModeActive || isMovingCircle) return;
-        var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
-        if (!features.length) return;
+        var rawFeatures = map.queryRenderedFeatures(e.point, { layers: ["pin-point", "pin-extrusions"] });
+        if (!rawFeatures.length) return;
 
         var seenUris = {};
         var uniqueFeatures = [];
-        for (var i = 0; i < features.length; i++) {
-          var uri = features[i].properties.post_uri;
-          if (!seenUris[uri]) {
-            seenUris[uri] = true;
-            uniqueFeatures.push(features[i]);
+        for (var i = 0; i < rawFeatures.length; i++) {
+          var rf = rawFeatures[i];
+          var uri = rf.properties.post_uri;
+          if (seenUris[uri]) continue;
+          seenUris[uri] = true;
+          if (rf.geometry.type === "Polygon") {
+            uniqueFeatures.push({
+              type: "Feature",
+              properties: rf.properties,
+              geometry: { type: "Point", coordinates: [rf.properties.__lng, rf.properties.__lat] }
+            });
+          } else {
+            uniqueFeatures.push(rf);
           }
         }
 
@@ -2077,6 +2248,7 @@
         }
       }
       map.on("click", "pin-point", handlePinClick);
+      map.on("click", "pin-extrusions", handlePinClick);
 
       map.on("click", "camera-dots", function (e) {
         if (drawModeActive || isMovingCircle) return;
@@ -2334,6 +2506,32 @@
     toggleWebcams.addEventListener("change", function () {
       if (!map || !map.getLayer("camera-dots")) return;
       map.setLayoutProperty("camera-dots", "visibility", toggleWebcams.checked ? "visible" : "none");
+    });
+  }
+
+  // 3D toggle: pitches the map and shows/hides the buildings-3d and
+  // pin-extrusions layers together. Flat (pitch 0, both layers hidden) is
+  // the default/off state and exactly matches pre-3D-toggle behavior --
+  // nothing here runs unless this button is clicked.
+  function set3DActive(active) {
+    is3DActive = active;
+    if (toggle3dBtn) {
+      toggle3dBtn.classList.toggle("is-active", active);
+      toggle3dBtn.setAttribute("aria-pressed", active ? "true" : "false");
+    }
+    if (!map) return;
+    map.easeTo({ pitch: active ? 45 : 0, duration: 500 });
+    if (map.getLayer("buildings-3d")) {
+      map.setLayoutProperty("buildings-3d", "visibility", active ? "visible" : "none");
+    }
+    if (map.getLayer("pin-extrusions")) {
+      map.setLayoutProperty("pin-extrusions", "visibility", active ? "visible" : "none");
+    }
+  }
+
+  if (toggle3dBtn) {
+    toggle3dBtn.addEventListener("click", function () {
+      set3DActive(!is3DActive);
     });
   }
 

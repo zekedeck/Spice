@@ -1,135 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T19:24:56.861055Z",
-    "total_pins": 278
+    "generated_at": "2026-10-29T19:43:21.450157Z",
+    "total_pins": 281
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuxrshwkxe2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Uptown B, Q trains are delayed while we remove a train with a mechanical problem from service at Cortelyou Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-27T19:27:18.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuxrshwkxe2",
-        "mapped_location": "Cortelyou Rd",
-        "precision_level": "address",
-        "location_text": "Cortelyou Rd",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qy2aikirkfy7agx6axspmsbg/app.bsky.feed.post/3myuxtoqkuh2q",
-        "handle": "hiringradarjobs.com",
-        "text": "✨ Executive Assistant - REMOTE — Molina Healthcare\n\n✨ Call Center Assistant Operations Manager — Teleperformance\n📍 Remote (US)\n\n✨ Senior Administrative Assistant... — Capital One\n📍 New York, NY\n\n🔗 See all recommendations:\nhttps://hiringradarjobs.com/careers/administrative/",
-        "created_at": "2026-10-27T19:28:25.540789+00:00",
-        "source": "https://bsky.app/profile/hiringradarjobs.com/post/3myuxtoqkuh2q",
-        "mapped_location": "New York, NY",
-        "precision_level": "address",
-        "location_text": "New York, NY",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:iaugekhphtvplklq55mp3ugq/app.bsky.feed.post/3myuxx7ulx22u",
-        "handle": "jschofieldvo.bsky.social",
-        "text": "IGN.com News: Following EA's closure of BioWare, Mass Effect fans have purchased a massive #SaveMassEffect billboard in Times Square, with plans to keep pushing to save the franchise. #MassEffect #Gaming",
-        "created_at": "2026-10-27T19:30:23.969Z",
-        "source": "https://bsky.app/profile/jschofieldvo.bsky.social/post/3myuxx7ulx22u",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sd7k4uthx35couai2rnoj5tg/app.bsky.feed.post/3myuxxaooyx2d",
-        "handle": "firstelder.bsky.social",
-        "text": "A 2,000-year-old marble torso of a Roman emperor sold for $34.26 million at Sotheby’s in New York on 21 October, setting an auction record for a Roman antiquity. The sculpture previously sold for $7.36 million in 2010.\n#Auction #Antiques\ntinyurl.com/4zacvz5a",
-        "created_at": "2026-10-27T19:30:24.848Z",
-        "source": "https://bsky.app/profile/firstelder.bsky.social/post/3myuxxaooyx2d",
-        "mapped_location": "Sotheby’s",
-        "precision_level": "address",
-        "location_text": "Sotheby’s",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.921,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myuxygl7i62p",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
-        "created_at": "2026-10-27T19:31:03.135Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myuxygl7i62p",
-        "mapped_location": "Newsroom, LIC",
-        "precision_level": "address",
-        "location_text": "Newsroom, LIC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7005,6 +6880,208 @@
         "mapped_location": "East Village",
         "precision_level": "address",
         "location_text": "East Village",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4isvv7q3p52sbntcd3npzh7s/app.bsky.feed.post/3myzyqsxcwc2s",
+        "handle": "hyperallergic.com",
+        "text": "“Designed to Be Red: Native American & Indigenous Poster Works” is now on view at Poster House in New York City through February 21, 2027.",
+        "created_at": "2026-10-29T19:28:01.019Z",
+        "source": "https://bsky.app/profile/hyperallergic.com/post/3myzyqsxcwc2s",
+        "mapped_location": "Poster House",
+        "precision_level": "address",
+        "location_text": "Poster House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s2ko3ace43fs4ejmcujb5xse/app.bsky.feed.post/3myzysbgbak25",
+        "handle": "d0n-415.bsky.social",
+        "text": "Going to be another nice weekend  I think I will hang out in Times Square. Think we will take in a dinner and a show.",
+        "created_at": "2026-10-29T19:28:50.466Z",
+        "source": "https://bsky.app/profile/d0n-415.bsky.social/post/3myzysbgbak25",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.674
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:25jwvjyzkgovzdx2rk65wckt/app.bsky.feed.post/3myzytcl2kk2b",
+        "handle": "carolynsbuddy.bsky.social",
+        "text": "There is nothing like it ‼️ \n\nHave some fun ‼️\n\nBROOKLYN ‼️\n\nTODAY  \n\n4 pm ‼️ \n\nCOFFEY PARK \n\nThe Barnacle Parade \n in Red Hook. \nCome for good humor, \nmusic, great floats \nand commemorating the \n12th anniversary of  … \nHurricane Sandy !!\n\nHere’s how they did it in ‘23:",
+        "created_at": "2026-10-29T19:29:25.224Z",
+        "source": "https://bsky.app/profile/carolynsbuddy.bsky.social/post/3myzytcl2kk2b",
+        "mapped_location": "Red Hook",
+        "precision_level": "address",
+        "location_text": "Red Hook",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ckbec7dpmhuqflubh3rin3t2/app.bsky.feed.post/3myzyvcsjx22t",
+        "handle": "pugpeople.bsky.social",
+        "text": "Weegee - Fire at Ameko Building near Brooklyn Bridge 1945\n#streetphotography #B&W",
+        "created_at": "2026-10-29T19:30:32.580Z",
+        "source": "https://bsky.app/profile/pugpeople.bsky.social/post/3myzyvcsjx22t",
+        "mapped_location": "Brooklyn Bridge 1945",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge 1945",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7f3jzsrqmpbzhqjnqnre23n/app.bsky.feed.post/3myzyvnw5tc2c",
+        "handle": "wullagaru.bsky.social",
+        "text": "Part 2 of the rainy day walk, here its herald and Times Square, places I generally dont like to go to, but thought they might be fun given the weather.\n\n#photography #timessquare #nycphotography #streetphotography #nycphotographer",
+        "created_at": "2026-10-29T19:30:44.165Z",
+        "source": "https://bsky.app/profile/wullagaru.bsky.social/post/3myzyvnw5tc2c",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "its herald and Times Square",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myzyx3ijga2g",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃 KINGPIN HALLOWEEN: MONSTERS BOWL! 👻🎳 Bowling, DJs & Halloween costumes collide for a wild night in Times Square! 🔥\n\n📅 Oct. 29 | 10 PM–3 AM\n📍 Lucky Strike Times Square, NYC\n🔞 21+ | Costumes welcome, no props\n🎟️ Tickets via link in bio\n\n#KingpinHalloween #MonstersBowl #HalloweenNYC",
+        "created_at": "2026-10-29T19:31:30.563Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myzyx3ijga2g",
+        "mapped_location": "Lucky Strike Times Square, NYC",
+        "precision_level": "address",
+        "location_text": "Lucky Strike Times Square, NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myzyx3ijga2g",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃 KINGPIN HALLOWEEN: MONSTERS BOWL! 👻🎳 Bowling, DJs & Halloween costumes collide for a wild night in Times Square! 🔥\n\n📅 Oct. 29 | 10 PM–3 AM\n📍 Lucky Strike Times Square, NYC\n🔞 21+ | Costumes welcome, no props\n🎟️ Tickets via link in bio\n\n#KingpinHalloween #MonstersBowl #HalloweenNYC",
+        "created_at": "2026-10-29T19:31:30.563Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myzyx3ijga2g",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Lucky Strike Times Square, NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lpcxvo4aayzjklbsalehiqx6/app.bsky.feed.post/3myzze7tgj22i",
+        "handle": "the-megan-dance.bsky.social",
+        "text": "Anybody want a couple tickets for the Nice as Fuck (Jenny Lewis side project) tonight in Bushwick at Xanadu Roller Skating Rink?",
+        "created_at": "2026-10-29T19:38:52.781Z",
+        "source": "https://bsky.app/profile/the-megan-dance.bsky.social/post/3myzze7tgj22i",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
         "confidence": 0.5,
         "address_type": "",
         "provenance": "llm_resolve",

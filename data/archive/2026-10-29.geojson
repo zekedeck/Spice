@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T19:59:21.829405Z",
-    "total_pins": 131
+    "generated_at": "2026-10-29T20:16:51.866202Z",
+    "total_pins": 137
   },
   "features": [
     {
@@ -3302,6 +3302,156 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nx7znvoex7ev3wcxn3tipovm/app.bsky.feed.post/3mz232u6vts2h",
+        "handle": "mayor.nyc.gov",
+        "text": "For too long, Third Avenue in Brooklyn has been deadly. We are changing that.\n\nWe will transform Third Avenue to protect pedestrians, cyclists and drivers. And across this city, we are making the most dangerous streets safer for New Yorkers.",
+        "created_at": "2026-10-29T20:09:26.065Z",
+        "source": "https://bsky.app/profile/mayor.nyc.gov/post/3mz232u6vts2h",
+        "mapped_location": "Third Avenue",
+        "precision_level": "address",
+        "location_text": "Third Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lvkgoh6bhncyyps4zf5xtnvk/app.bsky.feed.post/3mz2346ljxc23",
+        "handle": "marcusphotofox.bsky.social",
+        "text": "NYC | October 28, 2026\n\n“No War on Cuba.”\n\nDemonstrators gathered in Midtown Manhattan to oppose U.S. sanctions and intervention in Cuba.\n\n🎥 Video and reporting: Riley Fox\n\n#Photojournalism #Cuba #NYC",
+        "created_at": "2026-10-29T20:10:10.515Z",
+        "source": "https://bsky.app/profile/marcusphotofox.bsky.social/post/3mz2346ljxc23",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:npkr7a3pwyrbsy3eew3oek7k/app.bsky.feed.post/3mz23aicckk2r",
+        "handle": "ahronnee.bsky.social",
+        "text": "My favorite memory of #PatrickStewart was, walking on the streets of NYC near the Cort Theater (now James Earl Jones Theater), about to go see him & his good pal Ian McKellen in Waiting for Godot, and who do I practically TRIP over???  #SirPatrick himself!  Total fan girl freeze. #RIPPatrickStewart",
+        "created_at": "2026-10-29T20:12:34.921Z",
+        "source": "https://bsky.app/profile/ahronnee.bsky.social/post/3mz23aicckk2r",
+        "mapped_location": "the Cort Theater",
+        "precision_level": "address",
+        "location_text": "the Cort Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:coxjp6ammlundsswsiigoz3a/app.bsky.feed.post/3mz23bdj4rc2x",
+        "handle": "bartinmarna.bsky.social",
+        "text": "Shopping at Union Market in Park Slope in 2011, I overheard a distinct, refined voice say “I don’t think mushrooms would be a good idea.”\n\nI turned and saw it was Patrick Stewart, shopping for groceries with his future wife. He could tell I overheard him and gave me a smile and a wink. \n\nRIP.",
+        "created_at": "2026-10-29T20:13:03.458Z",
+        "source": "https://bsky.app/profile/bartinmarna.bsky.social/post/3mz23bdj4rc2x",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bpkfjfpgr6y3d55flte5gdp/app.bsky.feed.post/3mz23e3ddjl2w",
+        "handle": "shhhitsgavin.bsky.social",
+        "text": "and probably sounded insane. But I will never forget that very strange moment where I got to talk to my hero, no matter how brief, in a weird hotel ballroom in downtown manhattan. He couldn't have been kinder or more generous. \n\nThis will be a loss I feel deeply, for a very long time.",
+        "created_at": "2026-10-29T20:14:35.527Z",
+        "source": "https://bsky.app/profile/shhhitsgavin.bsky.social/post/3mz23e3ddjl2w",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "unclassified",
+        "location_text": "downtown manhattan",
+        "confidence": 0.64,
+        "address_type": "pier",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lasllkpxubuyl3w3e5vrmxme/app.bsky.feed.post/3mz23gpcxgk2o",
+        "handle": "codenimm.bsky.social",
+        "text": "I saw Patrick Stewart, uncountable hours on TNG, on stage in his 1-man Christmas Carol, and then once on 5th Ave in Park Slope (while I was having some kind of disagreement with my partner who was oblivious, so I just had my big reaction internally)",
+        "created_at": "2026-10-29T20:16:03.605Z",
+        "source": "https://bsky.app/profile/codenimm.bsky.social/post/3mz23gpcxgk2o",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

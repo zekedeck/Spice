@@ -1,135 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T19:59:21.815144Z",
-    "total_pins": 274
+    "generated_at": "2026-10-29T20:16:51.857025Z",
+    "total_pins": 275
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.921,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3myuzs7dp5p2h",
-        "handle": "nyceventsguide.bsky.social",
-        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
-        "created_at": "2026-10-27T20:03:22.750Z",
-        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3myuzs7dp5p2h",
-        "mapped_location": "Newsroom, LIC",
-        "precision_level": "address",
-        "location_text": "Newsroom, LIC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:mppcaswhfcxgw6xeb5ponnqn/app.bsky.feed.post/3myuzxc5k7s2t",
-        "handle": "riverdaleboy.bsky.social",
-        "text": "\"they're not sending the best. They're not sending you, they're sending people that have lots of problems and they're bringing those problems,\" Trump said in a speech at Trump Tower in New York.",
-        "created_at": "2026-10-27T20:06:14.052Z",
-        "source": "https://bsky.app/profile/riverdaleboy.bsky.social/post/3myuzxc5k7s2t",
-        "mapped_location": "Trump Tower",
-        "precision_level": "address",
-        "location_text": "Trump Tower",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.953,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lt7eqlk3l7u5pncvfgmcfjem/app.bsky.feed.post/3myuzxna6u222",
-        "handle": "taliajane.bsky.social",
-        "text": "Grand jury just decided to indict retired NYPD Victor Romero with second-degree murder in the George Washington Bridge shooting of Koran Irvine.\n\nMurder is harder to prove because it requires intent, which is likely why Manhattan DA opted for the lesser manslaughter charge.",
-        "created_at": "2026-10-27T20:06:25.654Z",
-        "source": "https://bsky.app/profile/taliajane.bsky.social/post/3myuzxna6u222",
-        "mapped_location": "the George Washington Bridge",
-        "precision_level": "address",
-        "location_text": "the George Washington Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.058,
-          40.833
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5m3ztlfb5emucvfci334um6n/app.bsky.feed.post/3myv22fsmys2y",
-        "handle": "menendez.house.gov",
-        "text": "📍Celebrating Halloween with our seniors in West New York \n\n🎃 Always great to be with Mayor Albio Sires and our favorite residents at the WNY Halloween celebration! Thank you to Mayor Sires and the WNY commissioners for making this such a special event every year!",
-        "created_at": "2026-10-27T20:07:58.544Z",
-        "source": "https://bsky.app/profile/menendez.house.gov/post/3myv22fsmys2y",
-        "mapped_location": "West New York",
-        "precision_level": "address",
-        "location_text": "West New York",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.807
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tdivwf36ztuafasc525lpduq/app.bsky.feed.post/3myv22l2dgq25",
-        "handle": "gmf-world.bsky.social",
-        "text": "https://gmf-mag.blogspot.com/2026/10/a-new-chapter-lasting-legacy-inside.html\n\nA New Chapter, a Lasting Legacy: Inside the Studio Museum in Harlem’s Annual Gala #showbiz #sports #celebrities #lifestyle",
-        "created_at": "2026-10-27T20:08:02.479Z",
-        "source": "https://bsky.app/profile/gmf-world.bsky.social/post/3myv22l2dgq25",
-        "mapped_location": "the Studio Museum",
-        "precision_level": "address",
-        "location_text": "the Studio Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6910,6 +6785,156 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nx7znvoex7ev3wcxn3tipovm/app.bsky.feed.post/3mz232u6vts2h",
+        "handle": "mayor.nyc.gov",
+        "text": "For too long, Third Avenue in Brooklyn has been deadly. We are changing that.\n\nWe will transform Third Avenue to protect pedestrians, cyclists and drivers. And across this city, we are making the most dangerous streets safer for New Yorkers.",
+        "created_at": "2026-10-29T20:09:26.065Z",
+        "source": "https://bsky.app/profile/mayor.nyc.gov/post/3mz232u6vts2h",
+        "mapped_location": "Third Avenue",
+        "precision_level": "address",
+        "location_text": "Third Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lvkgoh6bhncyyps4zf5xtnvk/app.bsky.feed.post/3mz2346ljxc23",
+        "handle": "marcusphotofox.bsky.social",
+        "text": "NYC | October 28, 2026\n\n“No War on Cuba.”\n\nDemonstrators gathered in Midtown Manhattan to oppose U.S. sanctions and intervention in Cuba.\n\n🎥 Video and reporting: Riley Fox\n\n#Photojournalism #Cuba #NYC",
+        "created_at": "2026-10-29T20:10:10.515Z",
+        "source": "https://bsky.app/profile/marcusphotofox.bsky.social/post/3mz2346ljxc23",
+        "mapped_location": "Midtown Manhattan",
+        "precision_level": "address",
+        "location_text": "Midtown Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:npkr7a3pwyrbsy3eew3oek7k/app.bsky.feed.post/3mz23aicckk2r",
+        "handle": "ahronnee.bsky.social",
+        "text": "My favorite memory of #PatrickStewart was, walking on the streets of NYC near the Cort Theater (now James Earl Jones Theater), about to go see him & his good pal Ian McKellen in Waiting for Godot, and who do I practically TRIP over???  #SirPatrick himself!  Total fan girl freeze. #RIPPatrickStewart",
+        "created_at": "2026-10-29T20:12:34.921Z",
+        "source": "https://bsky.app/profile/ahronnee.bsky.social/post/3mz23aicckk2r",
+        "mapped_location": "the Cort Theater",
+        "precision_level": "address",
+        "location_text": "the Cort Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:coxjp6ammlundsswsiigoz3a/app.bsky.feed.post/3mz23bdj4rc2x",
+        "handle": "bartinmarna.bsky.social",
+        "text": "Shopping at Union Market in Park Slope in 2011, I overheard a distinct, refined voice say “I don’t think mushrooms would be a good idea.”\n\nI turned and saw it was Patrick Stewart, shopping for groceries with his future wife. He could tell I overheard him and gave me a smile and a wink. \n\nRIP.",
+        "created_at": "2026-10-29T20:13:03.458Z",
+        "source": "https://bsky.app/profile/bartinmarna.bsky.social/post/3mz23bdj4rc2x",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bpkfjfpgr6y3d55flte5gdp/app.bsky.feed.post/3mz23e3ddjl2w",
+        "handle": "shhhitsgavin.bsky.social",
+        "text": "and probably sounded insane. But I will never forget that very strange moment where I got to talk to my hero, no matter how brief, in a weird hotel ballroom in downtown manhattan. He couldn't have been kinder or more generous. \n\nThis will be a loss I feel deeply, for a very long time.",
+        "created_at": "2026-10-29T20:14:35.527Z",
+        "source": "https://bsky.app/profile/shhhitsgavin.bsky.social/post/3mz23e3ddjl2w",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "unclassified",
+        "location_text": "downtown manhattan",
+        "confidence": 0.64,
+        "address_type": "pier",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lasllkpxubuyl3w3e5vrmxme/app.bsky.feed.post/3mz23gpcxgk2o",
+        "handle": "codenimm.bsky.social",
+        "text": "I saw Patrick Stewart, uncountable hours on TNG, on stage in his 1-man Christmas Carol, and then once on 5th Ave in Park Slope (while I was having some kind of disagreement with my partner who was oblivious, so I just had my big reaction internally)",
+        "created_at": "2026-10-29T20:16:03.605Z",
+        "source": "https://bsky.app/profile/codenimm.bsky.social/post/3mz23gpcxgk2o",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T23:15:17.137235Z",
-    "total_pins": 291
+    "generated_at": "2026-10-29T23:26:56.178749Z",
+    "total_pins": 293
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5gy3v7opwo3bfoa7dojkfhvp/app.bsky.feed.post/3myvekhd2ns2k",
-        "handle": "helenkennedy.com",
-        "text": "Two juncos on my terrace near Times Square today. They seemed unbothered by city craziness.",
-        "created_at": "2026-10-27T23:15:54.427Z",
-        "source": "https://bsky.app/profile/helenkennedy.com/post/3myvekhd2ns2k",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ir4cindjaqzh245ighxltzkd/app.bsky.feed.post/3myvel2xl722n",
-        "handle": "animegamenews.bsky.social",
-        "text": "Fans launch a Save Mass Effect campaign with Times Square ads and fundraising after EA cancelled the next game. #game\n\nRead more below.",
-        "created_at": "2026-10-27T23:16:13.999332+00:00",
-        "source": "https://bsky.app/profile/animegamenews.bsky.social/post/3myvel2xl722n",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7341,6 +7291,108 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lqkdo4yebpdmkf7v2fovxdc7/app.bsky.feed.post/3mz2fq7xxx22e",
+        "handle": "sherilyn.bsky.social",
+        "text": "Magazine advert for Patrick Stewart starring in George C. Wolfe's production of The Tempest in the New York Shakespeare Festival at the Broadhurst Theatre, October 10-December 31, 1995.",
+        "created_at": "2026-10-29T23:20:20.480Z",
+        "source": "https://bsky.app/profile/sherilyn.bsky.social/post/3mz2fq7xxx22e",
+        "mapped_location": "the Broadhurst Theatre",
+        "precision_level": "address",
+        "location_text": "the Broadhurst Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:or5jhlzw46ha45doumorqt6e/app.bsky.feed.post/3mz2frv3pkc24",
+        "handle": "swfong.bsky.social",
+        "text": "No one on Twitter had ever done this, bike to Yankee Stadium. I was passing triple parked cars in bike lanes, and yes Bronx drivers aren't very nice. The only time I felt safe was the No Vehicle zone 10 blocks from the park.",
+        "created_at": "2026-10-29T23:21:16.181Z",
+        "source": "https://bsky.app/profile/swfong.bsky.social/post/3mz2frv3pkc24",
+        "mapped_location": "Yankee Stadium",
+        "precision_level": "address",
+        "location_text": "Yankee Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1249133,
+          40.7439002
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pgkb5sbhrpkxa24uqd7pmkxa/app.bsky.feed.post/3mz2fypyppc2b",
+        "handle": "rip-cusslick.bsky.social",
+        "text": "my weekend in NYC via AmTrak, lots from atlas obscura:\n\n-the Cloisters\n-friday night at the Whitney\n-Dream House\n-MoMath\n-Brooklyn Transit Museum\n-Holographic Studios\n\nplus of course a floppy slice of pizza and bodega breakfast sandwich along the way.\n\nstaying in chelsea, suggestions welcome!",
+        "created_at": "2026-10-29T23:25:05.722Z",
+        "source": "https://bsky.app/profile/rip-cusslick.bsky.social/post/3mz2fypyppc2b",
+        "mapped_location": "Amtrak Bridge No. 7.80, New Jersey Turnpike Western Spur, Kearny, Hudson County, New Jersey, 07032, United States",
+        "precision_level": "unclassified",
+        "location_text": "AmTrak",
+        "confidence": 0.595,
+        "address_type": "bridge",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15,
+        "other_locations": "the Whitney\n-Dream House"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009,
+          40.739
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pgkb5sbhrpkxa24uqd7pmkxa/app.bsky.feed.post/3mz2fypyppc2b",
+        "handle": "rip-cusslick.bsky.social",
+        "text": "my weekend in NYC via AmTrak, lots from atlas obscura:\n\n-the Cloisters\n-friday night at the Whitney\n-Dream House\n-MoMath\n-Brooklyn Transit Museum\n-Holographic Studios\n\nplus of course a floppy slice of pizza and bodega breakfast sandwich along the way.\n\nstaying in chelsea, suggestions welcome!",
+        "created_at": "2026-10-29T23:25:05.722Z",
+        "source": "https://bsky.app/profile/rip-cusslick.bsky.social/post/3mz2fypyppc2b",
+        "mapped_location": "the Whitney\n-Dream House",
+        "precision_level": "address",
+        "location_text": "the Whitney\n-Dream House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "AmTrak"
       }
     }
   ]

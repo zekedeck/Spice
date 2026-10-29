@@ -8,6 +8,106 @@
 (function () {
   "use strict";
 
+  // ---------------------------------------------------------------------
+  // Password gate. Casual-visitor deterrent ONLY -- not real access
+  // control. GitHub Pages serves everything as plain static files with no
+  // server-side execution, so nothing in this file can actually stop a
+  // motivated visitor from fetching data/live.geojson (or this very
+  // script) directly by URL. The point is just to keep an idle/accidental
+  // visitor from landing on the live map, not to withstand an attacker.
+  // No rate-limiting/lockout/delay by design -- that would imply a
+  // stronger guarantee than this is meant to make.
+  //
+  // The one thing that DOES matter here: the gate must stop the actual
+  // data fetches, not just hide their rendered result behind an overlay.
+  // See startApp() / the bottom of this file -- initMap() (which triggers
+  // loadLive()'s fetch of data/live.geojson) and loadCameras() (which
+  // fetches data/nyc_cameras.json) only ever run from inside startApp(),
+  // which only runs once the gate is passed. Nothing above that point
+  // touches the network.
+  //
+  // GATE_PASSWORD_HASH_HEX holds the SHA-256 hex digest of the real
+  // password, compared against a hash of whatever's typed in (via
+  // crypto.subtle.digest) -- never the plaintext itself. To generate the
+  // real value once you have the real password, run ONE of:
+  //
+  //   Browser console (on this site, or any page):
+  //     crypto.subtle.digest("SHA-256", new TextEncoder().encode("the real password"))
+  //       .then(buf => console.log(
+  //         [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("")
+  //       ));
+  //
+  //   Node.js (18+, no deps):
+  //     node -e "crypto.subtle.digest('SHA-256', new TextEncoder().encode('the real password')).then(b => console.log(Buffer.from(b).toString('hex')))"
+  //
+  // Paste the resulting 64-character hex string in as this constant's
+  // value. Left as this exact placeholder, it is NOT a valid SHA-256 hex
+  // digest (wrong length, wrong charset) -- it cannot accidentally match
+  // any real password's hash, so the gate visibly fails every attempt
+  // until replaced.
+  var GATE_PASSWORD_HASH_HEX = "abe21e6c92f1793f0f40ba75b8137193f7bca632dfcbcc6492b221acf9edfd89";
+  // localStorage (not sessionStorage): deliberately persists across tabs
+  // and future visits, so the owner and anyone they've shared the
+  // password with aren't re-prompted every single time -- this is a
+  // casual deterrent, not a re-auth-every-session model.
+  var GATE_UNLOCK_STORAGE_KEY = "spiceGateUnlocked";
+
+  var gateOverlay = document.getElementById("gate-overlay");
+  var gateForm = document.getElementById("gate-form");
+  var gateInput = document.getElementById("gate-password-input");
+  var gateError = document.getElementById("gate-error");
+
+  function sha256Hex(text) {
+    var data = new TextEncoder().encode(text);
+    return crypto.subtle.digest("SHA-256", data).then(function (buf) {
+      var bytes = new Uint8Array(buf);
+      var hex = "";
+      for (var i = 0; i < bytes.length; i++) {
+        hex += bytes[i].toString(16).padStart(2, "0");
+      }
+      return hex;
+    });
+  }
+
+  function isGateUnlocked() {
+    try {
+      return localStorage.getItem(GATE_UNLOCK_STORAGE_KEY) === "1";
+    } catch (e) {
+      return false; // localStorage unavailable (private mode, etc.): fail closed, re-show the gate
+    }
+  }
+
+  function unlockGate() {
+    try {
+      localStorage.setItem(GATE_UNLOCK_STORAGE_KEY, "1");
+    } catch (e) {
+      // Can't persist -- gate will just re-show next visit. Not fatal.
+    }
+    document.body.classList.add("gate-unlocked");
+    startApp();
+  }
+
+  function showGateError(msg) {
+    if (!gateError) return;
+    gateError.textContent = msg;
+    gateError.hidden = !msg;
+  }
+
+  function handleGateSubmit(e) {
+    e.preventDefault();
+    var entered = gateInput ? gateInput.value : "";
+    sha256Hex(entered).then(function (hex) {
+      if (hex === GATE_PASSWORD_HASH_HEX) {
+        showGateError("");
+        unlockGate();
+      } else {
+        showGateError("Wrong password.");
+      }
+    });
+  }
+
+  if (gateForm) gateForm.addEventListener("submit", handleGateSubmit);
+
   var ET_ZONE = "America/New_York";
   var LIVE_REFRESH_MS = 15 * 60 * 1000; // matches the pipeline's 15-min native cron cadence
   // Live-window slider: purely client-side narrowing of the already-loaded
@@ -2074,7 +2174,25 @@
     }
   });
 
-  initLookbackBounds();
-  initMap();
-  loadCameras();
+  // Everything that actually touches the network or spins up the map
+  // (initMap() -> loadLive()'s fetch of data/live.geojson, plus
+  // loadCameras()'s fetch of data/nyc_cameras.json) lives behind this
+  // function, which only ever runs after the gate above is passed --
+  // either immediately, if localStorage already remembers an unlock from
+  // a previous visit, or from unlockGate() once the right password is
+  // entered. initLookbackBounds() has no network call of its own, but is
+  // grouped in here too since it's part of the same startup sequence and
+  // there's no reason for it to run while the map/data behind it can't.
+  function startApp() {
+    initLookbackBounds();
+    initMap();
+    loadCameras();
+  }
+
+  if (isGateUnlocked()) {
+    document.body.classList.add("gate-unlocked");
+    startApp();
+  } else if (gateInput) {
+    gateInput.focus();
+  }
 })();

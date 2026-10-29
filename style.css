@@ -99,8 +99,13 @@ input[type="time"] {
    <body> only after a correct password, restoring them and kicking off
    the map/data-loading bootstrap at the same time. */
 
-.topbar,
-main {
+/* `body .topbar` (not just `.topbar`) deliberately: needs higher
+   specificity than the plain `.topbar { display: flex; ... }` rule
+   further down this file (which sets the topbar's normal, unlocked
+   layout) so this locked-by-default rule always wins regardless of
+   source order. */
+body .topbar,
+body main {
   display: none;
 }
 

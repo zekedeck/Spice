@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T20:33:03.618032Z",
-    "total_pins": 146
+    "generated_at": "2026-10-29T20:44:35.468670Z",
+    "total_pins": 153
   },
   "features": [
     {
@@ -3679,6 +3679,183 @@
         "borough_conflict": false,
         "specificity_score": 0.5,
         "other_locations": "VYBZ, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894,
+          40.845
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mz24nhv4m4v2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown B, D trains are delayed while we address a mechanical problem on a train at Kingsbridge Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T20:37:43.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mz24nhv4m4v2",
+        "mapped_location": "Kingsbridge Rd",
+        "precision_level": "address",
+        "location_text": "Kingsbridge Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.809
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ajjmla7inolj73z7zov2jlly/app.bsky.feed.post/3mz24po6thk2y",
+        "handle": "jenniecoughlin.bsky.social",
+        "text": "And for those who have never heard the contrast between the quiet on the Queensboro Bridge and the wall of sound when you hit First Avenue, we have you covered. Make sure you turn the audio on.",
+        "created_at": "2026-10-29T20:38:58.158Z",
+        "source": "https://bsky.app/profile/jenniecoughlin.bsky.social/post/3mz24po6thk2y",
+        "mapped_location": "the Queensboro Bridge",
+        "precision_level": "address",
+        "location_text": "the Queensboro Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "First Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ajjmla7inolj73z7zov2jlly/app.bsky.feed.post/3mz24po6thk2y",
+        "handle": "jenniecoughlin.bsky.social",
+        "text": "And for those who have never heard the contrast between the quiet on the Queensboro Bridge and the wall of sound when you hit First Avenue, we have you covered. Make sure you turn the audio on.",
+        "created_at": "2026-10-29T20:38:58.158Z",
+        "source": "https://bsky.app/profile/jenniecoughlin.bsky.social/post/3mz24po6thk2y",
+        "mapped_location": "First Avenue",
+        "precision_level": "address",
+        "location_text": "First Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Queensboro Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:u2cn5xb7qkvb6pu6ydmshyta/app.bsky.feed.post/3mz24t3cgdp2j",
+        "handle": "bgov.com",
+        "text": "Vice President JD Vance is likely to rally support for Republican congressional candidates vying to replace Rep. Elise Stefanik in one of New York’s reddest districts days before Tuesday’s midterms.",
+        "created_at": "2026-10-29T20:40:52Z",
+        "source": "https://bsky.app/profile/bgov.com/post/3mz24t3cgdp2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qrttlllhmt5x5fefiy4tmrsk/app.bsky.feed.post/3mz24uszawx26",
+        "handle": "sfpoliticsbriefly.bsky.social",
+        "text": "Kathy Hochul is focusing on high turnout in New York City’s five boroughs to secure re-election.\n",
+        "created_at": "2026-10-29T20:41:50.764Z",
+        "source": "https://bsky.app/profile/sfpoliticsbriefly.bsky.social/post/3mz24uszawx26",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.639
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oesldxysfbbwv4fjonjvt63e/app.bsky.feed.post/3mz24uwiwwk2v",
+        "handle": "350brooklyn.bsky.social",
+        "text": "Join us for a free tour of WindScape Brooklyn and learn how offshore wind works, what jobs it can bring to NYC, and how it can help tackle the climate crisis.\n📅 Nov. 7, 2–3 PM\n📍 WindScape Brooklyn\n34 35th Street, 6th Floor, Sunset Park\nRSVP: docs.google.com/forms/d/1qxh...",
+        "created_at": "2026-10-29T20:41:54.646Z",
+        "source": "https://bsky.app/profile/350brooklyn.bsky.social/post/3mz24uwiwwk2v",
+        "mapped_location": "WindScape Brooklyn",
+        "precision_level": "address",
+        "location_text": "WindScape Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3mz24wvzvho25",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 29, 1926: Sixth Avenue and West 27th Street in New York.",
+        "created_at": "2026-10-29T20:43:01.247Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3mz24wvzvho25",
+        "mapped_location": "Sixth Avenue",
+        "precision_level": "address",
+        "location_text": "Sixth Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

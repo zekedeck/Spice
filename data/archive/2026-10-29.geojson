@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T16:38:50.577825Z",
-    "total_pins": 96
+    "generated_at": "2026-10-29T18:50:45.946903Z",
+    "total_pins": 98
   },
   "features": [
     {
@@ -2421,6 +2421,56 @@
         "confidence": 0.64,
         "address_type": "station",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myzwf5dlez2j",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "It's a love unlike any other 🧺\n\nOlivia Colman & Alexander Skarsgård star in WICKER, steaming up the screens at Nitehawk Prospect Park starting Friday",
+        "created_at": "2026-10-29T18:45:42.469Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myzwf5dlez2j",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jahwiuw2noa5lxjrcp6bcsfl/app.bsky.feed.post/3myzwipjpis2o",
+        "handle": "streetspac.org",
+        "text": "\"Paris now has an 11 percent biking mode share, higher than the 8 percent of people who drive in the city, Guth said, and studies have shown drops in pollution. New York City’s bike share is just 3 percent, according to Department of Transportation data.\"\nnyc.streetsblog.org/2026/10/29/t...",
+        "created_at": "2026-10-29T18:47:42.232Z",
+        "source": "https://bsky.app/profile/streetspac.org/post/3myzwipjpis2o",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

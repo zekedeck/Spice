@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:11:07.913935Z",
-    "total_pins": 28
+    "generated_at": "2026-10-29T14:27:06.890347Z",
+    "total_pins": 33
   },
   "features": [
     {
@@ -705,6 +705,131 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myzh3lnyip23",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Story/Images by Ladislav Servanský\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-29T14:11:55.277Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myzh3lnyip23",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6kdr2p2smabyfnwpwn7saxbm/app.bsky.feed.post/3myzhb2rupk23",
+        "handle": "vinnieave.bsky.social",
+        "text": "I have to assume in NYC because why would they be in NJ.",
+        "created_at": "2026-10-29T14:14:59.469Z",
+        "source": "https://bsky.app/profile/vinnieave.bsky.social/post/3myzhb2rupk23",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2tjiu3ydbuaznxooclmxjetd/app.bsky.feed.post/3myzhfrkzyc2g",
+        "handle": "darrylayo.bsky.social",
+        "text": "white hipsters who think “Brooklyn” starts at Greenpoint and ends at Barclays Center…",
+        "created_at": "2026-10-29T14:17:37.582Z",
+        "source": "https://bsky.app/profile/darrylayo.bsky.social/post/3myzhfrkzyc2g",
+        "mapped_location": "Barclays Center",
+        "precision_level": "address",
+        "location_text": "Barclays Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.627
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ektuvsmyev5qrcahwayv3hse/app.bsky.feed.post/3myzhh5xxpk2j",
+        "handle": "johnk77.bsky.social",
+        "text": "Reskeeted from 1 mile away in Mott Haven, NYC:<\nThursday, October 29, 2026 at 10:18:14 AM\nExplore this gift article from The New York Times. You can read it for free without a subscription. www.nytimes.com/2026/10/28/n...",
+        "created_at": "2026-10-29T14:18:24.142Z",
+        "source": "https://bsky.app/profile/johnk77.bsky.social/post/3myzhh5xxpk2j",
+        "mapped_location": "Mott Haven",
+        "precision_level": "address",
+        "location_text": "Mott Haven",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bcimmblf3ali6jkoevrwxjhv/app.bsky.feed.post/3myzhoi22dc2m",
+        "handle": "blr1a1.bsky.social",
+        "text": "New York City, US\nA protester is detained by NYPD officers for blocking the Brooklyn Bridge in a demonstration for Oscar Belgal, a man shot by ICE\nPhotograph: Adam Gray/Getty Images",
+        "created_at": "2026-10-29T14:22:29.446Z",
+        "source": "https://bsky.app/profile/blr1a1.bsky.social/post/3myzhoi22dc2m",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

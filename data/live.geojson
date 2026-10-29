@@ -1,394 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T16:22:36.364998Z",
-    "total_pins": 285
+    "generated_at": "2026-10-29T16:38:50.566205Z",
+    "total_pins": 279
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6e6du2mhjdqqgbvdhd3ttyho/app.bsky.feed.post/3myunivcn6u2z",
-        "handle": "mulaneymirror.bsky.social",
-        "text": "Tickets on sale now for Mulaney Takes Manhattan, January 11 at The Music Box Theatre. Tickets at and\n\nOriginal post",
-        "created_at": "2026-10-27T16:23:25.731Z",
-        "source": "https://bsky.app/profile/mulaneymirror.bsky.social/post/3myunivcn6u2z",
-        "mapped_location": "The Music Box Theatre",
-        "precision_level": "address",
-        "location_text": "The Music Box Theatre",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.953,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
-        "handle": "lawbriefly.bsky.social",
-        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
-        "created_at": "2026-10-27T16:23:29.352Z",
-        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
-        "mapped_location": "the George Washington Bridge",
-        "precision_level": "address",
-        "location_text": "the George Washington Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Manhattan Criminal Court"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
-        "handle": "lawbriefly.bsky.social",
-        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
-        "created_at": "2026-10-27T16:23:29.352Z",
-        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
-        "mapped_location": "Manhattan Criminal Court",
-        "precision_level": "address",
-        "location_text": "Manhattan Criminal Court",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "the George Washington Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.953,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
-        "handle": "usnewsbriefly.bsky.social",
-        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
-        "created_at": "2026-10-27T16:23:31.963Z",
-        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
-        "mapped_location": "the George Washington Bridge",
-        "precision_level": "address",
-        "location_text": "the George Washington Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Manhattan Criminal Court"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
-        "handle": "usnewsbriefly.bsky.social",
-        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
-        "created_at": "2026-10-27T16:23:31.963Z",
-        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
-        "mapped_location": "Manhattan Criminal Court",
-        "precision_level": "address",
-        "location_text": "Manhattan Criminal Court",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "the George Washington Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:547tkow4s7l2xxbvobt2rpt3/app.bsky.feed.post/3myunk5b5tc2c",
-        "handle": "ezraabrams.bsky.social",
-        "text": "you all may not know this but the 3 story pink marble clad atrium of Trump Tower, in NYC, is *exactly this esthetic\n\nand one can even go back to Trump Village, Trump Sr housing near Coney Island, and look at the lobbys to see similar",
-        "created_at": "2026-10-27T16:24:07.817Z",
-        "source": "https://bsky.app/profile/ezraabrams.bsky.social/post/3myunk5b5tc2c",
-        "mapped_location": "Trump Tower",
-        "precision_level": "address",
-        "location_text": "Trump Tower",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunq7kyjs2n",
-        "handle": "44lights.bsky.social",
-        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
-        "created_at": "2026-10-27T16:27:31.563Z",
-        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunq7kyjs2n",
-        "mapped_location": "The Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "The Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunuzfj222v",
-        "handle": "44lights.bsky.social",
-        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
-        "created_at": "2026-10-27T16:30:12.862Z",
-        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunuzfj222v",
-        "mapped_location": "The Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "The Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
-        "created_at": "2026-10-27T16:31:35.512Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
-        "mapped_location": "43 Steinway St, Astoria, NY",
-        "precision_level": "address",
-        "location_text": "43 Steinway St, Astoria, NY",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "28-43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
-        "created_at": "2026-10-27T16:31:35.512Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
-        "mapped_location": "28-43 Steinway St, Astoria, NY",
-        "precision_level": "address",
-        "location_text": "28-43 Steinway St, Astoria, NY",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.785
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
-        "created_at": "2026-10-27T16:31:35.512Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
-        "mapped_location": "28-43 Steinway St, Astoria",
-        "precision_level": "address",
-        "location_text": "28-43 Steinway St, Astoria",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria, NY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.2374679,
-          40.5961103
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zb7ro65w46ff3chvylabi7oi/app.bsky.feed.post/3myuo2uzyls2x",
-        "handle": "kernelkorn420.bsky.social",
-        "text": "There is in NYC, I haven't come across any in NJ yet myself but I wouldn't be shocked",
-        "created_at": "2026-10-27T16:33:29.619Z",
-        "source": "https://bsky.app/profile/kernelkorn420.bsky.social/post/3myuo2uzyls2x",
-        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
-        "precision_level": "unclassified",
-        "location_text": "NJ",
-        "confidence": 0.58,
-        "address_type": "residential",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
-        "handle": "kimiwei.bsky.social",
-        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
-        "created_at": "2026-10-27T16:37:40.410Z",
-        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York's Plaza Hotel"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
-        "handle": "kimiwei.bsky.social",
-        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
-        "created_at": "2026-10-27T16:37:40.410Z",
-        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
-        "mapped_location": "New York's Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "New York's Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "New York's"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuodexnnrk2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Euclid Av-bound C trains are delayed while we request NYPD assistance for someone being disruptive on a train at Kingston-Throop Avs.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-27T16:38:13.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuodexnnrk2",
-        "mapped_location": "Kingston-Throop Avs",
-        "precision_level": "address",
-        "location_text": "Kingston-Throop Avs",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7193,6 +6809,235 @@
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ij22p3xg5pejqqauijyau3q/app.bsky.feed.post/3myzoqayxhx2n",
+        "handle": "rcsworks.bsky.social",
+        "text": "A quick look back at NAB New York last week! Thank you to everyone who came by to hang out, catch a demo, and geek out over radio software with us.\n\nSee you at the next show!\n📧 sales@rcsworks.com\n\n#RCS #NABNY #NABShowNY",
+        "created_at": "2026-10-29T16:28:45.303Z",
+        "source": "https://bsky.app/profile/rcsworks.bsky.social/post/3myzoqayxhx2n",
+        "mapped_location": "NAB New York",
+        "precision_level": "address",
+        "location_text": "NAB New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ijp4rsc4qytl36msmjtzb2gc/app.bsky.feed.post/3myzorsxlss2q",
+        "handle": "d-rogers.bsky.social",
+        "text": "Anti-gun and anti-ICE radicals are breaking laws and quite literally leaving their mark on New York City.  A group of anti-ICE menaces blocked entrances to New York City's Brooklyn Bridge on Wednesday, causing bumper-to-bumper traffic.  At the 9/11 Memorial a man spray-painted over victims names.",
+        "created_at": "2026-10-29T16:29:37.884Z",
+        "source": "https://bsky.app/profile/d-rogers.bsky.social/post/3myzorsxlss2q",
+        "mapped_location": "New York City's Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "New York City's Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the 9/11 Memorial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.712
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ijp4rsc4qytl36msmjtzb2gc/app.bsky.feed.post/3myzorsxlss2q",
+        "handle": "d-rogers.bsky.social",
+        "text": "Anti-gun and anti-ICE radicals are breaking laws and quite literally leaving their mark on New York City.  A group of anti-ICE menaces blocked entrances to New York City's Brooklyn Bridge on Wednesday, causing bumper-to-bumper traffic.  At the 9/11 Memorial a man spray-painted over victims names.",
+        "created_at": "2026-10-29T16:29:37.884Z",
+        "source": "https://bsky.app/profile/d-rogers.bsky.social/post/3myzorsxlss2q",
+        "mapped_location": "the 9/11 Memorial",
+        "precision_level": "address",
+        "location_text": "the 9/11 Memorial",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York City's Brooklyn Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:erlr24kyfukfbqnbwes77qaf/app.bsky.feed.post/3myzoshands2n",
+        "handle": "citylimitsnews.bsky.social",
+        "text": "\"There’s a lot that needs to be done in our community,\" said NYCHA's Polo Grounds Towers resident Barbara Williams. She thinks DSA candidate Avila Chevalier, who ousted the district’s longtime incumbent in June, \"seems to be that person...that’s going to do the job.\" citylimits.org/in-harlem-pu...",
+        "created_at": "2026-10-29T16:29:59.156Z",
+        "source": "https://bsky.app/profile/citylimitsnews.bsky.social/post/3myzoshands2n",
+        "mapped_location": "Polo Grounds Towers",
+        "precision_level": "address",
+        "location_text": "Polo Grounds Towers",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yhdreq25ujfbeny46mj7va7w/app.bsky.feed.post/3myzow6ntoa2v",
+        "handle": "theladyred.bsky.social",
+        "text": "and lied about his age to join the Army.\n\nWhen he was discharged he wandered into an audition at the American Negro Theatre on 127th Street in Harlem. The director listened to his Bahamian accent for less than a minute and told him to go get a job as a dishwasher.",
+        "created_at": "2026-10-29T16:32:04.347Z",
+        "source": "https://bsky.app/profile/theladyred.bsky.social/post/3myzow6ntoa2v",
+        "mapped_location": "the American Negro Theatre",
+        "precision_level": "address",
+        "location_text": "the American Negro Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "127th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yhdreq25ujfbeny46mj7va7w/app.bsky.feed.post/3myzow6ntoa2v",
+        "handle": "theladyred.bsky.social",
+        "text": "and lied about his age to join the Army.\n\nWhen he was discharged he wandered into an audition at the American Negro Theatre on 127th Street in Harlem. The director listened to his Bahamian accent for less than a minute and told him to go get a job as a dishwasher.",
+        "created_at": "2026-10-29T16:32:04.347Z",
+        "source": "https://bsky.app/profile/theladyred.bsky.social/post/3myzow6ntoa2v",
+        "mapped_location": "127th Street",
+        "precision_level": "address",
+        "location_text": "127th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the American Negro Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p3uznp3i2bdq2isfhwgjspav/app.bsky.feed.post/3myzoxs5m6k2c",
+        "handle": "odoyle62.bsky.social",
+        "text": "display them in Times Square on daily repeat",
+        "created_at": "2026-10-29T16:32:58.362Z",
+        "source": "https://bsky.app/profile/odoyle62.bsky.social/post/3myzoxs5m6k2c",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6p7mrs2b7h2o3ogkowsmpgz4/app.bsky.feed.post/3myzoxw2s222t",
+        "handle": "pattho.bsky.social",
+        "text": "Our regular Thursday morning bridge brigade in Prospect Park (Minneapolis) over I-94.",
+        "created_at": "2026-10-29T16:33:02.455Z",
+        "source": "https://bsky.app/profile/pattho.bsky.social/post/3myzoxw2s222t",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976127,
+          40.625322
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzp6rjbive2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown F trains are running with delays after we conducted track maintenance near Avenue I.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T16:36:50.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzp6rjbive2",
+        "mapped_location": "Avenue I, McDonald Avenue, Brooklyn, Kings County, New York, 11230, United States",
+        "precision_level": "unclassified",
+        "location_text": "Avenue I.\n\nFor",
+        "confidence": 0.64,
+        "address_type": "station",
+        "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T23:35:08.220947Z",
-    "total_pins": 296
+    "generated_at": "2026-10-29T23:44:20.006055Z",
+    "total_pins": 297
   },
   "features": [
     {
@@ -7463,6 +7463,31 @@
         "mapped_location": "Times Square",
         "precision_level": "address",
         "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uo3o2czk6rrnbrbjtpadaam2/app.bsky.feed.post/3mz2goxqltc2g",
+        "handle": "jvonkorff.bsky.social",
+        "text": "The Jackson Project:    In 1908, Madison Jackson, Amy B. Jackson and their three daughters Marvel, Helen, and Zelma made history as the first Black family to move into Prospect Park, an all-white neighborhood in Minneapolis.\n Their story. \n\njacksonfamilyproject.org?fbclid=IwY2x...",
+        "created_at": "2026-10-29T23:37:32.041Z",
+        "source": "https://bsky.app/profile/jvonkorff.bsky.social/post/3mz2goxqltc2g",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

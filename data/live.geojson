@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T22:34:06.536502Z",
-    "total_pins": 289
+    "generated_at": "2026-10-29T23:02:00.640996Z",
+    "total_pins": 290
   },
   "features": [
     {
@@ -7289,6 +7289,31 @@
         "confidence": 0.64,
         "address_type": "residential",
         "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:esjfniuevhgvjg5kksibxvmf/app.bsky.feed.post/3mz2ecxvkts2e",
+        "handle": "evilpurpleluigi.bsky.social",
+        "text": "☆ MORE MUSE INFO! ☆\n\nwaluigi's parents abandoned him 'cause of his bad behavior and his odd weird nose. he ended up being homeless from there in brooklyn new york. although, he was taken in by bowser from the mushroom kingdom and is now working for him in the castle as his minion.",
+        "created_at": "2026-10-29T22:54:55.441Z",
+        "source": "https://bsky.app/profile/evilpurpleluigi.bsky.social/post/3mz2ecxvkts2e",
+        "mapped_location": "brooklyn new york",
+        "precision_level": "address",
+        "location_text": "brooklyn new york",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

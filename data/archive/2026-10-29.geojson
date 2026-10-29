@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:58:19.415454Z",
-    "total_pins": 77
+    "generated_at": "2026-10-29T16:14:30.850034Z",
+    "total_pins": 84
   },
   "features": [
     {
@@ -1940,6 +1940,183 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "PEN America, NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:effuh6qbrkdwp4rwyrlbyvyt/app.bsky.feed.post/3myzn5ltn322c",
+        "handle": "cuny.edu",
+        "text": "Dr. Ramona Hernández, the director of CUNY’s Dominican Studies Institute, appeared on NY1’s “In Focus” to discuss a new public art and mural initiative in Washington Heights and plans for a Dominican museum.",
+        "created_at": "2026-10-29T16:00:25.000379829Z",
+        "source": "https://bsky.app/profile/cuny.edu/post/3myzn5ltn322c",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:knm7kos7a7k2dayzkhh2wxl5/app.bsky.feed.post/3myzn6nsgt52j",
+        "handle": "thenerdsofcolor.bsky.social",
+        "text": "‘The Gilded Age’ Red Carpet Dazzles in New York\n\nNikita and Swara hit the red carpet premiere of The Gilded Age Season 4 in New York, talking colorism, classism, and hopes for the season with the cast and EP/writer Sonja Warfield....",
+        "created_at": "2026-10-29T16:01:00Z",
+        "source": "https://bsky.app/profile/thenerdsofcolor.bsky.social/post/3myzn6nsgt52j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3myznpecovo2w",
+        "handle": "newsen.bsky.social",
+        "text": "Transforming Historic Spaces: Gallery KBNY's Loft Renovation in Williamsburg #United_States #Brooklyn #Gallery_KBNY #Interior_Renovation #Williamsburg_Loft",
+        "created_at": "2026-10-29T16:10:19Z",
+        "source": "https://bsky.app/profile/newsen.bsky.social/post/3myznpecovo2w",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kd6qjr4nwadlmfwnwhydome3/app.bsky.feed.post/3myznsa7us22a",
+        "handle": "mathieuduplay.bsky.social",
+        "text": "The house (at 7 Middagh Street) was pulled down to make way for the Brooklyn-Queens Expressway (Robert Moses...).",
+        "created_at": "2026-10-29T16:11:58.049Z",
+        "source": "https://bsky.app/profile/mathieuduplay.bsky.social/post/3myznsa7us22a",
+        "mapped_location": "7 Middagh Street",
+        "precision_level": "address",
+        "location_text": "7 Middagh Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Brooklyn-Queens Expressway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kd6qjr4nwadlmfwnwhydome3/app.bsky.feed.post/3myznsa7us22a",
+        "handle": "mathieuduplay.bsky.social",
+        "text": "The house (at 7 Middagh Street) was pulled down to make way for the Brooklyn-Queens Expressway (Robert Moses...).",
+        "created_at": "2026-10-29T16:11:58.049Z",
+        "source": "https://bsky.app/profile/mathieuduplay.bsky.social/post/3myznsa7us22a",
+        "mapped_location": "the Brooklyn-Queens Expressway",
+        "precision_level": "address",
+        "location_text": "the Brooklyn-Queens Expressway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "7 Middagh Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lvguwpsibget5lrfifkh4c7t/app.bsky.feed.post/3myznsbyais2s",
+        "handle": "chinarhyming.bsky.social",
+        "text": "A letter sent on Grand Hotel des Wagons-Lits stationery, Legation Quarter, Peking, to Henry Woodhouse (editor and publisher of Aerial Age) at 280 Madison Avenue, New York City. I think the date stamp is 1920.",
+        "created_at": "2026-10-29T16:11:59.892Z",
+        "source": "https://bsky.app/profile/chinarhyming.bsky.social/post/3myznsbyais2s",
+        "mapped_location": "280 Madison Avenue",
+        "precision_level": "address",
+        "location_text": "280 Madison Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eogzposnjc7tgilwsbjd4lkr/app.bsky.feed.post/3myzntz2h4s2n",
+        "handle": "ericstanze.bsky.social",
+        "text": "Motion picture for which I was the Second Unit Director, STAKE LAND, screens at IFC Center, New York, today!\n\nwww.ifccenter.com/films/stake-...",
+        "created_at": "2026-10-29T16:12:57.637Z",
+        "source": "https://bsky.app/profile/ericstanze.bsky.social/post/3myzntz2h4s2n",
+        "mapped_location": "IFC Center",
+        "precision_level": "address",
+        "location_text": "IFC Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

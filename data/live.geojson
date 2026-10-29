@@ -1,260 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T15:58:19.409757Z",
-    "total_pins": 293
+    "generated_at": "2026-10-29T16:14:30.840920Z",
+    "total_pins": 290
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wjw22njhp4krdq2wyqifzjyo/app.bsky.feed.post/3myum6fafsk2r",
-        "handle": "longnecklupin.bsky.social",
-        "text": "at the new york aquarium rn",
-        "created_at": "2026-10-27T15:59:39.785Z",
-        "source": "https://bsky.app/profile/longnecklupin.bsky.social/post/3myum6fafsk2r",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "the new york",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3j4wggf6dku34ocpulowakcd/app.bsky.feed.post/3myum6ql76k2m",
-        "handle": "norahwoodsey.com",
-        "text": "Prospect Park in the fall",
-        "created_at": "2026-10-27T15:59:51.661Z",
-        "source": "https://bsky.app/profile/norahwoodsey.com/post/3myum6ql76k2m",
-        "mapped_location": "Prospect Park",
-        "precision_level": "address",
-        "location_text": "Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3poh33llgoaraxhtqakz7m3i/app.bsky.feed.post/3myum7d542s2f",
-        "handle": "canozamer.bsky.social",
-        "text": "This together with Trump's indisputable history as a violent sexual predator, the 28 women who have accused Trump of  sexual assault including Beatrice Keul who alleges Trump raped her at the Plaza Hotel in New York City in November 1993, demand Trump is charged. \n\npeople.com/former-miss-...",
-        "created_at": "2026-10-27T16:00:11.134Z",
-        "source": "https://bsky.app/profile/canozamer.bsky.social/post/3myum7d542s2f",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3myum7lxjys2u",
-        "handle": "allforgardening.bsky.social",
-        "text": "Celebrating the fall season at the New York Botanical Garden\n\nhttps://www.allforgardening.com/1947047/celebrating-the-fall-season-at-the-new-york-botanical-garden/\n\nThe ofrenda is a key part of Día de los Muertos, also known as the Day of the Dead holiday. It is the offerings placed on an altar …",
-        "created_at": "2026-10-27T16:00:17+00:00",
-        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3myum7lxjys2u",
-        "mapped_location": "the New York Botanical Garden",
-        "precision_level": "address",
-        "location_text": "the New York Botanical Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3myumarqm7w2x",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "report of smoke near Flushing Av... (L): L trains are running with delays in both directions while we conduct track maintenance along the line in Brooklyn... (L): In Brooklyn, L runs every 16 minutes between Canarsie-Rockaway Pkwy and Broadway (2/3)",
-        "created_at": "2026-10-27T16:00:59.954866+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3myumarqm7w2x",
-        "mapped_location": "Flushing Av",
-        "precision_level": "address",
-        "location_text": "Flushing Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.755
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:443arya3g7jvqz5jyr75555x/app.bsky.feed.post/3myumbfpwlk26",
-        "handle": "mike-umbkm.bsky.social",
-        "text": "Donald Trump's Justice Department has charged former FBI Director James Comey for the third time, this time for allegedly leaking classified information that ended up in a New York Times story. \n\nComey responded by saying it was an “appalling abuse” of the DOJ and that he’s “still innocent.”",
-        "created_at": "2026-10-27T16:01:20.958Z",
-        "source": "https://bsky.app/profile/mike-umbkm.bsky.social/post/3myumbfpwlk26",
-        "mapped_location": "New York Times",
-        "precision_level": "address",
-        "location_text": "New York Times",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3myumbxd7x5j2",
-        "handle": "nycviews.stefanbohacek.online",
-        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
-        "created_at": "2026-10-27T16:01:26.000Z",
-        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3myumbxd7x5j2",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2lt3t6u6e7wqgb2vhpkmfdvu/app.bsky.feed.post/3myumjgq5g72f",
-        "handle": "univpressofkansas.bsky.social",
-        "text": "Discover the lasting legacy of Julia Gardiner Tyler at Turn the Page Bookshop in Williamsburg, Virginia, on Friday, November 6, at 6PM EST. The event will include an author discussion, Q&A, and book signing.\n\nLearn more about \"Presidentess\": https://kansaspress.ku.edu/9780700642670/\n\n#UPKansas",
-        "created_at": "2026-10-27T16:05:49.385987066Z",
-        "source": "https://bsky.app/profile/univpressofkansas.bsky.social/post/3myumjgq5g72f",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99,
-          40.717
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uayeidmvjjwhipnmvtbn7kwl/app.bsky.feed.post/3myumnceivs2x",
-        "handle": "ekshelton.bsky.social",
-        "text": "Looks pricey, but fabulous. On Orchard Street, NYC.",
-        "created_at": "2026-10-27T16:08:00.088Z",
-        "source": "https://bsky.app/profile/ekshelton.bsky.social/post/3myumnceivs2x",
-        "mapped_location": "Orchard Street",
-        "precision_level": "address",
-        "location_text": "Orchard Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dfpzrp4ef6vs2gtzruarsgql/app.bsky.feed.post/3myumpbkb722h",
-        "handle": "dolphan39.bsky.social",
-        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to Judiciary Committee staff that she was raped by Trump in a Plaza Hotel suite in Manhattan when she was 24. \n\nwww.yahoo.com/news/politic...",
-        "created_at": "2026-10-27T16:09:06.340Z",
-        "source": "https://bsky.app/profile/dolphan39.bsky.social/post/3myumpbkb722h",
-        "mapped_location": "a Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "a Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7395,6 +7145,183 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "PEN America, NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:effuh6qbrkdwp4rwyrlbyvyt/app.bsky.feed.post/3myzn5ltn322c",
+        "handle": "cuny.edu",
+        "text": "Dr. Ramona Hernández, the director of CUNY’s Dominican Studies Institute, appeared on NY1’s “In Focus” to discuss a new public art and mural initiative in Washington Heights and plans for a Dominican museum.",
+        "created_at": "2026-10-29T16:00:25.000379829Z",
+        "source": "https://bsky.app/profile/cuny.edu/post/3myzn5ltn322c",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:knm7kos7a7k2dayzkhh2wxl5/app.bsky.feed.post/3myzn6nsgt52j",
+        "handle": "thenerdsofcolor.bsky.social",
+        "text": "‘The Gilded Age’ Red Carpet Dazzles in New York\n\nNikita and Swara hit the red carpet premiere of The Gilded Age Season 4 in New York, talking colorism, classism, and hopes for the season with the cast and EP/writer Sonja Warfield....",
+        "created_at": "2026-10-29T16:01:00Z",
+        "source": "https://bsky.app/profile/thenerdsofcolor.bsky.social/post/3myzn6nsgt52j",
+        "mapped_location": "New York",
+        "precision_level": "address",
+        "location_text": "New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3myznpecovo2w",
+        "handle": "newsen.bsky.social",
+        "text": "Transforming Historic Spaces: Gallery KBNY's Loft Renovation in Williamsburg #United_States #Brooklyn #Gallery_KBNY #Interior_Renovation #Williamsburg_Loft",
+        "created_at": "2026-10-29T16:10:19Z",
+        "source": "https://bsky.app/profile/newsen.bsky.social/post/3myznpecovo2w",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kd6qjr4nwadlmfwnwhydome3/app.bsky.feed.post/3myznsa7us22a",
+        "handle": "mathieuduplay.bsky.social",
+        "text": "The house (at 7 Middagh Street) was pulled down to make way for the Brooklyn-Queens Expressway (Robert Moses...).",
+        "created_at": "2026-10-29T16:11:58.049Z",
+        "source": "https://bsky.app/profile/mathieuduplay.bsky.social/post/3myznsa7us22a",
+        "mapped_location": "7 Middagh Street",
+        "precision_level": "address",
+        "location_text": "7 Middagh Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Brooklyn-Queens Expressway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kd6qjr4nwadlmfwnwhydome3/app.bsky.feed.post/3myznsa7us22a",
+        "handle": "mathieuduplay.bsky.social",
+        "text": "The house (at 7 Middagh Street) was pulled down to make way for the Brooklyn-Queens Expressway (Robert Moses...).",
+        "created_at": "2026-10-29T16:11:58.049Z",
+        "source": "https://bsky.app/profile/mathieuduplay.bsky.social/post/3myznsa7us22a",
+        "mapped_location": "the Brooklyn-Queens Expressway",
+        "precision_level": "address",
+        "location_text": "the Brooklyn-Queens Expressway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "7 Middagh Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lvguwpsibget5lrfifkh4c7t/app.bsky.feed.post/3myznsbyais2s",
+        "handle": "chinarhyming.bsky.social",
+        "text": "A letter sent on Grand Hotel des Wagons-Lits stationery, Legation Quarter, Peking, to Henry Woodhouse (editor and publisher of Aerial Age) at 280 Madison Avenue, New York City. I think the date stamp is 1920.",
+        "created_at": "2026-10-29T16:11:59.892Z",
+        "source": "https://bsky.app/profile/chinarhyming.bsky.social/post/3myznsbyais2s",
+        "mapped_location": "280 Madison Avenue",
+        "precision_level": "address",
+        "location_text": "280 Madison Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eogzposnjc7tgilwsbjd4lkr/app.bsky.feed.post/3myzntz2h4s2n",
+        "handle": "ericstanze.bsky.social",
+        "text": "Motion picture for which I was the Second Unit Director, STAKE LAND, screens at IFC Center, New York, today!\n\nwww.ifccenter.com/films/stake-...",
+        "created_at": "2026-10-29T16:12:57.637Z",
+        "source": "https://bsky.app/profile/ericstanze.bsky.social/post/3myzntz2h4s2n",
+        "mapped_location": "IFC Center",
+        "precision_level": "address",
+        "location_text": "IFC Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

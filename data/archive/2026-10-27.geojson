@@ -1,0 +1,3838 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-28T03:22:33.858601Z",
+    "total_pins": 152
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9855319,
+          40.7579554
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sz5b6gf5ochtvzntue76x6x4/app.bsky.feed.post/3myuhoe7xwc2o",
+        "handle": "crankybear.net",
+        "text": "I was walking in a rainy Manhattan when a woman popped out of a stage door and clearly didn’t expect the rain. A car was waiting and the driver had the door open, but had no umbrella. I did so I walked her the 5 or so yards to the car. She turned, smiled, and said thank you.",
+        "created_at": "2026-10-27T14:39:06.886Z",
+        "source": "https://bsky.app/profile/crankybear.net/post/3myuhoe7xwc2o",
+        "mapped_location": "Manhattan, New York County, New York, United States",
+        "precision_level": "state",
+        "location_text": "rainy Manhattan",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z7csykghgpgjy6bovcxzypg3/app.bsky.feed.post/3myuhrk4ewk26",
+        "handle": "albumartworkheaven.bsky.social",
+        "text": "Holland Andrews x Methods Body — REMAIN (2026). A black panther stretches across watercolor textures, yellow eyes and pink tongue bared. Fully improvised, recorded live at Figure 8 Studios, Brooklyn. methodsbody.bandcamp.com/album/remain #AlbumCover #Experimental #Jazz",
+        "created_at": "2026-10-27T14:40:53.719Z",
+        "source": "https://bsky.app/profile/albumartworkheaven.bsky.social/post/3myuhrk4ewk26",
+        "mapped_location": "Figure 8 Studios",
+        "precision_level": "address",
+        "location_text": "Figure 8 Studios",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gdoelijdpwngph4fzqsenwuz/app.bsky.feed.post/3myuhzqbldj25",
+        "handle": "musicbriefly.bsky.social",
+        "text": "JO1 delivered a sold-out Webster Hall performance in New York City, strengthening their ongoing connection with the city through high-energy music and choreography.\n",
+        "created_at": "2026-10-27T14:45:28.549Z",
+        "source": "https://bsky.app/profile/musicbriefly.bsky.social/post/3myuhzqbldj25",
+        "mapped_location": "Webster Hall",
+        "precision_level": "address",
+        "location_text": "Webster Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myuhzrwuwg2c",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "You’ve never seen a Dracula movie like this one!\n\nDRACULA’S ANGEL screens Wednesday 11/4 at Nitehawk Williamsburg, followed by a Q&A with director Bryan Beasley",
+        "created_at": "2026-10-27T14:45:30.348Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myuhzrwuwg2c",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gzqwvjit3l56v7ua6zaf3csb/app.bsky.feed.post/3myukafmt2k2r",
+        "handle": "graemerowland.bsky.social",
+        "text": "\"The report offered new information from Beatrice Keul, a former Miss Switzerland, who says Trump used a pageant at the Plaza Hotel in New York City as a “hunting ground” to prey on young victims and that Trump raped her there in 1993, leaving her bleeding and bruised.\" Heather Cox Richardson",
+        "created_at": "2026-10-27T15:24:59.819Z",
+        "source": "https://bsky.app/profile/graemerowland.bsky.social/post/3myukafmt2k2r",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2qy7iv5lhkflay3rvgbsjugw/app.bsky.feed.post/3myuketpnrw2u",
+        "handle": "readjunk.bsky.social",
+        "text": "Meshuggah return to North America in 2027, celebrating the groundbreaking band’s fortieth anniversary with an extensive tour that sees the genre-defying Swedes make their debut at Red Rocks Amphitheatre and includes outings at the Brooklyn Paramount.\n\nRead More: readjunk.com/news/mu...",
+        "created_at": "2026-10-27T15:27:28.000Z",
+        "source": "https://bsky.app/profile/readjunk.bsky.social/post/3myuketpnrw2u",
+        "mapped_location": "the Brooklyn Paramount",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Paramount",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ewcbilo4r7vq357rsz4hl2yy/app.bsky.feed.post/3myukftoli22u",
+        "handle": "porcupunk.eurosky.social",
+        "text": "I think in the US in depends on the timing and location of our arrival so to speak. I am sure that in NYC with a large community it was drastically different than in my tiny NJ suburban town where I was literally 3rd kid from the USSR and I was weird and yes, Russian.",
+        "created_at": "2026-10-27T15:28:02.329Z",
+        "source": "https://bsky.app/profile/porcupunk.eurosky.social/post/3myukftoli22u",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8283132,
+          40.7135078
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l3ed3w7yseqgyyyphiuqadwb/app.bsky.feed.post/3myukluulev2c",
+        "handle": "quzusmart.bsky.social",
+        "text": "Halloween is Saturday 🎃 Your doorbell is about to get busy.\n\nA smart video doorbell shows you who's at the door on your phone, before you open it.\n\nQuzuSmart installs Ring doorbells in Queens & NYC.\nFree estimate: quzusmart.com · 929-336-8714\n#QueensSecurity",
+        "created_at": "2026-10-27T15:31:24.656Z",
+        "source": "https://bsky.app/profile/quzusmart.bsky.social/post/3myukluulev2c",
+        "mapped_location": "Queens, Queens County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Queens & NYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f3w3jqso2iomtxk2cethm4kl/app.bsky.feed.post/3myuknav4ws26",
+        "handle": "settersnick19.bsky.social",
+        "text": "Back at Times Square #MULTIVERSEAU #HALLOWEEN2026",
+        "created_at": "2026-10-27T15:32:11.047Z",
+        "source": "https://bsky.app/profile/settersnick19.bsky.social/post/3myuknav4ws26",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square #",
+        "confidence": 1.0,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hjbpeg5qby5kidhxy5uqodx6/app.bsky.feed.post/3myukrjfd622d",
+        "handle": "rememberxyz.bsky.social",
+        "text": "Mitchell, born in Chicago and Smith, born in Boston, were in their twenties when they first arrived in New York - Mitchell in 1949 and Smith around the same time. Mitchell and Smith both debuted their paintings in the landmark 1951 Ninth Street Show at the New Gallery.",
+        "created_at": "2026-10-27T15:34:34.193Z",
+        "source": "https://bsky.app/profile/rememberxyz.bsky.social/post/3myukrjfd622d",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York - Mitchell",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:65b3kbil47einb4qjb232cot/app.bsky.feed.post/5lobwdnnfm32g",
+        "handle": "illustration-jobs.com",
+        "text": "✨ New job: Paid Gig: Live Dog Sketch Artist for a Birthday Party 🐾 ($250 + Tacos, Margs & Cupcakes) ✨\n\n💼 Freelance / Contract\n📍 Williamsburg, NY, United States",
+        "created_at": "2026-10-27T15:35:12.565Z",
+        "source": "https://bsky.app/profile/illustration-jobs.com/post/5lobwdnnfm32g",
+        "mapped_location": "Williamsburg, NY, United States",
+        "precision_level": "address",
+        "location_text": "Williamsburg, NY, United States",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6fx2zgj6vbfno37n7nuq2rl/app.bsky.feed.post/3myul3n7oae2n",
+        "handle": "charlotteobserver.com",
+        "text": "The fast-casual restaurant debuts at Queensbridge Collective — and its founder already has her eye on a second Charlotte neighborhood.",
+        "created_at": "2026-10-27T15:40:13Z",
+        "source": "https://bsky.app/profile/charlotteobserver.com/post/3myul3n7oae2n",
+        "mapped_location": "Queensbridge Collective",
+        "precision_level": "address",
+        "location_text": "Queensbridge Collective",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9614554,
+          40.7961299
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hj355d7how56vuuq5m4wwfy3/app.bsky.feed.post/3myul3yv6zc2j",
+        "handle": "theoff-keybard.bsky.social",
+        "text": "🚇 Oct. 27, 1904: NYC's first permanent subway opened, stretching 9.1 miles across 28 stations for a nickel a ride.   \n\n🚦 The Mayor's Joyride: Mayor George B. McClellan Jr. took the controls for the ceremonial start, and kept driving all the way to 103rd Street.",
+        "created_at": "2026-10-27T15:40:25.986Z",
+        "source": "https://bsky.app/profile/theoff-keybard.bsky.social/post/3myul3yv6zc2j",
+        "mapped_location": "103rd Street, Central Park West, Manhattan Community Board 7, Manhattan, New York County, New York, 11025, United States",
+        "precision_level": "unclassified",
+        "location_text": "103rd Street",
+        "confidence": 0.64,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3xstdohbcw5fmvxyexadpvrt/app.bsky.feed.post/3myulhbji3c23",
+        "handle": "billycamou.bsky.social",
+        "text": "www.telegraph.co.uk/us/news/2026...\nFormer Miss Switzerland accuses Donald Trump of rape\nBeatrice Keul’s allegation she was assaulted at New York’s Plaza Hotel in 1993",
+        "created_at": "2026-10-27T15:46:44.137Z",
+        "source": "https://bsky.app/profile/billycamou.bsky.social/post/3myulhbji3c23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m2wazjxhvknmeco5jiwk2lti/app.bsky.feed.post/3myulokq7p22c",
+        "handle": "ogsaigonbond.bsky.social",
+        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to House Judiciary Committee staff that she was raped in 1993 by Trump in a Plaza Hotel suite in Manhattan when she was 24.\n\ntime.com/article/2026...",
+        "created_at": "2026-10-27T15:50:48.672Z",
+        "source": "https://bsky.app/profile/ogsaigonbond.bsky.social/post/3myulokq7p22c",
+        "mapped_location": "a Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "a Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myulsivpxp2c",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Broad St-bound [J] and Forest Hills-71 Av-bound [M] trains are running with delays while the FDNY investigates a report of smoke near Flushing Av.",
+        "created_at": "2026-10-27T15:53:00.925Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myulsivpxp2c",
+        "mapped_location": "Flushing Av",
+        "precision_level": "address",
+        "location_text": "Flushing Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t2pkk7ojz4rpn5vunrvkqgm5/app.bsky.feed.post/3myum2ubf5c2t",
+        "handle": "lawsononstage.bsky.social",
+        "text": "THIS SUNDAY! 11am! I am performing on Gather NYC! The classical music concert with a storytelling set in the middle (That’s where I come in). I’m excited to perform on Gather’s second ever show at their new home venue: Jazzcultural. 349 West 46th Street.",
+        "created_at": "2026-10-27T15:57:41.313Z",
+        "source": "https://bsky.app/profile/lawsononstage.bsky.social/post/3myum2ubf5c2t",
+        "mapped_location": "Gather NYC",
+        "precision_level": "address",
+        "location_text": "Gather NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hjdxvrq7rh43z5umtt3mucxw/app.bsky.feed.post/3myum3gy5cc25",
+        "handle": "sixdettmar.bsky.social",
+        "text": "I feel pretty much the opposite of these ghouls with their Times Square billboard: I want BioWare back, and if it’s not them I want you to leave Mass Effect the fuck alone. kotaku.com/mass-effect-...",
+        "created_at": "2026-10-27T15:58:00.949Z",
+        "source": "https://bsky.app/profile/sixdettmar.bsky.social/post/3myum3gy5cc25",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wjw22njhp4krdq2wyqifzjyo/app.bsky.feed.post/3myum6fafsk2r",
+        "handle": "longnecklupin.bsky.social",
+        "text": "at the new york aquarium rn",
+        "created_at": "2026-10-27T15:59:39.785Z",
+        "source": "https://bsky.app/profile/longnecklupin.bsky.social/post/3myum6fafsk2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "the new york",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3j4wggf6dku34ocpulowakcd/app.bsky.feed.post/3myum6ql76k2m",
+        "handle": "norahwoodsey.com",
+        "text": "Prospect Park in the fall",
+        "created_at": "2026-10-27T15:59:51.661Z",
+        "source": "https://bsky.app/profile/norahwoodsey.com/post/3myum6ql76k2m",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3poh33llgoaraxhtqakz7m3i/app.bsky.feed.post/3myum7d542s2f",
+        "handle": "canozamer.bsky.social",
+        "text": "This together with Trump's indisputable history as a violent sexual predator, the 28 women who have accused Trump of  sexual assault including Beatrice Keul who alleges Trump raped her at the Plaza Hotel in New York City in November 1993, demand Trump is charged. \n\npeople.com/former-miss-...",
+        "created_at": "2026-10-27T16:00:11.134Z",
+        "source": "https://bsky.app/profile/canozamer.bsky.social/post/3myum7d542s2f",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3myum7lxjys2u",
+        "handle": "allforgardening.bsky.social",
+        "text": "Celebrating the fall season at the New York Botanical Garden\n\nhttps://www.allforgardening.com/1947047/celebrating-the-fall-season-at-the-new-york-botanical-garden/\n\nThe ofrenda is a key part of Día de los Muertos, also known as the Day of the Dead holiday. It is the offerings placed on an altar …",
+        "created_at": "2026-10-27T16:00:17+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3myum7lxjys2u",
+        "mapped_location": "the New York Botanical Garden",
+        "precision_level": "address",
+        "location_text": "the New York Botanical Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3myumarqm7w2x",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "report of smoke near Flushing Av... (L): L trains are running with delays in both directions while we conduct track maintenance along the line in Brooklyn... (L): In Brooklyn, L runs every 16 minutes between Canarsie-Rockaway Pkwy and Broadway (2/3)",
+        "created_at": "2026-10-27T16:00:59.954866+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3myumarqm7w2x",
+        "mapped_location": "Flushing Av",
+        "precision_level": "address",
+        "location_text": "Flushing Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:443arya3g7jvqz5jyr75555x/app.bsky.feed.post/3myumbfpwlk26",
+        "handle": "mike-umbkm.bsky.social",
+        "text": "Donald Trump's Justice Department has charged former FBI Director James Comey for the third time, this time for allegedly leaking classified information that ended up in a New York Times story. \n\nComey responded by saying it was an “appalling abuse” of the DOJ and that he’s “still innocent.”",
+        "created_at": "2026-10-27T16:01:20.958Z",
+        "source": "https://bsky.app/profile/mike-umbkm.bsky.social/post/3myumbfpwlk26",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pbbzsoxd2upkykdukjthd2vp/app.bsky.feed.post/3myumbxd7x5j2",
+        "handle": "nycviews.stefanbohacek.online",
+        "text": "Times Square (South)\n\n📷 https://www.earthcam.com/usa/newyork/timessquare/?cam=tstwo_hd2\n\n#NYC #NewYorkCity #webcam",
+        "created_at": "2026-10-27T16:01:26.000Z",
+        "source": "https://bsky.app/profile/nycviews.stefanbohacek.online/post/3myumbxd7x5j2",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2lt3t6u6e7wqgb2vhpkmfdvu/app.bsky.feed.post/3myumjgq5g72f",
+        "handle": "univpressofkansas.bsky.social",
+        "text": "Discover the lasting legacy of Julia Gardiner Tyler at Turn the Page Bookshop in Williamsburg, Virginia, on Friday, November 6, at 6PM EST. The event will include an author discussion, Q&A, and book signing.\n\nLearn more about \"Presidentess\": https://kansaspress.ku.edu/9780700642670/\n\n#UPKansas",
+        "created_at": "2026-10-27T16:05:49.385987066Z",
+        "source": "https://bsky.app/profile/univpressofkansas.bsky.social/post/3myumjgq5g72f",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uayeidmvjjwhipnmvtbn7kwl/app.bsky.feed.post/3myumnceivs2x",
+        "handle": "ekshelton.bsky.social",
+        "text": "Looks pricey, but fabulous. On Orchard Street, NYC.",
+        "created_at": "2026-10-27T16:08:00.088Z",
+        "source": "https://bsky.app/profile/ekshelton.bsky.social/post/3myumnceivs2x",
+        "mapped_location": "Orchard Street",
+        "precision_level": "address",
+        "location_text": "Orchard Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dfpzrp4ef6vs2gtzruarsgql/app.bsky.feed.post/3myumpbkb722h",
+        "handle": "dolphan39.bsky.social",
+        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to Judiciary Committee staff that she was raped by Trump in a Plaza Hotel suite in Manhattan when she was 24. \n\nwww.yahoo.com/news/politic...",
+        "created_at": "2026-10-27T16:09:06.340Z",
+        "source": "https://bsky.app/profile/dolphan39.bsky.social/post/3myumpbkb722h",
+        "mapped_location": "a Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "a Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tdufebaafwb2zhmvdk6gw7bx/app.bsky.feed.post/3myun3vmrks2n",
+        "handle": "bronsays.bsky.social",
+        "text": "The report offered new information from Beatrice Keul, a former Miss Switzerland, who says Trump used a pageant at the Plaza Hotel in New York City as a “hunting ground” to prey on young victims and that Trump raped her there in 1993, leaving her bleeding and bruised.\n\n#Epstein The #GOP own this!",
+        "created_at": "2026-10-27T16:16:10.048Z",
+        "source": "https://bsky.app/profile/bronsays.bsky.social/post/3myun3vmrks2n",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pexamkyvzuvnv2ajakvxv7jz/app.bsky.feed.post/3myuncfri5c2h",
+        "handle": "bloomer0422.bsky.social",
+        "text": "Lee Krasner is a key figure in American art, whose energetic work reflects the spirit of possibility in post-war New York.\n\nAbstract No. 2, 1947 \nPollock-Krasner\nFoundation\nLee Krasner • 1947/1947\nBarbican Centre\n#OctoberBirthdayArtistParty",
+        "created_at": "2026-10-27T16:19:48.301Z",
+        "source": "https://bsky.app/profile/bloomer0422.bsky.social/post/3myuncfri5c2h",
+        "mapped_location": "post-war New York",
+        "precision_level": "address",
+        "location_text": "post-war New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3myundfyf3z24",
+        "handle": "qncnews.bsky.social",
+        "text": "Nanotyrannus Skeleton Jodi Heads to Sotheby’s With $6m Estimate\n\nJodi, a mounted Nanotyrannus once mistaken for a young T. rex, goes on sale at Sotheby's New York with an estimate of $6 million to $9 million.",
+        "created_at": "2026-10-27T16:20:21Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3myundfyf3z24",
+        "mapped_location": "Sotheby's New York",
+        "precision_level": "address",
+        "location_text": "Sotheby's New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:52fsavypoiclkoutdszxo6gc/app.bsky.feed.post/3myuneqyfms2g",
+        "handle": "akatzel.bsky.social",
+        "text": "There is only one cheesecake factory. \n\nIt is called Junior’s. And it is located on Flatbush Avenue in Brooklyn.",
+        "created_at": "2026-10-27T16:21:07.173Z",
+        "source": "https://bsky.app/profile/akatzel.bsky.social/post/3myuneqyfms2g",
+        "mapped_location": "Flatbush Avenue",
+        "precision_level": "address",
+        "location_text": "Flatbush Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myuney5m6h2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:21:14.616Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myuney5m6h2s",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myuney5m6h2s",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:21:14.616Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myuney5m6h2s",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myunifnobke2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "East 96th Street between 2nd Avenue and 3rd Avenue Even numbers\n\nVia https://digitalcollections.nypl.org/items/3510a510-c5ae-012f-4ee6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=East%2096th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-27T16:22:27.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myunifnobke2",
+        "mapped_location": "2nd Avenue",
+        "precision_level": "address",
+        "location_text": "2nd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "3rd Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3myunifnobke2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "East 96th Street between 2nd Avenue and 3rd Avenue Even numbers\n\nVia https://digitalcollections.nypl.org/items/3510a510-c5ae-012f-4ee6-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=East%2096th%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-27T16:22:27.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3myunifnobke2",
+        "mapped_location": "3rd Avenue",
+        "precision_level": "address",
+        "location_text": "3rd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "2nd Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6e6du2mhjdqqgbvdhd3ttyho/app.bsky.feed.post/3myunivcn6u2z",
+        "handle": "mulaneymirror.bsky.social",
+        "text": "Tickets on sale now for Mulaney Takes Manhattan, January 11 at The Music Box Theatre. Tickets at and\n\nOriginal post",
+        "created_at": "2026-10-27T16:23:25.731Z",
+        "source": "https://bsky.app/profile/mulaneymirror.bsky.social/post/3myunivcn6u2z",
+        "mapped_location": "The Music Box Theatre",
+        "precision_level": "address",
+        "location_text": "The Music Box Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
+        "handle": "lawbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:29.352Z",
+        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nr5zcjdc6kui4ymaiowvh3n6/app.bsky.feed.post/3myuniync562f",
+        "handle": "lawbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:29.352Z",
+        "source": "https://bsky.app/profile/lawbriefly.bsky.social/post/3myuniync562f",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:31.963Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Manhattan Criminal Court"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlxwgkchnvfhh6vxz6tphwby/app.bsky.feed.post/3myunj3bmot2b",
+        "handle": "usnewsbriefly.bsky.social",
+        "text": "Victor Romero, accused of fatally shooting Con Edison worker Koran Irvine on the George Washington Bridge, appeared at Manhattan Criminal Court for a mandatory hearing before a grand jury.\n",
+        "created_at": "2026-10-27T16:23:31.963Z",
+        "source": "https://bsky.app/profile/usnewsbriefly.bsky.social/post/3myunj3bmot2b",
+        "mapped_location": "Manhattan Criminal Court",
+        "precision_level": "address",
+        "location_text": "Manhattan Criminal Court",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the George Washington Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:547tkow4s7l2xxbvobt2rpt3/app.bsky.feed.post/3myunk5b5tc2c",
+        "handle": "ezraabrams.bsky.social",
+        "text": "you all may not know this but the 3 story pink marble clad atrium of Trump Tower, in NYC, is *exactly this esthetic\n\nand one can even go back to Trump Village, Trump Sr housing near Coney Island, and look at the lobbys to see similar",
+        "created_at": "2026-10-27T16:24:07.817Z",
+        "source": "https://bsky.app/profile/ezraabrams.bsky.social/post/3myunk5b5tc2c",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunq7kyjs2n",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:27:31.563Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunq7kyjs2n",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzh2jqtkw5pt7e77ojorryie/app.bsky.feed.post/3myunuzfj222v",
+        "handle": "44lights.bsky.social",
+        "text": "At least 20 news outlets are reporting on Trump allegations of raping Miss Switzerland in 1993 at The Plaza Hotel in New York City….\n\nThis seems like very big news.",
+        "created_at": "2026-10-27T16:30:12.862Z",
+        "source": "https://bsky.app/profile/44lights.bsky.social/post/3myunuzfj222v",
+        "mapped_location": "The Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "The Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "28-43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria, NY",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.785
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myunxjkpzi2p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃🧸 Enter Boské’s Dollhouse: Annabelle’s Curse on Oct 30! 👻 Enjoy top DJs, live entertainment & spooky Halloween vibes at Boské Astoria. 🍾🔥\n\n📍 28-43 Steinway St, Astoria, NY\n🎟️ Tickets: mtsproductions.com\n\n#AnnabellesCurse #BoskeAstoria #HalloweenNYC #MTSProductions",
+        "created_at": "2026-10-27T16:31:35.512Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myunxjkpzi2p",
+        "mapped_location": "28-43 Steinway St, Astoria",
+        "precision_level": "address",
+        "location_text": "28-43 Steinway St, Astoria",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "43 Steinway St, Astoria, NY, 28-43 Steinway St, Astoria, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zb7ro65w46ff3chvylabi7oi/app.bsky.feed.post/3myuo2uzyls2x",
+        "handle": "kernelkorn420.bsky.social",
+        "text": "There is in NYC, I haven't come across any in NJ yet myself but I wouldn't be shocked",
+        "created_at": "2026-10-27T16:33:29.619Z",
+        "source": "https://bsky.app/profile/kernelkorn420.bsky.social/post/3myuo2uzyls2x",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
+        "handle": "kimiwei.bsky.social",
+        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
+        "created_at": "2026-10-27T16:37:40.410Z",
+        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t23u5vjnouwufto4nlwtoeth/app.bsky.feed.post/3myuoce7jok2r",
+        "handle": "kimiwei.bsky.social",
+        "text": "A former Miss Switzerland beauty pageant contestant has accused President Donald Trump of brutally asaulting her sexually at New York's Plaza Hotel in 1993.",
+        "created_at": "2026-10-27T16:37:40.410Z",
+        "source": "https://bsky.app/profile/kimiwei.bsky.social/post/3myuoce7jok2r",
+        "mapped_location": "New York's Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "New York's Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuodexnnrk2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Euclid Av-bound C trains are delayed while we request NYPD assistance for someone being disruptive on a train at Kingston-Throop Avs.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T16:38:13.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuodexnnrk2",
+        "mapped_location": "Kingston-Throop Avs",
+        "precision_level": "address",
+        "location_text": "Kingston-Throop Avs",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6f4ltpf7z6e6mb7yp6khlvs6/app.bsky.feed.post/3myuogg6ohc2t",
+        "handle": "krazytheealaskan.bsky.social",
+        "text": "From a little bakery in lower Manhattan. I can taste it now🤤",
+        "created_at": "2026-10-27T16:39:56.698Z",
+        "source": "https://bsky.app/profile/krazytheealaskan.bsky.social/post/3myuogg6ohc2t",
+        "mapped_location": "lower Manhattan",
+        "precision_level": "address",
+        "location_text": "lower Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "Bryant Park",
+        "precision_level": "address",
+        "location_text": "Bryant Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "42nd Street, Fifth Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "42nd Street",
+        "precision_level": "address",
+        "location_text": "42nd Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bryant Park, Fifth Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
+        "handle": "respectfully.bsky.social",
+        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
+        "created_at": "2026-10-27T16:40:59.805136Z",
+        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
+        "mapped_location": "Fifth Avenue",
+        "precision_level": "address",
+        "location_text": "Fifth Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bryant Park, 42nd Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myuoqclz6a2s",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "The 4K restoration of BEGOTTEN screens Friday & Saturday at midnite at Nitehawk Williamsburg",
+        "created_at": "2026-10-27T16:45:28.462Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myuoqclz6a2s",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myuosttvwz22",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": ".\n.\n.\n.\n.\n#looksmaxxing #explore #fyp #viral #usa\n\nStory/Images by thronezz__\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-27T16:46:51.826Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myuosttvwz22",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jqskxhphqknrgaqsohf7gngs/app.bsky.feed.post/3myuou33ec22o",
+        "handle": "seanpadilla.blacksky.app",
+        "text": "I miss living within walking distance of Prospect Park",
+        "created_at": "2026-10-27T16:47:34.817Z",
+        "source": "https://bsky.app/profile/seanpadilla.blacksky.app/post/3myuou33ec22o",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dmyrlv4zb6yzoa5odr2sgsuu/app.bsky.feed.post/3myuoyr5r2c2e",
+        "handle": "imgarysuarez.bsky.social",
+        "text": "I wrote about experiencing DJ Shadow's Endtroducing....30 set at New York's worst concert venue. www.cabbageshiphop.com/dj-shadow-en...",
+        "created_at": "2026-10-27T16:50:12.181Z",
+        "source": "https://bsky.app/profile/imgarysuarez.bsky.social/post/3myuoyr5r2c2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lapueehwikkodx2szs3r7gei/app.bsky.feed.post/3myuq2h7irs2v",
+        "handle": "blurbette.blacksky.app",
+        "text": "So this mofo called me on my Nokia with the slide keyboard whilst on our way to Times Square because his bank was alerting him to her every purchase. \n\n“Jocelyn, I can literally map your locations from the bank alerts. Get my card back from her!”\n\nAcross from the Disney store and H&M? 😂😂 see pic/txt",
+        "created_at": "2026-10-27T17:09:02.601Z",
+        "source": "https://bsky.app/profile/blurbette.blacksky.app/post/3myuq2h7irs2v",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97,
+          40.58
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ddo2sqibuwq4kqufq37ktwxj/app.bsky.feed.post/3myuq3jzy2p2j",
+        "handle": "samfisher90.bsky.social",
+        "text": "Mamdani celebrates $2 million investment in the New York Aquarium with Pickles the seal",
+        "created_at": "2026-10-27T17:09:39Z",
+        "source": "https://bsky.app/profile/samfisher90.bsky.social/post/3myuq3jzy2p2j",
+        "mapped_location": "the New York Aquarium with Pickles",
+        "precision_level": "address",
+        "location_text": "the New York Aquarium with Pickles",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4e56qnaqzwpwg4b2hs6uo2de/app.bsky.feed.post/3myuq54izaq26",
+        "handle": "tekthrill.bsky.social",
+        "text": "An $89K humanoid robot loose in a NYC park 🤖🌳\n\nFaraday Future's robot sang to kids in Brooklyn Bridge Park, steered by remote. The goal: a future babysitter, teacher or companion.\n\n▶️ https://youtube.com/shorts/eFqeL_ZYHp0\n#Robot #AI",
+        "created_at": "2026-10-27T17:10:31.000Z",
+        "source": "https://bsky.app/profile/tekthrill.bsky.social/post/3myuq54izaq26",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2hf2oy7klxldmtznuz2zdpvm/app.bsky.feed.post/3myuqeb7d2k2f",
+        "handle": "diandramae.com",
+        "text": "Yeah, that's pretty much where I am, too. 😭 Like, we can't even really mail in postcards anymore to promote ourselves (thank god my agency is in NYC & hosts events), and conferences are so expensive. Social media & a website (+newsletters) are what we're stuck with. 🙃",
+        "created_at": "2026-10-27T17:14:31.844Z",
+        "source": "https://bsky.app/profile/diandramae.com/post/3myuqeb7d2k2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC &",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e55sdg7avbg2ab6ia3xpvlth/app.bsky.feed.post/3myuqjmohwc2b",
+        "handle": "bklyndigitalmedia.bsky.social",
+        "text": "Thanks again for signing my copy before the After Hours screening at the Alamo Drafthouse in Brooklyn five years ago.",
+        "created_at": "2026-10-27T17:17:31.648Z",
+        "source": "https://bsky.app/profile/bklyndigitalmedia.bsky.social/post/3myuqjmohwc2b",
+        "mapped_location": "the Alamo Drafthouse",
+        "precision_level": "address",
+        "location_text": "the Alamo Drafthouse",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ehmnhygqp3wlwxx27o6qxo2r/app.bsky.feed.post/3myuqq6s27s26",
+        "handle": "katiestereo.bsky.social",
+        "text": "Peak social media right now: New Yorkers emotionally processing a functioning Van Wyck",
+        "created_at": "2026-10-27T17:21:11.968Z",
+        "source": "https://bsky.app/profile/katiestereo.bsky.social/post/3myuqq6s27s26",
+        "mapped_location": "functioning Van Wyck",
+        "precision_level": "address",
+        "location_text": "functioning Van Wyck",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hleqckmxi73f7bravwbyc5jj/app.bsky.feed.post/3myur2w34ok2m",
+        "handle": "alte.klezmor.im",
+        "text": "stuck at home w/ a cold again today, so poking around online to find more about him (Max Thaler, Buenos Aires born klezmer musician played for Galician landsmanshaftn in NYC 1940s-60s). figured out that his dad Elias Thaler (1884–1938) was a fruit peddler in NY probably born in Lviv.",
+        "created_at": "2026-10-27T17:27:11.925Z",
+        "source": "https://bsky.app/profile/alte.klezmor.im/post/3myur2w34ok2m",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
+        "handle": "hops45.bsky.social",
+        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
+        "created_at": "2026-10-27T17:30:17.327Z",
+        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
+        "mapped_location": "the Ed Koch Queensboro Bridge",
+        "precision_level": "address",
+        "location_text": "the Ed Koch Queensboro Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the FDR Drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
+        "handle": "hops45.bsky.social",
+        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
+        "created_at": "2026-10-27T17:30:17.327Z",
+        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
+        "mapped_location": "the FDR Drive",
+        "precision_level": "address",
+        "location_text": "the FDR Drive",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Ed Koch Queensboro Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v3tnp2x6agum47nllsbpcnu5/app.bsky.feed.post/3myurnhfxrs2d",
+        "handle": "achronalart.bsky.social",
+        "text": "A dear old relative of mine lived in Brighton Beach for many decades and after a while it definitely had that reputation in NYC too.",
+        "created_at": "2026-10-27T17:37:34.091Z",
+        "source": "https://bsky.app/profile/achronalart.bsky.social/post/3myurnhfxrs2d",
+        "mapped_location": "Brighton Beach",
+        "precision_level": "address",
+        "location_text": "Brighton Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oh5xyaecmavvwfdj52exwwry/app.bsky.feed.post/3myuroiszqk2c",
+        "handle": "eternaleyeroll.bsky.social",
+        "text": "Of course there are Jews in Brighton Beach, but if any New Yorker says that the 1st word to come to mind is anything other than “Russian” they’re full of shit.",
+        "created_at": "2026-10-27T17:38:09.110Z",
+        "source": "https://bsky.app/profile/eternaleyeroll.bsky.social/post/3myuroiszqk2c",
+        "mapped_location": "Brighton Beach",
+        "precision_level": "address",
+        "location_text": "Brighton Beach",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myusgbxf3pu2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "‌Forest Hills-bound M, R trains are running with delays after we requested NYPD assistance for people being disruptive on a train at Jackson Heights-Roosevelt Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T17:51:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myusgbxf3pu2",
+        "mapped_location": "Jackson Heights-Roosevelt Av",
+        "precision_level": "address",
+        "location_text": "Jackson Heights-Roosevelt Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myusmpi52b2c",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 27, 1926: Junior, the first giraffe born at the Bronx Zoo in many years, alongside mother Jenny.",
+        "created_at": "2026-10-27T17:55:02.719Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myusmpi52b2c",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ko2uqsroewewbp7hkpwyjk62/app.bsky.feed.post/3myuspl7eu22l",
+        "handle": "weirderisgood.bsky.social",
+        "text": "Several years ago at a Halloween party at the original NYC Hard Rock.",
+        "created_at": "2026-10-27T17:56:38.920Z",
+        "source": "https://bsky.app/profile/weirderisgood.bsky.social/post/3myuspl7eu22l",
+        "mapped_location": "original NYC Hard Rock",
+        "precision_level": "address",
+        "location_text": "original NYC Hard Rock",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ko6d4ize4fpiof6rhvzejhsi/app.bsky.feed.post/3myuuz7mlnk2w",
+        "handle": "fightplutocracy.bsky.social",
+        "text": "former Miss Switzerland told the Judiciary Committee that Trump raped her at the Plaza Hotel, NYC when she was 24. According to the report, Trump “grabbed Keul from behind and forcibly raped her,” leading to “bleeding and bruising on multiple parts of her body.” \nwww.democracynow.org/2026/10/27/h...",
+        "created_at": "2026-10-27T18:37:49.797Z",
+        "source": "https://bsky.app/profile/fightplutocracy.bsky.social/post/3myuuz7mlnk2w",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ikzgv57aw4svgjcnhgcihkub/app.bsky.feed.post/3myuwqv7vt722",
+        "handle": "ginsburglights.bsky.social",
+        "text": "Date: 10/27/2026\nEvent: NYC Subway opens (https://en.wikipedia.org/wiki/New_York_City_Subway)\nDescription: The subway opened in 1904; it now has 472 stations. Each trunk line has a colour: red Broadway–Seventh Avenue, green Lexington, blue Eighth, orange Sixth, yellow Broadway, purple Flushing.",
+        "created_at": "2026-10-27T19:08:57.889Z",
+        "source": "https://bsky.app/profile/ginsburglights.bsky.social/post/3myuwqv7vt722",
+        "mapped_location": "NYC Subway",
+        "precision_level": "address",
+        "location_text": "NYC Subway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Seventh Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ikzgv57aw4svgjcnhgcihkub/app.bsky.feed.post/3myuwqv7vt722",
+        "handle": "ginsburglights.bsky.social",
+        "text": "Date: 10/27/2026\nEvent: NYC Subway opens (https://en.wikipedia.org/wiki/New_York_City_Subway)\nDescription: The subway opened in 1904; it now has 472 stations. Each trunk line has a colour: red Broadway–Seventh Avenue, green Lexington, blue Eighth, orange Sixth, yellow Broadway, purple Flushing.",
+        "created_at": "2026-10-27T19:08:57.889Z",
+        "source": "https://bsky.app/profile/ginsburglights.bsky.social/post/3myuwqv7vt722",
+        "mapped_location": "Seventh Avenue",
+        "precision_level": "address",
+        "location_text": "Seventh Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "NYC Subway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mjkdikqebpmgwzgymdby7wf2/app.bsky.feed.post/3myuwrjjgml2z",
+        "handle": "max-miam.bsky.social",
+        "text": "https://miam-buzz.blogspot.com/2026/10/a-new-chapter-lasting-legacy-inside.html\n\nA New Chapter, a Lasting Legacy: Inside the Studio Museum in Harlem’s Annual Gala #showbiz #sports #celebrities #lifestyle",
+        "created_at": "2026-10-27T19:09:18.134Z",
+        "source": "https://bsky.app/profile/max-miam.bsky.social/post/3myuwrjjgml2z",
+        "mapped_location": "the Studio Museum",
+        "precision_level": "address",
+        "location_text": "the Studio Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuwvmimeuk2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown Q trains are delayed while we remove a train with a mechanical problem from service at Cortelyou Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T19:11:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuwvmimeuk2",
+        "mapped_location": "Cortelyou Rd",
+        "precision_level": "address",
+        "location_text": "Cortelyou Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myuxrshwkxe2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown B, Q trains are delayed while we remove a train with a mechanical problem from service at Cortelyou Rd.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T19:27:18.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myuxrshwkxe2",
+        "mapped_location": "Cortelyou Rd",
+        "precision_level": "address",
+        "location_text": "Cortelyou Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qy2aikirkfy7agx6axspmsbg/app.bsky.feed.post/3myuxtoqkuh2q",
+        "handle": "hiringradarjobs.com",
+        "text": "✨ Executive Assistant - REMOTE — Molina Healthcare\n\n✨ Call Center Assistant Operations Manager — Teleperformance\n📍 Remote (US)\n\n✨ Senior Administrative Assistant... — Capital One\n📍 New York, NY\n\n🔗 See all recommendations:\nhttps://hiringradarjobs.com/careers/administrative/",
+        "created_at": "2026-10-27T19:28:25.540789+00:00",
+        "source": "https://bsky.app/profile/hiringradarjobs.com/post/3myuxtoqkuh2q",
+        "mapped_location": "New York, NY",
+        "precision_level": "address",
+        "location_text": "New York, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iaugekhphtvplklq55mp3ugq/app.bsky.feed.post/3myuxx7ulx22u",
+        "handle": "jschofieldvo.bsky.social",
+        "text": "IGN.com News: Following EA's closure of BioWare, Mass Effect fans have purchased a massive #SaveMassEffect billboard in Times Square, with plans to keep pushing to save the franchise. #MassEffect #Gaming",
+        "created_at": "2026-10-27T19:30:23.969Z",
+        "source": "https://bsky.app/profile/jschofieldvo.bsky.social/post/3myuxx7ulx22u",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sd7k4uthx35couai2rnoj5tg/app.bsky.feed.post/3myuxxaooyx2d",
+        "handle": "firstelder.bsky.social",
+        "text": "A 2,000-year-old marble torso of a Roman emperor sold for $34.26 million at Sotheby’s in New York on 21 October, setting an auction record for a Roman antiquity. The sculpture previously sold for $7.36 million in 2010.\n#Auction #Antiques\ntinyurl.com/4zacvz5a",
+        "created_at": "2026-10-27T19:30:24.848Z",
+        "source": "https://bsky.app/profile/firstelder.bsky.social/post/3myuxxaooyx2d",
+        "mapped_location": "Sotheby’s",
+        "precision_level": "address",
+        "location_text": "Sotheby’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myuxygl7i62p",
+        "handle": "nychalloweenevents.bsky.social",
+        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
+        "created_at": "2026-10-27T19:31:03.135Z",
+        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myuxygl7i62p",
+        "mapped_location": "Newsroom, LIC",
+        "precision_level": "address",
+        "location_text": "Newsroom, LIC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3myuyqnvxxs23",
+        "handle": "nysoccerjournal.com",
+        "text": "Breel Embolo is finding his scoring form, but Atlanta isn’t getting consistent goalkeeping or defensive play, and focus is now on who should stay/who should go in 2027. Ahead of ATL vs NYC at Citi Field, caught up with @scarvesandspikes.com’s @shwrites.bsky.social for more on Atlanta United",
+        "created_at": "2026-10-27T19:44:37.758Z",
+        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3myuyqnvxxs23",
+        "mapped_location": "Citi Field",
+        "precision_level": "address",
+        "location_text": "Citi Field",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ekweknsavwbhsms2gb4yxp3s/app.bsky.feed.post/3myuyqo5pzc2s",
+        "handle": "michaeltrimboli.bsky.social",
+        "text": "“It’ll be popular in my zip code.”\n\nJust say you live in Bushwick, sir.",
+        "created_at": "2026-10-27T19:44:38.017Z",
+        "source": "https://bsky.app/profile/michaeltrimboli.bsky.social/post/3myuyqo5pzc2s",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hevgvsufpmc4yewhw2bkrot2/app.bsky.feed.post/3myuyw42l7k2v",
+        "handle": "orion64.bsky.social",
+        "text": "I grew up in Brooklyn, New York. We have our had, a mall, Kings Plaza. After I saw Dawn of the Dead (and before I wrote my zombie novels & anthology) I used to eyeball it, wondering if it too, could be blocked off like in the movie!",
+        "created_at": "2026-10-27T19:47:40.366Z",
+        "source": "https://bsky.app/profile/orion64.bsky.social/post/3myuyw42l7k2v",
+        "mapped_location": "Kings Plaza",
+        "precision_level": "address",
+        "location_text": "Kings Plaza",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euedffsufmliorbvc5fpe5cg/app.bsky.feed.post/3myuyw5lzak2h",
+        "handle": "fuzym.bsky.social",
+        "text": "Trump Accused of Brutally Raping Former Miss Switzerland at Plaza Hotel in 1993. \n\nBeatrice Keul, a former model and Miss Switzerland contestant, alleged to congressional staff that Donald Trump raped her in a suite at the Plaza Hotel in Manhattan in November 1993.",
+        "created_at": "2026-10-27T19:47:41.986Z",
+        "source": "https://bsky.app/profile/fuzym.bsky.social/post/3myuyw5lzak2h",
+        "mapped_location": "Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:euedffsufmliorbvc5fpe5cg/app.bsky.feed.post/3myuyw5lzak2h",
+        "handle": "fuzym.bsky.social",
+        "text": "Trump Accused of Brutally Raping Former Miss Switzerland at Plaza Hotel in 1993. \n\nBeatrice Keul, a former model and Miss Switzerland contestant, alleged to congressional staff that Donald Trump raped her in a suite at the Plaza Hotel in Manhattan in November 1993.",
+        "created_at": "2026-10-27T19:47:41.986Z",
+        "source": "https://bsky.app/profile/fuzym.bsky.social/post/3myuyw5lzak2h",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Plaza Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ac2ouzqymr32xttu35cszvyh/app.bsky.feed.post/3myuyzo44ek2k",
+        "handle": "sassysister27.bsky.social",
+        "text": "🆘 Is Will a forgotten dog?\n\nDespite his sweetness, intelligence & charm this playful pup has been overlooked time & again!\n\nWill has been here over 239 days!\nHe’s currently the LONGEST-stay pup at Manhattan ACC.\n\nThis social & affectionate boy has\na lot of enthusiasm & a gentle heart.\n\n🙏Pls Share me",
+        "created_at": "2026-10-27T19:49:39.954Z",
+        "source": "https://bsky.app/profile/sassysister27.bsky.social/post/3myuyzo44ek2k",
+        "mapped_location": "Manhattan ACC",
+        "precision_level": "address",
+        "location_text": "Manhattan ACC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:as6mo7wfho432wdp7qikxgus/app.bsky.feed.post/3myuz2vwwdg25",
+        "handle": "spotwatch.bsky.social",
+        "text": "Brew Watches shows Metric Chrono Taxi at WindUp NYC\n\nNEW VIDEO Brew Watches shows Metric Chrono Taxi at WindUp NYC Brew Watches published its WindUp NYC recap…...",
+        "created_at": "2026-10-27T19:50:21Z",
+        "source": "https://bsky.app/profile/spotwatch.bsky.social/post/3myuz2vwwdg25",
+        "mapped_location": "WindUp NYC Brew Watches",
+        "precision_level": "address",
+        "location_text": "WindUp NYC Brew Watches",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:go43sbggjo2lwj26fq34pfqq/app.bsky.feed.post/3myuzcno66s2f",
+        "handle": "jeremydauber.bsky.social",
+        "text": "their tribe, of a sort. Times Square is recast not as a menace, but as a source of, let's call it, wholesome dirtbag energy. Even Tim Curry, a kind of watching godfather, approves; and the two girls, while not ending up together exactly, manage to maintain a kind of (cinematically enforced platonic)",
+        "created_at": "2026-10-27T19:54:41.488Z",
+        "source": "https://bsky.app/profile/jeremydauber.bsky.social/post/3myuzcno66s2f",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3myuzs7dp5p2h",
+        "handle": "nyceventsguide.bsky.social",
+        "text": "🎃👻 Get ready for THE HAUNTED SPEAKEASY! Spooky vibes, wild beats & Halloween thrills await! 🕸️🔥\n\n📅 Oct 31 | 🕙 10PM–4AM\n📍 Newsroom, LIC\n🍸 Vodka Open Bar 10–11PM\n\n#HalloweenNYC #HauntedSpeakeasy #NYCNightlife #LICNYC #HalloweenParty2026",
+        "created_at": "2026-10-27T20:03:22.750Z",
+        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3myuzs7dp5p2h",
+        "mapped_location": "Newsroom, LIC",
+        "precision_level": "address",
+        "location_text": "Newsroom, LIC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mppcaswhfcxgw6xeb5ponnqn/app.bsky.feed.post/3myuzxc5k7s2t",
+        "handle": "riverdaleboy.bsky.social",
+        "text": "\"they're not sending the best. They're not sending you, they're sending people that have lots of problems and they're bringing those problems,\" Trump said in a speech at Trump Tower in New York.",
+        "created_at": "2026-10-27T20:06:14.052Z",
+        "source": "https://bsky.app/profile/riverdaleboy.bsky.social/post/3myuzxc5k7s2t",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lt7eqlk3l7u5pncvfgmcfjem/app.bsky.feed.post/3myuzxna6u222",
+        "handle": "taliajane.bsky.social",
+        "text": "Grand jury just decided to indict retired NYPD Victor Romero with second-degree murder in the George Washington Bridge shooting of Koran Irvine.\n\nMurder is harder to prove because it requires intent, which is likely why Manhattan DA opted for the lesser manslaughter charge.",
+        "created_at": "2026-10-27T20:06:25.654Z",
+        "source": "https://bsky.app/profile/taliajane.bsky.social/post/3myuzxna6u222",
+        "mapped_location": "the George Washington Bridge",
+        "precision_level": "address",
+        "location_text": "the George Washington Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.058,
+          40.833
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5m3ztlfb5emucvfci334um6n/app.bsky.feed.post/3myv22fsmys2y",
+        "handle": "menendez.house.gov",
+        "text": "📍Celebrating Halloween with our seniors in West New York \n\n🎃 Always great to be with Mayor Albio Sires and our favorite residents at the WNY Halloween celebration! Thank you to Mayor Sires and the WNY commissioners for making this such a special event every year!",
+        "created_at": "2026-10-27T20:07:58.544Z",
+        "source": "https://bsky.app/profile/menendez.house.gov/post/3myv22fsmys2y",
+        "mapped_location": "West New York",
+        "precision_level": "address",
+        "location_text": "West New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tdivwf36ztuafasc525lpduq/app.bsky.feed.post/3myv22l2dgq25",
+        "handle": "gmf-world.bsky.social",
+        "text": "https://gmf-mag.blogspot.com/2026/10/a-new-chapter-lasting-legacy-inside.html\n\nA New Chapter, a Lasting Legacy: Inside the Studio Museum in Harlem’s Annual Gala #showbiz #sports #celebrities #lifestyle",
+        "created_at": "2026-10-27T20:08:02.479Z",
+        "source": "https://bsky.app/profile/gmf-world.bsky.social/post/3myv22l2dgq25",
+        "mapped_location": "the Studio Museum",
+        "precision_level": "address",
+        "location_text": "the Studio Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ccscygoww4uf76s5eyu7pqut/app.bsky.feed.post/3myv3antma22q",
+        "handle": "michaelwarburton.bsky.social",
+        "text": "WILLEM DAFOE’s lived in the same SoHo loft for 46yrs.\n\nDespite 4 decades of super-stardom, he walks everywhere, takes the subway, and moves around the ‘Big Apple’ like any other New Yorker.",
+        "created_at": "2026-10-27T20:29:22.041Z",
+        "source": "https://bsky.app/profile/michaelwarburton.bsky.social/post/3myv3antma22q",
+        "mapped_location": "the ‘Big Apple",
+        "precision_level": "address",
+        "location_text": "the ‘Big Apple",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ib3ohbmp3f2bgspqyuzlfjrn/app.bsky.feed.post/3myv3mb4nlk2s",
+        "handle": "morganpaul69.bsky.social",
+        "text": "Didn’t Trump say, that as president, he could shoot someone in Times Square and get away with it?  Maybe he should finally admit to something. He’s going to pardon himself anyway so…",
+        "created_at": "2026-10-27T20:35:51.357Z",
+        "source": "https://bsky.app/profile/morganpaul69.bsky.social/post/3myv3mb4nlk2s",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myv3r5hj7bp2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "L trains are running with delays in both directions while we address a signal problem near Canarsie-Rockaway Pkwy.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-27T20:38:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myv3r5hj7bp2",
+        "mapped_location": "Canarsie-Rockaway Pkwy",
+        "precision_level": "address",
+        "location_text": "Canarsie-Rockaway Pkwy",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002,
+          40.733
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:soal4g4wnurb73t2ydbfplxz/app.bsky.feed.post/3myv4m5hpl22a",
+        "handle": "brokwindsor.bsky.social",
+        "text": "I lived in NYC for 20 years in  Greenwich and I would probably see him 2-3 times a year at Cafe Reggio, which was my favourite coffee joint.",
+        "created_at": "2026-10-27T20:53:41.269Z",
+        "source": "https://bsky.app/profile/brokwindsor.bsky.social/post/3myv4m5hpl22a",
+        "mapped_location": "Cafe Reggio",
+        "precision_level": "address",
+        "location_text": "Cafe Reggio",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:72qwv7uxncdxh3slkdm7ioso/app.bsky.feed.post/3myv4pjm2222c",
+        "handle": "angelasfeathers.bsky.social",
+        "text": "time.com/article/2026...\n\nKeul, former Miss Switzerland,  said Trump raped her at Plaza Hotel in New York City in November 1993 & left bruised & bleeding & rape was brutal .  At Donald J. Trump American Dream Pageant, Keul participated as a contestant.\nTrump promised a U.S. visa",
+        "created_at": "2026-10-27T20:55:34.655Z",
+        "source": "https://bsky.app/profile/angelasfeathers.bsky.social/post/3myv4pjm2222c",
+        "mapped_location": "Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hg6vy2775rkgk5aqqpde5bzh/app.bsky.feed.post/3myv63actc224",
+        "handle": "the631resistance.bsky.social",
+        "text": "If only there was a way to triple the congestion pricing fee for every moron that voted for Trump. If nothing else, it will reduce foot traffic in Times Square and High Line Park.",
+        "created_at": "2026-10-27T21:20:01.312Z",
+        "source": "https://bsky.app/profile/the631resistance.bsky.social/post/3myv63actc224",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:p2tpkccfd7p4a4c47zwnz2oe/app.bsky.feed.post/3myv6sa57o225",
+        "handle": "thedowntown500.bsky.social",
+        "text": "They know Christian's and Jews in fact the Jewish cops and th help each other and know eachother cause they used to sell drugs in nyc too. I guess they paid her bills or all's the women and made a fleet of sucide jihadist in cars trucks planes in the United Nations and in the street, this is who",
+        "created_at": "2026-10-27T21:32:52.868Z",
+        "source": "https://bsky.app/profile/thedowntown500.bsky.social/post/3myv6sa57o225",
+        "mapped_location": "the United Nations",
+        "precision_level": "address",
+        "location_text": "the United Nations",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999,
+          40.703
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myv757xnus25",
+        "handle": "100yearsagonews.bsky.social",
+        "text": "Oct. 27, 1926: The laying of the keel for the cruiser Pensacola at the Brooklyn Navy Yard. American Federation of Labor chief William Green (marked by a 1) is given the honor of driving the first rivet, standing at the side of Rear Adm. Charles Plunkett (2).",
+        "created_at": "2026-10-27T21:39:01.779Z",
+        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myv757xnus25",
+        "mapped_location": "the Brooklyn Navy Yard.",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Navy Yard.",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yowpcrtrlsftk33eim4fc7gl/app.bsky.feed.post/3myv7p4t33e2m",
+        "handle": "carnegiescience.bsky.social",
+        "text": "Something is out there. Several somethings, actually, & Carnegie astronomer Dr. Scott Sheppard has spent his career finding them.\n\nThis Thursday (10/29), join us at Caveat NYC for a spooky evening of fun, games, & ✨cosmic mystery.✨\n\nhttps://bit.ly/47DCrW9",
+        "created_at": "2026-10-27T21:49:02.362232355Z",
+        "source": "https://bsky.app/profile/carnegiescience.bsky.social/post/3myv7p4t33e2m",
+        "mapped_location": "Caveat NYC",
+        "precision_level": "address",
+        "location_text": "Caveat NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5fe3pldqgrx2qv3veirdvqir/app.bsky.feed.post/3myv7z4tqss2y",
+        "handle": "brklynboy.bsky.social",
+        "text": "I was raised not far from your 'hood, Carole. We met in passing when I recorded with a doo-wop group next door to the Brill Building, but certain you don't remember.\nThe story of my Brooklyn neighborhood is an e-book at  Barnes & Noble and a Kindle on Amazon: www.barnesandnoble.com/w/a-south-br...",
+        "created_at": "2026-10-27T21:54:38.047Z",
+        "source": "https://bsky.app/profile/brklynboy.bsky.social/post/3myv7z4tqss2y",
+        "mapped_location": "the Brill Building",
+        "precision_level": "address",
+        "location_text": "the Brill Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881,
+          40.867
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tppukzpyoaua6s2frduuvo2u/app.bsky.feed.post/3myva6yg6ws2o",
+        "handle": "mikeshehan.bsky.social",
+        "text": "My son Isaac is going to New York in April to sing with the school choir at Carnegie Hall. We set up this little gofundme to help get him there. He would SO appreciate the support, even if it's just in spirit. Thank you in advance to everyone!\ngofund.me/5b840632d",
+        "created_at": "2026-10-27T21:57:54.734Z",
+        "source": "https://bsky.app/profile/mikeshehan.bsky.social/post/3myva6yg6ws2o",
+        "mapped_location": "Carnegie Hall",
+        "precision_level": "address",
+        "location_text": "Carnegie Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0014939,
+          40.7142787
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bed3ip3xucevwp7ddv2odpcf/app.bsky.feed.post/3myvecnajm22z",
+        "handle": "killedbyapencil.bsky.social",
+        "text": "Also, Katie Johnson testified about Trump raping her. She testified in New York Court and had a witness and she also provided a video testimony.\n\nShe dropped charges due to death threats.\n\nThe information was out there but the repubs decided to side with the child rapist. Again.",
+        "created_at": "2026-10-27T23:11:32.201Z",
+        "source": "https://bsky.app/profile/killedbyapencil.bsky.social/post/3myvecnajm22z",
+        "mapped_location": "New York State Supreme Court, 60, Centre Street, Civic Center, Lower Manhattan, Manhattan, New York County, New York, 10007, United States",
+        "precision_level": "unclassified",
+        "location_text": "New York Court",
+        "confidence": 0.64,
+        "address_type": "courthouse",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.753,
+          40.737
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fvdxmcpuxyohkq7oyywyoiar/app.bsky.feed.post/3myvefk3zik23",
+        "handle": "spooknine.bsky.social",
+        "text": "If you're a New Yorker, imagine the worst parts of Long Island lining up for an Obama rally",
+        "created_at": "2026-10-27T23:13:09.570Z",
+        "source": "https://bsky.app/profile/spooknine.bsky.social/post/3myvefk3zik23",
+        "mapped_location": "Long Island Motor Parkway, Queens, Queens County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Long Island",
+        "confidence": 0.89,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5gy3v7opwo3bfoa7dojkfhvp/app.bsky.feed.post/3myvekhd2ns2k",
+        "handle": "helenkennedy.com",
+        "text": "Two juncos on my terrace near Times Square today. They seemed unbothered by city craziness.",
+        "created_at": "2026-10-27T23:15:54.427Z",
+        "source": "https://bsky.app/profile/helenkennedy.com/post/3myvekhd2ns2k",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ir4cindjaqzh245ighxltzkd/app.bsky.feed.post/3myvel2xl722n",
+        "handle": "animegamenews.bsky.social",
+        "text": "Fans launch a Save Mass Effect campaign with Times Square ads and fundraising after EA cancelled the next game. #game\n\nRead more below.",
+        "created_at": "2026-10-27T23:16:13.999332+00:00",
+        "source": "https://bsky.app/profile/animegamenews.bsky.social/post/3myvel2xl722n",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:csdw5gk7xwe4kdb4q2hc5xgv/app.bsky.feed.post/3myvhc4biuv2a",
+        "handle": "waittimeny.bsky.social",
+        "text": "Times Square energy, all night.\nOct 27 outlook: sunny, 64/50 F (high/low). Check weather before going.\nFind hotels & plan your stay.\nhttps://waittimeny.com\nAffiliate links may earn us a commission. #WaitTimeNY",
+        "created_at": "2026-10-28T00:04:55.359852325Z",
+        "source": "https://bsky.app/profile/waittimeny.bsky.social/post/3myvhc4biuv2a",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3ufkwcgmo52zhin5bri5xixy/app.bsky.feed.post/3myvhpbp57c2l",
+        "handle": "libbygrl.bsky.social",
+        "text": "where’s Nick’s story of him in Times Square looking at the promo, gotta keep the trend going",
+        "created_at": "2026-10-28T00:12:17.530Z",
+        "source": "https://bsky.app/profile/libbygrl.bsky.social/post/3myvhpbp57c2l",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myvhpefzi3r2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown R, W trains are running with delays after we safely moved crews into place to conduct maintenance near Canal St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T00:12:18.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myvhpefzi3r2",
+        "mapped_location": "Canal St.\n\nFor",
+        "precision_level": "address",
+        "location_text": "Canal St.\n\nFor",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:izsawqe553dkpjlxp4mjs74z/app.bsky.feed.post/3myvhphtr722a",
+        "handle": "whamukars.bsky.social",
+        "text": "You literally threw me and trans friends under the bus to please five people at New York Times",
+        "created_at": "2026-10-28T00:12:23.973Z",
+        "source": "https://bsky.app/profile/whamukars.bsky.social/post/3myvhphtr722a",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953,
+          40.852
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4aidu4dbc2dw3dal2jgwo2dg/app.bsky.feed.post/3myvi2r7xv22o",
+        "handle": "nearlincoln.bsky.social",
+        "text": "NYC GWB murderous road rage\n\nthe middle of the GWB seems like an unusual place to trigger murderous road rage, what caused the retired NYPD to kill?\n\nmiddleageamerican.wordpress.com/2026/10/28/n...",
+        "created_at": "2026-10-28T00:18:42.907Z",
+        "source": "https://bsky.app/profile/nearlincoln.bsky.social/post/3myvi2r7xv22o",
+        "mapped_location": "NYC GWB",
+        "precision_level": "address",
+        "location_text": "NYC GWB",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3myvi5eoiiy25",
+        "handle": "laviezine.bsky.social",
+        "text": "How to watch Pistons vs Knicks: NBA, live stream, TV channel\n\nhttps://www.laviezine.com/1671059/how-to-watch-pistons-vs-knicks-nba-live-stream-tv-channel/\n\nThe Detroit Pistons (3-0) meet the New York Knicks (0-3) tonight at Madison Square Garden as the Knicks look for their first win of the …",
+        "created_at": "2026-10-28T00:20:07+00:00",
+        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3myvi5eoiiy25",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rzte6mcoimfmz226vyj6pg27/app.bsky.feed.post/3myvi5ji3t625",
+        "handle": "scarvesandspikes.com",
+        "text": "The inevitable could become official tomorrow night as Atlanta United travel to Citi Field to face New York City FC.\n\n@shwrites.bsky.social reached out to @andrewleigh.bsky.social from @nysoccerjournal.com for the scoop on NYCFC:",
+        "created_at": "2026-10-28T00:20:14Z",
+        "source": "https://bsky.app/profile/scarvesandspikes.com/post/3myvi5ji3t625",
+        "mapped_location": "Citi Field",
+        "precision_level": "address",
+        "location_text": "Citi Field",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sp46k2tr3l5lmu3qzxxqovzd/app.bsky.feed.post/3myvi7amqq222",
+        "handle": "frankiemutaig.bsky.social",
+        "text": "Interested checks! \n\nWts 3x Disco GA tickets for Harry Styles Harryween  N2 at Madison Square Garden - NYC.\n\n- Sat, Oct 31\n- Asking for face value! \n— I have sold tickets here before and I can provide proof as well 😭\n\n— Send me a DM / Respond in regards!",
+        "created_at": "2026-10-28T00:21:13.274Z",
+        "source": "https://bsky.app/profile/frankiemutaig.bsky.social/post/3myvi7amqq222",
+        "mapped_location": "Madison Square Garden - NYC",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden - NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.694
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myviauyyvqu2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Q trains are running with delays in both directions after we addressed a door problem on a train earlier at DeKalb Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T00:21:52.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myviauyyvqu2",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mnbqayz232sx3ix65nnamzwf/app.bsky.feed.post/3myviewby5c2t",
+        "handle": "johnlk.bsky.social",
+        "text": "Namor's like \"Brother, I invaded and conquered Manhattan like a decade ago. My country is in the United Nations now. Don't be so ignorant, read a book.\"",
+        "created_at": "2026-10-28T00:24:23.757Z",
+        "source": "https://bsky.app/profile/johnlk.bsky.social/post/3myviewby5c2t",
+        "mapped_location": "the United Nations",
+        "precision_level": "address",
+        "location_text": "the United Nations",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z5qiscowprr4h7vyt4njdx7v/app.bsky.feed.post/3myvigndfkf2q",
+        "handle": "goodgirljadzia.com",
+        "text": "A Mass Effect billboard in Times Square? Hold the line. The galaxy heard you 🚀",
+        "created_at": "2026-10-28T00:25:21.467Z",
+        "source": "https://bsky.app/profile/goodgirljadzia.com/post/3myvigndfkf2q",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2cuorfzsdbjz76ahbmgt4kkt/app.bsky.feed.post/3myviqdemuk2h",
+        "handle": "mascschoolcomm.bsky.social",
+        "text": "Our Public Policy Report from today's Board of Elementary and Secondary Education meeting, held in Williamsburg, is now available. \n\nPictured below: the Anne T. Dunphy School, which hosted the meeting. \n\nwww.masc.org/public-polic...",
+        "created_at": "2026-10-28T00:30:46.578Z",
+        "source": "https://bsky.app/profile/mascschoolcomm.bsky.social/post/3myviqdemuk2h",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9686981,
+          40.7963122
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5mqnvnklvzguvme2yfkanyd/app.bsky.feed.post/3myviymfkjc2s",
+        "handle": "cripsociologist.bsky.social",
+        "text": "this was me trying to go to school in nyc in 2019 when i lived at 2090 amsterdam ave and my housing/family shit fell apart. 5th floor of a wall up but it rocked. right by the L and C. never carded. i’ll get back one day youtu.be/FT-KOE9lRQY?...",
+        "created_at": "2026-10-28T00:35:24.481Z",
+        "source": "https://bsky.app/profile/cripsociologist.bsky.social/post/3myviymfkjc2s",
+        "mapped_location": "Amsterdam Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+        "precision_level": "unclassified",
+        "location_text": "amsterdam",
+        "confidence": 0.595,
+        "address_type": "primary",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964,
+          40.671
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ax643o5lcgdtqzhqk374uqgg/app.bsky.feed.post/3myvizcb5ac2a",
+        "handle": "kinographer.bsky.social",
+        "text": "Can we please step up enforcement in tandem? At Brooklyn Museum alone I regularly encounter:\n- tow vehicles driving on the sidewalk \n- carts left unattended/stored overnight \n- carts in bus stop\n- illegally parked food trucks \n- food trucks with defaced plates, opaque windows",
+        "created_at": "2026-10-28T00:35:47.404Z",
+        "source": "https://bsky.app/profile/kinographer.bsky.social/post/3myvizcb5ac2a",
+        "mapped_location": "Brooklyn Museum",
+        "precision_level": "address",
+        "location_text": "Brooklyn Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3myvj2dkqts2a",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday at The Crown:\n\nForced Bi by @thedommekat.com — man-on-man fetish with the guidance of a welcoming Domina. Curated, enthusiastic, consensual: an intimate room where the Subs are led through their ultimate fantasy.\n\n🗓️ Sun, 11/1\n🕰️ 7:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: forcedbi.eventbrite.com",
+        "created_at": "2026-10-28T00:36:22.320Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3myvj2dkqts2a",
+        "mapped_location": "The Crown, Bushwick",
+        "precision_level": "address",
+        "location_text": "The Crown, Bushwick",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3myvj2dkqts2a",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday at The Crown:\n\nForced Bi by @thedommekat.com — man-on-man fetish with the guidance of a welcoming Domina. Curated, enthusiastic, consensual: an intimate room where the Subs are led through their ultimate fantasy.\n\n🗓️ Sun, 11/1\n🕰️ 7:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: forcedbi.eventbrite.com",
+        "created_at": "2026-10-28T00:36:22.320Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3myvj2dkqts2a",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "The Crown, Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kng5k4qpshmkymg6beqbictr/app.bsky.feed.post/3myvj7bsroc25",
+        "handle": "carolinehooton.bsky.social",
+        "text": "Went to see Gillian Anderson and Billy Crudup in Who’s Afraid of Virginia Woolf at SoHo Place this evening. Very good production - Billy Crudup was the standout for me but all the cast is excellent.",
+        "created_at": "2026-10-28T00:39:08.259Z",
+        "source": "https://bsky.app/profile/carolinehooton.bsky.social/post/3myvj7bsroc25",
+        "mapped_location": "SoHo Place",
+        "precision_level": "address",
+        "location_text": "SoHo Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yjy3gatfao2dggjx3k3ibbz5/app.bsky.feed.post/3myvjbzinr22i",
+        "handle": "chadpbown.com",
+        "text": "HOW TO WIN A TRADE WAR… at Columbia University!!!\n\n@soumayakeynes.ft.com  and I had a super fun conversation with a lively audience due to the deft moderation by the very great @jesseschreger.bsky.social.\n\nThanks, New York!!!",
+        "created_at": "2026-10-28T00:40:40.202Z",
+        "source": "https://bsky.app/profile/chadpbown.com/post/3myvjbzinr22i",
+        "mapped_location": "Columbia University",
+        "precision_level": "address",
+        "location_text": "Columbia University",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7tqdgkq5p4owzcwam2udt3bn/app.bsky.feed.post/3myvjfuf5m22b",
+        "handle": "mostlytruenews.bsky.social",
+        "text": "Did the former Miss Switzerland accuse Trump of Rape?\n\n                                      Yes. \n\nBeatrice Keul stated that Trump raped her inside a suite at the Plaza Hotel in New York City in November 1993.",
+        "created_at": "2026-10-28T00:42:49.065Z",
+        "source": "https://bsky.app/profile/mostlytruenews.bsky.social/post/3myvjfuf5m22b",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jmdzslitmjvmo4l2c6dvqhaw/app.bsky.feed.post/3myvjkjopgs2c",
+        "handle": "delevant.bsky.social",
+        "text": "In New York America? Geeze, I thought it was a flashback of Hitler’s Gestapo in 1930’s Germany.",
+        "created_at": "2026-10-28T00:45:25.615Z",
+        "source": "https://bsky.app/profile/delevant.bsky.social/post/3myvjkjopgs2c",
+        "mapped_location": "New York America",
+        "precision_level": "address",
+        "location_text": "New York America",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbf6udiblnsa3n6cuilnkemb/app.bsky.feed.post/3myvjmz4cik25",
+        "handle": "meghanclare.bsky.social",
+        "text": "It does but it can be very satisfying and maybe that just bc when I worked at a NJ shore restaurant that gave soup and salad w every dinner we were allowed to eat free soup and salad so my dinner was Manhattan clam and salad w blue cheese and vinegar and the whole thing feels “end of shift”",
+        "created_at": "2026-10-28T00:46:48.898Z",
+        "source": "https://bsky.app/profile/meghanclare.bsky.social/post/3myvjmz4cik25",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.719
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:miolu4miqfm6yzsiz7benfbb/app.bsky.feed.post/3myvjq7xjtc2x",
+        "handle": "bethwallace37.bsky.social",
+        "text": "I am so tired of reading posts about this. The map was of current immigrant enclaves in NYC, not historic. There are no Italian immigrants in Little Italy nor have there been for years. Most of its historic area is now Chinatown (which today still has a large population of Chinese immigrants).",
+        "created_at": "2026-10-28T00:48:36.746Z",
+        "source": "https://bsky.app/profile/bethwallace37.bsky.social/post/3myvjq7xjtc2x",
+        "mapped_location": "Little Italy",
+        "precision_level": "address",
+        "location_text": "Little Italy",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881,
+          40.862
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3myvkerd2w72b",
+        "handle": "allforgardening.bsky.social",
+        "text": "What Is A Fruit? – Science Talk Archive\n\nhttps://www.allforgardening.com/1947169/what-is-a-fruit-science-talk-archive/\n\nPosted in Interesting Plant Stories, Uncategorized on August 6, 2014 by Lawrence Kelly Lawrence M. Kelly, Ph.D., is Director of Graduate Studies at The New York Botanical …",
+        "created_at": "2026-10-28T01:00:03+00:00",
+        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3myvkerd2w72b",
+        "mapped_location": "The New York Botanical",
+        "precision_level": "address",
+        "location_text": "The New York Botanical",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.7
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6lhbmhkczga5xv5cerojf267/app.bsky.feed.post/3myvki7hnu72u",
+        "handle": "pai-playbook.bsky.social",
+        "text": "🚶 Faraday Future's Futurist humanoid mingles w/ crowds in NYC\nThe $89K teleoperated bot spent time in Brooklyn Bridge Park gathering real-world interaction data, eyeing future roles like companionship. (Oct 25-27)\nhttps://www.ibtimes.co.uk/faraday-future-humanoid-robot-new-york-debut-1827750",
+        "created_at": "2026-10-28T01:02:01.476956Z",
+        "source": "https://bsky.app/profile/pai-playbook.bsky.social/post/3myvki7hnu72u",
+        "mapped_location": "Brooklyn Bridge Park",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h4cbb7x5snyfbc5rib5c2xuj/app.bsky.feed.post/3myvkmv5urc22",
+        "handle": "garyhershorn.bsky.social",
+        "text": "A 95 percent illuminated waning gibbous moon rises behind the Chrysler Building in New York City, Tuesday evening.",
+        "created_at": "2026-10-28T01:04:38.490Z",
+        "source": "https://bsky.app/profile/garyhershorn.bsky.social/post/3myvkmv5urc22",
+        "mapped_location": "the Chrysler Building",
+        "precision_level": "address",
+        "location_text": "the Chrysler Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.712
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vjmnwzpxbzehorgdc2motdcj/app.bsky.feed.post/3myvkv7zjxd23",
+        "handle": "cbsnewyork.bsky.social",
+        "text": "A man is facing charges after allegedly vandalizing the 9/11 Memorial in Lower Manhattan on Monday evening.\n",
+        "created_at": "2026-10-28T01:09:18.276Z",
+        "source": "https://bsky.app/profile/cbsnewyork.bsky.social/post/3myvkv7zjxd23",
+        "mapped_location": "the 9/11 Memorial",
+        "precision_level": "address",
+        "location_text": "the 9/11 Memorial",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:beilpv3ekhl6hn25ya45vffn/app.bsky.feed.post/3myvlh5bfa22n",
+        "handle": "context776.bsky.social",
+        "text": "According to her account, cited in the congressional report, Keul met Trump during a press luncheon at the Plaza Hotel, which was then owned by him. Trump allegedly approached her and offered to help her secure a visa and admission to New York University.",
+        "created_at": "2026-10-28T01:19:19.416Z",
+        "source": "https://bsky.app/profile/context776.bsky.social/post/3myvlh5bfa22n",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.69
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myvlqjzsjex2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown Q trains are running with delays after we safely moved crews into place to conduct maintenance near Atlantic Av-Barclays Ctr.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-28T01:24:32.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myvlqjzsjex2",
+        "mapped_location": "Atlantic Av-Barclays Ctr",
+        "precision_level": "address",
+        "location_text": "Atlantic Av-Barclays Ctr",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7env4sni2pxb7n6fwwhyqnek/app.bsky.feed.post/3myvm27pf4k24",
+        "handle": "mashakr.bsky.social",
+        "text": "I mean, it's like, fine. I've been. I've also been to the Olive Garden in Times Square (I was in college and my friends wanted to go).\n\nIt's not really a super memorable experience one way or the other. No reason to meaningfully seek it out, but also no reason to purposely avoid",
+        "created_at": "2026-10-28T01:29:59.505Z",
+        "source": "https://bsky.app/profile/mashakr.bsky.social/post/3myvm27pf4k24",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
+        "handle": "selesteres.bsky.social",
+        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
+        "created_at": "2026-10-28T01:35:00.607Z",
+        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
+        "mapped_location": "24 26 Avenue, Flushing, NY",
+        "precision_level": "address",
+        "location_text": "24 26 Avenue, Flushing, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "154-24 26 Avenue, Flushing, NY, Flushing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
+        "handle": "selesteres.bsky.social",
+        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
+        "created_at": "2026-10-28T01:35:00.607Z",
+        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
+        "mapped_location": "154-24 26 Avenue, Flushing, NY",
+        "precision_level": "address",
+        "location_text": "154-24 26 Avenue, Flushing, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "24 26 Avenue, Flushing, NY, Flushing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
+        "handle": "selesteres.bsky.social",
+        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
+        "created_at": "2026-10-28T01:35:00.607Z",
+        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
+        "mapped_location": "Flushing",
+        "precision_level": "address",
+        "location_text": "Flushing",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "24 26 Avenue, Flushing, NY, 154-24 26 Avenue, Flushing, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:m2wazjxhvknmeco5jiwk2lti/app.bsky.feed.post/3myvmomq6f22l",
+        "handle": "ogsaigonbond.bsky.social",
+        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to House Judiciary Committee staff that she was raped in 1993 by Trump in a Plaza Hotel suite in Manhattan when she was 24.\n\ntime.com/article/2026...",
+        "created_at": "2026-10-28T01:41:24.250Z",
+        "source": "https://bsky.app/profile/ogsaigonbond.bsky.social/post/3myvmomq6f22l",
+        "mapped_location": "a Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "a Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:22g3mf3sm5z4lp7zfk6ncv32/app.bsky.feed.post/3myvmxb5i6s2i",
+        "handle": "prognews.bsky.social",
+        "text": "\"...she was recruited by Jill Harth to attend the November 1993 pageant in Atlantic City & New York. During a press luncheon at the then-Trump-owned Plaza Hotel, Trump allegedly approached Keul and promised to help her obtain a visa & gain admission to New York Univ., according to her account...\"",
+        "created_at": "2026-10-28T01:46:14.096Z",
+        "source": "https://bsky.app/profile/prognews.bsky.social/post/3myvmxb5i6s2i",
+        "mapped_location": "Trump-owned Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "Trump-owned Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:iipowqhztticiguaxkwgtiwt/app.bsky.feed.post/3myvn66rmnp2k",
+        "handle": "ownfeed.bsky.social",
+        "text": "🇺🇸 Remember that couple who scaled the Empire State Building for a proposal? Well... they SHOWED UP in matching leather for court Angelina Nikolau and Ivan Kuznetsov were in and out of a Manhattan courtroom in minutes. Their attorney told the judge they’re working through",
+        "created_at": "2026-10-28T01:50:06.464Z",
+        "source": "https://bsky.app/profile/ownfeed.bsky.social/post/3myvn66rmnp2k",
+        "mapped_location": "the Empire State Building",
+        "precision_level": "address",
+        "location_text": "the Empire State Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.779
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:duj4kjv6ged3cp25ilhw5h2i/app.bsky.feed.post/3myvnbdim6c2u",
+        "handle": "cmonstah.bsky.social",
+        "text": "Miguel Viladrich Vilá, \"The Man From Montevideo,\" c. 1923-25. Spotted at the Hispanic Society in New York.",
+        "created_at": "2026-10-28T01:51:45.831Z",
+        "source": "https://bsky.app/profile/cmonstah.bsky.social/post/3myvnbdim6c2u",
+        "mapped_location": "the Hispanic Society",
+        "precision_level": "address",
+        "location_text": "the Hispanic Society",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4a6aksonxgbiaqouqxljvxj3/app.bsky.feed.post/3myvobvoekk27",
+        "handle": "annmariepisano.bsky.social",
+        "text": "Living on the Hudson River cliffs in NJ (the ones you can see if you look across the river from Manhattan) I was convinced that a massive tidal wave would sweep up the Hudson like in a cartoon and wipe out our whole town. Which was atop a very tall cliff. Obviously.",
+        "created_at": "2026-10-28T02:10:04.906Z",
+        "source": "https://bsky.app/profile/annmariepisano.bsky.social/post/3myvobvoekk27",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0080724,
+          40.7012724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4govg4z5u2lqtyno2pkj4zm/app.bsky.feed.post/3myvp3puj2s2r",
+        "handle": "leaftilde.bsky.social",
+        "text": "Okay describing a building as \"the large building\" when the story is explicitly taking place in downtown Manhattan is objectively a funny bit.\n\nAh, yes. THAT large building. I know it well.",
+        "created_at": "2026-10-28T02:24:31.100Z",
+        "source": "https://bsky.app/profile/leaftilde.bsky.social/post/3myvp3puj2s2r",
+        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
+        "precision_level": "unclassified",
+        "location_text": "downtown Manhattan",
+        "confidence": 0.64,
+        "address_type": "pier",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3o733zemy5oma43nweefbjf7/app.bsky.feed.post/3myvpe2bsn227",
+        "handle": "obrienp.bsky.social",
+        "text": "trump likes to talk about fictional children & what never happened to them‼️\n\nBut he WON’T talk about these children‼️ \n⬇️\n\n“Epstein introduced me to Trump at age 14”, Maxwell accuser says. \n\nTestifying at NYC trial, the woman said she was introduced to former president in 90s at his Mar-a-Lago resort.",
+        "created_at": "2026-10-28T02:29:10.589Z",
+        "source": "https://bsky.app/profile/obrienp.bsky.social/post/3myvpe2bsn227",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myvrymph5i2m",
+        "handle": "porcellato.bsky.social",
+        "text": "Today in History: October 28, Statue of Liberty dedicated in New York\n https://ift.tt/eMZIRkw",
+        "created_at": "2026-10-28T03:16:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myvrymph5i2m",
+        "mapped_location": "Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York\n https://ift.tt/eMZIRkw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myvrymph5i2m",
+        "handle": "porcellato.bsky.social",
+        "text": "Today in History: October 28, Statue of Liberty dedicated in New York\n https://ift.tt/eMZIRkw",
+        "created_at": "2026-10-28T03:16:28+00:00",
+        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myvrymph5i2m",
+        "mapped_location": "New York\n https://ift.tt/eMZIRkw",
+        "precision_level": "address",
+        "location_text": "New York\n https://ift.tt/eMZIRkw",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Statue of Liberty"
+      }
+    }
+  ]
+}

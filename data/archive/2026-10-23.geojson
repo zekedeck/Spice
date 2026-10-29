@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-23T11:17:07.506530Z",
-    "total_pins": 6
+    "generated_at": "2026-10-24T01:32:57.154622Z",
+    "total_pins": 17
   },
   "features": [
     {
@@ -155,6 +155,281 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "96th Street and Broadway, New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.75
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3nd42gc3s6xwvq3dia3wyb5q/app.bsky.feed.post/3mykjo7aclc2x",
+        "handle": "ejh54.bsky.social",
+        "text": "October 23, 1946 \nThe first United Nations General Assembly, with 51 members, convened in New York City for the first time, continuing a session that had been adjourned in London in February. President Harry Truman opened the Assembly at its temporary home in Flushing Meadows",
+        "created_at": "2026-10-23T15:48:11.753Z",
+        "source": "https://bsky.app/profile/ejh54.bsky.social/post/3mykjo7aclc2x",
+        "mapped_location": "Flushing Meadows",
+        "precision_level": "address",
+        "location_text": "Flushing Meadows",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lm7qr3eg7qtqxnufvolcmcba/app.bsky.feed.post/3mykjogodrc2w",
+        "handle": "georgiosmasman.bsky.social",
+        "text": "#ChanMarshall recorded Dear Sir in December 1994 in a small basement studio near Mott Street in NYC at the same time she recorded Myra Lee (1996) w/guitarist #TimFoljahn & Sonic Youth drummer #SteveShelley  \n\n#OnThisDay October 23, 1995 #CATPOWER released her debut album Dear Sir.",
+        "created_at": "2026-10-23T15:48:19.552Z",
+        "source": "https://bsky.app/profile/georgiosmasman.bsky.social/post/3mykjogodrc2w",
+        "mapped_location": "Mott Street",
+        "precision_level": "address",
+        "location_text": "Mott Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:a2xmnf73yb5c4l6ztmqha2hh/app.bsky.feed.post/3mykjqcbh4c2d",
+        "handle": "thomasfloyd.bsky.social",
+        "text": "Julia Louis-Dreyfus and Billy Crystal are among the stars shining on Broadway stages. But my favorite NYC show of the fall thus far? That’s the enchanting adaptation of “The Curious Case of Benjamin Button” at the Public Theater.",
+        "created_at": "2026-10-23T15:49:22.043Z",
+        "source": "https://bsky.app/profile/thomasfloyd.bsky.social/post/3mykjqcbh4c2d",
+        "mapped_location": "the Public Theater",
+        "precision_level": "address",
+        "location_text": "the Public Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.753
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:smdkfx7db3pbvkdfwidns4rv/app.bsky.feed.post/3mykjrswudf2i",
+        "handle": "discover.sinkan.net",
+        "text": "2026年 『Vivi A-Z at the New York Public Library』 Angela Classi (GLOBE PEQUOT PR) [Book] https://sinkan.net/isbn/9781493092857 #新刊情報 #sinkan",
+        "created_at": "2026-10-23T15:50:12.895565Z",
+        "source": "https://bsky.app/profile/discover.sinkan.net/post/3mykjrswudf2i",
+        "mapped_location": "the New York Public Library",
+        "precision_level": "address",
+        "location_text": "the New York Public Library",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.575
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dyangposwu24ochdbnssohx3/app.bsky.feed.post/3mykjukhpxc2z",
+        "handle": "photokenarts.bsky.social",
+        "text": "Daily Random #897\nParachute Jump\nRiegelmann Boardwalk/Coney Island 2007\n(native vertical panorama)\n#PlaygroundOfTheWorld #Photography #ParachuteJump\n\nPhoto essays & slideshows\nphotokenarts.substack.com",
+        "created_at": "2026-10-23T15:51:44.852Z",
+        "source": "https://bsky.app/profile/photokenarts.bsky.social/post/3mykjukhpxc2z",
+        "mapped_location": "#897\nParachute Jump\nRiegelmann Boardwalk/Coney Island",
+        "precision_level": "address",
+        "location_text": "#897\nParachute Jump\nRiegelmann Boardwalk/Coney Island",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hmpywdrszq4ven4pavxjnme2/app.bsky.feed.post/3mykx7vop4o2c",
+        "handle": "gothamist.com",
+        "text": "Inside the Midtown Bus Terminal rebuild: Decks over Lincoln Tunnel approach, a new park gothamist.com/news/inside-...",
+        "created_at": "2026-10-23T19:50:43.169805Z",
+        "source": "https://bsky.app/profile/gothamist.com/post/3mykx7vop4o2c",
+        "mapped_location": "the Midtown Bus Terminal",
+        "precision_level": "address",
+        "location_text": "the Midtown Bus Terminal",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zfgfr6uldtlzu5kue5icou3p/app.bsky.feed.post/3mykxhmgslk2g",
+        "handle": "catlynwrites.bsky.social",
+        "text": "Can we get that here? I suggest Times Square. And please include tomatoes to throw at him.",
+        "created_at": "2026-10-23T19:55:03.091Z",
+        "source": "https://bsky.app/profile/catlynwrites.bsky.social/post/3mykxhmgslk2g",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s6ffatbio6ynoup3z7rokujx/app.bsky.feed.post/3mylbq5swrs2x",
+        "handle": "inkana.bsky.social",
+        "text": "tonight is as good a night as any to listen to Sam Cooke’s legendary Live at the Harlem Square Club album",
+        "created_at": "2026-10-23T22:58:47.177Z",
+        "source": "https://bsky.app/profile/inkana.bsky.social/post/3mylbq5swrs2x",
+        "mapped_location": "the Harlem Square Club",
+        "precision_level": "address",
+        "location_text": "the Harlem Square Club",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vyx64uw6qfv5fqu4cecxdinp/app.bsky.feed.post/3mylbstbyyu2d",
+        "handle": "thecityreporter.nyc",
+        "text": "A federal judge ruled that Belgal, who was shot in the neck by and ICE agent in Marble Hill earlier this month, had received adequate medical care in federal detention.",
+        "created_at": "2026-10-23T23:00:15.651Z",
+        "source": "https://bsky.app/profile/thecityreporter.nyc/post/3mylbstbyyu2d",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o3rzpnlbxfhb6ylkujrfmocm/app.bsky.feed.post/3mylbw2fztc2s",
+        "handle": "grolaw-me.bsky.social",
+        "text": "I lived in \"the city📍\" when Nixon's HUD sued Fred & Donnie under Title VIII of the 1964 Civil Rights Act. \n\n(📍The City is Manhattan - the Trumps were Queens-dwellers/developers - like Archie Bunker)\n\nDonnie wanted to move into the city where the rich-white folks were. \n\nAnyway, noted civil rights",
+        "created_at": "2026-10-23T23:02:04.938Z",
+        "source": "https://bsky.app/profile/grolaw-me.bsky.social/post/3mylbw2fztc2s",
+        "mapped_location": "📍The City is Manhattan - the Trumps were Queens-dwellers/developers - like Archie Bunker",
+        "precision_level": "address",
+        "location_text": "📍The City is Manhattan - the Trumps were Queens-dwellers/developers - like Archie Bunker",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.8
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3mylka55oyu25",
+        "handle": "howardweiss.bsky.social",
+        "text": "NYC Right Now, 9:30 PM: 1 Report and New Events · Oct 23\n\n1 report in NYC before 9:30 PM: stabbing / knife (East 116Th Street and Park Avenue, East Harlem (North)). Details may change....",
+        "created_at": "2026-10-24T01:30:53Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3mylka55oyu25",
+        "mapped_location": "Park Avenue",
+        "precision_level": "address",
+        "location_text": "Park Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

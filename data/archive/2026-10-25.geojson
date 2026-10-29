@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-10-26T01:11:00.013747Z",
+    "total_pins": 7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wvbn2kyg7cfafrfrwe6yh4xz/app.bsky.feed.post/3mypg2yz36k2d",
+        "handle": "peersense.bsky.social",
+        "text": "A development site in Tribeca secured a $21.5 million construction loan for an eight story apartment building in August 2026. I’d want the loan structure to account clearly for both residential and retail uses. Retail changes the questions. On a similar project, check whether the construction budget",
+        "created_at": "2026-10-25T14:27:05.065044+00:00",
+        "source": "https://bsky.app/profile/peersense.bsky.social/post/3mypg2yz36k2d",
+        "mapped_location": "Tribeca",
+        "precision_level": "address",
+        "location_text": "Tribeca",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kspas53qs65oizdreoieujv7/app.bsky.feed.post/3mypg44hheq24",
+        "handle": "sportsnewspaper24.bsky.social",
+        "text": "NFL predictions: Dolphins vs. Jets odds, prop bets\n\nThe Miami Dolphins returned to the field this afternoon after their bye week over the weekend. In today's Week 7 contest, Miami visits AFC East rival New York Jets and hopes to leave MetLife Stadium with their first win of the year. The Jets are…",
+        "created_at": "2026-10-25T14:27:42Z",
+        "source": "https://bsky.app/profile/sportsnewspaper24.bsky.social/post/3mypg44hheq24",
+        "mapped_location": "MetLife Stadium",
+        "precision_level": "address",
+        "location_text": "MetLife Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7nrw6e7h4ghwqym2vgnsa2wz/app.bsky.feed.post/3mypg4aaxvk2b",
+        "handle": "mrdrmittens.bsky.social",
+        "text": "And this was done to him in fucking NEW YORK. Blue states do not fucking protect us.",
+        "created_at": "2026-10-25T14:27:46.308Z",
+        "source": "https://bsky.app/profile/mrdrmittens.bsky.social/post/3mypg4aaxvk2b",
+        "mapped_location": "fucking NEW YORK",
+        "precision_level": "address",
+        "location_text": "fucking NEW YORK",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tog3yoprnateslmj474i7444/app.bsky.feed.post/3myprd5wsrc2a",
+        "handle": "kungat108.bsky.social",
+        "text": "Much less satisfying pastime sitting on benches in the white run repugnicunt flyover fiefdom of the bloody Kaintuck, after 7 yrs of peripatetic homelessness & 9 yrs w/o an income, than it was sitting on benches in Union Sq. or Tompkins Sq. Park or Father Demo Sq. or just about anywhere in New York.",
+        "created_at": "2026-10-25T17:48:29.911Z",
+        "source": "https://bsky.app/profile/kungat108.bsky.social/post/3myprd5wsrc2a",
+        "mapped_location": "Union Sq",
+        "precision_level": "address",
+        "location_text": "Union Sq",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ec6v7lpnurr6bgrmvysnp4dx/app.bsky.feed.post/3myprh5j6j22z",
+        "handle": "clogsoveralabama.bsky.social",
+        "text": "\"Over the last 13 years, Berlin has sent millions to this office.\"\n\nGiven that the field office is on Madison Avenue (rosalux.nyc), I'm guessing that just about covers 13 years of rent, utilities, and payroll?",
+        "created_at": "2026-10-25T17:50:43.688Z",
+        "source": "https://bsky.app/profile/clogsoveralabama.bsky.social/post/3myprh5j6j22z",
+        "mapped_location": "Madison Avenue",
+        "precision_level": "address",
+        "location_text": "Madison Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5bniifpv6vyhuu2esrrwb7sd/app.bsky.feed.post/3myq2p2yqg22v",
+        "handle": "nytupelo7.bsky.social",
+        "text": "They were wrongfully convicted of the 1989 rape & assault of a female jogger, Trisha Meili, in New York City's Central Park.",
+        "created_at": "2026-10-25T20:36:13.166Z",
+        "source": "https://bsky.app/profile/nytupelo7.bsky.social/post/3myq2p2yqg22v",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.721
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4monngaerpuydlmue2ereiou/app.bsky.feed.post/3myqjlvgux224",
+        "handle": "jimveg22.bsky.social",
+        "text": "Heard Dance With Me from Lords of the New Church today on Sirius and I was reminded of a night I pseudo-quasi remember at    The Mudd Club in NYC in the early 80s.  I mean I really sorta kinda remember it. But not really.",
+        "created_at": "2026-10-26T01:02:52.804Z",
+        "source": "https://bsky.app/profile/jimveg22.bsky.social/post/3myqjlvgux224",
+        "mapped_location": "The Mudd Club",
+        "precision_level": "address",
+        "location_text": "The Mudd Club",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

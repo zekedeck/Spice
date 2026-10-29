@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:44:47.132184Z",
-    "total_pins": 274
+    "generated_at": "2026-10-29T15:01:19.444464Z",
+    "total_pins": 281
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:gdoelijdpwngph4fzqsenwuz/app.bsky.feed.post/3myuhzqbldj25",
-        "handle": "musicbriefly.bsky.social",
-        "text": "JO1 delivered a sold-out Webster Hall performance in New York City, strengthening their ongoing connection with the city through high-energy music and choreography.\n",
-        "created_at": "2026-10-27T14:45:28.549Z",
-        "source": "https://bsky.app/profile/musicbriefly.bsky.social/post/3myuhzqbldj25",
-        "mapped_location": "Webster Hall",
-        "precision_level": "address",
-        "location_text": "Webster Hall",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myuhzrwuwg2c",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "You’ve never seen a Dracula movie like this one!\n\nDRACULA’S ANGEL screens Wednesday 11/4 at Nitehawk Williamsburg, followed by a Q&A with director Bryan Beasley",
-        "created_at": "2026-10-27T14:45:30.348Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myuhzrwuwg2c",
-        "mapped_location": "Nitehawk Williamsburg",
-        "precision_level": "address",
-        "location_text": "Nitehawk Williamsburg",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6910,6 +6860,233 @@
         "confidence": 0.64,
         "address_type": "construction",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.767
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lndnpt4g4blym2uawllddh46/app.bsky.feed.post/3myziyfe74k2o",
+        "handle": "cinematropical.com",
+        "text": "Tomorrow in NYC! Sneak preview of THE MELTDOWN, Chile’s official Oscar submission, premiered in competition at Cannes’ Un Certain Regard.\n\nFriday, October 30, 7pm at Museum of the Moving Image in New York City, followed by a Q&A with acclaimed director Manuela Martelli!",
+        "created_at": "2026-10-29T14:45:56.051Z",
+        "source": "https://bsky.app/profile/cinematropical.com/post/3myziyfe74k2o",
+        "mapped_location": "Museum of the Moving Image",
+        "precision_level": "address",
+        "location_text": "Museum of the Moving Image",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzj6w4zkvt2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Pelham Bay Park-bound 6 trains are running with delays after we moved a train with a mechanical problem at Cypress Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T14:49:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzj6w4zkvt2",
+        "mapped_location": "Cypress Av",
+        "precision_level": "address",
+        "location_text": "Cypress Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ygkqlmtpc2u764in55dck7m2/app.bsky.feed.post/3myzjbalxip26",
+        "handle": "thenyic.bsky.social",
+        "text": "Blakeman's defense of ICE is unconscionable after the events in Marble Hill proved definitively that the agency has no regard for public safety in their operations. Calling for anything less than the complete dismantling of ICE is unacceptable.\nhttps://www.politico.com/newsletters/newyorkplaybook",
+        "created_at": "2026-10-29T14:50:51.023008975Z",
+        "source": "https://bsky.app/profile/thenyic.bsky.social/post/3myzjbalxip26",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877,
+          40.851
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7qaeiq5fnvuwbfqfm72i27ki/app.bsky.feed.post/3myzjfxrb422d",
+        "handle": "okieyank.bsky.social",
+        "text": "It was hard for him since he's never seen these animals outside of the Bronx Zoo when he was a kid.",
+        "created_at": "2026-10-29T14:53:31.561Z",
+        "source": "https://bsky.app/profile/okieyank.bsky.social/post/3myzjfxrb422d",
+        "mapped_location": "the Bronx Zoo",
+        "precision_level": "address",
+        "location_text": "the Bronx Zoo",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982,
+          40.754
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hengvoaq3tkjopvjnzc7zdjd/app.bsky.feed.post/3myzjpaeyud2j",
+        "handle": "wmmajors.bsky.social",
+        "text": "The TCS New York City Marathon Expo presented by New Balance is open!\n\nYou'll find us at stand #604 in the main hall of the Javits Center and we'll be here today until 8PM.\n\nStop by and say hello! 👋 ",
+        "created_at": "2026-10-29T14:58:42.570484715Z",
+        "source": "https://bsky.app/profile/wmmajors.bsky.social/post/3myzjpaeyud2j",
+        "mapped_location": "the Javits Center",
+        "precision_level": "address",
+        "location_text": "the Javits Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzjrhib4ad2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown N, Q‌ trains are running with delays after we moved a train that had its brakes activated near DeKalb Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T14:59:54.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzjrhib4ad2",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myzjrkqfgp22",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Part-Time Producer, Create or Destroy  at Vox Media\n📍 New York, NY \n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-29T15:00:00.452Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myzjrkqfgp22",
+        "mapped_location": "New York, NY",
+        "precision_level": "address",
+        "location_text": "New York, NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Vox Media"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bpdk6pmqqdym6nquk2w25ehd/app.bsky.feed.post/3myzjrkqfgp22",
+        "handle": "spotdhire.bsky.social",
+        "text": "💼 Part-Time Producer, Create or Destroy  at Vox Media\n📍 New York, NY \n\nSwipe & apply in 2 min 👉 spotdhire.com\n\n#jobs #hiring",
+        "created_at": "2026-10-29T15:00:00.452Z",
+        "source": "https://bsky.app/profile/spotdhire.bsky.social/post/3myzjrkqfgp22",
+        "mapped_location": "Vox Media",
+        "precision_level": "address",
+        "location_text": "Vox Media",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myzjrlelaw2c",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Coney Island-Stillwell Av-bound [N][Q]  trains are running with delays after we moved a train that had its brakes activated near DeKalb Av.",
+        "created_at": "2026-10-29T15:00:00.957Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myzjrlelaw2c",
+        "mapped_location": "DeKalb Av",
+        "precision_level": "address",
+        "location_text": "DeKalb Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

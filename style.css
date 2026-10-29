@@ -789,6 +789,106 @@ main {
   outline-offset: 2px;
 }
 
+/* ===== Radius-filter panel (overlay, top-left) =====
+   Same recipe as .category-panel right above it: --panel-bg / --panel-border,
+   8px radius, same drop shadow -- stacked below it in .map-overlay-topleft's
+   flex column. */
+
+.radius-panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  width: 188px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  pointer-events: auto;
+}
+
+.radius-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.radius-panel-title {
+  margin: 0 0 0.45rem 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.radius-clear-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 0.1rem 0.3rem 0.1rem;
+  cursor: pointer;
+}
+
+.radius-clear-btn:hover {
+  color: var(--text-primary);
+}
+
+/* Draw-circle toggle: an obvious on/off affordance -- while active, the
+   button itself flips to the accent fill so there's no ambiguity about
+   whether clicking the map right now draws a circle or does its normal
+   thing (select a pin, clear the panel, etc). */
+.radius-draw-toggle {
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 0.55rem;
+}
+
+.radius-draw-toggle:hover {
+  border-color: var(--accent);
+}
+
+.radius-draw-toggle.is-active {
+  background: var(--accent);
+  color: #0b0e14;
+  border-color: var(--accent);
+}
+
+.radius-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.radius-panel input[type="range"] {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--accent);
+}
+
+.radius-value {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 3em;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* A circle is actually active as a filter right now (vs. the slider just
+   sitting at its default, unused). */
+.radius-panel.is-filtering {
+  border-color: var(--accent);
+}
+
 /* ===== Webcam popup (map layer -- lighter than the full detail panel) ===== */
 
 .camera-popup .maplibregl-popup-content {
@@ -879,15 +979,16 @@ main {
 
   .legend {
     bottom: auto;
-    /* Clears the category-filter panel, which (like the status line) also
-       anchors top-left on mobile -- without this they'd overlap, since
-       both now live in the top strip above the map. */
-    top: 12rem;
+    /* Clears the category-filter + radius-filter panels, which (like the
+       status line) also anchor top-left on mobile -- without this they'd
+       overlap, since all three now live in the top strip above the map. */
+    top: 18rem;
     left: auto;
     right: 0.6rem;
   }
 
-  .category-panel {
+  .category-panel,
+  .radius-panel {
     width: 170px;
   }
 }

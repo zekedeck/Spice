@@ -26,6 +26,18 @@
   // ~979 dots at the default citywide view; reported live as "shows
   // nothing").
 
+  // Radius filter: draw-a-circle + synced 1-25mi slider, restricting visible
+  // pins to within some distance of a chosen center. RADIUS_EARTH_MILES
+  // matches pipeline/radius_filter.py's haversine_miles() constant exactly
+  // (same formula, ported rather than reinvented) so "N miles" here means
+  // the same thing it would mean server-side.
+  var RADIUS_MIN_MILES = 1;
+  var RADIUS_MAX_MILES = 25;
+  var RADIUS_DEFAULT_MILES = 5;
+  var RADIUS_EARTH_MILES = 3958.8;
+  var MILES_TO_METERS = 1609.344;
+  var RADIUS_CIRCLE_POINTS = 64;
+
   var map = null;
   var mode = "live"; // "live" | "archive"
   var allFeatures = []; // currently loaded map-pin feature set (post-lookback, pre-search)
@@ -34,6 +46,14 @@
   var liveRefreshTimer = null;
   var nycCameras = []; // static NYC DOT traffic-camera reference data; loaded once, no network per-lookup
   var cameraRefreshTimer = null; // re-fetches open camera thumbnails on a tick; see startCameraRefresh()
+
+  // Radius-filter state: null center means the filter is inactive (passes
+  // everything). radiusMiles still holds a value even when inactive, purely
+  // so the slider has something sane to show/start from.
+  var radiusCenter = null; // [lng, lat] or null
+  var radiusMiles = RADIUS_DEFAULT_MILES;
+  var drawModeActive = false;
+  var isDrawingDrag = false;
 
   var statusLine = document.getElementById("status-line");
   var detailPanel = document.getElementById("detail-panel");
@@ -65,6 +85,11 @@
   var toggleCrime = document.getElementById("toggle-crime");
   var togglePolice = document.getElementById("toggle-police");
   var toggleWebcams = document.getElementById("toggle-webcams");
+  var radiusPanel = document.getElementById("radius-panel");
+  var radiusDrawToggle = document.getElementById("radius-draw-toggle");
+  var radiusSlider = document.getElementById("radius-slider");
+  var radiusValueEl = document.getElementById("radius-value");
+  var radiusClearBtn = document.getElementById("radius-clear");
 
   function setStatus(msg) {
     statusLine.textContent = msg || "";
@@ -559,6 +584,110 @@
     return output;
   }
 
+  // ---------------------------------------------------------------------
+  // Radius filter
+  // ---------------------------------------------------------------------
+
+  // Ported directly from pipeline/radius_filter.py's haversine_miles() --
+  // same standard haversine formula, same R=3958.8 Earth-radius constant --
+  // so this filter's notion of "N miles" matches the already-validated
+  // server-side one instead of inventing separate distance math client-side.
+  function haversineMiles(lat1, lng1, lat2, lng2) {
+    var dLat = ((lat2 - lat1) * Math.PI) / 180;
+    var dLng = ((lng2 - lng1) * Math.PI) / 180;
+    var a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos((lat1 * Math.PI) / 180) *
+        Math.cos((lat2 * Math.PI) / 180) *
+        Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return RADIUS_EARTH_MILES * 2 * Math.asin(Math.sqrt(a));
+  }
+
+  // Real geographic circle (constant real-world radius), not a flat
+  // degree-offset ellipse: walks a full bearing sweep through the same
+  // metersToLngLatDelta() small-distance conversion the pin-stacking offsets
+  // above already use, converting miles -> meters at the boundary rather
+  // than writing separate trig for this feature.
+  function radiusCircleRing(center, miles) {
+    var meters = miles * MILES_TO_METERS;
+    var ring = [];
+    for (var i = 0; i <= RADIUS_CIRCLE_POINTS; i++) {
+      var bearing = (2 * Math.PI * i) / RADIUS_CIRCLE_POINTS;
+      var delta = metersToLngLatDelta(center[1], bearing, meters);
+      ring.push([center[0] + delta[0], center[1] + delta[1]]);
+    }
+    return ring;
+  }
+
+  function radiusCircleGeoJSON() {
+    if (!radiusCenter) return { type: "FeatureCollection", features: [] };
+    return {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          properties: {},
+          geometry: { type: "Polygon", coordinates: [radiusCircleRing(radiusCenter, radiusMiles)] }
+        }
+      ]
+    };
+  }
+
+  function updateRadiusCircleLayer() {
+    var source = map && map.getSource("radius-circle");
+    if (source) source.setData(radiusCircleGeoJSON());
+  }
+
+  function updateRadiusValueLabel() {
+    if (radiusValueEl) radiusValueEl.textContent = radiusMiles + " mi";
+  }
+
+  function updateRadiusActiveUi() {
+    if (radiusClearBtn) radiusClearBtn.hidden = !radiusCenter;
+    if (radiusPanel) radiusPanel.classList.toggle("is-filtering", !!radiusCenter);
+  }
+
+  // No radius filter active -> passes unconditionally, matching
+  // passesLiveWindow(f)'s pattern just below.
+  function passesRadius(f) {
+    if (!radiusCenter) return true;
+    var coords = f.geometry && f.geometry.coordinates;
+    if (!coords) return true;
+    return haversineMiles(radiusCenter[1], radiusCenter[0], coords[1], coords[0]) <= radiusMiles;
+  }
+
+  function setDrawModeActive(active) {
+    drawModeActive = active;
+    isDrawingDrag = false;
+    if (radiusDrawToggle) {
+      radiusDrawToggle.classList.toggle("is-active", active);
+      radiusDrawToggle.setAttribute("aria-pressed", active ? "true" : "false");
+      radiusDrawToggle.textContent = active ? "Click + drag on map…" : "Draw circle";
+    }
+    if (map) {
+      // Disabling dragPan while drawing keeps mousedown-drag from panning
+      // the map instead of sizing the circle.
+      if (active) {
+        map.dragPan.disable();
+        map.getCanvas().style.cursor = "crosshair";
+      } else {
+        map.dragPan.enable();
+        map.getCanvas().style.cursor = "";
+      }
+    }
+  }
+
+  function clearRadiusFilter() {
+    radiusCenter = null;
+    isDrawingDrag = false;
+    radiusMiles = RADIUS_DEFAULT_MILES;
+    if (radiusSlider) radiusSlider.value = String(RADIUS_DEFAULT_MILES);
+    updateRadiusValueLabel();
+    updateRadiusActiveUi();
+    updateRadiusCircleLayer();
+    applyFilters();
+  }
+
   function currentAst() {
     var raw = searchInput.value.trim();
     if (!raw) return null;
@@ -602,7 +731,12 @@
     var ast = currentAst();
     var categoryAsts = activeCategoryAsts();
     function passes(f) {
-      return (ast ? matchesSearch(f, ast) : true) && matchesAnyAst(f, categoryAsts) && passesLiveWindow(f);
+      return (
+        (ast ? matchesSearch(f, ast) : true) &&
+        matchesAnyAst(f, categoryAsts) &&
+        passesLiveWindow(f) &&
+        passesRadius(f)
+      );
     }
     var filteredPins = allFeatures.filter(passes);
     var filteredStateMentions = allStateMentions.filter(passes);
@@ -1491,6 +1625,36 @@
         }
       });
 
+      // Radius-filter circle. Added before "pins" so it renders below the
+      // pin layers in z-order (translucent fill + visible border, pins
+      // stay legible on top). Empty FeatureCollection until a circle
+      // actually exists (see radiusCircleGeoJSON()).
+      map.addSource("radius-circle", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] }
+      });
+
+      map.addLayer({
+        id: "radius-circle-fill",
+        type: "fill",
+        source: "radius-circle",
+        paint: {
+          "fill-color": "#5b8cff",
+          "fill-opacity": 0.12
+        }
+      });
+
+      map.addLayer({
+        id: "radius-circle-line",
+        type: "line",
+        source: "radius-circle",
+        paint: {
+          "line-color": "#5b8cff",
+          "line-width": 2,
+          "line-opacity": 0.85
+        }
+      });
+
       // Post pins. No clustering -- reported live as unwanted ("bird's eye
       // view bubbles"); removed entirely rather than just visually
       // suppressed, so there's no leftover cluster config to reintroduce
@@ -1614,6 +1778,10 @@
       // trusting e.features[0], which returns every feature under that
       // pixel across the whole layer, not just the first hit.
       function handlePinClick(e) {
+        // Draw mode takes priority: setting the circle's center is the
+        // whole point of clicking the map right now, even if a pin happens
+        // to be under the cursor.
+        if (drawModeActive) return;
         var features = map.queryRenderedFeatures(e.point, { layers: ["pin-point"] });
         if (!features.length) return;
 
@@ -1641,20 +1809,65 @@
       map.on("click", "pin-point", handlePinClick);
 
       map.on("click", "camera-dots", function (e) {
+        if (drawModeActive) return;
         if (e.features && e.features[0]) openCameraPopup(e.features[0]);
       });
 
       // Click elsewhere on the map (not on any interactive layer above)
       // clears the open detail panel.
       map.on("click", function (e) {
+        if (drawModeActive) return;
         var features = map.queryRenderedFeatures(e.point, { layers: PIN_INTERACTIVE_LAYERS });
         if (features.length === 0) clearSelection();
       });
 
       PIN_INTERACTIVE_LAYERS.forEach(function (layerId) {
-        map.on("mouseenter", layerId, function () { map.getCanvas().style.cursor = "pointer"; });
-        map.on("mouseleave", layerId, function () { map.getCanvas().style.cursor = ""; });
+        map.on("mouseenter", layerId, function () { if (!drawModeActive) map.getCanvas().style.cursor = "pointer"; });
+        map.on("mouseleave", layerId, function () { if (!drawModeActive) map.getCanvas().style.cursor = ""; });
       });
+
+      // --- Radius-filter draw-circle interaction --------------------------
+      // mousedown (while draw mode is active) sets the fixed center;
+      // mousemove live-updates the radius to the cursor's current
+      // real-world (haversine) distance from that center, re-rendering the
+      // circle source on every tick; mouseup finalizes. Bound on the map
+      // generally rather than a specific layer -- the center can legally
+      // land on top of a pin, and draw mode takes priority over the normal
+      // pin-click handling above (guarded via the drawModeActive checks
+      // there).
+      map.on("mousedown", function (e) {
+        if (!drawModeActive) return;
+        e.preventDefault();
+        isDrawingDrag = true;
+        radiusCenter = [e.lngLat.lng, e.lngLat.lat];
+        radiusMiles = RADIUS_MIN_MILES;
+        if (radiusSlider) radiusSlider.value = String(radiusMiles);
+        updateRadiusValueLabel();
+        updateRadiusActiveUi();
+        updateRadiusCircleLayer();
+        applyFilters();
+      });
+
+      map.on("mousemove", function (e) {
+        if (!drawModeActive || !isDrawingDrag || !radiusCenter) return;
+        var dist = haversineMiles(radiusCenter[1], radiusCenter[0], e.lngLat.lat, e.lngLat.lng);
+        radiusMiles = Math.round(Math.min(RADIUS_MAX_MILES, Math.max(RADIUS_MIN_MILES, dist)));
+        if (radiusSlider) radiusSlider.value = String(radiusMiles);
+        updateRadiusValueLabel();
+        updateRadiusCircleLayer();
+        applyFilters();
+      });
+
+      function finishDrawingDrag() {
+        if (!isDrawingDrag) return;
+        isDrawingDrag = false;
+        applyFilters();
+      }
+      map.on("mouseup", finishDrawingDrag);
+      // MapLibre's own "mouseup" only fires for releases over the canvas --
+      // catch releases that end outside the map too, so a drag can't get
+      // stuck "active" with no way to finalize it.
+      document.addEventListener("mouseup", finishDrawingDrag);
 
       renderCameraLayer(); // in case loadCameras() already resolved
 
@@ -1689,6 +1902,39 @@
 
   lookbackApply.addEventListener("click", handleLookbackApply);
   lookbackReset.addEventListener("click", handleLookbackReset);
+
+  if (radiusDrawToggle) {
+    radiusDrawToggle.addEventListener("click", function () {
+      setDrawModeActive(!drawModeActive);
+    });
+  }
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && drawModeActive) setDrawModeActive(false);
+  });
+
+  if (radiusSlider) {
+    radiusSlider.addEventListener("input", function () {
+      var parsed = parseInt(radiusSlider.value, 10);
+      radiusMiles = isNaN(parsed)
+        ? RADIUS_DEFAULT_MILES
+        : Math.min(RADIUS_MAX_MILES, Math.max(RADIUS_MIN_MILES, parsed));
+      // Slider used before any circle was drawn: establish a default
+      // center (current map center) rather than requiring draw-first.
+      if (!radiusCenter && map) {
+        var c = map.getCenter();
+        radiusCenter = [c.lng, c.lat];
+      }
+      updateRadiusValueLabel();
+      updateRadiusActiveUi();
+      updateRadiusCircleLayer();
+      applyFilters();
+    });
+  }
+
+  if (radiusClearBtn) {
+    radiusClearBtn.addEventListener("click", clearRadiusFilter);
+  }
 
   if (liveWindowSlider) {
     liveWindowSlider.addEventListener("input", function () {

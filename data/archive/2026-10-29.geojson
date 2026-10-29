@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T23:02:00.659226Z",
-    "total_pins": 163
+    "generated_at": "2026-10-29T23:15:17.147245Z",
+    "total_pins": 166
   },
   "features": [
     {
@@ -4103,6 +4103,81 @@
         "mapped_location": "brooklyn new york",
         "precision_level": "address",
         "location_text": "brooklyn new york",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h3jvvlvmhn6hsdev4lq3co4a/app.bsky.feed.post/3mz2f4er6w22i",
+        "handle": "efrex.bsky.social",
+        "text": "Also depends on your definitions of “comfortably” and “decent area.” My parents raised three kids in a Washington Heights 2-bedroom without owning a car on 2 public-sector incomes; does that count?",
+        "created_at": "2026-10-29T23:09:14.417Z",
+        "source": "https://bsky.app/profile/efrex.bsky.social/post/3mz2f4er6w22i",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2jsyq4agb3wjnh3gvbqxpn27/app.bsky.feed.post/3mz2f4s5rq72u",
+        "handle": "fashionworldwide.bsky.social",
+        "text": "Parties, Parties, Parties! LoveShackFancy’s Pink SoHo Bash, Mick Rock’s Rocky Horror Book Celebration , And More!\n\n#CFDA #Diwali #Events #jesseltaank #loveshackfancy\n\nhttps://justpaste.in/fashion/parties-parties-parties-loveshackfancys-pink-soho-bash-mick-rocks-rocky-horror-celebration-and-more/",
+        "created_at": "2026-10-29T23:09:27Z",
+        "source": "https://bsky.app/profile/fashionworldwide.bsky.social/post/3mz2f4s5rq72u",
+        "mapped_location": "LoveShackFancy’s Pink SoHo Bash",
+        "precision_level": "address",
+        "location_text": "LoveShackFancy’s Pink SoHo Bash",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959,
+          40.801
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mbjeunj67zjwzetjsrqif2yp/app.bsky.feed.post/3mz2fapcadk27",
+        "handle": "nicholaskaufmann.bsky.social",
+        "text": "Getting ready to see GET OUT in concert at the New York Philharmonic!",
+        "created_at": "2026-10-29T23:11:39.669Z",
+        "source": "https://bsky.app/profile/nicholaskaufmann.bsky.social/post/3mz2fapcadk27",
+        "mapped_location": "the New York Philharmonic",
+        "precision_level": "address",
+        "location_text": "the New York Philharmonic",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

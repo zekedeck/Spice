@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T23:02:00.640996Z",
-    "total_pins": 290
+    "generated_at": "2026-10-29T23:15:17.137235Z",
+    "total_pins": 291
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0014939,
-          40.7142787
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bed3ip3xucevwp7ddv2odpcf/app.bsky.feed.post/3myvecnajm22z",
-        "handle": "killedbyapencil.bsky.social",
-        "text": "Also, Katie Johnson testified about Trump raping her. She testified in New York Court and had a witness and she also provided a video testimony.\n\nShe dropped charges due to death threats.\n\nThe information was out there but the repubs decided to side with the child rapist. Again.",
-        "created_at": "2026-10-27T23:11:32.201Z",
-        "source": "https://bsky.app/profile/killedbyapencil.bsky.social/post/3myvecnajm22z",
-        "mapped_location": "New York State Supreme Court, 60, Centre Street, Civic Center, Lower Manhattan, Manhattan, New York County, New York, 10007, United States",
-        "precision_level": "unclassified",
-        "location_text": "New York Court",
-        "confidence": 0.64,
-        "address_type": "courthouse",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.753,
-          40.737
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fvdxmcpuxyohkq7oyywyoiar/app.bsky.feed.post/3myvefk3zik23",
-        "handle": "spooknine.bsky.social",
-        "text": "If you're a New Yorker, imagine the worst parts of Long Island lining up for an Obama rally",
-        "created_at": "2026-10-27T23:13:09.570Z",
-        "source": "https://bsky.app/profile/spooknine.bsky.social/post/3myvefk3zik23",
-        "mapped_location": "Long Island Motor Parkway, Queens, Queens County, New York, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Long Island",
-        "confidence": 0.89,
-        "address_type": "park",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7311,6 +7261,81 @@
         "mapped_location": "brooklyn new york",
         "precision_level": "address",
         "location_text": "brooklyn new york",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h3jvvlvmhn6hsdev4lq3co4a/app.bsky.feed.post/3mz2f4er6w22i",
+        "handle": "efrex.bsky.social",
+        "text": "Also depends on your definitions of “comfortably” and “decent area.” My parents raised three kids in a Washington Heights 2-bedroom without owning a car on 2 public-sector incomes; does that count?",
+        "created_at": "2026-10-29T23:09:14.417Z",
+        "source": "https://bsky.app/profile/efrex.bsky.social/post/3mz2f4er6w22i",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.724
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2jsyq4agb3wjnh3gvbqxpn27/app.bsky.feed.post/3mz2f4s5rq72u",
+        "handle": "fashionworldwide.bsky.social",
+        "text": "Parties, Parties, Parties! LoveShackFancy’s Pink SoHo Bash, Mick Rock’s Rocky Horror Book Celebration , And More!\n\n#CFDA #Diwali #Events #jesseltaank #loveshackfancy\n\nhttps://justpaste.in/fashion/parties-parties-parties-loveshackfancys-pink-soho-bash-mick-rocks-rocky-horror-celebration-and-more/",
+        "created_at": "2026-10-29T23:09:27Z",
+        "source": "https://bsky.app/profile/fashionworldwide.bsky.social/post/3mz2f4s5rq72u",
+        "mapped_location": "LoveShackFancy’s Pink SoHo Bash",
+        "precision_level": "address",
+        "location_text": "LoveShackFancy’s Pink SoHo Bash",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959,
+          40.801
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mbjeunj67zjwzetjsrqif2yp/app.bsky.feed.post/3mz2fapcadk27",
+        "handle": "nicholaskaufmann.bsky.social",
+        "text": "Getting ready to see GET OUT in concert at the New York Philharmonic!",
+        "created_at": "2026-10-29T23:11:39.669Z",
+        "source": "https://bsky.app/profile/nicholaskaufmann.bsky.social/post/3mz2fapcadk27",
+        "mapped_location": "the New York Philharmonic",
+        "precision_level": "address",
+        "location_text": "the New York Philharmonic",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:35:43.620505Z",
-    "total_pins": 37
+    "generated_at": "2026-10-29T14:52:54.047975Z",
+    "total_pins": 45
   },
   "features": [
     {
@@ -932,6 +932,206 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l6vmgrw34iydvtvktkym2zhm/app.bsky.feed.post/3myzil3guh22w",
+        "handle": "avareavesimages.bsky.social",
+        "text": "Ahh, after weeks of planning my  photo trip to NYC, now cancelled due to predicted rain that will ruin my shoot for glassy waters in Central Park & the East river. I will save that plane ticket for maybe Charleston, next spring. A wee bit disappointed, yet great weather in my area for photography.",
+        "created_at": "2026-10-29T14:38:29.445Z",
+        "source": "https://bsky.app/profile/avareavesimages.bsky.social/post/3myzil3guh22w",
+        "mapped_location": "Central Park, New York County, New York, 11025, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Central Park &",
+        "confidence": 1.0,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nztbvvo2gl4227zuxjf7gog3/app.bsky.feed.post/3myzinsjq522p",
+        "handle": "ddayen.bsky.social",
+        "text": ".@jamesjbaratta.bsky.social was in New York's tightest, most contentious and most expensive House district, where Blue Dog Democrat Cait Conley spent the final week pitching to get corporate money out of politics and impose term limits on Supreme Court justices.\nprospect.org/2026/10/29/c...",
+        "created_at": "2026-10-29T14:40:00.765Z",
+        "source": "https://bsky.app/profile/ddayen.bsky.social/post/3myzinsjq522p",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:n6ug3m3yqz35c2dmyhlksh22/app.bsky.feed.post/3myziqregic2r",
+        "handle": "buddhistyou.bsky.social",
+        "text": "I also know those streets well. Particularly in the 1970s, when I was in Greenwich Village (and other parts of the city) all the time. BTW, love the movie Pope of Greenwich Village. Underrated great one.",
+        "created_at": "2026-10-29T14:41:40.205Z",
+        "source": "https://bsky.app/profile/buddhistyou.bsky.social/post/3myziqregic2r",
+        "mapped_location": "Greenwich Village",
+        "precision_level": "address",
+        "location_text": "Greenwich Village",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uqa5fa2owfli5jci3sxsgtad/app.bsky.feed.post/3myzisvdpuc2k",
+        "handle": "indivisible-inco.bsky.social",
+        "text": "Let’s encourage the last batch of voters to vote at a pop-up rally on Friday! We’ll have Voting and other signs.Let’s get together to encourage voters to vote!\n START TIME is 11:30.\nGET OUT THE VOTE RALLY\nFriday, October 30\n11:30 - 12:30 \n16th street east, on the south side of Marine Drive, Astoria",
+        "created_at": "2026-10-29T14:42:51.479Z",
+        "source": "https://bsky.app/profile/indivisible-inco.bsky.social/post/3myzisvdpuc2k",
+        "mapped_location": "12:30 \n16th street east",
+        "precision_level": "address",
+        "location_text": "12:30 \n16th street east",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9095353,
+          40.806938
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndl7zzzfmj7pnvilg3y7wspf/app.bsky.feed.post/3myziu77n3w2w",
+        "handle": "fnyt.bsky.social",
+        "text": "Bronx Fire Caused by E-Bike Battery Kills Boy (Gift Article) (yesterday)\nf the nyt",
+        "created_at": "2026-10-29T14:43:35.351Z",
+        "source": "https://bsky.app/profile/fnyt.bsky.social/post/3myziu77n3w2w",
+        "mapped_location": "Bronx Borough Jail, The Bronx, Bronx County, New York, United States",
+        "precision_level": "unclassified",
+        "location_text": "Bronx Fire",
+        "confidence": 0.64,
+        "address_type": "construction",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.767
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lndnpt4g4blym2uawllddh46/app.bsky.feed.post/3myziyfe74k2o",
+        "handle": "cinematropical.com",
+        "text": "Tomorrow in NYC! Sneak preview of THE MELTDOWN, Chile’s official Oscar submission, premiered in competition at Cannes’ Un Certain Regard.\n\nFriday, October 30, 7pm at Museum of the Moving Image in New York City, followed by a Q&A with acclaimed director Manuela Martelli!",
+        "created_at": "2026-10-29T14:45:56.051Z",
+        "source": "https://bsky.app/profile/cinematropical.com/post/3myziyfe74k2o",
+        "mapped_location": "Museum of the Moving Image",
+        "precision_level": "address",
+        "location_text": "Museum of the Moving Image",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzj6w4zkvt2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Pelham Bay Park-bound 6 trains are running with delays after we moved a train with a mechanical problem at Cypress Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T14:49:33.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzj6w4zkvt2",
+        "mapped_location": "Cypress Av",
+        "precision_level": "address",
+        "location_text": "Cypress Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.794
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ygkqlmtpc2u764in55dck7m2/app.bsky.feed.post/3myzjbalxip26",
+        "handle": "thenyic.bsky.social",
+        "text": "Blakeman's defense of ICE is unconscionable after the events in Marble Hill proved definitively that the agency has no regard for public safety in their operations. Calling for anything less than the complete dismantling of ICE is unacceptable.\nhttps://www.politico.com/newsletters/newyorkplaybook",
+        "created_at": "2026-10-29T14:50:51.023008975Z",
+        "source": "https://bsky.app/profile/thenyic.bsky.social/post/3myzjbalxip26",
+        "mapped_location": "Marble Hill",
+        "precision_level": "address",
+        "location_text": "Marble Hill",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

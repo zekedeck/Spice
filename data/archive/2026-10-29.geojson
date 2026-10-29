@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T18:50:45.946903Z",
-    "total_pins": 98
+    "generated_at": "2026-10-29T19:06:57.215456Z",
+    "total_pins": 110
   },
   "features": [
     {
@@ -2468,6 +2468,308 @@
         "mapped_location": "New York City’s",
         "precision_level": "address",
         "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzwqdkpquh2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 2, 5 trains are running express from E 180 St to 3 Av/149 St while we address a signal problem at Freeman St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T18:51:52.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzwqdkpquh2",
+        "mapped_location": "Freeman St.",
+        "precision_level": "address",
+        "location_text": "Freeman St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myzwtotr7i2g",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:53:50.384Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myzwtotr7i2g",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:47twb2c4tongah7ylr6swg6y/app.bsky.feed.post/3myzwujjxbq2s",
+        "handle": "exercisebriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:54:18.536Z",
+        "source": "https://bsky.app/profile/exercisebriefly.bsky.social/post/3myzwujjxbq2s",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atl4zp7s4rrjqvwtmb6en7uj/app.bsky.feed.post/3myzwulw3jd2j",
+        "handle": "chicagobriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:54:21.026Z",
+        "source": "https://bsky.app/profile/chicagobriefly.bsky.social/post/3myzwulw3jd2j",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jxm5xib5gye4mbgds7c4f7wo/app.bsky.feed.post/3myzwx7gjok24",
+        "handle": "ambitiousapex.blacksky.app",
+        "text": "Born and raised in Bushwick. Left a while ago but family is still there.",
+        "created_at": "2026-10-29T18:55:48.667Z",
+        "source": "https://bsky.app/profile/ambitiousapex.blacksky.app/post/3myzwx7gjok24",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.888,
+          40.687
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b4juaw7brawpedsx5jvsytnl/app.bsky.feed.post/3myzwyoj6l227",
+        "handle": "brooklynda.org",
+        "text": "TOMORROW: Join us from 5:30 PM - 8 PM in Highland Park with @council.nyc.gov Sandy Nurse and tour Cypress Hills' haunted trail 👻",
+        "created_at": "2026-10-29T18:56:38.034Z",
+        "source": "https://bsky.app/profile/brooklynda.org/post/3myzwyoj6l227",
+        "mapped_location": "Highland Park, Queens, Queens County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Highland Park",
+        "confidence": 1.0,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:swccy6h2mkilrg2dnfkwztus/app.bsky.feed.post/3myzwzkexok2m",
+        "handle": "paaaaaaaaabs.bsky.social",
+        "text": "I was a big mask guy, and I rarely socialized during Covid. This is my friend on April 1, 2020. I lived alone in a studio on the Upper East Side, finishing college, and we sat on his balcony in Murray Hill, wearing masks",
+        "created_at": "2026-10-29T18:57:07.250Z",
+        "source": "https://bsky.app/profile/paaaaaaaaabs.bsky.social/post/3myzwzkexok2m",
+        "mapped_location": "Murray Hill",
+        "precision_level": "address",
+        "location_text": "Murray Hill",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w5s5uimnclnhauolhkhs4oma/app.bsky.feed.post/3myzxegxiyk2r",
+        "handle": "harkitshannah.bsky.social",
+        "text": "Yessss they have one in Flushing and my birthday is coming up, thank you!!",
+        "created_at": "2026-10-29T19:03:12.770Z",
+        "source": "https://bsky.app/profile/harkitshannah.bsky.social/post/3myzxegxiyk2r",
+        "mapped_location": "Flushing",
+        "precision_level": "address",
+        "location_text": "Flushing",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q5ucvn3vlz23nnoqfp62jaw7/app.bsky.feed.post/3myzxeh5eik2e",
+        "handle": "nycabdl.bsky.social",
+        "text": "🍼Diaper Happy Hour 🍼\nTuesday, Nov 3\n📍Rockbar NYC, 7pm \n👔Any attire is good attire \n💰$5 suggested donation",
+        "created_at": "2026-10-29T19:03:12.954Z",
+        "source": "https://bsky.app/profile/nycabdl.bsky.social/post/3myzxeh5eik2e",
+        "mapped_location": "Rockbar NYC, 7pm",
+        "precision_level": "address",
+        "location_text": "Rockbar NYC, 7pm",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Nov 3\nRockbar NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q5ucvn3vlz23nnoqfp62jaw7/app.bsky.feed.post/3myzxeh5eik2e",
+        "handle": "nycabdl.bsky.social",
+        "text": "🍼Diaper Happy Hour 🍼\nTuesday, Nov 3\n📍Rockbar NYC, 7pm \n👔Any attire is good attire \n💰$5 suggested donation",
+        "created_at": "2026-10-29T19:03:12.954Z",
+        "source": "https://bsky.app/profile/nycabdl.bsky.social/post/3myzxeh5eik2e",
+        "mapped_location": "Nov 3\nRockbar NYC",
+        "precision_level": "address",
+        "location_text": "Nov 3\nRockbar NYC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Rockbar NYC, 7pm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.045,
+          40.689
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:h5so5l4frrp67roqwztxnumh/app.bsky.feed.post/3myzxf6obbc2f",
+        "handle": "theagentsculder.bsky.social",
+        "text": "Dude, you're from New York. You should know what it says on the Statue of Liberty.",
+        "created_at": "2026-10-29T19:03:37.633Z",
+        "source": "https://bsky.app/profile/theagentsculder.bsky.social/post/3myzxf6obbc2f",
+        "mapped_location": "the Statue of Liberty",
+        "precision_level": "address",
+        "location_text": "the Statue of Liberty",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:swccy6h2mkilrg2dnfkwztus/app.bsky.feed.post/3myzxfcs4yk2o",
+        "handle": "paaaaaaaaabs.bsky.social",
+        "text": "I was a big mask guy, and I rarely socialized during Covid pre-vaccines. This is my friend on April 1, 2020. I lived alone in a studio on the Upper East Side, finishing college, and we sat on his balcony in Murray Hill, wearing masks",
+        "created_at": "2026-10-29T19:03:41.950Z",
+        "source": "https://bsky.app/profile/paaaaaaaaabs.bsky.social/post/3myzxfcs4yk2o",
+        "mapped_location": "Murray Hill",
+        "precision_level": "address",
+        "location_text": "Murray Hill",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

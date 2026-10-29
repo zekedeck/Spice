@@ -1,590 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T16:38:50.566205Z",
-    "total_pins": 279
+    "generated_at": "2026-10-29T18:58:44.746503Z",
+    "total_pins": 265
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.011,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6f4ltpf7z6e6mb7yp6khlvs6/app.bsky.feed.post/3myuogg6ohc2t",
-        "handle": "krazytheealaskan.bsky.social",
-        "text": "From a little bakery in lower Manhattan. I can taste it now🤤",
-        "created_at": "2026-10-27T16:39:56.698Z",
-        "source": "https://bsky.app/profile/krazytheealaskan.bsky.social/post/3myuogg6ohc2t",
-        "mapped_location": "lower Manhattan",
-        "precision_level": "address",
-        "location_text": "lower Manhattan",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.754
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
-        "handle": "respectfully.bsky.social",
-        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
-        "created_at": "2026-10-27T16:40:59.805136Z",
-        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
-        "mapped_location": "Bryant Park",
-        "precision_level": "address",
-        "location_text": "Bryant Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "42nd Street, Fifth Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.755
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
-        "handle": "respectfully.bsky.social",
-        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
-        "created_at": "2026-10-27T16:40:59.805136Z",
-        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
-        "mapped_location": "42nd Street",
-        "precision_level": "address",
-        "location_text": "42nd Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Bryant Park, Fifth Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y33ecmcemrfz7yiqb7dzlkk7/app.bsky.feed.post/3myuoicr4xb2x",
-        "handle": "respectfully.bsky.social",
-        "text": "Demonstration garden, Bryant Park, 42nd Street and Fifth Avenue, New York, New York. Visitors studying gardening notices (1918 August)\nBy: Frances Benjamin Johnston\n\n#architecture #photography #history\n\nhttps://www.loc.gov/pictures/collection/fbj/item/2007685077/",
-        "created_at": "2026-10-27T16:40:59.805136Z",
-        "source": "https://bsky.app/profile/respectfully.bsky.social/post/3myuoicr4xb2x",
-        "mapped_location": "Fifth Avenue",
-        "precision_level": "address",
-        "location_text": "Fifth Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Bryant Park, 42nd Street"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myuoqclz6a2s",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "The 4K restoration of BEGOTTEN screens Friday & Saturday at midnite at Nitehawk Williamsburg",
-        "created_at": "2026-10-27T16:45:28.462Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myuoqclz6a2s",
-        "mapped_location": "Nitehawk Williamsburg",
-        "precision_level": "address",
-        "location_text": "Nitehawk Williamsburg",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myuosttvwz22",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": ".\n.\n.\n.\n.\n#looksmaxxing #explore #fyp #viral #usa\n\nStory/Images by thronezz__\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-10-27T16:46:51.826Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myuosttvwz22",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jqskxhphqknrgaqsohf7gngs/app.bsky.feed.post/3myuou33ec22o",
-        "handle": "seanpadilla.blacksky.app",
-        "text": "I miss living within walking distance of Prospect Park",
-        "created_at": "2026-10-27T16:47:34.817Z",
-        "source": "https://bsky.app/profile/seanpadilla.blacksky.app/post/3myuou33ec22o",
-        "mapped_location": "Prospect Park",
-        "precision_level": "address",
-        "location_text": "Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dmyrlv4zb6yzoa5odr2sgsuu/app.bsky.feed.post/3myuoyr5r2c2e",
-        "handle": "imgarysuarez.bsky.social",
-        "text": "I wrote about experiencing DJ Shadow's Endtroducing....30 set at New York's worst concert venue. www.cabbageshiphop.com/dj-shadow-en...",
-        "created_at": "2026-10-27T16:50:12.181Z",
-        "source": "https://bsky.app/profile/imgarysuarez.bsky.social/post/3myuoyr5r2c2e",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lapueehwikkodx2szs3r7gei/app.bsky.feed.post/3myuq2h7irs2v",
-        "handle": "blurbette.blacksky.app",
-        "text": "So this mofo called me on my Nokia with the slide keyboard whilst on our way to Times Square because his bank was alerting him to her every purchase. \n\n“Jocelyn, I can literally map your locations from the bank alerts. Get my card back from her!”\n\nAcross from the Disney store and H&M? 😂😂 see pic/txt",
-        "created_at": "2026-10-27T17:09:02.601Z",
-        "source": "https://bsky.app/profile/blurbette.blacksky.app/post/3myuq2h7irs2v",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97,
-          40.58
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ddo2sqibuwq4kqufq37ktwxj/app.bsky.feed.post/3myuq3jzy2p2j",
-        "handle": "samfisher90.bsky.social",
-        "text": "Mamdani celebrates $2 million investment in the New York Aquarium with Pickles the seal",
-        "created_at": "2026-10-27T17:09:39Z",
-        "source": "https://bsky.app/profile/samfisher90.bsky.social/post/3myuq3jzy2p2j",
-        "mapped_location": "the New York Aquarium with Pickles",
-        "precision_level": "address",
-        "location_text": "the New York Aquarium with Pickles",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.7
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4e56qnaqzwpwg4b2hs6uo2de/app.bsky.feed.post/3myuq54izaq26",
-        "handle": "tekthrill.bsky.social",
-        "text": "An $89K humanoid robot loose in a NYC park 🤖🌳\n\nFaraday Future's robot sang to kids in Brooklyn Bridge Park, steered by remote. The goal: a future babysitter, teacher or companion.\n\n▶️ https://youtube.com/shorts/eFqeL_ZYHp0\n#Robot #AI",
-        "created_at": "2026-10-27T17:10:31.000Z",
-        "source": "https://bsky.app/profile/tekthrill.bsky.social/post/3myuq54izaq26",
-        "mapped_location": "Brooklyn Bridge Park",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2hf2oy7klxldmtznuz2zdpvm/app.bsky.feed.post/3myuqeb7d2k2f",
-        "handle": "diandramae.com",
-        "text": "Yeah, that's pretty much where I am, too. 😭 Like, we can't even really mail in postcards anymore to promote ourselves (thank god my agency is in NYC & hosts events), and conferences are so expensive. Social media & a website (+newsletters) are what we're stuck with. 🙃",
-        "created_at": "2026-10-27T17:14:31.844Z",
-        "source": "https://bsky.app/profile/diandramae.com/post/3myuqeb7d2k2f",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC &",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:e55sdg7avbg2ab6ia3xpvlth/app.bsky.feed.post/3myuqjmohwc2b",
-        "handle": "bklyndigitalmedia.bsky.social",
-        "text": "Thanks again for signing my copy before the After Hours screening at the Alamo Drafthouse in Brooklyn five years ago.",
-        "created_at": "2026-10-27T17:17:31.648Z",
-        "source": "https://bsky.app/profile/bklyndigitalmedia.bsky.social/post/3myuqjmohwc2b",
-        "mapped_location": "the Alamo Drafthouse",
-        "precision_level": "address",
-        "location_text": "the Alamo Drafthouse",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ehmnhygqp3wlwxx27o6qxo2r/app.bsky.feed.post/3myuqq6s27s26",
-        "handle": "katiestereo.bsky.social",
-        "text": "Peak social media right now: New Yorkers emotionally processing a functioning Van Wyck",
-        "created_at": "2026-10-27T17:21:11.968Z",
-        "source": "https://bsky.app/profile/katiestereo.bsky.social/post/3myuqq6s27s26",
-        "mapped_location": "functioning Van Wyck",
-        "precision_level": "address",
-        "location_text": "functioning Van Wyck",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hleqckmxi73f7bravwbyc5jj/app.bsky.feed.post/3myur2w34ok2m",
-        "handle": "alte.klezmor.im",
-        "text": "stuck at home w/ a cold again today, so poking around online to find more about him (Max Thaler, Buenos Aires born klezmer musician played for Galician landsmanshaftn in NYC 1940s-60s). figured out that his dad Elias Thaler (1884–1938) was a fruit peddler in NY probably born in Lviv.",
-        "created_at": "2026-10-27T17:27:11.925Z",
-        "source": "https://bsky.app/profile/alte.klezmor.im/post/3myur2w34ok2m",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.754
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
-        "handle": "hops45.bsky.social",
-        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
-        "created_at": "2026-10-27T17:30:17.327Z",
-        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
-        "mapped_location": "the Ed Koch Queensboro Bridge",
-        "precision_level": "address",
-        "location_text": "the Ed Koch Queensboro Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "the FDR Drive"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w2dd6tpkuat4nb5imtnqyw5x/app.bsky.feed.post/3myuraguygs2z",
-        "handle": "hops45.bsky.social",
-        "text": "City scenes: View of the Ed Koch Queensboro Bridge from the FDR Drive, NYC.\n#photography #travel #bridges #nyc",
-        "created_at": "2026-10-27T17:30:17.327Z",
-        "source": "https://bsky.app/profile/hops45.bsky.social/post/3myuraguygs2z",
-        "mapped_location": "the FDR Drive",
-        "precision_level": "address",
-        "location_text": "the FDR Drive",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "the Ed Koch Queensboro Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.59
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:v3tnp2x6agum47nllsbpcnu5/app.bsky.feed.post/3myurnhfxrs2d",
-        "handle": "achronalart.bsky.social",
-        "text": "A dear old relative of mine lived in Brighton Beach for many decades and after a while it definitely had that reputation in NYC too.",
-        "created_at": "2026-10-27T17:37:34.091Z",
-        "source": "https://bsky.app/profile/achronalart.bsky.social/post/3myurnhfxrs2d",
-        "mapped_location": "Brighton Beach",
-        "precision_level": "address",
-        "location_text": "Brighton Beach",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.59
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:oh5xyaecmavvwfdj52exwwry/app.bsky.feed.post/3myuroiszqk2c",
-        "handle": "eternaleyeroll.bsky.social",
-        "text": "Of course there are Jews in Brighton Beach, but if any New Yorker says that the 1st word to come to mind is anything other than “Russian” they’re full of shit.",
-        "created_at": "2026-10-27T17:38:09.110Z",
-        "source": "https://bsky.app/profile/eternaleyeroll.bsky.social/post/3myuroiszqk2c",
-        "mapped_location": "Brighton Beach",
-        "precision_level": "address",
-        "location_text": "Brighton Beach",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.904,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myusgbxf3pu2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "‌Forest Hills-bound M, R trains are running with delays after we requested NYPD assistance for people being disruptive on a train at Jackson Heights-Roosevelt Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-27T17:51:25.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myusgbxf3pu2",
-        "mapped_location": "Jackson Heights-Roosevelt Av",
-        "precision_level": "address",
-        "location_text": "Jackson Heights-Roosevelt Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.877,
-          40.851
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:t7wnxgjye6hhend6qfsxeghr/app.bsky.feed.post/3myusmpi52b2c",
-        "handle": "100yearsagonews.bsky.social",
-        "text": "Oct. 27, 1926: Junior, the first giraffe born at the Bronx Zoo in many years, alongside mother Jenny.",
-        "created_at": "2026-10-27T17:55:02.719Z",
-        "source": "https://bsky.app/profile/100yearsagonews.bsky.social/post/3myusmpi52b2c",
-        "mapped_location": "the Bronx Zoo",
-        "precision_level": "address",
-        "location_text": "the Bronx Zoo",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ko2uqsroewewbp7hkpwyjk62/app.bsky.feed.post/3myuspl7eu22l",
-        "handle": "weirderisgood.bsky.social",
-        "text": "Several years ago at a Halloween party at the original NYC Hard Rock.",
-        "created_at": "2026-10-27T17:56:38.920Z",
-        "source": "https://bsky.app/profile/weirderisgood.bsky.social/post/3myuspl7eu22l",
-        "mapped_location": "original NYC Hard Rock",
-        "precision_level": "address",
-        "location_text": "original NYC Hard Rock",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ko6d4ize4fpiof6rhvzejhsi/app.bsky.feed.post/3myuuz7mlnk2w",
-        "handle": "fightplutocracy.bsky.social",
-        "text": "former Miss Switzerland told the Judiciary Committee that Trump raped her at the Plaza Hotel, NYC when she was 24. According to the report, Trump “grabbed Keul from behind and forcibly raped her,” leading to “bleeding and bruising on multiple parts of her body.” \nwww.democracynow.org/2026/10/27/h...",
-        "created_at": "2026-10-27T18:37:49.797Z",
-        "source": "https://bsky.app/profile/fightplutocracy.bsky.social/post/3myuuz7mlnk2w",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7038,6 +6458,231 @@
         "confidence": 0.64,
         "address_type": "station",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3myzwf5dlez2j",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "It's a love unlike any other 🧺\n\nOlivia Colman & Alexander Skarsgård star in WICKER, steaming up the screens at Nitehawk Prospect Park starting Friday",
+        "created_at": "2026-10-29T18:45:42.469Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3myzwf5dlez2j",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jahwiuw2noa5lxjrcp6bcsfl/app.bsky.feed.post/3myzwipjpis2o",
+        "handle": "streetspac.org",
+        "text": "\"Paris now has an 11 percent biking mode share, higher than the 8 percent of people who drive in the city, Guth said, and studies have shown drops in pollution. New York City’s bike share is just 3 percent, according to Department of Transportation data.\"\nnyc.streetsblog.org/2026/10/29/t...",
+        "created_at": "2026-10-29T18:47:42.232Z",
+        "source": "https://bsky.app/profile/streetspac.org/post/3myzwipjpis2o",
+        "mapped_location": "New York City’s",
+        "precision_level": "address",
+        "location_text": "New York City’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myzwqdkpquh2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 2, 5 trains are running express from E 180 St to 3 Av/149 St while we address a signal problem at Freeman St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-10-29T18:51:52.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myzwqdkpquh2",
+        "mapped_location": "Freeman St.",
+        "precision_level": "address",
+        "location_text": "Freeman St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myzwtotr7i2g",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:53:50.384Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myzwtotr7i2g",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:47twb2c4tongah7ylr6swg6y/app.bsky.feed.post/3myzwujjxbq2s",
+        "handle": "exercisebriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:54:18.536Z",
+        "source": "https://bsky.app/profile/exercisebriefly.bsky.social/post/3myzwujjxbq2s",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:atl4zp7s4rrjqvwtmb6en7uj/app.bsky.feed.post/3myzwulw3jd2j",
+        "handle": "chicagobriefly.bsky.social",
+        "text": "Planet Fitness is closing five clubs in 2026, including its Lower Manhattan location at 25 Broadway, amid slower membership growth and pricing adjustments.\n",
+        "created_at": "2026-10-29T18:54:21.026Z",
+        "source": "https://bsky.app/profile/chicagobriefly.bsky.social/post/3myzwulw3jd2j",
+        "mapped_location": "25 Broadway",
+        "precision_level": "address",
+        "location_text": "25 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jxm5xib5gye4mbgds7c4f7wo/app.bsky.feed.post/3myzwx7gjok24",
+        "handle": "ambitiousapex.blacksky.app",
+        "text": "Born and raised in Bushwick. Left a while ago but family is still there.",
+        "created_at": "2026-10-29T18:55:48.667Z",
+        "source": "https://bsky.app/profile/ambitiousapex.blacksky.app/post/3myzwx7gjok24",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.888,
+          40.687
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b4juaw7brawpedsx5jvsytnl/app.bsky.feed.post/3myzwyoj6l227",
+        "handle": "brooklynda.org",
+        "text": "TOMORROW: Join us from 5:30 PM - 8 PM in Highland Park with @council.nyc.gov Sandy Nurse and tour Cypress Hills' haunted trail 👻",
+        "created_at": "2026-10-29T18:56:38.034Z",
+        "source": "https://bsky.app/profile/brooklynda.org/post/3myzwyoj6l227",
+        "mapped_location": "Highland Park, Queens, Queens County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Highland Park",
+        "confidence": 1.0,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:swccy6h2mkilrg2dnfkwztus/app.bsky.feed.post/3myzwzkexok2m",
+        "handle": "paaaaaaaaabs.bsky.social",
+        "text": "I was a big mask guy, and I rarely socialized during Covid. This is my friend on April 1, 2020. I lived alone in a studio on the Upper East Side, finishing college, and we sat on his balcony in Murray Hill, wearing masks",
+        "created_at": "2026-10-29T18:57:07.250Z",
+        "source": "https://bsky.app/profile/paaaaaaaaabs.bsky.social/post/3myzwzkexok2m",
+        "mapped_location": "Murray Hill",
+        "precision_level": "address",
+        "location_text": "Murray Hill",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

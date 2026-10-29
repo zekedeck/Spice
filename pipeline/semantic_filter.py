@@ -33,6 +33,24 @@ VENUE_SIGNALS = [
     "march on", "assemble at", "outside the", "in front of",
 ]
 
+# A country/state/region name (GPE) appearing anywhere in a post alongside
+# one of these is almost certainly being discussed as a world-events
+# SUBJECT ("Israel's genocide", "what is happening in Palestine a
+# genocide", "crimes against the Palestinian people"), not describing
+# where a NYC-area event is physically taking place. Checked as a plain
+# substring anywhere in the post (not phrase-order-dependent like
+# SUBJECT_SIGNALS below, and not limited to a window around the entity)
+# specifically because real-world phrasing varies too much to pin down
+# as a fixed "noun BEFORE/AFTER preposition" pattern -- e.g. "genocide in
+# Palestine" and "in Palestine a genocide" both describe the exact same
+# non-spatial reference, just with the words in a different order.
+GPE_POLITICAL_CONTEXT_SIGNALS = [
+    "genocide", "war crime", "war criminal", "crimes against",
+    "ethnic cleansing", "apartheid", "complicit", "complicity",
+    "accountability", "atrocit", "massacre", "occupation", "occupied",
+    "colonial", "propagand", "ceasefire", "zionist",
+]
+
 SUBJECT_SIGNALS = [
     "killed in", "killed by", "occupied", "invaded", "bombing in",
     "war in", "genocide in", "massacre in", "attack in", "airstrike",
@@ -110,6 +128,27 @@ def is_venue_mention(entity_text: str, post_text: str, entity_label: str, doc=No
         return True
 
     if entity_label == "GPE":
+        if any(sig in post_lower for sig in GPE_POLITICAL_CONTEXT_SIGNALS):
+            logger.debug("Political-context signal suppressed GPE: %r", entity_text)
+            return False
+        # Same check, but for "genocide" specifically obfuscated to dodge
+        # platform content moderation (seen in real data: "gen•cide",
+        # "genøcide", "gen/ cide") -- a plain substring match above
+        # misses these. "ø" (o-with-stroke) is itself a Unicode letter,
+        # so \W wouldn't match it -- match ANY 0-3 characters between "gen"
+        # and "cide" instead.
+        if re.search(r"gen.{0,3}cide", post_lower):
+            logger.debug("Obfuscated genocide signal suppressed GPE: %r", entity_text)
+            return False
+        if match and match.start() > 0 and post_text[match.start() - 1] == "-":
+            # "Pro-Palestine protest", "Anti-Israel rally": the GPE name is
+            # part of a hyphenated modifier describing the protest's CAUSE,
+            # not a location reference at all -- spaCy's NER still spans
+            # just "Palestine"/"Israel" here, dropping the "Pro-"/"Anti-"
+            # prefix that changes its role in the sentence entirely.
+            prefix = post_text[max(0, match.start() - 5):match.start() - 1].lower()
+            if prefix.endswith("pro") or prefix.endswith("anti"):
+                return False
         if match:
             # A country/state/city name used possessively ("Israel's
             # genocide", "Russia's military") is a political-actor

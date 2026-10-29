@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-29T14:02:24.088941Z",
-    "total_pins": 257
+    "generated_at": "2026-10-29T14:19:08.821181Z",
+    "total_pins": 266
   },
   "features": [
     {
@@ -6480,6 +6480,231 @@
         "mapped_location": "NYC, US",
         "precision_level": "address",
         "location_text": "NYC, US",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:73n5do2fe67m43zk6du73qsm/app.bsky.feed.post/3myzgn7pexn2x",
+        "handle": "insidepractice.bsky.social",
+        "text": "In two weeks time: Legal AI New York returns to 3 Times Square on November 11–12 - V. limited places available.\n\nProgram and registration: https://www.insidepractice.com/legal-ai-new-york\n\n#LegalAI #LegalInnovation #artificialintelligence ",
+        "created_at": "2026-10-29T14:03:53Z",
+        "source": "https://bsky.app/profile/insidepractice.bsky.social/post/3myzgn7pexn2x",
+        "mapped_location": "3 Times Square",
+        "precision_level": "address",
+        "location_text": "3 Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.147,
+          40.618
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ttlde4zjc7hoovsbqjjkm7rz/app.bsky.feed.post/3myzgnjimss2u",
+        "handle": "zoraoneill.com",
+        "text": "St. Gourd is the weak link. I feel bad for Staten Island sometimes, the token effort at inclusion really showing here. (But do I know any other place name in Staten besides St. George? No, no I do not.)",
+        "created_at": "2026-10-29T14:04:03.808Z",
+        "source": "https://bsky.app/profile/zoraoneill.com/post/3myzgnjimss2u",
+        "mapped_location": "St. George",
+        "precision_level": "address",
+        "location_text": "St. George",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.814
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mgspmtvkts5fgvj2bcvcomsy/app.bsky.feed.post/3myzgqpceuc2s",
+        "handle": "0215madman.bsky.social",
+        "text": "#403. Gorillaz: Demon Days Live in Harlem at Apollo Theater - 8/10\n\nNeeded more of 2-D and Murdoc doing Statler and Waldorf commentary",
+        "created_at": "2026-10-29T14:05:50.552Z",
+        "source": "https://bsky.app/profile/0215madman.bsky.social/post/3myzgqpceuc2s",
+        "mapped_location": "Apollo Theater - 8/10",
+        "precision_level": "address",
+        "location_text": "Apollo Theater - 8/10",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y5huw7bebxh32yozvnpff3pk/app.bsky.feed.post/3myzgu5iygc2t",
+        "handle": "metalinjection.bsky.social",
+        "text": "Watch: NYPD Breaks Up Haywire Show In Times Square\nmetalinjection.net/news/watch-n...",
+        "created_at": "2026-10-29T14:07:46.118Z",
+        "source": "https://bsky.app/profile/metalinjection.bsky.social/post/3myzgu5iygc2t",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:om3z5v4xl6tvwvumqbncfv6k/app.bsky.feed.post/3myzguhxqdk2f",
+        "handle": "timdonnelly.com",
+        "text": "This week's @nygroove.nyc issue is out now and we've got stories on how to bust a ghost in New York City + the city's alt-comedy history, click it! Subscribe!  nygroove.nyc/email/9364dc...",
+        "created_at": "2026-10-29T14:07:57.085Z",
+        "source": "https://bsky.app/profile/timdonnelly.com/post/3myzguhxqdk2f",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York City +",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myzh3lnyip23",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Story/Images by Ladislav Servanský\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-10-29T14:11:55.277Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myzh3lnyip23",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6kdr2p2smabyfnwpwn7saxbm/app.bsky.feed.post/3myzhb2rupk23",
+        "handle": "vinnieave.bsky.social",
+        "text": "I have to assume in NYC because why would they be in NJ.",
+        "created_at": "2026-10-29T14:14:59.469Z",
+        "source": "https://bsky.app/profile/vinnieave.bsky.social/post/3myzhb2rupk23",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2tjiu3ydbuaznxooclmxjetd/app.bsky.feed.post/3myzhfrkzyc2g",
+        "handle": "darrylayo.bsky.social",
+        "text": "white hipsters who think “Brooklyn” starts at Greenpoint and ends at Barclays Center…",
+        "created_at": "2026-10-29T14:17:37.582Z",
+        "source": "https://bsky.app/profile/darrylayo.bsky.social/post/3myzhfrkzyc2g",
+        "mapped_location": "Barclays Center",
+        "precision_level": "address",
+        "location_text": "Barclays Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.627
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ektuvsmyev5qrcahwayv3hse/app.bsky.feed.post/3myzhh5xxpk2j",
+        "handle": "johnk77.bsky.social",
+        "text": "Reskeeted from 1 mile away in Mott Haven, NYC:<\nThursday, October 29, 2026 at 10:18:14 AM\nExplore this gift article from The New York Times. You can read it for free without a subscription. www.nytimes.com/2026/10/28/n...",
+        "created_at": "2026-10-29T14:18:24.142Z",
+        "source": "https://bsky.app/profile/johnk77.bsky.social/post/3myzhh5xxpk2j",
+        "mapped_location": "Mott Haven",
+        "precision_level": "address",
+        "location_text": "Mott Haven",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T00:28:10.101175Z",
-    "total_pins": 180
+    "generated_at": "2026-10-30T01:28:56.771517Z",
+    "total_pins": 181
   },
   "features": [
     {
@@ -4537,6 +4537,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2wyqv44lm72vasmddeqjgy72/app.bsky.feed.post/3mz2mol7e222h",
+        "handle": "clancyny.bsky.social",
+        "text": "[Since I leapt over your reply, I'm moving this post under your reply here.]\n\nI'm going to try to find out if they're really moving inventory of these products. And who drinks them. \n\nThere may not yet be much of a foothold. And, there may be resources in the NYC Health Dept. that could be helpful.",
+        "created_at": "2026-10-30T01:24:41.345Z",
+        "source": "https://bsky.app/profile/clancyny.bsky.social/post/3mz2mol7e222h",
+        "mapped_location": "the NYC Health Dept",
+        "precision_level": "address",
+        "location_text": "the NYC Health Dept",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

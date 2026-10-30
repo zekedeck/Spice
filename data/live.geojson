@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T02:11:36.536200Z",
+    "generated_at": "2026-10-30T02:55:33.478025Z",
     "total_pins": 269
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0080724,
-          40.7012724
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4govg4z5u2lqtyno2pkj4zm/app.bsky.feed.post/3myvp3puj2s2r",
-        "handle": "leaftilde.bsky.social",
-        "text": "Okay describing a building as \"the large building\" when the story is explicitly taking place in downtown Manhattan is objectively a funny bit.\n\nAh, yes. THAT large building. I know it well.",
-        "created_at": "2026-10-28T02:24:31.100Z",
-        "source": "https://bsky.app/profile/leaftilde.bsky.social/post/3myvp3puj2s2r",
-        "mapped_location": "Downtown Manhattan Heliport, East River Greenway, Whitehall, Manhattan, New York County, New York, 10041, United States",
-        "precision_level": "unclassified",
-        "location_text": "downtown Manhattan",
-        "confidence": 0.64,
-        "address_type": "pier",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3o733zemy5oma43nweefbjf7/app.bsky.feed.post/3myvpe2bsn227",
-        "handle": "obrienp.bsky.social",
-        "text": "trump likes to talk about fictional children & what never happened to them‼️\n\nBut he WON’T talk about these children‼️ \n⬇️\n\n“Epstein introduced me to Trump at age 14”, Maxwell accuser says. \n\nTestifying at NYC trial, the woman said she was introduced to former president in 90s at his Mar-a-Lago resort.",
-        "created_at": "2026-10-28T02:29:10.589Z",
-        "source": "https://bsky.app/profile/obrienp.bsky.social/post/3myvpe2bsn227",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6785,6 +6735,56 @@
         "mapped_location": "the Ukrainian National Home",
         "precision_level": "address",
         "location_text": "the Ukrainian National Home",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3mz2rfgp6f623",
+        "handle": "wmur9.bsky.social",
+        "text": "The first documented barn owl nest in modern Manhattan was exposed when a water tower roof was removed, sparking criticism and concern.",
+        "created_at": "2026-10-30T02:49:03.320Z",
+        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3mz2rfgp6f623",
+        "mapped_location": "modern Manhattan",
+        "precision_level": "address",
+        "location_text": "modern Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s2sexehpwvj6r4jtunkpzdms/app.bsky.feed.post/3mz2rkycloc2q",
+        "handle": "jointheunionus.bsky.social",
+        "text": "The American Presidency :: Past, Present, and Future\nWhere is the Office 237 Years On?  By Reed Galen and Alexis Coe of Civic Forum\n\nAlexis Coe and I will discuss the presidency on Nov. 12 @ The Bench, 49 Elizabeth Street, New York, NY. Reserve tickets👇",
+        "created_at": "2026-10-30T02:52:09.573Z",
+        "source": "https://bsky.app/profile/jointheunionus.bsky.social/post/3mz2rkycloc2q",
+        "mapped_location": "49 Elizabeth Street",
+        "precision_level": "address",
+        "location_text": "49 Elizabeth Street",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

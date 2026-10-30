@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T02:11:36.542341Z",
-    "total_pins": 183
+    "generated_at": "2026-10-30T02:55:33.487241Z",
+    "total_pins": 185
   },
   "features": [
     {
@@ -4607,6 +4607,56 @@
         "mapped_location": "the Ukrainian National Home",
         "precision_level": "address",
         "location_text": "the Ukrainian National Home",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3mz2rfgp6f623",
+        "handle": "wmur9.bsky.social",
+        "text": "The first documented barn owl nest in modern Manhattan was exposed when a water tower roof was removed, sparking criticism and concern.",
+        "created_at": "2026-10-30T02:49:03.320Z",
+        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3mz2rfgp6f623",
+        "mapped_location": "modern Manhattan",
+        "precision_level": "address",
+        "location_text": "modern Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:s2sexehpwvj6r4jtunkpzdms/app.bsky.feed.post/3mz2rkycloc2q",
+        "handle": "jointheunionus.bsky.social",
+        "text": "The American Presidency :: Past, Present, and Future\nWhere is the Office 237 Years On?  By Reed Galen and Alexis Coe of Civic Forum\n\nAlexis Coe and I will discuss the presidency on Nov. 12 @ The Bench, 49 Elizabeth Street, New York, NY. Reserve tickets👇",
+        "created_at": "2026-10-30T02:52:09.573Z",
+        "source": "https://bsky.app/profile/jointheunionus.bsky.social/post/3mz2rkycloc2q",
+        "mapped_location": "49 Elizabeth Street",
+        "precision_level": "address",
+        "location_text": "49 Elizabeth Street",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

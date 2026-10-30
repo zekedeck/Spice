@@ -1,564 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T09:48:39.381594Z",
-    "total_pins": 265
+    "generated_at": "2026-10-30T16:23:36.207801Z",
+    "total_pins": 247
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.731
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y5ag7dzksi2evwyuhwpzzhai/app.bsky.feed.post/3mywihetalk25",
-        "handle": "jjlhawk.bsky.social",
-        "text": "Sitting On A Park Bench\nWashington Square Park, NYC\n\n#nycphotographer \n#nycphotography \n#newyorkcityphotography\n#nycstreetphotagraphy \n\n#streetphotography #urbanphotography #streetscene #cityscape #streetphoto #street #urbangaze #streetsnap \n#nyc\n\n#photography \n#photographyisart\n#photooftheday",
-        "created_at": "2026-10-28T09:58:25.819Z",
-        "source": "https://bsky.app/profile/jjlhawk.bsky.social/post/3mywihetalk25",
-        "mapped_location": "Park Bench\nWashington Square Park",
-        "precision_level": "address",
-        "location_text": "Park Bench\nWashington Square Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9686981,
-          40.7963122
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:z67ehvg56yvugvv2f5lxih3c/app.bsky.feed.post/3mywihfl67k2g",
-        "handle": "huismarseille.nl",
-        "text": "As seen in @financialtimes.com \n\nAdolphe de Meyer became Vogue’s first full-time photographer. A pioneer of photographic experimentation, his “spellbinding tricks” would influence photographers from New York to Paris. \n\nThe Substance of a Venetian Dream, now on view at Huis Marseille in Amsterdam",
-        "created_at": "2026-10-28T09:58:26.630Z",
-        "source": "https://bsky.app/profile/huismarseille.nl/post/3mywihfl67k2g",
-        "mapped_location": "Amsterdam Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
-        "precision_level": "unclassified",
-        "location_text": "Amsterdam",
-        "confidence": 0.595,
-        "address_type": "primary",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.15
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:a6f5oqxkc5wgqqkv54aa6wp6/app.bsky.feed.post/3mywimdnt772z",
-        "handle": "maskmanblade.bsky.social",
-        "text": "Today in history: On October 28, 1886, the Statue of Liberty was dedicated in New York Harbor, accompanied by the first ticker-tape parade. \n#Todayinhistory #AIart #nudeart #aigirl #aiphotography #ainude #synthart",
-        "created_at": "2026-10-28T10:01:12.218Z",
-        "source": "https://bsky.app/profile/maskmanblade.bsky.social/post/3mywimdnt772z",
-        "mapped_location": "the Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "the Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.856,
-          40.844
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zw64pmwh45o75o4uuc7g576q/app.bsky.feed.post/3mywirlus3t2j",
-        "handle": "documentedny.bsky.social",
-        "text": "After decades of growth in Van Nest and Morris Park, the Bronx’s Yemeni community won state recognition despite months of opposition that left some residents feeling targeted by anti-Muslim rhetoric.\n",
-        "created_at": "2026-10-28T10:04:08.550832301Z",
-        "source": "https://bsky.app/profile/documentedny.bsky.social/post/3mywirlus3t2j",
-        "mapped_location": "Van Nest",
-        "precision_level": "address",
-        "location_text": "Van Nest",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lkmm2r7zciuu4n25mccrhb26/app.bsky.feed.post/3mywmzg5tbd2x",
-        "handle": "allforgardening.bsky.social",
-        "text": "Check out this new secret backyard garden in Williamsburg\n\nhttps://www.allforgardening.com/1947242/check-out-this-new-secret-backyard-garden-in-williamsburg/\n\nWe’ve got a new secret backyard garden for you to visit this weekend, courtesy of Williamsburg eatery and bar Maracuja. \r Photograph: …",
-        "created_at": "2026-10-28T11:20:03+00:00",
-        "source": "https://bsky.app/profile/allforgardening.bsky.social/post/3mywmzg5tbd2x",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mywn3h3svxb2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "8 Av-bound L trains are delayed while we investigate why a train's brakes activated at Wilson Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T11:21:09.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mywn3h3svxb2",
-        "mapped_location": "Wilson Av",
-        "precision_level": "address",
-        "location_text": "Wilson Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:d7aypgjlw7svu7haeta7x63h/app.bsky.feed.post/3mywnb5sgpk2x",
-        "handle": "mjk4mj.bsky.social",
-        "text": "Would be nice if they got out of NYC. And take the racist garbage NY Post with them. \nAvenue of the Americas behind them.\n2023: \"... Mayor’s Office of Immigrant Affairs ... Full Restoration of National Medallions Along Avenue of the Americas\" www.nyc.gov/html/dot/htm...",
-        "created_at": "2026-10-28T11:24:25.871Z",
-        "source": "https://bsky.app/profile/mjk4mj.bsky.social/post/3mywnb5sgpk2x",
-        "mapped_location": "Avenue of the Americas",
-        "precision_level": "address",
-        "location_text": "Avenue of the Americas",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:enby5moufejuzpozgx5jcju2/app.bsky.feed.post/3mywnbqptx32y",
-        "handle": "kazwan.bsky.social",
-        "text": "Meantio Makes Short Drama Creation as Simple as Shooting a Video: Every Story Meant to be Seen\n\nTimes Square Halloween Event Brings Together Influencers, Live Performances, Audience Interaction, Surprise Gifts, and Online Livestream Los Angeles, California, United States, October 28, 2026 -- Short…",
-        "created_at": "2026-10-28T11:24:45Z",
-        "source": "https://bsky.app/profile/kazwan.bsky.social/post/3mywnbqptx32y",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.832,
-          40.701
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5ak4kua2hi5orbqpdnemal23/app.bsky.feed.post/3mywnjgjnss2i",
-        "handle": "scotlander.bsky.social",
-        "text": "the destruction of the Bonwit Teller freizes to the demolition of the Rose Garden, the East Wing and more, and also the fraud surrounding the old Biltmore building and decades of worsening fraud and criminal acts.\nNew Yorkers knew DonOLD from his earliest days and he is NOT a favorite son.",
-        "created_at": "2026-10-28T11:29:03.446Z",
-        "source": "https://bsky.app/profile/scotlander.bsky.social/post/3mywnjgjnss2i",
-        "mapped_location": "Rose Garden, Queens, Queens County, New York, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "the Rose Garden",
-        "confidence": 1.0,
-        "address_type": "garden",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xkwershectzm45pmoyo2ssx4/app.bsky.feed.post/3myx33u54v22u",
-        "handle": "riseandresist.bsky.social",
-        "text": "📆Sat, November 7, 2026\n📍Times Sq, NYC\n⏰ 12PM\nOn Sat, Nov 7, 2026 we are gathering for a mass march to celebrate our democracy—and to fight to defend it. No matter what post-election scenario we'll face, we need to be ready to make sure every vote is counted, because every vote counts.\nbit.ly/4yJQuEo",
-        "created_at": "2026-10-28T15:32:00.344Z",
-        "source": "https://bsky.app/profile/riseandresist.bsky.social/post/3myx33u54v22u",
-        "mapped_location": "Times Sq, NYC",
-        "precision_level": "address",
-        "location_text": "Times Sq, NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.727
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:r73kjlwfdyge5x2laitip3pc/app.bsky.feed.post/cb3qu4rfvowfb",
-        "handle": "uspol.skyfleet.blue",
-        "text": "'If this is what you want': East Village board halts vote on Tompkins Square overhaul",
-        "created_at": "2026-10-28T15:32:25.734Z",
-        "source": "https://bsky.app/profile/uspol.skyfleet.blue/post/cb3qu4rfvowfb",
-        "mapped_location": "Tompkins Square",
-        "precision_level": "address",
-        "location_text": "Tompkins Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
-        "handle": "tenaciouseye.bsky.social",
-        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
-        "created_at": "2026-10-28T15:33:17.325Z",
-        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Union Square"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.991,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:busrjck4hz3ii3ont4azkfoo/app.bsky.feed.post/3myx365keo22d",
-        "handle": "tenaciouseye.bsky.social",
-        "text": "The Virgin stores in Times Square and  Union Square were huge - they were the bomb!",
-        "created_at": "2026-10-28T15:33:17.325Z",
-        "source": "https://bsky.app/profile/tenaciouseye.bsky.social/post/3myx365keo22d",
-        "mapped_location": "Union Square",
-        "precision_level": "address",
-        "location_text": "Union Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Times Square"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.963,
-          40.779
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nmmicroocy4wtrz5tfrb7lid/app.bsky.feed.post/3myx36sqpp22s",
-        "handle": "maureenflaherty.bsky.social",
-        "text": "Right now at NY Historical society is a super cool exhibition: you should be dancing. They have Grandmaster Flash’s turntables & his records with beat sections marked. !!!!!\n\nIt’s up til April, but if you go now, you can do a leaf-peeping stroll in Central Park. 🍁 \n\nwww.nyhistory.org/exhibitions/...",
-        "created_at": "2026-10-28T15:33:39.554Z",
-        "source": "https://bsky.app/profile/maureenflaherty.bsky.social/post/3myx36sqpp22s",
-        "mapped_location": "NY Historical",
-        "precision_level": "address",
-        "location_text": "NY Historical",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3myx37knto32y",
-        "handle": "wmur9.bsky.social",
-        "text": "On Oct. 28, 1886, the Statue of Liberty was dedicated in New York Harbor by President Grover Cleveland.",
-        "created_at": "2026-10-28T15:34:04.603Z",
-        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3myx37knto32y",
-        "mapped_location": "the Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "the Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.991,
-          40.69
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myx3izlrl342",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Uptown 2, 3 trains are delayed while we address a mechanical problem on a train at Atlantic Av-Barclays Ctr.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T15:39:19.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myx3izlrl342",
-        "mapped_location": "Atlantic Av-Barclays Ctr",
-        "precision_level": "address",
-        "location_text": "Atlantic Av-Barclays Ctr",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cusw7aggr4jwnrnethxwgtzy/app.bsky.feed.post/3myx3k7gf6y2m",
-        "handle": "naswny.bsky.social",
-        "text": "💙 **Brooklyn Division Meeting Tonight!**\n\n📍 **Location:** Sharlene’s  \n353 Flatbush Avenue  \nBrooklyn, NY 11248\n\nRSVP HERE: https://loom.ly/lghp15U\n\nWe look forward to seeing you there! 🤝\n\n#NASWNY #BrooklynSocialWorkers #SocialWorkCommunity #Networking",
-        "created_at": "2026-10-28T15:40:01Z",
-        "source": "https://bsky.app/profile/naswny.bsky.social/post/3myx3k7gf6y2m",
-        "mapped_location": "**Location:** Sharlene’s",
-        "precision_level": "address",
-        "location_text": "**Location:** Sharlene’s",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "353 Flatbush Avenue  \nBrooklyn"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:cusw7aggr4jwnrnethxwgtzy/app.bsky.feed.post/3myx3k7gf6y2m",
-        "handle": "naswny.bsky.social",
-        "text": "💙 **Brooklyn Division Meeting Tonight!**\n\n📍 **Location:** Sharlene’s  \n353 Flatbush Avenue  \nBrooklyn, NY 11248\n\nRSVP HERE: https://loom.ly/lghp15U\n\nWe look forward to seeing you there! 🤝\n\n#NASWNY #BrooklynSocialWorkers #SocialWorkCommunity #Networking",
-        "created_at": "2026-10-28T15:40:01Z",
-        "source": "https://bsky.app/profile/naswny.bsky.social/post/3myx3k7gf6y2m",
-        "mapped_location": "353 Flatbush Avenue  \nBrooklyn",
-        "precision_level": "address",
-        "location_text": "353 Flatbush Avenue  \nBrooklyn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "**Location:** Sharlene’s"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.979,
-          40.759
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:37pnz5vf72yb46x5cdpldwnq/app.bsky.feed.post/3myx3pa6jos2o",
-        "handle": "bradradio.bsky.social",
-        "text": "Toured Radio City Music Hall yesterday, \"The Showplace of the Nation,\" and walked through Rockefeller Center on my last day in New York. \n\nWe even met a real Rockette! #nyc",
-        "created_at": "2026-10-28T15:42:50.492Z",
-        "source": "https://bsky.app/profile/bradradio.bsky.social/post/3myx3pa6jos2o",
-        "mapped_location": "Rockefeller Center",
-        "precision_level": "address",
-        "location_text": "Rockefeller Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ewskzi3q66y3itvm76o3dmum/app.bsky.feed.post/3myx3sgzk6s2k",
-        "handle": "leftwingmusicfrank.bsky.social",
-        "text": "Painfully Low Sights at The New York Times Editorial Board \npaulstreet.substack.com/p/painfully-...",
-        "created_at": "2026-10-28T15:44:38.352Z",
-        "source": "https://bsky.app/profile/leftwingmusicfrank.bsky.social/post/3myx3sgzk6s2k",
-        "mapped_location": "The New York Times Editorial Board",
-        "precision_level": "address",
-        "location_text": "The New York Times Editorial Board",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myx42a232jv2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "L trains are disrupted between Manhattan and Brooklyn while we address a signal problem at Bedford Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T15:48:51.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myx42a232jv2",
-        "mapped_location": "Bedford Av",
-        "precision_level": "address",
-        "location_text": "Bedford Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.968,
-          40.785
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:axgzlb37ybir4yek4wkcezbk/app.bsky.feed.post/3myx42d6iak2k",
-        "handle": "mollybangles.bsky.social",
-        "text": "There was something interesting and/or threatening over there 👀🦉\n\nBarred Owl in Central Park, October 2026 #birds",
-        "created_at": "2026-10-28T15:49:02.742Z",
-        "source": "https://bsky.app/profile/mollybangles.bsky.social/post/3myx42d6iak2k",
-        "mapped_location": "Central Park",
-        "precision_level": "address",
-        "location_text": "Central Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6688,6 +6134,110 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mz46pl6j54y2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Washington Street between Morton Street and Barrow Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/d0f82290-c5af-012f-c86b-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Washington%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-30T16:19:32.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mz46pl6j54y2",
+        "mapped_location": "Morton Street",
+        "precision_level": "address",
+        "location_text": "Morton Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Barrow Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mz46pl6j54y2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Washington Street between Morton Street and Barrow Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/d0f82290-c5af-012f-c86b-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Washington%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-30T16:19:32.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mz46pl6j54y2",
+        "mapped_location": "Barrow Street",
+        "precision_level": "address",
+        "location_text": "Barrow Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Morton Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:brlra5qviwsbansrgtrtcnn6/app.bsky.feed.post/3mz46qkm5ps2r",
+        "handle": "media-news.at.thenote.app",
+        "text": "Punk Band’s Guerrilla Concert in Times Square Ends in Chaos as NYPD Shuts It Down\n\nHardcore punk band Haywire threw a guerrilla-style concert in Times Square that ended in chaos as the NYPD shut it down. On Wednesday, Oct. 28, 2026, the Boston band put out a last-minute notice on socia…\n#media #news",
+        "created_at": "2026-10-30T16:20:34.518Z",
+        "source": "https://bsky.app/profile/media-news.at.thenote.app/post/3mz46qkm5ps2r",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square Ends",
+        "confidence": 0.89,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:brlra5qviwsbansrgtrtcnn6/app.bsky.feed.post/3mz46qkm5ps2r",
+        "handle": "media-news.at.thenote.app",
+        "text": "Punk Band’s Guerrilla Concert in Times Square Ends in Chaos as NYPD Shuts It Down\n\nHardcore punk band Haywire threw a guerrilla-style concert in Times Square that ended in chaos as the NYPD shut it down. On Wednesday, Oct. 28, 2026, the Boston band put out a last-minute notice on socia…\n#media #news",
+        "created_at": "2026-10-30T16:20:34.518Z",
+        "source": "https://bsky.app/profile/media-news.at.thenote.app/post/3mz46qkm5ps2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square Ends"
       }
     }
   ]

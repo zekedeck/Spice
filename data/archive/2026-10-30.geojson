@@ -1,8 +1,113 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T09:48:39.394190Z",
-    "total_pins": 0
+    "generated_at": "2026-10-30T16:23:36.221370Z",
+    "total_pins": 4
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mz46pl6j54y2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Washington Street between Morton Street and Barrow Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/d0f82290-c5af-012f-c86b-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Washington%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-30T16:19:32.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mz46pl6j54y2",
+        "mapped_location": "Morton Street",
+        "precision_level": "address",
+        "location_text": "Morton Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Barrow Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mz46pl6j54y2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Washington Street between Morton Street and Barrow Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/d0f82290-c5af-012f-c86b-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Washington%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-10-30T16:19:32.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mz46pl6j54y2",
+        "mapped_location": "Barrow Street",
+        "precision_level": "address",
+        "location_text": "Barrow Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Morton Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.757
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:brlra5qviwsbansrgtrtcnn6/app.bsky.feed.post/3mz46qkm5ps2r",
+        "handle": "media-news.at.thenote.app",
+        "text": "Punk Band’s Guerrilla Concert in Times Square Ends in Chaos as NYPD Shuts It Down\n\nHardcore punk band Haywire threw a guerrilla-style concert in Times Square that ended in chaos as the NYPD shut it down. On Wednesday, Oct. 28, 2026, the Boston band put out a last-minute notice on socia…\n#media #news",
+        "created_at": "2026-10-30T16:20:34.518Z",
+        "source": "https://bsky.app/profile/media-news.at.thenote.app/post/3mz46qkm5ps2r",
+        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Times Square Ends",
+        "confidence": 0.89,
+        "address_type": "square",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:brlra5qviwsbansrgtrtcnn6/app.bsky.feed.post/3mz46qkm5ps2r",
+        "handle": "media-news.at.thenote.app",
+        "text": "Punk Band’s Guerrilla Concert in Times Square Ends in Chaos as NYPD Shuts It Down\n\nHardcore punk band Haywire threw a guerrilla-style concert in Times Square that ended in chaos as the NYPD shut it down. On Wednesday, Oct. 28, 2026, the Boston band put out a last-minute notice on socia…\n#media #news",
+        "created_at": "2026-10-30T16:20:34.518Z",
+        "source": "https://bsky.app/profile/media-news.at.thenote.app/post/3mz46qkm5ps2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Times Square Ends"
+      }
+    }
+  ]
 }

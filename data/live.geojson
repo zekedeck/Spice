@@ -1,160 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T00:18:52.152623Z",
-    "total_pins": 297
+    "generated_at": "2026-10-30T00:28:10.085658Z",
+    "total_pins": 292
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6bfyst24ykvs6fti2apuqazh/app.bsky.feed.post/3myvi5eoiiy25",
-        "handle": "laviezine.bsky.social",
-        "text": "How to watch Pistons vs Knicks: NBA, live stream, TV channel\n\nhttps://www.laviezine.com/1671059/how-to-watch-pistons-vs-knicks-nba-live-stream-tv-channel/\n\nThe Detroit Pistons (3-0) meet the New York Knicks (0-3) tonight at Madison Square Garden as the Knicks look for their first win of the …",
-        "created_at": "2026-10-28T00:20:07+00:00",
-        "source": "https://bsky.app/profile/laviezine.bsky.social/post/3myvi5eoiiy25",
-        "mapped_location": "Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rzte6mcoimfmz226vyj6pg27/app.bsky.feed.post/3myvi5ji3t625",
-        "handle": "scarvesandspikes.com",
-        "text": "The inevitable could become official tomorrow night as Atlanta United travel to Citi Field to face New York City FC.\n\n@shwrites.bsky.social reached out to @andrewleigh.bsky.social from @nysoccerjournal.com for the scoop on NYCFC:",
-        "created_at": "2026-10-28T00:20:14Z",
-        "source": "https://bsky.app/profile/scarvesandspikes.com/post/3myvi5ji3t625",
-        "mapped_location": "Citi Field",
-        "precision_level": "address",
-        "location_text": "Citi Field",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sp46k2tr3l5lmu3qzxxqovzd/app.bsky.feed.post/3myvi7amqq222",
-        "handle": "frankiemutaig.bsky.social",
-        "text": "Interested checks! \n\nWts 3x Disco GA tickets for Harry Styles Harryween  N2 at Madison Square Garden - NYC.\n\n- Sat, Oct 31\n- Asking for face value! \n— I have sold tickets here before and I can provide proof as well 😭\n\n— Send me a DM / Respond in regards!",
-        "created_at": "2026-10-28T00:21:13.274Z",
-        "source": "https://bsky.app/profile/frankiemutaig.bsky.social/post/3myvi7amqq222",
-        "mapped_location": "Madison Square Garden - NYC",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden - NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.694
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myviauyyvqu2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Q trains are running with delays in both directions after we addressed a door problem on a train earlier at DeKalb Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T00:21:52.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myviauyyvqu2",
-        "mapped_location": "DeKalb Av",
-        "precision_level": "address",
-        "location_text": "DeKalb Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:mnbqayz232sx3ix65nnamzwf/app.bsky.feed.post/3myviewby5c2t",
-        "handle": "johnlk.bsky.social",
-        "text": "Namor's like \"Brother, I invaded and conquered Manhattan like a decade ago. My country is in the United Nations now. Don't be so ignorant, read a book.\"",
-        "created_at": "2026-10-28T00:24:23.757Z",
-        "source": "https://bsky.app/profile/johnlk.bsky.social/post/3myviewby5c2t",
-        "mapped_location": "the United Nations",
-        "precision_level": "address",
-        "location_text": "the United Nations",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:z5qiscowprr4h7vyt4njdx7v/app.bsky.feed.post/3myvigndfkf2q",
-        "handle": "goodgirljadzia.com",
-        "text": "A Mass Effect billboard in Times Square? Hold the line. The galaxy heard you 🚀",
-        "created_at": "2026-10-28T00:25:21.467Z",
-        "source": "https://bsky.app/profile/goodgirljadzia.com/post/3myvigndfkf2q",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -7495,6 +7345,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.801
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mpoxsaax7r5rs2tgeh56nqhn/app.bsky.feed.post/3mz2jbxbdos2k",
+        "handle": "michaelemann.bsky.social",
+        "text": "I'll be participating in a #ScienceUnderSiege panel at the #RawScience Film Festival at Lincoln Center in NYC, Friday Nov 6 at 6pm. Come out and join us!\nwww.rawsciencefilmfestival.com/2026-festiva...",
+        "created_at": "2026-10-30T00:23:56.558Z",
+        "source": "https://bsky.app/profile/michaelemann.bsky.social/post/3mz2jbxbdos2k",
+        "mapped_location": "Lincoln Center",
+        "precision_level": "address",
+        "location_text": "Lincoln Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

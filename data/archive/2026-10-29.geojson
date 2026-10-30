@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T00:18:52.158813Z",
-    "total_pins": 179
+    "generated_at": "2026-10-30T00:28:10.101175Z",
+    "total_pins": 180
   },
   "features": [
     {
@@ -4512,6 +4512,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.801
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:mpoxsaax7r5rs2tgeh56nqhn/app.bsky.feed.post/3mz2jbxbdos2k",
+        "handle": "michaelemann.bsky.social",
+        "text": "I'll be participating in a #ScienceUnderSiege panel at the #RawScience Film Festival at Lincoln Center in NYC, Friday Nov 6 at 6pm. Come out and join us!\nwww.rawsciencefilmfestival.com/2026-festiva...",
+        "created_at": "2026-10-30T00:23:56.558Z",
+        "source": "https://bsky.app/profile/michaelemann.bsky.social/post/3mz2jbxbdos2k",
+        "mapped_location": "Lincoln Center",
+        "precision_level": "address",
+        "location_text": "Lincoln Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

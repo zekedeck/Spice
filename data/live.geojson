@@ -1,695 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T16:23:36.207801Z",
-    "total_pins": 247
+    "generated_at": "2026-10-30T21:06:14.050646Z",
+    "total_pins": 230
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.991,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uxgzvyuvqmrktiaqesy7ok2s/app.bsky.feed.post/3myx62tuqc22e",
-        "handle": "jamhubb.bsky.social",
-        "text": "That's how I met Outkast at the Virgin Records in Union Square in NYC. They also performed a few songs for us!",
-        "created_at": "2026-10-28T16:25:07.745Z",
-        "source": "https://bsky.app/profile/jamhubb.bsky.social/post/3myx62tuqc22e",
-        "mapped_location": "the Virgin Records",
-        "precision_level": "address",
-        "location_text": "the Virgin Records",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Union Square"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.991,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uxgzvyuvqmrktiaqesy7ok2s/app.bsky.feed.post/3myx62tuqc22e",
-        "handle": "jamhubb.bsky.social",
-        "text": "That's how I met Outkast at the Virgin Records in Union Square in NYC. They also performed a few songs for us!",
-        "created_at": "2026-10-28T16:25:07.745Z",
-        "source": "https://bsky.app/profile/jamhubb.bsky.social/post/3myx62tuqc22e",
-        "mapped_location": "Union Square",
-        "precision_level": "address",
-        "location_text": "Union Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "the Virgin Records"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.904,
-          40.844
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:j37zetcnytvnfjlk4ca3d2yv/app.bsky.feed.post/3myx6dj5qss2v",
-        "handle": "newyorkstateag.bsky.social",
-        "text": "This morning, we lost an 11-year-old child after a horrible fire at the Patterson Houses in the Bronx. \n \nMy heart is with this child's family and their entire community, and I’m praying for the four individuals who are currently critically injured.",
-        "created_at": "2026-10-28T16:29:58.495Z",
-        "source": "https://bsky.app/profile/newyorkstateag.bsky.social/post/3myx6dj5qss2v",
-        "mapped_location": "the Patterson Houses",
-        "precision_level": "address",
-        "location_text": "the Patterson Houses",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3n5yokdsn3k6zksnujakfu4b/app.bsky.feed.post/3myx6if6w2s2u",
-        "handle": "iakhan13.bsky.social",
-        "text": "apnews.com/today-in-his... \n🗽🕊️Today in History: October 28, Statue of Liberty dedicated in New York🕊️🗽",
-        "created_at": "2026-10-28T16:32:42.104Z",
-        "source": "https://bsky.app/profile/iakhan13.bsky.social/post/3myx6if6w2s2u",
-        "mapped_location": "Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bfpsgdmnyrlydsmng5guwwyy/app.bsky.feed.post/3myx6sdmans2a",
-        "handle": "pogranny.bsky.social",
-        "text": "Protesters block Brooklyn Bridge to STOP ICE SHOOTING SPREE.\nNo Justice, No Peace.\nwww.youtube.com/live/Av0TEhx...",
-        "created_at": "2026-10-28T16:38:15.995Z",
-        "source": "https://bsky.app/profile/pogranny.bsky.social/post/3myx6sdmans2a",
-        "mapped_location": "Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9792543,
-          40.7379577
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3cbu2tr56nbpspt5yc7tmwkb/app.bsky.feed.post/3myxjjljj7l2m",
-        "handle": "bnd.com",
-        "text": "Editor's note: Portions of this article are excerpted from a larger story about businesses at MidTown Plaza.",
-        "created_at": "2026-10-28T19:50:13Z",
-        "source": "https://bsky.app/profile/bnd.com/post/3myxjjljj7l2m",
-        "mapped_location": "East Midtown Plaza, Manhattan Community Board 6, Manhattan, New York County, New York, United States",
-        "precision_level": "unclassified",
-        "location_text": "MidTown Plaza",
-        "confidence": 0.82,
-        "address_type": "residential",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.004,
-          40.724
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2q7tzozj7fnj6sayunuyhj7a/app.bsky.feed.post/3myxjkd3wlc2m",
-        "handle": "chiles101.bsky.social",
-        "text": "Just watched Gillian Anderson and Billy Crudup act the hell out of Who’s Afraid of Virginia Woolf? at Soho Place in London. #playsky",
-        "created_at": "2026-10-28T19:50:38.157Z",
-        "source": "https://bsky.app/profile/chiles101.bsky.social/post/3myxjkd3wlc2m",
-        "mapped_location": "Soho Place",
-        "precision_level": "address",
-        "location_text": "Soho Place",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3eiwusriemnybmaqb4adhb45/app.bsky.feed.post/3myxjlvr6532l",
-        "handle": "porcellato.bsky.social",
-        "text": "Lawyers, diplomats tell NYC Bar that Special Tribunal for Ukraine offers ‘historic moment’ to prosecute war crimes https://ift.tt/qC2RKro",
-        "created_at": "2026-10-28T19:51:31+00:00",
-        "source": "https://bsky.app/profile/porcellato.bsky.social/post/3myxjlvr6532l",
-        "mapped_location": "NYC Bar",
-        "precision_level": "address",
-        "location_text": "NYC Bar",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rs2ozvrudgn2xohhpl7lyxup/app.bsky.feed.post/3myxjr3lxts2q",
-        "handle": "jcmartinofba.bsky.social",
-        "text": "Miss Switzerland, Beatrice Keul, was raped by Donald Trump in November, 1993 at the Plaza Hotel in Manhattan, NYC when she was 24 years old.\n\nShe said that the rape was \"brutal\" and it left her bleeding, bruised and with a torn dress. He told her to remain silent or \"bad things can happen\".",
-        "created_at": "2026-10-28T19:54:25.201Z",
-        "source": "https://bsky.app/profile/jcmartinofba.bsky.social/post/3myxjr3lxts2q",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3myxjryyiyv23",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "NYC in the '80s: subways covered inside and out in paint, Times Square glowing under neon ads, and a black Trans Am with the gold bird parked under the Brooklyn elevated train.\n\nStory/Images by 80s.lives",
-        "created_at": "2026-10-28T19:54:54.306Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3myxjryyiyv23",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.788
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wr4bj7d3h5o5vu23ykudlu52/app.bsky.feed.post/3myxk7i2mf62y",
-        "handle": "nyceventsguide.bsky.social",
-        "text": "🎃 Halloween is almost here! 👻 Get ready for killer looks, wicked drinks, and nonstop dancing at BOSKÉ Astoria! 🥂🔥 Bring your crew, dress to impress, and make it a night to remember. 😈\n\n#BoskeAstoria #HalloweenInAstoria #AstoriaNightlife #SpookySeason",
-        "created_at": "2026-10-28T20:02:26.254Z",
-        "source": "https://bsky.app/profile/nyceventsguide.bsky.social/post/3myxk7i2mf62y",
-        "mapped_location": "BOSKÉ Astoria",
-        "precision_level": "address",
-        "location_text": "BOSKÉ Astoria",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.788
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pucqgslbc3gdbn47h2pwwf6z/app.bsky.feed.post/3myxk7p44672f",
-        "handle": "mtsproductions.bsky.social",
-        "text": "🎃 Halloween is almost here! 👻 Get ready for killer looks, wicked drinks, and nonstop dancing at BOSKÉ Astoria! 🥂🔥 Bring your crew, dress to impress, and make it a night to remember. 😈\n\n#BoskeAstoria #HalloweenInAstoria #AstoriaNightlife #SpookySeason",
-        "created_at": "2026-10-28T20:02:32.548Z",
-        "source": "https://bsky.app/profile/mtsproductions.bsky.social/post/3myxk7p44672f",
-        "mapped_location": "BOSKÉ Astoria",
-        "precision_level": "address",
-        "location_text": "BOSKÉ Astoria",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myxkazmkcs2y",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃 THE HAUNTED HOTEL takes over PETITE NYC! 👻 Red lights, disco vibes & DJ Little Fay The Medicine bring Halloween after dark. 🖤🔥\n\n📅 Oct. 30 | 11 PM–4 AM\n📍 PETITE, Chelsea, NYC\n🎟️ Tickets via link in bio\n\n#TheHauntedHotel #HalloweenNYC #PETITENYC",
-        "created_at": "2026-10-28T20:03:18.663Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myxkazmkcs2y",
-        "mapped_location": "PETITE, Chelsea, NYC",
-        "precision_level": "address",
-        "location_text": "PETITE, Chelsea, NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "PETITE NYC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2j5yfmroqpjqv3cjhbq5x6tw/app.bsky.feed.post/3myxkazmkcs2y",
-        "handle": "nychalloweenevents.bsky.social",
-        "text": "🎃 THE HAUNTED HOTEL takes over PETITE NYC! 👻 Red lights, disco vibes & DJ Little Fay The Medicine bring Halloween after dark. 🖤🔥\n\n📅 Oct. 30 | 11 PM–4 AM\n📍 PETITE, Chelsea, NYC\n🎟️ Tickets via link in bio\n\n#TheHauntedHotel #HalloweenNYC #PETITENYC",
-        "created_at": "2026-10-28T20:03:18.663Z",
-        "source": "https://bsky.app/profile/nychalloweenevents.bsky.social/post/3myxkazmkcs2y",
-        "mapped_location": "PETITE NYC",
-        "precision_level": "address",
-        "location_text": "PETITE NYC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "PETITE, Chelsea, NYC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xutiallhqatm5gtoinxcpvwl/app.bsky.feed.post/3myxlmwf43c26",
-        "handle": "rieckhoff.bsky.social",
-        "text": "From Alaska to Nebraska to Idaho to Times Square. \n\nAnd from NewsNation to MSNow to CNN. \n\nNow is especially a time to STAY VIGILANT!\n🚨🇺🇸🎙️🗳️🐺",
-        "created_at": "2026-10-28T20:27:53.000Z",
-        "source": "https://bsky.app/profile/rieckhoff.bsky.social/post/3myxlmwf43c26",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9056,
-          40.8224194
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3kelnt5tm3zzanzk7y64wan3/app.bsky.feed.post/3myxlqdfmvc24",
-        "handle": "godstreetwine.bsky.social",
-        "text": "And away we go...\nHope to see you in NYC and Woodstock this weekend!\n\n🎟️ linktr.ee/godstreetwine \n\n#GodStreetWine #GSW #Winos #LiveMusic #Wetlands #NewMusic #TheMethod",
-        "created_at": "2026-10-28T20:29:47.308Z",
-        "source": "https://bsky.app/profile/godstreetwine.bsky.social/post/3myxlqdfmvc24",
-        "mapped_location": "Woodstock Terrace Co-op, South Bronx, The Bronx, Bronx County, New York, United States",
-        "precision_level": "unclassified",
-        "location_text": "Woodstock",
-        "confidence": 0.595,
-        "address_type": "residential",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.15
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:elrgg7pvt5b33m2yixm477db/app.bsky.feed.post/3myxls2upw42p",
-        "handle": "gaofnyc.bsky.social",
-        "text": "Happy 140th Anniversary to the Statue of Liberty. \n\nThis amazing sculpture in the NY Harbor has been welcoming people into NYC for 140 years. If you would like to see her up close, the best way is with a Guide. Find a guide at www.ganyc.org/hire-guide\n\n#statueofliberty #statuecruises #libertyisland",
-        "created_at": "2026-10-28T20:30:45.436Z",
-        "source": "https://bsky.app/profile/gaofnyc.bsky.social/post/3myxls2upw42p",
-        "mapped_location": "the Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "the Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4zxvvwpwdaikqiw72vgicucq/app.bsky.feed.post/3myxn2b5mbs2t",
-        "handle": "nerdist.bsky.social",
-        "text": "This is Commander Shepard's favorite Times Square billboard.",
-        "created_at": "2026-10-28T20:53:14.088Z",
-        "source": "https://bsky.app/profile/nerdist.bsky.social/post/3myxn2b5mbs2t",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.905,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:i7k22mrne7tdnlmfmp3mq44k/app.bsky.feed.post/3myxn2wwtlk2r",
-        "handle": "sonntag54.bsky.social",
-        "text": "\"In a few years, 5,000 low-income New Yorkers will have found homes at Innovative Urban Village. A handsome and promising housing development, it is rising on the nearly 11-acre site of a megachurch parking lot in East New York, Brooklyn.\"\nwww.nytimes.com/2026/10/28/a...",
-        "created_at": "2026-10-28T20:53:37.085Z",
-        "source": "https://bsky.app/profile/sonntag54.bsky.social/post/3myxn2wwtlk2r",
-        "mapped_location": "East New York",
-        "precision_level": "address",
-        "location_text": "East New York",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wykznveerxycnplm7snu5n2v/app.bsky.feed.post/3myxn4ontas2v",
-        "handle": "thesaltyraven.bsky.social",
-        "text": "Today in Astoria, Oregon",
-        "created_at": "2026-10-28T20:54:35.501Z",
-        "source": "https://bsky.app/profile/thesaltyraven.bsky.social/post/3myxn4ontas2v",
-        "mapped_location": "Astoria",
-        "precision_level": "address",
-        "location_text": "Astoria",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5,
-        "other_locations": "Oregon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.087321,
-          40.5955374
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wykznveerxycnplm7snu5n2v/app.bsky.feed.post/3myxn4ontas2v",
-        "handle": "thesaltyraven.bsky.social",
-        "text": "Today in Astoria, Oregon",
-        "created_at": "2026-10-28T20:54:35.501Z",
-        "source": "https://bsky.app/profile/thesaltyraven.bsky.social/post/3myxn4ontas2v",
-        "mapped_location": "Oregon Road, Old Town Station, Staten Island, Richmond County, New York, 10305, United States",
-        "precision_level": "unclassified",
-        "location_text": "Oregon",
-        "confidence": 0.595,
-        "address_type": "residential",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.15,
-        "other_locations": "Astoria"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.733
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxn4warcm2s",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
-        "created_at": "2026-10-28T20:54:43.240Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxn4warcm2s",
-        "mapped_location": "Gramercy Park",
-        "precision_level": "address",
-        "location_text": "Gramercy Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "18 Gramercy Park South"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.733
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxn4warcm2s",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
-        "created_at": "2026-10-28T20:54:43.240Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxn4warcm2s",
-        "mapped_location": "18 Gramercy Park South",
-        "precision_level": "address",
-        "location_text": "18 Gramercy Park South",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Gramercy Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.966,
-          40.772
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w7m3sivk75rzkh2ci7mrbts2/app.bsky.feed.post/3myxn6ajgou2b",
-        "handle": "luizsantosmusic.bsky.social",
-        "text": "Gustav Klimt's Portrait of Adele Bloch-Bauer I (completed between 1903 and 1907) is located at the Neue Galerie New York in New York City, United States. \n#art #arts #finearts ",
-        "created_at": "2026-10-28T20:55:26.000Z",
-        "source": "https://bsky.app/profile/luizsantosmusic.bsky.social/post/3myxn6ajgou2b",
-        "mapped_location": "the Neue Galerie New York",
-        "precision_level": "address",
-        "location_text": "the Neue Galerie New York",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.733
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jrupramacab432rcry2m7ude/app.bsky.feed.post/3myxn6o3f2d2w",
-        "handle": "ebrealestbriefly.bsky.social",
-        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
-        "created_at": "2026-10-28T20:55:41.791Z",
-        "source": "https://bsky.app/profile/ebrealestbriefly.bsky.social/post/3myxn6o3f2d2w",
-        "mapped_location": "Gramercy Park",
-        "precision_level": "address",
-        "location_text": "Gramercy Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "18 Gramercy Park South"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.733
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jrupramacab432rcry2m7ude/app.bsky.feed.post/3myxn6o3f2d2w",
-        "handle": "ebrealestbriefly.bsky.social",
-        "text": "A 4,207-square-foot Gramercy Park condo at 18 Gramercy Park South includes a private elevator and key access to Manhattan’s only gated park.\n",
-        "created_at": "2026-10-28T20:55:41.791Z",
-        "source": "https://bsky.app/profile/ebrealestbriefly.bsky.social/post/3myxn6o3f2d2w",
-        "mapped_location": "18 Gramercy Park South",
-        "precision_level": "address",
-        "location_text": "18 Gramercy Park South",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Gramercy Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kwgxs25gh7ncqzv2zfj526r7/app.bsky.feed.post/3myxnnlwsqc2n",
-        "handle": "tonintveld.bsky.social",
-        "text": "#WindowsOnWednesday #LinesLinesLines #AOFoto #Architecture #streetscene #mobilephotography #NewYork #ECK #gallery365 #urbanphotography\n\nMillenium New York",
-        "created_at": "2026-10-28T21:04:03.085Z",
-        "source": "https://bsky.app/profile/tonintveld.bsky.social/post/3myxnnlwsqc2n",
-        "mapped_location": "urbanphotography\n\nMillenium New York",
-        "precision_level": "address",
-        "location_text": "urbanphotography\n\nMillenium New York",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6238,6 +5553,258 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "Times Square Ends"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:otnliq6323fedfwdurlkbeuu/app.bsky.feed.post/3mz4odngjqk2f",
+        "handle": "tombigwood.bsky.social",
+        "text": "My friend is a native-born New Yorker who was middle class as a kid, but his dad’s business really took off when he was in high school. They moved to a mansion in Forest Hills and I think he found that he loved being around rich people. 🤷",
+        "created_at": "2026-10-30T20:59:41.534Z",
+        "source": "https://bsky.app/profile/tombigwood.bsky.social/post/3mz4odngjqk2f",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ckgrxzxfa5wf3lxepnh45s2/app.bsky.feed.post/3mz4oeu2ehu2a",
+        "handle": "prospect.org",
+        "text": "On a single day in March, from a single address in Richmond, Kentucky, at least ten New York and New Jersey nursing home investors donated $329,000 to congressional Republicans. buff.ly/LdeGdaR",
+        "created_at": "2026-10-30T21:00:19.975Z",
+        "source": "https://bsky.app/profile/prospect.org/post/3mz4oeu2ehu2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "ten New York",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.745
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:33wuswnohigcvpdx5e4wewqx/app.bsky.feed.post/3mz4of6noid2c",
+        "handle": "usedcarsusa.bsky.social",
+        "text": "🚗 2026 Hyundai IONIQ 5\n\n💰 $42,665 | 📍 Long Island City, NY | 🛣️ 269 mi\n\nCheck it out: https://www.findusedcarsus.com/car/cmofztabw087hklu2raav5dno\n\n#usedcars #Hyundai #cars",
+        "created_at": "2026-10-30T21:00:33.060Z",
+        "source": "https://bsky.app/profile/usedcarsusa.bsky.social/post/3mz4of6noid2c",
+        "mapped_location": "Long Island City, NY | 🛣️ 269 mi",
+        "precision_level": "address",
+        "location_text": "Long Island City, NY | 🛣️ 269 mi",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6iumtlucr4oijgc47s2erzd4/app.bsky.feed.post/3mz4og42yxi22",
+        "handle": "annylon.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:03Z",
+        "source": "https://bsky.app/profile/annylon.bsky.social/post/3mz4og42yxi22",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hgtggvtniq3cfadktplxvykh/app.bsky.feed.post/3mz4og6yipa2p",
+        "handle": "jafifsd.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:06Z",
+        "source": "https://bsky.app/profile/jafifsd.bsky.social/post/3mz4og6yipa2p",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6nxrl3vwfoi5q4u2cxe7vnge/app.bsky.feed.post/3mz4ogb54aj2b",
+        "handle": "nationscopeusa.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:09Z",
+        "source": "https://bsky.app/profile/nationscopeusa.bsky.social/post/3mz4ogb54aj2b",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vrudpadksfyvx5rxq7jpllb/app.bsky.feed.post/3mz4ogdm6h42u",
+        "handle": "statesora.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:11Z",
+        "source": "https://bsky.app/profile/statesora.bsky.social/post/3mz4ogdm6h42u",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b2sj44d2gcivkty3jhqcnoae/app.bsky.feed.post/3mz4ok55mrk2w",
+        "handle": "theglamourmachine.bsky.social",
+        "text": "I started boycotting them when they closed the Astor Place (NYC) location. The company said it was because the rent went up too much, then it came out it was because the staff there was trying to form a union.",
+        "created_at": "2026-10-30T21:03:19.351Z",
+        "source": "https://bsky.app/profile/theglamourmachine.bsky.social/post/3mz4ok55mrk2w",
+        "mapped_location": "the Astor Place",
+        "precision_level": "address",
+        "location_text": "the Astor Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7umvpuxe2vbrc3zrzuquzniu/app.bsky.feed.post/3mz4onivvis25",
+        "handle": "whstancil.bsky.social",
+        "text": "Like high rents in Williamsburg are not driven by metro undersupply, they’re because it’s Williamsburg. The fact that people are willing to bid that high to live there means you’re going to get equivalently outbid in the Williamsburgs of the future, wherever that is",
+        "created_at": "2026-10-30T21:05:12.343Z",
+        "source": "https://bsky.app/profile/whstancil.bsky.social/post/3mz4onivvis25",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "the Williamsburgs of the future"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95345,
+          40.714622
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7umvpuxe2vbrc3zrzuquzniu/app.bsky.feed.post/3mz4onivvis25",
+        "handle": "whstancil.bsky.social",
+        "text": "Like high rents in Williamsburg are not driven by metro undersupply, they’re because it’s Williamsburg. The fact that people are willing to bid that high to live there means you’re going to get equivalently outbid in the Williamsburgs of the future, wherever that is",
+        "created_at": "2026-10-30T21:05:12.343Z",
+        "source": "https://bsky.app/profile/whstancil.bsky.social/post/3mz4onivvis25",
+        "mapped_location": "Williamsburg, Brooklyn, Kings County, New York, 11249, United States",
+        "precision_level": "city",
+        "location_text": "the Williamsburgs of the future",
+        "confidence": 0.79,
+        "address_type": "quarter",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Williamsburg"
       }
     }
   ]

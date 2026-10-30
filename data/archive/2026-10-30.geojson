@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T16:23:36.221370Z",
-    "total_pins": 4
+    "generated_at": "2026-10-30T21:06:14.067819Z",
+    "total_pins": 14
   },
   "features": [
     {
@@ -107,6 +107,258 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "Times Square Ends"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:otnliq6323fedfwdurlkbeuu/app.bsky.feed.post/3mz4odngjqk2f",
+        "handle": "tombigwood.bsky.social",
+        "text": "My friend is a native-born New Yorker who was middle class as a kid, but his dad’s business really took off when he was in high school. They moved to a mansion in Forest Hills and I think he found that he loved being around rich people. 🤷",
+        "created_at": "2026-10-30T20:59:41.534Z",
+        "source": "https://bsky.app/profile/tombigwood.bsky.social/post/3mz4odngjqk2f",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5ckgrxzxfa5wf3lxepnh45s2/app.bsky.feed.post/3mz4oeu2ehu2a",
+        "handle": "prospect.org",
+        "text": "On a single day in March, from a single address in Richmond, Kentucky, at least ten New York and New Jersey nursing home investors donated $329,000 to congressional Republicans. buff.ly/LdeGdaR",
+        "created_at": "2026-10-30T21:00:19.975Z",
+        "source": "https://bsky.app/profile/prospect.org/post/3mz4oeu2ehu2a",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "ten New York",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.745
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:33wuswnohigcvpdx5e4wewqx/app.bsky.feed.post/3mz4of6noid2c",
+        "handle": "usedcarsusa.bsky.social",
+        "text": "🚗 2026 Hyundai IONIQ 5\n\n💰 $42,665 | 📍 Long Island City, NY | 🛣️ 269 mi\n\nCheck it out: https://www.findusedcarsus.com/car/cmofztabw087hklu2raav5dno\n\n#usedcars #Hyundai #cars",
+        "created_at": "2026-10-30T21:00:33.060Z",
+        "source": "https://bsky.app/profile/usedcarsusa.bsky.social/post/3mz4of6noid2c",
+        "mapped_location": "Long Island City, NY | 🛣️ 269 mi",
+        "precision_level": "address",
+        "location_text": "Long Island City, NY | 🛣️ 269 mi",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6iumtlucr4oijgc47s2erzd4/app.bsky.feed.post/3mz4og42yxi22",
+        "handle": "annylon.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:03Z",
+        "source": "https://bsky.app/profile/annylon.bsky.social/post/3mz4og42yxi22",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hgtggvtniq3cfadktplxvykh/app.bsky.feed.post/3mz4og6yipa2p",
+        "handle": "jafifsd.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:06Z",
+        "source": "https://bsky.app/profile/jafifsd.bsky.social/post/3mz4og6yipa2p",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6nxrl3vwfoi5q4u2cxe7vnge/app.bsky.feed.post/3mz4ogb54aj2b",
+        "handle": "nationscopeusa.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:09Z",
+        "source": "https://bsky.app/profile/nationscopeusa.bsky.social/post/3mz4ogb54aj2b",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7vrudpadksfyvx5rxq7jpllb/app.bsky.feed.post/3mz4ogdm6h42u",
+        "handle": "statesora.bsky.social",
+        "text": "Weil, Gotshal Collapse Just in Time for Manhattan Office Market – Commercial Observer\n\nThe white-shoe law firm Weil, Gotshal & Manges, founded in 1931 and announced its intention downwind operation this week, now occupies about 447,000 square feet over 11 floors in BXP's General Motors Building at…",
+        "created_at": "2026-10-30T21:01:11Z",
+        "source": "https://bsky.app/profile/statesora.bsky.social/post/3mz4ogdm6h42u",
+        "mapped_location": "BXP's General Motors Building",
+        "precision_level": "address",
+        "location_text": "BXP's General Motors Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:b2sj44d2gcivkty3jhqcnoae/app.bsky.feed.post/3mz4ok55mrk2w",
+        "handle": "theglamourmachine.bsky.social",
+        "text": "I started boycotting them when they closed the Astor Place (NYC) location. The company said it was because the rent went up too much, then it came out it was because the staff there was trying to form a union.",
+        "created_at": "2026-10-30T21:03:19.351Z",
+        "source": "https://bsky.app/profile/theglamourmachine.bsky.social/post/3mz4ok55mrk2w",
+        "mapped_location": "the Astor Place",
+        "precision_level": "address",
+        "location_text": "the Astor Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7umvpuxe2vbrc3zrzuquzniu/app.bsky.feed.post/3mz4onivvis25",
+        "handle": "whstancil.bsky.social",
+        "text": "Like high rents in Williamsburg are not driven by metro undersupply, they’re because it’s Williamsburg. The fact that people are willing to bid that high to live there means you’re going to get equivalently outbid in the Williamsburgs of the future, wherever that is",
+        "created_at": "2026-10-30T21:05:12.343Z",
+        "source": "https://bsky.app/profile/whstancil.bsky.social/post/3mz4onivvis25",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "the Williamsburgs of the future"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95345,
+          40.714622
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7umvpuxe2vbrc3zrzuquzniu/app.bsky.feed.post/3mz4onivvis25",
+        "handle": "whstancil.bsky.social",
+        "text": "Like high rents in Williamsburg are not driven by metro undersupply, they’re because it’s Williamsburg. The fact that people are willing to bid that high to live there means you’re going to get equivalently outbid in the Williamsburgs of the future, wherever that is",
+        "created_at": "2026-10-30T21:05:12.343Z",
+        "source": "https://bsky.app/profile/whstancil.bsky.social/post/3mz4onivvis25",
+        "mapped_location": "Williamsburg, Brooklyn, Kings County, New York, 11249, United States",
+        "precision_level": "city",
+        "location_text": "the Williamsburgs of the future",
+        "confidence": 0.79,
+        "address_type": "quarter",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Williamsburg"
       }
     }
   ]

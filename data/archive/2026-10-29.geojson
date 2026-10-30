@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T01:28:56.771517Z",
-    "total_pins": 181
+    "generated_at": "2026-10-30T02:03:55.176437Z",
+    "total_pins": 182
   },
   "features": [
     {
@@ -4562,6 +4562,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6xb27hvdldyjxtq5pb5gst5p/app.bsky.feed.post/3mz2onzhfc32q",
+        "handle": "40yearsago.bsky.social",
+        "text": "[March 15th, 1981] Roben Johnson, the star of Times Square, is set to replace Oliffe in Grease 2. It highlights her natural talent and bold, punk-inspired style. She is recognized for her striking presence and successful performance in her previous role.",
+        "created_at": "2026-10-30T02:00:10.018Z",
+        "source": "https://bsky.app/profile/40yearsago.bsky.social/post/3mz2onzhfc32q",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

@@ -1,213 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T01:28:56.763460Z",
-    "total_pins": 276
+    "generated_at": "2026-10-30T02:03:55.166274Z",
+    "total_pins": 269
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:7env4sni2pxb7n6fwwhyqnek/app.bsky.feed.post/3myvm27pf4k24",
-        "handle": "mashakr.bsky.social",
-        "text": "I mean, it's like, fine. I've been. I've also been to the Olive Garden in Times Square (I was in college and my friends wanted to go).\n\nIt's not really a super memorable experience one way or the other. No reason to meaningfully seek it out, but also no reason to purposely avoid",
-        "created_at": "2026-10-28T01:29:59.505Z",
-        "source": "https://bsky.app/profile/mashakr.bsky.social/post/3myvm27pf4k24",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
-        "handle": "selesteres.bsky.social",
-        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
-        "created_at": "2026-10-28T01:35:00.607Z",
-        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
-        "mapped_location": "24 26 Avenue, Flushing, NY",
-        "precision_level": "address",
-        "location_text": "24 26 Avenue, Flushing, NY",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "154-24 26 Avenue, Flushing, NY, Flushing"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
-        "handle": "selesteres.bsky.social",
-        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
-        "created_at": "2026-10-28T01:35:00.607Z",
-        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
-        "mapped_location": "154-24 26 Avenue, Flushing, NY",
-        "precision_level": "address",
-        "location_text": "154-24 26 Avenue, Flushing, NY",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "24 26 Avenue, Flushing, NY, Flushing"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:v5rgddbdpyoyto2imo3lqslk/app.bsky.feed.post/3myvmd6uc222d",
-        "handle": "selesteres.bsky.social",
-        "text": "🎃 A little Halloween surprise is waiting… watch until the end to see your treat! 🎀\n\n📅 Saturday, October 31 | 8 AM–12 PM\n📍 154-24 26 Avenue, Flushing, NY\n\n#SelesTeres #FlushingNY #QueensEvents #ShopLocalQueens #HandmadeSoap",
-        "created_at": "2026-10-28T01:35:00.607Z",
-        "source": "https://bsky.app/profile/selesteres.bsky.social/post/3myvmd6uc222d",
-        "mapped_location": "Flushing",
-        "precision_level": "address",
-        "location_text": "Flushing",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5,
-        "other_locations": "24 26 Avenue, Flushing, NY, 154-24 26 Avenue, Flushing, NY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:m2wazjxhvknmeco5jiwk2lti/app.bsky.feed.post/3myvmomq6f22l",
-        "handle": "ogsaigonbond.bsky.social",
-        "text": "Beatrice Keul, a model and former Miss Switzerland, alleged to House Judiciary Committee staff that she was raped in 1993 by Trump in a Plaza Hotel suite in Manhattan when she was 24.\n\ntime.com/article/2026...",
-        "created_at": "2026-10-28T01:41:24.250Z",
-        "source": "https://bsky.app/profile/ogsaigonbond.bsky.social/post/3myvmomq6f22l",
-        "mapped_location": "a Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "a Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:22g3mf3sm5z4lp7zfk6ncv32/app.bsky.feed.post/3myvmxb5i6s2i",
-        "handle": "prognews.bsky.social",
-        "text": "\"...she was recruited by Jill Harth to attend the November 1993 pageant in Atlantic City & New York. During a press luncheon at the then-Trump-owned Plaza Hotel, Trump allegedly approached Keul and promised to help her obtain a visa & gain admission to New York Univ., according to her account...\"",
-        "created_at": "2026-10-28T01:46:14.096Z",
-        "source": "https://bsky.app/profile/prognews.bsky.social/post/3myvmxb5i6s2i",
-        "mapped_location": "Trump-owned Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "Trump-owned Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:iipowqhztticiguaxkwgtiwt/app.bsky.feed.post/3myvn66rmnp2k",
-        "handle": "ownfeed.bsky.social",
-        "text": "🇺🇸 Remember that couple who scaled the Empire State Building for a proposal? Well... they SHOWED UP in matching leather for court Angelina Nikolau and Ivan Kuznetsov were in and out of a Manhattan courtroom in minutes. Their attorney told the judge they’re working through",
-        "created_at": "2026-10-28T01:50:06.464Z",
-        "source": "https://bsky.app/profile/ownfeed.bsky.social/post/3myvn66rmnp2k",
-        "mapped_location": "the Empire State Building",
-        "precision_level": "address",
-        "location_text": "the Empire State Building",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.963,
-          40.779
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:duj4kjv6ged3cp25ilhw5h2i/app.bsky.feed.post/3myvnbdim6c2u",
-        "handle": "cmonstah.bsky.social",
-        "text": "Miguel Viladrich Vilá, \"The Man From Montevideo,\" c. 1923-25. Spotted at the Hispanic Society in New York.",
-        "created_at": "2026-10-28T01:51:45.831Z",
-        "source": "https://bsky.app/profile/cmonstah.bsky.social/post/3myvnbdim6c2u",
-        "mapped_location": "the Hispanic Society",
-        "precision_level": "address",
-        "location_text": "the Hispanic Society",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -6968,6 +6765,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6xb27hvdldyjxtq5pb5gst5p/app.bsky.feed.post/3mz2onzhfc32q",
+        "handle": "40yearsago.bsky.social",
+        "text": "[March 15th, 1981] Roben Johnson, the star of Times Square, is set to replace Oliffe in Grease 2. It highlights her natural talent and bold, punk-inspired style. She is recognized for her striking presence and successful performance in her previous role.",
+        "created_at": "2026-10-30T02:00:10.018Z",
+        "source": "https://bsky.app/profile/40yearsago.bsky.social/post/3mz2onzhfc32q",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

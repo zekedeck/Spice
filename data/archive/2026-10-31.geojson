@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T17:41:45.692334Z",
-    "total_pins": 11
+    "generated_at": "2026-10-31T20:48:30.279154Z",
+    "total_pins": 14
   },
   "features": [
     {
@@ -280,6 +280,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3mz75v2tq6z27",
+        "handle": "newsen.bsky.social",
+        "text": "United Breast Cancer Foundation Takes Center Stage in Times Square with Eye-Catching Billboards #United_States #New_York #Times_Square #United_Breast_Cancer_Foundation #Think_Pink_Gala",
+        "created_at": "2026-10-31T20:43:09Z",
+        "source": "https://bsky.app/profile/newsen.bsky.social/post/3mz75v2tq6z27",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mz75yscsbo2c",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "If you want Spooky Season to last a bit longer, we have you covered on Sunday!\n\nHOCUS POCUS and CAT PEOPLE [1942] (35mm) screen at Nitehawk Williamsburg\n\nHALLOWEEN [1978] and GODZILLA [1954] screen at Nitehawk Prospect Park",
+        "created_at": "2026-10-31T20:45:16.898Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mz75yscsbo2c",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Nitehawk Prospect Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mz75yscsbo2c",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "If you want Spooky Season to last a bit longer, we have you covered on Sunday!\n\nHOCUS POCUS and CAT PEOPLE [1942] (35mm) screen at Nitehawk Williamsburg\n\nHALLOWEEN [1978] and GODZILLA [1954] screen at Nitehawk Prospect Park",
+        "created_at": "2026-10-31T20:45:16.898Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mz75yscsbo2c",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Nitehawk Williamsburg"
       }
     }
   ]

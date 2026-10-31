@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T13:04:23.327029Z",
-    "total_pins": 8
+    "generated_at": "2026-10-31T17:41:45.692334Z",
+    "total_pins": 11
   },
   "features": [
     {
@@ -203,6 +203,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x4md7trwu7y2zubzuegtujqs/app.bsky.feed.post/3mz6tdjx5ba2e",
+        "handle": "bostonfoodbriefly.bsky.social",
+        "text": "Haunted Hotel at LeFrak Center at Lakeside delivers a 20–25 minute immersive, actor-led haunted attraction with themed rooms and theatrical effects during Prospect Park’s Harvest Festival.\n",
+        "created_at": "2026-10-31T17:34:25.994Z",
+        "source": "https://bsky.app/profile/bostonfoodbriefly.bsky.social/post/3mz6tdjx5ba2e",
+        "mapped_location": "LeFrak Center",
+        "precision_level": "address",
+        "location_text": "LeFrak Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Prospect Park’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x4md7trwu7y2zubzuegtujqs/app.bsky.feed.post/3mz6tdjx5ba2e",
+        "handle": "bostonfoodbriefly.bsky.social",
+        "text": "Haunted Hotel at LeFrak Center at Lakeside delivers a 20–25 minute immersive, actor-led haunted attraction with themed rooms and theatrical effects during Prospect Park’s Harvest Festival.\n",
+        "created_at": "2026-10-31T17:34:25.994Z",
+        "source": "https://bsky.app/profile/bostonfoodbriefly.bsky.social/post/3mz6tdjx5ba2e",
+        "mapped_location": "Prospect Park’s",
+        "precision_level": "address",
+        "location_text": "Prospect Park’s",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "LeFrak Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ypact2g25s4xt3wsoghz7dxw/app.bsky.feed.post/3mz6tgscoo22j",
+        "handle": "oldladylife.bsky.social",
+        "text": "…in Epstein’s company or direct physical presence\":\n\n• Beatrice Keul, whose account is comprehensively set forth for the first time in this report, credibly alleges that Trump violently raped her at a November 1993 pageant at the Plaza Hotel in New York City and that Epstein, Trump, and others…",
+        "created_at": "2026-10-31T17:36:15.504Z",
+        "source": "https://bsky.app/profile/oldladylife.bsky.social/post/3mz6tgscoo22j",
+        "mapped_location": "the Plaza Hotel",
+        "precision_level": "address",
+        "location_text": "the Plaza Hotel",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

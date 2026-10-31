@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T00:46:41.113270Z",
-    "total_pins": 203
+    "generated_at": "2026-10-31T06:27:16.887445Z",
+    "total_pins": 204
   },
   "features": [
     {
@@ -5120,6 +5120,31 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "NJ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mz5nydbwbz2b",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Coney Island-Stillwell Av-bound [F] and Church Av-bound [G] trains are delayed while we conduct an investigation on a train at Bergen St.",
+        "created_at": "2026-10-31T06:26:01.302Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mz5nydbwbz2b",
+        "mapped_location": "Bergen St.",
+        "precision_level": "address",
+        "location_text": "Bergen St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

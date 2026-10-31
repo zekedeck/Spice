@@ -1,797 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-30T21:06:14.050646Z",
-    "total_pins": 230
+    "generated_at": "2026-10-31T00:46:41.113270Z",
+    "total_pins": 203
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:f772crtzj4qso3epvbgq4kgw/app.bsky.feed.post/3myxnvwfm5s2a",
-        "handle": "trivialbrewco.bsky.social",
-        "text": "Daily Trivia - October 28: In 1886, the Statue of Liberty was dedicated with the first ever what type of New York City parade? Yesterday's Answers: Federalist Papers",
-        "created_at": "2026-10-28T21:08:42.475Z",
-        "source": "https://bsky.app/profile/trivialbrewco.bsky.social/post/3myxnvwfm5s2a",
-        "mapped_location": "the Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "the Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.996,
-          40.729
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:63zjpqfhowjsbfl26dipg3e2/app.bsky.feed.post/3myxnyf57vs2a",
-        "handle": "lrb.co.uk",
-        "text": "Tomorrow, @adamshatz.bsky.social will discuss the outcome of the Israeli elections and the current state of US-Israel relations with Nadia Abu El-Haj, Robert Malley and Ian Lustick at the New School, NYC.\n\nTickets here:\n\nwww.tickettailor.com/events/londo...",
-        "created_at": "2026-10-28T21:10:00.000Z",
-        "source": "https://bsky.app/profile/lrb.co.uk/post/3myxnyf57vs2a",
-        "mapped_location": "the New School",
-        "precision_level": "address",
-        "location_text": "the New School",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myxocylsug2i",
-        "handle": "mtaalerts.bsky.social",
-        "text": "Uptown [6] [6X] trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.",
-        "created_at": "2026-10-28T21:16:00.781Z",
-        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myxocylsug2i",
-        "mapped_location": "Brooklyn Bridge-City Hall",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge-City Hall",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Bleecker St."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.722
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3myxocylsug2i",
-        "handle": "mtaalerts.bsky.social",
-        "text": "Uptown [6] [6X] trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.",
-        "created_at": "2026-10-28T21:16:00.781Z",
-        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3myxocylsug2i",
-        "mapped_location": "Bleecker St.",
-        "precision_level": "address",
-        "location_text": "Bleecker St.",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Brooklyn Bridge-City Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.996,
-          40.721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxofi745bl2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Uptown 6, 6 express trains are delayed while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T21:17:22.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxofi745bl2",
-        "mapped_location": "Bleecker St.\n\nFor",
-        "precision_level": "address",
-        "location_text": "Bleecker St.\n\nFor",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l5t7gno3xiuxjdkmj2iiwg2m/app.bsky.feed.post/3myxoofjl422j",
-        "handle": "hectorarbuckle.bsky.social",
-        "text": "I'm just like - are people unaware of this? You gotta be nice to others!\n\nHmm, maybe it's because so many people are posting under false handles. I feel like everything I write here is so obviously traceable to myself, I should treat it as if I am writing this on a billboard on Times Square.",
-        "created_at": "2026-10-28T21:22:23.657Z",
-        "source": "https://bsky.app/profile/hectorarbuckle.bsky.social/post/3myxoofjl422j",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxosnafqn72",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Uptown 6, 6 express‌ trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T21:24:42.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxosnafqn72",
-        "mapped_location": "Brooklyn Bridge-City Hall",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge-City Hall",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Bleecker St.\n\nFor"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.996,
-          40.721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3myxosnafqn72",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Uptown 6, 6 express‌ trains are running express from Brooklyn Bridge-City Hall to Grand Central-42 St while we investigate why a train's brakes activated at Bleecker St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-28T21:24:42.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3myxosnafqn72",
-        "mapped_location": "Bleecker St.\n\nFor",
-        "precision_level": "address",
-        "location_text": "Bleecker St.\n\nFor",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Brooklyn Bridge-City Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.7
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fmuwnxdfzj7gmwz26so4vxkq/app.bsky.feed.post/3myxotpihct2d",
-        "handle": "nycfoodbriefly.bsky.social",
-        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
-        "created_at": "2026-10-28T21:25:21.649Z",
-        "source": "https://bsky.app/profile/nycfoodbriefly.bsky.social/post/3myxotpihct2d",
-        "mapped_location": "Brooklyn Bridge Park",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "the Brooklyn Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:fmuwnxdfzj7gmwz26so4vxkq/app.bsky.feed.post/3myxotpihct2d",
-        "handle": "nycfoodbriefly.bsky.social",
-        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
-        "created_at": "2026-10-28T21:25:21.649Z",
-        "source": "https://bsky.app/profile/nycfoodbriefly.bsky.social/post/3myxotpihct2d",
-        "mapped_location": "the Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Brooklyn Bridge Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.7
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxoukjlrm2d",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
-        "created_at": "2026-10-28T21:25:49.997Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxoukjlrm2d",
-        "mapped_location": "Brooklyn Bridge Park",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "the Brooklyn Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3myxoukjlrm2d",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "Roebling Rink returns to Brooklyn Bridge Park for winter skating under the Brooklyn Bridge, with 2026 opening-day free sessions and events through January 31, 2027.\n",
-        "created_at": "2026-10-28T21:25:49.997Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3myxoukjlrm2d",
-        "mapped_location": "the Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "the Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Brooklyn Bridge Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:mwmgztvcqncl3be3zzqnv46v/app.bsky.feed.post/3myxpsecre22a",
-        "handle": "yourbluefriendo.bsky.social",
-        "text": "🗽 On this day in 1886, President Grover Cleveland threw a massive party to welcome the Statue of Liberty to New York. France dropped the ultimate gift: a giant copper lady with a skeleton built by the Eiffel Tower guy. 140 years later, she's still holding the torch\nvid: @amexperiencepbs.bsky.social",
-        "created_at": "2026-10-28T21:42:30.344Z",
-        "source": "https://bsky.app/profile/yourbluefriendo.bsky.social/post/3myxpsecre22a",
-        "mapped_location": "the Statue of Liberty",
-        "precision_level": "address",
-        "location_text": "the Statue of Liberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.109079,
-          40.581087
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y63pgzqmgls3ra5wjy2kdqrx/app.bsky.feed.post/3myxpth25ci22",
-        "handle": "footballanalyticss.bsky.social",
-        "text": "⚽ Clash alert! New England Revolution take on New York Red Bulls tonight at 23:30 Lisbon time. Back New England or draw at 2.22 — they own a massive 90% chance of staking a point or better! Don’t sleep on this double chance magic! 🎯",
-        "created_at": "2026-10-28T21:43:07.174Z",
-        "source": "https://bsky.app/profile/footballanalyticss.bsky.social/post/3myxpth25ci22",
-        "mapped_location": "Lisbon Place, Grant City, Staten Island, Richmond County, New York, 10306, United States",
-        "precision_level": "unclassified",
-        "location_text": "23:30 Lisbon",
-        "confidence": 0.64,
-        "address_type": "residential",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:oj2tfjysfe7quvz5av456p3t/app.bsky.feed.post/3myxpvzfqoc2b",
-        "handle": "tygergyrl17.bsky.social",
-        "text": "2. promoted by international organizations, including the United Nations. Violations of those laws can carry penalties of up to 20 years in prison and $1 million in fines! \n\nLawler is facing Democrat Cait Conley in New York’s highly competitive 17th Congressional District",
-        "created_at": "2026-10-28T21:44:33.125Z",
-        "source": "https://bsky.app/profile/tygergyrl17.bsky.social/post/3myxpvzfqoc2b",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York’s",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.856,
-          40.86
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:h2twodfx2ycxvobg6pevllmg/app.bsky.feed.post/3myxrdu425226",
-        "handle": "mayhem1994.bsky.social",
-        "text": "Attempted robbery of a father who had just picked up his son from school in  The Bronx, New York near East 172nd Street and Mount Eden. Several people who witnessed what happened came to the aid of the father and collaborated in beating the individuals ass until he was detained by the police.",
-        "created_at": "2026-10-28T22:10:11.066Z",
-        "source": "https://bsky.app/profile/mayhem1994.bsky.social/post/3myxrdu425226",
-        "mapped_location": "East 172nd Street",
-        "precision_level": "address",
-        "location_text": "East 172nd Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.757
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:svmts2uxzivrviow3cl6az7k/app.bsky.feed.post/3myxrkcidzk23",
-        "handle": "grumpyrootbeer.bsky.social",
-        "text": "I am and I saw both movies and did not recognize her on sight because she's not remarkable unless you're the type of NYC/online culture vulture who has Thoughts when the term Dimes Square is mentioned. This is not a pop culturally relevant person, this is a scenester gadfly.",
-        "created_at": "2026-10-28T22:13:47.219Z",
-        "source": "https://bsky.app/profile/grumpyrootbeer.bsky.social/post/3myxrkcidzk23",
-        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Dimes Square",
-        "confidence": 1.0,
-        "address_type": "square",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ael2pktq6g5m3hdqpdsy7es5/app.bsky.feed.post/3myxrm4migs23",
-        "handle": "elderman.bsky.social",
-        "text": "Ladies crossing the street in Times Square in New York City one Sunday in the summer of 1955",
-        "created_at": "2026-10-28T22:14:48.430Z",
-        "source": "https://bsky.app/profile/elderman.bsky.social/post/3myxrm4migs23",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.912,
-          40.627
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:onx4cwz6nzsxpfh4i2xvx237/app.bsky.feed.post/3myxrmrxvjs27",
-        "handle": "fox5ny.bsky.social",
-        "text": "A child was killed and four people were critically hurt in a lithium-ion battery fire at NYCHA's Patterson Houses in the Mott Haven section, the FDNY said.",
-        "created_at": "2026-10-28T22:15:10Z",
-        "source": "https://bsky.app/profile/fox5ny.bsky.social/post/3myxrmrxvjs27",
-        "mapped_location": "Mott Haven",
-        "precision_level": "address",
-        "location_text": "Mott Haven",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.926,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3myxulqsvx22i",
-        "handle": "nysoccerjournal.com",
-        "text": "BREAKING: As announced on MLS Countdown, New York City FC will host Red Bull New York on Decision Day for the 2027 Sprint Season. The Hudson River Derby will also be the final #NYCFC regular season match at Yankee Stadium.\n\nArticle by @battista.bsky.social: www.nysoccerjournal.com/nycfc-vs-red...",
-        "created_at": "2026-10-28T23:08:17.281Z",
-        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3myxulqsvx22i",
-        "mapped_location": "Yankee Stadium",
-        "precision_level": "address",
-        "location_text": "Yankee Stadium",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.763
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ihe5ujziqrf64dcehi26zrj5/app.bsky.feed.post/3myxun3i7fk25",
-        "handle": "seamusaloysius.bsky.social",
-        "text": "October 28, 2014: The Allman Brothers Band played their final show at The Beacon Theatre in New York City.  \n📷: from ABB",
-        "created_at": "2026-10-28T23:09:02.023Z",
-        "source": "https://bsky.app/profile/seamusaloysius.bsky.social/post/3myxun3i7fk25",
-        "mapped_location": "The Beacon Theatre",
-        "precision_level": "address",
-        "location_text": "The Beacon Theatre",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.877,
-          40.851
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:poe4ckqtr7m6l75k2llezyq4/app.bsky.feed.post/3myxupg47g22q",
-        "handle": "dbeeler.bsky.social",
-        "text": "Veeck as in Wreck, The Bronx Zoo, anything by Roger Angell.",
-        "created_at": "2026-10-28T23:10:20.250Z",
-        "source": "https://bsky.app/profile/dbeeler.bsky.social/post/3myxupg47g22q",
-        "mapped_location": "The Bronx Zoo",
-        "precision_level": "address",
-        "location_text": "The Bronx Zoo",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.781
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lwxbuuxrd6nq7reg6eqr77sx/app.bsky.feed.post/3myxuu4mflc2a",
-        "handle": "elizdanjou.bsky.social",
-        "text": "This is very niche, but as a kid, I lived in NYC, and when visiting the Museum of Natural History, which featured a life-sized replica blue whale. I refused to walk under the whale. Just seemed unwise.",
-        "created_at": "2026-10-28T23:12:58.090Z",
-        "source": "https://bsky.app/profile/elizdanjou.bsky.social/post/3myxuu4mflc2a",
-        "mapped_location": "the Museum of Natural History",
-        "precision_level": "address",
-        "location_text": "the Museum of Natural History",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.972,
-          40.797
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zp5p2zwq5kx4x67obogi7xpn/app.bsky.feed.post/3myxxcpdirk2t",
-        "handle": "tinylion.bsky.social",
-        "text": "@mayor.nyc.gov Please take a look at the scaffolding that takes up almost the entire sidewalk from Irving Place to 3rd Avenue on 14th Street. It has been there for years and has become a homeless encampment.",
-        "created_at": "2026-10-28T23:56:54.966Z",
-        "source": "https://bsky.app/profile/tinylion.bsky.social/post/3myxxcpdirk2t",
-        "mapped_location": "3rd Avenue",
-        "precision_level": "address",
-        "location_text": "3rd Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "14th Street"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.992,
-          40.736
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zp5p2zwq5kx4x67obogi7xpn/app.bsky.feed.post/3myxxcpdirk2t",
-        "handle": "tinylion.bsky.social",
-        "text": "@mayor.nyc.gov Please take a look at the scaffolding that takes up almost the entire sidewalk from Irving Place to 3rd Avenue on 14th Street. It has been there for years and has become a homeless encampment.",
-        "created_at": "2026-10-28T23:56:54.966Z",
-        "source": "https://bsky.app/profile/tinylion.bsky.social/post/3myxxcpdirk2t",
-        "mapped_location": "14th Street",
-        "precision_level": "address",
-        "location_text": "14th Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "3rd Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hxduipiifbc2jt3f4nuyhb5o/app.bsky.feed.post/3myxxy2okuk23",
-        "handle": "echofarandfaint.bsky.social",
-        "text": "Here's my #reyloww, a snippet from the upcoming chapter of 'pearl' -- my new fic sent in 1980s NYC about angry stripper Rey x bad cop Ben\n\nChapter one here: archiveofourown.org/works/954876...",
-        "created_at": "2026-10-29T00:08:51.505Z",
-        "source": "https://bsky.app/profile/echofarandfaint.bsky.social/post/3myxxy2okuk23",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NYC",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.891,
-          40.845
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dlfztqw6svsdj2rz3kznoxvx/app.bsky.feed.post/3myxy67ez4z24",
-        "handle": "nyfactexchange.bsky.social",
-        "text": "Construction has begun on a six-story school building for 700 students at 1780 East Tremont Avenue, Bronx Times reported Wednesday. nyfactexchange.com/today-in-nyc/bronx #TheBronx #NYC #NYCNews",
-        "created_at": "2026-10-29T00:12:15.889643+00:00",
-        "source": "https://bsky.app/profile/nyfactexchange.bsky.social/post/3myxy67ez4z24",
-        "mapped_location": "1780 East Tremont Avenue",
-        "precision_level": "address",
-        "location_text": "1780 East Tremont Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.757
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tz7mjvor7gjmglqsggkc5cn6/app.bsky.feed.post/3myxzjmxkgk2r",
-        "handle": "andreachalupa.com",
-        "text": "I want everyone to know that New York Magazine was just pitched an article about how Dimes Square is incel rape culture with young women survivors risking everything to bring criminal cases, and they turned it down. \n\nRethink that pitch, @tomiobaro.bsky.social",
-        "created_at": "2026-10-29T00:36:34.842Z",
-        "source": "https://bsky.app/profile/andreachalupa.com/post/3myxzjmxkgk2r",
-        "mapped_location": "Times Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10036, United States",
-        "precision_level": "address (clarified)",
-        "location_text": "Dimes Square",
-        "confidence": 1.0,
-        "address_type": "square",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.971,
-          40.783
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3edx4vfvies45p4txgtqcm77/app.bsky.feed.post/3myxzrqqpre2k",
-        "handle": "unitedlegal.bsky.social",
-        "text": "Barbara Barrie Cause of Death: What Is Known About Her Final Illness\n\nThe Barbara Barrie cause of death has drawn attention following reports that the Oscar-nominated actress died at age 95 on October 28, 2026. According to reports citing her daughter, Jane Harnick, Barrie died at her Manhattan…",
-        "created_at": "2026-10-29T00:41:07Z",
-        "source": "https://bsky.app/profile/unitedlegal.bsky.social/post/3myxzrqqpre2k",
-        "mapped_location": "her Manhattan",
-        "precision_level": "address",
-        "location_text": "her Manhattan",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9617836,
-          40.7191523
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:igzcmfeychns7a4amij6o2bu/app.bsky.feed.post/3myy22px2qc22",
-        "handle": "renatayaga.bsky.social",
-        "text": "James the Seventh at the Music Hall in Williamsburg!",
-        "created_at": "2026-10-29T00:46:08.393Z",
-        "source": "https://bsky.app/profile/renatayaga.bsky.social/post/3myy22px2qc22",
-        "mapped_location": "Music Hall of Williamsburg, 66, North 6th Street, Williamsburg, Brooklyn, Kings County, New York, 11249, United States",
-        "precision_level": "unclassified",
-        "location_text": "the Music Hall",
-        "confidence": 0.82,
-        "address_type": "theatre",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Williamsburg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:igzcmfeychns7a4amij6o2bu/app.bsky.feed.post/3myy22px2qc22",
-        "handle": "renatayaga.bsky.social",
-        "text": "James the Seventh at the Music Hall in Williamsburg!",
-        "created_at": "2026-10-29T00:46:08.393Z",
-        "source": "https://bsky.app/profile/renatayaga.bsky.social/post/3myy22px2qc22",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5,
-        "other_locations": "the Music Hall"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -5805,6 +5018,108 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "Williamsburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qrttlllhmt5x5fefiy4tmrsk/app.bsky.feed.post/3mz52wxdntc2b",
+        "handle": "sfpoliticsbriefly.bsky.social",
+        "text": "Competitive House races in New York’s 3rd, 4th, and 17th districts could determine whether Democrats regain U.S. House control.\n",
+        "created_at": "2026-10-31T00:45:14.296Z",
+        "source": "https://bsky.app/profile/sfpoliticsbriefly.bsky.social/post/3mz52wxdntc2b",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mz52x6lkrj2g",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Competitive House races in New York’s 3rd, 4th, and 17th districts could determine whether Democrats regain U.S. House control.\n",
+        "created_at": "2026-10-31T00:45:21.895Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mz52x6lkrj2g",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York’s",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sumnq3aq5en6ssfclgjyiuht/app.bsky.feed.post/3mz52xqdguc2o",
+        "handle": "kavi.bsky.social",
+        "text": "The basic issue underlying almost all bad left of center urbanism takes is Thinking It's 1970. Like \"people live in NJ because of suburban life\" is a take that makes a lot more sense if you don't realize Newark and Jersey City are basically Brooklyn 2 now",
+        "created_at": "2026-10-31T00:45:40.569Z",
+        "source": "https://bsky.app/profile/kavi.bsky.social/post/3mz52xqdguc2o",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1,
+        "other_locations": "Brooklyn 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9497211,
+          40.6526006
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sumnq3aq5en6ssfclgjyiuht/app.bsky.feed.post/3mz52xqdguc2o",
+        "handle": "kavi.bsky.social",
+        "text": "The basic issue underlying almost all bad left of center urbanism takes is Thinking It's 1970. Like \"people live in NJ because of suburban life\" is a take that makes a lot more sense if you don't realize Newark and Jersey City are basically Brooklyn 2 now",
+        "created_at": "2026-10-31T00:45:40.569Z",
+        "source": "https://bsky.app/profile/kavi.bsky.social/post/3mz52xqdguc2o",
+        "mapped_location": "Brooklyn, Kings County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Brooklyn 2",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "NJ"
       }
     }
   ]

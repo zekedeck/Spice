@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T20:48:30.279154Z",
-    "total_pins": 14
+    "generated_at": "2026-10-31T23:55:02.544208Z",
+    "total_pins": 15
   },
   "features": [
     {
@@ -357,6 +357,31 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "Nitehawk Williamsburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.675
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zteplmzd6s7vhrczagojydbe/app.bsky.feed.post/3mz7iht7rlk2t",
+        "handle": "ahkerchoo.bsky.social",
+        "text": "I forgot how much fun the Park Slope Halloween parade is! Marched with my fellow Ladies Liberty",
+        "created_at": "2026-10-31T23:52:38.581Z",
+        "source": "https://bsky.app/profile/ahkerchoo.bsky.social/post/3mz7iht7rlk2t",
+        "mapped_location": "the Park Slope",
+        "precision_level": "address",
+        "location_text": "the Park Slope",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

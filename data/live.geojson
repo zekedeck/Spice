@@ -1,287 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T23:55:02.541738Z",
-    "total_pins": 44
+    "generated_at": "2026-11-01T04:51:11.019102Z",
+    "total_pins": 36
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2nsztbbomsurd42ksygfl4sg/app.bsky.feed.post/3mz2htggjes2u",
-        "handle": "anaperezc.bsky.social",
-        "text": "These days you can see the promotion for The Hunger Games in Times Square, New York. The screens with the butterflies look awesome! ❤️‍🔥\n\n#newyorker #timessquare #newyork #hungergames",
-        "created_at": "2026-10-29T23:57:55.390Z",
-        "source": "https://bsky.app/profile/anaperezc.bsky.social/post/3mz2htggjes2u",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.852
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:touncctwfgse25cau5ztnb5v/app.bsky.feed.post/3mz2imi2xck2u",
-        "handle": "munichartstudio.bsky.social",
-        "text": "I saw the biggest, chonkiest, most magical pumpkin filled with Spooktober guts at the New York Botanic Gardens!🧡🎃",
-        "created_at": "2026-10-30T00:11:55.975Z",
-        "source": "https://bsky.app/profile/munichartstudio.bsky.social/post/3mz2imi2xck2u",
-        "mapped_location": "the New York Botanic Gardens",
-        "precision_level": "address",
-        "location_text": "the New York Botanic Gardens",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.715
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vlrlfagmwwtspfrgjvnbclbh/app.bsky.feed.post/3mz2isbqeh52y",
-        "handle": "oneinchpunchnet.bsky.social",
-        "text": "RISE, Jeff Yang, Phil Yu and Philip Wang's pop history of Asian America, is becoming a free exhibition at Pearl River Mart's 452 Broadway gallery in New York, from 7 Nov to 3 Jan, with a free opening reception on 7 Nov. Image: Pearl River Mart",
-        "created_at": "2026-10-30T00:15:10.460Z",
-        "source": "https://bsky.app/profile/oneinchpunchnet.bsky.social/post/3mz2isbqeh52y",
-        "mapped_location": "Pearl River Mart's",
-        "precision_level": "address",
-        "location_text": "Pearl River Mart's",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Pearl River Mart"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.721
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:vlrlfagmwwtspfrgjvnbclbh/app.bsky.feed.post/3mz2isbqeh52y",
-        "handle": "oneinchpunchnet.bsky.social",
-        "text": "RISE, Jeff Yang, Phil Yu and Philip Wang's pop history of Asian America, is becoming a free exhibition at Pearl River Mart's 452 Broadway gallery in New York, from 7 Nov to 3 Jan, with a free opening reception on 7 Nov. Image: Pearl River Mart",
-        "created_at": "2026-10-30T00:15:10.460Z",
-        "source": "https://bsky.app/profile/oneinchpunchnet.bsky.social/post/3mz2isbqeh52y",
-        "mapped_location": "Pearl River Mart",
-        "precision_level": "address",
-        "location_text": "Pearl River Mart",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Pearl River Mart's"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.001,
-          40.596
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mz2iti5slz42",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "R trains are delayed entering/leaving Bay Ridge-95 St while we address a mechanical problem on a train at that station.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-10-30T00:15:48.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mz2iti5slz42",
-        "mapped_location": "Bay Ridge-95 St",
-        "precision_level": "address",
-        "location_text": "Bay Ridge-95 St",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.801
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:mpoxsaax7r5rs2tgeh56nqhn/app.bsky.feed.post/3mz2jbxbdos2k",
-        "handle": "michaelemann.bsky.social",
-        "text": "I'll be participating in a #ScienceUnderSiege panel at the #RawScience Film Festival at Lincoln Center in NYC, Friday Nov 6 at 6pm. Come out and join us!\nwww.rawsciencefilmfestival.com/2026-festiva...",
-        "created_at": "2026-10-30T00:23:56.558Z",
-        "source": "https://bsky.app/profile/michaelemann.bsky.social/post/3mz2jbxbdos2k",
-        "mapped_location": "Lincoln Center",
-        "precision_level": "address",
-        "location_text": "Lincoln Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.006,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2wyqv44lm72vasmddeqjgy72/app.bsky.feed.post/3mz2mol7e222h",
-        "handle": "clancyny.bsky.social",
-        "text": "[Since I leapt over your reply, I'm moving this post under your reply here.]\n\nI'm going to try to find out if they're really moving inventory of these products. And who drinks them. \n\nThere may not yet be much of a foothold. And, there may be resources in the NYC Health Dept. that could be helpful.",
-        "created_at": "2026-10-30T01:24:41.345Z",
-        "source": "https://bsky.app/profile/clancyny.bsky.social/post/3mz2mol7e222h",
-        "mapped_location": "the NYC Health Dept",
-        "precision_level": "address",
-        "location_text": "the NYC Health Dept",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6xb27hvdldyjxtq5pb5gst5p/app.bsky.feed.post/3mz2onzhfc32q",
-        "handle": "40yearsago.bsky.social",
-        "text": "[March 15th, 1981] Roben Johnson, the star of Times Square, is set to replace Oliffe in Grease 2. It highlights her natural talent and bold, punk-inspired style. She is recognized for her striking presence and successful performance in her previous role.",
-        "created_at": "2026-10-30T02:00:10.018Z",
-        "source": "https://bsky.app/profile/40yearsago.bsky.social/post/3mz2onzhfc32q",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.727
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wrfbvl6vluqrpei4yk5nvqlg/app.bsky.feed.post/3mz2pb3gyjs25",
-        "handle": "rorymasterson.bsky.social",
-        "text": "Who is NY license “NUMBER 1,” because it just left the East Village near where the Subway Takes guy is currently in the Ukrainian National Home",
-        "created_at": "2026-10-30T02:10:49.834Z",
-        "source": "https://bsky.app/profile/rorymasterson.bsky.social/post/3mz2pb3gyjs25",
-        "mapped_location": "the Ukrainian National Home",
-        "precision_level": "address",
-        "location_text": "the Ukrainian National Home",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.971,
-          40.783
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:awldvmpqmt5lr6qexoyv5ok6/app.bsky.feed.post/3mz2rfgp6f623",
-        "handle": "wmur9.bsky.social",
-        "text": "The first documented barn owl nest in modern Manhattan was exposed when a water tower roof was removed, sparking criticism and concern.",
-        "created_at": "2026-10-30T02:49:03.320Z",
-        "source": "https://bsky.app/profile/wmur9.bsky.social/post/3mz2rfgp6f623",
-        "mapped_location": "modern Manhattan",
-        "precision_level": "address",
-        "location_text": "modern Manhattan",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.007,
-          40.713
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:s2sexehpwvj6r4jtunkpzdms/app.bsky.feed.post/3mz2rkycloc2q",
-        "handle": "jointheunionus.bsky.social",
-        "text": "The American Presidency :: Past, Present, and Future\nWhere is the Office 237 Years On?  By Reed Galen and Alexis Coe of Civic Forum\n\nAlexis Coe and I will discuss the presidency on Nov. 12 @ The Bench, 49 Elizabeth Street, New York, NY. Reserve tickets👇",
-        "created_at": "2026-10-30T02:52:09.573Z",
-        "source": "https://bsky.app/profile/jointheunionus.bsky.social/post/3mz2rkycloc2q",
-        "mapped_location": "49 Elizabeth Street",
-        "precision_level": "address",
-        "location_text": "49 Elizabeth Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -1112,6 +835,81 @@
         "mapped_location": "the Park Slope",
         "precision_level": "address",
         "location_text": "the Park Slope",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fyduqs7dayxhjm2irkfvao47/app.bsky.feed.post/3mz7ytxccxk2b",
+        "handle": "nickiekaneforny.bsky.social",
+        "text": "THE CAMERAS LEFT. THE PEOPLE STAYED.\n\nAt 964 Park Place, neighbors and housing advocates organized a 24/7 stoop watch while a family fights alleged deed theft and eviction.\n\nPublic appearances aren't enough. Families need results.\n\n#StopDeedTheft #Brooklyn #NY10",
+        "created_at": "2026-11-01T04:45:45.380Z",
+        "source": "https://bsky.app/profile/nickiekaneforny.bsky.social/post/3mz7ytxccxk2b",
+        "mapped_location": "964 Park Place",
+        "precision_level": "address",
+        "location_text": "964 Park Place",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mz7yxyxwgv2a",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Manhattan-bound [A] trains are delayed while we request NYPD/EMS assistance for someone being disruptive on a train at Hoyt-Schermerhorn Sts.",
+        "created_at": "2026-11-01T04:48:00.978Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mz7yxyxwgv2a",
+        "mapped_location": "Hoyt-Schermerhorn Sts",
+        "precision_level": "address",
+        "location_text": "Hoyt-Schermerhorn Sts",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mz7z4ldhn462",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Manhattan-bound A trains are delayed while we request NYPD/EMS assistance for someone being disruptive on a train at Hoyt-Schermerhorn Sts.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-01T04:50:21.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mz7z4ldhn462",
+        "mapped_location": "Hoyt-Schermerhorn Sts",
+        "precision_level": "address",
+        "location_text": "Hoyt-Schermerhorn Sts",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

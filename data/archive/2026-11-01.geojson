@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-01T17:22:40.197678Z",
-    "total_pins": 6
+    "generated_at": "2026-11-01T21:22:28.483147Z",
+    "total_pins": 8
   },
   "features": [
     {
@@ -155,6 +155,56 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "Hester Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzbq6hft3ge2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown C trains are delayed while we are unable to move a train at Kingston-Throop Avs.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-01T21:15:51.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzbq6hft3ge2",
+        "mapped_location": "Kingston-Throop Avs",
+        "precision_level": "address",
+        "location_text": "Kingston-Throop Avs",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:gy4jjyh7gtyvxorc5i4aemp2/app.bsky.feed.post/3mzbqgbca6c2k",
+        "handle": "brianpshea.bsky.social",
+        "text": "For about 24 hours haha I was in Flushing since Friday, and Detroit tonight",
+        "created_at": "2026-11-01T21:20:15.653Z",
+        "source": "https://bsky.app/profile/brianpshea.bsky.social/post/3mzbqgbca6c2k",
+        "mapped_location": "Flushing",
+        "precision_level": "address",
+        "location_text": "Flushing",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-01T11:39:34.687894Z",
-    "total_pins": 3
+    "generated_at": "2026-11-01T17:22:40.197678Z",
+    "total_pins": 6
   },
   "features": [
     {
@@ -78,6 +78,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lfxcx6pww22nce353fxrgicd/app.bsky.feed.post/3mzbcunhavc24",
+        "handle": "carmelostar.bsky.social",
+        "text": "Any other children of the 80s remember The League of Ugly Muggs? These finger puppets are a core childhood memory. Bought them years ago in Park Slope, Brooklyn.",
+        "created_at": "2026-11-01T17:17:45.766Z",
+        "source": "https://bsky.app/profile/carmelostar.bsky.social/post/3mzbcunhavc24",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9907701,
+          40.7158686
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mzbcxma5vek2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Eldridge Street between Hester Street and Grand Street. Odd numbers\n\nVia https://digitalcollections.nypl.org/items/f8a78b50-c5b1-012f-2066-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Eldridge%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-11-01T17:19:21.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mzbcxma5vek2",
+        "mapped_location": "Hester Street, Lower East Side, Manhattan Community Board 3, Manhattan, New York County, New York, 10002, United States",
+        "precision_level": "unclassified",
+        "location_text": "Hester Street",
+        "confidence": 0.64,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Grand Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.717
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mzbcxma5vek2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Eldridge Street between Hester Street and Grand Street. Odd numbers\n\nVia https://digitalcollections.nypl.org/items/f8a78b50-c5b1-012f-2066-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Eldridge%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-11-01T17:19:21.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mzbcxma5vek2",
+        "mapped_location": "Grand Street",
+        "precision_level": "address",
+        "location_text": "Grand Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Hester Street"
       }
     }
   ]

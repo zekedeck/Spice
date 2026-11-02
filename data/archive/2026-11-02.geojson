@@ -1,8 +1,159 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-02T07:26:55.651290Z",
-    "total_pins": 0
+    "generated_at": "2026-11-02T17:28:47.456916Z",
+    "total_pins": 6
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mzdtlxx5swd2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Centre Street between Leonard Street and White Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/58682670-c5af-012f-dbd7-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Centre%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-11-02T17:20:59.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mzdtlxx5swd2",
+        "mapped_location": "Leonard Street",
+        "precision_level": "address",
+        "location_text": "Leonard Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jjev6dxwot4y5faki24sqocq/app.bsky.feed.post/3mzdtjow3wc2j",
+        "handle": "spocksbrian.worstpossible.world",
+        "text": "A few years back I got to work at Doors of Divergence in Brooklyn, one of the best jobs I've ever had. I got to bring on the creator for a very long talk about this game and its impact on his life",
+        "created_at": "2026-11-02T17:21:11.301Z",
+        "source": "https://bsky.app/profile/spocksbrian.worstpossible.world/post/3mzdtjow3wc2j",
+        "mapped_location": "Doors of Divergence",
+        "precision_level": "address",
+        "location_text": "Doors of Divergence",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2wyqv44lm72vasmddeqjgy72/app.bsky.feed.post/3mzdtn23uu227",
+        "handle": "clancyny.bsky.social",
+        "text": "Truly, the Ph.D. Program in History at the CUNY Graduate Center is a wonderful dept, in a city with mega history resources. People from all over the globe live here and speak many more languages than even the UN recognizes.\n\nAnd there's our new Mayor. Who is making NYC the best NYC we've ever had.",
+        "created_at": "2026-11-02T17:23:03.688Z",
+        "source": "https://bsky.app/profile/clancyny.bsky.social/post/3mzdtn23uu227",
+        "mapped_location": "the CUNY Graduate Center",
+        "precision_level": "address",
+        "location_text": "the CUNY Graduate Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k6xfx5gyxln5clclw7n6fjpq/app.bsky.feed.post/3mzdtry3l3c2i",
+        "handle": "gwbiscuit.bsky.social",
+        "text": "I don’t know if anyone, male or female, has shown as much ass as Stevens did here—at least in the recent political landscape (since Trump entered the scene). This is walking pantsless through Times Square, spanking your cheeks and howling like a wolf. \n\nSo a comparison is difficult to come by.",
+        "created_at": "2026-11-02T17:25:49.353Z",
+        "source": "https://bsky.app/profile/gwbiscuit.bsky.social/post/3mzdtry3l3c2i",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzdttpfqijg2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "M, R trains are running with delays in both directions while we address a signal problem at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-02T17:26:42.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzdttpfqijg2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5lobinxo54gsjgtgmkzl23z/app.bsky.feed.post/3mzdttyhf5c2u",
+        "handle": "gardenstatecube.bsky.social",
+        "text": "Q1 2027 is a cube extravaganza for the Northeast.\n\nJoin us in January\nNYC in February\nBoston in March\n\nI'll be there, you should too!\n\n#mtgcube",
+        "created_at": "2026-11-02T17:26:56.849Z",
+        "source": "https://bsky.app/profile/gardenstatecube.bsky.social/post/3mzdttyhf5c2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "January\nNYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
 }

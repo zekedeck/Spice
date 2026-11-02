@@ -1,185 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-02T07:26:55.645096Z",
-    "total_pins": 25
+    "generated_at": "2026-11-02T17:28:47.449973Z",
+    "total_pins": 24
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rynsby4nk2mgdbgvcv6yp7g4/app.bsky.feed.post/3mz6dvtvfy42d",
-        "handle": "monteozafrica.bsky.social",
-        "text": "New Times Square Hotel to Feature Free-Fall Thrill Ride, Rooftop Pool and Observation Deck Above Manhattan\n\nA new Times Square hotel is set to bring an unusual mix of luxury accommodation, entertainment and high-altitude attractions to the heart of New York City, with plans for an enclosed…",
-        "created_at": "2026-10-31T12:58:20Z",
-        "source": "https://bsky.app/profile/monteozafrica.bsky.social/post/3mz6dvtvfy42d",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.763
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:avf2r4bh6vm2yfiyjtvsphaq/app.bsky.feed.post/3mz6dxnhfs72n",
-        "handle": "nystatemusic.bsky.social",
-        "text": "Tedeshi Trucks Band Announce 10 Shows at Beacon Theatre\n\nThe Grammy award-winning Tedeschi Trucks Band announced a return to the Beacon Theatre in Manhattan with a 10 show residency, kicking off...",
-        "created_at": "2026-10-31T12:59:19+00:00",
-        "source": "https://bsky.app/profile/nystatemusic.bsky.social/post/3mz6dxnhfs72n",
-        "mapped_location": "Beacon Theatre\n\nThe Grammy",
-        "precision_level": "address",
-        "location_text": "Beacon Theatre\n\nThe Grammy",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:33wuswnohigcvpdx5e4wewqx/app.bsky.feed.post/3mz6dzpayl42t",
-        "handle": "usedcarsusa.bsky.social",
-        "text": "🚗 2026 Hyundai IONIQ 9\n\n💰 $55,110 | 📍 Brooklyn, NY | 🛣️ 320 mi\n\nCheck it out: https://www.findusedcarsus.com/car/cmofzt6y0086wklu250japhyi\n\n#usedcars #Hyundai #cars",
-        "created_at": "2026-10-31T13:00:29.547Z",
-        "source": "https://bsky.app/profile/usedcarsusa.bsky.social/post/3mz6dzpayl42t",
-        "mapped_location": "Brooklyn, NY | 🛣️ 320 mi",
-        "precision_level": "address",
-        "location_text": "Brooklyn, NY | 🛣️ 320 mi",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xnsctr5wazpalifkfto7qodr/app.bsky.feed.post/3mz6e24febm2o",
-        "handle": "worstmovies.bsky.social",
-        "text": "Law and Disorder (1974)\nTMDB score 49%\n\nIn crime ridden New York of the seventies two cops has had enough. They decide to take justice into their own hands. Things turn exciting and humorous. No hoodlum goes safe.\n\n#movies #moviesky #badmovies",
-        "created_at": "2026-10-31T13:00:40.15960400Z",
-        "source": "https://bsky.app/profile/worstmovies.bsky.social/post/3mz6e24febm2o",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "ridden New York",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.915,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:pwe7a7c7jocggn3443b7baup/app.bsky.feed.post/3mz6e27f3n327",
-        "handle": "lupus.org",
-        "text": "🏃💜 NYC, come cheer with us! Our Racing to End Lupus team is taking on the TCS NYC Marathon tomorrow!\n\n📍 Join our cheer section in Long Island City, Queens, just before mile 14 at Vernon Blvd & 47th Rd. Look for our purple Racing to End Lupus signs and banners!\n\n#TCSNYCMarathon",
-        "created_at": "2026-10-31T13:00:46.695Z",
-        "source": "https://bsky.app/profile/lupus.org/post/3mz6e27f3n327",
-        "mapped_location": "Vernon Blvd & 47th Rd",
-        "precision_level": "address",
-        "location_text": "Vernon Blvd & 47th Rd",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:f4z2wrejskmfwkapi3codqdm/app.bsky.feed.post/3mz6e2qew4k2t",
-        "handle": "ctabusinsights.chicagotransitalerts.app",
-        "text": "🚌 Route 77 (Belmont) — Eastbound\n\n2 buses within 4 ft near Belmont & Central Park\n\nNext bus 1.78 mi / ~10 min behind\n\nBuses: #8379 (1️⃣, 2 min early), #1625 (2️⃣, 8 min late)",
-        "created_at": "2026-10-31T13:01:04.576Z",
-        "source": "https://bsky.app/profile/ctabusinsights.chicagotransitalerts.app/post/3mz6e2qew4k2t",
-        "mapped_location": "Belmont & Central Park\n\nNext",
-        "precision_level": "address",
-        "location_text": "Belmont & Central Park\n\nNext",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wwbpna4jtw66gj6c3pksbiad/app.bsky.feed.post/3mz6e3tpbrt2y",
-        "handle": "nymag.com",
-        "text": "Chad Robertson, who co-founded Tartine, and his team have opened Altbau, a new 7,500-square-foot megabakery, in Williamsburg. The big draw are Robertson’s baguettes, sourdough, and rye along with pastries from chef Wei Si Phua (an alum of Radio Bakery).",
-        "created_at": "2026-10-31T13:01:41.273Z",
-        "source": "https://bsky.app/profile/nymag.com/post/3mz6e3tpbrt2y",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -636,6 +461,156 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "New York’s"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3mzdtlxx5swd2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "Centre Street between Leonard Street and White Street. Even numbers\n\nVia https://digitalcollections.nypl.org/items/58682670-c5af-012f-dbd7-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=Centre%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-11-02T17:20:59.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3mzdtlxx5swd2",
+        "mapped_location": "Leonard Street",
+        "precision_level": "address",
+        "location_text": "Leonard Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jjev6dxwot4y5faki24sqocq/app.bsky.feed.post/3mzdtjow3wc2j",
+        "handle": "spocksbrian.worstpossible.world",
+        "text": "A few years back I got to work at Doors of Divergence in Brooklyn, one of the best jobs I've ever had. I got to bring on the creator for a very long talk about this game and its impact on his life",
+        "created_at": "2026-11-02T17:21:11.301Z",
+        "source": "https://bsky.app/profile/spocksbrian.worstpossible.world/post/3mzdtjow3wc2j",
+        "mapped_location": "Doors of Divergence",
+        "precision_level": "address",
+        "location_text": "Doors of Divergence",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2wyqv44lm72vasmddeqjgy72/app.bsky.feed.post/3mzdtn23uu227",
+        "handle": "clancyny.bsky.social",
+        "text": "Truly, the Ph.D. Program in History at the CUNY Graduate Center is a wonderful dept, in a city with mega history resources. People from all over the globe live here and speak many more languages than even the UN recognizes.\n\nAnd there's our new Mayor. Who is making NYC the best NYC we've ever had.",
+        "created_at": "2026-11-02T17:23:03.688Z",
+        "source": "https://bsky.app/profile/clancyny.bsky.social/post/3mzdtn23uu227",
+        "mapped_location": "the CUNY Graduate Center",
+        "precision_level": "address",
+        "location_text": "the CUNY Graduate Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k6xfx5gyxln5clclw7n6fjpq/app.bsky.feed.post/3mzdtry3l3c2i",
+        "handle": "gwbiscuit.bsky.social",
+        "text": "I don’t know if anyone, male or female, has shown as much ass as Stevens did here—at least in the recent political landscape (since Trump entered the scene). This is walking pantsless through Times Square, spanking your cheeks and howling like a wolf. \n\nSo a comparison is difficult to come by.",
+        "created_at": "2026-11-02T17:25:49.353Z",
+        "source": "https://bsky.app/profile/gwbiscuit.bsky.social/post/3mzdtry3l3c2i",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzdttpfqijg2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "M, R trains are running with delays in both directions while we address a signal problem at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-02T17:26:42.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzdttpfqijg2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l5lobinxo54gsjgtgmkzl23z/app.bsky.feed.post/3mzdttyhf5c2u",
+        "handle": "gardenstatecube.bsky.social",
+        "text": "Q1 2027 is a cube extravaganza for the Northeast.\n\nJoin us in January\nNYC in February\nBoston in March\n\nI'll be there, you should too!\n\n#mtgcube",
+        "created_at": "2026-11-02T17:26:56.849Z",
+        "source": "https://bsky.app/profile/gardenstatecube.bsky.social/post/3mzdttyhf5c2u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "January\nNYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,189 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-02T17:28:47.449973Z",
-    "total_pins": 24
+    "generated_at": "2026-11-03T00:07:05.463709Z",
+    "total_pins": 19
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:x4md7trwu7y2zubzuegtujqs/app.bsky.feed.post/3mz6tdjx5ba2e",
-        "handle": "bostonfoodbriefly.bsky.social",
-        "text": "Haunted Hotel at LeFrak Center at Lakeside delivers a 20–25 minute immersive, actor-led haunted attraction with themed rooms and theatrical effects during Prospect Park’s Harvest Festival.\n",
-        "created_at": "2026-10-31T17:34:25.994Z",
-        "source": "https://bsky.app/profile/bostonfoodbriefly.bsky.social/post/3mz6tdjx5ba2e",
-        "mapped_location": "LeFrak Center",
-        "precision_level": "address",
-        "location_text": "LeFrak Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Prospect Park’s"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:x4md7trwu7y2zubzuegtujqs/app.bsky.feed.post/3mz6tdjx5ba2e",
-        "handle": "bostonfoodbriefly.bsky.social",
-        "text": "Haunted Hotel at LeFrak Center at Lakeside delivers a 20–25 minute immersive, actor-led haunted attraction with themed rooms and theatrical effects during Prospect Park’s Harvest Festival.\n",
-        "created_at": "2026-10-31T17:34:25.994Z",
-        "source": "https://bsky.app/profile/bostonfoodbriefly.bsky.social/post/3mz6tdjx5ba2e",
-        "mapped_location": "Prospect Park’s",
-        "precision_level": "address",
-        "location_text": "Prospect Park’s",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "LeFrak Center"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.974,
-          40.764
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ypact2g25s4xt3wsoghz7dxw/app.bsky.feed.post/3mz6tgscoo22j",
-        "handle": "oldladylife.bsky.social",
-        "text": "…in Epstein’s company or direct physical presence\":\n\n• Beatrice Keul, whose account is comprehensively set forth for the first time in this report, credibly alleges that Trump violently raped her at a November 1993 pageant at the Plaza Hotel in New York City and that Epstein, Trump, and others…",
-        "created_at": "2026-10-31T17:36:15.504Z",
-        "source": "https://bsky.app/profile/oldladylife.bsky.social/post/3mz6tgscoo22j",
-        "mapped_location": "the Plaza Hotel",
-        "precision_level": "address",
-        "location_text": "the Plaza Hotel",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3mz75v2tq6z27",
-        "handle": "newsen.bsky.social",
-        "text": "United Breast Cancer Foundation Takes Center Stage in Times Square with Eye-Catching Billboards #United_States #New_York #Times_Square #United_Breast_Cancer_Foundation #Think_Pink_Gala",
-        "created_at": "2026-10-31T20:43:09Z",
-        "source": "https://bsky.app/profile/newsen.bsky.social/post/3mz75v2tq6z27",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mz75yscsbo2c",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "If you want Spooky Season to last a bit longer, we have you covered on Sunday!\n\nHOCUS POCUS and CAT PEOPLE [1942] (35mm) screen at Nitehawk Williamsburg\n\nHALLOWEEN [1978] and GODZILLA [1954] screen at Nitehawk Prospect Park",
-        "created_at": "2026-10-31T20:45:16.898Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mz75yscsbo2c",
-        "mapped_location": "Nitehawk Williamsburg",
-        "precision_level": "address",
-        "location_text": "Nitehawk Williamsburg",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Nitehawk Prospect Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mz75yscsbo2c",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "If you want Spooky Season to last a bit longer, we have you covered on Sunday!\n\nHOCUS POCUS and CAT PEOPLE [1942] (35mm) screen at Nitehawk Williamsburg\n\nHALLOWEEN [1978] and GODZILLA [1954] screen at Nitehawk Prospect Park",
-        "created_at": "2026-10-31T20:45:16.898Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mz75yscsbo2c",
-        "mapped_location": "Nitehawk Prospect Park",
-        "precision_level": "address",
-        "location_text": "Nitehawk Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Nitehawk Williamsburg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.675
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zteplmzd6s7vhrczagojydbe/app.bsky.feed.post/3mz7iht7rlk2t",
-        "handle": "ahkerchoo.bsky.social",
-        "text": "I forgot how much fun the Park Slope Halloween parade is! Marched with my fellow Ladies Liberty",
-        "created_at": "2026-10-31T23:52:38.581Z",
-        "source": "https://bsky.app/profile/ahkerchoo.bsky.social/post/3mz7iht7rlk2t",
-        "mapped_location": "the Park Slope",
-        "precision_level": "address",
-        "location_text": "the Park Slope",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -609,6 +430,56 @@
         "confidence": 0.49,
         "address_type": "administrative",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oqwn3dyxdpgharhpr35tcrya/app.bsky.feed.post/3mzejvhg3mf2p",
+        "handle": "ridgewoodcommons.nyc",
+        "text": "This week at Ridgewood Commons.\nSee alt-text for possibly easier to read version.\nSee ridgewoodcommons.nyc for links when available.",
+        "created_at": "2026-11-03T00:01:28.220Z",
+        "source": "https://bsky.app/profile/ridgewoodcommons.nyc/post/3mzejvhg3mf2p",
+        "mapped_location": "Ridgewood Commons",
+        "precision_level": "address",
+        "location_text": "Ridgewood Commons",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c4izsceap562rvlcivxq44rg/app.bsky.feed.post/3mzek4jtu5u24",
+        "handle": "nowglobe.bsky.social",
+        "text": "🌍 New York City, USA is entering its evening rush. Watch the live view now.\nLive camera: Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife\n#NowGlobe #LiveCamera",
+        "created_at": "2026-11-03T00:05:25.569Z",
+        "source": "https://bsky.app/profile/nowglobe.bsky.social/post/3mzek4jtu5u24",
+        "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "precision_level": "address",
+        "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

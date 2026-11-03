@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-03T14:44:16.860848Z",
-    "total_pins": 4
+    "generated_at": "2026-11-03T20:46:58.065152Z",
+    "total_pins": 10
   },
   "features": [
     {
@@ -98,6 +98,160 @@
         "mapped_location": "Nitehawk Prospect Park",
         "precision_level": "address",
         "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgp5y44ik2m",
+        "handle": "innercitypress.bsky.social",
+        "text": "Number 6: I live in Brooklyn for 15 years, I have post graduate education and work in a clinic\nJudge Matsumoto: What kind?\n6: Sexual / reproductive health.\nJudge: Great. Number 7?\n7 (woman) I live in Flushing, I have a J.D. and work for a judge in Manhattan",
+        "created_at": "2026-11-03T20:41:02.531Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgp5y44ik2m",
+        "mapped_location": "Flushing",
+        "precision_level": "address",
+        "location_text": "Flushing",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpc5hvtc2m",
+        "handle": "innercitypress.bsky.social",
+        "text": "Number 8: I live in Sunnyside slash Corona Queens for 30 years. I rent. I'm a data analyst for NYC Health and Hospitals. I watch TV tennis\nNumber 9: I've lived near here in DUMBO since 2020. I work for a hedge fund. My fiancee is at Sloan Kettering. We have 5 y-o",
+        "created_at": "2026-11-03T20:43:22.377Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpc5hvtc2m",
+        "mapped_location": "DUMBO",
+        "precision_level": "address",
+        "location_text": "DUMBO",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "Sloan Kettering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpc5hvtc2m",
+        "handle": "innercitypress.bsky.social",
+        "text": "Number 8: I live in Sunnyside slash Corona Queens for 30 years. I rent. I'm a data analyst for NYC Health and Hospitals. I watch TV tennis\nNumber 9: I've lived near here in DUMBO since 2020. I work for a hedge fund. My fiancee is at Sloan Kettering. We have 5 y-o",
+        "created_at": "2026-11-03T20:43:22.377Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpc5hvtc2m",
+        "mapped_location": "Sloan Kettering",
+        "precision_level": "address",
+        "location_text": "Sloan Kettering",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "DUMBO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.731,
+          40.824
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpfr3ikc2m",
+        "handle": "innercitypress.bsky.social",
+        "text": "Number 10 (man) Long Island, marketing agency, I supervise one person and have a 5 and 10 year old\nNumber 11: Port Washington, back with my family after Hofstra. I do lease agreements for a building.\nNumber 12: Crown Heights for 20 years after Lower East Side.",
+        "created_at": "2026-11-03T20:45:23.606Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpfr3ikc2m",
+        "mapped_location": "Port Washington",
+        "precision_level": "address",
+        "location_text": "Port Washington",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Crown Heights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpfr3ikc2m",
+        "handle": "innercitypress.bsky.social",
+        "text": "Number 10 (man) Long Island, marketing agency, I supervise one person and have a 5 and 10 year old\nNumber 11: Port Washington, back with my family after Hofstra. I do lease agreements for a building.\nNumber 12: Crown Heights for 20 years after Lower East Side.",
+        "created_at": "2026-11-03T20:45:23.606Z",
+        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpfr3ikc2m",
+        "mapped_location": "Crown Heights",
+        "precision_level": "address",
+        "location_text": "Crown Heights",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Port Washington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954,
+          40.79
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ryu3jaxcpqbhhwbumixz5ta7/app.bsky.feed.post/3mzgpgarsg72n",
+        "handle": "clandes.ai",
+        "text": "Rachel Apa, 24, died from rhabdomyolysis after collapsing near the finish line of the New York City Marathon. Her father reported she died despite doctors spending six hours attempting to save her at Mount Sinai Medical Center.\n\nFull story",
+        "created_at": "2026-11-03T20:45:39.749Z",
+        "source": "https://bsky.app/profile/clandes.ai/post/3mzgpgarsg72n",
+        "mapped_location": "Mount Sinai Medical Center",
+        "precision_level": "address",
+        "location_text": "Mount Sinai Medical Center",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

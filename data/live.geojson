@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-04T07:23:55.990220Z",
-    "total_pins": 19
+    "generated_at": "2026-11-04T15:47:48.750919Z",
+    "total_pins": 21
   },
   "features": [
     {
@@ -482,6 +482,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.801
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hfzpa2d4cmhydxcmtvsofjqy/app.bsky.feed.post/3mziozowhys2c",
+        "handle": "westsiderag.bsky.social",
+        "text": "The robbery took place along Central Park West, near West 107th Street, police said. www.westsiderag.com/2026/11/04/w...",
+        "created_at": "2026-11-04T15:43:58.166Z",
+        "source": "https://bsky.app/profile/westsiderag.bsky.social/post/3mziozowhys2c",
+        "mapped_location": "West 107th Street",
+        "precision_level": "address",
+        "location_text": "West 107th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mzip4j43za27",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "Next week, hop in a cab for THE GREAT MUPPET CAPER 🚕\n\n45th anniversary school’s out Veteran’s Day matinee Wednesday 11/11 at Nitehawk Prospect Park.",
+        "created_at": "2026-11-04T15:45:32.698Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mzip4j43za27",
+        "mapped_location": "Nitehawk Prospect Park",
+        "precision_level": "address",
+        "location_text": "Nitehawk Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

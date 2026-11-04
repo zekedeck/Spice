@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-04T15:47:48.757115Z",
-    "total_pins": 2
+    "generated_at": "2026-11-04T21:38:04.118803Z",
+    "total_pins": 7
   },
   "features": [
     {
@@ -53,6 +53,134 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876,
+          40.651
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzjcghlwugb2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown M, R trains are running with delays after EMS responded to someone in need on a train at Forest Hills-71 Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-04T21:31:02.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzjcghlwugb2",
+        "mapped_location": "Forest Hills-71 Av",
+        "precision_level": "address",
+        "location_text": "Forest Hills-71 Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:72576sl5jeilxv46abmp66eg/app.bsky.feed.post/3mzjcq76v622e",
+        "handle": "shma-articulationseries.com",
+        "text": "Special S.H.MonsterArts Godzilla items will be available at the Godzilla x Tamashii Nations Store New York Pop-Up starting November 7th!\n\nGodzilla x Tamashii Nations Store New York Pop-Up\n📍1500 Broadway\n📅 Nov 7th - 13th\n🕚11AM - 9PM",
+        "created_at": "2026-11-04T21:36:34.508Z",
+        "source": "https://bsky.app/profile/shma-articulationseries.com/post/3mzjcq76v622e",
+        "mapped_location": "1500 Broadway",
+        "precision_level": "address",
+        "location_text": "1500 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Godzilla x Tamashii Nations Store, Tamashii Nations Store New York Pop-Up\n1500 Broadway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:72576sl5jeilxv46abmp66eg/app.bsky.feed.post/3mzjcq76v622e",
+        "handle": "shma-articulationseries.com",
+        "text": "Special S.H.MonsterArts Godzilla items will be available at the Godzilla x Tamashii Nations Store New York Pop-Up starting November 7th!\n\nGodzilla x Tamashii Nations Store New York Pop-Up\n📍1500 Broadway\n📅 Nov 7th - 13th\n🕚11AM - 9PM",
+        "created_at": "2026-11-04T21:36:34.508Z",
+        "source": "https://bsky.app/profile/shma-articulationseries.com/post/3mzjcq76v622e",
+        "mapped_location": "the Godzilla x Tamashii Nations Store",
+        "precision_level": "address",
+        "location_text": "the Godzilla x Tamashii Nations Store",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "1500 Broadway, Tamashii Nations Store New York Pop-Up\n1500 Broadway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:72576sl5jeilxv46abmp66eg/app.bsky.feed.post/3mzjcq76v622e",
+        "handle": "shma-articulationseries.com",
+        "text": "Special S.H.MonsterArts Godzilla items will be available at the Godzilla x Tamashii Nations Store New York Pop-Up starting November 7th!\n\nGodzilla x Tamashii Nations Store New York Pop-Up\n📍1500 Broadway\n📅 Nov 7th - 13th\n🕚11AM - 9PM",
+        "created_at": "2026-11-04T21:36:34.508Z",
+        "source": "https://bsky.app/profile/shma-articulationseries.com/post/3mzjcq76v622e",
+        "mapped_location": "Tamashii Nations Store New York Pop-Up\n1500 Broadway",
+        "precision_level": "address",
+        "location_text": "Tamashii Nations Store New York Pop-Up\n1500 Broadway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "1500 Broadway, the Godzilla x Tamashii Nations Store"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2ii2hvbupix3p5zc5obom2rh/app.bsky.feed.post/3mzjcqhbikk2q",
+        "handle": "evansd.bsky.social",
+        "text": "WASHINGTON (AP) — Democrat Thomas Suozzi wins reelection to U.S. House in New York's 3rd Congressional District\napnews.com/live/midterm...",
+        "created_at": "2026-11-04T21:36:42.986Z",
+        "source": "https://bsky.app/profile/evansd.bsky.social/post/3mzjcqhbikk2q",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-05T09:09:39.343755Z",
-    "total_pins": 1
+    "generated_at": "2026-11-05T17:32:50.723174Z",
+    "total_pins": 3
   },
   "features": [
     {
@@ -28,6 +28,58 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
+        "handle": "mattrodda.bsky.social",
+        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
+        "created_at": "2026-11-05T17:27:20.091Z",
+        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
+        "mapped_location": "the Granville Underpass",
+        "precision_level": "address",
+        "location_text": "the Granville Underpass",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Prospect Park Pond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
+        "handle": "mattrodda.bsky.social",
+        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
+        "created_at": "2026-11-05T17:27:20.091Z",
+        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
+        "mapped_location": "the Prospect Park Pond",
+        "precision_level": "address",
+        "location_text": "the Prospect Park Pond",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Granville Underpass"
       }
     }
   ]

@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-05T09:09:39.338339Z",
-    "total_pins": 21
+    "generated_at": "2026-11-05T17:32:50.721816Z",
+    "total_pins": 20
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:hslirr7h6d7livppaxty435b/app.bsky.feed.post/3mzg2wzy6xv2i",
-        "handle": "newsen.bsky.social",
-        "text": "PowerBank Receives Permission for New 3.26 MW Solar Project in New York Worth $7.3 Million #United_States #New_York #Renewable_Energy #Community_Solar #PowerBank",
-        "created_at": "2026-11-03T14:39:12Z",
-        "source": "https://bsky.app/profile/newsen.bsky.social/post/3mzg2wzy6xv2i",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York Worth",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:csp7lghbbxfdqdw3mninhzqj/app.bsky.feed.post/3mzg2z5ab322t",
-        "handle": "navymanhy.bsky.social",
-        "text": "Trump Returns to Reflecting Pool, Now Refilled After Botched Renovation - The New York Times share.google/n8EDMT35pJDn...\n\nMeanwhile, lavish billionaire parties at Mar a Lago...",
-        "created_at": "2026-11-03T14:40:25.292Z",
-        "source": "https://bsky.app/profile/navymanhy.bsky.social/post/3mzg2z5ab322t",
-        "mapped_location": "Mar a Lago",
-        "precision_level": "address",
-        "location_text": "Mar a Lago",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3mzg34rxig22u",
-        "handle": "nitehawkcinema.bsky.social",
-        "text": "Just added: Q&A with the one and only John Turturro following the 8:30 screening of THE ONLY LIVING PICKPOCKET IN NEW YORK! \n\nThis Friday at Nitehawk Prospect Park\nnitehawkcinema.com/prospectpark...",
-        "created_at": "2026-11-03T14:42:27.693Z",
-        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3mzg34rxig22u",
-        "mapped_location": "Nitehawk Prospect Park",
-        "precision_level": "address",
-        "location_text": "Nitehawk Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -535,6 +460,58 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
+        "handle": "mattrodda.bsky.social",
+        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
+        "created_at": "2026-11-05T17:27:20.091Z",
+        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
+        "mapped_location": "the Granville Underpass",
+        "precision_level": "address",
+        "location_text": "the Granville Underpass",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Prospect Park Pond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
+        "handle": "mattrodda.bsky.social",
+        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
+        "created_at": "2026-11-05T17:27:20.091Z",
+        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
+        "mapped_location": "the Prospect Park Pond",
+        "precision_level": "address",
+        "location_text": "the Prospect Park Pond",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "the Granville Underpass"
       }
     }
   ]

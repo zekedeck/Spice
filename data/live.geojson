@@ -1,164 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-05T17:32:50.721816Z",
+    "generated_at": "2026-11-05T22:55:06.441914Z",
     "total_pins": 20
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgp5y44ik2m",
-        "handle": "innercitypress.bsky.social",
-        "text": "Number 6: I live in Brooklyn for 15 years, I have post graduate education and work in a clinic\nJudge Matsumoto: What kind?\n6: Sexual / reproductive health.\nJudge: Great. Number 7?\n7 (woman) I live in Flushing, I have a J.D. and work for a judge in Manhattan",
-        "created_at": "2026-11-03T20:41:02.531Z",
-        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgp5y44ik2m",
-        "mapped_location": "Flushing",
-        "precision_level": "address",
-        "location_text": "Flushing",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpc5hvtc2m",
-        "handle": "innercitypress.bsky.social",
-        "text": "Number 8: I live in Sunnyside slash Corona Queens for 30 years. I rent. I'm a data analyst for NYC Health and Hospitals. I watch TV tennis\nNumber 9: I've lived near here in DUMBO since 2020. I work for a hedge fund. My fiancee is at Sloan Kettering. We have 5 y-o",
-        "created_at": "2026-11-03T20:43:22.377Z",
-        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpc5hvtc2m",
-        "mapped_location": "DUMBO",
-        "precision_level": "address",
-        "location_text": "DUMBO",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5,
-        "other_locations": "Sloan Kettering"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.17,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpc5hvtc2m",
-        "handle": "innercitypress.bsky.social",
-        "text": "Number 8: I live in Sunnyside slash Corona Queens for 30 years. I rent. I'm a data analyst for NYC Health and Hospitals. I watch TV tennis\nNumber 9: I've lived near here in DUMBO since 2020. I work for a hedge fund. My fiancee is at Sloan Kettering. We have 5 y-o",
-        "created_at": "2026-11-03T20:43:22.377Z",
-        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpc5hvtc2m",
-        "mapped_location": "Sloan Kettering",
-        "precision_level": "address",
-        "location_text": "Sloan Kettering",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "DUMBO"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.731,
-          40.824
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpfr3ikc2m",
-        "handle": "innercitypress.bsky.social",
-        "text": "Number 10 (man) Long Island, marketing agency, I supervise one person and have a 5 and 10 year old\nNumber 11: Port Washington, back with my family after Hofstra. I do lease agreements for a building.\nNumber 12: Crown Heights for 20 years after Lower East Side.",
-        "created_at": "2026-11-03T20:45:23.606Z",
-        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpfr3ikc2m",
-        "mapped_location": "Port Washington",
-        "precision_level": "address",
-        "location_text": "Port Washington",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Crown Heights"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.683
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4hqo65k7obj5saekrspycks/app.bsky.feed.post/3mzgpfr3ikc2m",
-        "handle": "innercitypress.bsky.social",
-        "text": "Number 10 (man) Long Island, marketing agency, I supervise one person and have a 5 and 10 year old\nNumber 11: Port Washington, back with my family after Hofstra. I do lease agreements for a building.\nNumber 12: Crown Heights for 20 years after Lower East Side.",
-        "created_at": "2026-11-03T20:45:23.606Z",
-        "source": "https://bsky.app/profile/innercitypress.bsky.social/post/3mzgpfr3ikc2m",
-        "mapped_location": "Crown Heights",
-        "precision_level": "address",
-        "location_text": "Crown Heights",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Port Washington"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.954,
-          40.79
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ryu3jaxcpqbhhwbumixz5ta7/app.bsky.feed.post/3mzgpgarsg72n",
-        "handle": "clandes.ai",
-        "text": "Rachel Apa, 24, died from rhabdomyolysis after collapsing near the finish line of the New York City Marathon. Her father reported she died despite doctors spending six hours attempting to save her at Mount Sinai Medical Center.\n\nFull story",
-        "created_at": "2026-11-03T20:45:39.749Z",
-        "source": "https://bsky.app/profile/clandes.ai/post/3mzgpgarsg72n",
-        "mapped_location": "Mount Sinai Medical Center",
-        "precision_level": "address",
-        "location_text": "Mount Sinai Medical Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -512,6 +358,156 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "the Granville Underpass"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3mzlx6oqv5j2f",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Story/Images by Supercar Blondie\n\nThey're two of the most renowned armored cars on the planet.\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-11-05T22:47:54.350Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3mzlx6oqv5j2f",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l7jgubjvekubyowfxgwka6ca/app.bsky.feed.post/3mzlx7cnadc23",
+        "handle": "mcall.com",
+        "text": "Rockefeller Center Christmas tree headed to New York City https://mrf.lu/2VMRM",
+        "created_at": "2026-11-05T22:48:14.605Z",
+        "source": "https://bsky.app/profile/mcall.com/post/3mzlx7cnadc23",
+        "mapped_location": "Rockefeller Center",
+        "precision_level": "address",
+        "location_text": "Rockefeller Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ac2ouzqymr32xttu35cszvyh/app.bsky.feed.post/3mzlxa5yz4s27",
+        "handle": "sassysister27.bsky.social",
+        "text": "Chase is currently at:\nManhattan ACC ID# 260807",
+        "created_at": "2026-11-05T22:48:44.456Z",
+        "source": "https://bsky.app/profile/sassysister27.bsky.social/post/3mzlxa5yz4s27",
+        "mapped_location": "Manhattan ACC",
+        "precision_level": "address",
+        "location_text": "Manhattan ACC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952,
+          40.58
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mzlxaoa75t2b",
+        "handle": "mtaalerts.bsky.social",
+        "text": "Coney Island-Stillwell Av-bound [D] trains are delayed while we address a door problem on a train at Bay 50 St.",
+        "created_at": "2026-11-05T22:49:01.438Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mzlxaoa75t2b",
+        "mapped_location": "Bay 50 St.",
+        "precision_level": "address",
+        "location_text": "Bay 50 St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wmho6q2uiyktkam3jsvrms3s/app.bsky.feed.post/3mzlxcln6ws27",
+        "handle": "nbcnews.com",
+        "text": "This year's Rockefeller Center Christmas tree is a 76 ft Norway spruce from upstate New York.",
+        "created_at": "2026-11-05T22:50:05Z",
+        "source": "https://bsky.app/profile/nbcnews.com/post/3mzlxcln6ws27",
+        "mapped_location": "Rockefeller Center",
+        "precision_level": "address",
+        "location_text": "Rockefeller Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952,
+          40.58
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzlxe7mntro2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Coney Island-Stillwell Av-bound D trains are delayed while we address a door problem on a train at Bay 50 St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-05T22:50:58.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzlxe7mntro2",
+        "mapped_location": "Bay 50 St.",
+        "precision_level": "address",
+        "location_text": "Bay 50 St.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

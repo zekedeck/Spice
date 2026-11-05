@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-05T01:56:37.303368Z",
+    "generated_at": "2026-11-05T09:09:39.338339Z",
     "total_pins": 21
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.763
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:oy2lufbctqf3j34zypaoysjv/app.bsky.feed.post/3mzf7uhsipk22",
-        "handle": "theresalyonhart.bsky.social",
-        "text": "I saw her perform quite a few years ago at the Beacon Theatre in New York. This is one of my favorite songs of hers. She’s phenomenal and so is her wife.",
-        "created_at": "2026-11-03T06:34:37.583Z",
-        "source": "https://bsky.app/profile/theresalyonhart.bsky.social/post/3mzf7uhsipk22",
-        "mapped_location": "the Beacon Theatre",
-        "precision_level": "address",
-        "location_text": "the Beacon Theatre",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -535,6 +510,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:snzsfg6gkcpxftagcocfv2lh/app.bsky.feed.post/3mzkj4lez2k2c",
+        "handle": "essuu27.bsky.social",
+        "text": "Prince almost got it right:\n----\nIt's time for a new direction\nIt's time for jazz to die\nFourth day of November\nWe need a purple high\n---\nMake that a blue high and he was spot on. OK, maybe give jazz a break, too.\n\n'All the critics love U in New York'  - Prince",
+        "created_at": "2026-11-05T09:03:32.137Z",
+        "source": "https://bsky.app/profile/essuu27.bsky.social/post/3mzkj4lez2k2c",
+        "mapped_location": "New York'",
+        "precision_level": "address",
+        "location_text": "New York'",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

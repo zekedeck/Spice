@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-06T23:04:53.686038Z",
+    "generated_at": "2026-11-07T02:46:03.096091Z",
     "total_pins": 23
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dzezcmpb3fhcpns4n4xm4ur5/app.bsky.feed.post/3mzjquizeql2z",
-        "handle": "cnn.com",
-        "text": "Combat veteran and Biden administration alum Cait Conley will defeat incumbent Republican Mike Lawler in New York's 17th District, CNN projects, flipping the battleground seat for Democrats. Follow live updates. https://cnn.it/4iWa3oq",
-        "created_at": "2026-11-05T01:49:31.299191887Z",
-        "source": "https://bsky.app/profile/cnn.com/post/3mzjquizeql2z",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.045,
-          40.689
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6lxzph3tma6n4po36xps4pyn/app.bsky.feed.post/3mzjqwktoq22f",
-        "handle": "kailuarich.bsky.social",
-        "text": "When I went back to NYC in 2015 for my high school reunion in Jersey, my wife and I visited Ellis Island and the Statue of LIberty for the first time. It reminded me what Lady Liberty stands for... and is still standing strong.  #BlueWave #BlueTsunami #BlueNami",
-        "created_at": "2026-11-05T01:50:40.438Z",
-        "source": "https://bsky.app/profile/kailuarich.bsky.social/post/3mzjqwktoq22f",
-        "mapped_location": "the Statue of LIberty",
-        "precision_level": "address",
-        "location_text": "the Statue of LIberty",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:uzbhluxjhdd5ty6duzes55bi/app.bsky.feed.post/3mzjqxocgna2f",
-        "handle": "knickspeeps.bsky.social",
-        "text": "NEW YORK KNICKS tweeted:\n\nWelcome to Madison Square Garden, Dalton Knecht 🙌",
-        "created_at": "2026-11-05T01:51:17.557738Z",
-        "source": "https://bsky.app/profile/knickspeeps.bsky.social/post/3mzjqxocgna2f",
-        "mapped_location": "Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -586,6 +511,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.696
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mzoukskn4k2h",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in Bushwick: \n\nRope that fits the body you're in. @mxforrest.bsky.social teaches gender affirming ties — binding, harnesses, rope that honors who you are. Calling all trans & nonbinary folks! 💖\n\n📅 Sun, 11/8\n🕰️ 5:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: genderaffirmingrope.eventbrite.com",
+        "created_at": "2026-11-07T02:38:59.534Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mzoukskn4k2h",
+        "mapped_location": "The Crown, Bushwick",
+        "precision_level": "address",
+        "location_text": "The Crown, Bushwick",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wyxn4gxawxfzmr7tkfvbyhn2/app.bsky.feed.post/3mzoukskn4k2h",
+        "handle": "taillorgroup.bsky.social",
+        "text": "Sunday in Bushwick: \n\nRope that fits the body you're in. @mxforrest.bsky.social teaches gender affirming ties — binding, harnesses, rope that honors who you are. Calling all trans & nonbinary folks! 💖\n\n📅 Sun, 11/8\n🕰️ 5:00 PM\n📍 The Crown, Bushwick\n\n🎟️ Tickets: genderaffirmingrope.eventbrite.com",
+        "created_at": "2026-11-07T02:38:59.534Z",
+        "source": "https://bsky.app/profile/taillorgroup.bsky.social/post/3mzoukskn4k2h",
+        "mapped_location": "Bushwick",
+        "precision_level": "address",
+        "location_text": "Bushwick",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "The Crown, Bushwick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.84
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7rzysch3np2qkhstnogmkd24/app.bsky.feed.post/3mzouo5yjvt2t",
+        "handle": "citizenptnewsny.bsky.social",
+        "text": "The Mayor's Office is launching an ambitious Climate Strong Communities program in Washington Heights, aiming to tackle climate risks and develop innovative projects that can transform the neighborhood. \n\nLearn more here!\n\n#NY #CitizenPortal #NewYorkCommunity #EnvironmentalJustice #ClimateAction",
+        "created_at": "2026-11-07T02:40:52.004Z",
+        "source": "https://bsky.app/profile/citizenptnewsny.bsky.social/post/3mzouo5yjvt2t",
+        "mapped_location": "Washington Heights",
+        "precision_level": "address",
+        "location_text": "Washington Heights",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

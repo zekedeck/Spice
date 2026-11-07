@@ -1,160 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-07T20:03:16.950234Z",
-    "total_pins": 30
+    "generated_at": "2026-11-07T23:36:08.447810Z",
+    "total_pins": 29
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.65
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3mzlx6oqv5j2f",
-        "handle": "newyorkautomuseum.bsky.social",
-        "text": "Story/Images by Supercar Blondie\n\nThey're two of the most renowned armored cars on the planet.\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
-        "created_at": "2026-11-05T22:47:54.350Z",
-        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3mzlx6oqv5j2f",
-        "mapped_location": "the New York Auto Museum",
-        "precision_level": "address",
-        "location_text": "the New York Auto Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.979,
-          40.759
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l7jgubjvekubyowfxgwka6ca/app.bsky.feed.post/3mzlx7cnadc23",
-        "handle": "mcall.com",
-        "text": "Rockefeller Center Christmas tree headed to New York City https://mrf.lu/2VMRM",
-        "created_at": "2026-11-05T22:48:14.605Z",
-        "source": "https://bsky.app/profile/mcall.com/post/3mzlx7cnadc23",
-        "mapped_location": "Rockefeller Center",
-        "precision_level": "address",
-        "location_text": "Rockefeller Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ac2ouzqymr32xttu35cszvyh/app.bsky.feed.post/3mzlxa5yz4s27",
-        "handle": "sassysister27.bsky.social",
-        "text": "Chase is currently at:\nManhattan ACC ID# 260807",
-        "created_at": "2026-11-05T22:48:44.456Z",
-        "source": "https://bsky.app/profile/sassysister27.bsky.social/post/3mzlxa5yz4s27",
-        "mapped_location": "Manhattan ACC",
-        "precision_level": "address",
-        "location_text": "Manhattan ACC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.952,
-          40.58
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3mzlxaoa75t2b",
-        "handle": "mtaalerts.bsky.social",
-        "text": "Coney Island-Stillwell Av-bound [D] trains are delayed while we address a door problem on a train at Bay 50 St.",
-        "created_at": "2026-11-05T22:49:01.438Z",
-        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3mzlxaoa75t2b",
-        "mapped_location": "Bay 50 St.",
-        "precision_level": "address",
-        "location_text": "Bay 50 St.",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.979,
-          40.759
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wmho6q2uiyktkam3jsvrms3s/app.bsky.feed.post/3mzlxcln6ws27",
-        "handle": "nbcnews.com",
-        "text": "This year's Rockefeller Center Christmas tree is a 76 ft Norway spruce from upstate New York.",
-        "created_at": "2026-11-05T22:50:05Z",
-        "source": "https://bsky.app/profile/nbcnews.com/post/3mzlxcln6ws27",
-        "mapped_location": "Rockefeller Center",
-        "precision_level": "address",
-        "location_text": "Rockefeller Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.952,
-          40.58
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzlxe7mntro2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Coney Island-Stillwell Av-bound D trains are delayed while we address a door problem on a train at Bay 50 St.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-11-05T22:50:58.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzlxe7mntro2",
-        "mapped_location": "Bay 50 St.",
-        "precision_level": "address",
-        "location_text": "Bay 50 St.",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -761,6 +611,131 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2371952,
+          40.6698616
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:l7qmqbdwj26at63ihtjtd4cy/app.bsky.feed.post/3mzr2ii7xbc2t",
+        "handle": "jncsp8.bsky.social",
+        "text": "So New York and California get to decide who can be president while people that live in Kansas, Wyoming and alike will get totally pissed on.",
+        "created_at": "2026-11-07T23:30:23.521Z",
+        "source": "https://bsky.app/profile/jncsp8.bsky.social/post/3mzr2ii7xbc2t",
+        "mapped_location": "Wyoming Avenue, Elmora, Elizabeth, Union County, New Jersey, 07208, United States",
+        "precision_level": "unclassified",
+        "location_text": "Wyoming",
+        "confidence": 0.595,
+        "address_type": "residential",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.842,
+          40.856
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3mzr2jjnaye2j",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 6:30 PM: Person with a gun in Pelham Bay, Bronx\n\nNYPD radio reported a person with a gun at Middletown Rd station (6) in Pelham Bay, Bronx, at 6:05 PM. Details may…\n\nRead the full story → https://nycinfocus.com/2026/11/07/nyc-right-now-nov-7-2026-6-30-pm/",
+        "created_at": "2026-11-07T23:30:58Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3mzr2jjnaye2j",
+        "mapped_location": "Middletown Rd",
+        "precision_level": "address",
+        "location_text": "Middletown Rd",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947,
+          40.812
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qn4qhlfx5pv3wfghvy2hsdie/app.bsky.feed.post/3mzr2kcu5e22k",
+        "handle": "lardog.bsky.social",
+        "text": "Guys, you know that Democrats gather in small groups to discuss the news of the day, right?  When was the last \"in this Harlem barbershop/church/community center\" or \"in this Seattle Starbucks\" or \"in this Vermont Unitarian Church\" piece?",
+        "created_at": "2026-11-07T23:31:25.001Z",
+        "source": "https://bsky.app/profile/lardog.bsky.social/post/3mzr2kcu5e22k",
+        "mapped_location": "Harlem",
+        "precision_level": "address",
+        "location_text": "Harlem",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979,
+          40.759
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mzr2lh5zfm2l",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A 76-foot Norway spruce from West Edmeston, New York, will be lit at Rockefeller Center on Dec. 2, 2026, with a Swarovski star topping it.\n",
+        "created_at": "2026-11-07T23:32:02.856Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mzr2lh5zfm2l",
+        "mapped_location": "Rockefeller Center",
+        "precision_level": "address",
+        "location_text": "Rockefeller Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959,
+          40.783
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w7m3sivk75rzkh2ci7mrbts2/app.bsky.feed.post/3mzr2pk3j6d2i",
+        "handle": "luizsantosmusic.bsky.social",
+        "text": " \"Blue Circle\" by Wassily Kandinsky, painted in 1922, is located in the Solomon R. Guggenheim Museum in New York.  #art #arts #finearts ",
+        "created_at": "2026-11-07T23:34:19.000Z",
+        "source": "https://bsky.app/profile/luizsantosmusic.bsky.social/post/3mzr2pk3j6d2i",
+        "mapped_location": "the Solomon R. Guggenheim Museum",
+        "precision_level": "address",
+        "location_text": "the Solomon R. Guggenheim Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

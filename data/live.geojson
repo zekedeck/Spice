@@ -1,62 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-07T15:57:50.952991Z",
-    "total_pins": 28
+    "generated_at": "2026-11-07T20:03:16.950234Z",
+    "total_pins": 30
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
-        "handle": "mattrodda.bsky.social",
-        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
-        "created_at": "2026-11-05T17:27:20.091Z",
-        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
-        "mapped_location": "the Granville Underpass",
-        "precision_level": "address",
-        "location_text": "the Granville Underpass",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "the Prospect Park Pond"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2rys5xwdftam6kpxu6x6vhcc/app.bsky.feed.post/3mzlfbgze3c2v",
-        "handle": "mattrodda.bsky.social",
-        "text": "Please get in touch if you would like to get involved or learn more, and please consider coming to one of the upcoming events in the park:\n\nSat 7 Nov 10am: Community Litter pick.  Meet at the Granville Underpass.\n\nSat 14 Nov 10am-2pm: Conservation work with Nature Nurture at the Prospect Park Pond",
-        "created_at": "2026-11-05T17:27:20.091Z",
-        "source": "https://bsky.app/profile/mattrodda.bsky.social/post/3mzlfbgze3c2v",
-        "mapped_location": "the Prospect Park Pond",
-        "precision_level": "address",
-        "location_text": "the Prospect Park Pond",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "the Granville Underpass"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -713,6 +661,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:6jkztri2wergd3arj36c53zg/app.bsky.feed.post/3mzqomcwtcs23",
+        "handle": "iangouldhere.bsky.social",
+        "text": "This is around the same year my dad took me to Trump Tower just to walk me around and point out all the shoddy construction and bad design decisions. New York has known what he was for decades.",
+        "created_at": "2026-11-07T19:57:47.292Z",
+        "source": "https://bsky.app/profile/iangouldhere.bsky.social/post/3mzqomcwtcs23",
+        "mapped_location": "Trump Tower",
+        "precision_level": "address",
+        "location_text": "Trump Tower",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:j6mg6cdbqlpu5ts46xn4wrjt/app.bsky.feed.post/3mzqonlki6n22",
+        "handle": "newsbarrontrump.bsky.social",
+        "text": "🚨BREAKING: Mamdani is furious that Jesus lit up the massive billboards in Times Square as thousands gathered to witness it in the heart of NYC.\n\nMaybe New York isn’t lost after all.\n\nThe mainstream media censored this... Let's make it go viral! t.me/newsbarrontrump",
+        "created_at": "2026-11-07T19:58:29.882Z",
+        "source": "https://bsky.app/profile/newsbarrontrump.bsky.social/post/3mzqonlki6n22",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sjrjqhf4ymp3j6nam35mukbr/app.bsky.feed.post/3mzqoqi62bd26",
+        "handle": "theatricalia.com",
+        "text": "New production added: Buena Vista Social Club, 21st February 2025 – 17th January 2027, at Gerald Schoenfeld Theatre, New York. Press night was 19th March 2025. \nhttps://theatricalia.com/play/j18/buena-vista-social-club/production/1jwn",
+        "created_at": "2026-11-07T20:00:06.889658+00:00",
+        "source": "https://bsky.app/profile/theatricalia.com/post/3mzqoqi62bd26",
+        "mapped_location": "Gerald Schoenfeld Theatre",
+        "precision_level": "address",
+        "location_text": "Gerald Schoenfeld Theatre",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971,
+          40.714
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mzqoqkq2gh2p",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "this afternoon, mostly sunny. high near 64, with temperatures falling to around 58 in the afternoon. west wind around 20 mph. (M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av board from the Manhattan-bound (1/2)",
+        "created_at": "2026-11-07T20:00:09.593517+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mzqoqkq2gh2p",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

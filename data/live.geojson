@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-07T23:36:08.447810Z",
-    "total_pins": 29
+    "generated_at": "2026-11-08T02:47:25.154604Z",
+    "total_pins": 32
   },
   "features": [
     {
@@ -736,6 +736,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.695
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:oekuemrlxd74lt32e3ogpe65/app.bsky.feed.post/3mzrf6s5drc2i",
+        "handle": "kylenne.etheirys.social",
+        "text": "Nice Fall day out in Brooklyn Heights with Ally! Had brunch, hit the Transit Museum (next post…) then sat at the Promenade before seeing Wicker at the Manhattan Alamo",
+        "created_at": "2026-11-08T02:41:49.531Z",
+        "source": "https://bsky.app/profile/kylenne.etheirys.social/post/3mzrf6s5drc2i",
+        "mapped_location": "Brooklyn Heights",
+        "precision_level": "address",
+        "location_text": "Brooklyn Heights",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.8
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eb7l4jnmb7rw35mjrboa54ix/app.bsky.feed.post/3mzrfc5cbe2wu",
+        "handle": "dermudetude.bsky.social",
+        "text": "A source says this: \n\n\"Blue Skies [removed] references to black Harlem (instead using Park Avenue and references to famous Caucasians like the Rockefellers and Gary Cooper) and substituting 'lots of dollars.'\"\n\nThat does make it sound like Coop was in the original lyrics.",
+        "created_at": "2026-11-08T02:43:41.896Z",
+        "source": "https://bsky.app/profile/dermudetude.bsky.social/post/3mzrfc5cbe2wu",
+        "mapped_location": "Park Avenue",
+        "precision_level": "address",
+        "location_text": "Park Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bxnjolvvyot3mryf5sowcvsb/app.bsky.feed.post/3mzrfg73lm225",
+        "handle": "meredithmoo25.bsky.social",
+        "text": "lol not even two guys from NYC, two guys from Park Slope Brownstone Brooklyn! I love my neighbors but we are elitist AF",
+        "created_at": "2026-11-08T02:45:57.993Z",
+        "source": "https://bsky.app/profile/meredithmoo25.bsky.social/post/3mzrfg73lm225",
+        "mapped_location": "Park Slope Brownstone Brooklyn",
+        "precision_level": "address",
+        "location_text": "Park Slope Brownstone Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

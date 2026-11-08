@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-08T16:22:44.891344Z",
-    "total_pins": 2
+    "generated_at": "2026-11-08T20:43:14.692681Z",
+    "total_pins": 4
   },
   "features": [
     {
@@ -53,6 +53,58 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
+        "handle": "drkarrschmidt.bsky.social",
+        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
+        "created_at": "2026-11-08T20:42:16.955Z",
+        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
+        "mapped_location": "the Empire State Building",
+        "precision_level": "address",
+        "location_text": "the Empire State Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Yankee Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
+        "handle": "drkarrschmidt.bsky.social",
+        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
+        "created_at": "2026-11-08T20:42:16.955Z",
+        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
+        "mapped_location": "Yankee Stadium",
+        "precision_level": "address",
+        "location_text": "Yankee Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Empire State Building"
       }
     }
   ]

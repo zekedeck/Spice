@@ -1,241 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-08T16:22:44.889222Z",
-    "total_pins": 33
+    "generated_at": "2026-11-08T20:43:14.690625Z",
+    "total_pins": 26
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.905,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2jezubre5ej66vfk4lr5rdeq/app.bsky.feed.post/3mznxg7p3bk23",
-        "handle": "vidiot.bsky.social",
-        "text": "The opening scenes of GoodFellas - Henry Hill's childhood house was actually in East New York, but they shot it in Astoria, Queens.",
-        "created_at": "2026-11-06T17:57:26.960Z",
-        "source": "https://bsky.app/profile/vidiot.bsky.social/post/3mznxg7p3bk23",
-        "mapped_location": "East New York",
-        "precision_level": "address",
-        "location_text": "East New York",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Astoria"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.778
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:2jezubre5ej66vfk4lr5rdeq/app.bsky.feed.post/3mznxg7p3bk23",
-        "handle": "vidiot.bsky.social",
-        "text": "The opening scenes of GoodFellas - Henry Hill's childhood house was actually in East New York, but they shot it in Astoria, Queens.",
-        "created_at": "2026-11-06T17:57:26.960Z",
-        "source": "https://bsky.app/profile/vidiot.bsky.social/post/3mznxg7p3bk23",
-        "mapped_location": "Astoria",
-        "precision_level": "address",
-        "location_text": "Astoria",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5,
-        "other_locations": "East New York"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.864
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5f2mvkwoqb5pvxb63z3tsij5/app.bsky.feed.post/3mznxha6jsu2b",
-        "handle": "revwar250.bsky.social",
-        "text": "6 NOVEMBER 1776, DOBBS FERRY, NEW YORK: The British army arrive at Dobbs Ferry, a Hudson River crossing from which they can equally well strike at New Jersey or Fort Washington (the Continental Army’s last outpost on Manhattan).",
-        "created_at": "2026-11-06T17:58:01.071Z",
-        "source": "https://bsky.app/profile/revwar250.bsky.social/post/3mznxha6jsu2b",
-        "mapped_location": "Dobbs Ferry",
-        "precision_level": "address",
-        "location_text": "Dobbs Ferry",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Fort Washington"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.8
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5f2mvkwoqb5pvxb63z3tsij5/app.bsky.feed.post/3mznxha6jsu2b",
-        "handle": "revwar250.bsky.social",
-        "text": "6 NOVEMBER 1776, DOBBS FERRY, NEW YORK: The British army arrive at Dobbs Ferry, a Hudson River crossing from which they can equally well strike at New Jersey or Fort Washington (the Continental Army’s last outpost on Manhattan).",
-        "created_at": "2026-11-06T17:58:01.071Z",
-        "source": "https://bsky.app/profile/revwar250.bsky.social/post/3mznxha6jsu2b",
-        "mapped_location": "Fort Washington",
-        "precision_level": "address",
-        "location_text": "Fort Washington",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Dobbs Ferry"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:33ub7zsjix2x7oqafuhweecl/app.bsky.feed.post/3mznxkuztak2j",
-        "handle": "nbc4i.com",
-        "text": "After five months of preparations, a luxury New York coffee shop will launch near Italian Village. https://nbc4i.co/4iZgFCu?utm_medium=social&utm_source=bluesky_ ",
-        "created_at": "2026-11-06T18:00:03.602Z",
-        "source": "https://bsky.app/profile/nbc4i.com/post/3mznxkuztak2j",
-        "mapped_location": "Italian Village",
-        "precision_level": "address",
-        "location_text": "Italian Village",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.852,
-          40.856
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:lvskzens75zwt65unep2mwjf/app.bsky.feed.post/3mznxlaegsl2w",
-        "handle": "bostonherald.com",
-        "text": "Joel Perez Leonardo, 25, was charged with harassment, menacing, patronizing a person for prostitution, and operating a motor vehicle while under the influence of alcohol or drugs in Bronx Criminal Court on Thursday.",
-        "created_at": "2026-11-06T18:00:13.206Z",
-        "source": "https://bsky.app/profile/bostonherald.com/post/3mznxlaegsl2w",
-        "mapped_location": "Bronx Criminal Court",
-        "precision_level": "address",
-        "location_text": "Bronx Criminal Court",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.645
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3n7abwxqwrzubimyganb5xjo/app.bsky.feed.post/3mznxmhuni42l",
-        "handle": "allthingsrandomnet.bsky.social",
-        "text": "Six people died and seven were injured in a early Thursday fire at a Brooklyn row house in Sunset Park, New York, officials said.",
-        "created_at": "2026-11-06T18:00:56.840Z",
-        "source": "https://bsky.app/profile/allthingsrandomnet.bsky.social/post/3mznxmhuni42l",
-        "mapped_location": "Sunset Park",
-        "precision_level": "address",
-        "location_text": "Sunset Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.731
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ap2b2wvozcts4jqny23o2ggo/app.bsky.feed.post/3mznxqcpeyk2e",
-        "handle": "drharmony.net",
-        "text": "Attention New Yorkers! March Against Epstein--Washington Square Park 11/7 at 12:00 PM EST\n\nJoin New Yorkers as we march from Washington Square Park, starting at noon, to Epstein's former mansion.\n\nWe need to stand up for survivors!\n\nmarchagainstepstein.com\n#trialsnotfiles",
-        "created_at": "2026-11-06T18:03:05.731Z",
-        "source": "https://bsky.app/profile/drharmony.net/post/3mznxqcpeyk2e",
-        "mapped_location": "March Against Epstein--Washington Square Park 11/7",
-        "precision_level": "address",
-        "location_text": "March Against Epstein--Washington Square Park 11/7",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Washington Square Park"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.731
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ap2b2wvozcts4jqny23o2ggo/app.bsky.feed.post/3mznxqcpeyk2e",
-        "handle": "drharmony.net",
-        "text": "Attention New Yorkers! March Against Epstein--Washington Square Park 11/7 at 12:00 PM EST\n\nJoin New Yorkers as we march from Washington Square Park, starting at noon, to Epstein's former mansion.\n\nWe need to stand up for survivors!\n\nmarchagainstepstein.com\n#trialsnotfiles",
-        "created_at": "2026-11-06T18:03:05.731Z",
-        "source": "https://bsky.app/profile/drharmony.net/post/3mznxqcpeyk2e",
-        "mapped_location": "Washington Square Park",
-        "precision_level": "address",
-        "location_text": "Washington Square Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "March Against Epstein--Washington Square Park 11/7"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -836,6 +605,58 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
+        "handle": "drkarrschmidt.bsky.social",
+        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
+        "created_at": "2026-11-08T20:42:16.955Z",
+        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
+        "mapped_location": "the Empire State Building",
+        "precision_level": "address",
+        "location_text": "the Empire State Building",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Yankee Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926,
+          40.83
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
+        "handle": "drkarrschmidt.bsky.social",
+        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
+        "created_at": "2026-11-08T20:42:16.955Z",
+        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
+        "mapped_location": "Yankee Stadium",
+        "precision_level": "address",
+        "location_text": "Yankee Stadium",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "the Empire State Building"
       }
     }
   ]

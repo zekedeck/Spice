@@ -1,8 +1,111 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-09T06:36:52.181379Z",
-    "total_pins": 0
+    "generated_at": "2026-11-09T16:54:44.387748Z",
+    "total_pins": 4
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86,
+          40.843
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzvf2jbgolf2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Downtown 5 trains are delayed while we remove a downed tree from the tracks near Morris Park.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-09T16:50:02.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzvf2jbgolf2",
+        "mapped_location": "Morris Park",
+        "precision_level": "address",
+        "location_text": "Morris Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bbikyps55sib2fxg5wwhgmbk/app.bsky.feed.post/3mzvf4vkwyc2r",
+        "handle": "davecolon.bsky.social",
+        "text": "Mister Mayor we still need the 34th Street busway before you start playing kingmaker. We need to know if you're gonna give us a second Brooklyn Bridge bike lane. Be a townie, we need stuff here",
+        "created_at": "2026-11-09T16:51:24.974Z",
+        "source": "https://bsky.app/profile/davecolon.bsky.social/post/3mzvf4vkwyc2r",
+        "mapped_location": "34th Street",
+        "precision_level": "address",
+        "location_text": "34th Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Brooklyn Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bbikyps55sib2fxg5wwhgmbk/app.bsky.feed.post/3mzvf4vkwyc2r",
+        "handle": "davecolon.bsky.social",
+        "text": "Mister Mayor we still need the 34th Street busway before you start playing kingmaker. We need to know if you're gonna give us a second Brooklyn Bridge bike lane. Be a townie, we need stuff here",
+        "created_at": "2026-11-09T16:51:24.974Z",
+        "source": "https://bsky.app/profile/davecolon.bsky.social/post/3mzvf4vkwyc2r",
+        "mapped_location": "Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "34th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xcfgwwsxxqf2f6lob6kn6l7w/app.bsky.feed.post/3mzvf7gmadk2s",
+        "handle": "nyfootluvr.bsky.social",
+        "text": "Are you doing Times Square at midnight? 😳",
+        "created_at": "2026-11-09T16:52:49.948Z",
+        "source": "https://bsky.app/profile/nyfootluvr.bsky.social/post/3mzvf7gmadk2s",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    }
+  ]
 }

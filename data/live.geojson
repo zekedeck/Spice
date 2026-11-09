@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-08T20:43:14.690625Z",
-    "total_pins": 26
+    "generated_at": "2026-11-09T00:11:11.755061Z",
+    "total_pins": 28
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.971,
-          40.714
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mzoieo4rnu2m",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "work, Nov 7 - 8, Sat and Sun, all day: No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av board from the Manhattan-bound platform... (L) planned work, Nov 12, Thursday, 10:00 AM to 2:30 PM: In Brooklyn, no L between (2/3)",
-        "created_at": "2026-11-06T23:00:48.614252+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mzoieo4rnu2m",
-        "mapped_location": "Myrtle Av",
-        "precision_level": "address",
-        "location_text": "Myrtle Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -657,6 +632,81 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "the Empire State Building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c4izsceap562rvlcivxq44rg/app.bsky.feed.post/3mztmw2svgr2o",
+        "handle": "nowglobe.bsky.social",
+        "text": "🌍 New York City, USA is entering its evening rush. Watch the live view now.\nLive camera: Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife\n#NowGlobe #LiveCamera",
+        "created_at": "2026-11-09T00:05:25.958Z",
+        "source": "https://bsky.app/profile/nowglobe.bsky.social/post/3mztmw2svgr2o",
+        "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "precision_level": "address",
+        "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:z5hqye47tfwdbvmbgon7genv/app.bsky.feed.post/3mztn3hg4dk25",
+        "handle": "babyblue70.bsky.social",
+        "text": "🇺🇸 Thousands march through Times Square under\n“No Schumer, No Jeffries” signs.\n\nThe split within the Democratic Party is now openly visible, even before the new Congress takes office.\nNaked Cowboy has spoken!🤭",
+        "created_at": "2026-11-09T00:08:27.036Z",
+        "source": "https://bsky.app/profile/babyblue70.bsky.social/post/3mztn3hg4dk25",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ajdbjnjuh6enqjrjmq6ailcc/app.bsky.feed.post/3mztn3ovsdi2v",
+        "handle": "dispatchtimes.bsky.social",
+        "text": "Dave Chappelle criticised over Charlie Kirk gag at New York show\n\nDave Chappelle is facing backlash over a joke about the assassination of conservative influencer Charlie Kirk during a performance at Madison Square Garden in New York, with Kirk’s widow describing the comments as “beyond…",
+        "created_at": "2026-11-09T00:08:34Z",
+        "source": "https://bsky.app/profile/dispatchtimes.bsky.social/post/3mztn3ovsdi2v",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

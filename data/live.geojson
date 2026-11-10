@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-10T00:41:54.616213Z",
-    "total_pins": 15
+    "generated_at": "2026-11-10T07:53:11.649851Z",
+    "total_pins": 13
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99,
-          40.695
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:oekuemrlxd74lt32e3ogpe65/app.bsky.feed.post/3mzrf6s5drc2i",
-        "handle": "kylenne.etheirys.social",
-        "text": "Nice Fall day out in Brooklyn Heights with Ally! Had brunch, hit the Transit Museum (next post…) then sat at the Promenade before seeing Wicker at the Manhattan Alamo",
-        "created_at": "2026-11-08T02:41:49.531Z",
-        "source": "https://bsky.app/profile/kylenne.etheirys.social/post/3mzrf6s5drc2i",
-        "mapped_location": "Brooklyn Heights",
-        "precision_level": "address",
-        "location_text": "Brooklyn Heights",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95,
-          40.8
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:eb7l4jnmb7rw35mjrboa54ix/app.bsky.feed.post/3mzrfc5cbe2wu",
-        "handle": "dermudetude.bsky.social",
-        "text": "A source says this: \n\n\"Blue Skies [removed] references to black Harlem (instead using Park Avenue and references to famous Caucasians like the Rockefellers and Gary Cooper) and substituting 'lots of dollars.'\"\n\nThat does make it sound like Coop was in the original lyrics.",
-        "created_at": "2026-11-08T02:43:41.896Z",
-        "source": "https://bsky.app/profile/dermudetude.bsky.social/post/3mzrfc5cbe2wu",
-        "mapped_location": "Park Avenue",
-        "precision_level": "address",
-        "location_text": "Park Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bxnjolvvyot3mryf5sowcvsb/app.bsky.feed.post/3mzrfg73lm225",
-        "handle": "meredithmoo25.bsky.social",
-        "text": "lol not even two guys from NYC, two guys from Park Slope Brownstone Brooklyn! I love my neighbors but we are elitist AF",
-        "created_at": "2026-11-08T02:45:57.993Z",
-        "source": "https://bsky.app/profile/meredithmoo25.bsky.social/post/3mzrfg73lm225",
-        "mapped_location": "Park Slope Brownstone Brooklyn",
-        "precision_level": "address",
-        "location_text": "Park Slope Brownstone Brooklyn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -377,6 +302,31 @@
         "mapped_location": "Printed Matter for The Radical Unpresent",
         "precision_level": "address",
         "location_text": "Printed Matter for The Radical Unpresent",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.707
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5zww7zorx2ajw7hqrhuix3ba/app.bsky.feed.post/3mzwxihka7y22",
+        "handle": "byteseu.bsky.social",
+        "text": "Stock market today: Live updates\n\nhttps://www.byteseu.com/2510967/\n\nTraders work on the floor of the American Stock Exchange (AMEX) at the New York Stock Exchange (NYSE) in New York, US, on Friday, Nov. 6, 2026. Michael Nagle | Bloomberg | Getty Images U.S. stock futures were largely higher early …",
+        "created_at": "2026-11-10T07:52:37+00:00",
+        "source": "https://bsky.app/profile/byteseu.bsky.social/post/3mzwxihka7y22",
+        "mapped_location": "the New York Stock Exchange",
+        "precision_level": "address",
+        "location_text": "the New York Stock Exchange",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

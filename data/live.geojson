@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-10T07:53:11.649851Z",
+    "generated_at": "2026-11-10T16:17:26.596220Z",
     "total_pins": 13
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9497211,
-          40.6526006
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y2qdoltryiu2qtnpyyxncs22/app.bsky.feed.post/3mzssp66zl22g",
-        "handle": "sammiejoe.bsky.social",
-        "text": "oh is this supposed to be satire? i had to take the leaf out but mom’s dining table and hutch fit very comfortably in my Brooklyn apt",
-        "created_at": "2026-11-08T16:16:17.425Z",
-        "source": "https://bsky.app/profile/sammiejoe.bsky.social/post/3mzssp66zl22g",
-        "mapped_location": "Brooklyn, Kings County, New York, United States",
-        "precision_level": "state",
-        "location_text": "my Brooklyn",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -332,6 +307,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:awj3nn2iepdfvupldeedimdn/app.bsky.feed.post/3mzxtgyti4c27",
+        "handle": "americangeo.bsky.social",
+        "text": "🌍 The Harlem Times spotlights #Geography2050: Africa Shaping Tomorrow, Nov. 19–20 at the Schomburg Center!  Join 40+ African and global voices for this landmark conversation as AGS celebrates 175 years!\n\n📰 Read the feature: theharlemtimes.com\n🎟️ Register: geography2050.org\n\n#Africa #NYC #Geography",
+        "created_at": "2026-11-10T16:12:55.787Z",
+        "source": "https://bsky.app/profile/americangeo.bsky.social/post/3mzxtgyti4c27",
+        "mapped_location": "the Schomburg Center",
+        "precision_level": "address",
+        "location_text": "the Schomburg Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

@@ -1,235 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-09T16:54:44.379153Z",
-    "total_pins": 23
+    "generated_at": "2026-11-10T00:41:54.616213Z",
+    "total_pins": 15
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:6jkztri2wergd3arj36c53zg/app.bsky.feed.post/3mzqomcwtcs23",
-        "handle": "iangouldhere.bsky.social",
-        "text": "This is around the same year my dad took me to Trump Tower just to walk me around and point out all the shoddy construction and bad design decisions. New York has known what he was for decades.",
-        "created_at": "2026-11-07T19:57:47.292Z",
-        "source": "https://bsky.app/profile/iangouldhere.bsky.social/post/3mzqomcwtcs23",
-        "mapped_location": "Trump Tower",
-        "precision_level": "address",
-        "location_text": "Trump Tower",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:j6mg6cdbqlpu5ts46xn4wrjt/app.bsky.feed.post/3mzqonlki6n22",
-        "handle": "newsbarrontrump.bsky.social",
-        "text": "🚨BREAKING: Mamdani is furious that Jesus lit up the massive billboards in Times Square as thousands gathered to witness it in the heart of NYC.\n\nMaybe New York isn’t lost after all.\n\nThe mainstream media censored this... Let's make it go viral! t.me/newsbarrontrump",
-        "created_at": "2026-11-07T19:58:29.882Z",
-        "source": "https://bsky.app/profile/newsbarrontrump.bsky.social/post/3mzqonlki6n22",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.763
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sjrjqhf4ymp3j6nam35mukbr/app.bsky.feed.post/3mzqoqi62bd26",
-        "handle": "theatricalia.com",
-        "text": "New production added: Buena Vista Social Club, 21st February 2025 – 17th January 2027, at Gerald Schoenfeld Theatre, New York. Press night was 19th March 2025. \nhttps://theatricalia.com/play/j18/buena-vista-social-club/production/1jwn",
-        "created_at": "2026-11-07T20:00:06.889658+00:00",
-        "source": "https://bsky.app/profile/theatricalia.com/post/3mzqoqi62bd26",
-        "mapped_location": "Gerald Schoenfeld Theatre",
-        "precision_level": "address",
-        "location_text": "Gerald Schoenfeld Theatre",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.971,
-          40.714
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3mzqoqkq2gh2p",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "this afternoon, mostly sunny. high near 64, with temperatures falling to around 58 in the afternoon. west wind around 20 mph. (M): No M between Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av board from the Manhattan-bound (1/2)",
-        "created_at": "2026-11-07T20:00:09.593517+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3mzqoqkq2gh2p",
-        "mapped_location": "Myrtle Av",
-        "precision_level": "address",
-        "location_text": "Myrtle Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.2371952,
-          40.6698616
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:l7qmqbdwj26at63ihtjtd4cy/app.bsky.feed.post/3mzr2ii7xbc2t",
-        "handle": "jncsp8.bsky.social",
-        "text": "So New York and California get to decide who can be president while people that live in Kansas, Wyoming and alike will get totally pissed on.",
-        "created_at": "2026-11-07T23:30:23.521Z",
-        "source": "https://bsky.app/profile/jncsp8.bsky.social/post/3mzr2ii7xbc2t",
-        "mapped_location": "Wyoming Avenue, Elmora, Elizabeth, Union County, New Jersey, 07208, United States",
-        "precision_level": "unclassified",
-        "location_text": "Wyoming",
-        "confidence": 0.595,
-        "address_type": "residential",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.15
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.842,
-          40.856
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3mzr2jjnaye2j",
-        "handle": "howardweiss.bsky.social",
-        "text": "🗞️ New on NYC In Focus: NYC Right Now, 6:30 PM: Person with a gun in Pelham Bay, Bronx\n\nNYPD radio reported a person with a gun at Middletown Rd station (6) in Pelham Bay, Bronx, at 6:05 PM. Details may…\n\nRead the full story → https://nycinfocus.com/2026/11/07/nyc-right-now-nov-7-2026-6-30-pm/",
-        "created_at": "2026-11-07T23:30:58Z",
-        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3mzr2jjnaye2j",
-        "mapped_location": "Middletown Rd",
-        "precision_level": "address",
-        "location_text": "Middletown Rd",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.947,
-          40.812
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qn4qhlfx5pv3wfghvy2hsdie/app.bsky.feed.post/3mzr2kcu5e22k",
-        "handle": "lardog.bsky.social",
-        "text": "Guys, you know that Democrats gather in small groups to discuss the news of the day, right?  When was the last \"in this Harlem barbershop/church/community center\" or \"in this Seattle Starbucks\" or \"in this Vermont Unitarian Church\" piece?",
-        "created_at": "2026-11-07T23:31:25.001Z",
-        "source": "https://bsky.app/profile/lardog.bsky.social/post/3mzr2kcu5e22k",
-        "mapped_location": "Harlem",
-        "precision_level": "address",
-        "location_text": "Harlem",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.979,
-          40.759
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3mzr2lh5zfm2l",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A 76-foot Norway spruce from West Edmeston, New York, will be lit at Rockefeller Center on Dec. 2, 2026, with a Swarovski star topping it.\n",
-        "created_at": "2026-11-07T23:32:02.856Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3mzr2lh5zfm2l",
-        "mapped_location": "Rockefeller Center",
-        "precision_level": "address",
-        "location_text": "Rockefeller Center",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.959,
-          40.783
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:w7m3sivk75rzkh2ci7mrbts2/app.bsky.feed.post/3mzr2pk3j6d2i",
-        "handle": "luizsantosmusic.bsky.social",
-        "text": " \"Blue Circle\" by Wassily Kandinsky, painted in 1922, is located in the Solomon R. Guggenheim Museum in New York.  #art #arts #finearts ",
-        "created_at": "2026-11-07T23:34:19.000Z",
-        "source": "https://bsky.app/profile/luizsantosmusic.bsky.social/post/3mzr2pk3j6d2i",
-        "mapped_location": "the Solomon R. Guggenheim Museum",
-        "precision_level": "address",
-        "location_text": "the Solomon R. Guggenheim Museum",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -582,6 +357,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:hjt6fl62bhbrgxswdeazdpdw/app.bsky.feed.post/3mzw7arm76c2j",
+        "handle": "gsholette.bsky.social",
+        "text": "Big thanks to everyone who joined us at Printed Matter for The Radical Unpresent launch! Thanks to Lesley Martin, Keith Grey & staff for hosting, and to Naeem Mohaiemen for a great conversation.\n\nNext: in conversation with Marco Baravalle at Woodbine, Manhattan, Nov. 15, 4 PM. Join us!",
+        "created_at": "2026-11-10T00:38:52.315Z",
+        "source": "https://bsky.app/profile/gsholette.bsky.social/post/3mzw7arm76c2j",
+        "mapped_location": "Printed Matter for The Radical Unpresent",
+        "precision_level": "address",
+        "location_text": "Printed Matter for The Radical Unpresent",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

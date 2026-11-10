@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-10T16:17:26.597415Z",
-    "total_pins": 2
+    "generated_at": "2026-11-10T21:56:10.480477Z",
+    "total_pins": 4
   },
   "features": [
     {
@@ -48,6 +48,56 @@
         "mapped_location": "the Schomburg Center",
         "precision_level": "address",
         "location_text": "the Schomburg Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mzygeog3ek2g",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Congregation Israel of Kings Bay, 3903 Nostrand Ave #1, Brooklyn, NY 11235",
+        "created_at": "2026-11-10T21:51:38.846Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mzygeog3ek2g",
+        "mapped_location": "Kings Bay Field, Brooklyn, Kings County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Kings Bay",
+        "confidence": 0.89,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yvksj5im5x6vc6hzfh3phcrh/app.bsky.feed.post/3mbd3542l6o25",
+        "handle": "nosh.com",
+        "text": "GODIVA is marking its 100th anniversary with holiday launches including a new Dark Chocolate Raspberry Ganache Masterpiece at Target and Walmart, gift-ready assortments, an NYC dining tie-in at Macy’s Herald Square and a limited artist collaboration. 🍫🎁",
+        "created_at": "2026-11-10T21:54:35.999Z",
+        "source": "https://bsky.app/profile/nosh.com/post/3mbd3542l6o25",
+        "mapped_location": "Macy’s Herald Square",
+        "precision_level": "address",
+        "location_text": "Macy’s Herald Square",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

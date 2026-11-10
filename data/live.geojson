@@ -1,87 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-10T16:17:26.596220Z",
-    "total_pins": 13
+    "generated_at": "2026-11-10T21:56:10.475310Z",
+    "total_pins": 12
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5yjle5e7wri54qyw3m4kt46i/app.bsky.feed.post/3mzssxybwvk2v",
-        "handle": "ahab.bsky.social",
-        "text": "Also I went back and looked at the text of the secret vote bill, and it's not at all like the bills for this in other states. New York's bill specifically says vote totals will be released immediately as they are tallied, for example. So did someone introduce it as a poison pill maybe?",
-        "created_at": "2026-11-08T16:21:13.222Z",
-        "source": "https://bsky.app/profile/ahab.bsky.social/post/3mzssxybwvk2v",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
-        "handle": "drkarrschmidt.bsky.social",
-        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
-        "created_at": "2026-11-08T20:42:16.955Z",
-        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
-        "mapped_location": "the Empire State Building",
-        "precision_level": "address",
-        "location_text": "the Empire State Building",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "Yankee Stadium"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.926,
-          40.83
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:zlmvtndd7m3u7uudsvyvd3hl/app.bsky.feed.post/3mztbksf6522j",
-        "handle": "drkarrschmidt.bsky.social",
-        "text": "By which I really do mean ALL of Manhattan...\n\nSir, I wanted to go to the Empire State Building! You picked me up at LaGuardia, but this is Yankee Stadium!\n\nOdds are good that this ride may end up as long as my flight! 😂",
-        "created_at": "2026-11-08T20:42:16.955Z",
-        "source": "https://bsky.app/profile/drkarrschmidt.bsky.social/post/3mztbksf6522j",
-        "mapped_location": "Yankee Stadium",
-        "precision_level": "address",
-        "location_text": "Yankee Stadium",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "the Empire State Building"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -327,6 +250,56 @@
         "mapped_location": "the Schomburg Center",
         "precision_level": "address",
         "location_text": "the Schomburg Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934,
+          40.59
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5kveimwz5pcbdfxwem64sskh/app.bsky.feed.post/3mzygeog3ek2g",
+        "handle": "brooklynwandering.bsky.social",
+        "text": "Congregation Israel of Kings Bay, 3903 Nostrand Ave #1, Brooklyn, NY 11235",
+        "created_at": "2026-11-10T21:51:38.846Z",
+        "source": "https://bsky.app/profile/brooklynwandering.bsky.social/post/3mzygeog3ek2g",
+        "mapped_location": "Kings Bay Field, Brooklyn, Kings County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Kings Bay",
+        "confidence": 0.89,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yvksj5im5x6vc6hzfh3phcrh/app.bsky.feed.post/3mbd3542l6o25",
+        "handle": "nosh.com",
+        "text": "GODIVA is marking its 100th anniversary with holiday launches including a new Dark Chocolate Raspberry Ganache Masterpiece at Target and Walmart, gift-ready assortments, an NYC dining tie-in at Macy’s Herald Square and a limited artist collaboration. 🍫🎁",
+        "created_at": "2026-11-10T21:54:35.999Z",
+        "source": "https://bsky.app/profile/nosh.com/post/3mbd3542l6o25",
+        "mapped_location": "Macy’s Herald Square",
+        "precision_level": "address",
+        "location_text": "Macy’s Herald Square",
         "confidence": 0.62,
         "address_type": "",
         "provenance": "llm_resolve",

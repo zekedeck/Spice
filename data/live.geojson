@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-11T08:34:00.793784Z",
-    "total_pins": 12
+    "generated_at": "2026-11-11T16:37:10.607337Z",
+    "total_pins": 16
   },
   "features": [
     {
@@ -305,6 +305,106 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n22ew2yxlv2z",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 11:30 AM: Officer needs assistance in NYC\n\nNYPD radio reported an officer calling for help at Madison Avenue at 11:13 AM. Details may change....\n\nRead the full story → https://nycinfocus.com/2026/11/11/nyc-right-now-nov-11-2026-11-30-am/",
+        "created_at": "2026-11-11T16:30:54Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n22ew2yxlv2z",
+        "mapped_location": "Madison Avenue",
+        "precision_level": "address",
+        "location_text": "Madison Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qmgklp5fw7kqwnschwa2j7na/app.bsky.feed.post/3n22ezlxmhs2h",
+        "handle": "gypsyj.bsky.social",
+        "text": "I LOVE Brooklyn and Prospect Park!",
+        "created_at": "2026-11-11T16:32:52.930Z",
+        "source": "https://bsky.app/profile/gypsyj.bsky.social/post/3n22ezlxmhs2h",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ekxsxhp3t6ah2zjiqdkmlf6p/app.bsky.feed.post/3n22f3xnt7k2c",
+        "handle": "prochoicejen.bsky.social",
+        "text": "Shop Jen Stock at Culture House Greenpoint Brooklyn",
+        "created_at": "2026-11-11T16:34:12.290Z",
+        "source": "https://bsky.app/profile/prochoicejen.bsky.social/post/3n22f3xnt7k2c",
+        "mapped_location": "Culture House Greenpoint Brooklyn",
+        "precision_level": "address",
+        "location_text": "Culture House Greenpoint Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.646
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3n22f5iurnk2t",
+        "handle": "nysoccerjournal.com",
+        "text": "The first batch of \"non-premium\" season tickets at Etihad Park will go on sale next week, with NYCFC boasting that 7,000 of those will be priced at/below $1,000, and that there are \"minimal or flat\" price increases for a bunch of this seating compared to '26. More details in here",
+        "created_at": "2026-11-11T16:35:03.909Z",
+        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3n22f5iurnk2t",
+        "mapped_location": "Etihad Park",
+        "precision_level": "address",
+        "location_text": "Etihad Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

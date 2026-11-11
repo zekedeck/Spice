@@ -1,112 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-11T16:37:10.607337Z",
+    "generated_at": "2026-11-11T23:05:56.964311Z",
     "total_pins": 16
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.86,
-          40.843
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3mzvf2jbgolf2",
-        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
-        "text": "Downtown 5 trains are delayed while we remove a downed tree from the tracks near Morris Park.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
-        "created_at": "2026-11-09T16:50:02.000Z",
-        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3mzvf2jbgolf2",
-        "mapped_location": "Morris Park",
-        "precision_level": "address",
-        "location_text": "Morris Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bbikyps55sib2fxg5wwhgmbk/app.bsky.feed.post/3mzvf4vkwyc2r",
-        "handle": "davecolon.bsky.social",
-        "text": "Mister Mayor we still need the 34th Street busway before you start playing kingmaker. We need to know if you're gonna give us a second Brooklyn Bridge bike lane. Be a townie, we need stuff here",
-        "created_at": "2026-11-09T16:51:24.974Z",
-        "source": "https://bsky.app/profile/davecolon.bsky.social/post/3mzvf4vkwyc2r",
-        "mapped_location": "34th Street",
-        "precision_level": "address",
-        "location_text": "34th Street",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Brooklyn Bridge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.997,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:bbikyps55sib2fxg5wwhgmbk/app.bsky.feed.post/3mzvf4vkwyc2r",
-        "handle": "davecolon.bsky.social",
-        "text": "Mister Mayor we still need the 34th Street busway before you start playing kingmaker. We need to know if you're gonna give us a second Brooklyn Bridge bike lane. Be a townie, we need stuff here",
-        "created_at": "2026-11-09T16:51:24.974Z",
-        "source": "https://bsky.app/profile/davecolon.bsky.social/post/3mzvf4vkwyc2r",
-        "mapped_location": "Brooklyn Bridge",
-        "precision_level": "address",
-        "location_text": "Brooklyn Bridge",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "34th Street"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:xcfgwwsxxqf2f6lob6kn6l7w/app.bsky.feed.post/3mzvf7gmadk2s",
-        "handle": "nyfootluvr.bsky.social",
-        "text": "Are you doing Times Square at midnight? 😳",
-        "created_at": "2026-11-09T16:52:49.948Z",
-        "source": "https://bsky.app/profile/nyfootluvr.bsky.social/post/3mzvf7gmadk2s",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -405,6 +303,108 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.645
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uf65zkkcnbkzgqndcrm64nxj/app.bsky.feed.post/3n232nvkjss2a",
+        "handle": "lydiasalara.blacksky.app",
+        "text": "All the blue (read: Black & black immigrant) areas of Florida flooded out on Nov 2nd, massive fire in Sunset Park Brooklyn (Latino & Asian neighborhood) on Thu and now a building collapsed in Flatbush (Afro-Caribbean neighborhood in Brooklyn)\n\nhm",
+        "created_at": "2026-11-11T23:00:02.652Z",
+        "source": "https://bsky.app/profile/lydiasalara.blacksky.app/post/3n232nvkjss2a",
+        "mapped_location": "Sunset Park Brooklyn",
+        "precision_level": "address",
+        "location_text": "Sunset Park Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:zenio3td64fid6cpbesbyoif/app.bsky.feed.post/3n232oo5n4n2r",
+        "handle": "fantagraphics.bsky.social",
+        "text": "Don't miss BODEGA CAT Award nominee Leah Hayes at the Brooklyn Expo of Comics this weekend! She'll be signing Identical at our table BECky A1 + A2 on Saturday at 5:00-6:00 pm--vote for her to win at https://ow.ly/Tq865105SWa!",
+        "created_at": "2026-11-11T23:00:27.376840252Z",
+        "source": "https://bsky.app/profile/fantagraphics.bsky.social/post/3n232oo5n4n2r",
+        "mapped_location": "the Brooklyn Expo of Comics",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Expo of Comics",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.755
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n232peejqo2f",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 6:00 PM: Stabbing / knife in Midtown South, Manhattan + 1 More\n\nMTA Transit radio reported a stabbing at 6Th Avenue and Broadway in Midtown South, Manhattan, at…\n\nRead the full story → https://nycinfocus.com/2026/11/11/nyc-right-now-nov-11-2026-6-00-pm/",
+        "created_at": "2026-11-11T23:00:51Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n232peejqo2f",
+        "mapped_location": "Midtown South",
+        "precision_level": "address",
+        "location_text": "Midtown South",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "6Th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n232peejqo2f",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 6:00 PM: Stabbing / knife in Midtown South, Manhattan + 1 More\n\nMTA Transit radio reported a stabbing at 6Th Avenue and Broadway in Midtown South, Manhattan, at…\n\nRead the full story → https://nycinfocus.com/2026/11/11/nyc-right-now-nov-11-2026-6-00-pm/",
+        "created_at": "2026-11-11T23:00:51Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n232peejqo2f",
+        "mapped_location": "6Th Avenue",
+        "precision_level": "address",
+        "location_text": "6Th Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Midtown South"
       }
     }
   ]

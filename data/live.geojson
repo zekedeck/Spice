@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-10T21:56:10.475310Z",
-    "total_pins": 12
+    "generated_at": "2026-11-11T01:50:58.358116Z",
+    "total_pins": 11
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:c4izsceap562rvlcivxq44rg/app.bsky.feed.post/3mztmw2svgr2o",
-        "handle": "nowglobe.bsky.social",
-        "text": "🌍 New York City, USA is entering its evening rush. Watch the live view now.\nLive camera: Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife\n#NowGlobe #LiveCamera",
-        "created_at": "2026-11-09T00:05:25.958Z",
-        "source": "https://bsky.app/profile/nowglobe.bsky.social/post/3mztmw2svgr2o",
-        "mapped_location": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
-        "precision_level": "address",
-        "location_text": "Times Square Crossroads\nhttps://nowglobe.kingpinworks.chatgpt.site/cameras/new-york-times-square?utm_source=bluesky&utm_medium=social&utm_campaign=camera_new-york-times-square_nightlife",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:z5hqye47tfwdbvmbgon7genv/app.bsky.feed.post/3mztn3hg4dk25",
-        "handle": "babyblue70.bsky.social",
-        "text": "🇺🇸 Thousands march through Times Square under\n“No Schumer, No Jeffries” signs.\n\nThe split within the Democratic Party is now openly visible, even before the new Congress takes office.\nNaked Cowboy has spoken!🤭",
-        "created_at": "2026-11-09T00:08:27.036Z",
-        "source": "https://bsky.app/profile/babyblue70.bsky.social/post/3mztn3hg4dk25",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ajdbjnjuh6enqjrjmq6ailcc/app.bsky.feed.post/3mztn3ovsdi2v",
-        "handle": "dispatchtimes.bsky.social",
-        "text": "Dave Chappelle criticised over Charlie Kirk gag at New York show\n\nDave Chappelle is facing backlash over a joke about the assassination of conservative influencer Charlie Kirk during a performance at Madison Square Garden in New York, with Kirk’s widow describing the comments as “beyond…",
-        "created_at": "2026-11-09T00:08:34Z",
-        "source": "https://bsky.app/profile/dispatchtimes.bsky.social/post/3mztn3ovsdi2v",
-        "mapped_location": "Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -305,6 +230,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.112,
+          40.618
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:f757g3nzbf5wky2hzim27zom/app.bsky.feed.post/3mzythhgca22w",
+        "handle": "nycsteeler.bsky.social",
+        "text": "FOREVER. Every day, all day straight from the slums of SHAOLIN!! Aka tHE ISLAND OF STATEN !!  Archie projects, Stapleton projects, new writing projects West Brighton projects all the way down to the end of the North Shore of Staten Island. Mariners Harbor Projects!!  don’t get it TWISTED! 💯💯",
+        "created_at": "2026-11-11T01:45:50.841Z",
+        "source": "https://bsky.app/profile/nycsteeler.bsky.social/post/3mzythhgca22w",
+        "mapped_location": "Mariners Harbor Projects",
+        "precision_level": "address",
+        "location_text": "Mariners Harbor Projects",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99,
+          40.694
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4e4ydxvhtpfgzeaanqadntos/app.bsky.feed.post/3mzytncwh4c2s",
+        "handle": "reverius42.bsky.social",
+        "text": "I was shocked to see completely free, unmetered parking in downtown Brooklyn last time I was there. No resident sticker seemed to be required. Cheapest real estate within 100 miles, by a factor of ∞. Only requirement: move your car to a different free spot when there’s street cleaning.",
+        "created_at": "2026-11-11T01:49:07.452Z",
+        "source": "https://bsky.app/profile/reverius42.bsky.social/post/3mzytncwh4c2s",
+        "mapped_location": "downtown Brooklyn",
+        "precision_level": "address",
+        "location_text": "downtown Brooklyn",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

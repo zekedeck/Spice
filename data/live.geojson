@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-12T03:50:53.392002Z",
-    "total_pins": 19
+    "generated_at": "2026-11-12T12:02:13.471983Z",
+    "total_pins": 21
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.011,
-          40.707
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5zww7zorx2ajw7hqrhuix3ba/app.bsky.feed.post/3mzwxihka7y22",
-        "handle": "byteseu.bsky.social",
-        "text": "Stock market today: Live updates\n\nhttps://www.byteseu.com/2510967/\n\nTraders work on the floor of the American Stock Exchange (AMEX) at the New York Stock Exchange (NYSE) in New York, US, on Friday, Nov. 6, 2026. Michael Nagle | Bloomberg | Getty Images U.S. stock futures were largely higher early …",
-        "created_at": "2026-11-10T07:52:37+00:00",
-        "source": "https://bsky.app/profile/byteseu.bsky.social/post/3mzwxihka7y22",
-        "mapped_location": "the New York Stock Exchange",
-        "precision_level": "address",
-        "location_text": "the New York Stock Exchange",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -482,6 +457,83 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3n24g5ryvsq2t",
+        "handle": "qncnews.bsky.social",
+        "text": "Harden Scores Season High 32 as Cavaliers Beat Knicks 115 to 107 at Madison Square Garden\n\nJames Harden scored a season high 32 points as the Cleveland Cavaliers beat the New York Knicks 115 to 107 at Madison Square Garden on Wednesday night.",
+        "created_at": "2026-11-12T11:58:26Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3n24g5ryvsq2t",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Madison Square Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:y4fcl5xq2wixvslfzprgwx27/app.bsky.feed.post/3n24g5ryvsq2t",
+        "handle": "qncnews.bsky.social",
+        "text": "Harden Scores Season High 32 as Cavaliers Beat Knicks 115 to 107 at Madison Square Garden\n\nJames Harden scored a season high 32 points as the Cleveland Cavaliers beat the New York Knicks 115 to 107 at Madison Square Garden on Wednesday night.",
+        "created_at": "2026-11-12T11:58:26Z",
+        "source": "https://bsky.app/profile/qncnews.bsky.social/post/3n24g5ryvsq2t",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Madison Square Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:w2i3wsnibanvku67su6kjzki/app.bsky.feed.post/3n24gau5ajd2x",
+        "handle": "williamsdb.com",
+        "text": "A Williams FW16 driven by three-time Formula 1 champion Ayrton Senna in his final season in the series is going under the hammer in New York.RM Sotheby's is offering chassis FW16B-01 in Sotheby's 'The Now & Contemporary Evening Auction', with an estimate … ",
+        "created_at": "2026-11-12T12:00:09+00:00",
+        "source": "https://bsky.app/profile/williamsdb.com/post/3n24gau5ajd2x",
+        "mapped_location": "Sotheby's 'The Now & Contemporary Evening Auction'",
+        "precision_level": "address",
+        "location_text": "Sotheby's 'The Now & Contemporary Evening Auction'",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

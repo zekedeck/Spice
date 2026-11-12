@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-12T12:02:13.473972Z",
-    "total_pins": 3
+    "generated_at": "2026-11-12T19:45:05.292041Z",
+    "total_pins": 10
   },
   "features": [
     {
@@ -80,6 +80,185 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kzf3ftkefv6lrdibyivvkrx4/app.bsky.feed.post/3n257uuaytc2k",
+        "handle": "theplebtrader.bsky.social",
+        "text": "You are exactly right. \nNYC Trump. NYC Jeffries \nNYC Kushner. NYC Schumer\nNYC Witkoff.\nWhat countries do you think of when you read those five names? To me it’s not America first. I instantly associate those names with Israel & Russia.",
+        "created_at": "2026-11-12T19:38:44.361Z",
+        "source": "https://bsky.app/profile/theplebtrader.bsky.social/post/3n257uuaytc2k",
+        "mapped_location": "NYC Trump",
+        "precision_level": "address",
+        "location_text": "NYC Trump",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ztfwve6uqc4kowbgbfou2aaf/app.bsky.feed.post/3n25a2yro522z",
+        "handle": "blackintellect.bsky.social",
+        "text": "On November 11, 1946, the New York Knicks made their Madison Square Garden debut against the former Chicago Stags (this was the 3rd rendition of the Garden at 8th Avenue between 49th & 50th Streets",
+        "created_at": "2026-11-12T19:42:10.426Z",
+        "source": "https://bsky.app/profile/blackintellect.bsky.social/post/3n25a2yro522z",
+        "mapped_location": "Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "8th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.763
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ztfwve6uqc4kowbgbfou2aaf/app.bsky.feed.post/3n25a2yro522z",
+        "handle": "blackintellect.bsky.social",
+        "text": "On November 11, 1946, the New York Knicks made their Madison Square Garden debut against the former Chicago Stags (this was the 3rd rendition of the Garden at 8th Avenue between 49th & 50th Streets",
+        "created_at": "2026-11-12T19:42:10.426Z",
+        "source": "https://bsky.app/profile/blackintellect.bsky.social/post/3n25a2yro522z",
+        "mapped_location": "8th Avenue",
+        "precision_level": "address",
+        "location_text": "8th Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Madison Square Garden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998,
+          40.731
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyulrqzgvrog2bjzweoolonq/app.bsky.feed.post/3n25a4zrfvc2f",
+        "handle": "sunnydayeternal.bsky.social",
+        "text": "There’s also a flyer circulating for an event to move the  Washington Square Arch in New York’s Greenwich Village several inches to the left 😂",
+        "created_at": "2026-11-12T19:43:18.576Z",
+        "source": "https://bsky.app/profile/sunnydayeternal.bsky.social/post/3n25a4zrfvc2f",
+        "mapped_location": "Washington Square Arch",
+        "precision_level": "address",
+        "location_text": "Washington Square Arch",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York’s Greenwich Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003,
+          40.734
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyulrqzgvrog2bjzweoolonq/app.bsky.feed.post/3n25a4zrfvc2f",
+        "handle": "sunnydayeternal.bsky.social",
+        "text": "There’s also a flyer circulating for an event to move the  Washington Square Arch in New York’s Greenwich Village several inches to the left 😂",
+        "created_at": "2026-11-12T19:43:18.576Z",
+        "source": "https://bsky.app/profile/sunnydayeternal.bsky.social/post/3n25a4zrfvc2f",
+        "mapped_location": "New York’s Greenwich Village",
+        "precision_level": "address",
+        "location_text": "New York’s Greenwich Village",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Washington Square Arch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8283132,
+          40.7135078
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:edrlm645xxm2zat3cg2gpud4/app.bsky.feed.post/3n25a53tvt22h",
+        "handle": "dangartland.bsky.social",
+        "text": "Mid-November tornado in Queens. Normal climate 👍",
+        "created_at": "2026-11-12T19:43:20.751Z",
+        "source": "https://bsky.app/profile/dangartland.bsky.social/post/3n25a53tvt22h",
+        "mapped_location": "Queens, Queens County, New York, United States",
+        "precision_level": "state",
+        "location_text": "Queens",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rzailtwhn4h5pv5vtqd7uj3k/app.bsky.feed.post/3n25a5ee3rs2n",
+        "handle": "octopusmask.bsky.social",
+        "text": "There is no chance in fucking hell this person gets to Kith in Williamsburg from mill basin faster than it takes to do the same to kith on flatbush. just a straight lie.",
+        "created_at": "2026-11-12T19:43:29.675Z",
+        "source": "https://bsky.app/profile/octopusmask.bsky.social/post/3n25a5ee3rs2n",
+        "mapped_location": "Williamsburg",
+        "precision_level": "address",
+        "location_text": "Williamsburg",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

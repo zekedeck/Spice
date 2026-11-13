@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-13T15:43:44.738168Z",
-    "total_pins": 8
+    "generated_at": "2026-11-13T21:46:54.740374Z",
+    "total_pins": 12
   },
   "features": [
     {
@@ -198,6 +198,106 @@
         "mapped_location": "FAO Schwarz",
         "precision_level": "address",
         "location_text": "FAO Schwarz",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.778,
+          40.641
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:we4hrdwurlbu7qj3wh3346ba/app.bsky.feed.post/i4diiuljvfih5",
+        "handle": "me.skyfleet.blue",
+        "text": "Activists demand end to transfer of military materials to Israel through New York's JFK Airport",
+        "created_at": "2026-11-13T21:42:00.589Z",
+        "source": "https://bsky.app/profile/me.skyfleet.blue/post/i4diiuljvfih5",
+        "mapped_location": "New York's JFK Airport",
+        "precision_level": "address",
+        "location_text": "New York's JFK Airport",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3n27xfxx4we2g",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "DreamWorks' OVER THE HEDGE screens Saturday & Sunday at Nitehawk Williamsburg",
+        "created_at": "2026-11-13T21:45:14.190Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3n27xfxx4we2g",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tyewubihhuvftye3k6l7ufaj/app.bsky.feed.post/3n27xhailms2n",
+        "handle": "monkeytennis.bsky.social",
+        "text": "That’s a great list, I’d go an see all of your choices if I could. I’d agree on the Chemical Brothers too, saw them with Daft Punk supporting at the Astoria in 97 and that was really loud.",
+        "created_at": "2026-11-13T21:45:56.711Z",
+        "source": "https://bsky.app/profile/monkeytennis.bsky.social/post/3n27xhailms2n",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:heroykl5age25vyo7zeakl32/app.bsky.feed.post/3n27xhgkgqs2q",
+        "handle": "dmr09.bsky.social",
+        "text": "I’m in Forest Hills, Queens so literally right in between the two",
+        "created_at": "2026-11-13T21:46:03.064Z",
+        "source": "https://bsky.app/profile/dmr09.bsky.social/post/3n27xhgkgqs2q",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

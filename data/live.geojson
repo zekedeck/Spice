@@ -1,110 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-13T15:43:44.732627Z",
+    "generated_at": "2026-11-13T21:46:54.738301Z",
     "total_pins": 34
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98,
-          40.761
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n22ew2yxlv2z",
-        "handle": "howardweiss.bsky.social",
-        "text": "🗞️ New on NYC In Focus: NYC Right Now, 11:30 AM: Officer needs assistance in NYC\n\nNYPD radio reported an officer calling for help at Madison Avenue at 11:13 AM. Details may change....\n\nRead the full story → https://nycinfocus.com/2026/11/11/nyc-right-now-nov-11-2026-11-30-am/",
-        "created_at": "2026-11-11T16:30:54Z",
-        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n22ew2yxlv2z",
-        "mapped_location": "Madison Avenue",
-        "precision_level": "address",
-        "location_text": "Madison Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.969,
-          40.66
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qmgklp5fw7kqwnschwa2j7na/app.bsky.feed.post/3n22ezlxmhs2h",
-        "handle": "gypsyj.bsky.social",
-        "text": "I LOVE Brooklyn and Prospect Park!",
-        "created_at": "2026-11-11T16:32:52.930Z",
-        "source": "https://bsky.app/profile/gypsyj.bsky.social/post/3n22ezlxmhs2h",
-        "mapped_location": "Prospect Park",
-        "precision_level": "address",
-        "location_text": "Prospect Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ekxsxhp3t6ah2zjiqdkmlf6p/app.bsky.feed.post/3n22f3xnt7k2c",
-        "handle": "prochoicejen.bsky.social",
-        "text": "Shop Jen Stock at Culture House Greenpoint Brooklyn",
-        "created_at": "2026-11-11T16:34:12.290Z",
-        "source": "https://bsky.app/profile/prochoicejen.bsky.social/post/3n22f3xnt7k2c",
-        "mapped_location": "Culture House Greenpoint Brooklyn",
-        "precision_level": "address",
-        "location_text": "Culture House Greenpoint Brooklyn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.646
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:esytkyv5slmhrslqsmardpex/app.bsky.feed.post/3n22f5iurnk2t",
-        "handle": "nysoccerjournal.com",
-        "text": "The first batch of \"non-premium\" season tickets at Etihad Park will go on sale next week, with NYCFC boasting that 7,000 of those will be priced at/below $1,000, and that there are \"minimal or flat\" price increases for a bunch of this seating compared to '26. More details in here",
-        "created_at": "2026-11-11T16:35:03.909Z",
-        "source": "https://bsky.app/profile/nysoccerjournal.com/post/3n22f5iurnk2t",
-        "mapped_location": "Etihad Park",
-        "precision_level": "address",
-        "location_text": "Etihad Park",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -860,6 +760,106 @@
         "mapped_location": "FAO Schwarz",
         "precision_level": "address",
         "location_text": "FAO Schwarz",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.778,
+          40.641
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:we4hrdwurlbu7qj3wh3346ba/app.bsky.feed.post/i4diiuljvfih5",
+        "handle": "me.skyfleet.blue",
+        "text": "Activists demand end to transfer of military materials to Israel through New York's JFK Airport",
+        "created_at": "2026-11-13T21:42:00.589Z",
+        "source": "https://bsky.app/profile/me.skyfleet.blue/post/i4diiuljvfih5",
+        "mapped_location": "New York's JFK Airport",
+        "precision_level": "address",
+        "location_text": "New York's JFK Airport",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k7nrpa3yr4zxl7rugo5s5d4g/app.bsky.feed.post/3n27xfxx4we2g",
+        "handle": "nitehawkcinema.bsky.social",
+        "text": "DreamWorks' OVER THE HEDGE screens Saturday & Sunday at Nitehawk Williamsburg",
+        "created_at": "2026-11-13T21:45:14.190Z",
+        "source": "https://bsky.app/profile/nitehawkcinema.bsky.social/post/3n27xfxx4we2g",
+        "mapped_location": "Nitehawk Williamsburg",
+        "precision_level": "address",
+        "location_text": "Nitehawk Williamsburg",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.778
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tyewubihhuvftye3k6l7ufaj/app.bsky.feed.post/3n27xhailms2n",
+        "handle": "monkeytennis.bsky.social",
+        "text": "That’s a great list, I’d go an see all of your choices if I could. I’d agree on the Chemical Brothers too, saw them with Daft Punk supporting at the Astoria in 97 and that was really loud.",
+        "created_at": "2026-11-13T21:45:56.711Z",
+        "source": "https://bsky.app/profile/monkeytennis.bsky.social/post/3n27xhailms2n",
+        "mapped_location": "Astoria",
+        "precision_level": "address",
+        "location_text": "Astoria",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843,
+          40.73
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:heroykl5age25vyo7zeakl32/app.bsky.feed.post/3n27xhgkgqs2q",
+        "handle": "dmr09.bsky.social",
+        "text": "I’m in Forest Hills, Queens so literally right in between the two",
+        "created_at": "2026-11-13T21:46:03.064Z",
+        "source": "https://bsky.app/profile/dmr09.bsky.social/post/3n27xhgkgqs2q",
+        "mapped_location": "Forest Hills",
+        "precision_level": "address",
+        "location_text": "Forest Hills",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

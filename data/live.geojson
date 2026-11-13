@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-13T00:50:05.454895Z",
-    "total_pins": 29
+    "generated_at": "2026-11-13T07:29:43.336910Z",
+    "total_pins": 28
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.112,
-          40.618
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:f757g3nzbf5wky2hzim27zom/app.bsky.feed.post/3mzythhgca22w",
-        "handle": "nycsteeler.bsky.social",
-        "text": "FOREVER. Every day, all day straight from the slums of SHAOLIN!! Aka tHE ISLAND OF STATEN !!  Archie projects, Stapleton projects, new writing projects West Brighton projects all the way down to the end of the North Shore of Staten Island. Mariners Harbor Projects!!  don’t get it TWISTED! 💯💯",
-        "created_at": "2026-11-11T01:45:50.841Z",
-        "source": "https://bsky.app/profile/nycsteeler.bsky.social/post/3mzythhgca22w",
-        "mapped_location": "Mariners Harbor Projects",
-        "precision_level": "address",
-        "location_text": "Mariners Harbor Projects",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99,
-          40.694
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:4e4ydxvhtpfgzeaanqadntos/app.bsky.feed.post/3mzytncwh4c2s",
-        "handle": "reverius42.bsky.social",
-        "text": "I was shocked to see completely free, unmetered parking in downtown Brooklyn last time I was there. No resident sticker seemed to be required. Cheapest real estate within 100 miles, by a factor of ∞. Only requirement: move your car to a different free spot when there’s street cleaning.",
-        "created_at": "2026-11-11T01:49:07.452Z",
-        "source": "https://bsky.app/profile/reverius42.bsky.social/post/3mzytncwh4c2s",
-        "mapped_location": "downtown Brooklyn",
-        "precision_level": "address",
-        "location_text": "downtown Brooklyn",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -740,6 +690,31 @@
         "borough_conflict": false,
         "specificity_score": 0.9,
         "other_locations": "DIFF NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jzjeqqlxoj3sxhkhv52z26jk/app.bsky.feed.post/3n26heihwox24",
+        "handle": "footballtalkuk.bsky.social",
+        "text": "⚽ FOOTBALL TALK\n\nPochettino’s Chelsea maelstrom the best yardstick for what lies ahead at United\n\nArgentinian oversaw high-scoring games in his one Chelsea season and Opta predicts his Ma…\n\n💬 What’s your verdict? Have your say 👇\n\nwww.footballtalk.uk",
+        "created_at": "2026-11-13T07:25:24.766Z",
+        "source": "https://bsky.app/profile/footballtalkuk.bsky.social/post/3n26heihwox24",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-13T07:29:43.338456Z",
-    "total_pins": 1
+    "generated_at": "2026-11-13T15:43:44.738168Z",
+    "total_pins": 8
   },
   "features": [
     {
@@ -28,6 +28,181 @@
         "provenance": "llm_accept",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3n27ctb5ga4q2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 2, 5 trains are delayed while we request EMS for someone in need of medical assistance on a train at Jackson Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-13T15:36:50.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3n27ctb5ga4q2",
+        "mapped_location": "Jackson Av",
+        "precision_level": "address",
+        "location_text": "Jackson Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t7cxrks4duzybwguutkfgiyc/app.bsky.feed.post/3n27cwjghvc2s",
+        "handle": "saffermaster.bsky.social",
+        "text": "He was always the most dangerous player at Chelsea. I was thrilled we got him. Then I was let down by his complete lack of end product. This season we are seeing his end product developing. I love it.",
+        "created_at": "2026-11-13T15:38:40.814Z",
+        "source": "https://bsky.app/profile/saffermaster.bsky.social/post/3n27cwjghvc2s",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01,
+          40.746
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:xbind3kwdosxb2wsfzvvvkt2/app.bsky.feed.post/3n27cx6a7m22w",
+        "handle": "bluealways.bsky.social",
+        "text": "Humpback Shows Up in Hudson, New Yorkers Swoon\n\nYoung whale's visit signals improving health of the Hudson River",
+        "created_at": "2026-11-13T15:39:02.628Z",
+        "source": "https://bsky.app/profile/bluealways.bsky.social/post/3n27cx6a7m22w",
+        "mapped_location": "Hudson River Park, Manhattan, New York County, New York, United States",
+        "precision_level": "address (clarified)",
+        "location_text": "Hudson",
+        "confidence": 0.845,
+        "address_type": "park",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:uewybomjsopscei54wgemukz/app.bsky.feed.post/3n27cxigzmc2z",
+        "handle": "odienator.bsky.social",
+        "text": "Also, about a month ago, a guy a few seats away from me in my row at the Regal Union Square took his pants off, folded them and put them on the chair next to him! \n\nSo, shoes are the least of my worries. This is why I'm against assigned seats in NYC movie theaters.",
+        "created_at": "2026-11-13T15:39:13.342Z",
+        "source": "https://bsky.app/profile/odienator.bsky.social/post/3n27cxigzmc2z",
+        "mapped_location": "the Regal Union Square",
+        "precision_level": "address",
+        "location_text": "the Regal Union Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.807
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ccscygoww4uf76s5eyu7pqut/app.bsky.feed.post/3n27cxlekrk2t",
+        "handle": "michaelwarburton.bsky.social",
+        "text": "20yr old ORSON WELLES’ production of ‘Macbeth’ boasted a 150-strong all black cast and played at the Lafayette Theater in Harlem \n\nA forgotten theatrical and diversity landmark it was Welles said “By all odds, my great success in my life.”",
+        "created_at": "2026-11-13T15:39:16.406Z",
+        "source": "https://bsky.app/profile/michaelwarburton.bsky.social/post/3n27cxlekrk2t",
+        "mapped_location": "the Lafayette Theater",
+        "precision_level": "address",
+        "location_text": "the Lafayette Theater",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3n27cy6ubixr2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 2, 5 trains are running express from 3 Av/149 St to E 180 St while we request EMS for someone in need of medical assistance on a train at Jackson Av.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-13T15:39:34.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3n27cy6ubixr2",
+        "mapped_location": "Jackson Av",
+        "precision_level": "address",
+        "location_text": "Jackson Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:shlwt2malwoxivv6pprkittl/app.bsky.feed.post/3n27cyxxb3226",
+        "handle": "tolovel.com",
+        "text": "I was the very first person to try the Tamagotchi UFO Mission Experience at FAO Schwarz in Rockefeller Center~! 🥹🎉 \n\nStarting yesterday, this #Tamagotchi store + UFO experience is open now to the public, so please make sure to visit while you’re in NYC for the holidays! 🗽🛍️",
+        "created_at": "2026-11-13T15:40:03.149Z",
+        "source": "https://bsky.app/profile/tolovel.com/post/3n27cyxxb3226",
+        "mapped_location": "FAO Schwarz",
+        "precision_level": "address",
+        "location_text": "FAO Schwarz",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

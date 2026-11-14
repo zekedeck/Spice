@@ -1,189 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-14T15:29:06.835046Z",
-    "total_pins": 29
+    "generated_at": "2026-11-14T20:09:08.338301Z",
+    "total_pins": 24
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kzf3ftkefv6lrdibyivvkrx4/app.bsky.feed.post/3n257uuaytc2k",
-        "handle": "theplebtrader.bsky.social",
-        "text": "You are exactly right. \nNYC Trump. NYC Jeffries \nNYC Kushner. NYC Schumer\nNYC Witkoff.\nWhat countries do you think of when you read those five names? To me it’s not America first. I instantly associate those names with Israel & Russia.",
-        "created_at": "2026-11-12T19:38:44.361Z",
-        "source": "https://bsky.app/profile/theplebtrader.bsky.social/post/3n257uuaytc2k",
-        "mapped_location": "NYC Trump",
-        "precision_level": "address",
-        "location_text": "NYC Trump",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ztfwve6uqc4kowbgbfou2aaf/app.bsky.feed.post/3n25a2yro522z",
-        "handle": "blackintellect.bsky.social",
-        "text": "On November 11, 1946, the New York Knicks made their Madison Square Garden debut against the former Chicago Stags (this was the 3rd rendition of the Garden at 8th Avenue between 49th & 50th Streets",
-        "created_at": "2026-11-12T19:42:10.426Z",
-        "source": "https://bsky.app/profile/blackintellect.bsky.social/post/3n25a2yro522z",
-        "mapped_location": "Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "8th Avenue"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.763
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:ztfwve6uqc4kowbgbfou2aaf/app.bsky.feed.post/3n25a2yro522z",
-        "handle": "blackintellect.bsky.social",
-        "text": "On November 11, 1946, the New York Knicks made their Madison Square Garden debut against the former Chicago Stags (this was the 3rd rendition of the Garden at 8th Avenue between 49th & 50th Streets",
-        "created_at": "2026-11-12T19:42:10.426Z",
-        "source": "https://bsky.app/profile/blackintellect.bsky.social/post/3n25a2yro522z",
-        "mapped_location": "8th Avenue",
-        "precision_level": "address",
-        "location_text": "8th Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Madison Square Garden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998,
-          40.731
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyulrqzgvrog2bjzweoolonq/app.bsky.feed.post/3n25a4zrfvc2f",
-        "handle": "sunnydayeternal.bsky.social",
-        "text": "There’s also a flyer circulating for an event to move the  Washington Square Arch in New York’s Greenwich Village several inches to the left 😂",
-        "created_at": "2026-11-12T19:43:18.576Z",
-        "source": "https://bsky.app/profile/sunnydayeternal.bsky.social/post/3n25a4zrfvc2f",
-        "mapped_location": "Washington Square Arch",
-        "precision_level": "address",
-        "location_text": "Washington Square Arch",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York’s Greenwich Village"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.003,
-          40.734
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyulrqzgvrog2bjzweoolonq/app.bsky.feed.post/3n25a4zrfvc2f",
-        "handle": "sunnydayeternal.bsky.social",
-        "text": "There’s also a flyer circulating for an event to move the  Washington Square Arch in New York’s Greenwich Village several inches to the left 😂",
-        "created_at": "2026-11-12T19:43:18.576Z",
-        "source": "https://bsky.app/profile/sunnydayeternal.bsky.social/post/3n25a4zrfvc2f",
-        "mapped_location": "New York’s Greenwich Village",
-        "precision_level": "address",
-        "location_text": "New York’s Greenwich Village",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Washington Square Arch"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8283132,
-          40.7135078
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:edrlm645xxm2zat3cg2gpud4/app.bsky.feed.post/3n25a53tvt22h",
-        "handle": "dangartland.bsky.social",
-        "text": "Mid-November tornado in Queens. Normal climate 👍",
-        "created_at": "2026-11-12T19:43:20.751Z",
-        "source": "https://bsky.app/profile/dangartland.bsky.social/post/3n25a53tvt22h",
-        "mapped_location": "Queens, Queens County, New York, United States",
-        "precision_level": "state",
-        "location_text": "Queens",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.708
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:rzailtwhn4h5pv5vtqd7uj3k/app.bsky.feed.post/3n25a5ee3rs2n",
-        "handle": "octopusmask.bsky.social",
-        "text": "There is no chance in fucking hell this person gets to Kith in Williamsburg from mill basin faster than it takes to do the same to kith on flatbush. just a straight lie.",
-        "created_at": "2026-11-12T19:43:29.675Z",
-        "source": "https://bsky.app/profile/octopusmask.bsky.social/post/3n25a5ee3rs2n",
-        "mapped_location": "Williamsburg",
-        "precision_level": "address",
-        "location_text": "Williamsburg",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -736,6 +557,56 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "US flight havoc\n\nNEW YORK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976815,
+          40.6747295
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4qn4wr4pft6wa4du4pdeotg/app.bsky.feed.post/3n2cceot2z226",
+        "handle": "yakuzajohn.bsky.social",
+        "text": "why would anyone even for one second think their pension money is in the PARK SLOPE food coop",
+        "created_at": "2026-11-14T20:06:41.707Z",
+        "source": "https://bsky.app/profile/yakuzajohn.bsky.social/post/3n2cceot2z226",
+        "mapped_location": "Park Slope Food Coop, 782, Union Street, Park Slope, Brooklyn, Kings County, New York, 11215, United States",
+        "precision_level": "unclassified",
+        "location_text": "PARK SLOPE food coop",
+        "confidence": 0.64,
+        "address_type": "supermarket",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3n2cchxteck2w",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A building collapse on Flatbush Avenue in Brooklyn killed one person and left two in critical condition, with additional victims still being searched for.\n",
+        "created_at": "2026-11-14T20:08:31.740Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3n2cchxteck2w",
+        "mapped_location": "Flatbush Avenue",
+        "precision_level": "address",
+        "location_text": "Flatbush Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-14T15:29:06.836699Z",
-    "total_pins": 2
+    "generated_at": "2026-11-14T20:09:08.348117Z",
+    "total_pins": 4
   },
   "features": [
     {
@@ -55,6 +55,56 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "US flight havoc\n\nNEW YORK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976815,
+          40.6747295
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q4qn4wr4pft6wa4du4pdeotg/app.bsky.feed.post/3n2cceot2z226",
+        "handle": "yakuzajohn.bsky.social",
+        "text": "why would anyone even for one second think their pension money is in the PARK SLOPE food coop",
+        "created_at": "2026-11-14T20:06:41.707Z",
+        "source": "https://bsky.app/profile/yakuzajohn.bsky.social/post/3n2cceot2z226",
+        "mapped_location": "Park Slope Food Coop, 782, Union Street, Park Slope, Brooklyn, Kings County, New York, 11215, United States",
+        "precision_level": "unclassified",
+        "location_text": "PARK SLOPE food coop",
+        "confidence": 0.64,
+        "address_type": "supermarket",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3n2cchxteck2w",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "A building collapse on Flatbush Avenue in Brooklyn killed one person and left two in critical condition, with additional victims still being searched for.\n",
+        "created_at": "2026-11-14T20:08:31.740Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3n2cchxteck2w",
+        "mapped_location": "Flatbush Avenue",
+        "precision_level": "address",
+        "location_text": "Flatbush Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-11-15T05:19:40.449678Z",
+    "total_pins": 3
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.678
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3n2dawd3o23z2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Uptown 2 trains are running with delays after we removed a train car in need of cleaning from service at Flatbush Av-Brooklyn College.\n\nFor latest updates, visit https://new.mta.info/agency/new-york-city-transit and https://mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-15T05:13:21.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3n2dawd3o23z2",
+        "mapped_location": "Flatbush Av-Brooklyn College",
+        "precision_level": "address",
+        "location_text": "Flatbush Av-Brooklyn College",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972,
+          40.797
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ohs6e62wkrssvvxouo22yxtk/app.bsky.feed.post/3n2db53kdqzl2",
+        "handle": "nycdoorsbot.stefanbohacek.online.ap.brid.gy",
+        "text": "East 93rd Street between 1rt Avenue and 2nd Avenue Even numbers\n\nVia https://digitalcollections.nypl.org/items/2b9662d0-c5ae-012f-2ea8-58d385a7bc34\n\nMap: https://www.openstreetmap.org/search?query=East%2093rd%20Street%20Manhattan%20NYC\n\n#NYC #NewYorkCity #doors #photography",
+        "created_at": "2026-11-15T05:17:09.000Z",
+        "source": "https://bsky.app/profile/nycdoorsbot.stefanbohacek.online.ap.brid.gy/post/3n2db53kdqzl2",
+        "mapped_location": "2nd Avenue",
+        "precision_level": "address",
+        "location_text": "2nd Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978,
+          40.761
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bxtmiwadqrvhntoaavvp2mwc/app.bsky.feed.post/3n2db5fvtkc22",
+        "handle": "parkerlerdal23.bsky.social",
+        "text": "Bugs x Lola Week 2026 Day 8: Anniversary - Bugs Bunny and Lola Bunny are having an Anniversary in New York City but they are at The Modern Restaurant in NYC for our Anniversary Dinner so Happy Anniversary to Bugs and Lola! #BugsxLolaWeek2026",
+        "created_at": "2026-11-15T05:17:23.474Z",
+        "source": "https://bsky.app/profile/parkerlerdal23.bsky.social/post/3n2db5fvtkc22",
+        "mapped_location": "The Modern Restaurant",
+        "precision_level": "address",
+        "location_text": "The Modern Restaurant",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

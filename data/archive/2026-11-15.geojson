@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-15T12:53:58.931108Z",
-    "total_pins": 3
+    "generated_at": "2026-11-15T19:22:51.306812Z",
+    "total_pins": 5
   },
   "features": [
     {
@@ -78,6 +78,56 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.727
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:eaxmguopsicgsjwy2mmzrlzs/app.bsky.feed.post/3n2eq6gbjg22h",
+        "handle": "phillipwardproject.bsky.social",
+        "text": ".\nA CORNER IN ROOM 5 \nQuentin Crisp's room at the rooming house, The Eastwick, in Manhattan's East Village: 46 East 3rd Street, 1999. \n\nCrisperanto: The Quentin Crisp Archives \nwww.crisperanto.org\n@quentin_crisp_archives",
+        "created_at": "2026-11-15T19:19:03.280Z",
+        "source": "https://bsky.app/profile/phillipwardproject.bsky.social/post/3n2eq6gbjg22h",
+        "mapped_location": "Manhattan's East Village",
+        "precision_level": "address",
+        "location_text": "Manhattan's East Village",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tpbtyrmf5iap63x3kpbe5kks/app.bsky.feed.post/3n2eq6w5m7c2y",
+        "handle": "jayroo.bsky.social",
+        "text": "Since I asked this question, I’ve noticed other photos taken in the same location. I had no idea the Brooklyn Bridge loomed that large compare to the buildings. I thought it was a trick of perspective or lens compression",
+        "created_at": "2026-11-15T19:19:19.930Z",
+        "source": "https://bsky.app/profile/jayroo.bsky.social/post/3n2eq6w5m7c2y",
+        "mapped_location": "the Brooklyn Bridge",
+        "precision_level": "address",
+        "location_text": "the Brooklyn Bridge",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

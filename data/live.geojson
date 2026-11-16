@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-16T11:05:05.984655Z",
-    "total_pins": 26
+    "generated_at": "2026-11-16T21:01:14.661922Z",
+    "total_pins": 32
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.976815,
-          40.6747295
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:q4qn4wr4pft6wa4du4pdeotg/app.bsky.feed.post/3n2cceot2z226",
-        "handle": "yakuzajohn.bsky.social",
-        "text": "why would anyone even for one second think their pension money is in the PARK SLOPE food coop",
-        "created_at": "2026-11-14T20:06:41.707Z",
-        "source": "https://bsky.app/profile/yakuzajohn.bsky.social/post/3n2cceot2z226",
-        "mapped_location": "Park Slope Food Coop, 782, Union Street, Park Slope, Brooklyn, Kings County, New York, 11215, United States",
-        "precision_level": "unclassified",
-        "location_text": "PARK SLOPE food coop",
-        "confidence": 0.64,
-        "address_type": "supermarket",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.944,
-          40.678
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3n2cchxteck2w",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "A building collapse on Flatbush Avenue in Brooklyn killed one person and left two in critical condition, with additional victims still being searched for.\n",
-        "created_at": "2026-11-14T20:08:31.740Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3n2cchxteck2w",
-        "mapped_location": "Flatbush Avenue",
-        "precision_level": "address",
-        "location_text": "Flatbush Avenue",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -657,6 +607,210 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904,
+          40.844
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7f2lzndndxxiuse4gxsbnwkz/app.bsky.feed.post/3n2hfwcndak2k",
+        "handle": "nych2o.bsky.social",
+        "text": "Join us this Saturday for a cleanup at Claremont Park and Clay Avenue in the Bronx! Sign up at the link in our bio 🌎",
+        "created_at": "2026-11-16T20:53:32.810Z",
+        "source": "https://bsky.app/profile/nych2o.bsky.social/post/3n2hfwcndak2k",
+        "mapped_location": "Claremont Park",
+        "precision_level": "address",
+        "location_text": "Claremont Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "Clay Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9125092,
+          40.8289638
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:7f2lzndndxxiuse4gxsbnwkz/app.bsky.feed.post/3n2hfwcndak2k",
+        "handle": "nych2o.bsky.social",
+        "text": "Join us this Saturday for a cleanup at Claremont Park and Clay Avenue in the Bronx! Sign up at the link in our bio 🌎",
+        "created_at": "2026-11-16T20:53:32.810Z",
+        "source": "https://bsky.app/profile/nych2o.bsky.social/post/3n2hfwcndak2k",
+        "mapped_location": "Clay Avenue, Melrose, South Bronx, The Bronx, Bronx County, New York, 10456, United States",
+        "precision_level": "unclassified",
+        "location_text": "Clay Avenue",
+        "confidence": 0.64,
+        "address_type": "residential",
+        "provenance": "rule",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Claremont Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:pb7qan642kimyu4bie2xo2o5/app.bsky.feed.post/3n2hg2avck22u",
+        "handle": "eriksmelser.bsky.social",
+        "text": "Rachel Calnek-Sugin discusses Universe of Grace, with Katie Yee, at Books Are Magic Montague, 122 Montague Street, Brooklyn, NY, on Tuesday, November 17 at 7:00 PM. Tickets start at $10.89. #booksky",
+        "created_at": "2026-11-16T20:55:45.216Z",
+        "source": "https://bsky.app/profile/eriksmelser.bsky.social/post/3n2hg2avck22u",
+        "mapped_location": "122 Montague Street",
+        "precision_level": "address",
+        "location_text": "122 Montague Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x7poofmqqo6eyw7ua35znubn/app.bsky.feed.post/3n2hg5wymzc2q",
+        "handle": "notwebsafe.bsky.social",
+        "text": "escher x uzumaki. from an extensive escher exhibit at the National\nMuseum of Mathematics in Chelsea, basically a mini-exploratorium for math.",
+        "created_at": "2026-11-16T20:57:49.057Z",
+        "source": "https://bsky.app/profile/notwebsafe.bsky.social/post/3n2hg5wymzc2q",
+        "mapped_location": "the National\nMuseum of Mathematics",
+        "precision_level": "address",
+        "location_text": "the National\nMuseum of Mathematics",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Chelsea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x7poofmqqo6eyw7ua35znubn/app.bsky.feed.post/3n2hg5wymzc2q",
+        "handle": "notwebsafe.bsky.social",
+        "text": "escher x uzumaki. from an extensive escher exhibit at the National\nMuseum of Mathematics in Chelsea, basically a mini-exploratorium for math.",
+        "created_at": "2026-11-16T20:57:49.057Z",
+        "source": "https://bsky.app/profile/notwebsafe.bsky.social/post/3n2hg5wymzc2q",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5,
+        "other_locations": "the National\nMuseum of Mathematics"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kvjia67lukkqqcafc5umlb5l/app.bsky.feed.post/3n2hgbdwb2k2e",
+        "handle": "gh0stfactory.bsky.social",
+        "text": "at this rate, new york's gonna secede from the rest of the US.\nWashington don't deserve that statue, man",
+        "created_at": "2026-11-16T20:59:43.274Z",
+        "source": "https://bsky.app/profile/gh0stfactory.bsky.social/post/3n2hgbdwb2k2e",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "new york's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3n2hgc66jwq2p",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (2/2)",
+        "created_at": "2026-11-16T21:00:10.755057+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3n2hgc66jwq2p",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dutpvbqvxlsmijjzvdw6iv3z/app.bsky.feed.post/3n2hgc7ubhc25",
+        "handle": "hollowmirth.bsky.social",
+        "text": "i actually rewatched the Times Square scene with Sound and Colour playing in the background and it gave me the feels. the whole series feels like a fever dream",
+        "created_at": "2026-11-16T21:00:12.570Z",
+        "source": "https://bsky.app/profile/hollowmirth.bsky.social/post/3n2hgc7ubhc25",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

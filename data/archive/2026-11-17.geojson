@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-17T12:27:27.652756Z",
-    "total_pins": 2
+    "generated_at": "2026-11-17T21:21:11.401461Z",
+    "total_pins": 3
   },
   "features": [
     {
@@ -53,6 +53,31 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.774
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fepht7jul2okcijt3z4jpsei/app.bsky.feed.post/3n2jxu75r7s26",
+        "handle": "uppereastsite.com",
+        "text": "The Upper East Side is among the rattiest neighborhoods in Manhattan, Upper East Site's data analysis shows. Full story on Upper East Site",
+        "created_at": "2026-11-17T21:19:48.887Z",
+        "source": "https://bsky.app/profile/uppereastsite.com/post/3n2jxu75r7s26",
+        "mapped_location": "Upper East Site's",
+        "precision_level": "address",
+        "location_text": "Upper East Site's",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

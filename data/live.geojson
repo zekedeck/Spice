@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-18T11:26:31.629601Z",
-    "total_pins": 15
+    "generated_at": "2026-11-18T19:37:17.941777Z",
+    "total_pins": 17
   },
   "features": [
     {
@@ -380,6 +380,56 @@
         "confidence": 0.49,
         "address_type": "administrative",
         "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.65
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:o6lsalbjwbgd4qfpk7zqw35o/app.bsky.feed.post/3n2mcah6aie2l",
+        "handle": "newyorkautomuseum.bsky.social",
+        "text": "Story/Images by Supercar Blondie\n\nIt got a round of applause at the unveiling.\n\nPlay a part in building the New York Auto Museum. Join a committee!\n\nhttps://www.newyorkautoexperience.org/sign-up",
+        "created_at": "2026-11-18T19:30:55.811Z",
+        "source": "https://bsky.app/profile/newyorkautomuseum.bsky.social/post/3n2mcah6aie2l",
+        "mapped_location": "the New York Auto Museum",
+        "precision_level": "address",
+        "location_text": "the New York Auto Museum",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:owu2lfrumlvvpoputmlmcwpd/app.bsky.feed.post/3n2mckb6lxw2n",
+        "handle": "financiernews.bsky.social",
+        "text": "Fed's Barr Says Higher Rates Likely Appropriate to Tame Inflation\n\n🏛️ Federal Reserve Governor Michael Barr said higher interest rates would likely be appropriate to help tame inflation that continues to squeeze American households, speaking at the New York Fed's Making\n\nhttps://financier.news/",
+        "created_at": "2026-11-18T19:36:26.013Z",
+        "source": "https://bsky.app/profile/financiernews.bsky.social/post/3n2mckb6lxw2n",
+        "mapped_location": "the New York Fed's",
+        "precision_level": "address",
+        "location_text": "the New York Fed's",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
       }

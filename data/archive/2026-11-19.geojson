@@ -1,8 +1,211 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-19T09:21:55.906256Z",
-    "total_pins": 0
+    "generated_at": "2026-11-19T18:30:16.254377Z",
+    "total_pins": 8
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tq5siybalgxn3odq43b43moz/app.bsky.feed.post/3n2oovqhgte23",
+        "handle": "wnxp-playlist.bsky.social",
+        "text": "Song: Gumboots (Live at Webster Hall, New York City - June 2011)\nArtist: Paul Simon\nAlbum: Live In New York City (2012)\nLabel: Sony Music Entertainment\nTime: 12:22 pm",
+        "created_at": "2026-11-19T18:22:55.461Z",
+        "source": "https://bsky.app/profile/wnxp-playlist.bsky.social/post/3n2oovqhgte23",
+        "mapped_location": "Webster Hall",
+        "precision_level": "address",
+        "location_text": "Webster Hall",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York City - June 2011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tq5siybalgxn3odq43b43moz/app.bsky.feed.post/3n2oovqhgte23",
+        "handle": "wnxp-playlist.bsky.social",
+        "text": "Song: Gumboots (Live at Webster Hall, New York City - June 2011)\nArtist: Paul Simon\nAlbum: Live In New York City (2012)\nLabel: Sony Music Entertainment\nTime: 12:22 pm",
+        "created_at": "2026-11-19T18:22:55.461Z",
+        "source": "https://bsky.app/profile/wnxp-playlist.bsky.social/post/3n2oovqhgte23",
+        "mapped_location": "New York City - June 2011",
+        "precision_level": "address",
+        "location_text": "New York City - June 2011",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Webster Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          40.684
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:k3i3d2xfibssxz2lbm45x54o/app.bsky.feed.post/3n2oowasy2s2i",
+        "handle": "joshgondelman.bsky.social",
+        "text": "Thanks to everyone who came to my New York Comedy Festival show at the Bell House last week! Thanks to Alison, Brittany, and Mandal for killing! Thanks to Leo Praeger O’Brien for these great pictures! What a lovely night!!!",
+        "created_at": "2026-11-19T18:23:12.758Z",
+        "source": "https://bsky.app/profile/joshgondelman.bsky.social/post/3n2oowasy2s2i",
+        "mapped_location": "the Bell House",
+        "precision_level": "address",
+        "location_text": "the Bell House",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.795,
+          40.728
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:i7futw7mxqlzedq6f5p7ffog/app.bsky.feed.post/3n2op42vhz223",
+        "handle": "susanmcgraw88.bsky.social",
+        "text": "Mercury is located in Queens NY!",
+        "created_at": "2026-11-19T18:26:27.885Z",
+        "source": "https://bsky.app/profile/susanmcgraw88.bsky.social/post/3n2op42vhz223",
+        "mapped_location": "Queens NY",
+        "precision_level": "address",
+        "location_text": "Queens NY",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:4dkbhyzrtrp3ehxbtadmyjyk/app.bsky.feed.post/3n2op657j3p2h",
+        "handle": "mohawkvalleyvoice.bsky.social",
+        "text": "MTA Approves Crown Heights Housing Deal for 375 Homes in Brooklyn\n\nThe MTA approved a Crown Heights housing deal for 375 homes on Pacific Street, including about 90 permanently affordable apartments.",
+        "created_at": "2026-11-19T18:27:37Z",
+        "source": "https://bsky.app/profile/mohawkvalleyvoice.bsky.social/post/3n2op657j3p2h",
+        "mapped_location": "Pacific Street",
+        "precision_level": "address",
+        "location_text": "Pacific Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jx7ifzb3c6ydcpvrneubkjhv/app.bsky.feed.post/3n2op6wvqsk2a",
+        "handle": "flotempelhof.bsky.social",
+        "text": "I can save you some time... there's no jury in the world to convict this baby.\n\nShe could tear up a newspaper in Times Square and yet there would be not a single witness for the prosecution.",
+        "created_at": "2026-11-19T18:28:04.363Z",
+        "source": "https://bsky.app/profile/flotempelhof.bsky.social/post/3n2op6wvqsk2a",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vsngm2d72wtucws4sf7z6y4n/app.bsky.feed.post/3n2op7uyx322r",
+        "handle": "bbiunion.bsky.social",
+        "text": "BREAKING: baristas at the World Trade Center blue bottle just won their union election 12-4!!! \nWelcome to our first NYC store to join the union🥳🥳🥳🥳🥳",
+        "created_at": "2026-11-19T18:28:35.916Z",
+        "source": "https://bsky.app/profile/bbiunion.bsky.social/post/3n2op7uyx322r",
+        "mapped_location": "the World Trade Center",
+        "precision_level": "address",
+        "location_text": "the World Trade Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.713
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n2opbfljai22",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: WTC Tower 2 Would Get City Sidewalk Easements Free; Hearing Dec. 9\n\nThe city wants to hand sidewalk space and airspace at the World Trade Center to the state, at…\n\nRead the full story → https://nycinfocus.com/2026/11/19/wtc-tower-2-sidewalk-easements-dcas-hearing-december-9/",
+        "created_at": "2026-11-19T18:29:26Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n2opbfljai22",
+        "mapped_location": "the World Trade Center",
+        "precision_level": "address",
+        "location_text": "the World Trade Center",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    }
+  ]
 }

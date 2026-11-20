@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-20T08:15:03.978781Z",
-    "total_pins": 2
+    "generated_at": "2026-11-20T17:06:01.369000Z",
+    "total_pins": 9
   },
   "features": [
     {
@@ -48,6 +48,185 @@
         "mapped_location": "138 St-Grand Concourse",
         "precision_level": "address",
         "location_text": "138 St-Grand Concourse",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.693
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qcqcnzo7ue62umtq5qeefked/app.bsky.feed.post/3n2r2pglrk22h",
+        "handle": "foldedsunset.bsky.social",
+        "text": "That B62 … Got to the bus stop at Manhattan/Greenpoint earlier this week, & the nearest bus heading our way was all the way back at Park & Ryerson.",
+        "created_at": "2026-11-20T16:59:28.309Z",
+        "source": "https://bsky.app/profile/foldedsunset.bsky.social/post/3n2r2pglrk22h",
+        "mapped_location": "Manhattan/Greenpoint",
+        "precision_level": "address",
+        "location_text": "Manhattan/Greenpoint",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Park & Ryerson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945,
+          40.706
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:qcqcnzo7ue62umtq5qeefked/app.bsky.feed.post/3n2r2pglrk22h",
+        "handle": "foldedsunset.bsky.social",
+        "text": "That B62 … Got to the bus stop at Manhattan/Greenpoint earlier this week, & the nearest bus heading our way was all the way back at Park & Ryerson.",
+        "created_at": "2026-11-20T16:59:28.309Z",
+        "source": "https://bsky.app/profile/foldedsunset.bsky.social/post/3n2r2pglrk22h",
+        "mapped_location": "Park & Ryerson",
+        "precision_level": "address",
+        "location_text": "Park & Ryerson",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "Manhattan/Greenpoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.715
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3n2r2r2coi32n",
+        "handle": "ridgewoodweather.bsky.social",
+        "text": "Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (2/2)",
+        "created_at": "2026-11-20T17:00:22.493077+00:00",
+        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3n2r2r2coi32n",
+        "mapped_location": "Myrtle Av",
+        "precision_level": "address",
+        "location_text": "Myrtle Av",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3n2r2rtsmhi2i",
+        "handle": "brooklynbriefly.bsky.social",
+        "text": "Queens International Food Expo runs Dec 7 at New York Hall of Science, offering unlimited bites from ~40 Queens restaurants for $75 early-bird before Nov 22.\n",
+        "created_at": "2026-11-20T17:00:49.193Z",
+        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3n2r2rtsmhi2i",
+        "mapped_location": "New York Hall of Science",
+        "precision_level": "address",
+        "location_text": "New York Hall of Science",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chrnwu7dgtrbnqjboekecqrg/app.bsky.feed.post/3n2r2s6mwxe2j",
+        "handle": "asia.nikkei.com",
+        "text": "Sushiro opens in New York's Times Square, hoping $5 sushi will make a splash\nhttps://asia.nikkei.com/business/food-beverage/sushiro-opens-in-new-york-s-times-square-hoping-5-sushi-will-make-a-splash",
+        "created_at": "2026-11-20T17:01:00.625Z",
+        "source": "https://bsky.app/profile/asia.nikkei.com/post/3n2r2s6mwxe2j",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "New York's",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "New York's Times Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:chrnwu7dgtrbnqjboekecqrg/app.bsky.feed.post/3n2r2s6mwxe2j",
+        "handle": "asia.nikkei.com",
+        "text": "Sushiro opens in New York's Times Square, hoping $5 sushi will make a splash\nhttps://asia.nikkei.com/business/food-beverage/sushiro-opens-in-new-york-s-times-square-hoping-5-sushi-will-make-a-splash",
+        "created_at": "2026-11-20T17:01:00.625Z",
+        "source": "https://bsky.app/profile/asia.nikkei.com/post/3n2r2s6mwxe2j",
+        "mapped_location": "New York's Times Square",
+        "precision_level": "address",
+        "location_text": "New York's Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9,
+        "other_locations": "New York's"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:kw6nwhkguyj2lxczj7wimlnu/app.bsky.feed.post/3n2r2sdvdpp2q",
+        "handle": "londonfoodbriefly.bsky.social",
+        "text": "Queens International Food Expo runs Dec 7 at New York Hall of Science, offering unlimited bites from ~40 Queens restaurants for $75 early-bird before Nov 22.\n",
+        "created_at": "2026-11-20T17:01:05.921Z",
+        "source": "https://bsky.app/profile/londonfoodbriefly.bsky.social/post/3n2r2sdvdpp2q",
+        "mapped_location": "New York Hall of Science",
+        "precision_level": "address",
+        "location_text": "New York Hall of Science",
         "confidence": 0.44,
         "address_type": "",
         "provenance": "llm_resolve",

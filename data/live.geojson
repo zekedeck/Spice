@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-21T04:06:14.474025Z",
-    "total_pins": 31
+    "generated_at": "2026-11-21T12:33:36.568346Z",
+    "total_pins": 34
   },
   "features": [
     {
@@ -784,6 +784,81 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963,
+          40.669
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ahobngex7kzzr74uzycpydly/app.bsky.feed.post/3n2t3zilfs22u",
+        "handle": "mathersfoundation.bsky.social",
+        "text": "Frankclarkeara After Midnight at Brooklyn Botanic Garden 🌿\n\n#orchids #orquídeas #nature #conservation",
+        "created_at": "2026-11-21T12:28:19.167Z",
+        "source": "https://bsky.app/profile/mathersfoundation.bsky.social/post/3n2t3zilfs22u",
+        "mapped_location": "Brooklyn Botanic Garden",
+        "precision_level": "address",
+        "location_text": "Brooklyn Botanic Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:3jzzo6hmmvzvaof45fci5uxw/app.bsky.feed.post/3n2t42ijrmc2r",
+        "handle": "porterkrodgers.bsky.social",
+        "text": "Colleen Dewhurst in a Times Square bodega AND a buttered bagel? That’s a score to build a dream on!",
+        "created_at": "2026-11-21T12:28:52.668Z",
+        "source": "https://bsky.app/profile/porterkrodgers.bsky.social/post/3n2t42ijrmc2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:c3pmwesotlcekpji44kafxvg/app.bsky.feed.post/3n2t4ayx2m22o",
+        "handle": "gaugedb.com",
+        "text": "Marvel Rivals’ anniversary check-in offers up to 1,900 free Units. Log in and visit Galacta Bot in Times Square by 11 December at 09:00 UTC. No extra missions required.\n\ngaugedb.com/app/2767030/...",
+        "created_at": "2026-11-21T12:32:31.202Z",
+        "source": "https://bsky.app/profile/gaugedb.com/post/3n2t4ayx2m22o",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

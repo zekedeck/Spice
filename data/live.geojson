@@ -1,189 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-22T13:45:00.802529Z",
-    "total_pins": 26
+    "generated_at": "2026-11-22T20:36:51.510326Z",
+    "total_pins": 22
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.693
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qcqcnzo7ue62umtq5qeefked/app.bsky.feed.post/3n2r2pglrk22h",
-        "handle": "foldedsunset.bsky.social",
-        "text": "That B62 … Got to the bus stop at Manhattan/Greenpoint earlier this week, & the nearest bus heading our way was all the way back at Park & Ryerson.",
-        "created_at": "2026-11-20T16:59:28.309Z",
-        "source": "https://bsky.app/profile/foldedsunset.bsky.social/post/3n2r2pglrk22h",
-        "mapped_location": "Manhattan/Greenpoint",
-        "precision_level": "address",
-        "location_text": "Manhattan/Greenpoint",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Park & Ryerson"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.945,
-          40.706
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:qcqcnzo7ue62umtq5qeefked/app.bsky.feed.post/3n2r2pglrk22h",
-        "handle": "foldedsunset.bsky.social",
-        "text": "That B62 … Got to the bus stop at Manhattan/Greenpoint earlier this week, & the nearest bus heading our way was all the way back at Park & Ryerson.",
-        "created_at": "2026-11-20T16:59:28.309Z",
-        "source": "https://bsky.app/profile/foldedsunset.bsky.social/post/3n2r2pglrk22h",
-        "mapped_location": "Park & Ryerson",
-        "precision_level": "address",
-        "location_text": "Park & Ryerson",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "Manhattan/Greenpoint"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.987,
-          40.715
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:nyykgkrfw23j4ow2lo52eig4/app.bsky.feed.post/3n2r2r2coi32n",
-        "handle": "ridgewoodweather.bsky.social",
-        "text": "Myrtle Av (Broadway) and Delancey St-Essex St. All trains at Myrtle Av (Broadway) board from the Manhattan-bound platform... (2/2)",
-        "created_at": "2026-11-20T17:00:22.493077+00:00",
-        "source": "https://bsky.app/profile/ridgewoodweather.bsky.social/post/3n2r2r2coi32n",
-        "mapped_location": "Myrtle Av",
-        "precision_level": "address",
-        "location_text": "Myrtle Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:5b52j7bfya4heoo2yodrdvjq/app.bsky.feed.post/3n2r2rtsmhi2i",
-        "handle": "brooklynbriefly.bsky.social",
-        "text": "Queens International Food Expo runs Dec 7 at New York Hall of Science, offering unlimited bites from ~40 Queens restaurants for $75 early-bird before Nov 22.\n",
-        "created_at": "2026-11-20T17:00:49.193Z",
-        "source": "https://bsky.app/profile/brooklynbriefly.bsky.social/post/3n2r2rtsmhi2i",
-        "mapped_location": "New York Hall of Science",
-        "precision_level": "address",
-        "location_text": "New York Hall of Science",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:chrnwu7dgtrbnqjboekecqrg/app.bsky.feed.post/3n2r2s6mwxe2j",
-        "handle": "asia.nikkei.com",
-        "text": "Sushiro opens in New York's Times Square, hoping $5 sushi will make a splash\nhttps://asia.nikkei.com/business/food-beverage/sushiro-opens-in-new-york-s-times-square-hoping-5-sushi-will-make-a-splash",
-        "created_at": "2026-11-20T17:01:00.625Z",
-        "source": "https://bsky.app/profile/asia.nikkei.com/post/3n2r2s6mwxe2j",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "New York's",
-        "confidence": 0.49,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.3,
-        "other_locations": "New York's Times Square"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:chrnwu7dgtrbnqjboekecqrg/app.bsky.feed.post/3n2r2s6mwxe2j",
-        "handle": "asia.nikkei.com",
-        "text": "Sushiro opens in New York's Times Square, hoping $5 sushi will make a splash\nhttps://asia.nikkei.com/business/food-beverage/sushiro-opens-in-new-york-s-times-square-hoping-5-sushi-will-make-a-splash",
-        "created_at": "2026-11-20T17:01:00.625Z",
-        "source": "https://bsky.app/profile/asia.nikkei.com/post/3n2r2s6mwxe2j",
-        "mapped_location": "New York's Times Square",
-        "precision_level": "address",
-        "location_text": "New York's Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9,
-        "other_locations": "New York's"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.983,
-          40.749
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:kw6nwhkguyj2lxczj7wimlnu/app.bsky.feed.post/3n2r2sdvdpp2q",
-        "handle": "londonfoodbriefly.bsky.social",
-        "text": "Queens International Food Expo runs Dec 7 at New York Hall of Science, offering unlimited bites from ~40 Queens restaurants for $75 early-bird before Nov 22.\n",
-        "created_at": "2026-11-20T17:01:05.921Z",
-        "source": "https://bsky.app/profile/londonfoodbriefly.bsky.social/post/3n2r2sdvdpp2q",
-        "mapped_location": "New York Hall of Science",
-        "precision_level": "address",
-        "location_text": "New York Hall of Science",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -654,6 +475,81 @@
         "location_text": "NYC",
         "confidence": 0.43,
         "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n2whhfptom2y",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 3:29 PM: Developing: Stabbing / knife in Chelsea, Manhattan + 3 More\n\nMTA Transit radio reported a stabbing at West 18 Street and 7th Avenue in Chelsea, Manhattan, at…\n\nRead the full story → https://nycinfocus.com/2026/11/22/nyc-right-now-nov-22-2026-3-29-pm/",
+        "created_at": "2026-11-22T20:30:56Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n2whhfptom2y",
+        "mapped_location": "West 18 Street and 7th Avenue",
+        "precision_level": "address",
+        "location_text": "West 18 Street and 7th Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3n2whhuf2gb42",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "Coney Island-Stillwell Av-bound Q trains are running with delays after we moved a train that had its brakes activated at Avenue M.\n\nFor latest updates, visit new.mta.info/agency/new-y… and mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-22T20:31:09.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3n2whhuf2gb42",
+        "mapped_location": "Avenue M.",
+        "precision_level": "address",
+        "location_text": "Avenue M.",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2374679,
+          40.5961103
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tigofpfef2naijvyxzccryad/app.bsky.feed.post/3n2whiutrsc25",
+        "handle": "narako.bsky.social",
+        "text": "Early days of Trump II were brutal, but I saw a ray of hope as early as in April 2025 in Musk’s failed attempt at WI Supreme Court. Off-year elections in November (NJ, VA, NYC) were clear rebukes of MAGA extremism. MN and Iran really helped the momentum going.",
+        "created_at": "2026-11-22T20:31:45.717Z",
+        "source": "https://bsky.app/profile/narako.bsky.social/post/3n2whiutrsc25",
+        "mapped_location": "New Jersey, West Carteret, Carteret, Middlesex County, New Jersey, 07008, United States",
+        "precision_level": "unclassified",
+        "location_text": "NJ",
+        "confidence": 0.58,
+        "address_type": "residential",
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1

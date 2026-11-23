@@ -1,8 +1,84 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-23T09:13:14.949966Z",
-    "total_pins": 0
+    "generated_at": "2026-11-23T21:33:21.729092Z",
+    "total_pins": 3
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.675
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:dfnzzphidrasmdw4abfxjcvb/app.bsky.feed.post/3n2z36qp5r222",
+        "handle": "philsustainability.bsky.social",
+        "text": "NYC’s property taxes for two homes 465 feet apart in Park Slope:\n• 300 8th St #2A (1,100 sq ft condo, ~$1.15M market value): pays $11,935/yr\n• 355 7th St (3,546 sq ft townhouse, ~$3.89M market value): pays $3,867/yr\nThe small condo pays $8,068 MORE than a 3,500+ sq ft mansion worth over 3x as much.",
+        "created_at": "2026-11-23T21:29:20.140Z",
+        "source": "https://bsky.app/profile/philsustainability.bsky.social/post/3n2z36qp5r222",
+        "mapped_location": "Park Slope",
+        "precision_level": "address",
+        "location_text": "Park Slope",
+        "confidence": 0.5,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993,
+          40.751
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:74bwgo5ufrrfo35nla5nv3x3/app.bsky.feed.post/3n2z3bvgbfs2j",
+        "handle": "70sweekly.bsky.social",
+        "text": "Rollvember 23-24, 1972 Madison Square Garden, New York City, NY",
+        "created_at": "2026-11-23T21:31:05.749Z",
+        "source": "https://bsky.app/profile/70sweekly.bsky.social/post/3n2z3bvgbfs2j",
+        "mapped_location": "1972 Madison Square Garden",
+        "precision_level": "address",
+        "location_text": "1972 Madison Square Garden",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:tei4whkdtrc2l5cadynoh4mz/app.bsky.feed.post/3n2z3eagc6s2r",
+        "handle": "toddgregory.bsky.social",
+        "text": "A Black officer described a precinct in Chelsea as being like “high school with guns.”",
+        "created_at": "2026-11-23T21:32:24.400Z",
+        "source": "https://bsky.app/profile/toddgregory.bsky.social/post/3n2z3eagc6s2r",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    }
+  ]
 }

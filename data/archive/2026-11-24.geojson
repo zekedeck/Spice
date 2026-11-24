@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-24T05:34:49.975245Z",
-    "total_pins": 2
+    "generated_at": "2026-11-24T16:20:56.135306Z",
+    "total_pins": 5
   },
   "features": [
     {
@@ -55,6 +55,81 @@
         "borough_conflict": false,
         "specificity_score": 0.3,
         "other_locations": "West 14 Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:x6cudk5qj4uj77obddyjzpss/app.bsky.feed.post/3n32zzsxs7s2d",
+        "handle": "beachandtreesplz.bsky.social",
+        "text": "🐾❤️‍🩹❤️‍🩹 ‼️longest stay pup! Look at Will's sweet face! He is slipping through the cracks at awful NYCACC and they will kill him. Please repost! Northeast foster needed! \nIn manhattan Nycacc. #foster #adopt #sosdogs #nokillmodelneedednow #pup #doggie",
+        "created_at": "2026-11-24T16:14:00.483Z",
+        "source": "https://bsky.app/profile/beachandtreesplz.bsky.social/post/3n32zzsxs7s2d",
+        "mapped_location": "awful NYCACC",
+        "precision_level": "address",
+        "location_text": "awful NYCACC",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sgw55p54itnxjkvdonfowhdz/app.bsky.feed.post/3n332a5aqyc2v",
+        "handle": "sronmar.bsky.social",
+        "text": "But it shouldn't be, obviously. That's why it sucks.\nEvery time I see Bill Gates I see red. It's the sole reason why I never got an Xbox, especially back then when I walked by Times Square (when it was awesome) just to have it smeared in Bill Gates' diarrhea money.\n\nPlant-based meat, GTFO of here! 👹",
+        "created_at": "2026-11-24T16:17:32.590Z",
+        "source": "https://bsky.app/profile/sronmar.bsky.social/post/3n332a5aqyc2v",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yg3gcsh6uaarz4rofxdgd6zg/app.bsky.feed.post/3n332bdmj322u",
+        "handle": "veronicatess.bsky.social",
+        "text": "So many adjectives to describe him and his cronies. Can't believe he has such a following when a friend I have in NY told me year ago noone in NYC could stand him! They all thought he was obnoxious and arrogant as hell",
+        "created_at": "2026-11-24T16:18:12.820Z",
+        "source": "https://bsky.app/profile/veronicatess.bsky.social/post/3n332bdmj322u",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NY",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

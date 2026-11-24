@@ -1,60 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-23T21:33:21.727527Z",
+    "generated_at": "2026-11-24T05:34:49.970314Z",
     "total_pins": 9
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.876,
-          40.844
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n2ucpyl5d52l",
-        "handle": "howardweiss.bsky.social",
-        "text": "🗞️ New on NYC In Focus: NYC Right Now, 6:59 PM: Developing: Stabbing / knife in Longwood, Bronx + 2 More\n\nNYPD radio reported a stabbing at Hunts Point Av station (6) in Longwood, Bronx, at 6:43 PM. Plus 2…\n\nRead the full story → https://nycinfocus.com/2026/11/21/nyc-right-now-nov-21-2026-6-59-pm/",
-        "created_at": "2026-11-22T00:00:56Z",
-        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n2ucpyl5d52l",
-        "mapped_location": "Hunts Point Av",
-        "precision_level": "address",
-        "location_text": "Hunts Point Av",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.984,
-          40.755
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:3aeer2fsseujtld6k3lazktn/app.bsky.feed.post/3n2ucquprnw22",
-        "handle": "houseintheocean.bsky.social",
-        "text": "VIRGINIA : On a cold December morning in Midtown Manhattan, Rockefeller’s men slowly raised the Special Tree.",
-        "created_at": "2026-11-22T00:01:20.39545100Z",
-        "source": "https://bsky.app/profile/houseintheocean.bsky.social/post/3n2ucquprnw22",
-        "mapped_location": "Midtown Manhattan",
-        "precision_level": "address",
-        "location_text": "Midtown Manhattan",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -228,6 +178,58 @@
         "provenance": "llm_accept",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.741
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n2zw3jft7a2t",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 12:29 AM: Robbery reported, then called off in Chelsea, Manhattan\n\nMTA Transit radio reported a robbery at West 14 Street and 7th Avenue in Chelsea, Manhattan, at…\n\nRead the full story → https://nycinfocus.com/2026/11/24/nyc-right-now-nov-24-2026-12-29-am/",
+        "created_at": "2026-11-24T05:30:42Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n2zw3jft7a2t",
+        "mapped_location": "West 14 Street",
+        "precision_level": "address",
+        "location_text": "West 14 Street",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "West 14 Street and 7th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004,
+          40.745
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n2zw3jft7a2t",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 12:29 AM: Robbery reported, then called off in Chelsea, Manhattan\n\nMTA Transit radio reported a robbery at West 14 Street and 7th Avenue in Chelsea, Manhattan, at…\n\nRead the full story → https://nycinfocus.com/2026/11/24/nyc-right-now-nov-24-2026-12-29-am/",
+        "created_at": "2026-11-24T05:30:42Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n2zw3jft7a2t",
+        "mapped_location": "West 14 Street and 7th Avenue",
+        "precision_level": "address",
+        "location_text": "West 14 Street and 7th Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "West 14 Street"
       }
     }
   ]

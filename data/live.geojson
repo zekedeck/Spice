@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-25T09:43:46.568893Z",
-    "total_pins": 9
+    "generated_at": "2026-11-25T19:43:56.701525Z",
+    "total_pins": 11
   },
   "features": [
     {
@@ -230,6 +230,56 @@
         "provenance": "llm_accept",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:q2zwowdb7yznbzhbqeqi75qq/app.bsky.feed.post/3n35vzq6d4s22",
+        "handle": "larwoolf.bsky.social",
+        "text": "James Dean, Times Square, New York City,\nPhoto by Dennis Stock, 1955",
+        "created_at": "2026-11-25T19:40:21.791Z",
+        "source": "https://bsky.app/profile/larwoolf.bsky.social/post/3n35vzq6d4s22",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991,
+          40.736
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nyiq4u3hwyyggtflpappqizi/app.bsky.feed.post/3n35w3l4do224",
+        "handle": "hotchka-nyc.bsky.social",
+        "text": "NEW YORK CITY ADVANCE SCREENINGS - VIOLENT NIGHT 2\nWednesday, December 2, 7:00 PM at Regal Union Square.\nQuantities are limited! Seating is first come, first served.\n\nhotchka.com/violent-nigh...\n\n#ViolentNight2 #UniversalPictures #AdvanceScreening #Movies #Film #Cinema #Free #NewYorkCity",
+        "created_at": "2026-11-25T19:41:23.599Z",
+        "source": "https://bsky.app/profile/hotchka-nyc.bsky.social/post/3n35w3l4do224",
+        "mapped_location": "Regal Union Square",
+        "precision_level": "address",
+        "location_text": "Regal Union Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]

@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-26T11:31:43.637358Z",
+    "generated_at": "2026-11-26T20:31:53.518450Z",
     "total_pins": 10
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.748
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:x6cudk5qj4uj77obddyjzpss/app.bsky.feed.post/3n32zzsxs7s2d",
-        "handle": "beachandtreesplz.bsky.social",
-        "text": "🐾❤️‍🩹❤️‍🩹 ‼️longest stay pup! Look at Will's sweet face! He is slipping through the cracks at awful NYCACC and they will kill him. Please repost! Northeast foster needed! \nIn manhattan Nycacc. #foster #adopt #sosdogs #nokillmodelneedednow #pup #doggie",
-        "created_at": "2026-11-24T16:14:00.483Z",
-        "source": "https://bsky.app/profile/beachandtreesplz.bsky.social/post/3n32zzsxs7s2d",
-        "mapped_location": "awful NYCACC",
-        "precision_level": "address",
-        "location_text": "awful NYCACC",
-        "confidence": 0.44,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986,
-          40.758
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:sgw55p54itnxjkvdonfowhdz/app.bsky.feed.post/3n332a5aqyc2v",
-        "handle": "sronmar.bsky.social",
-        "text": "But it shouldn't be, obviously. That's why it sucks.\nEvery time I see Bill Gates I see red. It's the sole reason why I never got an Xbox, especially back then when I walked by Times Square (when it was awesome) just to have it smeared in Bill Gates' diarrhea money.\n\nPlant-based meat, GTFO of here! 👹",
-        "created_at": "2026-11-24T16:17:32.590Z",
-        "source": "https://bsky.app/profile/sronmar.bsky.social/post/3n332a5aqyc2v",
-        "mapped_location": "Times Square",
-        "precision_level": "address",
-        "location_text": "Times Square",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0060152,
-          40.7127281
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:yg3gcsh6uaarz4rofxdgd6zg/app.bsky.feed.post/3n332bdmj322u",
-        "handle": "veronicatess.bsky.social",
-        "text": "So many adjectives to describe him and his cronies. Can't believe he has such a following when a friend I have in NY told me year ago noone in NYC could stand him! They all thought he was obnoxious and arrogant as hell",
-        "created_at": "2026-11-24T16:18:12.820Z",
-        "source": "https://bsky.app/profile/veronicatess.bsky.social/post/3n332bdmj322u",
-        "mapped_location": "New York, United States",
-        "precision_level": "state",
-        "location_text": "NY",
-        "confidence": 0.43,
-        "address_type": "administrative",
-        "provenance": "llm_query",
-        "borough_conflict": false,
-        "specificity_score": 0.1
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -253,6 +178,81 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981,
+          40.777
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:e6w4tri2jynofj5svyhfxqn3/app.bsky.feed.post/3n3aj36btk22b",
+        "handle": "replaye.bsky.social",
+        "text": "Trump takes Thanksgiving swipe at New York Times reporter: ‘Lowlife’ \nreplaye.com/trump-takes-...\n\n#News #Trump #DonaldTrump #DavidSanger #LowLife",
+        "created_at": "2026-11-26T20:26:30.721Z",
+        "source": "https://bsky.app/profile/replaye.bsky.social/post/3n3aj36btk22b",
+        "mapped_location": "New York Times",
+        "precision_level": "address",
+        "location_text": "New York Times",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9803178,
+          40.748337
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:sgtmbqwyilupjiz6g3nlchuk/app.bsky.feed.post/3n3aj5hcym22s",
+        "handle": "yuuiko7.bsky.social",
+        "text": "$58M penthouse flip in under a year — billionaire-to-billionaire real estate at its finest.\n\n- Ken Griffin sells his 8,500 sq ft Park Avenue penthouse for $58M\n- Bought it from Julia Koch for $45M in 2025 — $13M gain\n- Buyer: New York Jets owner Woody Johnson",
+        "created_at": "2026-11-26T20:27:47.304Z",
+        "source": "https://bsky.app/profile/yuuiko7.bsky.social/post/3n3aj5hcym22s",
+        "mapped_location": "Park Avenue, Murray Hill, Manhattan Community Board 6, Manhattan, New York County, New York, 10016, United States",
+        "precision_level": "unclassified",
+        "location_text": "ft Park Avenue",
+        "confidence": 0.64,
+        "address_type": "primary",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:aaup6lbmazopqqpo72p67255/app.bsky.feed.post/3n3ajdlgvpc23",
+        "handle": "sabrinajade15.bsky.social",
+        "text": "Wowza! Insane weather in NYC today... I had the brilliant idea of walking the store...won't be doing that again lol",
+        "created_at": "2026-11-26T20:31:12.948Z",
+        "source": "https://bsky.app/profile/sabrinajade15.bsky.social/post/3n3ajdlgvpc23",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
       }
     }
   ]

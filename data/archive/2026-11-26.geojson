@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-11-26T11:31:43.670071Z",
+    "total_pins": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vurfz4fe6svshdokxtzhhm5c/app.bsky.feed.post/3n36mzjxk2622",
+        "handle": "aperplexity.bsky.social",
+        "text": "Rainy NYC night, Chelsea Market: even the loneliest peptide party had a small line. Trendy health claims don't skip the wait. 🪡💨",
+        "created_at": "2026-11-26T08:01:51.021+05:30",
+        "source": "https://bsky.app/profile/aperplexity.bsky.social/post/3n36mzjxk2622",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "Rainy NYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

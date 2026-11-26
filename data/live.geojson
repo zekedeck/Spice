@@ -1,85 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-25T19:43:56.701525Z",
-    "total_pins": 11
+    "generated_at": "2026-11-26T02:35:14.202625Z",
+    "total_pins": 12
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.957,
-          40.675
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:dfnzzphidrasmdw4abfxjcvb/app.bsky.feed.post/3n2z36qp5r222",
-        "handle": "philsustainability.bsky.social",
-        "text": "NYC’s property taxes for two homes 465 feet apart in Park Slope:\n• 300 8th St #2A (1,100 sq ft condo, ~$1.15M market value): pays $11,935/yr\n• 355 7th St (3,546 sq ft townhouse, ~$3.89M market value): pays $3,867/yr\nThe small condo pays $8,068 MORE than a 3,500+ sq ft mansion worth over 3x as much.",
-        "created_at": "2026-11-23T21:29:20.140Z",
-        "source": "https://bsky.app/profile/philsustainability.bsky.social/post/3n2z36qp5r222",
-        "mapped_location": "Park Slope",
-        "precision_level": "address",
-        "location_text": "Park Slope",
-        "confidence": 0.5,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993,
-          40.751
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:74bwgo5ufrrfo35nla5nv3x3/app.bsky.feed.post/3n2z3bvgbfs2j",
-        "handle": "70sweekly.bsky.social",
-        "text": "Rollvember 23-24, 1972 Madison Square Garden, New York City, NY",
-        "created_at": "2026-11-23T21:31:05.749Z",
-        "source": "https://bsky.app/profile/70sweekly.bsky.social/post/3n2z3bvgbfs2j",
-        "mapped_location": "1972 Madison Square Garden",
-        "precision_level": "address",
-        "location_text": "1972 Madison Square Garden",
-        "confidence": 0.62,
-        "address_type": "",
-        "provenance": "llm_resolve",
-        "borough_conflict": false,
-        "specificity_score": 0.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0015283,
-          40.7464906
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:tei4whkdtrc2l5cadynoh4mz/app.bsky.feed.post/3n2z3eagc6s2r",
-        "handle": "toddgregory.bsky.social",
-        "text": "A Black officer described a precinct in Chelsea as being like “high school with guns.”",
-        "created_at": "2026-11-23T21:32:24.400Z",
-        "source": "https://bsky.app/profile/toddgregory.bsky.social/post/3n2z3eagc6s2r",
-        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
-        "precision_level": "city",
-        "location_text": "Chelsea",
-        "confidence": 0.85,
-        "address_type": "neighbourhood",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -280,6 +205,106 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97,
+          40.8
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vi53pbqfkjflc2bn2nushkhj/app.bsky.feed.post/3n36mzudyjc2c",
+        "handle": "newyorktopnews.bsky.social",
+        "text": "A woman  (26) who reported being randomly #stabbed by a stranger in #Manhattan’s Riverside Park allegedly fabricated the story. NYPD says she admitted to stabbing herself, and surveillance footage showed her purchasing the knife beforehand. Her motive remains unclear.\n\ngothamist.com/news/woman-a...",
+        "created_at": "2026-11-26T02:32:02.241Z",
+        "source": "https://bsky.app/profile/newyorktopnews.bsky.social/post/3n36mzudyjc2c",
+        "mapped_location": "#Manhattan’s Riverside Park",
+        "precision_level": "address",
+        "location_text": "#Manhattan’s Riverside Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:lw7vkldiniqfpr5nm6iom6ua/app.bsky.feed.post/3n36n4mfsgs24",
+        "handle": "wastingtimewbravo.bsky.social",
+        "text": "Dude! Wtf is happening in NYC tomorrow",
+        "created_at": "2026-11-26T02:33:34.576Z",
+        "source": "https://bsky.app/profile/wastingtimewbravo.bsky.social/post/3n36n4mfsgs24",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "NYC",
+        "confidence": 0.43,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8302011,
+          40.8819588
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:yxc3dkfju2xq7ezonnkwclsm/app.bsky.feed.post/3n36n6dn36c2x",
+        "handle": "callmedownsie.bsky.social",
+        "text": "I already have the fireworks.\nYou'll see them in New York.\nI'm in Liverpool, England.",
+        "created_at": "2026-11-26T02:34:32.486Z",
+        "source": "https://bsky.app/profile/callmedownsie.bsky.social/post/3n36n6dn36c2x",
+        "mapped_location": "New England Thruway, Eastchester, The Bronx, Bronx County, New York, 10475, United States",
+        "precision_level": "unclassified",
+        "location_text": "England",
+        "confidence": 0.595,
+        "address_type": "secondary",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:vurfz4fe6svshdokxtzhhm5c/app.bsky.feed.post/3n36mzjxk2622",
+        "handle": "aperplexity.bsky.social",
+        "text": "Rainy NYC night, Chelsea Market: even the loneliest peptide party had a small line. Trendy health claims don't skip the wait. 🪡💨",
+        "created_at": "2026-11-26T08:01:51.021+05:30",
+        "source": "https://bsky.app/profile/aperplexity.bsky.social/post/3n36mzjxk2622",
+        "mapped_location": "New York, United States",
+        "precision_level": "state",
+        "location_text": "Rainy NYC",
+        "confidence": 0.49,
+        "address_type": "administrative",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

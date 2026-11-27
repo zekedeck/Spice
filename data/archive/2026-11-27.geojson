@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-27T12:27:57.060985Z",
-    "total_pins": 1
+    "generated_at": "2026-11-27T21:39:56.229348Z",
+    "total_pins": 8
   },
   "features": [
     {
@@ -28,6 +28,181 @@
         "provenance": "llm_resolve",
         "borough_conflict": false,
         "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ccqezsr5bu3daqm522s7d3kk/app.bsky.feed.post/3n3d5aesb3s2s",
+        "handle": "craighamilton.bsky.social",
+        "text": "I’m no football expert. I’m just a gobshite like the rest of you. And even a stopped clock, and all that…\n\n..but I did say this back in August about Chelsea and Alonso.",
+        "created_at": "2026-11-27T21:32:39.623Z",
+        "source": "https://bsky.app/profile/craighamilton.bsky.social/post/3n3d5aesb3s2s",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013,
+          40.712
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cvol2hulctq4asvohnun6nus/app.bsky.feed.post/3n3d5ckdacs2l",
+        "handle": "travertin.bsky.social",
+        "text": "Ribbed Steel Arches and Marble Concourse \n📍The Oculus, World Trade Center, New York City\n📷Patrick Sullivan\n#architecture #streetphotography #street #photography #flickr flic.kr/p/2sKJ8oQ",
+        "created_at": "2026-11-27T21:33:52.543Z",
+        "source": "https://bsky.app/profile/travertin.bsky.social/post/3n3d5ckdacs2l",
+        "mapped_location": "The Oculus, World Trade Center, New York City",
+        "precision_level": "address",
+        "location_text": "The Oculus, World Trade Center, New York City",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.748
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:plkct7me6inljknhjyrphjcl/app.bsky.feed.post/3n3d5dokvos24",
+        "handle": "stevewillshan.bsky.social",
+        "text": "Oh interesting. This looks like the same Link render you'd get on the gift bags at Nintendo Store New York. Kind of a hybred design Link, with the OoT pose and the smoother white tights, but the chainmail and details more similar to Twilight Princess Link.",
+        "created_at": "2026-11-27T21:34:30.528Z",
+        "source": "https://bsky.app/profile/stevewillshan.bsky.social/post/3n3d5dokvos24",
+        "mapped_location": "Nintendo Store New York",
+        "precision_level": "address",
+        "location_text": "Nintendo Store New York",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ykwfob2boall5b6synbaylrb/app.bsky.feed.post/3n3d5eai5gs2r",
+        "handle": "enaro47.bsky.social",
+        "text": "I'd want him to do well, but not at Chelsea.",
+        "created_at": "2026-11-27T21:34:49.328Z",
+        "source": "https://bsky.app/profile/enaro47.bsky.social/post/3n3d5eai5gs2r",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:t5mljy3uv6caeya32by7gy26/app.bsky.feed.post/3n3d5kg4o7c2l",
+        "handle": "jackieando.bsky.social",
+        "text": "Hope we don’t go in for Chelsea’s left back 👀",
+        "created_at": "2026-11-27T21:38:16.568Z",
+        "source": "https://bsky.app/profile/jackieando.bsky.social/post/3n3d5kg4o7c2l",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nu5xkdthhkesobdae6icde44/app.bsky.feed.post/3n3d5lvorac24",
+        "handle": "shewithcapitalv.bsky.social",
+        "text": "Thoughts and prayers for Xabi Alonso and his managerial career at Chelsea if the score stays like this .... 😬",
+        "created_at": "2026-11-27T21:39:06.442Z",
+        "source": "https://bsky.app/profile/shewithcapitalv.bsky.social/post/3n3d5lvorac24",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:bn4rh6nklnkd5kzuxeemobam/app.bsky.feed.post/3n3d5mc55bs2d",
+        "handle": "weststandtone.com",
+        "text": "Laugh at Chelsea’s expense?\n\nAlways a joy.",
+        "created_at": "2026-11-27T21:39:19.498Z",
+        "source": "https://bsky.app/profile/weststandtone.com/post/3n3d5mc55bs2d",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
       }
     }
   ]

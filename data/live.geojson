@@ -1,35 +1,10 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-26T20:31:53.518450Z",
+    "generated_at": "2026-11-27T12:27:57.023790Z",
     "total_pins": 10
   },
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0015283,
-          40.7464906
-        ]
-      },
-      "properties": {
-        "post_uri": "at://did:plc:y2yn3uqmnegqvuesvv5tl6uk/app.bsky.feed.post/3n34uo6snt22u",
-        "handle": "movingthrough.bsky.social",
-        "text": "Brady is going to fit right in with the culture at Chelsea.",
-        "created_at": "2026-11-25T09:43:20.997Z",
-        "source": "https://bsky.app/profile/movingthrough.bsky.social/post/3n34uo6snt22u",
-        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
-        "precision_level": "city",
-        "location_text": "Chelsea",
-        "confidence": 0.85,
-        "address_type": "neighbourhood",
-        "provenance": "llm_accept",
-        "borough_conflict": false,
-        "specificity_score": 0.5
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -253,6 +228,31 @@
         "provenance": "llm_query",
         "borough_conflict": false,
         "specificity_score": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987,
+          40.749
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:ndjdmq6yfdkm7psa7ncumn5k/app.bsky.feed.post/3n3c6kdbrcpa2",
+        "handle": "mtaupdates.stefanbohacek.online.ap.brid.gy",
+        "text": "34 St-Hudson Yards-bound 7, 7 express trains are delayed while we remove a train with a mechanical problem from service at Mets-Willets Point.\n\nFor latest updates, visit new.mta.info/agency/new-y… and mta.info. #nyc #mta #subway",
+        "created_at": "2026-11-27T12:23:25.000Z",
+        "source": "https://bsky.app/profile/mtaupdates.stefanbohacek.online.ap.brid.gy/post/3n3c6kdbrcpa2",
+        "mapped_location": "Mets-Willets Point",
+        "precision_level": "address",
+        "location_text": "Mets-Willets Point",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
       }
     }
   ]

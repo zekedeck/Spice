@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-11-28T12:32:12.595655Z",
+    "total_pins": 6
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983,
+          40.764
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rme4bh366dl6y74gedi6dnea/app.bsky.feed.post/3n3epeosces2k",
+        "handle": "ianrandalstrock.bsky.social",
+        "text": "Headed in to the parade! My train stops at 7th Avenue and 57th Street, so I’m expecting to stand somewhere near 7th and Central Park South, if you want to join me. Or if you want to invite me for hot chocolate afterward.\n#thanksgivingdayparade #notquitethanksgivingday #newyorkcity",
+        "created_at": "2026-11-28T12:29:51.428Z",
+        "source": "https://bsky.app/profile/ianrandalstrock.bsky.social/post/3n3epeosces2k",
+        "mapped_location": "7th Avenue",
+        "precision_level": "address",
+        "location_text": "7th Avenue",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "57th Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97745,
+          40.763972
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:rme4bh366dl6y74gedi6dnea/app.bsky.feed.post/3n3epeosces2k",
+        "handle": "ianrandalstrock.bsky.social",
+        "text": "Headed in to the parade! My train stops at 7th Avenue and 57th Street, so I’m expecting to stand somewhere near 7th and Central Park South, if you want to join me. Or if you want to invite me for hot chocolate afterward.\n#thanksgivingdayparade #notquitethanksgivingday #newyorkcity",
+        "created_at": "2026-11-28T12:29:51.428Z",
+        "source": "https://bsky.app/profile/ianrandalstrock.bsky.social/post/3n3epeosces2k",
+        "mapped_location": "57th Street, 6th Avenue, Midtown East, Manhattan Community Board 5, Manhattan, New York County, New York, 10105, United States",
+        "precision_level": "unclassified",
+        "location_text": "57th Street",
+        "confidence": 0.64,
+        "address_type": "station",
+        "provenance": "llm_query",
+        "borough_conflict": false,
+        "specificity_score": 0.3,
+        "other_locations": "7th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0015283,
+          40.7464906
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:nwe65ofg6hl6tljolndoo73s/app.bsky.feed.post/3n3epf5fqf22u",
+        "handle": "brian55.bsky.social",
+        "text": "Thanks Pupul. The big game final on Sunday. France V Springboks at Twickenham. Hoping for another cracker. To put the situation at Chelsea simply - we are big trouble.",
+        "created_at": "2026-11-28T12:30:06.748Z",
+        "source": "https://bsky.app/profile/brian55.bsky.social/post/3n3epf5fqf22u",
+        "mapped_location": "Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, United States",
+        "precision_level": "city",
+        "location_text": "Chelsea",
+        "confidence": 0.85,
+        "address_type": "neighbourhood",
+        "provenance": "llm_accept",
+        "borough_conflict": false,
+        "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957,
+          40.683
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:wme7jrnbtbfzsurmutdxpmnw/app.bsky.feed.post/3n3epgdjcpc24",
+        "handle": "howardweiss.bsky.social",
+        "text": "🗞️ New on NYC In Focus: NYC Right Now, 7:29 AM: Developing: Stabbing / knife in Crown Heights, Brooklyn\n\nNYPD radio reported a stabbing at 600 block of Eastern Parkway in Crown Heights, Brooklyn, at 7:00 AM.…\n\nRead the full story → https://nycinfocus.com/2026/11/28/nyc-right-now-nov-28-2026-7-29-am/",
+        "created_at": "2026-11-28T12:30:46Z",
+        "source": "https://bsky.app/profile/howardweiss.bsky.social/post/3n3epgdjcpc24",
+        "mapped_location": "Eastern Parkway",
+        "precision_level": "address",
+        "location_text": "Eastern Parkway",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969,
+          40.66
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jvhf36loasspmffobuyfpopz/app.bsky.feed.post/3n3epgqwgmc2m",
+        "handle": "mtaalerts.bsky.social",
+        "text": "[FS] trains are delayed in both directions while we address a signal problem at Prospect Park.",
+        "created_at": "2026-11-28T12:31:00.688Z",
+        "source": "https://bsky.app/profile/mtaalerts.bsky.social/post/3n3epgqwgmc2m",
+        "mapped_location": "Prospect Park",
+        "precision_level": "address",
+        "location_text": "Prospect Park",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011,
+          40.708
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:fvy4qwactxcdqukohrpnmnyw/app.bsky.feed.post/3n3ephe66cc24",
+        "handle": "jumptotheleft.bsky.social",
+        "text": "Tell me you didn’t work or live in lower Manhattan in 2001, without telling me.",
+        "created_at": "2026-11-28T12:31:20.948Z",
+        "source": "https://bsky.app/profile/jumptotheleft.bsky.social/post/3n3ephe66cc24",
+        "mapped_location": "lower Manhattan",
+        "precision_level": "address",
+        "location_text": "lower Manhattan",
+        "confidence": 0.44,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.3
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-11-27T21:39:56.229348Z",
-    "total_pins": 8
+    "generated_at": "2026-11-28T03:40:01.113747Z",
+    "total_pins": 10
   },
   "features": [
     {
@@ -203,6 +203,56 @@
         "provenance": "llm_accept",
         "borough_conflict": false,
         "specificity_score": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:cogtv3hfctb6jcnyln46d4fc/app.bsky.feed.post/3n3drkmxcsk2d",
+        "handle": "squillium.bsky.social",
+        "text": "Humans were not meant to have the amount of stimulation Times Square gives you",
+        "created_at": "2026-11-28T03:36:18.570Z",
+        "source": "https://bsky.app/profile/squillium.bsky.social/post/3n3drkmxcsk2d",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986,
+          40.758
+        ]
+      },
+      "properties": {
+        "post_uri": "at://did:plc:jwmsdf2qzypczby55tdlxkbk/app.bsky.feed.post/3n3drlpcphs2r",
+        "handle": "jackiegardens.bsky.social",
+        "text": "This should be posted on billboards across the country and in Times Square",
+        "created_at": "2026-11-28T03:36:54.596Z",
+        "source": "https://bsky.app/profile/jackiegardens.bsky.social/post/3n3drlpcphs2r",
+        "mapped_location": "Times Square",
+        "precision_level": "address",
+        "location_text": "Times Square",
+        "confidence": 0.62,
+        "address_type": "",
+        "provenance": "llm_resolve",
+        "borough_conflict": false,
+        "specificity_score": 0.9
       }
     }
   ]
